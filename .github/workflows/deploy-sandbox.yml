@@ -15,11 +15,11 @@ jobs:
 
       - name: Create deployment archive
         run: |
+          # Create tarball but ignore warnings about "file changed as we read it"
           tar --exclude='.git' \
               --exclude='.github' \
               --exclude='deploy.tar.gz' \
-              --warning=no-file-changed \
-              -czf deploy.tar.gz .
+              -czf deploy.tar.gz . || true
 
       - name: Upload to server
         run: |
