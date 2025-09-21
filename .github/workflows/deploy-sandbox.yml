@@ -1,29 +1,30 @@
-name: Deploy to Sandbox
+name: Deploy Sandbox
 
 on:
   push:
-    branches: [ sandbox ]
+    branches:
+      - sandbox
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      - name: Add server to known_hosts
+      - name: Prepare deployment archive
         run: |
-          mkdir -p ~/.ssh
-          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
-          chmod 644 ~/.ssh/known_hosts
+          tar --exclude='.git' --exclude='.github' -czf deploy.tar.gz .
 
-      - name: Start ssh-agent with private key
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
-      - name: Deploy files with scp
+      - name: Copy archive to server
         run: |
-          scp -r -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
-            ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/rvco/sandbox
+          scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+            deploy.tar.gz \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/rvco/sandbox/
+
+      - name: Extract on server
+        run: |
+          ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+            "cd /home/rvco/sandbox && tar -xzf deploy.tar.gz && rm deploy.tar.gz"
