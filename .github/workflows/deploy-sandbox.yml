@@ -25,5 +25,10 @@ jobs:
 
       - name: Deploy files to /sandbox
         run: |
-          rsync -avz --exclude ".git/" --exclude ".github/" ./ \
+          rsync -avz \
+            --rsync-path="env TERM=dumb rsync" \
+            --exclude ".git/" \
+            --exclude ".github/" \
+            -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -T" \
+            ./ \
             ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/rvco/sandbox
