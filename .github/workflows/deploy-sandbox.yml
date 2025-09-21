@@ -13,9 +13,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
       - name: Create deployment archive
         run: |
-          # Create tarball but ignore warnings about "file changed as we read it"
           tar --exclude='.git' \
               --exclude='.github' \
               --exclude='deploy.tar.gz' \
@@ -23,12 +29,14 @@ jobs:
 
       - name: Upload to server
         run: |
-          scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+          scp -i ~/.ssh/id_ed25519 \
+              -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
               deploy.tar.gz \
               ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/rvco/sandbox/
 
       - name: Extract on server
         run: |
-          ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+          ssh -i ~/.ssh/id_ed25519 \
+              -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
               ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
               "cd /home/rvco/sandbox && tar -xzf deploy.tar.gz && rm deploy.tar.gz"
