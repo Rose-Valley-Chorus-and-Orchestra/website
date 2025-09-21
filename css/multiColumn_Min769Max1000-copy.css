@@ -1,0 +1,291 @@
+@charset "UTF-8";
+/*      *********     custom for 769 < WIDTH < 1001px      *********     */
+/*      *********     custom for 769 < WIDTH < 1001px      *********     */
+/*      *********     custom for 769 < WIDTH < 1001px      *********     */
+/*      *********     custom for 769 < WIDTH < 1001px      *********     */
+/*      *********     custom for 769 < WIDTH < 1001px      *********     */
+@media (min-width: 769px) and (max-width: 1000px) {
+     
+/*           begin Bill custom for 769 < WIDTH < 1001px           */
+#masthead{
+	margin: 0;
+	padding: 10px 0px;
+	border-bottom: 1px solid  #333;
+	width: 100%;
+	background-color: #FCFCFC;
+     height:120px;
+ }
+#facebook_youtube {
+	width: 20%;
+	float: right;
+	font-size: 6px;
+	padding: 0px 0px 0px 35px;
+	border-left: dotted grey thin;
+	line-height: 100%;
+     margin-right: 10px;
+     }
+.face_tube_text {
+	visibility: hidden;
+     font-size: 2px;
+	}
+.face_tube_img {
+	height: 30px;
+	padding: 0px
+	}
+ .face_tube_img img {
+	height: 30px;
+	padding: 0px
+	}
+#facebook_youtube a:link, #facebook_youtube a:visited, #facebook_youtube a:hover {
+	color: #4C588D;
+	text-decoration: none; }
+.face_tube {
+	text-indent: -25px;
+}
+.face_tube:first-line {
+    text-indent: -20px;
+}
+#facebook_youtube a:hover {
+	text-decoration: underline; 
+     }
+#siteName {
+	font-size: 40px;
+	padding: 0px 0px 0px 10px;
+}
+#menu {
+	font-size: 18px;
+}
+.current_headerA {font-size: 36px;}
+.current_headerB {font-size: 36px;}
+.a_sub {font-size: 24px;}
+.coming_headerA {font-size: 36px;}
+.coming_headerB {font-size: 36px;clear:left;}
+     
+.secondary_header {
+	overflow: auto;
+     margin: 0px;
+     padding-right: 5px;
+     padding-left: 5px;
+	padding-top: 15px;
+	padding-bottom: 120px;
+}
+.secondary_header ul li {
+	margin-right: 7%;
+	margin-bottom: 0px;
+	display: inline;
+	float: none;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 100%;
+     padding: 5px 0px;
+     line-height: 150%;
+}
+.secondary_header ul li a.active {
+	background-color:aquamarine;
+}
+.container .secondary_header ul {
+     margin: 100px;
+     padding: 100px;
+     height: auto;
+     width: 50%;
+     text-align: center;
+     list-style-type: none;
+}
+.show_image {
+	margin: 15px;
+	}
+.current_show_img, .next_show_img  {
+	max-width: 500px;
+	display: block;
+     margin-left: auto;
+     margin-right: auto;
+	}
+.show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
+     text-align: center;
+     line-height: 150%;
+     padding: 15px 0px;
+}
+
+.show_authors {
+    padding-top: 25px;
+}     
+h3 {font-size: 20px;
+}
+.container {font-size: 15px;
+}
+aside .donate {
+     clear: both;
+     margin: 10px 20px 2px;
+	mmmmmmax-width: 400px;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding:25px;
+}
+.donate h4 {
+	color: #A30029;
+	padding: 0 0 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.donate .thanks {padding: 10px;}
+.donate .find {font-weight: bold;
+	padding: 10px;
+	border-top: #CCC solid 1px;
+}
+#a_state {margin-right: 40px;
+}
+#accept_state  {clear: both;
+	width: 95%; 
+	color: #333;
+	padding: 20px 40px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 155%;
+	background-color: #EBCCCC;
+}
+#bottomLinks {
+	line-height: 300%;
+	padding: 0 50px 10px;
+}
+.thumbnail {
+	height: 200px;
+	border-radius: 32px 65px;
+	/*height: 100px;*/
+	margin-left: auto;
+}
+.thumbnail_align {
+	text-align: center;
+}
+#buyShowLink, #ViewShowSynopsis { 
+	font-size: px;
+     margin: 0px 15px;
+     width: 90%;
+}
+#ShowSynopsis {
+    color: #D8D8D8;
+    padding: 0px 5px 10px;
+    text-align: left;
+    margin-left: 0px;
+}
+.buy_tickets_small{
+	font-size: 12px;
+	display: inline-table;
+}
+.tickets {
+	margin-left: 15px;
+}
+.left_article {
+	width: 100%;
+     height: auto;
+}
+.right_article {
+	width:100%;
+     height: auto;
+}
+.placeholder {
+	width: 100%;
+	margin-top: 22PX;
+	max-width: 400px;
+	max-height: 200px;
+	height: auto;
+}
+.columns {
+	clear: both;
+	float: left;
+	width: 300px;
+	margin: 0px;
+	padding: 0px;
+}
+.columns p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.column_half.left_half {
+	width: 100%;
+}
+.column_half.right_half {
+	width: 100%;
+}
+.copyright {
+	padding-top: 15px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.container .left_article h3 {
+	margin-top: 30px;
+}
+.container .secondary_header {
+}
+.social form {
+	width: 250px;
+	clear:none;
+	text-align: center;
+}
+.snippets {
+	width: 200px;
+	margin-left: auto;
+}
+.snippets input {
+	width: 100px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.snippets img {
+	width: 100px;
+}
+.snippets .pixel {
+	width: 1px;
+	height: 1px;
+}
+.social {
+	text-align: center;
+	width: 100%;
+	background-color: #52BAD5;
+	clear: both;
+	overflow: auto;
+}
+.social_icon {
+	width: 100%;
+	text-align: center;
+	float: left;
+	transition: all 0.3s linear;
+	padding-top: 7px;
+	margin: 15px;
+}
+
+/*    FOR MAP ON VENUE PAGE   */
+.g-map iframe {
+	width: 700px;
+	height: 400px;
+	border: 2px solid red
+}
+
+
+#buyShowTickets {jjjujjjjjjjjj
+    visibility: hidden;
+    width: 300px;
+    padding: 0px 5px 10px;
+    height: 0px;
+    clear: both;
+    margin-left: 20px;
+}
+#ViewShowSynopsis {
+    clear: left;
+    float:left;
+    padding: 0px 15px 10px;
+}
+#ShowSynopsis {
+    visibility: hidden;
+    height: 0px;
+    color: #D8D8D8;
+    padding: 0px 20px 10px;
+    text-align: justify;
+    margin-left: 20px;
+}
+}
+/*      *********     custom for WIDTH > 1001px      *********     */
+/*      *********     custom for WIDTH > 1001px      *********     */
+/*      *********     custom for WIDTH > 1001px      *********     */
+/*      *********     custom for WIDTH > 1001px      *********     */
+/*      *********     custom for WIDTH > 1001px      *********     */
+/*      *********     custom for WIDTH > 1001px      *********     */
