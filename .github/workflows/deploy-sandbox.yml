@@ -15,7 +15,8 @@ jobs:
 
       - name: Prepare deployment archive
         run: |
-          tar --exclude='.git' --exclude='.github' -czf deploy.tar.gz .
+          tar --exclude='.git' --exclude='.github' --exclude='deploy.tar.gz' --warning=no-file-changed -czf deploy.tar.gz .
+
 
       - name: Copy archive to server
         run: |
