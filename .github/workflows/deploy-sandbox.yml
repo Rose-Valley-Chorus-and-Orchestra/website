@@ -39,4 +39,9 @@ jobs:
           ssh -i ~/.ssh/id_ed25519 \
               -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
               ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
-              "cd /home/rvco/sandbox && tar -xzf deploy.tar.gz && rm deploy.tar.gz"
+              "cd /home/rvco/sandbox && \
+               echo 'Extracting archive in:' && pwd && \
+               ls -lh deploy.tar.gz && \
+               tar -xvzf deploy.tar.gz && \
+               rm -f deploy.tar.gz && \
+               echo '✅ Extraction complete'"
