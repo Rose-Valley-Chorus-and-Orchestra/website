@@ -11,12 +11,8 @@
 <meta name="keywords" content="The Pirates of Penzance, Me and My Girl, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
 <title>Rose Valley Chorus and Orchestra</title>
 <link rel="shortcut icon" href="images/rvco.ico" />
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">	
-<link href="css/multiColumnTemplate.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
-<link href="css/multiColumn_Max425.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
-<link href="css/multiColumn_Min426Max768.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
-<link href="css/multiColumn_Min769Max1000.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
-<link href="css/multiColumn_Min1001.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="//use.edgefonts.net/calligraffitti;chewy;handlee;indie-flower.js"></script> 
      
 
@@ -27,46 +23,39 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<script type="text/javascript">
-<!--
-function MM_showHideLayers() { //v9.0
-  var i,p,v,obj,args=MM_showHideLayers.arguments;
-  for (i=0; i<(args.length-2); i+=3) 
-  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
-    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
-    obj.visibility=v; }
-}
-function MM_changeProp(objId,x,theProp,theValue) { //v9.0
-  var obj = null; with (document){ if (getElementById)
-  obj = getElementById(objId); }
-  if (obj){
-    if (theValue == true || theValue == false)
-      eval("obj.style."+theProp+"="+theValue);
-    else eval("obj.style."+theProp+"='"+theValue+"'");
-  }
-}
-//-->
-</script>
-    
 </head>
 <body>
-<div class="container">
-  <header>
-    <div class="primary_header">
-		 <?php include("header_new.php"); ?>
-    </div>
-    <nav><div class="secondary_header" id="menu">
-      <ul>
-            <li>HOME</li>
-            <li><a href="AboutUs.php">ABOUT</a></li>
-            <li><a href="Tickets.php">TICKETS</a></li>
-		  <li><a href="Venue.php">VENUE</a></li>
-		  <li><a href="Auditions.php">AUDITIONS</a></li>
-           <li><a href="Contacts.php"><nobr>CONTACT US</nobr></a></li>
-      </ul>
-     </div>
-    </nav>
- </header>
+<div class="container-fluid">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+               <a class="navbar-brand" href="#">Navbar</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                         <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="AboutUs.php">About Us</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="Tickets.php">Tickets</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="Venue.php">Venue</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="Auditions.php">Auditions</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="Contacts.php">Contact Us</a>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </nav>
 
   <section>
     <aside class="first_article">
