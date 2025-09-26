@@ -1,61 +1,64 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<!--<meta http-equiv="Cache-Control" content="no-cache" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="author" content="William Michael">
-<meta name="viewport" content="width=device-width, initial-scale=1">     
-<meta name="description" content="We are a community theater troupe that has been putting on two shows a year with a full orchestra for over 100 years, performance are in the spring and fall" />
-<meta name="keywords" content="The Pirates of Penzance, Me and My Girl, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
-<title>Rose Valley Chorus and Orchestra</title>
-<link rel="shortcut icon" href="images/rvco.ico" />
+     <head>
+          <meta charset="UTF-8">
+          <!--<meta http-equiv="Cache-Control" content="no-cache" />
+          <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> -->
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="author" content="William Michael">
+          <meta name="viewport" content="width=device-width, initial-scale=1">     
+          <meta name="description" content="We are a community theater troupe that has been putting on two shows a year with a full orchestra for over 100 years, performance are in the spring and fall" />
+          <meta name="keywords" content="The Pirates of Penzance, Me and My Girl, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
+          <title>Rose Valley Chorus and Orchestra</title>
+          <link rel="shortcut icon" href="images/rvco.ico" />
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+          <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+          <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+          <!--[if lt IE 9]>
+               <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+               <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
 
-</head>
-<body>
-     <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                         <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                              <li class="nav-item">
-                                   <a class="nav-link active" aria-current="page" href="#">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" aria-current="page" href="AboutUs.php">About Us</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" aria-current="page" href="Tickets.php">Tickets</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" aria-current="page" href="Venue.php">Venue</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" aria-current="page" href="Auditions.php">Auditions</a>
-                              </li>
-                              <li class="nav-item">
-                                   <a class="nav-link" aria-current="page" href="Contacts.php">Contact Us</a>
-                              </li>
-                         </ul>
+     </head>
+     <body>
+          <div class="container-fluid">
+               <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                         <a class="navbar-brand" href="#">
+                              <img src="/images/logo/white RVCO Logo1907 transparent.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                              Rose Valley Chorus & Orchestra
+                         </a>
+                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                         </button>
+                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                   <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="AboutUs.php">About Us</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="Tickets.php">Tickets</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="Venue.php">Venue</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="Auditions.php">Auditions</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="Contacts.php">Contact Us</a>
+                                   </li>
+                              </ul>
+                         </div>
                     </div>
-               </div>
-          </nav>
-     </div>
+               </nav>
+          </div>
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     </body>
 </html>
