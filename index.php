@@ -27,7 +27,7 @@
                <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
                          <a class="navbar-brand" href="#">
-                              <img src="/images/logo/white RVCO Logo1907 transparent.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                              <img src="/images/logo/red RVCO Logo1907 transparent@2x.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
                               Rose Valley Chorus & Orchestra
                          </a>
                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
