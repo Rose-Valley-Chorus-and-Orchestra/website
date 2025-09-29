@@ -13,13 +13,12 @@ html, body {
   height: 100%;
 }
 
-
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;  /* full viewport height */
   font-family: Arial, sans-serif;
-  padding-top: 4.5rem;
+  padding-top: 3.5rem;
 }
 
 /* Header */
@@ -36,9 +35,12 @@ nav a {
   text-decoration: none;
 }
 
+.navbar-nav .nav-link {
+  font-size: clamp(0.85rem, 1vw + 0.5rem, 1.1rem);
+}
+
 /* Main content */
 main {
-  padding-top: 4.5rem; /* keeps carousel below fixed navbar */
   padding-bottom: 4em;  /* prevent content from being hidden under footer */
   background: #f9f9f9;
   height: calc(100vh - 120px); /* adjust if header/footer heights differ */
@@ -117,16 +119,10 @@ footer {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-  margin-top: 4rem;
-}
-/* ===== Carousel Reset & Fixes ===== */
-
 /* Make sure carousel takes full width */
 .carousel {
   width: 100%;
+  margin-bottom: 3rem;
 }
 
 /* Style the images so they never squish */
