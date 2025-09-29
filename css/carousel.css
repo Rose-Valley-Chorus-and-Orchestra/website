@@ -31,6 +31,25 @@ body {
   object-position: center;
 }
 
+/* ===== Responsive Heights ===== */
+@media (max-width: 992px) {   /* tablets */
+  .carousel-item img {
+    height: 24rem;
+  }
+}
+
+@media (max-width: 768px) {   /* small tablets / large phones */
+  .carousel-item img {
+    height: 18rem;
+  }
+}
+
+@media (max-width: 576px) {   /* mobile */
+  .carousel-item img {
+    height: 14rem;
+  }
+}
+
 /* Optional: fullscreen hero look */
 /*
 .carousel-item img {
