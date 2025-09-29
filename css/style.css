@@ -1,3 +1,57 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* full viewport height */
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+nav a {
+  margin: 0 1em;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content */
+main {
+  padding: 2em;
+  padding-bottom: 4em;  /* prevent content from being hidden under footer */
+  background: #f9f9f9;
+  height: calc(100vh - 120px); /* adjust if header/footer heights differ */
+  overflow-y: auto;            /* scrollable content */
+}
+
+/* Fixed footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #222;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+
 .donateSec{
     margin-bottom: 3rem !important;
 }
@@ -6,49 +60,41 @@
     margin-bottom: 4rem;
 }
 
-
-/* -----  Footer ------ */
-.footer {
-	background-color: #A30029;
-     width:100%;
-     padding: 0;
-     margin:0;
-}
-#bottomLinks { 
+.bottomLinks { 
     clear: both;
 	text-align:center;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	color: #000;
+	color: #ff0;
 	font-size: 80%;
 	padding-top: 5px; 
 	padding-bottom: 5px;
      width: 100%;
 }
-#bottomLinks span {
+.bottomLinks span {
     padding-left: 10px;
 	padding-right: 10px;
      white-space: nowrap;
 }
-#bottomLinks a:link {
+.bottomLinks a:link {
 	padding: 8px 0px 8px 10px;
 	width: 100%;
     voice-family: "\"}\""; 
     voice-family:inherit;
-	color: #000;
+	color: #ff0;
 	text-decoration: none;
 }
-#bottomLinks a:visited {
+.bottomLinks a:visited {
 	padding: 8px 0px 8px 10px;
 	text-decoration: none;
-	color: #000;
+	color: hsl(291, 69%, 50%);
 }
-#bottomLinks .active {
+.bottomLinks .active {
 	background-color: #000;
 	padding: 8px 0px 8px 10px;
 	color: #999;
 	text-decoration: none;
 }
-#siteInfo {
+.siteInfo {
      /*text-transform:capitalize;*/
 	padding-top: 5px;
 }
@@ -61,3 +107,4 @@
 	border-top-width: 2px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
+
