@@ -78,8 +78,6 @@ footer {
 .bottomLinks a:link {
 	padding: 8px 0px 8px 10px;
 	width: 100%;
-    voice-family: "\"}\""; 
-    voice-family:inherit;
 	color: #ff0;
 	text-decoration: none;
 }
