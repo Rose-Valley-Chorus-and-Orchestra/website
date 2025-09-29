@@ -42,7 +42,7 @@ nav a {
 /* Main content */
 main {
   padding-bottom: 4rem;  /* prevent content from being hidden under footer */
-  padding-top: 3.5rem !important;
+  padding-top: clamp(1rem, 2vw, 3.5rem);
   background: #f9f9f9;
   height: calc(100vh - 120px); /* adjust if header/footer heights differ */
   overflow-y: auto;            /* scrollable content */
