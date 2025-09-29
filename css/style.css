@@ -51,3 +51,12 @@
 	text-decoration: none;
 
 }
+.copyright {
+	text-align: center;
+	color: #000;
+	/*text-transform: uppercase;*/
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
