@@ -35,13 +35,14 @@ nav a {
   text-decoration: none;
 }
 
-.navbar-nav .nav-link {
+.navbar-nav .nav-item {
   font-size: clamp(0.85rem, 1vw + 0.5rem, 1.1rem);
 }
 
 /* Main content */
 main {
-  padding-bottom: 4em;  /* prevent content from being hidden under footer */
+  padding-bottom: 4rem;  /* prevent content from being hidden under footer */
+  padding-top: 3.5rem !important;
   background: #f9f9f9;
   height: calc(100vh - 120px); /* adjust if header/footer heights differ */
   overflow-y: auto;            /* scrollable content */
