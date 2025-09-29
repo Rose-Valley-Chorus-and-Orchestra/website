@@ -1,4 +1,8 @@
 /* Reset */
+:root {
+  --navbar-height: 4.5rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,11 +13,13 @@ html, body {
   height: 100%;
 }
 
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;  /* full viewport height */
   font-family: Arial, sans-serif;
+  padding-top: 4.5rem;
 }
 
 /* Header */
@@ -32,7 +38,7 @@ nav a {
 
 /* Main content */
 main {
-  padding: 2em;
+  padding-top: 4.5rem; /* keeps carousel below fixed navbar */
   padding-bottom: 4em;  /* prevent content from being hidden under footer */
   background: #f9f9f9;
   height: calc(100vh - 120px); /* adjust if header/footer heights differ */
