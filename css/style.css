@@ -14,7 +14,7 @@
     clear: both;
 	text-align:center;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	color: #F7F100;
+	color: #000;
 	font-size: 80%;
 	padding-top: 5px; 
 	padding-bottom: 5px;
@@ -30,26 +30,23 @@
 	width: 100%;
     voice-family: "\"}\""; 
     voice-family:inherit;
-	color: #F7F100;
+	color: #000;
 	text-decoration: none;
 }
 #bottomLinks a:visited {
 	padding: 8px 0px 8px 10px;
 	text-decoration: none;
-	color: #F7F100;
-}
-#bottomLinks a:hover {
-	background-color: #C03;
-	padding: 8px 0px 8px 10px;
-	color: #FFFFFF;
-	text-decoration: underline;
+	color: #000;
 }
 #bottomLinks .active {
-	background-color: #FCC;
+	background-color: #000;
 	padding: 8px 0px 8px 10px;
 	color: #999;
 	text-decoration: none;
-
+}
+#siteInfo {
+     /*text-transform:capitalize;*/
+	padding-top: 5px;
 }
 .copyright {
 	text-align: center;
