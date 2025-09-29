@@ -23,11 +23,12 @@ body {
 }
 
 .carousel-item img {
+  display: block;
   width: 100%;
-  height: 32rem;          /* or 500px, or 100vh for fullscreen */
-  object-fit: cover;      /* no squish, crop instead */
-  object-position: center; /* keeps the center visible */
+  height: 32rem;         /* or whatever height you need */
+  object-fit: cover;
 }
+
 
 
 /* MARKETING CONTENT
