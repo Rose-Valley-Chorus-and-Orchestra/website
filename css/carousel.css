@@ -16,20 +16,34 @@ body {
 .carousel {
   margin-bottom: 4rem;
 }
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
+/* ===== Carousel Reset & Fixes ===== */
+
+/* Make sure carousel takes full width */
+.carousel {
+  width: 100%;
 }
 
+/* Style the images so they never squish */
 .carousel-item img {
   display: block;
   width: 100%;
-  height: 32rem;         /* or whatever height you need */
-  object-fit: cover;
+  height: 32rem;           /* fixed height banner (adjust as needed) */
+  object-fit: cover;       /* crops without distortion */
+  object-position: center; /* keep focus centered */
 }
 
+/* Optional: fullscreen hero look */
+/*
+.carousel-item img {
+  height: 100vh; 
+  object-fit: cover;
+}
+*/
 
+/* Ensure captions stay readable */
+.carousel-caption {
+  z-index: 10;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
