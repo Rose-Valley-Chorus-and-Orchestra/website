@@ -50,7 +50,7 @@
 
                         <p>All tickets are general admission and good for <strong><em>any</em></strong> performance.</p>
                         <span class="">Ticket Prices</span>
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled ticketsML">
                             <li>Adult - $25.00</li>
                             <li>Senior (60+)/Student - $20.00</li>
                             <li>Child (12 and under) - $10.00</li>
@@ -62,8 +62,8 @@
                             </ul>
                         </p>
 
-                        <span class="">Performances</span>
-                        <ul class="list-unstyled">
+                        <span class=""><strong>Performances</strong></span>
+                        <ul class="list-unstyled ticketsML">
                             <li>Saturday, November 8 at 2 p.m. and 8 p.m.</li>
                             <li>Sunday, November 9 at 2 p.m.</li>
                             <li>Wednesday, November 12 at 8 p.m.</li>
