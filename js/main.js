@@ -1,5 +1,5 @@
 async function loadHeader() {
-  const headerHtml = await fetch('/header.html').then(r => r.text());
+  const headerHtml = await fetch('/components/header.html').then(r => r.text());
   document.getElementById('headerContainer').innerHTML = headerHtml;
 
   // now that header is in DOM, attach nav listeners
@@ -14,7 +14,7 @@ async function loadHeader() {
 }
 
 async function loadFooter() {
-  const footerHtml = await fetch('/footer.html').then(r => r.text());
+  const footerHtml = await fetch('/components/footer.html').then(r => r.text());
   document.getElementById('footerContainer').innerHTML = footerHtml;
 }
 
