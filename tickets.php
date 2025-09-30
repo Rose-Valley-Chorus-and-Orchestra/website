@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="row mt-4 mb-4">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 center-viewport">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
                         <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-responsive" name="gondoliers" />
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
@@ -48,13 +48,18 @@
                         </button>
                         <p>Peformances are at <a href="Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
 
-                        <p>All tickets are general admission and good for <strong><em>any</em></strong> performance.
-                            <ul class="list-unstyled">
-                                <li>Adult - $25.00</li>
-                                <li>Senior (60+)/Student - $20.00</li>
-                                <li>Child (12 and under) - $10.00</li>
-                            </ul>
-                        </p>
+                        <p>All tickets are general admission and good for <strong><em>any</em></strong> performance.</p>
+                        <div class="row">
+                            <div class="col-6">Ticket Prices</div>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li>Adult - $25.00</li>
+                                    <li>Senior (60+)/Student - $20.00</li>
+                                    <li>Child (12 and under) - $10.00</li>
+                                </ul>
+                            </div>
+                        </div>
+                            
                         <p>For information on Group tickets, e-mail <a href="mailto:groups@rvco.org">groups@rvco.org</a>.
                             <ul style="margin-left: 25px; margin-top: -10px;"><li>$15 each for 10 or more tickets</li>
                                 <li>Tickets must be for the same performance</li>

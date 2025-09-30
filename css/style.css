@@ -134,14 +134,4 @@ footer {
 .copyright { text-align: center; color: #000; font-weight: lighter; letter-spacing: 1px; font-family: Verdana, Arial, Helvetica, sans-serif; }
 
 
-.center-viewport {
-    display: flex;
-    justify-content: center;  /* horizontal centering */
-    align-items: center;      /* vertical centering */
-    height: 100vh;            /* full viewport height */
-}
 
-.center-viewport img {
-    max-width: 100%;          /* responsive image */
-    height: auto;
-}
