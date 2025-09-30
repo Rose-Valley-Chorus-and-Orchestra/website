@@ -153,3 +153,7 @@ footer {
         opacity: 1;
     }
 }
+
+.ticketBtn{
+  width: 15rem;
+}
