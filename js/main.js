@@ -1,9 +1,8 @@
-// Load header dynamically
+// Load header and attach nav listeners
 async function loadHeader() {
   const headerHtml = await fetch('/components/header.html').then(r => r.text());
   document.getElementById('headerContainer').innerHTML = headerHtml;
 
-  // Attach click listeners to nav links
   document.querySelectorAll('[data-page]').forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
@@ -14,13 +13,13 @@ async function loadHeader() {
   });
 }
 
-// Load footer dynamically
+// Load footer
 async function loadFooter() {
   const footerHtml = await fetch('/components/footer.html').then(r => r.text());
   document.getElementById('footerContainer').innerHTML = footerHtml;
 }
 
-// Load page content dynamically
+// Load content dynamically
 function loadPageContent(page) {
   fetch(`/${page}.html`)
     .then(r => {
@@ -36,7 +35,7 @@ function loadPageContent(page) {
     });
 }
 
-// Handle browser back/forward buttons
+// Handle back/forward
 window.addEventListener('popstate', e => {
   const page = e.state?.page || 'home';
   loadPageContent(page);
@@ -46,5 +45,10 @@ window.addEventListener('popstate', e => {
 document.addEventListener('DOMContentLoaded', async () => {
   await loadHeader();
   await loadFooter();
-  loadPageContent('home'); // default page
+
+  // Load the correct page based on URL on refresh
+  const path = window.location.pathname.replace(/^\/|\.html$/g, '');
+  const initialPage = path || 'home';
+  loadPageContent(initialPage);
+  history.replaceState({ page: initialPage }, '', `${initialPage}.html`);
 });
