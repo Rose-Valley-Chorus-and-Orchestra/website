@@ -55,13 +55,12 @@ footer {
 #content #myCarousel {
   width: 100%;
   margin-bottom: 3rem;
-  position: relative;
 }
 
 #content #myCarousel .carousel-item img {
   width: 100%;
-  height: clamp(14rem, 30vh, 32rem);
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   object-position: center;
   transition: height 0.3s ease-in-out; /* smooth resizing */
 }
