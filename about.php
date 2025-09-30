@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <?php include 'include/head.php'; ?>
+  <?php include 'includes/head.php'; ?>
      <body>
       <?php include 'includes/header.php'; ?>
 
