@@ -43,7 +43,8 @@
           <!-- JS: Load header/footer + initial HTMX main content -->
           <!-- Load header/footer and adjust main padding -->
           <script>
-               async function loadHeaderFooter() {
+              async function loadHeaderFooterAndMain() {
+                    // Fetch header and footer
                     const header = await fetch('/components/header.html').then(r => r.text());
                     const footer = await fetch('/components/footer.html').then(r => r.text());
 
@@ -51,6 +52,9 @@
                     document.getElementById('footerContainer').innerHTML = footer;
 
                     updateContentPadding();
+
+                    // Trigger HTMX load of initial content after header/footer exist
+                    htmx.trigger(document.getElementById('content'), 'load');
                }
 
                function updateContentPadding() {
@@ -68,10 +72,11 @@
                     main.style.height = `calc(100vh - ${navHeight + footHeight}px)`;
                }
 
-               loadHeaderFooter();
+               // Initialize
+               loadHeaderFooterAndMain();
 
                window.addEventListener('resize', updateContentPadding);
-               document.body.addEventListener('htmx:afterSwap', (e) => {
+               document.body.addEventListener('htmx:afterSwap', e => {
                     if(e.target.id === 'content') updateContentPadding();
                });
           </script>
