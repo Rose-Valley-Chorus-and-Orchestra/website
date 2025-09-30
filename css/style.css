@@ -1,162 +1,125 @@
-/* ===================== RESET ===================== */
+/* ========================
+   RESET & BASE STYLES
+======================== */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {
   font-family: Arial, sans-serif;
   background: #f9f9f9;
   min-height: 100%;
+  line-height: 1.5;
+  color: #333;
 }
 
-/* ===================== HEADER ===================== */
-header {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ========================
+   HEADER / NAVBAR
+======================== */
+header, nav.navbar {
   background: #222;
   color: #fff;
-  text-align: center;
-}
-
-nav a {
-  margin: 0 1em;
-  color: #fff;
-  text-decoration: none;
 }
 
 .navbar-nav .nav-item {
-  font-size: clamp(0.9rem, 0.9vw + 0.3rem, 0.9rem);
+  font-size: clamp(0.9rem, 1vw + 0.5rem, 1.1rem);
 }
 
-/* ===================== MAIN CONTENT ===================== */
-main {
-  padding: 1rem;
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #0d6efd;
 }
 
-/* ===================== FOOTER ===================== */
+/* ========================
+   MAIN CONTENT
+======================== */
+main#content {
+  padding: 2rem 1rem;
+}
+
+/* Text justification on md and smaller */
+.text-md-justify {
+  text-align: justify;
+  text-align-last: justify;
+}
+
+@media (min-width: 992px) { 
+  .text-md-justify {
+    text-align: left;
+    text-align-last: auto;
+  }
+}
+
+/* ========================
+   FOOTER
+======================== */
 footer {
   background: #222;
   color: #fff;
-  padding: 1em;
+  padding: 1rem 0;
   text-align: center;
 }
 
-/* ===================== CAROUSEL ===================== */
-#content #myCarousel {
+/* ========================
+   CAROUSEL
+======================== */
+.carousel {
   width: 100%;
   margin-bottom: 3rem;
 }
 
-#content #myCarousel .carousel-item img {
+.carousel-item img {
   width: 100%;
-  height: auto;           /* responsive height */
-  max-height: 70vh;       /* limit max height */
-  object-fit: contain;    /* do not crop images */
+  height: auto;
+  object-fit: cover;
   object-position: center;
 }
 
-#content #myCarousel .carousel-caption {
-  z-index: 10;
-}
+/* Responsive carousel heights */
+@media (max-width: 992px) { .carousel-item img { height: 24rem; } }
+@media (max-width: 768px) { .carousel-item img { height: 18rem; } }
+@media (max-width: 576px) { .carousel-item img { height: 14rem; } }
 
-/* Carousel captions on small devices */
-@media (max-width: 576px) {
-  #content #myCarousel .carousel-caption {
-    bottom: 0.5rem;
-    font-size: 0.9rem;
-    padding: 0 0.5rem;
-  }
+.carousel-caption { z-index: 10; }
 
-  #content #myCarousel .carousel-caption .btn {
-    font-size: 0.8rem;
-    padding: 0.25rem 0.5rem;
-  }
-}
+/* ========================
+   MARKETING / FEATURE SECTIONS
+======================== */
+.marketing { margin: 2rem auto; }
+.marketing .col-lg-6 { text-align: center; margin-bottom: 2rem; }
+.marketing h2 { font-weight: 400; }
+.marketing p { margin: 0.5rem 0; }
 
-/* ===================== MARKETING SECTION ===================== */
-.marketing {
-  margin: 3rem auto;
-}
+/* Featurettes */
+.featurette-divider { margin: 5rem 0; }
+.featurette-heading { font-weight: 300; line-height: 1; letter-spacing: -0.05rem; }
 
-.marketing .col-lg-6 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
+/* ========================
+   ABOUT PAGE
+======================== */
+.about { margin: 2rem; }
 
-/* ===================== ABOUT PAGE ===================== */
-@media (max-width: 991.98px) { /* md and smaller */
-  .text-md-justify {
-    text-align: justify;
-    text-align-last: justify;
-  }
-}
-
-/* ===================== FEATURETTES ===================== */
-.featurette-divider {
-  margin: 5rem 0; /* space out the <hr> */
-}
-
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.05rem;
-}
-
-/* Responsive featurette headings */
-@media (min-width: 40em) {
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-}
-
-/* ===================== CUSTOM CLASSES ===================== */
-.donateSec {
-  margin-bottom: 3rem !important;
-}
-
-.bottomLinks { 
-  clear: both;
-  text-align: center;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  color: #ff0;
-  font-size: 80%;
-  padding: 5px 0;
-  width: 100%;
-}
-
-.bottomLinks span {
-  padding: 0 10px;
-  white-space: nowrap;
-}
-
-.bottomLinks a:link, .bottomLinks a:visited {
-  padding: 8px 10px;
-  color: #ff0;
-  text-decoration: none;
-}
-
-.bottomLinks .active {
-  background-color: #000;
-  padding: 8px 10px;
-  color: #999;
-  text-decoration: none;
-}
-
-.siteInfo {
-  padding-top: 5px;
-}
-
-.copyright {
-  text-align: center;
-  color: #000;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  border-top-width: 2px;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-}
+/* ========================
+   BOTTOM LINKS / DONATE SECTION
+======================== */
+.donateSec { margin-bottom: 3rem; }
+.bottomLinks { text-align: center; font-family: "Lucida Sans Unicode", sans-serif; color: #ff0; font-size: 80%; padding: 0.3rem 0; }
+.bottomLinks span { padding: 0 0.5rem; white-space: nowrap; }
+.bottomLinks a { padding: 0.5rem 0.5rem; color: #ff0; }
+.bottomLinks a:visited { color: hsl(291, 69%, 50%); }
+.bottomLinks .active { color: #999; }
+.siteInfo { padding-top: 0.5rem; }
+.copyright { text-align: center; color: #000; font-weight: lighter; letter-spacing: 1px; font-family: Verdana, Arial, Helvetica, sans-serif; }
