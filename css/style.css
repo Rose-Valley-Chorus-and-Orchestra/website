@@ -15,6 +15,14 @@ html, body {
   color: #333;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1 0 auto; /* grow to fill remaining space */
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -71,6 +79,7 @@ footer {
   color: #fff;
   padding: 1rem 0;
   text-align: center;
+  flex-shrink: 0; /* footer stays at bottom */
 }
 
 /* ========================
