@@ -54,18 +54,15 @@
                                 <table class="table table-borderless ticketTable">
                                     <tr>
                                         <td></td>
-                                        <td>Adult</td>
-                                        <td>$25.00</td>
+                                        <td>Adult - $25.00</td>
                                     </tr>
                                     <tr>
                                         <td><strong>Ticket Prices</strong></td>
-                                        <td>Senior (60+)/Student</td>
-                                        <td>$20.00</td>
+                                        <td>Senior (60+)/Student - $20.00</td>
                                     </tr>
                                     <tr>
                                         <td></td>
-                                        <td>Child (12 and under)</td>
-                                        <td>$10.00</td>
+                                        <td>Child (12 and under) - $10.00</td>
                                     </tr>
                                 </table>
                             </div>
