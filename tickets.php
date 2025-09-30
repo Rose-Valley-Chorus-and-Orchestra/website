@@ -40,8 +40,12 @@
                         <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-responsive" name="gondoliers" />
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <p style="max-width: 800px;margin-left: auto;margin-right: auto;font-size: 1.1em;color:#003366;"><b>Are you looking for a gift idea? Tickets make a great present.</b></p>
-                        <p class="ticketsButton"><a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to Glbert & Sullivan's The Gondoliers" href="https://www.zeffy.com/ticketing/the-gondoliers-tickets">Buy Tickets</a></p>
+                        <h4>
+                            <bstrong>Are you looking for a gift idea? Tickets make a great present.</strong>
+                        </h4>
+                        <button class="btn btn-success">
+                            <a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to Glbert & Sullivan's The Gondoliers" href="https://www.zeffy.com/ticketing/the-gondoliers-tickets">Buy Tickets</a>
+                        </button>
                         <p>Peformances are at <a href="Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
 
                         <p>All tickets are general admission and good for <b><i>any</i></b> performance.
