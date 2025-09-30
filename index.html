@@ -40,31 +40,5 @@
         
           <script src="/js/main.js"></script>
 
-          <!-- JS  -->
-          <script>
-               function updateContentPadding() {
-                    const header = document.getElementById('headerContainer');
-                    const footer = document.getElementById('footerContainer');
-                    const main = document.getElementById('content');
-
-                    if (header && footer && main) {
-                         const headerHeight = header.offsetHeight || 0;
-                         const footerHeight = footer.offsetHeight || 0;
-
-                         // CSS variable for padding
-                         document.documentElement.style.setProperty('--header-height', headerHeight + 'px');
-                         document.documentElement.style.setProperty('--footer-height', footerHeight + 'px');
-
-                         main.style.paddingTop = headerHeight + 'px';
-                         main.style.paddingBottom = footerHeight + 'px';
-
-                         // Remove min-height and overflow-y to let content naturally scroll with body
-                         main.style.minHeight = '';
-                         main.style.overflowY = '';
-                    }
-                    }
-
-
-          </script>
      </body>
 </html>
