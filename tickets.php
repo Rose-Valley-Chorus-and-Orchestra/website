@@ -1,29 +1,6 @@
 <!doctype html>
 <html lang="en">
-     <head>
-          <meta charset="UTF-8">
-          <!--<meta http-equiv="Cache-Control" content="no-cache" />
-          <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> -->
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="author" content="William Michael">
-          <meta name="viewport" content="width=device-width, initial-scale=1">     
-          <meta name="description" content="We are a community theater troupe that has been putting on two shows a year with a full orchestra for over 100 years, performance are in the spring and fall" />
-          <meta name="keywords" content="The Pirates of Penzance, Me and My Girl, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
-          <title>Rose Valley Chorus & Orchestra</title>
-          <link rel="shortcut icon" href="images/rvco.ico" />
-
-          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-         <link href="/css/style.css" rel="stylesheet">
-
-          
-          <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-          <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-          <!--[if lt IE 9]>
-               <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-               <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
-
-     </head>
+    <?php include 'include/head.php'; ?>
      <body>
         <?php include 'includes/header.php'; ?>
 
@@ -43,7 +20,7 @@
                         <h5>
                             <strong>Are you looking for a gift idea? Tickets make a great present.</strong>
                         </h5>
-                        <div class="row text-center">
+                        <div class="row justify-content-center">
                             <button class="btn btn-success mt-2 mb-2 ticketBtn">
                                 <a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to Glbert & Sullivan's The Gondoliers" href="https://www.zeffy.com/ticketing/the-gondoliers-tickets"><i class="fa-solid fa-ticket"></i> Buy Tickets</a>
                             </button>
