@@ -141,7 +141,7 @@ footer {
 .slide-in-right {
     transform: translateX(100%);
     opacity: 0;
-    animation: slideInRight 1s forwards;
+    animation: slideInRight .5s forwards;
     animation-timing-function: ease-out;
 }
 
