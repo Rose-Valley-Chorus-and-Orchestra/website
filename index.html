@@ -43,28 +43,7 @@
 
         <!-- JS for dynamic padding -->
      <script>
-          // This function will reload header and footer dynamically on page load
-          function loadHeaderFooter() {
-               const headerContainer = document.getElementById('headerContainer');
-               const footerContainer = document.getElementById('footerContainer');
-               
-               // Manually trigger HTMX to reload header and footer
-               if (!headerContainer.innerHTML) {
-               headerContainer.setAttribute('hx-get', '/components/header.html');
-               headerContainer.setAttribute('hx-trigger', 'load');
-               htmx.trigger(headerContainer, 'load');
-               }
-               
-               if (!footerContainer.innerHTML) {
-               footerContainer.setAttribute('hx-get', '/components/footer.html');
-               footerContainer.setAttribute('hx-trigger', 'load');
-               htmx.trigger(footerContainer, 'load');
-               }
-          }
-
-          // Run the function on page load
-          window.addEventListener('load', loadHeaderFooter);
-
+          
           // Optionally, also update padding after HTMX content swap
           document.body.addEventListener('htmx:afterSwap', (event) => {
                if (event.target.id === 'content') {
