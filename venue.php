@@ -10,13 +10,18 @@
         <!-- Main content -->
         <main>
             <div class="container">
+                <div class="row slide-in-right">
+                    <div class="col-12 text-end">
+                        <h1 class="display-3">Venue</h1>
+                    </div>
+                </div>
                 <div class="row">
-                    <div class="col-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <h2>Strath Haven Middle School</h2>
                         <p class="thumbnail_align"><img src="images/SHMS-Pictures-146.jpg" alt="Strath Haven Middle School" title="Outside of Strath Haven Middle School"  class="thumbnail"/></p>
                         <p>We are grateful to perform this season at <a href="http://www.wssd.org/shms/site/default.asp" target="_blank">Strath Haven Middle School</a> at 200 South Providence Road, Wallingford, PA 19086.</p>
                     </div>
-                    <div class="col-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <h2>Strath Haven Middle School Theater</h2>
                         <p class="thumbnail_align"> <img src="images/WEB Theater view.jpg" alt="Strath Haven Middle School theater" title="Inside View of Strath Haven Middle School theater" class="thumbnail" /> </p>
                         <p>The theater offers:

@@ -20,7 +20,7 @@
                         <h5>
                             <strong>Are you looking for a gift idea? Tickets make a great present.</strong>
                         </h5>
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center mb-2">
                             <button class="btn btn-success mt-2 mb-2 ticketBtn">
                                 <a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to Glbert & Sullivan's The Gondoliers" href="https://www.zeffy.com/ticketing/the-gondoliers-tickets"><i class="fa-solid fa-ticket"></i> Buy Tickets</a>
                             </button>
