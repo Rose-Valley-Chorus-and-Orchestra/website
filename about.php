@@ -22,8 +22,8 @@
                   <p>In 1997 Rose Valley Chorus &amp; Orchestra purchased the old Middletown Firehouse in Media. It serves as our set construction site and houses our extensive costume and prop collection.</p>
                   <p>In keeping with its long-standing traditions and policies, Rose Valley Chorus &amp; Orchestra considers those seeking to participate in its programming and productions on the basis of individual merit.  RVCO does not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national or ethnic origin, age, status as an individual with a disability, protected veteran status, genetic information, or other protected classes under the law.</p>
                 </div>
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img src="images/RVCO_small.gif" alt="" name="Picture8" id="rvcoLogo" class="img-fluid" />
+                <div class="col-lg-4 d-none d-lg-block text-center">
+                  <img src="/images/logo/red RVCO Logo1907 transparent@500.webp" alt="" name="Picture8" id="rvcoLogo" class="img-fluid" />
                 </div>
               </div>
             </div>
