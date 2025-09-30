@@ -45,7 +45,7 @@
                         </h5>
                         <div class="row text-center">
                             <button class="btn btn-success mt-2 mb-2 ticketBtn">
-                                <i class="fa-solid fa-ticket"></i> <a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to Glbert & Sullivan's The Gondoliers" href="https://www.zeffy.com/ticketing/the-gondoliers-tickets">Buy Tickets</a>
+                                <a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to Glbert & Sullivan's The Gondoliers" href="https://www.zeffy.com/ticketing/the-gondoliers-tickets"><i class="fa-solid fa-ticket"></i> Buy Tickets</a>
                             </button>
                         </div>
                         
