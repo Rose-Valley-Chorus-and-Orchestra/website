@@ -36,7 +36,7 @@
                 </div>
               </div>
 
-              <div class="row">
+              <div class="row mt-4">
                 <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                   <p>The Rose Valley Chorus &amp; Orchestra presented its first production, Gilbert &amp; Sullivan's <i>The Mikado</i>, at the Artsman's Hall (now Hedgerow Theatre) in Rose Valley on November 21, 1907. This performance united the wealth of musical and dramatic talent residents in the arts and crafts colony of Rose Valley into a group that is still vibrant and successful for more than 100 years (and almost 200 shows! See a list of our <a href="productionHistory.php">production history</a>. Today we perform in the beautiful and modern theater at <a href="Venue.php">Strath Haven Middle School</a> in Wallingford.</p>
                   

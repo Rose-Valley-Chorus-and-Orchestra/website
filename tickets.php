@@ -35,7 +35,7 @@
                         <h1 class="display-3">Tickets</h1>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-4">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-responsive" name="gondoliers" />
                     </div>
