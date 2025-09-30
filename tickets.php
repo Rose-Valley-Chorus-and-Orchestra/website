@@ -36,8 +36,8 @@
                     </div>
                 </div>
                 <div class="row mt-4 mb-4">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
-                        <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-responsive" name="gondoliers" />
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center mb-4">
+                        <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-fluid" name="gondoliers" />
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <h5>
@@ -49,24 +49,12 @@
                         <p>Peformances are at <a href="Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
 
                         <p>All tickets are general admission and good for <strong><em>any</em></strong> performance.</p>
-                        <div class="row">
-                            <div class="col-12 ticketSec">
-                                <table class="table table-borderless ticketTable">
-                                    <tr>
-                                        <td></td>
-                                        <td>Adult - $25.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Ticket Prices</strong></td>
-                                        <td>Senior (60+)/Student - $20.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td>Child (12 and under) - $10.00</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
+                        <span class="">Ticket Prices</span>
+                        <ul class="list-unstyled">
+                            <li>Adult - $25.00</li>
+                            <li>Senior (60+)/Student - $20.00</li>
+                            <li>Child (12 and under) - $10.00</li>
+                        </ul>
                             
                         <p>For information on Group tickets, e-mail <a href="mailto:groups@rvco.org">groups@rvco.org</a>.
                             <ul style="margin-left: 25px; margin-top: -10px;"><li>$15 each for 10 or more tickets</li>
@@ -74,33 +62,15 @@
                             </ul>
                         </p>
 
-                        <div class="row">
-                            <div class="col-12 ticketSec">
-                                <table class="table table-borderless ticketTable">
-                                    <tr>
-                                        <td></td>
-                                        <td>Saturday, November 8 at 2 p.m. and 8 p.m.</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td>Sunday, November 9 at 2 p.m.</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Performances</strong></td>
-                                        <td>Wednesday, November 12 at 8 p.m.</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td>Saturday, November 15 at 2 p.m. and 8 p.m..</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td>Sunday, November 16 at 2 p.m.</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                                                            
+                        <span class="">Performances</span>
+                        <ul class="list-unstyled">
+                            <li>Saturday, November 8 at 2 p.m. and 8 p.m.</li>
+                            <li>Sunday, November 9 at 2 p.m.</li>
+                            <li>Wednesday, November 12 at 8 p.m.</li>
+                            <li>Saturday, November 15 at 2 p.m. and 8 p.m.</li>
+                            <li>Sunday, November 16 at 2 p.m.</li>
+                        </ul>
+                          
                         <p>For questions, e-mail <a href="mailto:tickets@rvco.org">tickets@rvco.org</a> or call : <font class="high">610-565-5010</font><!--<font class="high">484-981-9108</font>--></p>
                                
                     </div>
