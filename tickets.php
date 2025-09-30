@@ -73,13 +73,33 @@
                                 <li>Tickets must be for the same performance</li>
                             </ul>
                         </p>
-                        <p>Performances:
-                            <ul class="showDates" style="margin-top: -10px;">Saturday, November 8 at 2 p.m. and 8 p.m.</ul>
-                            <ul class="showDates">Sunday, November 9 at 2 p.m.</ul>
-                            <ul class="showDates">Wednesday, November 12 at 8 p.m.</ul>
-                            <ul class="showDates">Saturday, November 15 at 2 p.m. and 8 p.m.</ul>
-                            <ul class="showDates">Sunday, November 16 at 2 p.m.</ul>
-                        </p>
+
+                        <div class="row">
+                            <div class="col-12 ticketSec">
+                                <table class="table table-borderless ticketTable">
+                                    <tr>
+                                        <td></td>
+                                        <td>Saturday, November 8 at 2 p.m. and 8 p.m.</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Sunday, November 9 at 2 p.m.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Performances</strong></td>
+                                        <td>Wednesday, November 12 at 8 p.m.</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Saturday, November 15 at 2 p.m. and 8 p.m..</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Sunday, November 16 at 2 p.m.</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
                                                             
                         <p>For questions, e-mail <a href="mailto:tickets@rvco.org">tickets@rvco.org</a> or call : <font class="high">610-565-5010</font><!--<font class="high">484-981-9108</font>--></p>
                                
