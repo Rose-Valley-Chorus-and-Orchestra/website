@@ -1,23 +1,30 @@
+// Load header dynamically
 async function loadHeader() {
   const headerHtml = await fetch('/components/header.html').then(r => r.text());
   document.getElementById('headerContainer').innerHTML = headerHtml;
 
-  // now that header is in DOM, attach nav listeners
+  // Now that header is in DOM, attach nav listeners
   document.querySelectorAll('[data-page]').forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
       const page = link.dataset.page;
+
+      // Update URL with hash
+      location.hash = page;
+
+      // Load content
       loadPageContent(page);
-      history.pushState({ page }, '', `${page}.html`);
     });
   });
 }
 
+// Load footer dynamically
 async function loadFooter() {
   const footerHtml = await fetch('/components/footer.html').then(r => r.text());
   document.getElementById('footerContainer').innerHTML = footerHtml;
 }
 
+// Load a page fragment into #content
 function loadPageContent(page) {
   fetch(`/${page}.html`)
     .then(r => {
@@ -33,15 +40,18 @@ function loadPageContent(page) {
     });
 }
 
-// handle back/forward buttons
-window.addEventListener('popstate', e => {
-  const page = e.state?.page || 'home';
+// Handle hash changes (back/forward navigation included)
+window.addEventListener('hashchange', () => {
+  const page = location.hash.replace('#', '') || 'home';
   loadPageContent(page);
 });
 
-// initialize app
+// Initialize app
 document.addEventListener('DOMContentLoaded', async () => {
   await loadHeader();
   await loadFooter();
-  loadPageContent('home'); // default page
+
+  // Load page based on hash, default to home
+  const page = location.hash.replace('#', '') || 'home';
+  loadPageContent(page);
 });
