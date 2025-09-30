@@ -52,6 +52,16 @@ document.addEventListener("DOMContentLoaded", function(){
 
     //load page content dynamically based on the page name
     function loadPageContent(page){
-        fetch(`/${page}.html`).then(response => response.text()).then(data => document.getElementById('content').innerHTML = data);
+        fetch(`/${page}.html`)
+        .then(response => {
+            if (!response.ok) throw new Error(`${page}.html not found`);
+            return response.text();
+        })
+        .then(data => {
+        document.getElementById('content').innerHTML = data;
+        })
+        .catch(err => {
+        document.getElementById('content').innerHTML = `<p class="text-danger">${err.message}</p>`;
+        });
     }
 })
