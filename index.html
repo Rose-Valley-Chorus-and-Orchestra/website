@@ -51,19 +51,19 @@
                          const headerHeight = header.offsetHeight || 0;
                          const footerHeight = footer.offsetHeight || 0;
 
-                         // Add top/bottom padding so main content sits between header and footer
+                         // CSS variable for padding
+                         document.documentElement.style.setProperty('--header-height', headerHeight + 'px');
+                         document.documentElement.style.setProperty('--footer-height', footerHeight + 'px');
+
                          main.style.paddingTop = headerHeight + 'px';
                          main.style.paddingBottom = footerHeight + 'px';
 
-                         // Set max height for scrolling, without stretching carousel to full viewport
-                         main.style.minHeight = `calc(100vh - ${headerHeight + footerHeight}px)`;
-                         main.style.overflowY = 'auto';
+                         // Remove min-height and overflow-y to let content naturally scroll with body
+                         main.style.minHeight = '';
+                         main.style.overflowY = '';
                     }
-               }
+                    }
 
-               // Run on page load and on window resize
-               document.addEventListener('DOMContentLoaded', updateContentPadding);
-               window.addEventListener('resize', updateContentPadding);
 
           </script>
      </body>
