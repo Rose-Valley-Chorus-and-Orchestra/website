@@ -50,13 +50,24 @@
 
                         <p>All tickets are general admission and good for <strong><em>any</em></strong> performance.</p>
                         <div class="row">
-                            <div class="col-6"><span class="align-middle">Ticket Prices</span></div>
-                            <div class="col-6">
-                                <ul class="list-unstyled">
-                                    <li>Adult - $25.00</li>
-                                    <li>Senior (60+)/Student - $20.00</li>
-                                    <li>Child (12 and under) - $10.00</li>
-                                </ul>
+                            <div class="col-12">
+                                <table class="table table-borderless">
+                                    <tr>
+                                        <td></td>
+                                        <td>Adult</td>
+                                        <td>$25.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ticket Prices</td>
+                                        <td>Senior (60+)/Student</td>
+                                        <td>$20.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Child (12 and under)</td>
+                                        <td>$10.00</td>
+                                    </tr>
+                                </table>
                             </div>
                         </div>
                             
