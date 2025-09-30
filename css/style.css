@@ -36,7 +36,7 @@ nav a {
 }
 
 .navbar-nav .nav-item {
-  font-size: clamp(0.8rem, 0.9vw + 0.3rem, 1.1rem);
+  font-size: clamp(0.9rem, 0.9vw + 0.3rem, 1.1rem);
 }
 
 /* Main content */
@@ -228,6 +228,14 @@ footer {
 .about{
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+/* Custom class for justification only on md and smaller */
+@media (max-width: 991.98px) { /* md and below */
+  .text-md-justify {
+    text-align: justify;
+    text-align-last: justify; /* optional: justify last line */
+  }
 }
 
 
