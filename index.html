@@ -15,7 +15,7 @@
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
          <link href="/css/style.css" rel="stylesheet">
 
-          <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+          
           <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
           <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
           <!--[if lt IE 9]>
@@ -27,14 +27,46 @@
      <body>
           
         <!-- Load header -->
-        <div hx-get="/components/header.html" hx-trigger="load"></div>
+        <div id="headerContainer" hx-get="/components/header.html" hx-trigger="load"></div>
 
         <!-- Content area -->
         <main id="content" hx-get="home.html" hx-trigger="load"></main>
 
         <!-- Load footer -->
-        <div hx-get="/components/footer.html" hx-trigger="load"></div>
+        <div id="footerContainer" hx-get="/components/footer.html" hx-trigger="load"></div>
 
+        <!-- JS for Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+        <!-- JS for HTMX -->
+        <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+
+        <!-- JS for dynamic padding -->
+     <script>
+          function updateContentPadding() {
+               const header = document.getElementById('headerContainer');
+               const footer = document.getElementById('footerContainer');
+               const main = document.getElementById('content');
+
+               if (header && footer && main) {
+               const headerHeight = header.offsetHeight || 0;
+               const footerHeight = footer.offsetHeight || 0;
+               main.style.paddingTop = headerHeight + 'px';
+               main.style.paddingBottom = footerHeight + 'px';
+               main.style.height = `calc(100vh - ${headerHeight + footerHeight}px)`;
+               main.style.overflowY = 'auto';
+               }
+          }
+
+          // Run after HTMX content is loaded
+          document.body.addEventListener('htmx:afterSwap', (e) => {
+               if(e.target.id === 'headerContainer' || e.target.id === 'footerContainer'){
+               updateContentPadding();
+               }
+          });
+
+          // Run on resize
+          window.addEventListener('resize', updateContentPadding);
+     </script>
      </body>
 </html>
