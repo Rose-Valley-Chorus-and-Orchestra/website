@@ -136,6 +136,6 @@ footer {
 .ticketSec{
   padding-right: 15rem;
 }
-.ticketTable{
+.ticketTable td{
   padding: 0 !important;
 }
