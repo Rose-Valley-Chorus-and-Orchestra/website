@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
-     <head>
-          <meta charset="UTF-8">
+  <head>
+<meta charset="UTF-8">
           <!--<meta http-equiv="Cache-Control" content="no-cache" />
           <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> -->
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +25,7 @@
 
      </head>
      <body>
-          <?php include 'includes/header.php'; ?>
+      <?php include 'includes/header.php'; ?>
 
           <!-- Main content -->
           <main>
