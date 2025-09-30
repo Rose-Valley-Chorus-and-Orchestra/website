@@ -30,7 +30,7 @@
           <!-- Main content -->
           <main>
             <div class="container">
-              <div class="row mt-3">
+              <div class="row mt-4">
                 <div class="col-12 text-end">
                   <h1 class="display-3">About Us</h1>
                 </div>

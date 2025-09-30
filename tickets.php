@@ -30,7 +30,7 @@
           <!-- Main content -->
         <main>
             <div class="container">
-                <div class="row mt-3">
+                <div class="row mt-4">
                     <div class="col-12 text-end">
                         <h1 class="display-3">Tickets</h1>
                     </div>
@@ -40,10 +40,10 @@
                         <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-responsive" name="gondoliers" />
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                        <h4>
-                            <bstrong>Are you looking for a gift idea? Tickets make a great present.</strong>
-                        </h4>
-                        <button class="btn btn-success">
+                        <h5>
+                            <strong>Are you looking for a gift idea? Tickets make a great present.</strong>
+                        </h5>
+                        <button class="btn btn-success mt-2 mb-2">
                             <a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to Glbert & Sullivan's The Gondoliers" href="https://www.zeffy.com/ticketing/the-gondoliers-tickets">Buy Tickets</a>
                         </button>
                         <p>Peformances are at <a href="Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
