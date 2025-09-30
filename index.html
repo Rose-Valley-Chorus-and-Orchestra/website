@@ -42,52 +42,44 @@
 
           <!-- JS: Load header/footer + initial HTMX main content -->
           <script>
-          async function loadHeaderFooterAndMain() {
-               // Load header
-               const header = await fetch('/components/header.html').then(r => r.text());
-               document.getElementById('headerContainer').innerHTML = header;
+               async function loadHeaderFooter() {
+                    const header = await fetch('/components/header.html').then(r => r.text());
+                    const footer = await fetch('/components/footer.html').then(r => r.text());
 
-               // Load footer
-               const footer = await fetch('/components/footer.html').then(r => r.text());
-               document.getElementById('footerContainer').innerHTML = footer;
+                    document.getElementById('headerContainer').innerHTML = header;
+                    document.getElementById('footerContainer').innerHTML = footer;
 
-               // Update main content padding
-               updateContentPadding();
-
-               // Now trigger HTMX to load initial main content
-               const mainEl = document.getElementById('content');
-               mainEl.setAttribute('hx-get', 'home.html');
-               mainEl.setAttribute('hx-trigger', 'load');
-               htmx.trigger(mainEl, 'load');
-          }
-
-          function updateContentPadding() {
-               const headerEl = document.querySelector('#headerContainer > *'); // first child = header
-               const footerEl = document.querySelector('#footerContainer > *'); // first child = footer
-               const main = document.getElementById('content');
-               const navHeight = headerEl ? headerEl.offsetHeight : 0;
-               const footHeight = footerEl ? footerEl.offsetHeight : 0;
-
-               document.documentElement.style.setProperty('--navbar-height', navHeight + 'px');
-               document.documentElement.style.setProperty('--footer-height', footHeight + 'px');
-
-               main.style.paddingTop = navHeight + 'px';
-               main.style.paddingBottom = footHeight + 'px';
-               main.style.height = `calc(100vh - ${navHeight + footHeight}px)`;
-          }
-
-          // Load header/footer and initial main content
-          loadHeaderFooterAndMain();
-
-          // Update padding on window resize
-          window.addEventListener('resize', updateContentPadding);
-
-          // Update padding if main content swaps dynamically
-          document.body.addEventListener('htmx:afterSwap', (e) => {
-               if(e.target.id === 'content') {
-               updateContentPadding();
+                    updateContentPadding();
                }
-          });
+               loadHeaderFooter();
+
+               function updateContentPadding() {
+                    const headerEl = document.querySelector('#headerContainer > *'); // first child = header
+                    const footerEl = document.querySelector('#footerContainer > *'); // first child = footer
+                    const main = document.getElementById('content');
+                    const navHeight = headerEl ? headerEl.offsetHeight : 0;
+                    const footHeight = footerEl ? footerEl.offsetHeight : 0;
+
+                    document.documentElement.style.setProperty('--navbar-height', navHeight + 'px');
+                    document.documentElement.style.setProperty('--footer-height', footHeight + 'px');
+
+                    main.style.paddingTop = navHeight + 'px';
+                    main.style.paddingBottom = footHeight + 'px';
+                    main.style.height = `calc(100vh - ${navHeight + footHeight}px)`;
+               }
+
+               // Load header/footer and initial main content
+               loadHeaderFooterAndMain();
+
+               // Update padding on window resize
+               window.addEventListener('resize', updateContentPadding);
+
+               // Update padding if main content swaps dynamically
+               document.body.addEventListener('htmx:afterSwap', (e) => {
+                    if(e.target.id === 'content') {
+                    updateContentPadding();
+                    }
+               });
           </script>
-          </body>
+     </body>
 </html>
