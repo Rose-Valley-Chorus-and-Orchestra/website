@@ -1,5 +1,3 @@
-const { response } = require("express");
-
 document.addEventListener("DOMContentLoaded", function(){
 
     //load header and footer
