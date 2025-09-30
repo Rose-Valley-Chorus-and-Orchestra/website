@@ -36,7 +36,7 @@ nav a {
 }
 
 .navbar-nav .nav-item {
-  font-size: clamp(0.9rem, 0.9vw + 0.3rem, 1.1rem);
+  font-size: clamp(0.9rem, 0.9vw + 0.3rem, 0.9rem);
 }
 
 /* Main content */
