@@ -50,7 +50,7 @@
 
                         <p>All tickets are general admission and good for <strong><em>any</em></strong> performance.</p>
                         <div class="row">
-                            <div class="col-6">Ticket Prices</div>
+                            <div class="col-6"><span class="align-middle">Ticket Prices</span></div>
                             <div class="col-6">
                                 <ul class="list-unstyled">
                                     <li>Adult - $25.00</li>
