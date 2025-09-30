@@ -42,7 +42,29 @@
 
           <!-- JS  -->
           <script>
-               
+               function updateContentPadding() {
+                    const header = document.getElementById('headerContainer');
+                    const footer = document.getElementById('footerContainer');
+                    const main = document.getElementById('content');
+
+                    if (header && footer && main) {
+                         const headerHeight = header.offsetHeight || 0;
+                         const footerHeight = footer.offsetHeight || 0;
+
+                         // Add top/bottom padding so main content sits between header and footer
+                         main.style.paddingTop = headerHeight + 'px';
+                         main.style.paddingBottom = footerHeight + 'px';
+
+                         // Set max height for scrolling, without stretching carousel to full viewport
+                         main.style.minHeight = `calc(100vh - ${headerHeight + footerHeight}px)`;
+                         main.style.overflowY = 'auto';
+                    }
+               }
+
+               // Run on page load and on window resize
+               document.addEventListener('DOMContentLoaded', updateContentPadding);
+               window.addEventListener('resize', updateContentPadding);
+
           </script>
      </body>
 </html>
