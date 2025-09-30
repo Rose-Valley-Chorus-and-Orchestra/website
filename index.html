@@ -26,14 +26,71 @@
      </head>
      <body>
           
-        <!-- Load header -->
-        <div id="headerContainer" hx-get="/components/header.html" hx-trigger="load"></div>
+          <!-- Load header -->
+          <header>
+               <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+                    <div class="container-fluid">
+                         <!-- Logo/Home link -->
+                         <a class="navbar-brand" href="#" hx-get="home.html" hx-target="#content" hx-push-url="true">Rose Valley Chorus & Orchestra</a>
 
-        <!-- Content area -->
-        <main id="content" hx-get="home.html" hx-trigger="load"></main>
 
-        <!-- Load footer -->
-        <div id="footerContainer" hx-get="/components/footer.html" hx-trigger="load"></div>
+                         <!-- Hamburger toggler -->
+                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                         </button>
+
+                         <!-- Navbar links -->
+                         <div class="collapse navbar-collapse" id="navbarCollapse">
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                   <a class="nav-link active" href="#" hx-get="home.html" hx-target="#content" hx-push-url="true">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="#" hx-get="about.html" hx-target="#content" hx-push-url="true">About Us</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="#" hx-get="tickets.html" hx-target="#content" hx-push-url="true">Tickets</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="#" hx-get="venue.html" hx-target="#content" hx-push-url="true">Venue</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="#" hx-get="auditions.html" hx-target="#content" hx-push-url="true">Auditions</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="#" hx-get="contact.html" hx-target="#content" hx-push-url="true">Contact Us</a>
+                              </li>
+                         </ul>
+
+
+                         <!-- Login button -->
+                         <form class="d-flex">
+                              <button class="btn btn-outline-success" type="submit">Log In</button>
+                         </form>
+                         </div>
+                    </div>
+               </nav>
+          </header>
+
+          <!-- Content area -->
+          <main id="content" hx-get="home.html" hx-trigger="load"></main>
+
+          <!-- Load footer -->
+          <footer class="footer mt-auto py-3 bg-dark">
+               <div class="bottomLinks">
+                    <span>
+                         <a href="Venue.php" title="Get directions to our theater">Directions</a>
+                    </span> 
+                    <span>
+                         <a href="productionHistory_new.php" title="See our complete history of shows">Production History</a>
+                    </span> 
+                    <span>
+                         <a href="Contacts.php" alt="Contact Us" title="Go a page with our address, phone number and email addresses to contact us" >Contact Us</a>
+                    </span>
+               </div>
+               <div class="siteInfo">&copy; 2025 Rose Valley Chorus and Orchestra</div>
+          </footer>
 
         <!-- JS for Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
