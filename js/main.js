@@ -1,8 +1,9 @@
+// Load header dynamically
 async function loadHeader() {
   const headerHtml = await fetch('/components/header.html').then(r => r.text());
   document.getElementById('headerContainer').innerHTML = headerHtml;
 
-  // attach nav listeners
+  // Attach click listeners to nav links
   document.querySelectorAll('[data-page]').forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
@@ -13,11 +14,13 @@ async function loadHeader() {
   });
 }
 
+// Load footer dynamically
 async function loadFooter() {
   const footerHtml = await fetch('/components/footer.html').then(r => r.text());
   document.getElementById('footerContainer').innerHTML = footerHtml;
 }
 
+// Load page content dynamically
 function loadPageContent(page) {
   fetch(`/${page}.html`)
     .then(r => {
@@ -25,15 +28,7 @@ function loadPageContent(page) {
       return r.text();
     })
     .then(html => {
-      const mainContent = document.getElementById('content');
-      mainContent.innerHTML = html;
-
-      // --- NEW: Reset carousel to first slide if it exists ---
-      const carouselEl = mainContent.querySelector('.carousel');
-      if (carouselEl) {
-        const carousel = new bootstrap.Carousel(carouselEl);
-        carousel.to(0); // reset to first slide
-      }
+      document.getElementById('content').innerHTML = html;
     })
     .catch(err => {
       document.getElementById('content').innerHTML =
@@ -41,13 +36,13 @@ function loadPageContent(page) {
     });
 }
 
-// handle back/forward buttons
+// Handle browser back/forward buttons
 window.addEventListener('popstate', e => {
   const page = e.state?.page || 'home';
   loadPageContent(page);
 });
 
-// initialize SPA
+// Initialize SPA
 document.addEventListener('DOMContentLoaded', async () => {
   await loadHeader();
   await loadFooter();
