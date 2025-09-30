@@ -157,3 +157,9 @@ footer {
 .ticketBtn{
   width: 15rem;
 }
+
+.imgCurved{
+  height: 300px;
+  border-radius: 50px 100px;
+  margin-left: auto;
+}
