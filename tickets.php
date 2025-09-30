@@ -50,15 +50,15 @@
 
                         <p>All tickets are general admission and good for <strong><em>any</em></strong> performance.</p>
                         <div class="row">
-                            <div class="col-12">
-                                <table class="table table-borderless">
+                            <div class="col-12 ticketSec">
+                                <table class="table table-borderless ticketTable">
                                     <tr>
                                         <td></td>
                                         <td>Adult</td>
                                         <td>$25.00</td>
                                     </tr>
                                     <tr>
-                                        <td>Ticket Prices</td>
+                                        <td><strong>Ticket Prices</strong></td>
                                         <td>Senior (60+)/Student</td>
                                         <td>$20.00</td>
                                     </tr>
