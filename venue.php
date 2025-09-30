@@ -16,12 +16,12 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
                         <h2>Strath Haven Middle School</h2>
                         <img src="images/SHMS-Pictures-146.jpg" alt="Strath Haven Middle School" title="Outside of Strath Haven Middle School"  class="img-thumbnail imgCurved"/>
                         <p>We are grateful to perform this season at <a href="http://www.wssd.org/shms/site/default.asp" target="_blank">Strath Haven Middle School</a> at 200 South Providence Road, Wallingford, PA 19086.</p>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
                         <h2>Strath Haven Middle School Theater</h2>
                         <img src="images/WEB Theater view.jpg" alt="Strath Haven Middle School theater" title="Inside View of Strath Haven Middle School theater" class="img-thumbnail imgCurved" /> 
                         <p>The theater offers:
