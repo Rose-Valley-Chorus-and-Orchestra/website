@@ -29,14 +29,18 @@
 
           <!-- Main content -->
         <main>
-            <section>
-                <h2 class="noDisplay">Main Content</h2>
-                            <article class="left_article">
-                                        <h1 id="pageName">TICKETS</h1>
-                                        <h2 class="storyHead" style="visibility: hidden;"><i>State Fair</i></h2>
-                                        <div style="margin: 20px;"><img style="background-color: white;  max-width: 800px;margin-left: auto;margin-right: auto;" src="gondoliers/logo/Gondoliers logo.webp" alt="The State Fair logo" class="img-responsive" name="statefair"  title="" hspace="0" vspace="0" /></div>
-
-                                        <div id="tickets">
+            <div class="container">
+                <div class="row mt-3">
+                    <div class="col-12 text-end">
+                        <h1 class="display-3">Tickets</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-12">
+                        <img style="background-color: white;  max-width: 800px;margin-left: auto;margin-right: auto;" src="gondoliers/logo/Gondoliers logo.webp" alt="The State Fair logo" class="img-responsive" name="statefair"  title="" hspace="0" vspace="0" />
+                    </div>
+                    <div class="col-6 col-md-12">
+                        <div id="tickets">
                                             <p style="max-width: 800px;margin-left: auto;margin-right: auto;font-size: 1.1em;color:#003366;"><b>Are you looking for a gift idea? Tickets make a great present.</b></p>
                                                             <p class="ticketsButton"><a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to Glbert & Sullivan's The Gondoliers" href="https://www.zeffy.com/ticketing/the-gondoliers-tickets">Buy Tickets</a></p>
                                                             <p>Peformances are at <a href="Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
@@ -68,8 +72,9 @@
             End of Inclement Weather Cancelatio message -->	  
 
                                         </div>
-                                </article>
-            </section>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <!-- Footer -->
