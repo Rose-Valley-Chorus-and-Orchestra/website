@@ -49,7 +49,7 @@
                         <p>Peformances are at <a href="Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
 
                         <p>All tickets are general admission and good for <strong><em>any</em></strong> performance.</p>
-                        <span class="">Ticket Prices</span>
+                        <span class=""><strong>Ticket Prices</strong></span>
                         <ul class="list-unstyled ticketsML">
                             <li>Adult - $25.00</li>
                             <li>Senior (60+)/Student - $20.00</li>
