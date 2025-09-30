@@ -48,6 +48,11 @@ main {
   overflow-y: auto;            /* scrollable content */
 }
 
+main#content {
+  padding-top: var(--header-height, 0px);
+  padding-bottom: var(--footer-height, 0px);
+}
+
 /* Fixed footer */
 footer {
   position: fixed;
