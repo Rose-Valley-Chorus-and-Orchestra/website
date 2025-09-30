@@ -27,13 +27,13 @@
      <body>
           
         <!-- Load header -->
-        <div id="headerContainer" hx-get="/components/header.html" hx-trigger="load"></div>
+        <div id="headerContainer" hx-get="/components/header.html" hx-trigger="load" hx-swap="outerHTML"></div>
 
         <!-- Content area -->
         <main id="content" hx-get="home.html" hx-trigger="load"></main>
 
         <!-- Load footer -->
-        <div id="footerContainer" hx-get="/components/footer.html" hx-trigger="load"></div>
+        <div id="footerContainer" hx-get="/components/footer.html" hx-trigger="load" hx-swap="outerHTML"></div>
 
         <!-- JS for Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -43,7 +43,6 @@
 
         <!-- JS for dynamic padding -->
      <script>
-          
           // Optionally, also update padding after HTMX content swap
           document.body.addEventListener('htmx:afterSwap', (event) => {
                if (event.target.id === 'content') {
@@ -66,6 +65,12 @@
           }
 
           window.addEventListener('resize', updateContentPadding);
+
+          window.addEventListener('load', function() {
+               // Manually trigger HTMX for header and footer reload
+               htmx.trigger(document.getElementById('headerContainer'), 'load');
+               htmx.trigger(document.getElementById('footerContainer'), 'load');
+          });
      </script>
      </body>
 </html>
