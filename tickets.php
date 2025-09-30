@@ -30,7 +30,7 @@
           <!-- Main content -->
         <main>
             <div class="container">
-                <div class="row mt-4">
+                <div class="row mt-4 slide-in-right">
                     <div class="col-12 text-end">
                         <h1 class="display-3">Tickets</h1>
                     </div>

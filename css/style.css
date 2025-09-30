@@ -136,3 +136,19 @@ footer {
 .ticketsML{
   margin-left: 4rem;
 }
+
+/* Initial state: off-screen to the right */
+.slide-in-right {
+    transform: translateX(100%);
+    opacity: 0;
+    animation: slideInRight 1s forwards;
+    animation-timing-function: ease-out;
+}
+
+/* Keyframes for the animation */
+@keyframes slideInRight {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
