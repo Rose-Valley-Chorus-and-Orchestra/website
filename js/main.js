@@ -52,6 +52,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
     //load page content dynamically based on the page name
     function loadPageContent(page){
-        fetch('/${page}.html').then(response => response.text()).then(data => document.getElementById('content').innerHTML = data);
+        fetch(`/${page}.html`).then(response => response.text()).then(data => document.getElementById('content').innerHTML = data);
     }
 })
