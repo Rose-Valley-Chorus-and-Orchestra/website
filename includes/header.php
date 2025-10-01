@@ -17,7 +17,7 @@
           <li class="nav-item"><a class="nav-link <?php if(basename($_SERVER['PHP_SELF'])=='contact.php'){echo 'active';} ?>" href="contact.php">Contact Us</a></li>
         </ul>
         <form class="d-flex">
-          <button class="btn btn-outline-success" type="button">Log In</button>
+          <button class="btn btn-outline-success" type="button" id="loginBtn">Log In</button>
         </form>
       </div>
     </div>

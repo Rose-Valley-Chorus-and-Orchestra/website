@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const faders = document.querySelectorAll('.fade-in-up');
+    const loginBtn = document.getElementById('loginBtn');
 
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
@@ -15,4 +16,12 @@ document.addEventListener("DOMContentLoaded", () => {
     faders.forEach(fader => {
         observer.observe(fader);
     });
+
+    if(loginBtn){
+        loginBtn.addEventListener("click", function(){
+            alert("Log In clicked from main.js");
+        });
+    }
 });
+
+document.getElementById()
