@@ -19,7 +19,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if(loginBtn){
         loginBtn.addEventListener("click", function(){
-            alert("Log In clicked from main.js");
+            FileSystemWritableFileStream.fire({
+                title: 'Members Login',
+                html: `
+                    <input type="text" id="email" class="swal2-input" placeholder="Email Address">
+                    <input type="password" id="password" class="swal2-input" placeholder="Password">
+                `,
+                confirmButtonText: 'Log In',
+                focusConfirm: false,
+                preConfirm: () => {
+                    const email = Swal.getPopup().querySelector('#email').value;
+                    const password = Swal.getPopup().querySelector('#password').value;
+
+                    if (!email || !password) {
+                        Swal.showValidationMessage(`Please enter both email and password`);
+                    }
+                    return { email: email, password: password };
+                }
+            }).then((results) => {
+                if(results.isConfirmed){
+                    Swal.fire(`Email: ${results.value.email}`);
+                }
+            });
         });
     }
 });
