@@ -35,11 +35,11 @@
                </div>
 
                <!-- Marketing / donate & sponsor -->
-               <div class="container marketing fade-in-up">
+               <div class="container marketing">
                     <div class="row text-center donateSec">
                          <span><strong>Please consider helping us keep live musical theater in the community</strong></span>
                     </div>
-                    <div class="row">
+                    <div class="row fade-in-up">
                          <div class="col-lg-6 text-center mb-3">
                               <img class="rounded-circle" width="140" height="140" src="/images/donateIcon.png">
                               <h2>Donate</h2>
