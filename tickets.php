@@ -7,13 +7,13 @@
           <!-- Main content -->
         <main>
             <div class="container">
-                <div class="row slide-in-right">
+                <div class="row mt-3 slide-in-right">
                     <div class="col-12 text-end">
                         <h1 class="display-3">Tickets</h1>
                     </div>
                 </div>
                 <div class="row mt-4 mb-4">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center mb-4">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ticketImg mb-4">
                         <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-fluid" name="gondoliers" />
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">

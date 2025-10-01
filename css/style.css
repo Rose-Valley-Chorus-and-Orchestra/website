@@ -184,3 +184,8 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+.ticketImg{
+  display: grid;
+  place-items: center;
+}
