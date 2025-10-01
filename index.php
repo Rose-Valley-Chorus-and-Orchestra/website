@@ -35,7 +35,7 @@
                </div>
 
                <!-- Marketing / donate & sponsor -->
-               <div class="container marketing">
+               <div class="container marketing fade-in-up">
                     <div class="row text-center donateSec">
                          <span><strong>Please consider helping us keep live musical theater in the community</strong></span>
                     </div>
@@ -59,8 +59,7 @@
           <!-- Footer -->
           <?php include 'includes/footer.php'; ?>
 
-          <!-- Bootstrap JS -->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+          <?php include 'includes/scripts.php'; ?>
      </body>
 
      </body>

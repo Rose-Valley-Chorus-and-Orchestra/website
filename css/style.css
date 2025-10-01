@@ -171,3 +171,16 @@ footer {
   border-radius: 50px 100px;
   margin-left: auto;
 }
+
+/* Base state: hidden, moved down */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Active state: visible and in place */
+.fade-in-up.active {
+    opacity: 1;
+    transform: translateY(0);
+}
