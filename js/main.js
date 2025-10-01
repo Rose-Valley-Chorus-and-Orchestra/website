@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if(loginBtn){
         loginBtn.addEventListener("click", function(){
-            FileSystemWritableFileStream.fire({
+            Swal.fire({
                 title: 'Members Login',
                 html: `
                     <input type="text" id="email" class="swal2-input" placeholder="Email Address">
