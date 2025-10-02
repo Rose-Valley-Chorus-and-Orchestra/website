@@ -16,13 +16,13 @@
                          <div class="carousel-item active">
                               <img src="images/gondoliers_carousel.png" class="d-block w-100" alt="The Gondoliers">
                               <div class="carousel-caption text-end">
-                                   <p><a class="btn btn-sm btn-primary" href="#">Learn More</a></p>
+                                   <p><a class="btn btn-sm btn-primary" href="fall_show.php">Learn More</a></p>
                               </div>
                          </div>
                          <div class="carousel-item">
                               <img src="images/h2s_carousel.png" class="d-block w-100" alt="How To Succeed In Business Without Really Trying">
                               <div class="carousel-caption text-end">
-                                   <p><a class="btn btn-sm btn-primary" href="#">Learn More</a></p>
+                                   <p><a class="btn btn-sm btn-primary" href="spring_show.php">Learn More</a></p>
                               </div>
                          </div>
                     </div>
@@ -60,7 +60,5 @@
           <?php include 'includes/footer.php'; ?>
 
           <?php include 'includes/scripts.php'; ?>
-     </body>
-
      </body>
 </html>
