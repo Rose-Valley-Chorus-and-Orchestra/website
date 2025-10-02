@@ -74,8 +74,8 @@ function loginUser($pdo) {
 }
 
 function signupUser($pdo) {
-    $fName = isset($_POST['fName']) ? $_POST['fName'] : '';
-    $lName = isset($_POST['lName']) ? $_POST['lName'] : '';
+    $fName = isset($_POST['fname']) ? $_POST['fname'] : '';
+    $lName = isset($_POST['lname']) ? $_POST['lname'] : '';
     $email = isset($_POST['email']) ? $_POST['email'] : '';
     $emailConfirm = isset($_POST['emailConfirm']) ? $_POST['emailConfirm'] : '';
     $password = isset($_POST['password']) ? $_POST['password'] : '';
