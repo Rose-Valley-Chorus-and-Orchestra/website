@@ -1,3 +1,13 @@
+<?php
+// header.php
+session_start();
+
+// generate CSRF token if not exists
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+?>
+
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -22,4 +32,9 @@
       </div>
     </div>
   </nav>
+
+  <script>
+        // Make the token globally available to JS
+        window.csrfToken = "<?= htmlspecialchars($_SESSION['csrf_token'], ENT_QUOTES, 'UTF-8') ?>";
+    </script>
 </header>
