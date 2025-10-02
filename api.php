@@ -1,5 +1,4 @@
 <?php
-define('API_REQUEST', true);
 require_once __DIR__ . '/init/init.php';
 
 // ---------------- Debug Mode (shows PHP errors in browser) ----------------
@@ -10,17 +9,16 @@ ini_set('display_errors', 1);
 header('Content-Type: application/json');
 
 // Read POST JSON input
-$input = json_decode(file_get_contents('php://input'), true);
-$action = isset($input['action']) ? $input['action'] : null;
-
-// CSRF check
-if (!isset($input['csrf_token']) || $input['csrf_token'] !== $_SESSION['csrf_token']) {
-    echo json_encode(["success" => false, "message" => "CSRF token mismatch"]);
+$action = isset($_POST['action']) ? $_POST['action'] : null;
+if(!$action) {
+    echo json_encode(array("success"=>false,"message"=>"No action specified."));
     exit;
 }
 
-if (!$action) {
-    echo json_encode(["success" => false, "message" => "No action specified."]);
+// CSRF check
+$csrf = isset($_POST['csrf_token']) ? $_POST['csrf_token'] : '';
+if(empty($csrf) || $csrf !== $_SESSION['csrf_token']) {
+    echo json_encode(array("success"=>false,"message"=>"CSRF token mismatch"));
     exit;
 }
 
@@ -54,9 +52,9 @@ try{
 
 // ---------------- Functions ----------------
 
-function loginUser($pdo, $input) {
-    $email = isset($input['email']) ? $input['email'] : '';
-    $password = isset($input['password']) ? $input['password'] : '';
+function loginUser($pdo) {
+    $email = isset($_POST['email']) ? $_POST['email'] : '';
+    $password = isset($_POST['password']) ? $_POST['password'] : '';
 
     if (!$email || !$password) {
         echo json_encode(["success" => false, "message" => "Missing email or password."]);
@@ -75,12 +73,12 @@ function loginUser($pdo, $input) {
     }
 }
 
-function signupUser($pdo, $input) {
-    $fName = isset($input['fName']) ? $input['fName'] : '';
-    $lName = isset($input['lName']) ? $input['lName'] : '';
-    $email = isset($input['email']) ? $input['email'] : '';
-    $emailConfirm = isset($input['emailConfirm']) ? $input['emailConfirm'] : '';
-    $password = isset($input['password']) ? $input['password'] : '';
+function signupUser($pdo) {
+    $fName = isset($_POST['fName']) ? $_POST['fName'] : '';
+    $lName = isset($_POST['lName']) ? $_POST['lName'] : '';
+    $email = isset($_POST['email']) ? $_POST['email'] : '';
+    $emailConfirm = isset($_POST['emailConfirm']) ? $_POST['emailConfirm'] : '';
+    $password = isset($_POST['password']) ? $_POST['password'] : '';
 
     if (!$fName || !$lName || !$email || !$emailConfirm || !$password) {
         echo json_encode(["success" => false, "message" => "All fields are required."]);
@@ -101,7 +99,7 @@ function signupUser($pdo, $input) {
         }
 
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-        $stmt = $pdo->prepare("INSERT INTO members (fname, lname, email, password, created_at) VALUES (?, ?, ?, ?, NOW())");
+        $stmt = $pdo->prepare("INSERT INTO members (fname, lname, email, password) VALUES (?, ?, ?, ?)");
         $stmt->execute([$fName, $lName, $email, $hashedPassword]);
 
         echo json_encode(["success" => true, "message" => "Signup successful!"]);

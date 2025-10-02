@@ -43,10 +43,6 @@ if (empty($_SESSION['csrf_token'])) {
     }
 }
 
-// Expose CSRF token only if not an API request
-if (!defined('API_REQUEST')) {
-    echo "<script>window.csrfToken = '{$_SESSION['csrf_token']}';</script>";
-}
 
 // ----------------- RATE LIMIT -----------------
 define('RATE_LIMIT_STORE', sys_get_temp_dir() . '/rvco_rate_limit.json');
