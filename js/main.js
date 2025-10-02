@@ -19,8 +19,9 @@ function showLoginPopup() {
             });
         },
         preConfirm: () => {
-            const email = Swal.getPopup().querySelector('#email').value.trim();
-            const password = Swal.getPopup().querySelector('#password').value.trim();
+            const popup = Swal.getPopup();
+            const email = popup.querySelector('#email').value.trim();
+            const password = popup.querySelector('#password').value.trim();
 
             if (!email || !password) {
                 Swal.showValidationMessage('Please enter both email and password');
@@ -78,11 +79,12 @@ function showSignupPopup() {
         confirmButtonText: 'Create Account',
         focusConfirm: false,
         preConfirm: () => {
-            const fName = document.getElementById('fname').value.trim();
-            const lName = document.getElementById('lname').value.trim();
-            const email = document.getElementById('email').value.trim();
-            const emailConfirm = document.getElementById('emailConfirm').value.trim();
-            const password = document.getElementById('password').value.trim();
+            const popup = Swal.getPopup();
+            const fName = popup.querySelector('#fname').value.trim();
+            const lName = popup.querySelector('#lname').value.trim();
+            const email = popup.querySelector('#email').value.trim();
+            const emailConfirm = popup.querySelector('#emailConfirm').value.trim();
+            const password = popup.querySelector('#password').value.trim();
 
             if (!fName || !lName || !email || !emailConfirm || !password) {
                 Swal.showValidationMessage('All fields are required');
