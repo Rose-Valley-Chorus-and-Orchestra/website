@@ -22,8 +22,8 @@ $dsn = "mysql:host={$config['host']};dbname={$config['dbname']};charset={$config
 try {
     $pdo = new PDO(
         $dsn,
-        $config['user'],
-        $config['pass'],
+        $config['db_user'],
+        $config['db_pass'],
         [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
