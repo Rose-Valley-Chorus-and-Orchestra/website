@@ -87,7 +87,7 @@ function showSignupPopup() {
                 Swal.showValidationMessage(`Password must be at least 12 characters`);
             }
 
-            return { fName, lName, email, password };
+            return { fName, lName, email, emailConfirm, password };
         }
     }).then((result) => {
         if (result.isConfirmed) {
@@ -99,6 +99,7 @@ function showSignupPopup() {
                     fname: result.value.fName,
                     lname: result.value.lName,
                     email: result.value.email,
+                    emailConfirm: result.value.emailConfirm,
                     password: result.value.password,
                     csrf_token: window.CSRF_TOKEN
                 })
