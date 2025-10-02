@@ -61,11 +61,13 @@ function loginUser($pdo) {
 }
 
 function signupUser($pdo) {
+    $fName = $_POST['fName'] ?? '';
+    $lName = $_POST['lName'] ?? '';
     $email = $_POST['email'] ?? '';
     $emailConfirm = $_POST['emailConfirm'] ?? '';
     $password = $_POST['password'] ?? '';
 
-    if (!$email || !$emailConfirm || !$password) {
+    if (!$fName || !$lName ||!$email || !$emailConfirm || !$password) {
         echo json_encode(["success" => false, "message" => "All fields are required."]);
         return;
     }
@@ -86,8 +88,8 @@ function signupUser($pdo) {
     // Hash password
     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
-    $stmt = $pdo->prepare("INSERT INTO members (email, password) VALUES (?, ?)");
-    $stmt->execute([$email, $hashedPassword]);
+    $stmt = $pdo->prepare("INSERT INTO members (fname, lname, email, password) VALUES (?,?,?,?)");
+    $stmt->execute([$fName, $lName, $email, $hashedPassword]);
 
     echo json_encode(["success" => true, "message" => "Signup successful!"]);
 }
