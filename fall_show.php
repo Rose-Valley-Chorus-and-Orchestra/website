@@ -17,7 +17,7 @@
                         <div class="row">
                             <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-fluid" name="gondoliers" />
                         </div>
-                        <div class="row mt-4">
+                        <div class="row mt-4 ticketImg">
                             <div class="col-12">
                                 <h4><strong>Synopsis</strong></h4>
                                 <p>
