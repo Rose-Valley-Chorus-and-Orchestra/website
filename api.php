@@ -24,7 +24,7 @@ if (empty($_POST['csrf_token']) || $_POST['csrf_token'] !== $_SESSION['csrf_toke
 }
 
 // Read action from AJAX
-$action = $_POST['action'] ?? null;
+$action = isset($_POST['action']) ? $_POST['action'] : null;
 
 if (!$action) {
     echo json_encode(["success" => false, "message" => "No action specified."]);
@@ -61,8 +61,8 @@ try{
 // ---------------- Functions ----------------
 
 function loginUser($pdo) {
-    $email = $_POST['email'] ?? '';
-    $password = $_POST['password'] ?? '';
+    $email = isset($_POST['email']) ? $_POST['email'] : null;
+    $password = isset($_POST['password']) ? $_POST['password'] : null;
 
     if (!$email || !$password) {
         echo json_encode(["success" => false, "message" => "Missing email or password."]);
@@ -82,11 +82,11 @@ function loginUser($pdo) {
 }
 
 function signupUser($pdo) {
-    $fName = $_POST['fName'] ?? '';
-    $lName = $_POST['lName'] ?? '';
-    $email = $_POST['email'] ?? '';
-    $emailConfirm = $_POST['emailConfirm'] ?? '';
-    $password = $_POST['password'] ?? '';
+    $fName = isset($_POST['fName']) ? $_POST['fName'] : null;
+    $lName = isset($_POST['lName']) ? $_POST['lName'] : null;
+    $email = isset($_POST['email']) ? $_POST['email'] : null;
+    $emailConfirm = isset($_POST['emailConfirm']) ? $_POST['emailConfirm'] : null;
+    $password = isset($_POST['password']) ? $_POST['password'] : null;
 
     debug_log("Signup attempt: email=$email");
 

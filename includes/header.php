@@ -1,3 +1,9 @@
+<?php
+  // Start session if it hasn't been started yet
+  if (session_id() == '') {
+      session_start();
+  }
+?>
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
