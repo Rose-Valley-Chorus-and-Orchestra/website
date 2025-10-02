@@ -37,22 +37,22 @@
                          <div class="col-lg-3 text-center mb-3">
                               <img class="rounded-circle" width="140" height="140" src="/images/ticketsIcon.png">
                               <h2>Buy Tickets</h2>
-                              <p><a class="btn btn-info" href="https://www.zeffy.com/en-US/donation-form/d9b4ba19-0df8-4869-9aa8-2b7835686f90">Donate</a></p>
+                              <p><a class="btn btn-info" href="https://www.zeffy.com/ticketing/the-gondoliers-tickets">Buy Tickets</a></p>
                          </div>
                          <div class="col-lg-3 text-center mb-3">
                               <img class="rounded-circle" width="140" height="140" src="/images/sponsorIcon.png">
                               <h2>Sponsor</h2>
-                              <p><a class="btn btn-info" href="https://www.zeffy.com/en-US/ticketing/sponsorship-for-the-gondoliers-2">Sponsor</a></p>
+                              <p><a class="btn btn-info" href="https://www.zeffy.com/ticketing/sponsorship-for-the-gondoliers-2">Sponsor</a></p>
                          </div>
                          <div class="col-lg-3 text-center mb-3">
                               <img class="rounded-circle" width="140" height="140" src="/images/adsIcon.png">
                               <h2>PlayBill Ads</h2>
-                              <p><a class="btn btn-info" href="https://www.zeffy.com/en-US/ticketing/sponsorship-for-the-gondoliers-2">Sponsor</a></p>
+                              <p><a class="btn btn-info" href="https://rvco.org/Ads.php">Playbill Ads</a></p>
                          </div>
                          <div class="col-lg-3 text-center mb-3">
                               <img class="rounded-circle" width="140" height="140" src="/images/castIcon.png">
                               <h2>Cast</h2>
-                              <p><a class="btn btn-info" href="https://www.zeffy.com/en-US/ticketing/sponsorship-for-the-gondoliers-2">Sponsor</a></p>
+                              <p><a class="btn btn-info" href="https://rvco.org/gondoliers/GONDOLIERS25cast.php">Cast</a></p>
                          </div>
                     </div>
                </div>
