@@ -13,11 +13,11 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
                         <div class="row">
                             <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-fluid" name="gondoliers" />
                         </div>
-                        <div class="row mt-4 ticketImg">
+                        <div class="row mt-4 ">
                             <div class="col-12">
                                 <h4><strong>Synopsis</strong></h4>
                                 <p>
