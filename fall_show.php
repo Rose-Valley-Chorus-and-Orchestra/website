@@ -17,9 +17,9 @@
                         <div class="row">
                             <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-fluid" name="gondoliers" />
                         </div>
-                        <div class="row">
+                        <div class="row mt-4">
                             <div class="col-12">
-                                <strong>Synopsis</strong>
+                                <h4><strong>Synopsis</strong></h4>
                                 <p>
                                     Marco and Giuseppe Palmieri, Venetian gondoliers, are told that one of them is the heir to the throne of Barataria. Until it is 
                                     determined which one is the new king, the brothers must rule together. Complicating matters, the brothers have not only recently
