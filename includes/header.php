@@ -1,7 +1,17 @@
 <?php
   // Start session if it hasn't been started yet
-  if (session_id() == '') {
-      session_start();
+  if (session_id() == '') session_start();
+
+  // Only output CSRF token for page rendering, not AJAX
+  if (!defined('API_REQUEST')) {
+      if (empty($_SESSION['csrf_token'])) {
+          if (function_exists('openssl_random_pseudo_bytes')) {
+              $_SESSION['csrf_token'] = bin2hex(openssl_random_pseudo_bytes(32));
+          } else {
+              $_SESSION['csrf_token'] = md5(uniqid(mt_rand(), true));
+          }
+      }
+      echo "<script>window.csrfToken = '{$_SESSION['csrf_token']}';</script>";
   }
 ?>
 <header>
@@ -28,8 +38,4 @@
       </div>
     </div>
   </nav>
-
-  <script>
-        window.csrfToken = "<?php echo $_SESSION['csrf_token']; ?>";
-    </script>
 </header>

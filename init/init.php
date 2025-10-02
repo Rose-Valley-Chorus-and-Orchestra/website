@@ -13,8 +13,8 @@ function debug_log($message) {
 }
 
 
-// Load DB credentials
-$config = require __DIR__ . '/creds.php';
+// Load DB credentials from outside test folder
+$config = require '/home/rvco/config/creds.php';
 
 // Build DSN
 $dsn = "mysql:host={$config['host']};dbname={$config['dbname']};charset={$config['charset']}";
@@ -35,11 +35,18 @@ try {
 
 // Generate CSRF token if not exists
 if (empty($_SESSION['csrf_token'])) {
-    $_SESSION['csrf_token'] = bin2hex(openssl_random_pseudo_bytes(32));
+    if (function_exists('openssl_random_pseudo_bytes')) {
+        $_SESSION['csrf_token'] = bin2hex(openssl_random_pseudo_bytes(32));
+    } else {
+        // Fallback for older PHP versions
+        $_SESSION['csrf_token'] = md5(uniqid(mt_rand(), true));
+    }
 }
 
-// Expose CSRF token to JS
-echo "<script>window.csrfToken = '{$_SESSION['csrf_token']}';</script>";
+// Expose CSRF token only if not an API request
+if (!defined('API_REQUEST')) {
+    echo "<script>window.csrfToken = '{$_SESSION['csrf_token']}';</script>";
+}
 
 // ----------------- RATE LIMIT -----------------
 define('RATE_LIMIT_STORE', sys_get_temp_dir() . '/rvco_rate_limit.json');

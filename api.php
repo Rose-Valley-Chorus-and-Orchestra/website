@@ -1,4 +1,5 @@
 <?php
+define('API_REQUEST', true);
 require_once __DIR__ . '/init/init.php';
 
 // ---------------- Debug Mode (shows PHP errors in browser) ----------------
@@ -8,12 +9,13 @@ ini_set('display_errors', 1);
 // ---------------- Force JSON Response ----------------
 header('Content-Type: application/json');
 
-// Read action from AJAX
-$action = isset($_POST['action']) ? $_POST['action'] : null;
+// Read POST JSON input
+$input = json_decode(file_get_contents('php://input'), true);
+$action = isset($input['action']) ? $input['action'] : null;
 
-// Validate CSRF token
-if (!isset($_POST['csrf_token']) || $_POST['csrf_token'] !== $_SESSION['csrf_token']) {
-    echo json_encode(["success" => false, "message" => "Invalid CSRF token."]);
+// CSRF check
+if (!isset($input['csrf_token']) || $input['csrf_token'] !== $_SESSION['csrf_token']) {
+    echo json_encode(["success" => false, "message" => "CSRF token mismatch"]);
     exit;
 }
 
@@ -52,72 +54,55 @@ try{
 
 // ---------------- Functions ----------------
 
-function loginUser($pdo) {
-    $email = isset($_POST['email']) ? trim($_POST['email']) : null;
-    $password = isset($_POST['password']) ? $_POST['password'] : null;
+function loginUser($pdo, $input) {
+    $email = isset($input['email']) ? $input['email'] : '';
+    $password = isset($input['password']) ? $input['password'] : '';
 
     if (!$email || !$password) {
         echo json_encode(["success" => false, "message" => "Missing email or password."]);
         return;
     }
 
-    $stmt = $pdo->prepare("SELECT id, fname, lname, password FROM members WHERE email = ?");
-    $stmt->execute(array($email));
-    $user = $stmt->fetch(PDO::FETCH_ASSOC);
+    $stmt = $pdo->prepare("SELECT id, password, fname, lname FROM members WHERE email = ?");
+    $stmt->execute([$email]);
+    $user = $stmt->fetch();
 
     if ($user && password_verify($password, $user['password'])) {
         $_SESSION['user_id'] = $user['id'];
-        echo json_encode([
-            "success" => true,
-            "message" => "Login successful.",
-            "user" => [
-                "id" => $user['id'],
-                "name" => $user['fname'] . " " . $user['lname']
-            ]
-        ]);
+        echo json_encode(["success" => true, "message" => "Login successful.", "user" => ["name" => $user['fname'] . ' ' . $user['lname']]]);
     } else {
         echo json_encode(["success" => false, "message" => "Invalid credentials."]);
     }
 }
 
-function signupUser($pdo) {
-    $fName = isset($_POST['fName']) ? trim($_POST['fName']) : null;
-    $lName = isset($_POST['lName']) ? trim($_POST['lName']) : null;
-    $email = isset($_POST['email']) ? trim($_POST['email']) : null;
-    $emailConfirm = isset($_POST['emailConfirm']) ? trim($_POST['emailConfirm']) : null;
-    $password = isset($_POST['password']) ? $_POST['password'] : null;
+function signupUser($pdo, $input) {
+    $fName = isset($input['fName']) ? $input['fName'] : '';
+    $lName = isset($input['lName']) ? $input['lName'] : '';
+    $email = isset($input['email']) ? $input['email'] : '';
+    $emailConfirm = isset($input['emailConfirm']) ? $input['emailConfirm'] : '';
+    $password = isset($input['password']) ? $input['password'] : '';
 
-    debug_log("Signup attempt: email=$email");
-
-    if (!$fName || !$lName ||!$email || !$emailConfirm || !$password) {
-        debug_log("Signup attempt: email=$email");
+    if (!$fName || !$lName || !$email || !$emailConfirm || !$password) {
         echo json_encode(["success" => false, "message" => "All fields are required."]);
         return;
     }
 
     if ($email !== $emailConfirm) {
-        debug_log("Signup failed: emails do not match");
         echo json_encode(["success" => false, "message" => "Emails do not match."]);
         return;
     }
 
-    try{
-        // Check if email exists
+    try {
         $stmt = $pdo->prepare("SELECT id FROM members WHERE email = ?");
         $stmt->execute([$email]);
         if ($stmt->fetch()) {
-            debug_log("Signup failed: email exists");
             echo json_encode(["success" => false, "message" => "Email already registered."]);
             return;
         }
 
-        // Hash password
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-
-        $stmt = $pdo->prepare("INSERT INTO members (fname, lname, email, password) VALUES (?,?,?,?)");
+        $stmt = $pdo->prepare("INSERT INTO members (fname, lname, email, password, created_at) VALUES (?, ?, ?, ?, NOW())");
         $stmt->execute([$fName, $lName, $email, $hashedPassword]);
-
-        debug_log("Signup success: $email");
 
         echo json_encode(["success" => true, "message" => "Signup successful!"]);
     } catch (Throwable $e) {
@@ -125,7 +110,6 @@ function signupUser($pdo) {
         http_response_code(500);
         echo json_encode(["success" => false, "message" => "Database error"]);
     }
-    
 }
 
 function logoutUser() {

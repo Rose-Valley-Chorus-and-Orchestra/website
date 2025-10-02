@@ -51,6 +51,14 @@ function showLoginPopup() {
                         text: data.message || "Invalid credentials"
                     });
                 }
+            })
+            .catch(err => {
+                Swal.fire({
+                    icon: "error",
+                    title: "Error",
+                    text: "Could not reach server. Try again later."
+                });
+                console.error(err);
             });
         }
     });
@@ -120,6 +128,14 @@ function showSignupPopup() {
                         text: data.message || "Something went wrong"
                     });
                 }
+            })
+            .catch(err => {
+                Swal.fire({
+                    icon: "error",
+                    title: "Error",
+                    text: "Could not reach server. Try again later."
+                });
+                console.error(err);
             });
         }
     });
