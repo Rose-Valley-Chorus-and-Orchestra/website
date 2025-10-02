@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/init.php';
+require_once __DIR__ . '/init/init.php';
 
 // ---------------- Debug Mode (shows PHP errors in browser) ----------------
 error_reporting(E_ALL);
