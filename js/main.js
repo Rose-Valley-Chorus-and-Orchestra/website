@@ -3,7 +3,7 @@ function showLoginPopup() {
     Swal.fire({
         title: 'Login',
         html: `
-            <input type="text" id="username" class="swal2-input" placeholder="Username">
+            <input type="text" id="email" class="swal2-input" placeholder="Email Address">
             <input type="password" id="password" class="swal2-input" placeholder="Password">
             <p style="margin-top:10px;font-size:0.9em;">
                 New user? <a href="#" id="signupLink">Sign up here</a>
@@ -19,13 +19,13 @@ function showLoginPopup() {
             });
         },
         preConfirm: () => {
-            const username = Swal.getPopup().querySelector('#username').value;
+            const email = Swal.getPopup().querySelector('#email').value;
             const password = Swal.getPopup().querySelector('#password').value;
 
-            if (!username || !password) {
-                Swal.showValidationMessage(`Please enter both username and password`);
+            if (!email || !password) {
+                Swal.showValidationMessage(`Please enter both email and password`);
             }
-            return { username, password };
+            return { email, password };
         }
     }).then((result) => {
         if (result.isConfirmed) {
@@ -34,14 +34,15 @@ function showLoginPopup() {
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                     action: "login",
-                    username: result.value.username,
-                    password: result.value.password
+                    username: result.value.email,
+                    password: result.value.password,
+                    csrf_token: window.CSRF_TOKEN
                 })
             })
             .then(r => r.json())
             .then(data => {
                 if (data.success) {
-                    Swal.fire(`Welcome ${data.user.name}!`);
+                    Swal.fire(`Loading Members`);
                 } else {
                     Swal.fire({
                         icon: "error",
@@ -65,15 +66,20 @@ function showSignupPopup() {
         confirmButtonText: 'Create Account',
         focusConfirm: false,
         preConfirm: () => {
-            const email = Swal.getPopup().querySelector('#email').value;
-            const email2 = Swal.getPopup().querySelector('#email2').value;
-            const password = Swal.getPopup().querySelector('#password').value;
+            const email = document.getElementById('email').value.trim();
+            const emailConfirm = document.getElementById('emailConfirm').value.trim();
+            const password = document.getElementById('password').value.trim();
 
-            if (!email || !email2 || !password) {
+            if (!email || !emailConfirm || !password) {
                 Swal.showValidationMessage(`All fields are required`);
-            } else if (email !== email2) {
+            } else if (email !== emailConfirm) {
                 Swal.showValidationMessage(`Emails do not match`);
+            } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                Swal.showValidationMessage(`Invalid email format`);
+            } else if (password.length < 12) {
+                Swal.showValidationMessage(`Password must be at least 12 characters`);
             }
+
             return { email, password };
         }
     }).then((result) => {
@@ -84,7 +90,8 @@ function showSignupPopup() {
                 body: JSON.stringify({
                     action: "signup",
                     email: result.value.email,
-                    password: result.value.password
+                    password: result.value.password,
+                    csrf_token: window.CSRF_TOKEN
                 })
             })
             .then(r => r.json())
@@ -108,28 +115,22 @@ function showSignupPopup() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+    // Scroll fade-in effect
     const faders = document.querySelectorAll('.fade-in-up');
-    const loginBtn = document.getElementById('loginBtn');
-
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('active');
-                observer.unobserve(entry.target); // only animate once
+                observer.unobserve(entry.target);
             }
         });
-    }, {
-        threshold: 0.2 // trigger when 20% of element is visible
-    });
+    }, { threshold: 0.2 });
+    faders.forEach(fader => observer.observe(fader));
 
-    faders.forEach(fader => {
-        observer.observe(fader);
-    });
-
-    if(loginBtn){
-        loginBtn.addEventListener("click", function(){
-            showLoginPopup();
-        });
+    // Login button
+    const loginBtn = document.getElementById('loginBtn');
+    if (loginBtn) {
+        loginBtn.addEventListener("click", showLoginPopup);
     }
 });
 

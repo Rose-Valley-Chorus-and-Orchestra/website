@@ -4,6 +4,13 @@ require_once __DIR__ . '/init.php';
 // Force JSON response
 header('Content-Type: application/json');
 
+// ----------------- CSRF CHECK -----------------
+$csrf_token = $_POST['csrf_token'] ?? $_SERVER['HTTP_X_CSRF_TOKEN'] ?? '';
+if (!hash_equals($_SESSION['csrf_token'], $csrf_token)) {
+    echo json_encode(["success" => false, "message" => "Invalid CSRF token."]);
+    exit;
+}
+
 // Read action from AJAX
 $action = $_POST['action'] ?? null;
 
@@ -79,7 +86,7 @@ function signupUser($pdo) {
     // Hash password
     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
-    $stmt = $pdo->prepare("INSERT INTO members (email, password, created_at) VALUES (?, ?, NOW())");
+    $stmt = $pdo->prepare("INSERT INTO members (email, password) VALUES (?, ?)");
     $stmt->execute([$email, $hashedPassword]);
 
     echo json_encode(["success" => true, "message" => "Signup successful!"]);
