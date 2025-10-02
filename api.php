@@ -61,11 +61,11 @@ function loginUser($pdo) {
         return;
     }
 
-    $stmt = $pdo->prepare("SELECT id, password, fname, lname FROM members WHERE email = ?");
+    $stmt = $pdo->prepare("SELECT id, pass, fname, lname FROM members WHERE email = ?");
     $stmt->execute([$email]);
     $user = $stmt->fetch();
 
-    if ($user && password_verify($password, $user['password'])) {
+    if ($user && password_verify($password, $user['pass'])) {
         $_SESSION['user_id'] = $user['id'];
         echo json_encode(["success" => true, "message" => "Login successful.", "user" => ["name" => $user['fname'] . ' ' . $user['lname']]]);
     } else {
@@ -99,7 +99,7 @@ function signupUser($pdo) {
         }
 
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-        $stmt = $pdo->prepare("INSERT INTO members (fname, lname, email, password) VALUES (?, ?, ?, ?)");
+        $stmt = $pdo->prepare("INSERT INTO members (fname, lname, email, pass) VALUES (?, ?, ?, ?)");
         $stmt->execute([$fName, $lName, $email, $hashedPassword]);
 
         echo json_encode(["success" => true, "message" => "Signup successful!"]);
