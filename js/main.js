@@ -59,11 +59,8 @@ function showSignupPopup() {
     Swal.fire({
         title: 'Sign Up',
         html: `
-            <div style="display:flex; gap:10px; width:100%;">
-                <input type="text" id="fname" class="swal2-input" placeholder="First Name" style="flex:1;">
-                <input type="text" id="lname" class="swal2-input" placeholder="Last Name" style="flex:1;">
-            </div>
-            
+            <input type="text" id="fname" class="swal2-input" placeholder="First Name">
+            <input type="text" id="lname" class="swal2-input" placeholder="Last Name">
             <input type="email" id="email" class="swal2-input" placeholder="Email">
             <input type="email" id="emailConfirm" class="swal2-input" placeholder="Confirm Email">
             <input type="password" id="password" class="swal2-input" placeholder="Password">
