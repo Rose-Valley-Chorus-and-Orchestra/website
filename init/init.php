@@ -2,9 +2,7 @@
 // init.php
 
 // Start session
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
+if(!session_id()) session_start();
 
 // Simple debug logger (writes to /tmp or your account's tmp folder)
 function debug_log($message) {
@@ -14,10 +12,6 @@ function debug_log($message) {
     file_put_contents($file, "[$date] $msg\n", FILE_APPEND);
 }
 
-// Generate CSRF token if not set
-if (empty($_SESSION['csrf_token'])) {
-    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
-}
 
 // Load DB credentials
 $config = require __DIR__ . '/creds.php';
@@ -36,19 +30,16 @@ try {
         ]
     );
 } catch (PDOException $e) {
-    http_response_code(500);
-    echo json_encode([
-        "success" => false,
-        "message" => "Database connection failed."
-    ]);
-    exit;
+    die("Database connection failed: " . $e->getMessage());
 }
 
-// ----------------- CSRF TOKEN -----------------
-if (!isset($_SESSION['csrf_token'])) {
-    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+// Generate CSRF token if not exists
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(openssl_random_pseudo_bytes(32));
 }
-define('CSRF_TOKEN', $_SESSION['csrf_token']);
+
+// Expose CSRF token to JS
+echo "<script>window.csrfToken = '{$_SESSION['csrf_token']}';</script>";
 
 // ----------------- RATE LIMIT -----------------
 define('RATE_LIMIT_STORE', sys_get_temp_dir() . '/rvco_rate_limit.json');

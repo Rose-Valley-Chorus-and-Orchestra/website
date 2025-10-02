@@ -29,20 +29,21 @@ function showLoginPopup() {
         }
     }).then((result) => {
         if (result.isConfirmed) {
+            // Use URLSearchParams for PHP 5.3 compatible form POST
+            const params = new URLSearchParams();
+            params.append('action', 'login');
+            params.append('email', result.value.email);
+            params.append('password', result.value.password);
+            params.append('csrf_token', window.csrfToken);
+
             fetch("api.php", {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({
-                    action: "login",
-                    email: result.value.email,
-                    password: result.value.password,
-                    csrf_token: window.csrfToken
-                })
+                body: params
             })
             .then(r => r.json())
             .then(data => {
                 if (data.success) {
-                    Swal.fire(`Loading Members`);
+                    Swal.fire(`Log In Successful`);
                 } else {
                     Swal.fire({
                         icon: "error",
@@ -91,18 +92,18 @@ function showSignupPopup() {
         }
     }).then((result) => {
         if (result.isConfirmed) {
+            const params = new URLSearchParams();
+            params.append('action', 'signup');
+            params.append('fname', result.value.fName);
+            params.append('lname', result.value.lName);
+            params.append('email', result.value.email);
+            params.append('emailConfirm', result.value.emailConfirm);
+            params.append('password', result.value.password);
+            params.append('csrf_token', window.csrfToken);
+
             fetch("api.php", {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({
-                    action: "signup",
-                    fname: result.value.fName,
-                    lname: result.value.lName,
-                    email: result.value.email,
-                    emailConfirm: result.value.emailConfirm,
-                    password: result.value.password,
-                    csrf_token: window.csrfToken
-                })
+                body: params
             })
             .then(r => r.json())
             .then(data => {
