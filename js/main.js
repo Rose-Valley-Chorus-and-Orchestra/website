@@ -19,11 +19,12 @@ function showLoginPopup() {
             });
         },
         preConfirm: () => {
-            const email = Swal.getPopup().querySelector('#email').value;
-            const password = Swal.getPopup().querySelector('#password').value;
+            const email = Swal.getPopup().querySelector('#email').value.trim();
+            const password = Swal.getPopup().querySelector('#password').value.trim();
 
             if (!email || !password) {
                 Swal.showValidationMessage(`Please enter both email and password`);
+                return false;
             }
             return { email, password };
         }
@@ -74,9 +75,6 @@ function showSignupPopup() {
             <input type="email" id="emailConfirm" class="swal2-input" placeholder="Confirm Email">
             <input type="password" id="password" class="swal2-input" placeholder="Password">
         `,
-        customClass: {
-            popup: 'signup-popup'
-        },
         confirmButtonText: 'Create Account',
         focusConfirm: false,
         preConfirm: () => {
@@ -88,12 +86,16 @@ function showSignupPopup() {
 
             if (!fName || !lName || !email || !emailConfirm || !password) {
                 Swal.showValidationMessage(`All fields are required`);
+                return false;
             } else if (email !== emailConfirm) {
                 Swal.showValidationMessage(`Emails do not match`);
+                return false;
             } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
                 Swal.showValidationMessage(`Invalid email format`);
+                return false;
             } else if (password.length < 12) {
                 Swal.showValidationMessage(`Password must be at least 12 characters`);
+                return false;
             }
 
             return { fName, lName, email, emailConfirm, password };
