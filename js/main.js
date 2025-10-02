@@ -34,9 +34,9 @@ function showLoginPopup() {
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                     action: "login",
-                    username: result.value.email,
+                    email: result.value.email,
                     password: result.value.password,
-                    csrf_token: window.CSRF_TOKEN
+                    csrf_token: window.csrfToken
                 })
             })
             .then(r => r.json())
@@ -101,7 +101,7 @@ function showSignupPopup() {
                     email: result.value.email,
                     emailConfirm: result.value.emailConfirm,
                     password: result.value.password,
-                    csrf_token: window.CSRF_TOKEN
+                    csrf_token: window.csrfToken
                 })
             })
             .then(r => r.json())

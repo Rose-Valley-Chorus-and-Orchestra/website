@@ -6,6 +6,11 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
+// Generate CSRF token if not set
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+
 // Load DB credentials
 $config = require __DIR__ . '/creds.php';
 
