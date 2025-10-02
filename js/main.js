@@ -12,7 +12,7 @@ function showLoginPopup() {
         confirmButtonText: 'Log in',
         focusConfirm: false,
         didOpen: () => {
-            document.getElementById("signupLink").addEventListener("click", (e) => {
+            document.getElementById("signupLink").addEventListener("click", function(e) {
                 e.preventDefault();
                 Swal.close();
                 showSignupPopup();
@@ -23,14 +23,13 @@ function showLoginPopup() {
             const password = Swal.getPopup().querySelector('#password').value.trim();
 
             if (!email || !password) {
-                Swal.showValidationMessage(`Please enter both email and password`);
+                Swal.showValidationMessage('Please enter both email and password');
                 return false;
             }
             return { email, password };
         }
     }).then((result) => {
-        if (result.isConfirmed) {
-            // Use URLSearchParams for PHP 5.3 compatible form POST
+        if (result.isConfirmed && result.value) {
             const params = new URLSearchParams();
             params.append('action', 'login');
             params.append('email', result.value.email);
@@ -44,20 +43,20 @@ function showLoginPopup() {
             .then(r => r.json())
             .then(data => {
                 if (data.success) {
-                    Swal.fire(`Log In Successful`);
+                    Swal.fire('Log In Successful');
                 } else {
                     Swal.fire({
-                        icon: "error",
-                        title: "Login Failed",
-                        text: data.message || "Invalid credentials"
+                        icon: 'error',
+                        title: 'Login Failed',
+                        text: data.message || 'Invalid credentials'
                     });
                 }
             })
             .catch(err => {
                 Swal.fire({
-                    icon: "error",
-                    title: "Error",
-                    text: "Could not reach server. Try again later."
+                    icon: 'error',
+                    title: 'Error',
+                    text: 'Could not reach server. Try again later.'
                 });
                 console.error(err);
             });
@@ -75,6 +74,7 @@ function showSignupPopup() {
             <input type="email" id="emailConfirm" class="swal2-input" placeholder="Confirm Email">
             <input type="password" id="password" class="swal2-input" placeholder="Password">
         `,
+        customClass: { popup: 'signup-popup' },
         confirmButtonText: 'Create Account',
         focusConfirm: false,
         preConfirm: () => {
@@ -85,23 +85,26 @@ function showSignupPopup() {
             const password = document.getElementById('password').value.trim();
 
             if (!fName || !lName || !email || !emailConfirm || !password) {
-                Swal.showValidationMessage(`All fields are required`);
+                Swal.showValidationMessage('All fields are required');
                 return false;
-            } else if (email !== emailConfirm) {
-                Swal.showValidationMessage(`Emails do not match`);
+            }
+            if (email !== emailConfirm) {
+                Swal.showValidationMessage('Emails do not match');
                 return false;
-            } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-                Swal.showValidationMessage(`Invalid email format`);
+            }
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                Swal.showValidationMessage('Invalid email format');
                 return false;
-            } else if (password.length < 12) {
-                Swal.showValidationMessage(`Password must be at least 12 characters`);
+            }
+            if (password.length < 12) {
+                Swal.showValidationMessage('Password must be at least 12 characters');
                 return false;
             }
 
             return { fName, lName, email, emailConfirm, password };
         }
     }).then((result) => {
-        if (result.isConfirmed) {
+        if (result.isConfirmed && result.value) {
             const params = new URLSearchParams();
             params.append('action', 'signup');
             params.append('fname', result.value.fName);
@@ -119,23 +122,23 @@ function showSignupPopup() {
             .then(data => {
                 if (data.success) {
                     Swal.fire({
-                        icon: "success",
-                        title: "Account Created",
-                        text: "You can now log in with your credentials."
+                        icon: 'success',
+                        title: 'Account Created',
+                        text: 'You can now log in with your credentials.'
                     });
                 } else {
                     Swal.fire({
-                        icon: "error",
-                        title: "Sign Up Failed",
-                        text: data.message || "Something went wrong"
+                        icon: 'error',
+                        title: 'Sign Up Failed',
+                        text: data.message || 'Something went wrong'
                     });
                 }
             })
             .catch(err => {
                 Swal.fire({
-                    icon: "error",
-                    title: "Error",
-                    text: "Could not reach server. Try again later."
+                    icon: 'error',
+                    title: 'Error',
+                    text: 'Could not reach server. Try again later.'
                 });
                 console.error(err);
             });
@@ -143,32 +146,22 @@ function showSignupPopup() {
     });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function() {
     // Scroll fade-in effect
     const faders = document.querySelectorAll('.fade-in-up');
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if(entry.isIntersecting) {
                 entry.target.classList.add('active');
                 observer.unobserve(entry.target);
             }
         });
     }, { threshold: 0.2 });
-    faders.forEach(fader => observer.observe(fader));
+    faders.forEach(function(fader){ observer.observe(fader); });
 
     // Login button
-    const loginBtn = document.getElementById('loginBtn');
-    if (loginBtn) {
-        loginBtn.addEventListener("click", showLoginPopup);
+    var loginBtn = document.getElementById('loginBtn');
+    if(loginBtn) {
+        loginBtn.addEventListener('click', showLoginPopup);
     }
 });
-
-
-
-/*
-const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.(com|org)$/;
-if (!emailRegex.test(email)) {
-    swal.showValidationError('Email must end in .mil or .gov');
-    return false;
-}
-*/
