@@ -6,6 +6,14 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
+// Simple debug logger (writes to /tmp or your account's tmp folder)
+function debug_log($message) {
+    $file = __DIR__ . '/debug.log'; // You can change location if needed
+    $date = date('Y-m-d H:i:s');
+    $msg = is_array($message) || is_object($message) ? print_r($message, true) : $message;
+    file_put_contents($file, "[$date] $msg\n", FILE_APPEND);
+}
+
 // Generate CSRF token if not set
 if (empty($_SESSION['csrf_token'])) {
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));

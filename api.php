@@ -1,13 +1,25 @@
 <?php
 require_once __DIR__ . '/init.php';
 
-// Force JSON response
+// ---------------- Debug Mode (shows PHP errors in browser) ----------------
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// ---------------- Force JSON Response ----------------
 header('Content-Type: application/json');
 
-// ----------------- CSRF CHECK -----------------
-$csrf_token = $_POST['csrf_token'] ?? $_SERVER['HTTP_X_CSRF_TOKEN'] ?? '';
-if (!hash_equals($_SESSION['csrf_token'], $csrf_token)) {
-    echo json_encode(["success" => false, "message" => "Invalid CSRF token."]);
+// ---------------- Merge JSON input into $_POST ----------------
+if ($_SERVER["CONTENT_TYPE"] === "application/json") {
+    $input = json_decode(file_get_contents("php://input"), true);
+    if (is_array($input)) {
+        $_POST = array_merge($_POST, $input);
+    }
+}
+
+// ---------------- CSRF Protection ----------------
+if (empty($_POST['csrf_token']) || $_POST['csrf_token'] !== $_SESSION['csrf_token']) {
+    http_response_code(403);
+    echo json_encode(["success" => false, "message" => "Invalid CSRF token"]);
     exit;
 }
 
@@ -18,24 +30,33 @@ if (!$action) {
     echo json_encode(["success" => false, "message" => "No action specified."]);
     exit;
 }
+try{
+    switch ($action) {
+        case "login":
+            loginUser($pdo);
+            break;
 
-switch ($action) {
-    case "login":
-        loginUser($pdo);
-        break;
+        case "signup":
+            signupUser($pdo);
+            break;
 
-    case "signup":
-        signupUser($pdo);
-        break;
+        case "logout":
+            logoutUser();
+            break;
 
-    case "logout":
-        logoutUser();
-        break;
+        default:
+            echo json_encode(["success" => false, "message" => "Invalid action."]);
+            break;
+    }
+} catch(Throwable $e){
+    debug_log("Fatal API error: " . $e->getMessage());
+    debug_log($e->getTraceAsString());
 
-    default:
-        echo json_encode(["success" => false, "message" => "Invalid action."]);
-        break;
+    http_response_code(500);
+    echo json_encode(["success" => false, "message" => "Server error. Check debug.log"]);
+    exit;
 }
+
 
 // ---------------- Functions ----------------
 
@@ -67,31 +88,45 @@ function signupUser($pdo) {
     $emailConfirm = $_POST['emailConfirm'] ?? '';
     $password = $_POST['password'] ?? '';
 
+    debug_log("Signup attempt: email=$email");
+
     if (!$fName || !$lName ||!$email || !$emailConfirm || !$password) {
+        debug_log("Signup attempt: email=$email");
         echo json_encode(["success" => false, "message" => "All fields are required."]);
         return;
     }
 
     if ($email !== $emailConfirm) {
+        debug_log("Signup failed: emails do not match");
         echo json_encode(["success" => false, "message" => "Emails do not match."]);
         return;
     }
 
-    // Check if email exists
-    $stmt = $pdo->prepare("SELECT id FROM members WHERE email = ?");
-    $stmt->execute([$email]);
-    if ($stmt->fetch()) {
-        echo json_encode(["success" => false, "message" => "Email already registered."]);
-        return;
+    try{
+        // Check if email exists
+        $stmt = $pdo->prepare("SELECT id FROM members WHERE email = ?");
+        $stmt->execute([$email]);
+        if ($stmt->fetch()) {
+            debug_log("Signup failed: email exists");
+            echo json_encode(["success" => false, "message" => "Email already registered."]);
+            return;
+        }
+
+        // Hash password
+        $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+
+        $stmt = $pdo->prepare("INSERT INTO members (fname, lname, email, password) VALUES (?,?,?,?)");
+        $stmt->execute([$fName, $lName, $email, $hashedPassword]);
+
+        debug_log("Signup success: $email");
+
+        echo json_encode(["success" => true, "message" => "Signup successful!"]);
+    } catch (Throwable $e) {
+        debug_log("DB error in signup: " . $e->getMessage());
+        http_response_code(500);
+        echo json_encode(["success" => false, "message" => "Database error"]);
     }
-
-    // Hash password
-    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-
-    $stmt = $pdo->prepare("INSERT INTO members (fname, lname, email, password) VALUES (?,?,?,?)");
-    $stmt->execute([$fName, $lName, $email, $hashedPassword]);
-
-    echo json_encode(["success" => true, "message" => "Signup successful!"]);
+    
 }
 
 function logoutUser() {
