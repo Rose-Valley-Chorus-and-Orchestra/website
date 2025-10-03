@@ -42,16 +42,17 @@
                         </div>
                         <div class="row">
                             <div class="col-12">
-                                <strong>Show Times</strong>
-                                <p>Saturday, November 8 at 2 p.m. and 7:30 p.m.</p>
-                                <p>Sunday, November 9 at 2 p.m.</p>
-                                <p>Wednesday, November 12 at 7:30 p.m.</p>
-                                <p>Saturday, November 15 at 2 p.m. and 7:30 p.m.</p>
-                                <p>Sunday, November 16 at 2 p.m.</p>
+                                <h3><strong>Show Times</strong></h3>
+                                <h6>Saturday, November 8 at 2 p.m. and 7:30 p.m.</h6>
+                                <h6>Sunday, November 9 at 2 p.m.</h6>
+                                <h6>Wednesday, November 12 at 7:30 p.m.</h6>
+                                <h6>Saturday, November 15 at 2 p.m. and 7:30 p.m.</h6>
+                                <h6>Sunday, November 16 at 2 p.m.</h6>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12">
+                                <h3><strong>Venue</strong></h3>
                                 Strath Haven Middle School<br/>
                                 Wallingford, PA
                             </div>
