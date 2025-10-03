@@ -10,17 +10,24 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
                         <div class="row">
-                            <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-fluid" name="gondoliers" />
+                            <img src="/images/FLABhowToChair@500.webp" alt="H2SBusiness" class="img-fluid" name="H2SBusiness" />
                         </div>
                         <div class="row mt-4 ">
                             <div class="col-12">
                                 <h4><strong>Synopsis</strong></h4>
                                 <p>
-                                    Marco and Giuseppe Palmieri, Venetian gondoliers, are told that one of them is the heir to the throne of Barataria. Until it is 
-                                    determined which one is the new king, the brothers must rule together. Complicating matters, the brothers have not only recently
-                                    married young Venetian ladies, but they will soon meet the daughter of the Duke of Plaza Toro to whom the unsuspecting future 
-                                    king was married in infancy. As the Grand Inquisitor seeks the truth from the prince’s foster mother, everyone assembles in 
-                                    Barataria awaiting the answer. Who is the rightful king?…and will hearts be mended or broken?
+                                    How to Succeed in Business Without Really Trying, the Pulitzer Prize and Tony Award-winning musical, is a story 
+                                    about the triumph of the common man amid the buffoonery of big business. When an ambitious window washer named 
+                                    J. Pierrepont Finch happens upon a book entitled 'How to Succeed in Business Without Really Trying', he decides 
+                                    to begin his rise up the corporate ladder. With the book's instructions, Finch starts by landing a job in the 
+                                    mailroom. He is soon promoted and outsmarts his rival, Frump, the boss's nephew, before finally reaching the very 
+                                    top of the organization. From the beginning, Finch has the love and support of Rosemary, a marriage-minded 
+                                    secretary who finds him endearing. In his pursuit of the top job, Finch is in danger losing Rosemary's love. Finch's 
+                                    manual to success can no longer help him as he must rely on his wit and heart to save the day.
+
+                                    The standout score by Frank Loesser features such classics as the surreal and funny "Coffee Break", the rousing 
+                                    "Brotherhood of Man", and the melodious tongue-in-cheek ballad "I Believe In You", while the book by Burrows, 
+                                    Weinstock, and Gilbert, won the Pulitzer Prize in 1962 for Best Drama.
                                 </p>
                             </div>
                         </div>
@@ -28,21 +35,22 @@
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
                         <div class="row">
                             <div class="col-12">
-                                <h4>Book by W. S. Gilbert</h4>
-                                <h4>Music by Arthur Sullivan</h4>
+                                <h4>Book by Abe Burrows, Jack Weinstock and Willie Gilbert</h4>
+                                <h4>Music and Lyrics by Frank Loesser</h4>
                                 <br/>
-                                <h4>Katherine P. Nealley - <em>Stage Director</em></h4>
+                                <h4>Chris Fitting - <em>Stage Director</em></h4>
                                 <h4>Florrie Marks - <em>Music Director</em></h4>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12">
                                 <h3><strong>Show Times</strong></h3>
-                                <h5>Saturday, November 8 at 2 p.m. and 7:30 p.m.</h5>
-                                <h5>Sunday, November 9 at 2 p.m.</h5>
-                                <h5>Wednesday, November 12 at 7:30 p.m.</h5>
-                                <h5>Saturday, November 15 at 2 p.m. and 7:30 p.m.</h5>
-                                <h5>Sunday, November 16 at 2 p.m.</h5>
+                                <h5>(Tenative)</h5>
+                                <h5>Saturday, April 18 at 2 p.m. and 7:30 p.m.</h5>
+                                <h5>Sunday, April 19 at 2 p.m.</h5>
+                                <h5>Wednesday, April 22 at 7:30 p.m.</h5>
+                                <h5>Saturday, April 25 at 2 p.m. and 7:30 p.m.</h5>
+                                <h5>Sunday, April 26 at 2 p.m.</h5>
                             </div>
                         </div>
                         <div class="row">
@@ -58,8 +66,8 @@
 	                </div>
                 </div>
 
-                <div class="row mt-4">
-                    <div class="container marketing">
+                <div class="row mt-4" hidden>
+                    <div class="container marketing" >
                         <div class="row fade-in-up">
                             <div class="col-lg-3 text-center mb-3">
                                 <img class="rounded-circle" width="140" height="140" src="/images/ticketsIcon.png">

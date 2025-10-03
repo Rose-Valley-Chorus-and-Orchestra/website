@@ -4,7 +4,7 @@
     <body>
         <?php include 'includes/header.php'; ?>
 
-        <!-- swap this out for each show in the fall -->
+        <!-- swap this out for each show in the spring -->
         <?php include 'shows/business.php'; ?>
 
         <?php include 'includes/footer.php'; ?>
