@@ -152,7 +152,7 @@ function forgotPassword($pdo) {
     $message .= "Please log in with this password and set a new password.\n\n";
     $message .= "Thank you.";
 
-    $headers = "From: no-reply@test.rvco.org\r\n";
+    $headers = "From: no-reply@rvco.org\r\n";
 
     if (mail($email, $subject, $message, $headers)) {
         echo json_encode(["success"=>true,"message"=>"Temporary password sent to your email."]);
