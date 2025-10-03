@@ -5,7 +5,7 @@
         <?php include 'includes/header.php'; ?>
 
         <!-- swap this out for each show in the fall -->
-        <?php include '/shows/business.php'; ?>
+        <?php include 'shows/business.php'; ?>
 
         <?php include 'includes/footer.php'; ?>
 
