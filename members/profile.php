@@ -33,7 +33,7 @@
         <!-- Main content -->
         <main>
             <div class="container">
-                Profile Page
+                <h1>Welcome, <?php echo htmlspecialchars($user['fname'] . ' ' . $user['lname']); ?>!</h1>
             </div>
         </main>
 
