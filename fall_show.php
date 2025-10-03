@@ -30,7 +30,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
                         <div class="row">
                             <div class="col-12">
                                 <h4>Book by W. S. Gilbert</h4>
