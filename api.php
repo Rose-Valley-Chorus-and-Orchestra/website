@@ -139,7 +139,7 @@ function forgotPassword($pdo) {
     }
 
     // Generate random 12-character temporary password
-    $tmpPass = bin2hex(random_bytes(6)); // 12 hex chars
+    $tmpPass = generateTempPassword(12); // 12 hex chars
 
     // Save tmp_pass in database
     $stmt = $pdo->prepare("UPDATE members SET tmp_pass = ?, pass = NULL WHERE id = ?");
@@ -159,6 +159,12 @@ function forgotPassword($pdo) {
     } else {
         echo json_encode(["success"=>false,"message"=>"Failed to send email."]);
     }
+}
+
+function generateTempPassword($length = 12) {
+    $bytes = openssl_random_pseudo_bytes($length * 2); // get more bytes than needed
+    $password = substr(str_replace(['/', '+', '='], '', base64_encode($bytes)), 0, $length);
+    return $password;
 }
 
 function logoutUser() {
