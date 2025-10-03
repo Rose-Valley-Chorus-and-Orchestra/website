@@ -45,7 +45,8 @@ function showLoginPopup() {
                 if (data.success && data.firstLogin) {
                     showSetPasswordPopup(); // Show "set new password"
                 } else if (data.success) {
-                    Swal.fire('Login successful');
+                    // Normal login, redirect to profile
+                    window.location.href = 'members/profile.php';
                 } else {
                     Swal.fire({ icon: 'error', title: 'Login Failed', text: data.message || 'Invalid Credentials' });
                 }
@@ -99,7 +100,14 @@ function showSetPasswordPopup() {
             .then(r => r.json())
             .then(data => {
                 if (data.success) {
-                    Swal.fire({ icon: 'success', title: 'Password Updated', text: 'Please log in with your new password' });
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Password Updated',
+                        text: 'Redirecting to your profile...'
+                    }).then(() => {
+                        // Redirect after password is set
+                        window.location.href = 'members/profile.php';
+                    });
                 } else {
                     Swal.fire({ icon: 'error', title: 'Error', text: data.message });
                 }

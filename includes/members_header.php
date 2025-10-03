@@ -1,0 +1,26 @@
+<?php require_once __DIR__ . '/../init/init.php'; ?>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.php">Rose Valley Chorus & Orchestra</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link <?php if(basename($_SERVER['PHP_SELF'])=='members/profile.php'){echo 'active';} ?>" href="index.php">Home</a></li>
+        </ul>
+        <form class="d-flex">
+          <button class="btn btn-outline-success" type="button" id="logoutBtn">Log Out</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <script type="text/javascript">
+      window.csrfToken = "<?php echo $_SESSION['csrf_token']; ?>";
+  </script>
+</header>
+
