@@ -171,8 +171,36 @@ document.addEventListener("DOMContentLoaded", function() {
     faders.forEach(function(fader){ observer.observe(fader); });
 
     // Login button
-    var loginBtn = document.getElementById('loginBtn');
+    const loginBtn = document.getElementById('loginBtn');
     if(loginBtn) {
         loginBtn.addEventListener('click', showLoginPopup);
+    }
+
+    // Logout button
+    const logoutBtn = document.getElementById('logoutBtn');
+    if (logoutBtn) {
+        logoutBtn.addEventListener('click', function() {
+            const params = new URLSearchParams();
+            params.append('action', 'logout');
+            params.append('csrf_token', window.csrfToken);
+
+            fetch("../api.php", {
+                method: "POST",
+                body: params
+            })
+            .then(r => r.json())
+            .then(data => {
+                if (data.success) {
+                    // Redirect to homepage after logout
+                    window.location.href = "../index.php";
+                } else {
+                    alert("Logout failed: " + data.message);
+                }
+            })
+            .catch(err => {
+                console.error("Logout error:", err);
+                alert("Error logging out.");
+            });
+        });
     }
 });
