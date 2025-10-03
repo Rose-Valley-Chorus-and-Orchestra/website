@@ -32,7 +32,7 @@ try{
             setnewPassword($pdo);
             break;
 
-        case "setPassword":
+        case "forgotPassword":
             forgotPassword($pdo);
             break;
 
