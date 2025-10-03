@@ -61,7 +61,7 @@ function loginUser($pdo) {
         return;
     }
 
-    $stmt = $pdo->prepare("SELECT id, pass, fname, lname FROM members WHERE email = ?");
+    $stmt = $pdo->prepare("SELECT id, pass, tmp_pass, fname, lname FROM members WHERE email = ?");
     $stmt->execute([$email]);
     $user = $stmt->fetch();
 
