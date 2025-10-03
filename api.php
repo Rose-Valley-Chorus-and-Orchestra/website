@@ -28,8 +28,8 @@ try{
             loginUser($pdo);
             break;
 
-        case "signup":
-            signupUser($pdo);
+        case "setPassword":
+            setnewPassword($pdo);
             break;
 
         case "logout":
@@ -65,17 +65,61 @@ function loginUser($pdo) {
     $stmt->execute([$email]);
     $user = $stmt->fetch();
 
-    if ($user && password_verify($password, $user['pass'])) {
+    if (!$user) {
+        echo json_encode(["success"=>false,"message"=>"Invalid credentials."]);
+        return;
+    }
+
+    // First login case (tmp_pass matches, password is empty)
+    if (empty($user['pass']) && !empty($user['tmp_pass']) && $password === $user['tmp_pass']) {
+        $_SESSION['first_login_id'] = $user['id'];
+        echo json_encode([
+            "success"=>true,
+            "firstLogin"=>true,
+            "message"=>"First time login. Please set a new password."
+        ]);
+        return;
+    }
+
+    // Normal login (password already set)
+    if (!empty($user['pass']) && password_verify($password, $user['pass'])) {
         $_SESSION['user_id'] = $user['id'];
-        echo json_encode(["success" => true, "message" => "Login successful.", "user" => ["name" => $user['fname'] . ' ' . $user['lname']]]);
-    } else {
-        echo json_encode(["success" => false, "message" => "Invalid credentials."]);
+        echo json_encode([
+            "success"=>true,
+            "firstLogin"=>false,
+            "message"=>"Login successful",
+            "user"=>["name"=>$user['fname'].' '.$user['lname']]
+        ]);
+        return;
     }
 }
 
 function logoutUser() {
     session_destroy();
     echo json_encode(["success" => true, "message" => "Logged out."]);
+}
+
+function setNewPassword($pdo) {
+    if (empty($_SESSION['first_login_id'])) {
+        echo json_encode(["success"=>false,"message"=>"Not authorized."]);
+        return;
+    }
+
+    $newPass = isset($_POST['newPassword']) ? $_POST['newPassword'] : '';
+    if (strlen($newPass) < 12) {
+        echo json_encode(["success"=>false,"message"=>"Password must be at least 12 characters."]);
+        return;
+    }
+
+    $hashed = password_hash($newPass, PASSWORD_DEFAULT);
+    $stmt = $pdo->prepare("UPDATE members SET pass = ?, tmp_pass = NULL WHERE id = ?");
+    $stmt->execute([$hashed, $_SESSION['first_login_id']]);
+
+    // Move session to normal login
+    $_SESSION['user_id'] = $_SESSION['first_login_id'];
+    unset($_SESSION['first_login_id']);
+
+    echo json_encode(["success"=>true,"message"=>"Password set successfully."]);
 }
 
 ?>

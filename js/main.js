@@ -33,14 +33,12 @@ function showLoginPopup() {
             })
             .then(r => r.json())
             .then(data => {
-                if (data.success) {
-                    Swal.fire('Log In Successful');
+                if (data.success && data.firstLogin) {
+                    showSetPasswordPopup(); // Show "set new password"
+                } else if (data.success) {
+                    Swal.fire('Login successful');
                 } else {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Login Failed',
-                        text: data.message || 'Invalid credentials'
-                    });
+                    Swal.fire({ icon: 'error', title: 'Login Failed', text: data.message || 'Invalid Credentials' });
                 }
             })
             .catch(err => {
@@ -50,6 +48,52 @@ function showLoginPopup() {
                     text: 'Could not reach server. Try again later.'
                 });
                 console.error(err);
+            });
+        }
+    });
+}
+
+function showSetPasswordPopup() {
+    Swal.fire({
+        title: 'Set New Password',
+        html: `
+            <input type="password" id="newPass" class="swal2-input" placeholder="New Password">
+            <input type="password" id="confirmPass" class="swal2-input" placeholder="Confirm Password">
+        `,
+        confirmButtonText: 'Save Password',
+        preConfirm: () => {
+            const newPass = Swal.getPopup().querySelector('#newPass').value.trim();
+            const confirmPass = Swal.getPopup().querySelector('#confirmPass').value.trim();
+
+            if (!newPass || !confirmPass) {
+                Swal.showValidationMessage('Both fields are required');
+                return false;
+            }
+            if (newPass !== confirmPass) {
+                Swal.showValidationMessage('Passwords do not match');
+                return false;
+            }
+            if (newPass.length < 12) {
+                Swal.showValidationMessage('Password must be at least 12 characters');
+                return false;
+            }
+            return { newPass };
+        }
+    }).then((result) => {
+        if (result.isConfirmed && result.value) {
+            const params = new URLSearchParams();
+            params.append('action', 'setPassword');
+            params.append('newPassword', result.value.newPass);
+            params.append('csrf_token', window.csrfToken);
+
+            fetch("api.php", { method: "POST", body: params })
+            .then(r => r.json())
+            .then(data => {
+                if (data.success) {
+                    Swal.fire({ icon: 'success', title: 'Password Updated', text: 'Please log in with your new password' });
+                } else {
+                    Swal.fire({ icon: 'error', title: 'Error', text: data.message });
+                }
             });
         }
     });
