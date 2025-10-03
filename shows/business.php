@@ -3,7 +3,8 @@
             <div class="container">
                 <div class="row mt-3 slide-in-right">
                     <div class="col-12 text-end">
-                        <h1 class="display-3">How To Succeed In Business Without Really Trying</h1>
+                        <h1 class="display-3">How To Succeed In Business</h1>
+                        <h3 class="display-5">Without Really Trying</h3>
                     </div>
                 </div>
                 <div class="row">
