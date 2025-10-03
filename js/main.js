@@ -5,13 +5,22 @@ function showLoginPopup() {
         html: `
             <input type="text" id="email" class="swal2-input" placeholder="Email Address">
             <input type="password" id="password" class="swal2-input" placeholder="Password">
+            <p style="margin-top:10px;font-size:0.9em;">
+                <a href="#" id="forgotLink">Forgot Password?</a>
+            </p>
         `,
         confirmButtonText: 'Log in',
         focusConfirm: false,
+        didOpen: () => {
+            document.getElementById("forgotLink").addEventListener("click", (e) => {
+                e.preventDefault();
+                Swal.close();
+                showForgotPasswordPopup();
+            });
+        },
         preConfirm: () => {
-            const popup = Swal.getPopup();
-            const email = popup.querySelector('#email').value.trim();
-            const password = popup.querySelector('#password').value.trim();
+            const email = Swal.getPopup().querySelector('#email').value.trim();
+            const password = Swal.getPopup().querySelector('#password').value.trim();
 
             if (!email || !password) {
                 Swal.showValidationMessage('Please enter both email and password');
@@ -95,6 +104,47 @@ function showSetPasswordPopup() {
                     Swal.fire({ icon: 'error', title: 'Error', text: data.message });
                 }
             });
+        }
+    });
+}
+
+function showForgotPasswordPopup() {
+    Swal.fire({
+        title: 'Forgot Password',
+        html: `<input type="email" id="forgotEmail" class="swal2-input" placeholder="Enter your email">`,
+        confirmButtonText: 'Send Temporary Password',
+        preConfirm: () => {
+            const email = Swal.getPopup().querySelector('#forgotEmail').value.trim();
+            if (!email) {
+                Swal.showValidationMessage('Email is required');
+                return false;
+            }
+            return { email };
+        }
+    }).then((result) => {
+        if (result.isConfirmed && result.value) {
+            const params = new URLSearchParams();
+            params.append('action', 'forgotPassword');
+            params.append('email', result.value.email);
+            params.append('csrf_token', window.csrfToken);
+
+            fetch("api.php", { method: "POST", body: params })
+                .then(r => r.json())
+                .then(data => {
+                    if (data.success) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Temporary Password Sent',
+                            text: 'Check your email for the temporary password.'
+                        });
+                    } else {
+                        Swal.fire({ icon: 'error', title: 'Error', text: data.message });
+                    }
+                })
+                .catch(err => {
+                    Swal.fire({ icon: 'error', title: 'Error', text: 'Could not reach server. Try again later.' });
+                    console.error(err);
+                });
         }
     });
 }

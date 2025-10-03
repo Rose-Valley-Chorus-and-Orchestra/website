@@ -32,6 +32,10 @@ try{
             setnewPassword($pdo);
             break;
 
+        case "setPassword":
+            forgotPassword($pdo);
+            break;
+
         case "logout":
             logoutUser();
             break;
@@ -94,11 +98,6 @@ function loginUser($pdo) {
     }
 }
 
-function logoutUser() {
-    session_destroy();
-    echo json_encode(["success" => true, "message" => "Logged out."]);
-}
-
 function setNewPassword($pdo) {
     if (empty($_SESSION['first_login_id'])) {
         echo json_encode(["success"=>false,"message"=>"Not authorized."]);
@@ -120,6 +119,51 @@ function setNewPassword($pdo) {
     unset($_SESSION['first_login_id']);
 
     echo json_encode(["success"=>true,"message"=>"Password set successfully."]);
+}
+
+function forgotPassword($pdo) {
+    $email = isset($_POST['email']) ? trim($_POST['email']) : '';
+
+    if (!$email) {
+        echo json_encode(["success"=>false,"message"=>"Email is required."]);
+        return;
+    }
+
+    $stmt = $pdo->prepare("SELECT id, fname, lname FROM members WHERE email = ?");
+    $stmt->execute([$email]);
+    $user = $stmt->fetch();
+
+    if (!$user) {
+        echo json_encode(["success"=>false,"message"=>"Email not found."]);
+        return;
+    }
+
+    // Generate random 12-character temporary password
+    $tmpPass = bin2hex(random_bytes(6)); // 12 hex chars
+
+    // Save tmp_pass in database
+    $stmt = $pdo->prepare("UPDATE members SET tmp_pass = ?, pass = NULL WHERE id = ?");
+    $stmt->execute([$tmpPass, $user['id']]);
+
+    // Send email (adjust headers and from address)
+    $subject = "Temporary Password for Rose Valley Chorus & Orchestra";
+    $message = "Hello {$user['fname']},\n\n";
+    $message .= "A temporary password has been generated for your account: {$tmpPass}\n";
+    $message .= "Please log in with this password and set a new password.\n\n";
+    $message .= "Thank you.";
+
+    $headers = "From: no-reply@rvco.org\r\n";
+
+    if (mail($email, $subject, $message, $headers)) {
+        echo json_encode(["success"=>true,"message"=>"Temporary password sent to your email."]);
+    } else {
+        echo json_encode(["success"=>false,"message"=>"Failed to send email."]);
+    }
+}
+
+function logoutUser() {
+    session_destroy();
+    echo json_encode(["success" => true, "message" => "Logged out."]);
 }
 
 ?>
