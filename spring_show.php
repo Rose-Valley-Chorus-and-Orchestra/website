@@ -1,17 +1,14 @@
 <!doctype html>
 <html lang="en">
-     <?php include 'includes/head.php'; ?>
-     <body>
-          <?php include 'includes/header.php'; ?>
+    <?php include 'includes/head.php'; ?>
+    <body>
+        <?php include 'includes/header.php'; ?>
 
-          <!-- Main content -->
-          <main>
-               Spring 2026
-          </main>
+        <!-- swap this out for each show in the fall -->
+        <?php include '/shows/business.php'; ?>
 
-          <!-- Footer -->
-          <?php include 'includes/footer.php'; ?>
+        <?php include 'includes/footer.php'; ?>
 
-          <?php include 'includes/scripts.php'; ?>
+        <?php include 'includes/scripts.php'; ?>
      </body>
 </html>
