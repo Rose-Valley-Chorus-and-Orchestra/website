@@ -10,7 +10,7 @@
 
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link <?php if(basename($_SERVER['PHP_SELF'])=='members/profile.php'){echo 'active';} ?>" href="index.php">Home</a></li>
+          <li class="nav-item"><a class="nav-link <?php if(basename($_SERVER['PHP_SELF'])=='members/profile.php'){echo 'active';} ?>" href="index.php">Profile</a></li>
         </ul>
         <form class="d-flex">
           <button class="btn btn-outline-success" type="button" id="logoutBtn">Log Out</button>

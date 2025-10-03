@@ -10,7 +10,7 @@
     }
 
     // Optionally, fetch user info from DB to display
-    $stmt = $pdo->prepare("SELECT fname, lname, email FROM members WHERE id = ?");
+    $stmt = $pdo->prepare("SELECT fname, lname, email, profile_pic FROM members WHERE id = ?");
     $stmt->execute([$_SESSION['user_id']]);
     $user = $stmt->fetch();
 
@@ -30,10 +30,20 @@
     
         <?php include '../includes/members_header.php'; ?>
 
-        <!-- Main content -->
-        <main>
-            <div class="container">
-                <h1>Welcome, <?php echo htmlspecialchars($user['fname'] . ' ' . $user['lname']); ?>!</h1>
+        <main class="profile-container">
+            <!-- Left Sidebar -->
+            <div class="profile-left">
+                <img src="<?php htmlspecialchars($user['profile_pic']); ?>" alt="Profile Picture" class="profile-pic">
+                <h2><?php echo htmlspecialchars($user['fname'] . ' ' . $user['lname']); ?></h2>
+                <p><?php echo htmlspecialchars($user['email']); ?></p>
+            </div>
+
+            <!-- Right Content -->
+            <div class="profile-right">
+                <h3>Other Data</h3>
+                <div class="other-data">
+                    <p>Placeholder for additional profile information...</p>
+                </div>
             </div>
         </main>
 
