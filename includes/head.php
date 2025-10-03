@@ -23,4 +23,5 @@
      
     <!-- RVCO CSS -->
     <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/profile.css" rel="stylesheet">
 </head>
