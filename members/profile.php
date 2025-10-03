@@ -14,6 +14,9 @@
     $stmt->execute([$_SESSION['user_id']]);
     $user = $stmt->fetch();
 
+    // Set default profile pic if none
+    $profilePic = !empty($user['profile_pic']) ? $user['profile_pic'] : '../images/members/placeholder.jpg';
+
     if (!$user) {
         // If somehow the user_id is invalid, destroy session and redirect
         session_destroy();
@@ -33,7 +36,7 @@
         <main class="profile-container">
             <!-- Left Sidebar -->
             <div class="profile-left">
-                <img src="<?php htmlspecialchars($user['profile_pic']); ?>" alt="Profile Picture" class="profile-pic">
+                <img src="<?php echo $profilePic; ?>" alt="Profile Picture" class="profile-pic">
                 <h2><?php echo htmlspecialchars($user['fname'] . ' ' . $user['lname']); ?></h2>
                 <p><?php echo htmlspecialchars($user['email']); ?></p>
             </div>
