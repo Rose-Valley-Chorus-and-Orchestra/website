@@ -5,9 +5,14 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// Generate CSRF token if not already set
+// Generate CSRF token if not exists
 if (empty($_SESSION['csrf_token'])) {
-    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+    if (function_exists('openssl_random_pseudo_bytes')) {
+        $_SESSION['csrf_token'] = bin2hex(openssl_random_pseudo_bytes(32));
+    } else {
+        // Fallback for older PHP versions
+        $_SESSION['csrf_token'] = md5(uniqid(mt_rand(), true));
+    }
 }
 
 // Simple debug logger (writes to /tmp or your account's tmp folder)
