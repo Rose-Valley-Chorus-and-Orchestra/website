@@ -33,11 +33,11 @@
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
                         <div class="row">
                             <div class="col-12">
-                                <p>Book by W. S. Gilbert</p>
-                                <p>Music by Arthur Sullivan</p>
+                                <h4>Book by W. S. Gilbert</h4>
+                                <h4>Music by Arthur Sullivan</h4>
                                 <br/>
-                                <p>Katherine P. Nealley - <em>Stage Director</em></p>
-                                <p>Florrie Marks - <em>Music Director</em></p>
+                                <h4>Katherine P. Nealley - <em>Stage Director</em></h4>
+                                <h4>Florrie Marks - <em>Music Director</em></h4>
                             </div>
                         </div>
                         <div class="row">
