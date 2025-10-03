@@ -53,15 +53,17 @@
                         <div class="row">
                             <div class="col-12">
                                 <h3><strong>Venue</strong></h3>
-                                Strath Haven Middle School<br/>
-                                Wallingford, PA
+                                <h5>
+                                    Strath Haven Middle School<br/>
+                                    Wallingford, PA
+                                </h5>
                             </div>
                         </div>
                         
 	                </div>
                 </div>
 
-                <div class="row">
+                <div class="row mt-4">
                     <div class="container marketing">
                         <div class="row fade-in-up">
                             <div class="col-lg-3 text-center mb-3">
