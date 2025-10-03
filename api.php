@@ -145,16 +145,20 @@ function forgotPassword($pdo) {
     $stmt = $pdo->prepare("UPDATE members SET tmp_pass = ?, pass = NULL WHERE id = ?");
     $stmt->execute([$tmpPass, $user['id']]);
 
-    // Send email (adjust headers and from address)
+    // Prepare email
+    $from = "no-reply@rvco.org"; // must be a real/valid mailbox on your domain
     $subject = "Temporary Password for Rose Valley Chorus & Orchestra";
     $message = "Hello {$user['fname']},\n\n";
     $message .= "A temporary password has been generated for your account: {$tmpPass}\n";
     $message .= "Please log in with this password and set a new password.\n\n";
-    $message .= "Thank you.";
+    $message .= "Thank you,\nRose Valley Chorus & Orchestra";
 
-    $headers = "From: ads@rvco.org\r\n";
+    $headers  = "From: Rose Valley Chorus <{$from}>\r\n";
+    $headers .= "Reply-To: {$from}\r\n";
+    $headers .= "X-Mailer: PHP/" . phpversion();
 
-    if (mail($email, $subject, $message, $headers)) {
+    // Force the envelope sender (-f) so Return-Path is correct
+    if (mail($email, $subject, $message, $headers, "-f {$from}")) {
         echo json_encode(["success"=>true,"message"=>"Temporary password sent to your email."]);
     } else {
         echo json_encode(["success"=>false,"message"=>"Failed to send email."]);
