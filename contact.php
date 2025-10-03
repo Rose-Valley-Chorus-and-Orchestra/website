@@ -13,10 +13,10 @@
                     </div>
                 </div>
                 <div class="row mt-4 mb-4">
-                    <div class="col-lg-4 d-none d-lg-block text-center ticketImg mb-4">
+                    <div class="col-lg-4 d-none d-lg-grid text-center ticketImg mb-4">
                         <img src="/images/logo/red RVCO Logo1907 transparent@500.webp" alt="" name="rvcoLogo" id="rvcoLogo" class="img-fluid" />
                     </div>
-                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 contact">
                         <div class="row">
                             <h4>E-Mail</h4>
                             <ul class="list-unstyled">
