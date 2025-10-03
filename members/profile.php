@@ -24,11 +24,11 @@
 <!doctype html>
 <html lang="en">
 
-    <?php include 'includes/head.php'; ?>
+    <?php include '../includes/head.php'; ?>
 
     <body>
     
-        <?php include 'includes/members_header.php'; ?>
+        <?php include '../includes/members_header.php'; ?>
 
         <!-- Main content -->
         <main>
@@ -37,7 +37,7 @@
             </div>
         </main>
 
-        <?php include 'includes/scripts.php'; ?>
+        <?php include '../includes/scripts.php'; ?>
     </body>
 </html>
 
