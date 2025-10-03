@@ -73,43 +73,6 @@ function loginUser($pdo) {
     }
 }
 
-function signupUser($pdo) {
-    $fName = isset($_POST['fname']) ? $_POST['fname'] : '';
-    $lName = isset($_POST['lname']) ? $_POST['lname'] : '';
-    $email = isset($_POST['email']) ? $_POST['email'] : '';
-    $emailConfirm = isset($_POST['emailConfirm']) ? $_POST['emailConfirm'] : '';
-    $password = isset($_POST['password']) ? $_POST['password'] : '';
-
-    if (!$fName || !$lName || !$email || !$emailConfirm || !$password) {
-        echo json_encode(["success" => false, "message" => "All fields are required."]);
-        return;
-    }
-
-    if ($email !== $emailConfirm) {
-        echo json_encode(["success" => false, "message" => "Emails do not match."]);
-        return;
-    }
-
-    try {
-        $stmt = $pdo->prepare("SELECT id FROM members WHERE email = ?");
-        $stmt->execute([$email]);
-        if ($stmt->fetch()) {
-            echo json_encode(["success" => false, "message" => "Email already registered."]);
-            return;
-        }
-
-        $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-        $stmt = $pdo->prepare("INSERT INTO members (fname, lname, email, pass) VALUES (?, ?, ?, ?)");
-        $stmt->execute([$fName, $lName, $email, $hashedPassword]);
-
-        echo json_encode(["success" => true, "message" => "Signup successful!"]);
-    } catch (Throwable $e) {
-        debug_log("DB error in signup: " . $e->getMessage());
-        http_response_code(500);
-        echo json_encode(["success" => false, "message" => "Database error"]);
-    }
-}
-
 function logoutUser() {
     session_destroy();
     echo json_encode(["success" => true, "message" => "Logged out."]);
