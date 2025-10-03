@@ -1,7 +1,4 @@
-<?php
-  // Start session if it hasn't been started yet
-  if (session_id() == '') session_start();
-?>
+<?php require_once __DIR__ . '/init/init.php'; ?>
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -28,6 +25,6 @@
   </nav>
 
   <script type="text/javascript">
-      window.csrfToken = '<?php echo isset($_SESSION['csrf_token']) ? $_SESSION['csrf_token'] : ''; ?>';
+      window.csrfToken = "<?php echo $_SESSION['csrf_token']; ?>";
   </script>
 </header>

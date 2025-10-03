@@ -1,8 +1,14 @@
 <?php
 // init.php
 
-// Start session
-if(!session_id()) session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+// Generate CSRF token if not already set
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
 
 // Simple debug logger (writes to /tmp or your account's tmp folder)
 function debug_log($message) {
@@ -32,17 +38,6 @@ try {
 } catch (PDOException $e) {
     die("Database connection failed: " . $e->getMessage());
 }
-
-// Generate CSRF token if not exists
-if (empty($_SESSION['csrf_token'])) {
-    if (function_exists('openssl_random_pseudo_bytes')) {
-        $_SESSION['csrf_token'] = bin2hex(openssl_random_pseudo_bytes(32));
-    } else {
-        // Fallback for older PHP versions
-        $_SESSION['csrf_token'] = md5(uniqid(mt_rand(), true));
-    }
-}
-
 
 // ----------------- RATE LIMIT -----------------
 define('RATE_LIMIT_STORE', sys_get_temp_dir() . '/rvco_rate_limit.json');
