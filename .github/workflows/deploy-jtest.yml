@@ -1,0 +1,47 @@
+name: Deploy Test
+
+on:
+  push:
+    branches:
+      - jjswaff
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Create deployment archive
+        run: |
+          tar --exclude='.git' \
+              --exclude='.github' \
+              --exclude='deploy.tar.gz' \
+              -czf deploy.tar.gz . || true
+
+      - name: Upload to server
+        run: |
+          scp -i ~/.ssh/id_ed25519 \
+              -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+              deploy.tar.gz \
+              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/rvco/jtest.rvco.org/
+
+      - name: Extract on server
+        run: |
+          ssh -i ~/.ssh/id_ed25519 \
+              -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+              "cd /home/rvco/jtest.rvco.org && \
+               echo 'Extracting archive in:' && pwd && \
+               ls -lh deploy.tar.gz && \
+               tar -xvzf deploy.tar.gz && \
+               rm -f deploy.tar.gz && \
+               echo '✅ Extraction complete'"
