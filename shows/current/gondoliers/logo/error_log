@@ -1,0 +1,9 @@
+[07-Oct-2025 17:08:49 UTC] PHP Warning:  include(../header2_new.php): failed to open stream: No such file or directory in /home/rvco/public_html/gondoliers/logo/moreInfor.php on line 43
+[07-Oct-2025 17:08:49 UTC] PHP Warning:  include(../header2_new.php): failed to open stream: No such file or directory in /home/rvco/public_html/gondoliers/logo/moreInfor.php on line 43
+[07-Oct-2025 17:08:49 UTC] PHP Warning:  include(): Failed opening '../header2_new.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/rvco/public_html/gondoliers/logo/moreInfor.php on line 43
+[07-Oct-2025 17:08:49 UTC] PHP Warning:  include(../cinderella/footer.php): failed to open stream: No such file or directory in /home/rvco/public_html/gondoliers/logo/moreInfor.php on line 105
+[07-Oct-2025 17:08:49 UTC] PHP Warning:  include(../cinderella/footer.php): failed to open stream: No such file or directory in /home/rvco/public_html/gondoliers/logo/moreInfor.php on line 105
+[07-Oct-2025 17:08:49 UTC] PHP Warning:  include(): Failed opening '../cinderella/footer.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/rvco/public_html/gondoliers/logo/moreInfor.php on line 105
+[07-Oct-2025 17:08:49 UTC] PHP Warning:  include(../footer2.php): failed to open stream: No such file or directory in /home/rvco/public_html/gondoliers/logo/moreInfor.php on line 119
+[07-Oct-2025 17:08:49 UTC] PHP Warning:  include(../footer2.php): failed to open stream: No such file or directory in /home/rvco/public_html/gondoliers/logo/moreInfor.php on line 119
+[07-Oct-2025 17:08:49 UTC] PHP Warning:  include(): Failed opening '../footer2.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/rvco/public_html/gondoliers/logo/moreInfor.php on line 119
