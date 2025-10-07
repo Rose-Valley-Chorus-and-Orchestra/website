@@ -51,7 +51,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
             <li><a href="index.php">HOME</a></li>
             <li>ABOUT</li>
             <li><a href="Tickets.php">TICKETS</a></li>
-		  <li><a href="Venue.php">VENUE</a></li>
+		  <li><a href="archive/Venue.php">VENUE</a></li>
 		  <li><a href="Auditions.php">AUDITIONS</a></li>
            <li><a href="Contacts.php"><nobr>CONTACT US</nobr></a></li>
       </ul>
@@ -65,7 +65,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     
     
   <div id="aboutus"><img src="images/RVCO_small.gif" alt="" name="Picture8" id="rvcoLogo" />
-    <p>The Rose Valley Chorus &amp; Orchestra presented its first production, Gilbert &amp; Sullivan's <i>The Mikado</i>, at the Artsman's Hall (now Hedgerow Theatre) in Rose Valley on November 21, 1907. This performance united the wealth of musical and dramatic talent residents in the arts and crafts colony of Rose Valley into a group that is still vibrant and successful for more than 100 years (and almost 200 shows! See a list of our <a href="productionHistory.php">production history</a>. Today we perform in the beautiful and modern theater at <a href="Venue.php">Strath Haven Middle School</a> in Wallingford.</p>
+    <p>The Rose Valley Chorus &amp; Orchestra presented its first production, Gilbert &amp; Sullivan's <i>The Mikado</i>, at the Artsman's Hall (now Hedgerow Theatre) in Rose Valley on November 21, 1907. This performance united the wealth of musical and dramatic talent residents in the arts and crafts colony of Rose Valley into a group that is still vibrant and successful for more than 100 years (and almost 200 shows! See a list of our <a href="productionHistory.php">production history</a>. Today we perform in the beautiful and modern theater at <a href="archive/Venue.php">Strath Haven Middle School</a> in Wallingford.</p>
     
     <p>The Rose Valley Chorus &amp; Orchestra draws its membership from the entire Delaware Valley, a result of its reputation for presenting professional-quality theatrical productions. The voices of the principals and chorus, with the musicianship of the full 35-piece orchestra, rank among the best of the area's many community musical theater groups.</p>
     <p>Rose Valley Chorus &amp; Orchestra now has two major theatrical productions each season (Fall and Spring) which includes Gilbert &amp; Sullivan operettas, Broadway musicals, and other assorted operettas. Stage participation as a principal or chorus member is determined by audition. Audition dates are announced in social media, email, and our Web site.</p>

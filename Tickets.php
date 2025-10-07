@@ -70,9 +70,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
             <li><a href="index.php">HOME</a></li>
            <li><a href="AboutUs.php">ABOUT</a></li>
              <li>TICKETS</li>
-		  <li><a href="Venue.php">VENUE</a></li>
+		  <li><a href="archive/Venue.php">VENUE</a></li>
 		  <li><a href="Auditions.php">AUDITIONS</a></li>
-            <li><a href="ContactUS.php"><nobr>CONTACT US</nobr></a></li>
+            <li><a href="archive/ContactUs.php"><nobr>CONTACT US</nobr></a></li>
       </ul>
     </div>
     </nav>
@@ -87,7 +87,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <div id="tickets">
                                    <p style="max-width: 800px;margin-left: auto;margin-right: auto;font-size: 1.1em;color:#003366;"><b>Are you looking for a gift idea? Tickets make a great present.</b></p>
                                                   <p class="ticketsButton"><a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to Glbert & Sullivan's The Gondoliers" href="https://www.zeffy.com/ticketing/the-gondoliers-tickets">Buy Tickets</a></p>
-                                                  <p>Peformances are at <a href="Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
+                                                  <p>Peformances are at <a href="archive/Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
 
                                                   <p>All tickets are general admission and good for <b><i>any</i></b> performance.
                                                        <ul class="ticketPrice" style="margin-top: -10px;">Adult - $25.00</ul>

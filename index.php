@@ -60,7 +60,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
             <li>HOME</li>
             <li><a href="AboutUs.php">ABOUT</a></li>
             <li><a href="Tickets.php">TICKETS</a></li>
-		  <li><a href="Venue.php">VENUE</a></li>
+		  <li><a href="archive/Venue.php">VENUE</a></li>
 		  <li><a href="Auditions.php">AUDITIONS</a></li>
            <li><a href="Contacts.php"><nobr>CONTACT US</nobr></a></li>
       </ul>
@@ -81,8 +81,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <!--<div style="margin: 15px 15px 0px; padding:15px; background-color: firebrick; color: ghostwhite;">Following the Sunday matinees, children and adults are invited on stage to greet the cast of pirates, policemen, and fair maidens. Costumes are welcome!</div>-->
                
                     <div class="show_authors">		
+                         <div>Book by W. S. Gilbert</div>
                          <div>Music by Arthur Sullivan</div>
-                         <div>Lyrics by W. S. Gilbert</div>
                     </div>
                     <div class="show_info">
                                              <!-- DIRECTORS -->
@@ -104,7 +104,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                     <!-- VENUE -->
                              <div class="current_venue">
-                                        <a href="Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>,<br /> Wallingford, PA</div>                
+                                        <a href="archive/Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>,<br /> Wallingford, PA</div>                
                              <!-- <div class="current_castlist"><a href="cinderella/CINDERELLAcast.php" title="Go to the Rodgers &amp; Hammerstein's cast list">Cast List</a></div> -->
                     </div>				
 
@@ -162,9 +162,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                      <img class="second_show_img" name="How to Succeed in Bussiness without Really Trying"  title="How to Succeed in Bussiness without Really Trying logo" hspace="20" vspace="5" />
                  
                     <div class="show_authors">
-                                        Book by <span class="authors">Abe Burrows</span>, <span class="authors">Jack Weinstock</span> and <span class="authors">Willie Gilbert</span><br /><br />
-                                        Music and Lyrics by <span class="lyricist">Frank Loesser</span><br /><br />
-                                        <span>Based upon the book by <span class="authors">Shepherd Mead</span><br />
+                                        <div>Book by <span class="authors">Abe Burrows</span>, <span class="authors">Jack Weinstock</span> and <span class="authors">Willie Gilbert</span></div>
+                                        <div style="padding-top:5px">Music and Lyrics by <span class="lyricist">Frank Loesser</span></div>
+                                        <div style="padding-top:5px">Based upon the book by <span class="authors">Shepherd Mead</div>
                    </div>
                  
                  
@@ -266,7 +266,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
             </div>     -->
             <!--  end CURRENT  SHOW  -->   
                          
-                    <div id="copyCredit">Originally presented by Cy Feuer and Ernest H. Martin in Association with Frank Productions.</div>
+                         <div id="copyCredit">Originally presented by Cy Feuer and Ernest H. Martin in Association with Frank Productions.</div>
+                         <div id="copyCredit">How to Succeed in Business without Really Trying is presented through special arrangement with Music Theatre International (MTI).</div>
+                         <div id="copyCredit">All authorized performance materials are also supplied by MTI.</div>
+                         <div id="copyCredit">www.mtishows.com</div>
                          
          </div>
     </aside>
