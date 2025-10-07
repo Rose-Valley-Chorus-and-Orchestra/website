@@ -85,22 +85,22 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                     <p><b>Sign Up:</b> <a href="https://tinyurl.com/bdyynrd3" target="new">https://tinyurl.com/bdyynrd3</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>
 
-                    <p><b>Rehearsal dates and times</b> tentatively set to start early January 2025 on Sundays 2:00 - 5:00 p.m. and Monday and Wednesday  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.</p>
+                    <p><b>Rehearsal dates and times</b> tentatively set to start early January 2025 on Sundays 7:00 - 10:00 p.m. and Monday and Wednesday  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.</p>
                     <p><b>Tech week dates and times:</b> 
                   <ul style="margin-top: -15px;">Sitzprobe: Saturday April 11, 9:30 a.m.  - 12:30 p.m.</ul>
                               <ul style="margin-top: -9px;">Tech: Sunday April 12, 1:00 - 10:00 p.m.</ul>
                   <ul style="margin-top: -9px;margin-bottom: -6px;">Tech run-throughs: Monday, Tuesday, &amp; Wednesday April 13-15, 2026, 6:00 - 10:00 p.m.</ul></p>
                     <p><b>Show dates and times: <span style="font-weight: normal; font-size:0.8em">(Currently date are tentative)</span></b>
-<ul style="margin-top: -15px;">April 18, 19, 25, &amp; 26 at 2:00 p.m.</ul>
-                         <ul style="margin-top: -9px;margin-bottom: -6px;">April 18, 22, &amp; 25 at 7:30 p.m.</ul></p>
+<ul style="margin-top: -15px;">November 8, 9, 15, &amp; 16 at 2:00 p.m.</ul>
+                         <ul style="margin-top: -9px;margin-bottom: -6px;">November 8, 12, &amp; 15 at 7:30 p.m.</ul></p>
 
 <p><b>Performance Site:</b> <u>Strath Haven Middle School</u>, 200 South Providence Road, Wallingford, PA 19086</p>
 
                     <p><b>Audition Information</b><ul style="Margin-top:-10px;margin-left: 20px;">
-                              <li class="more_info"><u>To receive the audition material</u>, email <a href="mailto:auditions@rvco.org" title="Send your filled out PDF of the How to Succed audtion form to auditions@rvco.org" subject="Request for audition material">auditions@rvco.org</a>.&nbsp; Use "Request for audition material" as the subject. &nbsp;</li>
+                              <li class="more_info">After you sign-up for an audition time, RVCO will email a link where you can download the audition material.&nbsp;</li>
                               <li class="more_info">To audition for a role, you <i>must</i> sing and read the selections provided — readers and a pianist are provided to read with you and play for you.&nbsp;</li>
-                              <li class="more_info">If time allows, you may audition for up to two roles.&nbsp;</li>
-                              <li class="more_info"><b>Email</b> your <a href="howTo26/Audition material/RVCO Audition Form - How To Succeed.pdf" title="Open a fillable PDF of the How to Succeed in Bussiness without Really Trying audition form" target="new">audition form</a> to <a href="mailto:auditions@rvco.org" title="Send your filled out PDF of the How to Succed audtion form to auditions@rvco.org" subject="How to Succeed... Audtition Form">auditions@rvco.org</a> <i>and</i> <b>bring</b> a copy to your audition.</li>
+<li class="more_info">If time allows, you may audition for up to two roles.&nbsp;</li>
+                              <li class="more_info"><b>Email</b> your <a href="howTo26/Audition material/Audition Form - How To Succeed-RVCO.pdf" title="Open a fillable PDF of the How to Succeed in Bussiness without Really Trying audition form" target="new">audition form</a> to <a href="mailto:auditions@rvco.org" title="Send your filled out PDF of the How to Succed audtion form to auditions@rvco.org" subject="How to Succeed... Audtition Form">auditions@rvco.org</a> <i>and</i> <b>bring</b> a copy to your audition.</li>
                               <li> The day of your audition, if you cannot make your scheduled time or need to cancel, please call 484 981-9108.&nbsp;</li>
                     
                          <div style="margin-left: -40px; tes"><u>Additional Information</u></div>

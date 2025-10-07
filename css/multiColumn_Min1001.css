@@ -163,7 +163,7 @@ subtitle {font-size: 22px;}
 .show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
      text-align: center;
      line-height: 150%;
-     padding: 15px 20px;
+     padding: 5px 20px;
      margin: auto;
 }     
 .show_info {clear: both;}    
@@ -227,6 +227,7 @@ subtitle {font-size: 22px;}
 
 
 .castlistSynopsis {visibility:hidden;height:0px;color:#333;padding:0px 15px; margin-left:30px; margin-right: auto; ; text-align: justify; clear:left;max-width: 800px;}
+.castlistDays {visibility:hidden;height:0px;color:#333;padding:0px 15px; margin-left:30px; margin-right: auto; text-align: justify; clear:left;max-width: 800px;}
 #sharedArea {max-width: 95%;
      padding: 10px 0px 10px 10px;
      margin-left:auto;
