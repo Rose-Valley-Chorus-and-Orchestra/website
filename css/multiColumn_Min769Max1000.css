@@ -105,7 +105,7 @@ subtitle {font-size: 22px;}
 .show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
      text-align: center;
      line-height: 150%;
-     padding: 15px 0px;
+     padding: 5px 0px;
 }
 
 .show_authors {
@@ -261,7 +261,8 @@ aside .donate {
 .second_article {float: none;width: 100%;}     
      
 .castlistSynopsis {visibility:hidden;height:0px;color:#333; margin-left:auto; margin-right: auto;  text-align: justify; clear:left;width: 90%; max-height: 800px;}
-#sharedArea {max-width: 95%;
+.castlistDays {visibility:hidden;height:0px;color:#333; margin-left:auto; margin-right: auto;  text-align: justify; clear:left;width: 90%; max-height: 800px;}
+     #sharedArea {max-width: 95%;
      padding: 10px 0px 10px 10px;
      margin-left:auto;
      margin-right:auto;

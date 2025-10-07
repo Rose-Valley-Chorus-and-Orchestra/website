@@ -67,7 +67,7 @@ subtitle {font-size: 22px;}
 .show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
      text-align: center;
      line-height: 150%;
-     padding: 15px 20px;
+     padding: 5px 20px;
      margin: auto;
 }
 .show_authors {
@@ -240,6 +240,7 @@ aside .donate {
 .second_article {float: none;width: 100%;}     
 
 .castlistSynopsis {visibility:hidden;height:0px;color:#333;ppadding:0px 10px; margin-left:auto; margin-right: auto; text-align: justify; clear:left;width: 90%; }
+.castlistDays {visibility:hidden;height:0px;color:#333;ppadding:0px 10px; margin-left:auto; margin-right: auto; text-align: justify; clear:left;width: 90%; }
 #sharedArea {max-width: 95%;
      padding: 10px 0px 10px 10px;
      margin-left:auto;
@@ -303,7 +304,7 @@ I hide and show another table  */
 #siteName {width: 300px;}
 #menu {
 	font-size: 14px;}	
-.first_show_img  {content: url("../gondoliers/logo/Gondoliers logo@400w.webp")}
+.first_show_img  {content: url("../gondoliers/logo/Gondoliers logo@400w.png")}
 .second_show_img {content: url("../howTo26/logo/FLABhowToChair@500.webp"); width: 350px;}
 #facebook_youtube {
 	max-width: 120px;
