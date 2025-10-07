@@ -37,7 +37,7 @@
 
 
 <div id="content">
-  <h1 id="pageName">Production History Test<a name="top" id="top"></a></h1>
+  <h1 id="pageName">Production History<a name="top" id="top"></a></h1>
   <div  class="showList">
   <div class="otherHistory"><a href="productionHistory.php">View oldest first</a></div> 
    <div class="jump2year">Jump to:</h3> <a href="#J2000">2000</a>&nbsp; <a href="#J1980">1980</a>&nbsp; <a href="#J1960">1960</a>&nbsp; <a href="#J1940">1940</a>&nbsp; <a href="#J1920">1920</a></div>
