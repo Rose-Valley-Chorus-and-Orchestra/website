@@ -61,7 +61,7 @@
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="../assets/current_show/gondoliers/GONDOLIERS25cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../../assets/current_show/gondoliers/GONDOLIERS25cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2025</div></td>
         <td><i>The Gondoliers</i></td>
       </tr>
