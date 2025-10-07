@@ -563,6 +563,7 @@ body {
 .castpageLinks a {color:blue;}
 .castpageLinks a:hover {color:darkred;}
 .castpageLinks div:not(first) {padding-left: 20px;}
+.Rtimes {margin: 0px 0px 0px 40px;}
 .castlist  .storyHead {font-size: 150%; margin-top: 0px;}
 .bios  .storyHead {font-size: 150%; float: left;}
 .bios .listAlpha {float: left;padding: 20px 10px 20px;}
@@ -632,7 +633,8 @@ h2  {padding: 0px 0 0 20px;
 #castPage ul {padding-left:40px;}
 
 #copyCredit {font-size: 10pt;
-     padding: 10px 25px 10px;}
+     padding: 3px 25px 3px;
+     line-height: 120%;}
 
 #sharedArea {
      background-color: white;}
