@@ -51,7 +51,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
             <li><a href="index.php">HOME</a></li>
             <li>ABOUT</li>
             <li><a href="Tickets.php">TICKETS</a></li>
-		  <li><a href="archive/Venue.php">VENUE</a></li>
+		  <li><a href="Venue.php">VENUE</a></li>
 		  <li><a href="Auditions.php">AUDITIONS</a></li>
            <li><a href="Contacts.php"><nobr>CONTACT US</nobr></a></li>
       </ul>

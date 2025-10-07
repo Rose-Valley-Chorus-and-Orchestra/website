@@ -22,12 +22,12 @@
     <nav>
          <div class="secondary_header" id="menu">
                      <ul>
-                          <li><a href="../index.php">HOME</a></li>
-                          <li><a href="../AboutUs.php">ABOUT</a></li>
-                           <li><a href="../Tickets.php">TICKETS</a></li>
-                           <li><a href="../Venue.php">VENUE</a></li>
-                           <li><a href="../Auditions.php">AUDITION</a></li>
-                          <li><a href="../Contact.php"><nobr>CONTACT US</nobr></a></li>
+                          <li><a href="index.php">HOME</a></li>
+                          <li><a href="AboutUs.php">ABOUT</a></li>
+                           <li><a href="Tickets.php">TICKETS</a></li>
+                           <li><a href="Venue.php">VENUE</a></li>
+                           <li><a href="Auditions.php">AUDITION</a></li>
+                          <li><a href="Contact.php"><nobr>CONTACT US</nobr></a></li>
                      </ul>
          </div> <!--class="secondary_header" id="menu" -->
     </nav>
