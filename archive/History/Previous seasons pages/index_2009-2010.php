@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="Mame" penzance="" pirates="" victor="" herbert="" rose="" valley="" chorus="" and="" orchestra="" ,="" synopsis="" gilbert="" sullivan="" mikado="" auditions="" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Rose Valley Chorus &amp; Orchestra</title>
+<link rel="stylesheet" href="../../stylesheet/2col_leftNav.css" type="text/css" />
+<link rel="shortcut icon" href="../../../images/rvco.ico" /></head>
+<body>
+<?php include("/header.php"); ?>
+
+<!-- end masthead -->
+<div id="content"><a name="thisseason" id="thisseason"></a>
+<!-- <div class="story"> <a href="video.html"><img src="images/MerryWidow.gif" width="100" alt="The Merry Widow graphic"  hspace="8" vspace="4" border="0" id="GandS_Ladies" style="float:left;" title="The Merry Widow graphic" /></a><br />
+      <h2>Missed <i>The Merry Widow</i> in the spring?  <a href="video.html">Order a video.</a></h2>
+      <hr style="clear:both" size="1" noshade="noshade" />
+  </div> -->
+  <div class="story">
+    <h2>2009 - 2010 Season</h2>
+    <table border="0" cellpadding="3" cellspacing="3">
+      <tr>
+        <td width="250" align="center" valign="top">
+          <img src="../../../images/pinafore_web.gif" alt="Pinafore graphic" name="Pinafore" hspace="5" vspace="5" id="Pinafore" title="Pinafore graphic" />
+        </td>
+        <td valign="top"><div style="text-align: center; color:#CC3333; font-size: 170%; font-weight: bold;">H. M. S. Pinafore</div>
+          <div style="padding-bottom: 10px; text-align: center; color:#CC3333; font-size: 100%; font-weight: bold;">or Lass that Loved a Sailor </div>
+          <b>October 30 &amp; 31; November 4, 6, &amp; 7 at 8:00 pm<br />
+          October 31 &amp; November 7 at 2:00 pm</b>
+            <!-- put a synopsis here  -->
+          <div style="padding-top:10px; padding-bottom:10px; font-size: 85%;"><i>H. M. S. Pinafore</i> is among the most popular of the Gilbert and Sullivan operas, perhaps because of its infectious tunes and generally well-constructed libretto. Drawing on several of his earlier "bab ballad" poems, Gilbert embued H. M. S. Pinafore with mirth and silliness to spare. The opera's gentle satire reprises and builds upon a sure to  please  comedic theme: Love between members of different social classes.</div>
+			<div><b>Please read a review at <a href="http://www.gvbugle.com/" target="_blank">Garnet Valley Bugle</a></b></div>
+          <p>Sam&nbsp;Griffin&nbsp;-&nbsp;Stage Director&nbsp;&nbsp;&nbsp; Carol&nbsp;Freed&nbsp;-&nbsp;Music&nbsp;Director &nbsp;&nbsp;<nobr>Bruce&nbsp;Conley&nbsp;-&nbsp;Producer</nobr></p>
+          <div nowrap="nowrap"><b>
+            <!--<a href="Mame-audition.pdf" target="_new">Auditions</a>&nbsp;&nbsp;-->
+            <a href="../../../past_shows/pinafore/PINAFOREcast.php">Cast List</a> &nbsp; &nbsp;<a href="../../../past_shows/pinafore/PINAFOREsynopsis.php">Synopsis</a> &nbsp; &nbsp; <a href="../../../Tickets.php">Order Tickets Online</a> &nbsp; &nbsp; <a href="../../Dining.php">Dining Options</a></b></div>
+          <br />
+        </td>
+      </tr>
+    </table>
+    <hr size="1" noshade="noshade" />
+    <h2>2010 - 2011 Season</h2>
+    <table border="0" cellpadding="3" cellspacing="3">
+      <tr>
+        <td width="250" align="center" valign="top">
+          <img2 src="images/Hearts.gif" alt="Plain and Fancy graphic" name="PlainFancy" width="300" hspace="5" vspace="5" id="Widow" title="Plan and Fancy graphic" />
+        </td>
+        <td valign="top">
+          <div style="text-align: center; color:#CC3333; font-size: 170%; font-weight: bold;">Yeomen of the Guard  </div>
+          <div style="padding-bottom: 10px; text-align: center; color:#CC3333; font-size: 100%; font-weight: bold;">or The Merryman and his Maid </div>
+          <b>Autumn 2010</b>
+          <!--<p>Kate&nbsp;Nealley &nbsp;-&nbsp;Stage Director &nbsp;&nbsp;&nbsp;Carol&nbsp;Freed&nbsp;-&nbsp;Music&nbsp;Director &nbsp;&nbsp;<nobr>
+            Bruce&nbsp;Conley&nbsp;-&nbsp;Producer-->
+          <div nowrap="nowrap"><b>
+            <!--<a href="Mame-audition.pdf" target="_new">Auditions</a>&nbsp;&nbsp;
+            <a href="plainFancy/PLAINcast.html">Cast List</a> &nbsp; &nbsp;<a href="plainFancy/PLAINsynopsis.html">Synopsis</a> &nbsp; &nbsp; <a href="Tickets.html">Order Tickets Online</a></b></div>
+          <br />-->
+            <!-- SYNOPSIS HERE -->
+          </b></div>
+        </td>
+      </tr>
+    </table>
+    <hr size="1" noshade="noshade" />
+    <table border="0" cellpadding="3" cellspacing="3">
+      <tr>
+        <td width="250" align="center" valign="top"><img2 src="images/Hearts.gif" alt="Plain and Fancy graphic" name="PlainFancy" width="300" hspace="5" vspace="5" id="Widow" title="Plan and Fancy graphic" /></td>
+        <td valign="top">
+          <div style="padding-bottom: 20px; text-align: center; color:#CC3333; font-size: 170%; font-weight: bold;">Music Man </div>
+          <b>postponed to possible Spring 2011</b>
+<!--          <p>Kate&nbsp;Nealley &nbsp;-&nbsp;Stage Director &nbsp;&nbsp;&nbsp;Carol&nbsp;Freed&nbsp;-&nbsp;Music&nbsp;Director &nbsp;&nbsp;<nobr>Bruce&nbsp;Conley&nbsp;-&nbsp;Producer</nobr></p>-->
+          <div nowrap="nowrap"><b>
+            <!--<a href="Mame-audition.pdf" target="_new">Auditions</a>&nbsp;&nbsp;
+            <a href="plainFancy/PLAINcast.html">Cast List</a> &nbsp; &nbsp;<a href="plainFancy/PLAINsynopsis.html">Synopsis</a> &nbsp; &nbsp; <a href="Tickets.html">Order Tickets Online</a></b></div>
+          <br />-->
+         <!-- SYNOPSIS HERE --></b></div></td>
+      </tr>
+    </table>
+<!--
+    <h2>2010 - 2011 Season</h2>
+          <table border="0">
+            <tr>
+              <td width="250" align="center" valign="top"><div></div></td>
+              <td valign="top"><b>Autumn 2010</b>
+                <div style="text-align: center; color: #660066; font-size: 170%; font-weight: bold;">H. M. S. Pinafore </div>
+                  <div style="padding-bottom: 10px; text-align: center; color:#660066; font-size: 100%; font-weight: bold;">or <b><i>The Lass that Loved a Sailor</i></b></div>
+                  <div style="padding-top:10px; padding-bottom:5px">Sam Griffin&nbsp;-&nbsp;Stage&nbsp;Director&nbsp; &nbsp; Carol&nbsp;Freed&nbsp;-&nbsp;Music&nbsp;Director&nbsp; &nbsp; <nobr></div>
+</td></tr>
+            <tr>
+              <td align="center" valign="top">&nbsp;</td>
+              <td valign="top"><hr size="1" noshade="noshade" /></td>
+            </tr>
+            <tr>
+              <td align="center" valign="top">&nbsp;</td>
+              <td valign="top"><b>Spring 2011 </b>
+                  <div style="text-align: center; color:#660066; font-size: 170%; font-weight: bold;">Music Man </div>
+                  <div style="padding-top:10px; padding-bottom:5px">Kate Nealley&nbsp;-&nbsp;Stage&nbsp;Director&nbsp; &nbsp; Carol&nbsp;Freed&nbsp;-&nbsp;Music&nbsp;Director&nbsp; &nbsp; <nobr>
+                       </div></td>
+            </tr>
+          </table>
+-->
+  </div>
+</div>
+<!--end content -->
+<div id="navBar">
+  <div id="sectionLinks" role="navigation">
+    <ul>
+      <li><a href="index.html">
+Current Season</a></li>
+      <li><a href="../../../AboutUs.php">About Us</a></li>
+      <li><a href="../../../Tickets.php">Tickets</a></li>
+      <li><a href="../../Venue.php">Venue</a></li>
+      <li><a href="../../Join Us.php">Join Us </a></li>
+      <li><a href="../../Review.php">Reviews</a></li>
+      <li><a href="../../../Contacts.php">Contact Us</a></li>
+      <li><a href="../../Dining.php">Dining Options</a></li>
+	  <li><a href="../../../fairlady/Auditions.php">Audition Information</a></li>
+      <li><a href="../../Music.php">Music in Schools</a></li>
+	  <li><a href="../../CPAC.php">Performing Arts Complex<br />of Delaware County</a></li>
+</ul>
+  </div>
+<!--  <div id="advert"></div> -->
+</div>
+<!--end navbar -->
+<?php include("/footer.php"); ?>
+</body>
+</html>
