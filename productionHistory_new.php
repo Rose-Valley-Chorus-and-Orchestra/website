@@ -61,43 +61,43 @@
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/current_show/gondoliers/GONDOLIERS25cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/current/gondoliers/GONDOLIERS25cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2025</div></td>
         <td><i>The Gondoliers</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/statefair/STATEFAIR25cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2025/statefair/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2025</div></td>
         <td><i>State Fair</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/piratesP2024/PIRATES24cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2024/pirates/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2024</div></td>
         <td><i>The Pirates of Penzance</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/cinderella/CINDERELLAcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2024/cinderella/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2024</div></td>
         <td><i>Rodgers &amp; Hammerstein's Cinderella</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/patience2023/PATIENCE2023cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2023/patience/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2023</div></td>
         <td><i>Patience</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/high_society/SOCIETYScast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2023/high_society/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2023</div></td>
         <td><i>High Society</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/pinafore2022/PINAFORE22cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2022/pinafore/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2022</div></td>
         <td><i>H. M. S. Pinafore</i></td>
       </tr>
@@ -109,55 +109,55 @@
       </tr> -->
     <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/christmasCarol/CHRISTMAScast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2019/christmas_carol/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2019</div></td>
         <td><i>A Christmas Carol - The Musical</i></td>
       </tr>
    <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/marietta/MARIETTAcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2019/marietta/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2019</div></td>
         <td><i>Naughty Marietta, Revised 2018</i></td>
       </tr>
      <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/sorcerer/SORCERERcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2018/sorcerer/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2018</div></td>
         <td><i>The Sorcerer</i></td>
       </tr>
      <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/drowsy/DROWSYcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2018/drowsy/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2018</div></td>
         <td><i>The Drowsy Chaperone</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/mikado2017/MIKADOcast2017.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2017/mikado/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2017</div></td>
         <td><i>The Mikado</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/annie-gun/AGYGcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2017/annie_gun/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2017</div></td>
         <td><i>Annie Get Your Gun</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/iolanthe/Iolanthecast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2016/iolanthe/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2016</div></td>
         <td><i>Iolanthe</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/music_man/MusicMancast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2016/music_man/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2016</div></td>
         <td><i>The Music Man</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/thespis/Thespiscast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2015/thespis/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2015</div></td>
         <td><i>Thespis</i></td>
       </tr>
@@ -169,25 +169,25 @@
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/kissmekate/Katecast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2015/kiss_me_kate/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2015</div></td>
         <td><i>Kiss Me, Kate</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="gondoliers/Gondolierscast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2014/gondoliers/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2014</div></td>
         <td><i>The Gondoliers</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/Evita/Evitacast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2014/evita/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2014</div></td>
         <td><i>Evita</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/pirate2013/PPcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2013/pirates/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2013</div></td>
         <td><i>The Pirates of Penzance</i></td>
       </tr>
@@ -211,13 +211,13 @@
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/fairlady/FAIRLADYcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2012/my_fair_lady/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2012</div></td>
         <td><i>My Fair Lady</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/patience/PATIENCEcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2011/patience/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2011</div></td>
         <td><i>Patience</i></td>
       </tr>
@@ -225,7 +225,7 @@
 <!-- begin 2010's -->
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/oklahoma/OKLAcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2011/oklahoma/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2011</div></td>
         <td><em>Oklahoma!</em></td>
       </tr>
@@ -235,55 +235,55 @@
       
 <!-- begin 2000's -->
        <td></td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/yeomen/YEOMENcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2010/yeomen/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2010</div></td>
         <td><i>The Yeomen of the Guard</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/plainFancy/PLAINcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2009/plain_fancy/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2009</div></td>
         <td><i>Plain and Fancy</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/pinafore/PINAFOREcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2009/pinafore/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2009</div></td>
         <td><i>H.M.S. Pinafore</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/merry_widow/WIDOWcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2008/merry_widow/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2008</div></td>
 	  <td><i>The Merry Widow</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/ruddigore/RUDDIGOREcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2008/ruddigore/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2008</div></td>
         <td><i>Ruddigore</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/mame/MAMEcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2007/mame/MAMEcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2007</div></td>
         <td><i>Mame</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/mikado/MIKADOcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2007/mikado/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2007</div></td>
         <td><i>The Mikado</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/RedMill/RMcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2006/redmill/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2006</div></td>
         <td><i>The Red Mill</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="/home/rvco/assets/past_shows/piratesP2006/PPcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="/shows/past/2006/pirates/cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2006</div></td>
         <td><i>The Pirates of Penzance</i></td>
       </tr>
