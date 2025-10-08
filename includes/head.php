@@ -8,15 +8,15 @@
     <meta name="description" content="We are a community theater troupe that has been putting on two shows a year with a full orchestra for over 100 years, performance are in the spring and fall" />
     <meta name="keywords" content="The Pirates of Penzance, Me and My Girl, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
     <title>Rose Valley Chorus and Orchestra</title>
-    <link rel="shortcut icon" href="images/rvco.ico" />
+    <link rel="shortcut icon" href="../images/rvco.ico" />
     <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css">	 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link href="css/multiColumnTemplate.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
-    <link href="css/multiColumn_Max425.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
-    <link href="css/multiColumn_Min426Max768.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
-    <link href="css/multiColumn_Min769Max1000.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
-    <link href="css/multiColumn_Min1001.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
+    <link href="../css/multiColumnTemplate.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
+    <link href="../css/multiColumn_Max425.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
+    <link href="../css/multiColumn_Min426Max768.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
+    <link href="../css/multiColumn_Min769Max1000.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
+    <link href="../css/multiColumn_Min1001.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
     <script src="//use.edgefonts.net/calligraffitti;chewy;handlee;indie-flower.js"></script> 
         
 
