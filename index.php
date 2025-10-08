@@ -7,10 +7,10 @@
           <!-- Main content -->
           <main>
                <div class="row">
-                    <div class="col-lg-6 col-md-6 sol-sm-6">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
                          <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-fluid" name="gondoliers" />
                     </div>
-                    <div class="col-lg-6 col-md-6 sol-sm-6">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
                          <img src="/images/FLABhowToChair@500.webp" alt="H2SBusiness" class="img-fluid" name="H2SBusiness" />
                     </div>
                </div>
