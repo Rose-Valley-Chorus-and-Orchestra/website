@@ -57,6 +57,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     <div class="primary_header">
 		 <?php include("/includes/header_new.php"); ?>
     </div>
+    
     <?php include("/includes/navigation.php"); ?>
  </header>
 
