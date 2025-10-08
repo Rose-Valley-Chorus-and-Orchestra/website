@@ -40,17 +40,17 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div class="container">
             <header>
                         <div class="primary_header">
-                               <?php include("../header2_new.php"); ?>
+                               <?php include("../../../header2_new.php"); ?>
                         </div>
                         <nav>
                              <div class="secondary_header" id="menu">
                                          <ul>
-                                              <li><a href="../index.php">HOME</a></li>
-                                              <li><a href="../AboutUs.php">ABOUT</a></li>
-                                               <li><a href="../Tickets.php">TICKETS</a></li>
-                                               <li><a href="../archive/Venue.php">VENUE</a></li>
-                                               <li><a href="../Auditions.php">AUDITIONS</a></li>
-                                              <li><a href="../Contacts.php"><nobr>CONTACT US</nobr></a></li>
+                                              <li><a href="../../../index.php">HOME</a></li>
+                                              <li><a href="../../../AboutUs.php">ABOUT</a></li>
+                                               <li><a href="../../../Tickets.php">TICKETS</a></li>
+                                               <li><a href="../../../archive/Venue.php">VENUE</a></li>
+                                               <li><a href="../../../Auditions.php">AUDITIONS</a></li>
+                                              <li><a href="../../../Contacts.php"><nobr>CONTACT US</nobr></a></li>
                                          </ul>
                               </div>
                         </nav>
