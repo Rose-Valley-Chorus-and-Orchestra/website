@@ -6,13 +6,13 @@
 <meta name="description" content="learn about the cast and crew for our 2025 production of The Gondoliers" />
 <meta name="keywords" content="The Pirates of Penzance, Me and My Girl, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
 <title>The Gondoliers 2025 Cast list - RVCO</title>
-<link rel="shortcut icon" href="../images/rvco.ico" />
-<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">	
-<link href="../css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
-<link href="../css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
-<link href="../css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
-<link href="../css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
-<link href="../css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../../../images/rvco.ico" />
+<link href="../../../css/bootstrap.css" rel="stylesheet" type="text/css">	
+<link href="../../../css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<link href="../../../css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
+<link href="../../../css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
+<link href="../../../css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
+<link href="../../../css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
  
 <script type="text/javascript">
 <!--
@@ -99,7 +99,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     </div>
      
           <div class="feature castlist">
-                    <div style="margin: 20px 20px 20px 20px;"><img style="background-color: white;  max-width: 600px;" src="logo/Gondoliers banner@600w.webp" alt="The
+                    <div style="margin: 20px 20px 20px 20px;"><img style="background-color: white;  max-width: 600px;" src="../../../images/logo/Gondoliers banner@600w.webp" alt="The
                          Gondoliers logo" class="img-responsive" name="gondoliers"  title="" hspace="0" vspace="0" /></div>
        
                <h2 id="top" class="storyHead">Directors</h2>
