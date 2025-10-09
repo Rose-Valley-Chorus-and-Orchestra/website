@@ -6,9 +6,9 @@
 
           <!-- Main content -->
           <main>
-               <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
-                         <h4>November 2025</h4>
+               <div class="row mt-4">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
+                         <h3>November 2025</h3>
                          <p>
                               Marco and Giuseppe Palmieri, Venetian gondoliers, are told that one of them is the heir to the throne of Barataria. Until it is 
                               determined which one is the new king, the brothers must rule together. Complicating matters, the brothers have not only recently
@@ -23,12 +23,12 @@
                          
                     </div>
                </div>
-               <div class="row">
+               <div class="row mt-4">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
                          <img src="/images/FLABhowToChair@500.webp" alt="H2SBusiness" class="img-fluid" name="H2SBusiness" />
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
-                         <h4>Spring 2026</h4>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
+                         <h3>Spring 2026</h3>
                          <p>
                               How to Succeed in Business Without Really Trying, the Pulitzer Prize and Tony Award-winning musical, is a story 
                               about the triumph of the common man amid the buffoonery of big business. When an ambitious window washer named 
