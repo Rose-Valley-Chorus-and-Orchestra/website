@@ -25,7 +25,7 @@
                </div>
                <div class="row mt-4">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
-                         <img src="/images/FLABhowToChair@500.webp" alt="H2SBusiness" class="img-fluid" name="H2SBusiness" />
+                         <img src="/images/FLABhowToChair@500_1.webp" alt="H2SBusiness" class="img-fluid" name="H2SBusiness" />
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
                          <h3>Spring 2026</h3>
