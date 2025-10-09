@@ -217,3 +217,9 @@ footer {
     color: white;
     border-color: white;
 }
+
+@media (max-width: 768px) { 
+  .fallShow{
+    flex-direction: column-reverse;
+  }
+}

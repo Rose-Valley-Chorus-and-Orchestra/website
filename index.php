@@ -6,7 +6,7 @@
 
           <!-- Main content -->
           <main>
-               <div class="row mt-4 mx-3">
+               <div class="row mt-4 mx-3 fallShow">
                     <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 text-end">
                          <h3>November 2025</h3>
                          <p>
