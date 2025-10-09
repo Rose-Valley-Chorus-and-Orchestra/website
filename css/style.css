@@ -127,7 +127,7 @@ footer {
 /* ========================
    BOTTOM LINKS / DONATE SECTION
 ======================== */
-.donateSec { margin-bottom: 3rem; }
+.donateSec { margin-bottom: 2rem; margin-top: 2rem; }
 .bottomLinks { text-align: center; font-family: "Lucida Sans Unicode", sans-serif; color: #ff0; font-size: 80%; padding: 0.3rem 0; }
 .bottomLinks span { padding: 0 0.5rem; white-space: nowrap; }
 .bottomLinks a { padding: 0.5rem 0.5rem; color: #ff0; }
