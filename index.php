@@ -19,12 +19,13 @@
                          <button class="btn btn-info" href="/fall_show.php">Learn More</button>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
-                         <img src="/images/FLABhowToChair@500.webp" alt="H2SBusiness" class="img-fluid" name="H2SBusiness" />
+                         <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-fluid" name="gondoliers" />
+                         
                     </div>
                </div>
                <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
-                         <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-fluid" name="gondoliers" />
+                         <img src="/images/FLABhowToChair@500.webp" alt="H2SBusiness" class="img-fluid" name="H2SBusiness" />
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
                          <h4>Spring 2026</h4>
