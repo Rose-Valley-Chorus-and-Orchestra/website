@@ -1,6 +1,6 @@
 <?php require_once __DIR__ . '/../init/init.php'; ?>
 <header>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg navRvco">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php">Rose Valley Chorus & Orchestra</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
