@@ -210,5 +210,5 @@ footer {
 }
 .nvLnk:hover{
   color: #ff0;
-  text-shadow: 0 0 8px $ff0, 0 0 16px gold;
+  text-shadow: 0 0 8px #ff0, 0 0 16px gold;
 }
