@@ -16,11 +16,10 @@
                               king was married in infancy. As the Grand Inquisitor seeks the truth from the prince’s foster mother, everyone assembles in 
                               Barataria awaiting the answer. Who is the rightful king?…and will hearts be mended or broken?
                          </p>
-                         <button class="btn btn-info" href="/fall_show.php">Learn More</button>
+                         <a class="btn btn-info" role="button" aria-disabled="true" href="/fall_show.php">Learn More</a>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
                          <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-fluid" name="gondoliers" />
-                         
                     </div>
                </div>
                <div class="row mt-4 mx-3">
@@ -39,7 +38,7 @@
                               secretary who finds him endearing. In his pursuit of the top job, Finch is in danger losing Rosemary's love. Finch's 
                               manual to success can no longer help him as he must rely on his wit and heart to save the day.
                          </p>
-                         <button class="btn btn-info" href="/spring_show.php">Learn More</button>
+                         <a class="btn btn-info" role="button" aria-disabled="true" href="/spring_show.php">Learn More</a>
                     </div>
                </div>
 
