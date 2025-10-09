@@ -7,7 +7,7 @@
           <!-- Main content -->
           <main>
                <div class="row mt-4 mx-3">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-start">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-end">
                          <h3>November 2025</h3>
                          <p>
                               Marco and Giuseppe Palmieri, Venetian gondoliers, are told that one of them is the heir to the throne of Barataria. Until it is 
@@ -23,11 +23,11 @@
                          
                     </div>
                </div>
-               <div class="row mt-4">
+               <div class="row mt-4 mx-3">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-left ticketImg">
                          <img src="/images/FLABhowToChair@500_1.webp.png" alt="H2SBusiness" class="img-fluid" name="H2SBusiness" />
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-end">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-start">
                          <h3>Spring 2026</h3>
                          <p>
                               How to Succeed in Business Without Really Trying, the Pulitzer Prize and Tony Award-winning musical, is a story 
