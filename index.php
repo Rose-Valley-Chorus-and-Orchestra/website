@@ -8,10 +8,35 @@
           <main>
                <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
-                         <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-fluid" name="gondoliers" />
+                         <h4>November 2025</h4>
+                         <p>
+                              Marco and Giuseppe Palmieri, Venetian gondoliers, are told that one of them is the heir to the throne of Barataria. Until it is 
+                              determined which one is the new king, the brothers must rule together. Complicating matters, the brothers have not only recently
+                              married young Venetian ladies, but they will soon meet the daughter of the Duke of Plaza Toro to whom the unsuspecting future 
+                              king was married in infancy. As the Grand Inquisitor seeks the truth from the prince’s foster mother, everyone assembles in 
+                              Barataria awaiting the answer. Who is the rightful king?…and will hearts be mended or broken?
+                         </p>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
                          <img src="/images/FLABhowToChair@500.webp" alt="H2SBusiness" class="img-fluid" name="H2SBusiness" />
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
+                         <img src="/images/Gondoliers logo@500w.webp" alt="Gondoliers" class="img-fluid" name="gondoliers" />
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
+                         <h4>Spring 2026</h4>
+                         <p>
+                              How to Succeed in Business Without Really Trying, the Pulitzer Prize and Tony Award-winning musical, is a story 
+                              about the triumph of the common man amid the buffoonery of big business. When an ambitious window washer named 
+                              J. Pierrepont Finch happens upon a book entitled 'How to Succeed in Business Without Really Trying', he decides 
+                              to begin his rise up the corporate ladder. With the book's instructions, Finch starts by landing a job in the 
+                              mailroom. He is soon promoted and outsmarts his rival, Frump, the boss's nephew, before finally reaching the very 
+                              top of the organization. From the beginning, Finch has the love and support of Rosemary, a marriage-minded 
+                              secretary who finds him endearing. In his pursuit of the top job, Finch is in danger losing Rosemary's love. Finch's 
+                              manual to success can no longer help him as he must rely on his wit and heart to save the day.
+                         </p>
                     </div>
                </div>
 
