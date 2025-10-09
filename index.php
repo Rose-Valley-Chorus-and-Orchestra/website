@@ -16,6 +16,7 @@
                               king was married in infancy. As the Grand Inquisitor seeks the truth from the prince’s foster mother, everyone assembles in 
                               Barataria awaiting the answer. Who is the rightful king?…and will hearts be mended or broken?
                          </p>
+                         <button class="btn btn-info" href="/fall_show.php">Learn More</button>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center ticketImg">
                          <img src="/images/FLABhowToChair@500.webp" alt="H2SBusiness" class="img-fluid" name="H2SBusiness" />
@@ -37,6 +38,7 @@
                               secretary who finds him endearing. In his pursuit of the top job, Finch is in danger losing Rosemary's love. Finch's 
                               manual to success can no longer help him as he must rely on his wit and heart to save the day.
                          </p>
+                         <button class="btn btn-info" href="/spring_show.php">Learn More</button>
                     </div>
                </div>
 
