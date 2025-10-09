@@ -44,10 +44,10 @@
                     </div>
 
                     
-                    <div class="row">
+                    <div class="row mt-4">
                          <div class="col-lg-12">
                               <div class="row text-center donateSec">
-                                   <span><strong>Please consider helping us keep live musical theater in the community</strong></span>
+                                   <h4><strong>Please consider helping us keep live musical theater in the community</strong></h4>
                               </div>
                          </div>
                     </div>
