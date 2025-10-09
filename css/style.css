@@ -205,8 +205,8 @@ footer {
 
 .navRvco{
   background-color: #A30029 !important;
-  color: #fff;
-  font-size: 1.1em;
+  color: #fff !important;
+  font-size: 1.1em !important;
 }
 .nav-link:hover{
   color: #ff0;
