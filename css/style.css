@@ -212,3 +212,8 @@ footer {
   color: #ff0;
   text-shadow: 0 0 8px #ff0, 0 0 16px gold;
 }
+
+.logInBtn{
+    color: white;
+    border-color: white;
+}
