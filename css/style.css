@@ -222,4 +222,8 @@ footer {
   .fallShow{
     flex-direction: column-reverse;
   }
+
+  .showTxt{
+    margin-top: 1rem;
+  }
 }
