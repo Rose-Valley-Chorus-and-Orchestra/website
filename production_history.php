@@ -41,10 +41,10 @@
               <tbody>
                 <?php foreach ($shows as $show): ?>
                   <tr>
-                    <td><?php echo htmlspecialchars($show['show_name']); ?></td>
+                    <td><?php echo htmlspecialchars($show['show_title']); ?></td>
                     <td>
                       <?php if (!empty($show['show_link'])): ?>
-                        <a href="<?php echo htmlspecialchars($show['show_link']); ?>" target="_blank">View</a>
+                        <a href="<?php echo htmlspecialchars($show['show_link']); ?>" target="_blank">Cast</a>
                       <?php else: ?>
                         N/A
                       <?php endif; ?>
