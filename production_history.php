@@ -39,7 +39,6 @@
               <tbody>
                 <?php foreach ($shows as $show): ?>
                   <tr>
-                    <td><?php echo htmlspecialchars($show['show_title']); ?></td>
                     <td>
                       <?php if (!empty($show['show_link'])): ?>
                         <a href="<?php echo htmlspecialchars($show['show_link']); ?>" target="_blank">View Cast</a>
@@ -47,6 +46,8 @@
                         
                       <?php endif; ?>
                     </td>
+                    <td><?php echo htmlspecialchars($show['show_title']); ?></td>
+                    
                   </tr>
                 <?php endforeach; ?>
               </tbody>
