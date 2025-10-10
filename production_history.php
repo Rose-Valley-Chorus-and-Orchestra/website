@@ -2,8 +2,8 @@
   require_once __DIR__ . '/init/init.php';
 
   // --- Fetch all shows, sorted by year descending ---
-  $sql = "SELECT show_name, show_year, show_link FROM shows ORDER BY show_year DESC, show_name ASC";
-  $result = $conn->query($sql);
+  $stmt = $pdo->prepare("SELECT show_name, show_year, show_link FROM shows ORDER BY show_year DESC, show_name ASC");
+  $result = $stmt->fetch();
 
   // --- Organize shows by year ---
   $shows_by_year = [];
