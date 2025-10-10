@@ -1,5 +1,5 @@
 <?php
-  require_once __DIR__ . '/../init/init.php';
+  require_once __DIR__ . '/init/init.php';
 
   // --- Fetch all shows, sorted by year descending ---
   $sql = "SELECT show_name, show_year, show_link FROM shows ORDER BY show_year DESC, show_name ASC";
@@ -20,8 +20,6 @@
   <?php include 'includes/head.php'; ?>
   <body>
     <?php include 'includes/header.php'; ?>
-
-
 
     <main>
       <div class="container">
