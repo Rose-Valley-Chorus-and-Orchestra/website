@@ -131,7 +131,7 @@ footer {
 .bottomLinks { text-align: center; font-family: "Lucida Sans Unicode", sans-serif; color: #ff0; font-size: 80%; padding: 0.3rem 0; }
 .bottomLinks span { padding: 0 0.5rem; white-space: nowrap; }
 .bottomLinks a { padding: 0.5rem 0.5rem; color: #ff0; }
-.bottomLinks a:visited { color: hsl(291, 69%, 50%); }
+.bottomLinks a:visited { color: #fff; }
 .bottomLinks .active { color: #999; }
 .siteInfo { padding-top: 0.5rem; }
 .copyright { text-align: center; color: #000; font-weight: lighter; letter-spacing: 1px; font-family: Verdana, Arial, Helvetica, sans-serif; }
