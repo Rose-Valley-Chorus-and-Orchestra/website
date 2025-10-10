@@ -31,7 +31,7 @@
                 <div class="row mt-3">
                     <div class="col-lg-12">
                         <p>
-                            <strong>Stage Director: </strong>Chris Fitting
+                            <strong>Stage Director: </strong>Chris Fitting<br/>
                             <strong>Musical Director: </strong>Florrie Marks
                         </p>                        
                         <h3>
