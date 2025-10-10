@@ -1,4 +1,4 @@
-<footer class="footer mt-auto py-3 bg-dark">
+<footer class="footer mt-auto py-3">
     <div class="bottomLinks">
 	    <span>
             <a href="venue.php" title="Get directions to our theater">Directions</a>
