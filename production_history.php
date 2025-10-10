@@ -27,7 +27,11 @@
     <main>
       <div class="container">
         <div id="content">
-          <h1 id="pageName">Production History<a name="top" id="top"></a></h1>
+          <div class="row mt-3 slide-in-right">
+            <div class="col-12 text-end">
+              <h1 class="display-3">About Us</h1>
+            </div>
+          </div>
           <div  class="showList">
             <?php foreach ($shows_by_year as $year => $shows): ?>
             <h2 id="year-<?php echo $year; ?>"><?php echo $year; ?></h2>
