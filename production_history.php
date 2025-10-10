@@ -2,7 +2,7 @@
   require_once __DIR__ . '/init/init.php';
 
   // --- Fetch all shows, sorted by year descending ---
-  $stmt = $pdo->prepare("SELECT show_title, show_year, show_link FROM shows ORDER BY show_year DESC, show_title ASC");
+  $stmt = $pdo->prepare("SELECT show_title, show_year, show_link FROM shows ORDER BY show_year DESC, id ASC");
   $stmt->execute();
   $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
@@ -39,7 +39,7 @@
               <tbody>
                 <?php foreach ($shows as $show): ?>
                   <tr>
-                    <td>
+                    <td class="tdSpacing">
                       <?php if (!empty($show['show_link'])): ?>
                         <a href="<?php echo htmlspecialchars($show['show_link']); ?>" target="_blank">View Cast</a>
                       <?php else: ?>
