@@ -29,13 +29,13 @@
         <div id="content">
           <div class="row mt-3 slide-in-right">
             <div class="col-12 text-end">
-              <h1 class="display-3">About Us</h1>
+              <h1 class="display-3">Production History</h1>
             </div>
           </div>
           <div  class="showList">
             <?php foreach ($shows_by_year as $year => $shows): ?>
             <h2 id="year-<?php echo $year; ?>"><?php echo $year; ?></h2>
-            <table>
+            <table class="table table-borderless tFix my-1 mx-3">
               <tbody>
                 <?php foreach ($shows as $show): ?>
                   <tr>
