@@ -8,8 +8,9 @@
 
   // --- Organize shows by year ---
   $shows_by_year = array();
-  if ($result && $result->num_rows > 0) {
-      while ($row = $result->fetch_assoc()) {
+
+  if (!empty($results)) {
+      foreach ($results as $row) {
           $year = $row['show_year'];
           if (!isset($shows_by_year[$year])) {
               $shows_by_year[$year] = array();
