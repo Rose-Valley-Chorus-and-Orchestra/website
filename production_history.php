@@ -41,7 +41,7 @@
                   <tr>
                     <td class="tdSpacing">
                       <?php if (!empty($show['show_link'])): ?>
-                        <a href="<?php echo htmlspecialchars($show['show_link']); ?>" target="_blank">View Cast</a>
+                        <a href="<?php echo htmlspecialchars($show['show_link']); ?>" target="_blank">View Cast List & Synopsis</a>
                       <?php else: ?>
                         
                       <?php endif; ?>
