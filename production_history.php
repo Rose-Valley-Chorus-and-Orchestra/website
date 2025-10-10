@@ -32,21 +32,15 @@
             <?php foreach ($shows_by_year as $year => $shows): ?>
             <h2 id="year-<?php echo $year; ?>"><?php echo $year; ?></h2>
             <table>
-              <thead>
-                <tr>
-                  <th>Show Name</th>
-                  <th>Link</th>
-                </tr>
-              </thead>
               <tbody>
                 <?php foreach ($shows as $show): ?>
                   <tr>
                     <td><?php echo htmlspecialchars($show['show_title']); ?></td>
                     <td>
                       <?php if (!empty($show['show_link'])): ?>
-                        <a href="<?php echo htmlspecialchars($show['show_link']); ?>" target="_blank">Cast</a>
+                        <a href="<?php echo htmlspecialchars($show['show_link']); ?>" target="_blank">View Cast</a>
                       <?php else: ?>
-                        N/A
+                        
                       <?php endif; ?>
                     </td>
                   </tr>
