@@ -33,6 +33,22 @@
             </div>
           </div>
           <div  class="showList mx-5">
+            <div class="d-flex align-items-center mb-3">
+              <label for="yearSelect" class="me-2"><strong>Jump to Year:</strong></label>
+              <select id="yearSelect" class="form-select form-select-sm w-auto">
+                <option value="">Select a Year</option>
+                  <?php
+                    // Use same $years array from before
+                    foreach ($years as $year) {
+                        echo '<option value="year-' . htmlspecialchars($year) . '">' . htmlspecialchars($year) . '</option>';
+                    }
+                  ?>
+              </select>
+            </div>
+              <?php
+              
+              ?>
+            </select>
             <?php foreach ($shows_by_year as $year => $shows): ?>
             <h2 id="year-<?php echo $year; ?>"><?php echo $year; ?></h2>
             <table class="table table-borderless tFix my-1 mx-3">
@@ -61,5 +77,26 @@
     <?php include 'includes/footer.php'; ?>
 
     <?php include 'includes/scripts.php'; ?>
+
+    <script>
+      document.getElementById('yearSelect').addEventListener('change', function() {
+        var sectionId = this.value;
+        if (sectionId) {
+          var target = document.getElementById(sectionId);
+          if (target) {
+            // Smooth scroll into view
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+            // Add a quick highlight flash
+            target.classList.add('highlight-flash');
+
+            // Remove the class after the animation ends (so it can trigger again later)
+            setTimeout(function() {
+              target.classList.remove('highlight-flash');
+            }, 2000);
+          }
+        }
+      });
+    </script>
 </body>
 </html>

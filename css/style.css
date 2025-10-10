@@ -236,3 +236,13 @@ footer {
   width: 15rem;
   color: blue;
 }
+
+.highlight-flash {
+  animation: flash-bg 2s ease-in-out;
+}
+
+@keyframes flash-bg {
+  0%   { background-color: #fff7b0; }   /* light yellow */
+  50%  { background-color: #fffacd; }
+  100% { background-color: transparent; }
+}
