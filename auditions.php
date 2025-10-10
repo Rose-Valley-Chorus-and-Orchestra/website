@@ -21,6 +21,26 @@
                         </h4>
                     </div>
                 </div>
+
+                <div class="row mt-3">
+                    <div class="col-lg-12">
+                        <h2 class="auditionTitle"><em>How to Succeed in Business Without Really Trying</em></h2>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-lg-12">
+                        <p><strong>Stage Director: </strong>Chris Fitting</p>
+                        <p><strong>Musical Director: </strong>Florrie Marks</p>
+                        
+                        <p><strong>Sign Ups Completed</strong></p>
+                        <p>
+                            <bstrong>Rehearsal dates and times</strong> tentatively set to start early January 2025 on Sundays 2:00 - 5:00 p.m. and Monday and 
+                            Wednesday  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.
+                        </p>
+                    
+                    </div>
+                </div>
             </div>
             
         </main>
