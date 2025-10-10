@@ -6,10 +6,13 @@
   $result = $stmt->fetch();
 
   // --- Organize shows by year ---
-  $shows_by_year = [];
-  if ($result->num_rows > 0) {
+  $shows_by_year = array();
+  if ($result && $result->num_rows > 0) {
       while ($row = $result->fetch_assoc()) {
           $year = $row['show_year'];
+          if (!isset($shows_by_year[$year])) {
+              $shows_by_year[$year] = array();
+          }
           $shows_by_year[$year][] = $row;
       }
   }
