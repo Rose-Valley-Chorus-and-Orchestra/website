@@ -32,7 +32,7 @@
               <h1 class="display-3">Production History</h1>
             </div>
           </div>
-          <div  class="showList">
+          <div  class="showList mx-5">
             <?php foreach ($shows_by_year as $year => $shows): ?>
             <h2 id="year-<?php echo $year; ?>"><?php echo $year; ?></h2>
             <table class="table table-borderless tFix my-1 mx-3">
@@ -46,7 +46,7 @@
                         
                       <?php endif; ?>
                     </td>
-                    <td><?php echo htmlspecialchars($show['show_title']); ?></td>
+                    <td><em><?php echo htmlspecialchars($show['show_title']); ?></em></td>
                     
                   </tr>
                 <?php endforeach; ?>
