@@ -8,16 +8,16 @@
         <main>
             <div class="row mt-3 slide-in-right">
                 <div class="col-12 text-end">
-                    <h1 class="display-3">Tickets</h1>
+                    <h1 class="display-3">Auditions</h1>
                 </div>
             </div>
 
             <div class="row mt-3">
                 <div class="col-lg-12">
-                    <p>
+                    <h4 class="text-center">
                         <strong>Note</strong>:  RVCO is a non-union, non-paying community theater organization. We encourage performers of all races and ethnicities, 
                         gender identities, sexualities, and abilities to audition.
-                    </p>
+                    </h4>
                 </div>
             </div>
         </main>
