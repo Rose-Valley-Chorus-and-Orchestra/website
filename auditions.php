@@ -58,7 +58,7 @@
                     <div class="col-lg-12">
                         <p>
                             <strong>Tech week dates and times:</strong> 
-                            <ul class="list-unstyled">
+                            <ul class="list-unstyled ms-3">
                                 <li>Sitzprobe: Saturday April 11, 9:30 a.m.  - 12:30 p.m.</li>
                                 <li>Tech: Sunday April 12, 1:00 - 10:00 p.m.</li>
                                 <li>Tech run-throughs: Monday, Tuesday, &amp; Wednesday April 13-15, 2026, 6:00 - 10:00 p.m.</li>
@@ -66,7 +66,7 @@
                         </p>
                         <p>
                             <strong>Show dates and times:</strong> <span class="tentative">(Currently date are tentative)</span>
-                            <ul class="list-unstyled">
+                            <ul class="list-unstyled ms-3">
                                 <li>April 18, 19, 25, &amp; 26 at 2:00 p.m.</li>
                                 <li>April 18, 22, &amp; 25 at 7:30 p.m.</li>
                             </ul>
