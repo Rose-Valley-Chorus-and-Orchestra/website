@@ -3,14 +3,11 @@
 
   // --- Fetch all shows, sorted by year descending ---
   $stmt = $pdo->prepare("SELECT show_title, show_year, show_link FROM shows ORDER BY show_year DESC, show_title ASC");
-  $stmt->execute(); // ✅ Execute the prepared statement
-  $results = $stmt->fetch()
+  $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-  // --- Organize shows by year ---
   $shows_by_year = array();
-
-  if (!empty($results)) {
-      foreach ($results as $row) {
+  if ($rows && count($rows) > 0) {
+      foreach ($rows as $row) {
           $year = $row['show_year'];
           if (!isset($shows_by_year[$year])) {
               $shows_by_year[$year] = array();
