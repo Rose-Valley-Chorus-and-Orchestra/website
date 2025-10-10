@@ -16,6 +16,10 @@
           $shows_by_year[$year][] = $row;
       }
   }
+
+  // 3) build sorted years array (descending numeric)
+    $years = array_keys($shows_by_year);
+    rsort($years, SORT_NUMERIC); // largest -> smallest
 ?>
 
 <!doctype html>
