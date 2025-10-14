@@ -517,16 +517,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
-
-                    
-                                   </div>         
-          <!--ends past rehearsal dates --> 
-
-                              </div>   <!--ends class="synopsis" -->                                                                                                        
-
-               <!--begins remaining rehearsal dates -->
-                              <span id="currentDate"></span>
-                              <div style="clear: both;">   
                                         <div><ul><b>Monday October 6</b>
                                                        <ul><u>CALLED</u>: <b>ALL</b> but DK, DC, LZ, CA, DA - <span style="color: firebrick;">no Alhambra or Inez; Marco late</span></li></ul>
                                                        <ul><li>#1 and #10</li></ul>
@@ -556,6 +546,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
+
+                    
+                                   </div>         
+          <!--ends past rehearsal dates --> 
+
+                              </div>   <!--ends class="synopsis" -->                                                                                                        
+
+               <!--begins remaining rehearsal dates -->
+                              <span id="currentDate"></span>
+                              <div style="clear: both;">   
                                         <div><ul><b>Wednesday October 15</b>
                                                        <li>Run Act II</li>
                                              </ul>
