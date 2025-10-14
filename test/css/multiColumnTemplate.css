@@ -1,0 +1,666 @@
+@charset "UTF-8";
+body {
+	background-color:#A30029;
+}
+#menu a:link{
+	/*padding: 8px 0px 8px 10px;*/
+	width: 100%;
+    voice-family: "\"}\""; 
+    voice-family:inherit;
+	color: #333333;
+	text-decoration: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#menu a:visited{
+	/*padding: 8px 0px 8px 10px;*/
+	text-decoration: none;
+	color: #333333;
+}
+#menu a:hover{
+	/*background-color: #C03;
+	padding: 8px 0px 8px 10px;*/
+	color: #A30029;
+	text-decoration: underline;
+}
+#menu .active{
+	background-color: #FCC;
+	/*padding: 8px 0px 8px 10px;*/
+	color: #333333;
+	text-decoration: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+a:link, a:visited, a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.container {
+	background-color: #FFFFFF;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+}
+h5 {
+	padding: 15px 0 0 35px;
+	font: bold 110% "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #A30029;
+}
+.first_article ul li {
+	margin-left: 20px;
+}
+.second_article .logo {
+	padding-top: 30px;
+	height: 250px;
+}
+.row {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: inline-block
+}
+.row.blockDisplay {
+	display: block;
+}
+.column_half {
+	width: 50%;
+	float: left;
+	margin-top: 0px;
+	padding: 10px 20px 10px 40px;
+	line-height: 150%;
+}
+.columns {
+	width: 50%;
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	line-height: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.row .columns p {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.container .columns h4 {
+	text-align: center;
+	color: #01B2D1;
+}
+.primary_header {
+	width: 100%;
+	background-color: #A30029;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	clear: left;
+	border-top: 2px solid #CC3000;
+	border-bottom: 3px solid #CC3000;
+}
+/*       Site Name in Header     */
+#siteName{
+	margin: 0px;
+	padding: 0px 0px 10px 10px;
+	font-family: Bookman Old Style;
+	font-weight: normal;
+}
+#siteName a:link, #siteName a:visited, #siteName a:hover {
+	text-decoration: none;
+	color: #A30029;
+}
+#companyTag {
+     padding: 0px 0px 10px 20px;
+	font-family: Bookman Old Style;
+     font-size: 25px;
+     color: #A30029
+}
+.current_header, .coming_header  {
+    padding: 10px 20px;
+    color:#003366;
+    font-weight: bold;
+}
+.current_headerA, .coming_headerA {
+    text-align:left;
+    float: left;
+}
+.current_headerB, .coming_headerB  {
+    text-align:right;
+}
+
+.secondary_header {
+     width: 100%;
+     ppadding-top: 25px;
+     ppadding-bottom: 25px;
+     background-color: #C4E3F3;
+     clear: left;
+     margin: 0px;
+}
+.container .secondary_header ul {
+	margin: 0px;
+	padding: 0px;
+	width: 90%;
+}
+.secondary_header ul li {
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #A30029;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 16%;
+	transition: all 0.3s linear;
+     white-space: nowrap;
+}
+.secondary_header ul li:hover {
+	color: #717070;
+	cursor: pointer;
+}
+.first_article {
+	background-color: #FEC79B;
+	width: 60%;
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #003366;
+	/*  padding-bottom: 15px;   removing space at bottom of 
+    season */
+}
+.noDisplay {
+	display: none;
+}
+.container .first_article h3 {
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 5%;
+	color: #717070;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.container .first_article p {
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #333333;
+}
+.container .second_article p {
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #333333;
+}
+
+.second_article {
+	width: 40%;
+	float: left;
+	background-color: #c9dede;
+}
+.container .second_article ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.second_article ul li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	list-style: none;
+	text-align: center;
+	background-color: #B3B3B3;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 0px;
+	transition: all 0.3s linear;
+	border-left: 5px solid #717070;
+}
+.second_article ul li:hover {
+	background-color: #87cefa;
+	cursor: pointer;
+}
+/* -----  Footer ------ */
+.footer {
+	background-color: #A30029;
+     width:100%;
+     padding: 0;
+     margin:0;
+}
+#bottomLinks { 
+    clear: both;
+	text-align:center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #F7F100;
+	font-size: 80%;
+	padding-top: 5px; 
+	padding-bottom: 5px;
+     width: 100%;
+}
+#bottomLinks span {
+    padding-left: 10px;
+	padding-right: 10px;
+     white-space: nowrap;
+}
+#bottomLinks a:link {
+	padding: 8px 0px 8px 10px;
+	width: 100%;
+    voice-family: "\"}\""; 
+    voice-family:inherit;
+	color: #F7F100;
+	text-decoration: none;
+}
+#bottomLinks a:visited {
+	padding: 8px 0px 8px 10px;
+	text-decoration: none;
+	color: #F7F100;
+}
+#bottomLinks a:hover {
+	background-color: #C03;
+	padding: 8px 0px 8px 10px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#bottomLinks .active {
+	background-color: #FCC;
+	padding: 8px 0px 8px 10px;
+	color: #999;
+	text-decoration: none;
+
+}
+#siteInfo {
+     /*text-transform:capitalize;*/
+	padding-top: 5px;
+}
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+.placeholder {
+	/* [disabled]max-width: 400px;
+*/
+	/* [disabled]max-height: 200px;
+*/
+	width: 100%;
+	padding-top: 30px;
+	/* [disabled]padding-left: 19px;
+*/
+	padding-bottom: 30px;
+	height: 100%;
+}
+.left_half {
+	background-color: #52BAD5;
+}
+.container .column_half.left_half h2 {
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.right_half {
+	background-color: #01B2D1;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+.column_title {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.columns ul li {
+	margin-left: 40px;
+}
+.copyright {
+	text-align: center;
+	background-color: #A30029;
+	color: #FFFFFF;
+	/*text-transform: uppercase;*/
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.g-map {
+	width: 100%;
+}
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+/*  FOR MAP ON  VENUE PAGE  */
+.g-map {
+	text-align: center;
+}
+/*  FOR TICKET PAGE   */
+.tickets {
+	margin-left: 35px;
+}
+.buy_tickets {
+	width: 90%;
+}
+.buy_tickets th {
+	background-color: #BBEEFF;
+}
+.ticket_instr {
+	padding: 50px 20px 15px;
+}
+.ticket_instr .high {
+	color: #A30029;
+}
+#tickets th, #tickets td {padding:5px;}
+
+/*  used on Tickets.php   */
+.ticketPrice , .showDates {padding: 0px; margin: 0 0 3px;}
+/*  used on Tickets.php   */
+
+.mail_instr {
+	padding-left: 20px;
+}
+.view_cart {
+	width: 90%;
+	padding: 10px;
+}
+.more {
+    text-align: center;
+    padding: 0 20px 10px;
+    clear: left;
+    font-size: 14px;
+}
+.show_info {
+}
+.current_dates {
+    text-align:center;
+}
+.current_directors {
+}
+.current_venue {
+}
+.current_castlist {
+}
+.buy_tickets_small{ 
+	display: none;
+}
+.apply_this {
+	width: 150px;
+	border-radius: 7px;
+	color: #333;
+	margin-left: -5px;
+	padding: 4px;
+}
+.mmt {
+	font-weight: 300;
+	color:#010000 #A30029;
+	font-size: 120%;
+	white-space: nowrap;
+}
+.secondShow {
+	color: #003366;
+	background-color: #c9dede;
+}
+.secondShow a {
+    color: blue;
+}
+.secondShow a:hover {
+    background-color: #ffcc00;
+}
+
+.firstShow {
+	color: #003366;
+	background-color: #FEC79B  /* #000033  #05294B; */
+}
+
+.firstShow a {
+    color: blue;
+}
+.firstShow a:hover {
+    background-color: #fbab60;
+}
+#buyShowLink {
+    pppadding: 40px 40px 0px;
+    ttext-align:left;
+}
+.social {
+     clear: both;
+     margin:0px 0px 0px;
+     background-color: #52BAD5;
+     color: #000000;
+	text-align: center;
+	overflow: auto;
+
+}
+.social p, .social h4 {
+     padding:0px 130px;
+     line-height: 170%;
+}
+.snippets .pixel {
+	width: 1px;
+	height: 1px;
+}
+ .join {
+          clear:both;
+          padding: 10px;
+          line-height: 170%;
+}     
+
+#ViewShowSynopsis, .viewSynopsis {
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+}
+.viewSynopsis span:not(:last-child) {margin-right: 20px;}
+
+.ticketsSponsors {
+     text-align: center;
+     padding-top: 15px;
+}
+.ticketsSponsors a:not(:last-child) {margin-right: 20px;}
+
+.sharedAreaTandS  {
+     color: #AEDAFF;
+}
+.sharedAreaTandS:hover {
+     color: aqua;
+}
+#buyShowlink a {
+     color: blue;
+}
+#buyShowlink a:hover {
+     background-color: #fbab60;
+}
+#sharedArea {visibility:hidden; 
+     width:570px; 
+     padding: 20px 10px 10px; 
+     height:0px; 
+     clear:left; 
+     margin-left: 20px;
+}
+     
+#buyShowTickets {
+    visibility: hidden;
+    width: 570px;
+    padding: 0px 20px 10px;
+    height: 0px;
+    ccccclear: left;
+    margin-left: 20px;
+}
+#ShowSynopsis {
+    visibility: hidden;
+    height: 0px;
+    color: #003366;
+    padding: 0px 20px 10px;
+    text-align: justify;
+    margin-left: 20px;
+}
+#ShowSpringSynopsis {
+    visibility: hidden;
+    height: 0px;
+    color: #003366;
+    padding: 0px 20px 10px;
+    text-align: justify;
+    margin-left: 20px;
+}
+#ShowSpringSynopsis p { color: #EEE; font-size:.9em;}
+#ShowSynopsis p { color: #003366; font-size:.9em;}
+
+#sponsor {
+     text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+     margin-bottom:20px;
+}
+.sponsorText, .ticketText {font-size:.9em; color:#353535}
+.castpageLinks {margin:15px 30px;}
+.castpageLinks a {color:blue;}
+.castpageLinks a:hover {color:darkred;}
+.castpageLinks div:not(first) {padding-left: 20px;}
+.castlist  .storyHead {font-size: 150%; margin-top: 0px;}
+.bios  .storyHead {font-size: 150%; float: left;}
+.bios .listAlpha {float: left;padding: 20px 10px 20px;}
+.bios, .chorus {
+	font-weight:normal;
+	text-align: left;
+	padding: 10px 50px 0px 15px;;
+     clear: both;
+     max-width: 800px;
+}
+.bios p {
+	font-weight:normal;
+	text-align: left;
+	margin: 10px 50px 0px 15px;;
+     clear: both;
+     max-width: 800px;
+}
+.bios {
+	margin-bottom: 25px;
+}
+.headshot_img {
+     float:left; 
+     margin-right:10px;
+     padding-top:5px;
+     clear:all;
+     width:25%;
+}
+.headshot {
+     width: 100%;
+     mmin-width: 100px;
+     height: auto;
+     }
+ .back2top {font-size: 90%;}
+.person {font-weight:bold;}
+.role  {font-style:italic;}
+#aboutus {margin:20px;}
+#rvcoLogo {float:right;}
+#pageName {margin:20px 20px 0px;color: #A30029}
+subtitle {margin:20px 40px 0px;color: #A30029;font-style: italic;}
+#season {margin:10px 0px 0px;}
+
+h2  {padding: 0px 0 0 20px;
+	font: bold 110% "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #A30029;
+}
+.showList {margin:20px 0px 20px 40px;}
+.showList td {padding:2px 0px 0px 10px;}
+.showList table {margin:20px 0px 0px 10px;}
+.otherHistory {float: left;padding-right: 30px;}
+
+#auditionTitle {font-size: 1.5em;padding-left: 15px;}
+
+#contacts {padding:20px 20px 0px 20px;}
+#contacts p {padding: 5px 20px;}
+#contacts ul {padding-left:40px;}
+#venue {padding:20px 20px 0px 20px;}
+#venue p {padding: 5px 20px;}
+#venue ul {padding-left:40px;}
+#auditions {padding:0px 20px 0px 20px;}
+#auditions p {padding: 5px 20px;}
+#auditions ul {padding-left:40px;}
+#tickets {padding:20px 20px 0px 20px;}
+#tickets p {padding: 5px 20px;}
+#tickets ul {padding-left:40px;}
+#castPage {padding:20px 20px 0px 20px;}
+#castPage p {padding: 5px 20px;}
+#castPage ul {padding-left:40px;}
+
+#copyCredit {font-size: 10pt;
+     padding: 10px 25px 10px;}
+
+#sharedArea {
+     background-color: white;}
+a.ticketZeffy {background-color: #A30029;  color: white; padding: 15px 25px; border-radius: 10px;}
+a.ticketZeffy:hover {background-color: darkred}
+.ticketsButton {margin: 20px 0 40px; text-align: center;
+     }
+
+table.MsoTableGrid {
+border:solid windowtext 1.0pt;
+font-size:14px;
+ffont-family:Calibri;
+}
+p.MsoNormal {
+margin-top:0in;
+margin-right:0in;
+margin-bottom:10.0pt;
+margin-left:0in;
+line-height:115%;
+font-size:14px;
+}
+#roles tr td {vertical-align: text-top;}
+table.MsoNormalTable {
+text-autospace:none;
+font-size:14px;
+
+}
+p.TableParagraph {
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 5.25px;
+	text-autospace: none;
+	font-size: 14px;
+}
+th .description {font-weight: normal}
+.menWomen {background-color:#666;
+     vertical-align: middle;
+     padding: 15px 0px 0px 20px;
+     color:aliceblue;}
+
