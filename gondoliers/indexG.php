@@ -21,10 +21,28 @@
      font-weight: normal;
      vertical-align: top;
 }
-.schedule {margin-left: auto; margin-right: auto; clear:both; padding-top: 5px;}
+.schedule {margin-left: auto; margin-right: auto;}
 #castPage {padding: 5px 0px;margin: 5px; font-size: 16px;}
 #castPage p {padding: ;margin: 10px 5px 5px 10px;}
-
+.castlistSDays {visibility:hidden;height:0px;color:#333;padding:0px 15px; margin-left:30px; margin-right: auto; ; text-align: justify; clear:left;max-width: 800px;}
+.viewDays span:not(:last-child) {margin-right: 20px;}
+#ViewShowDays,  #ViewSpringDays {
+     clear: left;
+     text-align: center;
+     padding: 0px;
+}
+#ShowDays, #ShowSpringsynopis {
+    visibility: hidden;
+    height: 0px;
+    padding: 0px 20px 10px;
+    text-align: justify;
+    margin-left: 0px;
+}
+#ViewShowDays, .viewDays {
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+}
 .schedule tr:nth-child(even){background-color: #f2f2f2;}
 .schedule tr:nth-child(odd){background-color: #ffffff;}
 .schedule tr:hover {background-color: #ddd;}
@@ -60,9 +78,8 @@ h2, h2 .storyHead {color: darkred;
      margin-bottom: 4px;
      border-radius: 10px;     
 }
-.button a:link {color:#dedede; text-decoration: none;}  
-.downLinks { max-width: 1000px;}     
-.downLinks li {float:left;padding: 0 15px 0 0px;margin: 0 15px; max-width: 1000px;}     
+.button a:link {color:#dedede; text-decoration: none;}     
+     
 @media (max-width: 425px) {
                         .story, .feature .story {width: 380px;
                               font-size: 14px;
@@ -193,7 +210,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               
                          </div>
 
-                              <p>If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.</p>
+                    
+                              <p>If you have not already paid your dues, new and current members can <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. If you have any questions, please reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.</p>
                     <!--<p>Send bios to Bill Michael and Martha Smylie: <a href="mailto:wbmichael@comcast.net, katisha9@comcast.net?subject=Here's my bio" title="Email my bio to Bill and Martha" >wbmichael@comcast.net and katisha9@comcast.net</a></p>-->
 
                               <!-- <p>Access: <a title="Jump down to the list of cast emails" href="#emails">Cast emails</a>;  <a title="Jump down to listen or downlaod the dance music" href="#music">Dance music</a>; <a title="See setting, actors, song, director, and notes for each scene " href="../cinderella/CinderPageDetails.php">Scene Details</a>; <a title="See the set designs for Cinderella" href="../cinderella/CinderSetDesign.php">Set Design</a></p>
@@ -206,25 +224,23 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                  <div class="feature" style="clear: both;">
                       <!--  <p class="headlines"></p>  -->
                                    <h2>View or Download</h2>
-                                        <ul class="downLinks" style="padding-left: 55px;">
-                                             <li><a href="/gondoliers/flyer/Gondoliers show flyer_NP.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show flier">Show flyer</a></li>
-                                             <li><a href="/gondoliers/sponsor and ad/SponsorandAdForm-Gondoliers.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the sponsor and ad form">Sponsor and Ad form</a></li>
-                                             <li><a href="/gondoliers/poster/Gondoliers poster.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show poster">Show poster</a></li>
+                                        <ul style="padding-left: 55px;">
+                                             <li><a href="/gondoliers/flyer/Gondoliers show flyer_NP.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show flier">Show flier</a></li>
                                              <li><a href="/gondoliers/Gondoliers 2025 Rehearsal Schedule Final.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the rehearsal schedule">Rehearsal Schedule (original)</a></li>
                                              <li><a href="/gondoliers/Errata List for Schirmer Gondoliers vocal score - vocal parts only.pdf" title="Open the Errata List for Schirmer Gondoliers vocal score in a new tab" target="new">Errata List for Schirmer Gondoliers vocal score</a></li>
                                              <li><a href="/gondoliers/Simplified Italian Pronunciation Guide.pdf" title="Open the Errata List for Schirmer Gondoliers vocal score in a new tab" target="new">Simplified Italian Pronunciation Guide</a></li>
-                                             <li><a href="/gondoliers/The_Gondoliers-Vocal_Score_(Schirmer).pdf" title="Open the Schirmer Gondoliers libretto in a new tab" target="new">Schirmer's <i>The Gondoliers</i> libretto</a>
+                                             <li><a href="/Dreamweaver 2021/The_Gondoliers-Vocal_Score_(Schirmer).pdf" title="Open the Schirmer Gondoliers libretto in a new tab" target="new">Schirmer's <i>The Gondoliers</i> libretto</a>
                                           </ul>
 
                                         <!--<p><a href="../gondoliers/pirates platforms.php" target="_top" title="View the set platfrm layuot">Set platform layout</a></p>-->
 
                          <div class="schedule">
                               <h2>Schedule</h2>
-                              <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 7:00-10:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
+                              <div class="times"><b>Rehearsal Times:</b> Sundays: 7:00-10:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
                               </div>
 
                               <div class="castpageLinks">
-                                   <div id="ViewDays" style="padding:0px 0px 0px 10px; float: left;width:auto;">
+                                   <div id="ViewDays" style="padding:0px 0px; float: left;width:auto;">
                                         <a title="View ALL rehearsal dates"  onclick="
                                                   MM_showHideLayers('History','','hide');
                                                   MM_changeProp('History','','height','0px','DIV');
@@ -265,14 +281,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                    MM_changeProp('legend2','','height','0px','ID');
                                                    MM_showHideLayers('legend3','','hide');
                                                    MM_changeProp('legend3','','height','0px','ID');
-                                                                  " alt="Hide past rehearsal dates">Hide legend and past rehearsal dates</a>
-                                        <div><a href="#currentDate" style="margin-left: -20px;">Go to current date</a></div>
-                                   </div>
+                                                                  " alt="Hide past rehearsal dates">Hide legend and past rehearsal dates</a></div>                                  
                               </div>
 
                               <div id="Days" class="castlistDays">
 
-                                   <div id="legend" style="float:left;margin: 0 0 0 20px;clear:left; height: 0px;padding: 0px;">Men       
+                                   <div id="legend" style="float:left;margin: 0 0 0 40px;clear:left; height: 0px;padding: 0px;">Men       
                                                <ul class="p1"><b>DK</b>: DUKE OF PLAZA-TORO</ul>
                                                <ul class="p1"><b>LZ</b>: LUIZ </ul>
                                                <ul class="p1"><b>DA</b>: DON ALHAMBRA DEL BOLERO</ul>
@@ -285,7 +299,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                <ul class="p1"><b>MEN</b>: CHORUS of Gondoliers, <ul>(always includes AN, FR, GO, AB)</ul></ul>
                                    </div>  
 
-                                   <div id="legend2" style="float:left;margin: 0 0 0 20px;height: 0px;padding: 0px;">Women     
+                                   <div id="legend2" style="float:left;margin: 0 0 0 40px;height: 0px;padding: 0px;">Women     
                                                <ul class="p1"><b>DC</b>: DUCHESS OF PLAZA-TORO</ul>
                                                <ul class="p1"><b>CA</b>: CASILDA</ul>
                                                <ul class="p1"><b>IN</b>: INEZ</ul>
@@ -298,7 +312,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                                    </div>
 
-                                   <div id="legend3" style="float:left;margin: 0 0 0 20px;height: 0px;padding: 0px;"><ul class="p1">(<b>DB*</b>: Drummer Boy)</ul></div>
+                                   <div id="legend3" style="float:left;margin: 0 0 0 40px;height: 0px;padding: 0px;"><ul class="p1">(<b>DB*</b>: Drummer Boy)</ul></div>
                <!--begin past rehearsal dates --> 
                                    <div style="clear: both;">
 
@@ -474,7 +488,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               </div>   <!--ends class="synopsis" -->                                                                                                        
 
                <!--begins remaining rehearsal dates -->
-                              <span id="currentDate"></span>
                               <div style="clear: both;">   
                                         <div><ul><b>Sunday September 28</b>
                                                   <ul><u>CALLED</u>:

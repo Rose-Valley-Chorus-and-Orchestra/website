@@ -6,13 +6,13 @@
 <meta name="description" content="learn about the cast and crew for our 2025 production of The Gondoliers" />
 <meta name="keywords" content="The Pirates of Penzance, Me and My Girl, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
 <title>The Gondoliers 2025 Cast list - RVCO</title>
-<link rel="shortcut icon" href="../../../images/rvco.ico" />
-<link href="../../../css/bootstrap.css" rel="stylesheet" type="text/css">	
-<link href="../../../css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
-<link href="../../../css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
-<link href="../../../css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
-<link href="../../../css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
-<link href="../../../css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../images/rvco.ico" />
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">	
+<link href="../css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<link href="../css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
+<link href="../css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
+<link href="../css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
+<link href="../css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
  
 <script type="text/javascript">
 <!--
@@ -40,17 +40,17 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div class="container">
             <header>
                         <div class="primary_header">
-                               <?php include("../../../header2_new.php"); ?>
+                               <?php include("../header2_new.php"); ?>
                         </div>
                         <nav>
                              <div class="secondary_header" id="menu">
                                          <ul>
-                                              <li><a href="../../../index.php">HOME</a></li>
-                                              <li><a href="../../../AboutUs.php">ABOUT</a></li>
-                                               <li><a href="../../../Tickets.php">TICKETS</a></li>
-                                               <li><a href="../../../archive/Venue.php">VENUE</a></li>
-                                               <li><a href="../../../Auditions.php">AUDITIONS</a></li>
-                                              <li><a href="../../../Contacts.php"><nobr>CONTACT US</nobr></a></li>
+                                              <li><a href="../index.php">HOME</a></li>
+                                              <li><a href="../AboutUs.php">ABOUT</a></li>
+                                               <li><a href="../Tickets.php">TICKETS</a></li>
+                                               <li><a href="../archive/Venue.php">VENUE</a></li>
+                                               <li><a href="../Auditions.php">AUDITIONS</a></li>
+                                              <li><a href="../Contacts.php"><nobr>CONTACT US</nobr></a></li>
                                          </ul>
                               </div>
                         </nav>
@@ -99,7 +99,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     </div>
      
           <div class="feature castlist">
-                    <div style="margin: 20px 20px 20px 20px;"><img style="background-color: white;  max-width: 600px;" src="../../../images/logo/Gondoliers banner@600w.webp" alt="The
+                    <div style="margin: 20px 20px 20px 20px;"><img style="background-color: white;  max-width: 600px;" src="logo/Gondoliers banner@600w.webp" alt="The
                          Gondoliers logo" class="img-responsive" name="gondoliers"  title="" hspace="0" vspace="0" /></div>
        
                <h2 id="top" class="storyHead">Directors</h2>
@@ -198,6 +198,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          
                     <h2 class="storyHead">Production Staff</h2>
                     <ul>Producer - <at href="#Chris">Chris Rubino</a></ul>
+                    <ul>Lighting Designer - <at href="#Bill">Philip Milone</a></ul>   
+                    <ul>Lighting Operator - <at href="#Bill">Kathy Michael</a></ul>   
+                    <ul>Sound Engineer - <at href="#Bill">Anne Hamilton</a></ul>   
                     <ul>Stage Manager - <at href="#Bill">Bill Michael</a></ul>                    
                     <ul style="line-height: 160%">Stage Crew
                          <ul><at href="#Sean">Sean Hall</a></ul>
@@ -217,7 +220,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <!--<ul><a href="#Doug">Doug Kurtze</a></ul>-->
                          <ul><at href="#Bill">Bill Michael</a></ul>
                          <ul><at href="#Bob">Robert Moore</a></ul>
-                         <ul><at href="#Brain">Brain Rubino</a></ul>
+                         <ul><at href="#Brain">Brian Rubino</a></ul>
                          <ul><at href="#Chris">Chris Rubino</a></ul>
                          <ul><at href="#Meagan">Meagan Rubino</a></ul>
                          <ul><at href="#Joycd">Joyce Severin</a></ul>
