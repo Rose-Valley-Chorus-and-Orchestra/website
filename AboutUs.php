@@ -40,7 +40,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     
 </head>
 <body>
-<div class="container"><!-- -->
+<div class="container">
   <header>
     <div class="primary_header">
 		 <?php include("header_new.php"); ?>

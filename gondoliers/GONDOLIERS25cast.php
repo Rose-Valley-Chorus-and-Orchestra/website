@@ -198,6 +198,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          
                     <h2 class="storyHead">Production Staff</h2>
                     <ul>Producer - <at href="#Chris">Chris Rubino</a></ul>
+                    <ul>Lighting Designer - <at href="#Bill">Philip Milone</a></ul>   
+                    <ul>Lighting Operator - <at href="#Bill">Kathy Michael</a></ul>   
+                    <ul>Sound Engineer - <at href="#Bill">Anne Hamilton</a></ul>   
                     <ul>Stage Manager - <at href="#Bill">Bill Michael</a></ul>                    
                     <ul style="line-height: 160%">Stage Crew
                          <ul><at href="#Sean">Sean Hall</a></ul>
@@ -217,7 +220,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <!--<ul><a href="#Doug">Doug Kurtze</a></ul>-->
                          <ul><at href="#Bill">Bill Michael</a></ul>
                          <ul><at href="#Bob">Robert Moore</a></ul>
-                         <ul><at href="#Brain">Brain Rubino</a></ul>
+                         <ul><at href="#Brain">Brian Rubino</a></ul>
                          <ul><at href="#Chris">Chris Rubino</a></ul>
                          <ul><at href="#Meagan">Meagan Rubino</a></ul>
                          <ul><at href="#Joycd">Joyce Severin</a></ul>
