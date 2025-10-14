@@ -11,10 +11,8 @@
 <meta name="keywords" content="The Pirates of Penzance, Me and My Girl, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
 <title>Rose Valley Chorus and Orchestra</title>
 <link rel="shortcut icon" href="images/rvco.ico" />
-<!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css">	 -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
- <link href="css/multiColumnTemplate.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">	
+<link href="css/multiColumnTemplate.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Max425.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min426Max768.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min769Max1000.css?v<?php echo date('his'); ?>" rel="stylesheet" type="text/css">
@@ -58,7 +56,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 		 <?php include("header_new.php"); ?>
     </div>
     <nav><div class="secondary_header" id="menu">
-      <ul> 
+      <ul>
             <li>HOME</li>
             <li><a href="AboutUs.php">ABOUT</a></li>
             <li><a href="Tickets.php">TICKETS</a></li>
