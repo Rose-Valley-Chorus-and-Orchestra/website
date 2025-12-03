@@ -69,7 +69,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
  </header>
 
   <section>
-     Testing Sean
     <aside class="first_article">
 		<div class="firstShow">
                     <div class="current_header">
