@@ -67,37 +67,37 @@
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/statefair2025/STATEFAIR25cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/statefair2025/STATEFAIR25cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2025</div></td>
         <td><i>State Fair</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/piratesP2024/PIRATES24cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/piratesP2024/PIRATES24cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2024</div></td>
         <td><i>The Pirates of Penzance</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/cinderella2024/CINDERELLAcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/cinderella2024/CINDERELLAcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2024</div></td>
         <td><i>Rodgers &amp; Hammerstein's Cinderella</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/patience2023/PATIENCE2023cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/patience2023/PATIENCE2023cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2023</div></td>
         <td><i>Patience</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/high_society2923/SOCIETYScast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/high_society2923/SOCIETYScast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2023</div></td>
         <td><i>High Society</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/pinafore2022/PINAFORE22cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/pinafore2022/PINAFORE22cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2022</div></td>
         <td><i>H. M. S. Pinafore</i></td>
       </tr>
@@ -109,55 +109,55 @@
       </tr> -->
     <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/christmasCarol2019/CHRISTMAScast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/christmasCarol2019/CHRISTMAScast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2019</div></td>
         <td><i>A Christmas Carol - The Musical</i></td>
       </tr>
    <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/marietta2019/MARIETTAcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/marietta2019/MARIETTAcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2019</div></td>
         <td><i>Naughty Marietta, Revised 2018</i></td>
       </tr>
      <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/sorcerer21018/SORCERERcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/sorcerer21018/SORCERERcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2018</div></td>
         <td><i>The Sorcerer</i></td>
       </tr>
      <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/drowsy2018/DROWSYcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/drowsy2018/DROWSYcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2018</div></td>
         <td><i>The Drowsy Chaperone</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/mikado2017/MIKADOcast2017.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/mikado2017/MIKADOcast2017.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2017</div></td>
         <td><i>The Mikado</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/annieGun2017/AGYGcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/annieGun2017/AGYGcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2017</div></td>
         <td><i>Annie Get Your Gun</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/iolanthe2016/Iolanthecast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/iolanthe2016/Iolanthecast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2016</div></td>
         <td><i>Iolanthe</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/music_man2016/MusicMancast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/music_man2016/MusicMancast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2016</div></td>
         <td><i>The Music Man</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/thespis2015/Thespiscast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/thespis2015/Thespiscast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2015</div></td>
         <td><i>Thespis</i></td>
       </tr>
@@ -169,7 +169,7 @@
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/kissmekate2014/Katecast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/kissmekate2014/Katecast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2015</div></td>
         <td><i>Kiss Me, Kate</i></td>
       </tr>
@@ -181,13 +181,13 @@
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/evita2014/Evitacast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/evita2014/Evitacast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2014</div></td>
         <td><i>Evita</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/pirateP2013/PPcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/pirateP2013/PPcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2013</div></td>
         <td><i>The Pirates of Penzance</i></td>
       </tr>
@@ -211,13 +211,13 @@
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/fairlady2012/FAIRLADYcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/fairlady2012/FAIRLADYcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2012</div></td>
         <td><i>My Fair Lady</i></td>
       </tr>
       <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/patience2011/PATIENCEcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/patience2011/PATIENCEcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2011</div></td>
         <td><i>Patience</i></td>
       </tr>
@@ -225,7 +225,7 @@
 <!-- begin 2010's -->
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="past_shows/oklahoma2011/OKLAcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/oklahoma2011/OKLAcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2011</div></td>
         <td><em>Oklahoma!</em></td>
       </tr>
@@ -235,55 +235,55 @@
       
 <!-- begin 2000's -->
        <td></td>
-        <td align="center"><a href="past_shows/yeomen2011/YEOMENcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/yeomen2011/YEOMENcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2010</div></td>
         <td><i>The Yeomen of the Guard</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="past_shows/plainFancy2009/PLAINcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/plainFancy2009/PLAINcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2009</div></td>
         <td><i>Plain and Fancy</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="past_shows/pinafore2009/PINAFOREcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/pinafore2009/PINAFOREcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2009</div></td>
         <td><i>H.M.S. Pinafore</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="past_shows/merry_widow2008/WIDOWcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/merry_widow2008/WIDOWcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2008</div></td>
 	  <td><i>The Merry Widow</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="past_shows/ruddigore2008/RUDDIGOREcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/ruddigore2008/RUDDIGOREcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2008</div></td>
         <td><i>Ruddigore</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="past_shows/mame2007/MAMEcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/mame2007/MAMEcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2007</div></td>
         <td><i>Mame</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="past_shows/mikado2007/MIKADOcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/mikado2007/MIKADOcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2007</div></td>
         <td><i>The Mikado</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="past_shows/RedMill2006/RMcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/RedMill2006/RMcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2006</div></td>
         <td><i>The Red Mill</i></td>
       </tr>
       <tr>
         <td></td>
-        <td align="center"><a href="past_shows/piratesP2006/PPcast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="../past_shows/piratesP2006/PPcast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2006</div></td>
         <td><i>The Pirates of Penzance</i></td>
       </tr>
