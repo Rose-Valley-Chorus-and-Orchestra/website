@@ -73,7 +73,7 @@
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="../past_shows/piratesP2024/PIRATES24cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="https://archive.rvco.org/past_shows/piratesP2024/PIRATES24cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2024</div></td>
         <td><i>The Pirates of Penzance</i></td>
       </tr>
