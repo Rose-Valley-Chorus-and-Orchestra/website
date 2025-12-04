@@ -213,7 +213,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <li><a href="/gondoliers/Gondoliers 2025 Rehearsal Schedule Final.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the rehearsal schedule">Rehearsal Schedule (original)</a></li>
                                              <li><a href="/gondoliers/Errata List for Schirmer Gondoliers vocal score - vocal parts only.pdf" title="Open the Errata List for Schirmer Gondoliers vocal score in a new tab" target="new">Errata List for Schirmer Gondoliers vocal score</a></li>
                                              <li><a href="/gondoliers/Simplified Italian Pronunciation Guide.pdf" title="Open the Errata List for Schirmer Gondoliers vocal score in a new tab" target="new">Simplified Italian Pronunciation Guide</a></li>
-                                             <li><a href="/gondoliers/The_Gondoliers-Vocal_Score_(Schirmer).pdf" title="Open the Schirmer Gondoliers libretto in a new tab" target="new">Schirmer's <i>The Gondoliers</i> libretto</a>
+                                             <li><a href="/Dreamweaver 2021/The_Gondoliers-Vocal_Score_(Schirmer).pdf" title="Open the Schirmer Gondoliers libretto in a new tab" target="new">Schirmer's <i>The Gondoliers</i> libretto</a>
                                           </ul>
 
                                         <!--<p><a href="../gondoliers/pirates platforms.php" target="_top" title="View the set platfrm layuot">Set platform layout</a></p>-->
@@ -466,16 +466,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
-
-                    
-                                   </div>         
-          <!--ends past rehearsal dates --> 
-
-                              </div>   <!--ends class="synopsis" -->                                                                                                        
-
-               <!--begins remaining rehearsal dates -->
-                              <span id="currentDate"></span>
-                              <div style="clear: both;">   
                                         <div><ul><b>Sunday September 28</b>
                                                   <ul><u>CALLED</u>:
                                                        <ul>7:00 - LADIES, MEN, TE, GA, MP, GP<br /> 
@@ -527,21 +517,20 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
-                                        <ul style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 50px; font-size: 0.85em"><b>-----  
-                                                            EVERYONE is called from this date forward -----</b></ul>
-                                   
                                         <div><ul><b>Monday October 6</b>
-                                                      
-                                                       <ul><li><span style="color: firebrick;">no Alhambra or Inez; Marco late</span></li>
-                                                       <li>Review TBD</li></ul>
+                                                       <ul><u>CALLED</u>: <b>ALL</b> but DK, DC, LZ, CA, DA - <span style="color: firebrick;">no Alhambra or Inez; Marco late</span></li></ul>
+                                                       <ul><li>#1 and #10</li></ul>
                                              </ul>
                                         </div>
 
                                         <div><ul><b>Wednesday October 8</b>
-                                                       <li>Review TBD</li>
+                                                  <ul><u>CALLED</u>: <b>ONLY</b> MP, GA, MP, TE, DK, DC, LZ, CA, DA,   - <span style="color: firebrick;">no Alhambra or Inez; Marco late</span></li>     <li>Review</li></ul>
                                              </ul>
                                         </div>
 
+                                        <ul style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 50px; font-size: 0.85em"><b>-----  
+                                                            EVERYONE is called from this date forward -----</b></ul>
+               
                                         <div><ul><b>Sunday October 12</b>
                                                        <li><span style="color: firebrick;">no Giulia</span></li>
                                                        <li>Review TBD</li>
@@ -556,6 +545,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        <li>Run Act I</li>
                                              </ul>
                                         </div>
+
+                    
+                                   </div>         
+          <!--ends past rehearsal dates --> 
+
+                              </div>   <!--ends class="synopsis" -->                                                                                                        
+
+               <!--begins remaining rehearsal dates -->
+                              <span id="currentDate"></span>
+                              <div style="clear: both;">   
 
                                         <div><ul><b>Wednesday October 15</b>
                                                        <li>Run Act II</li>
