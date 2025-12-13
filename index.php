@@ -280,7 +280,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <div class="viewSynopsis">
                          <span class="current_castlist">
                               <span style="visibility: hidden; width: 0px;"><a href="gondoliers/GONDOLIERS25cast.php" title="Go to The Gondoliers cast list">Cast List</a></span>
-                              <span id="ViewSpringSynopsis" class=""><a title="View the synopsis of The Gondoliers"  
+                              <span id="ViewSpringSynopsis" class=""  style="visibility: hidden; width: 0px;"><a title="View the synopsis of The Gondoliers"  
                                         onclick="MM_showHideLayers('ShowSpringSynopsis','','show');
                                         MM_changeProp('ShowSpringSynopsis','','height','auto','DIV');
                                         MM_changeProp('ShowSpringSynopsis','','width','auto','DIV');
@@ -290,7 +290,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         " >Synopsis</a></span>
                               <!--<span><a href="SFfunfacts.php" title="Go to our page with fun facts about State Fair">Fun Facts</a></span>-->
                     </div>
-                    <div id="ShowSpringSynopsis" width="0px" height="0px" style="visibility: hidden; width: 0px;">
+                    <div id="ShowSpringSynopsis" width="0px" height="0px">
                             <a title="Hide the The Grand Duke synopsis" 
                                         onclick="MM_showHideLayers('ShowSpringSynopsis','','hide');
                                                   MM_changeProp('ShowSpringSynopsis','','height','0px','DIV');
