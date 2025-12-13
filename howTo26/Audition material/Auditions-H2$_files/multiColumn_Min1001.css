@@ -33,7 +33,7 @@
 #menu {
 	font-size: 22px;
 }
-.current_headerA, .coming_headerA, .current_headerB, .coming_headerB {font-size: 28px;}
+.current_headerA, coming_headerA, .current_headerB, coming_headerB {font-size: 28px;}
 .a_sub {font-size: 24px;} 
      
 .secondary_header {
@@ -157,9 +157,9 @@ subtitle {font-size: 22px;}
      margin-left: auto;
      margin-right: auto; max-width: 800px;
 	}
-.first_show_img  {content: url("../howTo26/logo/FLABhowToChair.webp")}
+.first_show_img  {content: url("../gondoliers2025/artwork/logo/Gondoliers logo.webp")}
 .second_show_img {clear:both;}          
-.second_show_img {content: url("../gondoliers2025/artwork/logo/Gondoliers logo.webp")}     
+.second_show_img {content: url("../howTo26/logo/FLABhowToChair.webp")}     
 .show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
      text-align: center;
      line-height: 150%;
@@ -252,7 +252,7 @@ I hide and show another table  */
 .second_article {float:none;width: 100%;} 
 .img-circle {width: 400px;}
 .second_show_img {max-width: 800px;}          
-.second_show_img {content: url("../gondoliers2025/artwork/logo/Gondoliers logo@600w.webp")}    
+.second_show_img {content: url("../howTo26/logo/FLABhowToChair.webp")}    
 }
 
 
@@ -261,7 +261,7 @@ I hide and show another table  */
           font-size: 18px;
           width:1200px;
 }
-.current_headerA, .coming_headerA, .current_headerB, .coming_headerB {font-size: 28px;}
+.current_headerA, coming_headerA, .current_headerB, coming_headerB {font-size: 22px;}
 .a_sub {font-size: 20px;} 
      
 .secondary_header { 
@@ -286,7 +286,7 @@ section {
 }
 .secondShow {width: 500px;}	
 .second_show_img {width: 450px; }     
-.first_show_img  {content: url("../howTo26/logo/FLABhowToChair.webp")}
-.second_show_img {content: url("../gondoliers2025/artwork/logo/Gondoliers logo@500w.webp")}    
+.first_show_img  {content: url("../gondoliers2025/artwork/logo/Gondoliers logo@500w.webp")}
+.second_show_img {content: url("../howTo26/logo/FLABhowToChair.webp")}    
 }
 }

@@ -99,8 +99,8 @@ subtitle {font-size: 22px;}
      margin-left: auto;
      margin-right: auto;
 	}
-.first_show_img  {content: url("../howTo26/logo/FLABhowToChair@500.webp")}
-.second_show_img  {clear: both;padding-top: 20px;content: url("../gondoliers2025/artwork/logo/Gondoliers logo@600w.webp");width: 600px;}
+.first_show_img  {content: url("../gondoliers2025/artwork/logo/Gondoliers logo@600w.webp")}
+.second_show_img  {clear: both;padding-top: 20px;content: url("../howTo26/logo/FLABhowToChair.webp");width: 600px;}
          
 .show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
      text-align: center;

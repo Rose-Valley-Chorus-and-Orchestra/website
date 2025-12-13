@@ -130,7 +130,6 @@ h5 {
 }
 .current_header {
     padding: 10px 20px;
-    font-size: 44px;
     color:#003366;
     font-weight: bold;
 }
@@ -146,7 +145,6 @@ h5 {
 }
 .current_headerB {
     text-align:right;
-     height: 40px;
 }
 .coming_headerA {
     text-align:left;
@@ -154,7 +152,6 @@ h5 {
 }
 .coming_headerB {
     text-align:right;
-      height: 40px;
 }
 
 .secondary_header {
@@ -448,7 +445,7 @@ body {
 }
 .secondShow {
 	color: #003366;
-	background-color: #FEC79B;
+	background-color: #c9dede;
 }
 .secondShow a {
     color: blue;
@@ -459,7 +456,7 @@ body {
 
 .firstShow {
 	color: #003366;
-	background-color: #c9dede  /* #000033  #05294B; */
+	background-color: #FEC79B  /* #000033  #05294B; */
 }
 
 .firstShow a {

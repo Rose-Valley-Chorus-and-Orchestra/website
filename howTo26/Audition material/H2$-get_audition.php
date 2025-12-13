@@ -5,13 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>How to Succeed Download Audition Material - RVCO</title>
-<link rel="shortcut icon" href="../images/rvco.ico" />
-<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">	
-<link href="../css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
-<link href="../css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
-<link href="../css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
-<link href="../css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
-<link href="../css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../../images/rvco.ico" />
+<link href="../../css/bootstrap.css" rel="stylesheet" type="text/css">	
+<link href="../../css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<link href="../../css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
+<link href="../../css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
+<link href="../../css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
+<link href="../../css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
 
 <!-- First uploaded September 16, 2025 -->
 
@@ -41,7 +41,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div class="container">
   <header>
     <div class="primary_header">
-		 <?php include("../header2_new.php"); ?>
+		 <?php include("../../header2_new.php"); ?>
     </div>
  </header>
 

@@ -64,7 +64,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
   <h1 id="pageName">ABOUT US</h1>
     
     
-  <div id="aboutus"><img src="images/RVCO_small.gif" alt="" name="Picture8" id="rvcoLogo" />
+  <div id="aboutus"><img src="images/logo/red RVCO Logo1907 transparent@500.webp" alt="" name="Picture8" id="rvcoLogo" class="img-responsive" style=" max-width: 300px;margin-left: auto;margin: 15px;"/>
     <p>The Rose Valley Chorus &amp; Orchestra presented its first production, Gilbert &amp; Sullivan's <i>The Mikado</i>, at the Artsman's Hall (now Hedgerow Theatre) in Rose Valley on November 21, 1907. This performance united the wealth of musical and dramatic talent residents in the arts and crafts colony of Rose Valley into a group that is still vibrant and successful for more than 100 years (and almost 200 shows! See a list of our <a href="productionHistory.php">production history</a>. Today we perform in the beautiful and modern theater at <a href="archive/Venue.php">Strath Haven Middle School</a> in Wallingford.</p>
     
     <p>The Rose Valley Chorus &amp; Orchestra draws its membership from the entire Delaware Valley, a result of its reputation for presenting professional-quality theatrical productions. The voices of the principals and chorus, with the musicianship of the full 35-piece orchestra, rank among the best of the area's many community musical theater groups.</p>

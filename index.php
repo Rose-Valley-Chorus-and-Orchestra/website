@@ -69,97 +69,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
  </header>
 
   <section>
-    <aside class="first_article">
-		<div class="firstShow">
-                    <div class="current_header">
-                         <div class="current_headerA">November 2025</div>
-                         <div class="current_headerB" style="visibility: hidden;">Gilber and Sullivan's <i>The Gondoliers or the King of Barataria</i></div>
-                    </div>
-		
-                    <img style="" alt="The Gondoliers logo" class="first_show_img" name="gondoliers"  title="" hspace="20" vspace="0" />
-               
-                    <!--<div style="margin: 15px 15px 0px; padding:15px; background-color: firebrick; color: ghostwhite;">Following the Sunday matinees, children and adults are invited on stage to greet the cast of pirates, policemen, and fair maidens. Costumes are welcome!</div>-->
-               
-                    <div class="show_authors">		
-                         <div>Book by W. S. Gilbert</div>
-                         <div>Music by Arthur Sullivan</div>
-                    </div>
-                    <div class="show_info">
-                                             <!-- DIRECTORS -->
-                              <div class="current_directors">
-                                        <nobr>Katherine P. Nealley -&nbsp;Stage Director</nobr><br />
-                                        <nobr>Florrie Marks -&nbsp;Music&nbsp;Director</nobr><br />
-                                        <!--<nobr>Kenneth Fisher -&nbsp;Choreographer</nobr><br />-->
-                              </div>
-                         
-                         <!-- begin DATES -->
-                              <div class="current_dates">Saturday, November 8 at 2 p.m. and 7:30 p.m.<br />
-                                                       Sunday, November 9 at 2 p.m.<br />
-                                                       Wednesday, November 12 at 7:30 p.m.<br />
-                                                       Saturday, November 15 at 2 p.m. and 7:30 p.m.<br />
-                                                       Sunday, November 16 at 2 p.m.<br />
-                                   <!--<span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span>-->
-                              </div>           
-                        <!-- end DATES -->
-
-                    <!-- VENUE -->
-                             <div class="current_venue">
-                                        <a href="archive/Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>,<br /> Wallingford, PA</div>                
-                             <!-- <div class="current_castlist"><a href="cinderella/CINDERELLAcast.php" title="Go to the Rodgers &amp; Hammerstein's cast list">Cast List</a></div> -->
-                    </div>				
-
-            <!-- begin SYNOPSIS HERE -->
-                    <div class="viewSynopsis">
-                         <span class="current_castlist">
-                              <span><a href="gondoliers/GONDOLIERS25cast.php" title="Go to The Gondoliers cast list">Cast List</a></span>
-                              <span id="ViewSpringSynopsis" class=""><a title="View the synopsis of The Gondoliers"  
-                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','show');
-                                        MM_changeProp('ShowSpringSynopsis','','height','auto','DIV');
-                                        MM_changeProp('ShowSpringSynopsis','','width','auto','DIV');
-                                        MM_changeProp('ViewSpringSynopsis','','height','0px','SPAN');
-                                        MM_changeProp('ViewSpringSynopsis','','width','0px','SPAN');
-                                        MM_showHideLayers('ViewSpringSynopsis','','hide');
-                                        " >Synopsis</a></span>
-                              <!--<span><a href="SFfunfacts.php" title="Go to our page with fun facts about State Fair">Fun Facts</a></span>-->
-                    </div>
-                    <div id="ShowSpringSynopsis" width="0px" height="0px">
-                            <a title="Hide the The Gondoliers synopsis" 
-                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','hide');
-                                                  MM_changeProp('ShowSpringSynopsis','','height','0px','DIV');
-                                                  MM_changeProp('ShowSpringSynopsis','','width','0px','DIV');
-                                                  MM_changeProp('ViewSpringSynopsis','','height','auto','SPAN');
-                                                  MM_changeProp('ViewSpringSynopsis','','width','auto','SPAN');
-                                                 MM_showHideLayers('ViewSpringSynopsis','','show');" alt="Hide The Gondoliers synopsis">(Hide Synopsis)</a><br />
-                             <p>Marco and Giuseppe Palmieri, Venetian gondoliers, are told that one of them is the heir to the throne of Barataria. Until it is determined which one is the new king, the brothers must rule together. Complicating matters, the brothers have not only recently married young Venetian ladies, but they will soon meet the daughter of the Duke of Plaza Toro to whom the unsuspecting future king was married in infancy. As the Grand Inquisitor seeks the truth from the prince’s foster mother, everyone assembles in Barataria awaiting the answer. Who is the rightful king?…and will hearts be mended or broken?</p>
-                    </div>
-            <!-- begin SYNOPSIS HERE -->
-                       <!-- begin TICKETS HERE -->
-                             <div id="buyShowlink" class="gondoliers">
-                                  <div class="ticketsSponsors"><a title="Go to Zeffy to Buy Tickets to The Gondoliers" href="https://www.zeffy.com/ticketing/the-gondoliers-tickets">Buy Tickets</a>
-                                  <a title="Go to Zeffy to Donate to Be a Show Sponsor" href="https://www.zeffy.com/ticketing/sponsorship-for-the-gondoliers-2">Be a Sponsor</a>
-                                  <a title="Find out more information on placing an ad in our playbill" href="Ads.php">Playbill Ads</a>
-                                  </div>
-                             </div>
-                        
-
-                      <!--<div id="copyCredit">STATE FAIR is presented by arrangement with Concord Theatricals on behalf of The Rodgers &amp; Hammerstein Organization.
-                              www.concordtheatricals.com</div>-->             
-         
-       </div>     <!-- ends class="firstShow" div -->
-               <!--            </div>    -->
-               
-
-       </aside>       
-    <aside class="second_article" style="height: 100%">        
-            <div class="secondShow" >
+    <aside class="first_article" style="height: 100%">        
+            <div class="firstShow" >
 
                 <!--  TITLE / SEASON  -->
-                    <div class="coming_header">
-                              <div class="coming_headerA">Spring 2026</div>
-                              <div class="coming_headerB"style="visibility: hidden;">How to Succeed in Business Without Really Trying</div>
+                    <div class="current_header">
+                              <div class="current_headerA">Spring 2026</div>
+                              <div class="current_headerB"style="visibility: hidden;">How to Succeed in Business Without Really Trying</div>
                               <!--<div class="a_sub" style="visibility: hidden; height: 0px;">or The King of Barataria</div>-->
                     </div>
-                     <img class="second_show_img" name="How to Succeed in Bussiness without Really Trying"  title="How to Succeed in Bussiness without Really Trying logo" hspace="20" vspace="5" />
+                     <img class="first_show_img" name="How to Succeed in Bussiness without Really Trying"  title="How to Succeed in Bussiness without Really Trying logo" hspace="20" vspace="5" />
                  
                     <div class="show_authors">
                                         <div>Book by <span class="authors">Abe Burrows</span>, <span class="authors">Jack Weinstock</span> and <span class="authors">Willie Gilbert</span></div>
@@ -229,13 +148,29 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                         <!-- end DATES -->
 
                        <!-- DIRECTORS -->
-                             <div class="current_directors">
+                             <div class="coming_directors">
                                         <nobr>Chris Fitting -&nbsp;Stage Director</nobr><br />
                                         <nobr>Florrie Marks -&nbsp;Music&nbsp;Director</nobr><br />
                               </div>
 
                 <!-- begin LINKS HERE -->
+ <hr style="border-top: 1px solid #003366; width:50%; margin-top: 15px; margin-bottom: 5px;" />
+                         <!-- VENUE -->
+                             <div class="current_venue">
+                                        <a href="archive/Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>, Wallingford, PA</div>                
 
+
+                         <!-- begin DATES -->
+                              <div class="current_dates">Saturday, April 18 at 2 p.m. and 7:30 p.m.<br />
+                                                       Sunday, April 19 at 2 p.m.<br />
+                                                       Wednesday, April 22 at 7:30 p.m.<br />
+                                                       Saturday, April 25 at 2 p.m. and 7:30 p.m.<br />
+                                                       Sunday, April 26 at 2 p.m.<br />
+                                   <!--<span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span>-->
+                              </div>           
+                        <!-- end DATES -->
+                         
+                         
                 <!-- VENUE -->
                         <!-- <div class="current_venue">
                                    <a href="Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>,<br /> Wallingford, PA</div>                
@@ -243,24 +178,47 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     </div>				
 
              <!--  end LINKS HERE -->
-
+<hr style="border-top: 1px solid #003366; width:50%; margin-top: 15px; margin-bottom: 15px;"/>
                 
-            <!-- begin SYNOPSIS HERE -->
-                    <div id="ViewShowSynopsis" class="viewSynopsis"><a title="View The Gondoliers synopsis"  
-                         onclick="MM_showHideLayers('ShowSynopsis','','show');
-                         MM_showHideLayers('ViewShowSynopsis','','hide');
-                         MM_changeProp('ViewShowSynopsis','','height','0px','DIV');
-                         MM_changeProp('ViewShowSynopsis','','padding','0px','DIV');
-                         MM_changeProp('ShowSynopsis','','height','100%','DIV')" >View Show Synopsis</a></div>
-                    <div id="ShowSynopsis">
-                            <div class="HideSynopsisLink"><a title="Hide the Patience synopsis" onclick="MM_showHideLayers('ShowSynopsis','','hide');
-                                 MM_showHideLayers('ViewShowSynopsis','','show');
-                                 MM_changeProp('ViewShowSynopsis','','padding','0px 15px 10px','DIV');
-                                 MM_changeProp('ShowSynopsis','','height','0px','DIV')" alt="Hide The Gondoliers synopsis">Hide Synopsis</a></div>
-                                        <p><i>How to Succeed in Business Without Really Trying</i>, the Pulitzer Prize and Tony Award-winning musical, is a story about the triumph of the common man amid the buffoonery of big business. When an ambitious window washer named J. Pierrepont Finch happens upon a book entitled 'How to Succeed in Business Without Really Trying', he decides to begin his rise up the corporate ladder. With the book's instructions, Finch starts by landing a job in the mailroom. He is soon promoted and outsmarts his rival, Frump, the boss's nephew, before finally reaching the very top of the organization. From the beginning, Finch has the love and support of Rosemary, a marriage-minded secretary who finds him endearing. In his pursuit of the top job, Finch is in danger losing Rosemary's love. Finch's manual to success can no longer help him as he must rely on his wit and heart to save the day.</p>
-
-                                        <p>The standout score by Frank Loesser features such classics as the surreal and funny "Coffee Break", the rousing "Brotherhood of Man", and the melodious tongue-in-cheek ballad "I Believe In You", while the  book by  Burrows,  Weinstock, and  Gilbert, won the Pulitzer Prize in 1962 for Best Drama.</p>
+              <!-- begin SYNOPSIS HERE -->
+                    <div class="viewSynopsis">
+                         <span class="current_castlist">
+                              <span><a href="howTo26/how2$2026cast.php" title="Go to the How to Succeed in Business Without Really Trying">Cast List</a></span>
+                              <span id="ViewSpringSynopsis" class=""><a title="View the synopsis of The Gondoliers"  
+                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','show');
+                                        MM_changeProp('ShowSpringSynopsis','','height','auto','DIV');
+                                        MM_changeProp('ShowSpringSynopsis','','width','auto','DIV');
+                                        MM_changeProp('ViewSpringSynopsis','','height','0px','SPAN');
+                                        MM_changeProp('ViewSpringSynopsis','','width','0px','SPAN');
+                                        MM_showHideLayers('ViewSpringSynopsis','','hide');
+                                        " >Synopsis</a></span>
+                              <!--<span><a href="SFfunfacts.php" title="Go to our page with fun facts about State Fair">Fun Facts</a></span>-->
                     </div>
+                    <div id="ShowSpringSynopsis" width="0px" height="0px">
+                            <a title="Hide the The Gondoliers synopsis" 
+                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','hide');
+                                                  MM_changeProp('ShowSpringSynopsis','','height','0px','DIV');
+                                                  MM_changeProp('ShowSpringSynopsis','','width','0px','DIV');
+                                                  MM_changeProp('ViewSpringSynopsis','','height','auto','SPAN');
+                                                  MM_changeProp('ViewSpringSynopsis','','width','auto','SPAN');
+                                                 MM_showHideLayers('ViewSpringSynopsis','','show');" alt="Hide The Gondoliers synopsis">(Hide Synopsis)</a><br />
+                              <p><i>How to Succeed in Business Without Really Trying</i>, the Pulitzer Prize and Tony Award-winning musical, is a story about the triumph of the common man amid the buffoonery of big business. When an ambitious window washer named J. Pierrepont Finch happens upon a book entitled 'How to Succeed in Business Without Really Trying', he decides to begin his rise up the corporate ladder. With the book's instructions, Finch starts by landing a job in the mailroom. He is soon promoted and outsmarts his rival, Frump, the boss's nephew, before finally reaching the very top of the organization. From the beginning, Finch has the love and support of Rosemary, a marriage-minded secretary who finds him endearing. In his pursuit of the top job, Finch is in danger losing Rosemary's love. Finch's manual to success can no longer help him as he must rely on his wit and heart to save the day.</p>
+
+                              <p>The standout score by Frank Loesser features such classics as the surreal and funny "Coffee Break", the rousing "Brotherhood of Man", and the melodious tongue-in-cheek ballad "I Believe In You", while the  book by  Burrows,  Weinstock, and  Gilbert, won the Pulitzer Prize in 1962 for Best Drama.</p>
+                    </div>
+            <!-- begin SYNOPSIS HERE -->
+                         
+                         
+                       <!-- begin TICKETS HERE -->
+                             <div id="buyShowlink" class="gondoliers">
+                                  <div class="ticketsSponsors"><a title="Go to Zeffy to Buy Tickets to How to Succeed in Business Without Really Trying" href="https://www.zeffy.com/en-US/ticketing/how-to-succeed-in-business-without-really-trying">Buy Tickets</a>
+                                  <a title="Go to Zeffy to Donate to Be a Show Sponsor" href="https://www.zeffy.com/en-US/ticketing/sponsorship-for-how-to-succeed-in-business-without-really-trying">Be a Sponsor</a>
+                                  <a title="Find out more information on placing an ad in our playbill" href="Ads.php">Playbill Ads</a>
+                                  </div>
+                             </div>
+                         
+                         
+                         
             <!-- end SYNOPSIS HERE -->
                       <!--<div id="copyCredit">ME AND MY GIRL is presented by arrangement with Concord Theatricals. www.concordtheatricals.com</div>             
             </div>     -->
@@ -273,6 +231,86 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          
          </div>
     </aside>
+       
+    <aside class="second_article">
+		<div class="secondShow">
+                    <div class="coming_header">
+                         <div class="coming_headerA">November 2025</div>
+                         <div class="coming_headerB" style="visibility: hidden;">Gilber and Sullivan's <i>The Grand Duke or The Statutory Duel</i></div>
+                    </div>
+		
+                    <div style="font-family:'Newcomen Black', 'Royale 40', 'Aviano Royale Black';font-size: 38px;text-align: center;padding-top:30px;">The Grand Duke</div>
+                    <div  style="font-family:'Aviano Royale Black';font-size: 28px;text-align: center;">or The Statutory Duel</div>
+               
+                    <img alt="The Grand Duke logo" class="second_show_img" name="grandDuke"  title="" hspace="20" vspace="0" style="visibility: hidden; height: 10px;"/>
+               
+                    <!--<div style="margin: 15px 15px 0px; padding:15px; background-color: firebrick; color: ghostwhite;">Following the Sunday matinees, children and adults are invited on stage to greet the cast of pirates, policemen, and fair maidens. Costumes are welcome!</div>-->
+               
+                    <div class="show_authors">		
+                         <div>Book by W. S. Gilbert</div>
+                         <div>Music by Arthur Sullivan</div>
+                    </div>
+                    <div class="show_info">
+                                             <!-- DIRECTORS -->
+                              <div class="current_directors" style="visibility: hidden; height: 0px;">
+                                        <nobr>Katherine P. Nealley -&nbsp;Stage Director</nobr><br />
+                                        <nobr>Florrie Marks -&nbsp;Music&nbsp;Director</nobr><br />
+                                        <!--<nobr>Kenneth Fisher -&nbsp;Choreographer</nobr><br />-->
+                              </div>
+                         
+                         <!-- begin DATES -->
+                              <div class="current_dates" style="visibility: hidden; height: 0px;">Saturday, November 8 at 2 p.m. and 7:30 p.m.<br />
+                                                       Sunday, November 9 at 2 p.m.<br />
+                                                       Wednesday, November 12 at 7:30 p.m.<br />
+                                                       Saturday, November 15 at 2 p.m. and 7:30 p.m.<br />
+                                                       Sunday, November 16 at 2 p.m.<br />
+                                   <!--<span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span>-->
+                              </div>           
+                        <!-- end DATES -->
+ 
+                         <!-- VENUE -->
+                             <div class="current_venue" style="visibility: hidden; height: 0px;">
+                                        <a href="archive/Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>,<br /> Wallingford, PA</div>                
+
+                    </div>				
+
+            <!-- begin SYNOPSIS HERE -->
+               
+               <p><p>Ludwig, an actor, replaces the company manager, Ernest, and then he replaces the miserly Grand Duke Rudolph of Pfennig Halbpfennig, after "killing" each of them by drawing the ace from a deck of cards in two "statutory" duels. By winning the statutory duels, Ludwig assumes all of Ernest's and Rudolph's rights and obligations. Soon he finds himself with far more wives, and prospective wives, than he knows what to do with. Never fear: once again, a lawyer solves the problem and all ends happily.</p></p>
+                    <div class="viewSynopsis">
+                         <span class="current_castlist">
+                              <span style="visibility: hidden; width: 0px;"><a href="gondoliers/GONDOLIERS25cast.php" title="Go to The Gondoliers cast list">Cast List</a></span>
+                              <span id="ViewSpringSynopsis" class=""><a title="View the synopsis of The Gondoliers"  
+                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','show');
+                                        MM_changeProp('ShowSpringSynopsis','','height','auto','DIV');
+                                        MM_changeProp('ShowSpringSynopsis','','width','auto','DIV');
+                                        MM_changeProp('ViewSpringSynopsis','','height','0px','SPAN');
+                                        MM_changeProp('ViewSpringSynopsis','','width','0px','SPAN');
+                                        MM_showHideLayers('ViewSpringSynopsis','','hide');
+                                        " >Synopsis</a></span>
+                              <!--<span><a href="SFfunfacts.php" title="Go to our page with fun facts about State Fair">Fun Facts</a></span>-->
+                    </div>
+                    <div id="ShowSpringSynopsis" width="0px" height="0px" style="visibility: hidden; width: 0px;">
+                            <a title="Hide the The Grand Duke synopsis" 
+                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','hide');
+                                                  MM_changeProp('ShowSpringSynopsis','','height','0px','DIV');
+                                                  MM_changeProp('ShowSpringSynopsis','','width','0px','DIV');
+                                                  MM_changeProp('ViewSpringSynopsis','','height','auto','SPAN');
+                                                  MM_changeProp('ViewSpringSynopsis','','width','auto','SPAN');
+                                                 MM_showHideLayers('ViewSpringSynopsis','','show');" alt="Hide The Gondoliers synopsis">(Hide Synopsis)</a><br />
+                             <p>Marco and Giuseppe Palmieri, Venetian gondoliers, are told that one of them is the heir to the throne of Barataria. Until it is determined which one is the new king, the brothers must rule together. Complicating matters, the brothers have not only recently married young Venetian ladies, but they will soon meet the daughter of the Duke of Plaza Toro to whom the unsuspecting future king was married in infancy. As the Grand Inquisitor seeks the truth from the prince’s foster mother, everyone assembles in Barataria awaiting the answer. Who is the rightful king?…and will hearts be mended or broken?</p>
+                    </div>
+            <!-- begin SYNOPSIS HERE -->
+                        
+
+                      <!--<div id="copyCredit">STATE FAIR is presented by arrangement with Concord Theatricals on behalf of The Rodgers &amp; Hammerstein Organization.
+                              www.concordtheatricals.com</div>-->             
+         
+       </div>     <!-- ends class="firstShow" div -->
+               <!--            </div>    -->
+               
+
+       </aside>       
   </section>
  <?php include("social.php"); ?> 
  <?php include("join.php"); ?>     

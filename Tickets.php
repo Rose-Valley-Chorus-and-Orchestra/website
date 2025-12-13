@@ -63,16 +63,26 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div class="container">     
      <header>
     <div class="primary_header">
-		 <?php include("header_new.php"); ?>
+		 <div id="masthead">  
+	<div id="facebook_youtube">
+		<div class="face_tube">
+			<a class="face_tube_img" href="https://www.facebook.com/RoseValleyChorus/" target="_blank"><img src="images/facebook.svg" alt="Follow us on Facebook" vspace="1" align="absmiddle" title="Find us on Facebook" /></a>
+               <a class="face_tube_img" href="https://www.instagram.com/rvco1907/" target="_blank"><img src="images/Instagram@50px.webp" alt="Follow us on Instagram" vspace="1" align="absmiddle" title="Follow us on Instagram" /></a> 
+                </div>
+        <div class="face_tube">
+			<a class="face_tube_img" href="http://www.youtube.com/user/rosevalleychorus" target="_blank"><img src="images/youtube.svg" alt="Visit our YouTube channel" vspace="1" align="absmiddle" title="Visit our YouTube channel" /></a></div>
+	</div>
+     <h1 id="siteName"><a href="index.php">Rose Valley Chorus &amp; Orchestra</a></h1>
+</div>
     </div>
     <nav><div class="secondary_header" id="menu">
       <ul>
             <li><a href="index.php">HOME</a></li>
            <li><a href="AboutUs.php">ABOUT</a></li>
              <li>TICKETS</li>
-		  <li><a href="archive/Venue.php">VENUE</a></li>
+		  <li><a href="Venue.php">VENUE</a></li>
 		  <li><a href="Auditions.php">AUDITIONS</a></li>
-            <li><a href="archive/ContactUs.php"><nobr>CONTACT US</nobr></a></li>
+            <li><a href="../archive/web pages/contact pages/ContactUs.php"><nobr>CONTACT US</nobr></a></li>
       </ul>
     </div>
     </nav>
@@ -82,12 +92,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                    <article class="left_article">
                               <h1 id="pageName">TICKETS</h1>
                               <h2 class="storyHead" style="visibility: hidden;"><i>State Fair</i></h2>
-                              <div style="margin: 20px;"><img style="background-color: white;  max-width: 800px;margin-left: auto;margin-right: auto;" src="gondoliers/logo/Gondoliers logo.webp" alt="The State Fair logo" class="img-responsive" name="statefair"  title="" hspace="0" vspace="0" /></div>
+                              <div style="margin: 20px;"><img style="background-color: white;  max-width: 500px;margin-left: auto;margin-right: auto;" src="howTo26/logo/FLABhowToChair@500.webp" alt="How to Succed in Business logo" class="img-responsive" name="howTo"  title="" hspace="0" vspace="0" /></div>
 
                               <div id="tickets">
                                    <p style="max-width: 800px;margin-left: auto;margin-right: auto;font-size: 1.1em;color:#003366;"><b>Are you looking for a gift idea? Tickets make a great present.</b></p>
-                                                  <p class="ticketsButton"><a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to Glbert & Sullivan's The Gondoliers" href="https://www.zeffy.com/ticketing/the-gondoliers-tickets">Buy Tickets</a></p>
-                                                  <p>Peformances are at <a href="archive/Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
+                                                  <p class="ticketsButton"><a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to How to Succeed in Business Without Really Trying" href="https://www.zeffy.com/en-US/ticketing/how-to-succeed-in-business-without-really-trying">Buy Tickets</a></p>
+                                                  <p>Peformances are at <a href="Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
 
                                                   <p>All tickets are general admission and good for <b><i>any</i></b> performance.
                                                        <ul class="ticketPrice" style="margin-top: -10px;">Adult - $25.00</ul>
@@ -98,11 +108,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                       <ul style="margin-left: 25px; margin-top: -10px;"><li>$15 each for 10 or more tickets</li>
                                                       <li>Tickets must be for the same performance</li></ul></p>
                                    <p>Performances:
-                                                       <ul class="showDates" style="margin-top: -10px;">Saturday, November 8 at 2 p.m. and 8 p.m.</ul>
-                                                       <ul class="showDates">Sunday, November 9 at 2 p.m.</ul>
-                                                       <ul class="showDates">Wednesday, November 12 at 8 p.m.</ul>
-                                                       <ul class="showDates">Saturday, November 15 at 2 p.m. and 8 p.m.</ul>
-                                                       <ul class="showDates">Sunday, November 16 at 2 p.m.</ul>
+                                                       <ul class="showDates" style="margin-top: -10px;">Saturday, November 8 at 2:00 p.m. and 7:30 p.m.</ul>
+                                                       <ul class="showDates">Sunday, November 9 at 2:00 p.m.</ul>
+                                                       <ul class="showDates">Wednesday, November 12 at 7:30 p.m.</ul>
+                                                       <ul class="showDates">Saturday, November 15 at 2:00 p.m. and 7:30 p.m.</ul>
+                                                       <ul class="showDates">Sunday, November 16 at 2:00 p.m.</ul>
                                                   <!--<ul><span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span></ul>-->
                                                   </p>
                                                   
@@ -123,7 +133,13 @@ End of Inclement Weather Cancelatio message -->
      
 <footer class="secondary_header, footer">
     <div class="copyright">
- <?php include("footer.php"); ?></div>
+ <div id="bottomLinks">
+	<span><a href="Venue.php" title="Get directions to our theater">Directions</a></span> 
+	<span><a href="productionHistory_new.php" title="See our complete history of shows">Production History</a></span> 
+	<span><a href="Contacts.php" alt="Contact Us" title="Go a page with our address, phone number and email addresses to contact us" >Contact Us</a></span></div>
+<div id="siteInfo">&copy; 2025 Rose Valley Chorus and Orchestra</div>
+<br /> 
+</div>
   </footer>
 </div>
 </body>

@@ -57,6 +57,12 @@
         <td>&nbsp;</td>
         <td align="center"><!--<a href="gondoliers/GONDOLIERS25cast.php">cast list &amp; synopsis</a>--></td>
         <td><div align="center">2026</div></td>
+        <td><i>The Grand Duke</i></td>
+      </tr>
+       <tr>
+        <td>&nbsp;</td>
+        <td align="center"><!--<a href="gondoliers/GONDOLIERS25cast.php">cast list &amp; synopsis</a>--></td>
+        <td><div align="center">2026</div></td>
         <td><i>How to Succeed in Business without Really Trying</i></td>
       </tr>
        <tr>

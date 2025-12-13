@@ -62,8 +62,8 @@ subtitle {font-size: 22px;}
      margin-left: auto;
      margin-right: auto;
 	}
-.second_show_img  {content: url("../gondoliers/logo/Gondoliers logo@600w.webp")}
-.first_show_img {padding-top: 20px; content: url( "../howTo26/logo/FLABhowToChair@500.webp"); width: 500px;}         
+.first_show_img  {content: url("../gondoliers2025/artwork/logo/Gondoliers logo@600w.webp")}
+.second_show_img {padding-top: 20px; content: url( "../howTo26/logo/FLABhowToChair@500.webp"); width: 500px;}         
 .show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
      text-align: center;
      line-height: 150%;
@@ -259,11 +259,11 @@ I hide and show another table  */
 @media (min-width: 426px) and (max-width: 605px) {	
 .jump2year {clear: left; padding-top:10px;}
 .bios p  {width:100%; padding-right: 0px}
-.first_show_img  {content: url("../howTo26/logo/FLABhowToChair@500.webp")}
-.second_show_img {content: url("../gondoliers2025/artwork/logo/Gondoliers logo@400w.webp"); width:450px;}              
+.first_show_img  {content: url("../gondoliers2025/artwork/logo/Gondoliers logo@600w.webp")}
+.second_show_img {content: url("../howTo26/logo/FLABhowToChair@500.webp"); width:450px;}              
 }
 @media (min-width: 451px) and (max-width: 525px) {	
-.first_show_img {content: url("../howTo26/logo/FLABhowToChair@500.webp"); width:400px;}              
+.second_show_img {content: url("../howTo26/logo/FLABhowToChair@500.webp"); width:400px;}              
 }
 @media (min-width: 426px) and (max-width: 570px) {
 .face_tube_text {
@@ -304,8 +304,8 @@ I hide and show another table  */
 #siteName {width: 300px;}
 #menu {
 	font-size: 14px;}	
-.first_show_img  {content: url("../howTo26/logo/FLABhowToChair@500.webp")}
-.second_show_img {content: url("../gondoliers2025/artwork/logo/Gondoliers logo@400w.webp"); width: 350px;}
+.first_show_img  {content: url("../gondoliers2025/artwork/logo/Gondoliers logo@400w.png")}
+.second_show_img {content: url("../howTo26/logo/FLABhowToChair@500.webp"); width: 350px;}
 #facebook_youtube {
 	max-width: 120px;
      padding: 0px 10px 0px 20px;}
