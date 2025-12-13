@@ -10987,3 +10987,12 @@
 [14-Oct-2025 13:18:07 UTC] PHP Warning:  include(../join.php): failed to open stream: No such file or directory in /home/rvco/public_html/Auditions.php on line 322
 [14-Oct-2025 13:18:07 UTC] PHP Warning:  include(../join.php): failed to open stream: No such file or directory in /home/rvco/public_html/Auditions.php on line 322
 [14-Oct-2025 13:18:07 UTC] PHP Warning:  include(): Failed opening '../join.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/rvco/public_html/Auditions.php on line 322
+[08-Dec-2025 03:21:05 UTC] PHP Warning:  include(../join.php): failed to open stream: No such file or directory in /home/rvco/btest.rvco.org/Auditions.php on line 322
+[08-Dec-2025 03:21:05 UTC] PHP Warning:  include(../join.php): failed to open stream: No such file or directory in /home/rvco/btest.rvco.org/Auditions.php on line 322
+[08-Dec-2025 03:21:05 UTC] PHP Warning:  include(): Failed opening '../join.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/rvco/btest.rvco.org/Auditions.php on line 322
+[10-Dec-2025 08:48:05 UTC] PHP Warning:  include(../join.php): failed to open stream: No such file or directory in /home/rvco/btest.rvco.org/Auditions.php on line 322
+[10-Dec-2025 08:48:05 UTC] PHP Warning:  include(../join.php): failed to open stream: No such file or directory in /home/rvco/btest.rvco.org/Auditions.php on line 322
+[10-Dec-2025 08:48:05 UTC] PHP Warning:  include(): Failed opening '../join.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/rvco/btest.rvco.org/Auditions.php on line 322
+[13-Dec-2025 15:18:19 UTC] PHP Warning:  include(../join.php): failed to open stream: No such file or directory in /home/rvco/btest.rvco.org/Auditions.php on line 322
+[13-Dec-2025 15:18:19 UTC] PHP Warning:  include(../join.php): failed to open stream: No such file or directory in /home/rvco/btest.rvco.org/Auditions.php on line 322
+[13-Dec-2025 15:18:19 UTC] PHP Warning:  include(): Failed opening '../join.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/rvco/btest.rvco.org/Auditions.php on line 322
