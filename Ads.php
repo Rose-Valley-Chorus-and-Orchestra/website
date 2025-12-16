@@ -72,7 +72,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
              <li>TICKETS</li>
 		  <li><a href="archive/Venue.php">VENUE</a></li>
 		  <li><a href="Auditions.php">AUDITIONS</a></li>
-            <li><a href="archive/ContactUs.php"><nobr>CONTACT US</nobr></a></li>
+            <li><a href="ContactUs.php"><nobr>CONTACT US</nobr></a></li>
       </ul>
     </div>
     </nav>
@@ -82,7 +82,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                    <article class="left_article">
                               <h1 id="pageName">Advertise in Our Playbill</h1>
                               <h2 class="storyHead" style="visibility: hidden;"><i>State Fair</i></h2>
-                              <div style="margin: 20px;"><img style="background-color: white;  max-width: 800px;margin-left: auto;margin-right: auto;" src="gondoliers/logo/Gondoliers banner@500w.webp" alt="The Gondoliers logo" class="img-responsive" name="gondoliers"  title="" hspace="0" vspace="0" /></div>
+                              <div style="margin: 20px;"><img style="background-color: white; max-width: 400px; margin-left: auto;margin-right: auto;" src="howTo26/logo/FLABhowToChair@500.webp" alt="The How to Succeed in Business Without Really Trying logo" class="img-responsive" name="howTo"  title="" hspace="0" vspace="0" /></div>
 
                               <div id="tickets">
                                    

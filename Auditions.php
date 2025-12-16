@@ -67,16 +67,17 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
        
                      <div><p><i>How to Succeed in Business Without Really Trying</i> has been cast. If you are interested in joing the cast in the chorus or helping out backstage, please contact us at <a href="mailto:info@rvco.org?subject=Interest in How to Succeed in Business Without Really Trying">info@rvco.org</a>.</p>
-                    </div>       
+                    </div>
        
-                      <p>The first rehearsal is Sunday January 25 from 2 pm to 5 pm at <a href="https://www.google.com/maps/place/Roosevelt+Community+Center/@39.8960767,-75.4053998,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e93f936ace71:0xa7455e857f7467ff!8m2!3d39.8960726!4d-75.4028249!16s%2Fg%2F11j7fb97mr?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D" target="new"><u>Roosevelt Community Center</u></a>, 464 S. Old Middletown Road, Media, PA 19063. We will be reading through the show and doing some dancing. We'd love to have you join us. If you are planning on joining us, please email <a href="mailto:info@rvco.org">info@rvco.org</a> with your name and email address</p>   
+          <p><b>Rehearsal days and times:</b> Sundays 2:00 - 5:00 p.m. and Monday and Wednesday  7:30 - 10:00 p.m. at the <a href="https://www.google.com/maps/place/Roosevelt+Community+Center/@39.8960767,-75.4053998,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e93f936ace71:0xa7455e857f7467ff!8m2!3d39.8960726!4d-75.4028249!16s%2Fg%2F11j7fb97mr?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D" target="new"><u>Roosevelt Community Center</u></a>, 464 S. Old Middletown Road, Media, PA 19063.</p>
        
-                    <p><b>Rehearsal days and times:</b> Sundays 2:00 - 5:00 p.m. and Monday and Wednesday  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.</p>
+                      <p>The first rehearsal is Sunday January 25.  We will be reading through the show. We'd love to have you join us. If you are planning on joining us, please email <a href="mailto:info@rvco.org">info@rvco.org</a> with your name and email address.</p>   
+       
        
        
              <div class="story">
                  
-                         <p><b>Stage Director: </b>Chris Fitting &nbsp;&nbsp;&nbsp;&nbsp; <b>Musical&nbsp;Director:&nbsp;</b>Florrie&nbsp;Marks</p>
+                  <p><b>Stage Director: </b>Chris Fitting &nbsp;&nbsp;&nbsp;&nbsp; <b>Musical&nbsp;Director:&nbsp;</b>Florrie&nbsp;Marks</p>
 
 
                      <!--<p><b>When:</b> Thursday October 2 at 7:00 – 10:00 p.m. and Sunday October 5  at 2:00 – 5:00 p.m. If needed, callbacks are Thursday October 9, 7:00 – 10:00 p.m.</p>
@@ -112,9 +113,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
           <h2>Show Synopsis</h2>
                     <div class="story">          
-                     <p>The Tony Award-winning musical, <i>How to Succeed in Business without Really Trying</i>, follows the rise of J. Pierrepont Finch, who uses a handbook called 'How to Succeed in Business without Really Trying' to climb the corporate ladder from window washer to high-powered executive, tackling familiar but potent dangers such as the aggressively compliant "company man", the office party, backstabbing coworkers, caffeine addiction and of course, true love.</p>
+                     <p>J. Pierrepont Finch is a restless window washer with ambitions of climbing the corporate ladder. Amidst the absurdities of big business and taking inspiration from a how-to book on corporate finagling, Finch employs cunning and charm to wheedle his way to the top. Throughout his ascent, Finch wins the unwavering faith of Rosemary, a secretary eager for marriage, who recognizes his potential and is charmed by his innocence. While Rosemary clearly has her eyes set on the prize, will their budding romance falter amidst Finch's corporate aspirations? Can Finch ultimately realize the best of both worlds?</p>
 
-                    <p>The standout score by Frank Loesser features such classics as the surreal and funny "Coffee Break", the rousing "Brotherhood of Man", and the melodious tongue-in-cheek ballad "I Believe In You", while the book by Burrows, Weinstock, and Gilbert, won the Pulitzer Prize in 1962.</p>	     
+                    <p>This Tony Award-winning musical with its unforgettable score by Frank Loesser includes memorable numbers like the whimsical "Coffee Break," the energetic "Brotherhood of Man," and the satirical ballad "I Believe In You." Its witty book earned the 1962 Pulitzer Prize for Best Drama.</p>
+
+                          <!--The Tony Award-winning musical, <i>How to Succeed in Business without Really Trying</i>, follows the rise of J. Pierrepont Finch, who uses a handbook called 'How to Succeed in Business without Really Trying' to climb the corporate ladder from window washer to high-powered executive, tackling familiar but potent dangers such as the aggressively compliant "company man", the office party, backstabbing coworkers, caffeine addiction and of course, true love.</p>
+
+                    <p>The standout score by Frank Loesser features such classics as the surreal and funny "Coffee Break", the rousing "Brotherhood of Man", and the melodious tongue-in-cheek ballad "I Believe In You", while the book by Burrows, Weinstock, and Gilbert, won the Pulitzer Prize in 1962.</p>	  -->   
             </div>
             <h2 id="auditionTitle">Gilbert &amp; Sullivan's<i>The Grand Duke</i></h2>
 

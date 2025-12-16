@@ -157,7 +157,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
  <hr style="border-top: 1px solid #003366; width:50%; margin-top: 15px; margin-bottom: 5px;" />
                          <!-- VENUE -->
                              <div class="current_venue">
-                                        <a href="archive/Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>, Wallingford, PA</div>                
+                                        <a href="Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>, Wallingford, PA</div>                
 
 
                          <!-- begin DATES -->
@@ -202,9 +202,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   MM_changeProp('ViewSpringSynopsis','','height','auto','SPAN');
                                                   MM_changeProp('ViewSpringSynopsis','','width','auto','SPAN');
                                                  MM_showHideLayers('ViewSpringSynopsis','','show');" alt="Hide The Gondoliers synopsis">(Hide Synopsis)</a><br />
-                              <p><i>How to Succeed in Business Without Really Trying</i>, the Pulitzer Prize and Tony Award-winning musical, is a story about the triumph of the common man amid the buffoonery of big business. When an ambitious window washer named J. Pierrepont Finch happens upon a book entitled 'How to Succeed in Business Without Really Trying', he decides to begin his rise up the corporate ladder. With the book's instructions, Finch starts by landing a job in the mailroom. He is soon promoted and outsmarts his rival, Frump, the boss's nephew, before finally reaching the very top of the organization. From the beginning, Finch has the love and support of Rosemary, a marriage-minded secretary who finds him endearing. In his pursuit of the top job, Finch is in danger losing Rosemary's love. Finch's manual to success can no longer help him as he must rely on his wit and heart to save the day.</p>
+                              <p>J. Pierrepont Finch is a restless window washer with ambitions of climbing the corporate ladder. Amidst the absurdities of big business and taking inspiration from a how-to book on corporate finagling, Finch employs cunning and charm to wheedle his way to the top. Throughout his ascent, Finch wins the unwavering faith of Rosemary, a secretary eager for marriage, who recognizes his potential and is charmed by his innocence. While Rosemary clearly has her eyes set on the prize, will their budding romance falter amidst Finch's corporate aspirations? Can Finch ultimately realize the best of both worlds?</p>
 
-                              <p>The standout score by Frank Loesser features such classics as the surreal and funny "Coffee Break", the rousing "Brotherhood of Man", and the melodious tongue-in-cheek ballad "I Believe In You", while the  book by  Burrows,  Weinstock, and  Gilbert, won the Pulitzer Prize in 1962 for Best Drama.</p>
+                              <p>This Tony Award-winning musical with its unforgettable score by Frank Loesser includes memorable numbers like the whimsical "Coffee Break," the energetic "Brotherhood of Man," and the satirical ballad "I Believe In You." Its witty book earned the 1962 Pulitzer Prize for Best Drama.</p>
                     </div>
             <!-- begin SYNOPSIS HERE -->
                          

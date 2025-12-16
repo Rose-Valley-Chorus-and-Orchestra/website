@@ -108,9 +108,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <div style="line-height: 120%; ">
                          
                          
-                                        <ul>J. Pierpont Finch - <at href="#ChrisR">Chris Rubino</a></ul>
-                                        <ul>J.B. Bigley - <at href="#Jeff">Jeff Swafford</a></ul>
-                                        <ul>Rosemary - <at href="#Allie">Allie Beik</a></ul>
+                                        <ul>
+                                             J. Pierrepont Finch - 
+                                        <at href="#ChrisR">Chris Rubino</a></ul>
+                         <ul>
+                              J.B. Biggley - 
+                         <at href="#Jeff">Jeff Swafford</a></ul>
+                         <ul>Rosemary - <at href="#Allie">Allie Beik</a></ul>
                                         <ul>Bud Frump - <at href="#Aaron">Aaron Kirschner</a></ul>
                                         <ul>Bratt - <at href="#Rob">Rob Hull</a></ul>
                                         <ul>Mr. Twimble/Womper - <at href="#Tim">Ross Druker</a></ul>

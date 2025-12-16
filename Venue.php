@@ -67,7 +67,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     <div class="columns">
       <h2>Strath Haven Middle School</h2>
       <p class="thumbnail_align"><img src="images/SHMS-Pictures-146.jpg" alt="Strath Haven Middle School" title="Outside of Strath Haven Middle School"  class="thumbnail"/></p>
-      <p>We are grateful to perform this season at <a href="http://www.wssd.org/shms/site/default.asp" target="_blank">Strath Haven Middle School</a> at 200 South Providence Road, Wallingford, PA 19086.</p>
+      <p>We are grateful to perform this season at <a href="https://shms.wssd.org/" target="_blank">Strath Haven Middle School</a> at 200 South Providence Road, Wallingford, PA 19086.</p>
     </div>
     <div class="columns">
         <h2>Strath Haven Middle School Theater</h2>

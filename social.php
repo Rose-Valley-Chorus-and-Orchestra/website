@@ -1,3 +1,3 @@
 <div class="social">
-          <h4>Please consider helping us keep live musical theater in the community! <br />Consider making a <a title="Goi oto Zeffy to Donate Now" href="https://www.zeffy.com/en-US/donation-form/d9b4ba19-0df8-4869-9aa8-2b7835686f90">donation now</a> or consider becoming a <a htitle="Go to Zeffy to Be a Show Sponsor" href="https://www.zeffy.com/ticketing/sponsorship-for-the-gondoliers-2">sponsor</a> for a specific show.</h4>
+          <h4>Please consider helping us keep live musical theater in the community! <br />Consider making a <a title="Goi oto Zeffy to Donate Now" href="https://www.zeffy.com/en-US/donation-form/d9b4ba19-0df8-4869-9aa8-2b7835686f90">donation now</a> or consider becoming a <a htitle="Go to Zeffy to Be a Show Sponsor" href="https://www.zeffy.com/en-US/ticketing/sponsorship-for-how-to-succeed-in-business-without-really-trying">sponsor</a> for a specific show.</h4>
 </div>

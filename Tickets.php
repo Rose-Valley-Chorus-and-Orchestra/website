@@ -82,7 +82,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
              <li>TICKETS</li>
 		  <li><a href="Venue.php">VENUE</a></li>
 		  <li><a href="Auditions.php">AUDITIONS</a></li>
-            <li><a href="../archive/web pages/contact pages/ContactUs.php"><nobr>CONTACT US</nobr></a></li>
+            <li><a href="contact pages/ContactUs.php"><nobr>CONTACT US</nobr></a></li>
       </ul>
     </div>
     </nav>
@@ -95,7 +95,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <div style="margin: 20px;"><img style="background-color: white;  max-width: 500px;margin-left: auto;margin-right: auto;" src="howTo26/logo/FLABhowToChair@500.webp" alt="How to Succed in Business logo" class="img-responsive" name="howTo"  title="" hspace="0" vspace="0" /></div>
 
                               <div id="tickets">
-                                   <p style="max-width: 800px;margin-left: auto;margin-right: auto;font-size: 1.1em;color:#003366;"><b>Are you looking for a gift idea? Tickets make a great present.</b></p>
+                                   <p class="ticketsButton" style="max-width: 800px;font-size: 1.1em; color:#003366;margin-left:auto; margin-right: auto;"><b>RVCO tickets make a great present.</b></p>
                                                   <p class="ticketsButton"><a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to How to Succeed in Business Without Really Trying" href="https://www.zeffy.com/en-US/ticketing/how-to-succeed-in-business-without-really-trying">Buy Tickets</a></p>
                                                   <p>Peformances are at <a href="Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
 
@@ -107,16 +107,17 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   <p>For information on Group tickets, e-mail <a href="mailto:groups@rvco.org">groups@rvco.org</a>.
                                                       <ul style="margin-left: 25px; margin-top: -10px;"><li>$15 each for 10 or more tickets</li>
                                                       <li>Tickets must be for the same performance</li></ul></p>
-                                   <p>Performances:
-                                                       <ul class="showDates" style="margin-top: -10px;">Saturday, November 8 at 2:00 p.m. and 7:30 p.m.</ul>
-                                                       <ul class="showDates">Sunday, November 9 at 2:00 p.m.</ul>
-                                                       <ul class="showDates">Wednesday, November 12 at 7:30 p.m.</ul>
-                                                       <ul class="showDates">Saturday, November 15 at 2:00 p.m. and 7:30 p.m.</ul>
-                                                       <ul class="showDates">Sunday, November 16 at 2:00 p.m.</ul>
+                                   <p>Performances:<br />
+                                                       
+                                                       <ul class="showDates" style="margin-top: -10px;">Saturday, April 18 at 2 p.m. and 7:30 p.m.</ul>
+                                                       <ul class="showDates">Sunday, Saturday 19 at 2:00 p.m.</ul>
+                                                       <ul class="showDates">Wednesday, Saturday 22 at 7:30 p.m.</ul>
+                                                       <ul class="showDates">Saturday, Saturday 25 at 2:00 p.m. and 7:30 p.m.</ul>
+                                                       <ul class="showDates">Sunday, Saturday 26 at 2:00 p.m.</ul>
                                                   <!--<ul><span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span></ul>-->
                                                   </p>
                                                   
-                                                  <p>For questions, e-mail <a href="mailto:tickets@rvco.org">tickets@rvco.org</a> or call : <font class="high">610-565-5010</font><!--<font class="high">484-981-9108</font>--></p>
+                                                  <p>For questions, e-mail <a href="mailto:tickets@rvco.org">tickets@rvco.org</a> or call : <font class="high">484-891-9801</font><!--<font class="high">484-981-9108</font>--></p>
                                    
 	  
 <!-- Inclement Weather Cancelation message	  
