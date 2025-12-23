@@ -94,7 +94,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <div style="float:left">&nbsp; &nbsp;<a href="../productionHistory.php" >Production History</a></div>
                          </div>
                          <div id="Synopsis" class="castlistSynopsis">
-                              <p>Marco and Giuseppe Palmieri, Venetian gondoliers, are told one of them is the heir to the throne of Barataria. Until it is determined which one is the new king, the brothers must rule together. Complicating matters the brothers have not only recently married young Venetian ladies, but they will soon meet the daughter of the Duke of Plaza Toro, to whom the unsuspecting future king was married in infancy. As the Grand Inquisitor seeks the truth from the young men’s foster mother, everyone assembles in Barataria awaiting the answer. Who is the rightful king?  And will hearts be broken?</p>
+                              <p>J. Pierrepont Finch is a restless window washer with ambitions of climbing the corporate ladder. Amidst the absurdities of big business and taking inspiration from a how-to book on corporate finagling, Finch employs cunning and charm to wheedle his way to the top. Throughout his ascent, Finch wins the unwavering faith of Rosemary, a secretary eager for marriage, who recognizes his potential and is charmed by his innocence. While Rosemary clearly has her eyes set on the prize, will their budding romance falter amidst Finch's corporate aspirations? Can Finch ultimately realize the best of both worlds?</p>
+
+                              <p>This Tony Award-winning musical with its unforgettable score by Frank Loesser includes memorable numbers like the whimsical "Coffee Break," the energetic "Brotherhood of Man," and the satirical ballad "I Believe In You." Its witty book earned the 1962 Pulitzer Prize for Best Drama.</p>
                     </div>
      
           <div class="feature castlist">
