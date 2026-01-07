@@ -235,12 +235,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     <aside class="second_article">
 		<div class="secondShow">
                     <div class="coming_header">
-                         <div class="coming_headerA">November 2025</div>
+                         <div class="coming_headerA">November 2026</div>
                          <div class="coming_headerB" style="visibility: hidden;">Gilber and Sullivan's <i>The Grand Duke or The Statutory Duel</i></div>
                     </div>
 		
                     <div style="font-family:'Newcomen Black', 'Royale 40', 'Aviano Royale Black';font-size: 38px;text-align: center;padding-top:30px;">The Grand Duke</div>
-                    <div  style="font-family:'Aviano Royale Black';font-size: 28px;text-align: center;">or The Statutory Duel</div>
+                    <div style="font-family:'Aviano Royale Black';font-size: 28px;text-align: center;">or The Statutory Duel</div>
                
                     <img alt="The Grand Duke logo" class="second_show_img" name="grandDuke"  title="" hspace="20" vspace="0" style="visibility: hidden; height: 10px;"/>
                
@@ -276,7 +276,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
             <!-- begin SYNOPSIS HERE -->
                
-               <p><p>Ludwig, an actor, replaces the company manager, Ernest, and then he replaces the miserly Grand Duke Rudolph of Pfennig Halbpfennig, after "killing" each of them by drawing the ace from a deck of cards in two "statutory" duels. By winning the statutory duels, Ludwig assumes all of Ernest's and Rudolph's rights and obligations. Soon he finds himself with far more wives, and prospective wives, than he knows what to do with. Never fear: once again, a lawyer solves the problem and all ends happily.</p></p>
+               <p><p>In Gilbert &amp; Sullivan's final collaboration, a troupe of actors conspires to overthrow an unpopular and miserly Grand Duke. Things go awry when their plot is accidentally revealed, prompting a series of disputes and political successions settled by "statutory" duel—an ingenious law that renders the legal death of the adversary who draws the lowest from a deck of cards. Hilarious entanglements, including thwarted marriages and questionable legal contracts, imbue this topsy-turvy comic opera with a wit that only Gilbert and Sullivan can contrive.</p></p>
                     <div class="viewSynopsis">
                          <span class="current_castlist">
                               <span style="visibility: hidden; width: 0px;"><a href="gondoliers/GONDOLIERS25cast.php" title="Go to The Gondoliers cast list">Cast List</a></span>

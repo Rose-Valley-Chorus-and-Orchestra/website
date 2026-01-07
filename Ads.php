@@ -87,7 +87,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <div id="tickets">
                                    
                                    <p>We have a loyal and growing audience. Your advertisement will be seen by more than 500 potential patrons during the run of our show.</p>
-                                   <p>Our playbill is printed in black and white, so black and white ad copy is preferred, although we will accept color copy. Please submit the <a href="SponsorandAdForm-HowTo.pdf" title="Open How To Succeed in Business without Really Trying Sponsor and Ad Form in a new browser window" target="new">playbill ad form</a> and payment by <u>Sunday, October 19</u>. Please send your ad copy in photo format (.jpg, .gif, .png, .tif) by email to: <a href="mailto:ads@rvco.org">ads@rvco.org</a></p>
+                                   <p>Our playbill is printed in black and white, so black and white ad copy is preferred, although we will accept color copy. Please submit the <a href="SponsorandAdForm-HowTo.pdf" title="Open How To Succeed in Business without Really Trying Sponsor and Ad Form in a new browser window" target="new">playbill ad form</a> and payment by <u>Sunday, April 29</u>. Please send your ad copy in photo format (.jpg, .gif, .png, .tif) by email to: <a href="mailto:ads@rvco.org">ads@rvco.org</a></p>
                                    <p>Advertisers receive complimentary tickets good for <b><i>any</i></b> performance)</p>
                                    <table style="margin-left: auto; margin-right: auto;">
                                         <tr style="border-bottom: medium solid #910407"><th>Ad Size</th>
