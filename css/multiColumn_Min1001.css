@@ -159,7 +159,7 @@ subtitle {font-size: 22px;}
 	}
 .first_show_img  {content: url("../howTo26/logo/FLABhowToChair.webp")}
 .second_show_img {clear:both;}          
-.second_show_img {content: url("../gondoliers2025/artwork/logo/Gondoliers logo.webp")}     
+.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo.webp")}     
 .show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
      text-align: center;
      line-height: 150%;
@@ -252,7 +252,7 @@ I hide and show another table  */
 .second_article {float:none;width: 100%;} 
 .img-circle {width: 400px;}
 .second_show_img {max-width: 800px;}          
-.second_show_img {content: url("../gondoliers2025/artwork/logo/Gondoliers logo@600w.webp")}    
+.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@600w.webp")}    
 }
 
 
@@ -287,6 +287,6 @@ section {
 .secondShow {width: 500px;}	
 .second_show_img {width: 450px; }     
 .first_show_img  {content: url("../howTo26/logo/FLABhowToChair.webp")}
-.second_show_img {content: url("../gondoliers2025/artwork/logo/Gondoliers logo@500w.webp")}    
+.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@500w.webp")}    
 }
 }

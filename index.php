@@ -74,7 +74,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                 <!--  TITLE / SEASON  -->
                     <div class="current_header">
-                              <div class="current_headerA">Spring 2026</div>
+                              <div class="current_headerA">April 2026</div>
                               <div class="current_headerB"style="visibility: hidden;">How to Succeed in Business Without Really Trying</div>
                               <!--<div class="a_sub" style="visibility: hidden; height: 0px;">or The King of Barataria</div>-->
                     </div>
@@ -239,37 +239,35 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <div class="coming_headerB" style="visibility: hidden;">Gilber and Sullivan's <i>The Grand Duke or The Statutory Duel</i></div>
                     </div>
 		
-                    <div style="font-family:'Newcomen Black', 'Royale 40', 'Aviano Royale Black';font-size: 38px;text-align: center;padding-top:30px;">The Grand Duke</div>
-                    <div style="font-family:'Aviano Royale Black';font-size: 28px;text-align: center;">or The Statutory Duel</div>
+                    <!--  <div style="font-family:'Newcomen Black', 'Royale 40', 'Aviano Royale Black';font-size: 38px;text-align: center;padding-top:30px;">The Grand Duke</div>
+                    <div style="font-family:'Aviano Royale Black';font-size: 28px;text-align: center;">or The Statutory Duel</div> -->
                
-                    <img alt="The Grand Duke logo" class="second_show_img" name="grandDuke"  title="" hspace="20" vspace="0" style="visibility: hidden; height: 10px;"/>
-               
-                    <!--<div style="margin: 15px 15px 0px; padding:15px; background-color: firebrick; color: ghostwhite;">Following the Sunday matinees, children and adults are invited on stage to greet the cast of pirates, policemen, and fair maidens. Costumes are welcome!</div>-->
-               
+                    <a href="2.php"><img alt="The Grand Duke logo" class="second_show_img" name="grandDuke"  title="" hspace="20" vspace="0" /></a>
+                              
                     <div class="show_authors">		
                          <div>Book by W. S. Gilbert</div>
                          <div>Music by Arthur Sullivan</div>
                     </div>
                     <div class="show_info">
                                              <!-- DIRECTORS -->
-                              <div class="current_directors" style="visibility: hidden; height: 0px;">
-                                        <nobr>Katherine P. Nealley -&nbsp;Stage Director</nobr><br />
+                              <div class="current_directors">
+                                        <nobr>Julie May -&nbsp;Stage Director</nobr><br />
                                         <nobr>Florrie Marks -&nbsp;Music&nbsp;Director</nobr><br />
                                         <!--<nobr>Kenneth Fisher -&nbsp;Choreographer</nobr><br />-->
                               </div>
                          
                          <!-- begin DATES -->
-                              <div class="current_dates" style="visibility: hidden; height: 0px;">Saturday, November 8 at 2 p.m. and 7:30 p.m.<br />
-                                                       Sunday, November 9 at 2 p.m.<br />
-                                                       Wednesday, November 12 at 7:30 p.m.<br />
-                                                       Saturday, November 15 at 2 p.m. and 7:30 p.m.<br />
-                                                       Sunday, November 16 at 2 p.m.<br />
+                              <div class="current_dates" style="visibility: hidden; height: 0px;width:0;padding: 0px;margin:0px;">Saturday, November 8 at 2 p.m. and 7:30 p.m.<-br />
+                                                       Sunday, November 9 at 2 p.m.<-br />
+                                                       Wednesday, November 12 at 7:30 p.m.<-br />
+                                                       Saturday, November 15 at 2 p.m. and 7:30 p.m.<-br />
+                                                       Sunday, November 16 at 2 p.m.<-br />
                                    <!--<span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span>-->
                               </div>           
                         <!-- end DATES -->
  
                          <!-- VENUE -->
-                             <div class="current_venue" style="visibility: hidden; height: 0px;">
+                             <div class="current_venue" style="visibility: hidden; height: 0px;width:0;padding: 0px;margin:0px;">
                                         <a href="archive/Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>,<br /> Wallingford, PA</div>                
 
                     </div>				

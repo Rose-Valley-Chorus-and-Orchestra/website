@@ -231,7 +231,7 @@ h5 {
 .second_article {
 	width: 40%;
 	float: left;
-	background-color: #c9dede;
+	background-color: #D3E2EA;
 }
 .container .second_article ul {
 	margin-top: 0px;
@@ -448,7 +448,7 @@ body {
 }
 .secondShow {
 	color: #003366;
-	background-color: #FEC79B;
+	background-color: #FCDF89;
 }
 .secondShow a {
     color: blue;
@@ -459,7 +459,7 @@ body {
 
 .firstShow {
 	color: #003366;
-	background-color: #c9dede  /* #000033  #05294B; */
+	background-color: #D3E2EA  /* #c9dede #000033  #05294B; */
 }
 
 .firstShow a {
