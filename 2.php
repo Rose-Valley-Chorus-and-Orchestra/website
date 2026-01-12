@@ -243,7 +243,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <!--  <div style="font-family:'Newcomen Black', 'Royale 40', 'Aviano Royale Black';font-size: 38px;text-align: center;padding-top:30px;">The Grand Duke</div>
                     <div style="font-family:'Aviano Royale Black';font-size: 28px;text-align: center;">or The Statutory Duel</div> -->
                
-                    <a href="index.php"><img alt="The Grand Duke logo" class="second_show_img" name="grandDuke"  title="" hspace="20" vspace="0" /></a>
+                    <img alt="The Grand Duke logo" class="second_show_img" name="grandDuke"  title="" hspace="20" vspace="10" /><br />
+                         <img alt="The Grand Duke logo" class="second_show_img, second_show_img2" name="grandDuke"  title="" hspace="20" vspace="0" />
                               
                     <div class="show_authors">		
                          <div>Book by W. S. Gilbert</div>

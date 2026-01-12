@@ -9,7 +9,7 @@
 /*           begin Bill custom for WIDTH <400px           */
 
 .first_show_img  {content: url("../howTo26/logo/FLABhowToChair@500.webp")}
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@400w.webp"); width: 400px;}         
+.second_show_img2 {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@400w.webp"); width: 400px;}         
 
 }
 
@@ -17,13 +17,13 @@
 
 @media (min-width: 426px) and (max-width: 768px) {
 /*           begin Bill custom for 426 < WIDTH < 768px           */
-.first_show_img, .second_show_img  {
+.first_show_img, .second_show_img2  {
 	width: 95%;
 	display: block;
      margin-left: auto;
      margin-right: auto;
 	}
-.second_show_img  {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@600w.webp")
+.second_show_img2  {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@600w.webp")
      }
 }
 /*  ----- for production history separating other view with Jump To -----  */	
@@ -31,10 +31,10 @@
 .jump2year {clear: left; padding-top:10px;}
 .bios p  {width:100%; padding-right: 0px}
 .first_show_img  {content: url("../howTo26/logo/FLABhowToChair@500.webp")}
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@400w.webp"); width:450px;}              
+.second_show_img2 {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@400w.webp"); width:450px;}              
 }
 @media (min-width: 426px) and (max-width: 570px) {
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@400w.webp"); width: 350px;}
+.second_show_img2 {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@400w.webp"); width: 350px;}
 
 }
 
@@ -45,14 +45,14 @@
      
 /*           begin Bill custom for 769 < WIDTH < 1001px           */
 
-.first_show_img, .second_show_img  {
+.first_show_img, .second_show_img2  {
 	max-width: 95%;
 	display: block;
      margin-left: auto;
      margin-right: auto;
 	}
 .first_show_img  {content: url("../howTo26/logo/FLABhowToChair@500.webp")}
-.second_show_img  {clear: both;padding-top: 20px;content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@600w.webp");width: 600px;}
+.second_show_img2  {clear: both;padding-top: 20px;content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@600w.webp");width: 600px;}
          
 }
 
@@ -63,20 +63,20 @@
 
 @media (min-width: 1001px) {
 
-.second_show_img {clear:both;}          
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish.webp")}     
+.second_show_img2 {clear:both;}          
+.second_show_img2 {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish.webp")}     
 
 
 @media (min-width: 1101px)  and (max-width: 1200px) {
 .container {font-size: 16px; width:1100px;}
-.second_show_img {max-width: 800px;}          
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@600w.webp")}    
+.second_show_img2 {max-width: 800px;}          
+.second_show_img2 {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@600w.webp")}    
 }
 
 @media (min-width: 1201px){
 .secondShow {width: 500px;}	
-.second_show_img {width: 450px; }     
+.second_show_img2 {width: 450px; }     
 .first_show_img  {content: url("../howTo26/logo/FLABhowToChair.webp")}
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@500w.webp")}    
+.second_show_img2 {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo-squarish@500w.webp")}    
 }
 }

@@ -304,8 +304,8 @@ I hide and show another table  */
 #siteName {width: 300px;}
 #menu {
 	font-size: 14px;}	
-.first_show_img  {content: url("../howTo26/logo/FLABhowToChair@500.webp")}
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@400w.webp"); width: 350px;}
+.first_show_img  {content: url("../howTo26/logo/FLABhowToChair@400.webp"); width:400px;}
+.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@400w.webp"); width: 400px;}
 #facebook_youtube {
 	max-width: 120px;
      padding: 0px 10px 0px 20px;}
