@@ -225,7 +225,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
             <!--  end CURRENT  SHOW  -->   
                          
                          <div id="copyCredit">Originally presented by Cy Feuer and Ernest H. Martin in Association with Frank Productions.</div>
-                         <div id="copyCredit">How to Succeed in Business without Really Trying is presented through special arrangement with Music Theatre International (MTI).</div>
+                         <div id="copyCredit">How to Succeed in Business Without Really Trying is presented through special arrangement with Music Theatre International (MTI).</div>
                          <div id="copyCredit">All authorized performance materials are also supplied by MTI.</div>
                          <div id="copyCredit">www.mtishows.com</div>
                          

@@ -110,14 +110,15 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <p>Performances:<br />
                                                        
                                                        <ul class="showDates" style="margin-top: -10px;">Saturday, April 18 at 2 p.m. and 7:30 p.m.</ul>
-                                                       <ul class="showDates">Sunday, Saturday 19 at 2:00 p.m.</ul>
-                                                       <ul class="showDates">Wednesday, Saturday 22 at 7:30 p.m.</ul>
-                                                       <ul class="showDates">Saturday, Saturday 25 at 2:00 p.m. and 7:30 p.m.</ul>
-                                                       <ul class="showDates">Sunday, Saturday 26 at 2:00 p.m.</ul>
+                                                       Sunday, April 19 at 2:00 p.m.
+                                                       Wednesday, April 22 at 7:30 p.m.
+                                                       Saturday, April 25 at 2:00 p.m. and 7:30 p.m.
+                                                       Sunday, April 26 at 2:00 p.m.
+                                                  
                                                   <!--<ul><span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span></ul>-->
                                                   </p>
                                                   
-                                                  <p>For questions, e-mail <a href="mailto:tickets@rvco.org">tickets@rvco.org</a> or call : <font class="high">484-891-9801</font><!--<font class="high">484-981-9108</font>--></p>
+                                   <p>For questions, e-mail <a href="mailto:tickets@rvco.org">tickets@rvco.org</a> or call : <font class="high">484-891-9801</font><!--<font class="high">484-981-9108</font>--></p>
                                    
 	  
 <!-- Inclement Weather Cancelation message	  
