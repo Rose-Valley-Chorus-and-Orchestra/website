@@ -82,7 +82,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
        
        
 <!-- Begin Constant Contact Inline Form Code -->
-<div class="ctct-inline-form" style="width: 70%" data-form-id="66b4eff1-5c61-4b15-8763-c3f987ab4942"></div>
+<div style="width: 70%"><div class="ctct-inline-form" data-form-id="66b4eff1-5c61-4b15-8763-c3f987ab4942"></div></div>
 <!-- End Constant Contact Inline Form Code -->       
        
        
