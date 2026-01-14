@@ -80,12 +80,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     Please include your name, address, and email address.</p>
        
        
-       <!-- Begin Constant Contact Active Forms -->
-<script> var _ctct_m = "a1729bfc4fb2d627c52886e283c16f5e"; </script>
-<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
-<!-- End Constant Contact Active Forms -->
        
-       
+<!-- Begin Constant Contact Inline Form Code -->
+<div class="ctct-inline-form" data-form-id="66b4eff1-5c61-4b15-8763-c3f987ab4942"></div>
+<!-- End Constant Contact Inline Form Code -->       
        
        
     <h2>Mailing Address</h2>
@@ -114,5 +112,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
  <?php include("footer.php"); ?></div>
   </footer>
 </div>
+       <!-- Begin Constant Contact Active Forms -->
+<script> var _ctct_m = "a1729bfc4fb2d627c52886e283c16f5e"; </script>
+<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+<!-- End Constant Contact Active Forms -->
+     
 </body>
 </html>
