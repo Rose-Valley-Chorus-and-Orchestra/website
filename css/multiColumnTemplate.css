@@ -679,3 +679,8 @@ th .description {font-weight: normal}
      padding: 15px 0px 0px 20px;
      color:aliceblue;}
 
+#emailform input, #emailform textarea  {margin-left: 30px;}
+
+#emailform {min-width: 400px; max-width: 700px;}
+#emailform label {font-weight: normal;}
+

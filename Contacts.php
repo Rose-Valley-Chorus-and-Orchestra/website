@@ -14,7 +14,28 @@
 <link href="css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
+<?php 
+if(isset($_POST['submit'])){
+    $to = "wbmichael99@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
 
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+     
+     
+     
 <!-- First uploaded Januart 16, 2024 -->
 
 <script type="text/javascript">
@@ -79,10 +100,19 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     <p>If you would like to be added or removed from our mailing list, email and post mail, email us at <a href="mailto:info@rvco.org?subject=Mailing List">info@rvco.org</a>.
     Please include your name, address, and email address.</p>
        
-       
+
        
 <!-- Begin Constant Contact Inline Form Code -->
-<div style="width: 70%"><div class="ctct-inline-form" data-form-id="66b4eff1-5c61-4b15-8763-c3f987ab4942"></div></div>
+<div class="table-responsive" style="width: 70%"><form action="" method="post">
+<table class="table table-sm, mailform" id="emailform">
+     <tr><td>First Name: </td><tr></tr><td><input type="text" name="first_name"></td></tr>
+     <tr><td>Last Name: </td><tr></tr><td><input type="text" name="last_name"></td></tr>
+     <tr><td>Email: </td><tr></tr><td><input type="text" name="email"></td></tr>
+     <tr><td>Message:<div><textarea rows="5" name="message" cols="30"></textarea></div></td></tr>
+</table>
+<input type="submit" name="submit" value="Submit">
+</form>     
+</div>
 <!-- End Constant Contact Inline Form Code -->       
        
        
@@ -97,6 +127,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
   </div>
 </div>
 
+     
+     
+     
+     
+     
 <!--begin sponsor and donate -->          
  <?php include("social.php"); ?> 
 <!-- <?php include("join.php"); ?> -->     
