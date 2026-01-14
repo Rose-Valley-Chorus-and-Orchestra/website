@@ -15,11 +15,13 @@
 <link href="css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
 <?php 
+     ini_set("include_path", '/home/rvco/php:' . ini_get("include_path") );
 if(isset($_POST['submit'])){
     $to = "wbmichael99@gmail.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
+    $add_remove = $_POST['add_remove'];
     $subject = "Form submission";
     $subject2 = "Copy of your form submission";
     $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
@@ -27,8 +29,8 @@ if(isset($_POST['submit'])){
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    mail($to,$subject,$message,$headers,$add_remove);
+    mail($from,$subject2,$message2,$headers2,$add_remove); // sends a copy of the message to the sender
     echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
@@ -103,13 +105,32 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
        
 <!-- Begin Constant Contact Inline Form Code -->
-<div class="table-responsive" style="width: 70%"><form action="" method="post">
-<table class="table table-sm, mailform" id="emailform">
+<div class="table-responsive"><form action="" method="post">
+<table class="table table-sm" id="emailform">
      <tr><td>First Name: </td><tr></tr><td><input type="text" name="first_name"></td></tr>
      <tr><td>Last Name: </td><tr></tr><td><input type="text" name="last_name"></td></tr>
      <tr><td>Email: </td><tr></tr><td><input type="text" name="email"></td></tr>
      <tr><td>Message:<div><textarea rows="5" name="message" cols="30"></textarea></div></td></tr>
-</table>
+
+     <tr><td>    
+          
+          <div>
+            <input type="radio" name="add_remove" id="add-to-list"  checked>
+            <label for="add-to-list">
+              Add me to your mailing list
+            </label>
+          </div>
+          <div>
+            <input type="radio" name="add_remove" id="remove-from-list">
+            <label  for="remove-from-list">
+              Remove me from your mailing list
+            </label>
+          </div>     
+     </tr></td>
+          
+          
+</table>     
+     
 <input type="submit" name="submit" value="Submit">
 </form>     
 </div>
@@ -147,7 +168,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
  <?php include("footer.php"); ?></div>
   </footer>
 </div>
-       <!-- Begin Constant Contact Active Forms -->
+       <!-- Begin Constant Contact Active Forms
 <script> var _ctct_m = "a1729bfc4fb2d627c52886e283c16f5e"; </script>
 <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
 <!-- End Constant Contact Active Forms -->
