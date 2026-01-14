@@ -78,14 +78,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     <h2>Mailing List</h2>
     <p>If you would like to be added or removed from our mailing list, email and post mail, email us at <a href="mailto:info@rvco.org?subject=Mailing List">info@rvco.org</a>.
     Please include your name, address, and email address.</p>
-       <!-- Begin Constant Contact Active Forms -->
-<script> var _ctct_m = ""; </script>
-<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
-<!-- End Constant Contact Active Forms -->
+       
        
        
 <!-- Begin Constant Contact Inline Form Code -->
-<div class="ctct-inline-form" data-form-id="66b4eff1-5c61-4b15-8763-c3f987ab4942"></div>
+<div class="ctct-inline-form" style="width: 70%" data-form-id="66b4eff1-5c61-4b15-8763-c3f987ab4942"></div>
 <!-- End Constant Contact Inline Form Code -->       
        
        
