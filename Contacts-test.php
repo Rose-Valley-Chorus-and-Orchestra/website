@@ -108,20 +108,7 @@ document.getElementById("contact-form").addEventListener("submit", (event) => {
     event.preventDefault();
     displayError(contactForm, 'Invalid input')
   }
-});     
-     
-   document.addEventListener("DOMContentLoaded", () => {
-
-  document.getElementById('show-popup').addEventListener('click', () => {
-    showPopupForm();
-  });
-
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') hidePopupForm()
-  });
-
-});  
-     
+});         
      
      
 }
@@ -169,7 +156,7 @@ document.getElementById("contact-form").addEventListener("submit", (event) => {
     Please include your name, address, and email address.</p>
        
 <!-- <button id="show-popup" onClick="showPopupForm()">Show Contact Form</button>    -->   
-<div id="popup-form-container" style="display:contents;">       
+<div id="popup-form-container" style="display:;">       
           <form id="contact-form" method="POST" action="sendmail.php">
             <div class="form-row form-error" style="display:none;"></div>
             <div class="form-row">
