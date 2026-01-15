@@ -168,8 +168,8 @@ document.getElementById("contact-form").addEventListener("submit", (event) => {
     <p>If you would like to be added or removed from our mailing list, email and post mail, email us at <a href="mailto:info@rvco.org?subject=Mailing List">info@rvco.org</a>.
     Please include your name, address, and email address.</p>
        
-<button id="show-popup" onClick="showPopupForm()">Show Contact Form</button>       
-<div id="popup-form-container" style="display:none;">       
+<!-- <button id="show-popup" onClick="showPopupForm()">Show Contact Form</button>    -->   
+<div id="popup-form-container" style="display:contents;">       
           <form id="contact-form" method="POST" action="sendmail.php">
             <div class="form-row form-error" style="display:none;"></div>
             <div class="form-row">
@@ -194,7 +194,7 @@ document.getElementById("contact-form").addEventListener("submit", (event) => {
        
 
        
-<!-- Begin Constant Contact Inline Form Code -->
+<!-- Begin Constant Contact Inline Form Code 
 <div class="table-responsive"><form action="" method="post">
 <table class="table table-sm" id="emailform">
      <tr><td>    
