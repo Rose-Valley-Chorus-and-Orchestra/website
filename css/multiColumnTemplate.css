@@ -231,7 +231,7 @@ h5 {
 .second_article {
 	width: 40%;
 	float: left;
-	background-color: #FCDF89;
+	background-color: #FDEAB0;
 }
 .container .second_article ul {
 	margin-top: 0px;
@@ -448,7 +448,7 @@ body {
 }
 .secondShow {
 	color: #003366;
-	background-color: #FCDF89;
+	background-color: #FDEAB0;
 }
 .secondShow a {
     color: blue;
@@ -681,6 +681,8 @@ th .description {font-weight: normal}
 
 #emailform input, #emailform textarea  {margin-left: 30px;}
 
-#emailform {min-width: 400px; max-width: 700px;}
+#emailform {min-width: 400px; max-width: 700px; border: none;}
+#emailform td {border: none;}
 #emailform label {font-weight: normal;}
+#emailform #email_submit {color: white; background-color: #A30029; border-width: 0px; border-radius: 8px; padding: 10px 15px;}
 
