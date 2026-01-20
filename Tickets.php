@@ -95,7 +95,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <div style="margin: 20px;"><img style="background-color: white;  max-width: 500px;margin-left: auto;margin-right: auto;" src="howTo26/logo/FLABhowToChair@500.webp" alt="How to Succed in Business logo" class="img-responsive" name="howTo"  title="" hspace="0" vspace="0" /></div>
 
                               <div id="tickets">
-                                   <p class="ticketsButton" style="max-width: 800px;font-size: 1.1em; color:#003366;margin-left:auto; margin-right: auto;"><b>RVCO tickets make a great present.</b></p>
+                                   <p class="ticketsButton" style="max-width: 800px;font-size: 1.1em; color:#003366;margin-left:auto; margin-right: auto;"><b>RVCO tickets make a great gift.</b></p>
                                                   <p class="ticketsButton"><a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to How to Succeed in Business Without Really Trying" href="https://www.zeffy.com/en-US/ticketing/how-to-succeed-in-business-without-really-trying">Buy Tickets</a></p>
                                                   <p>Peformances are at <a href="Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
 
@@ -109,11 +109,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                       <li>Tickets must be for the same performance</li></ul></p>
                                    <p>Performances:<br />
                                                        
-                                                       <ul class="showDates" style="margin-top: -10px;">Saturday, April 18 at 2 p.m. and 7:30 p.m.</ul>
-                                                       Sunday, April 19 at 2:00 p.m.
-                                                       Wednesday, April 22 at 7:30 p.m.
-                                                       Saturday, April 25 at 2:00 p.m. and 7:30 p.m.
-                                                       Sunday, April 26 at 2:00 p.m.
+                                                      <ul class="showDates" style="margin-top: -10px;">Saturday, April 18 at 2 p.m. and 7:30 p.m.</ul>
+                                                      <ul class="showDates" style="margin-top: -10px;">Sunday, April 19 at 2:00 p.m.</ul>
+                                                      <ul class="showDates" style="margin-top: -10px;"> Wednesday, April 22 at 7:30 p.m.</ul>
+                                                      <ul class="showDates" style="margin-top: -10px;">Saturday, April 25 at 2:00 p.m. and 7:30 p.m.</ul>
+                                                      <ul class="showDates" style="margin-top: -10px;">Sunday, April 26 at 2:00 p.m.</ul>
                                                   
                                                   <!--<ul><span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span></ul>-->
                                                   </p>
