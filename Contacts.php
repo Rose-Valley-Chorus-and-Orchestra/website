@@ -104,7 +104,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
        
 
        
-<!-- Begin Constant Contact Inline Form Code -->
+<!-- Begin Constant Contact Inline Form Code 
 <div class="table-responsive"><form action="" method="post">
 <table class="table table-sm" id="emailform">
      <tr><td>First Name: </td><tr></tr><td><input type="text" name="first_name"></td></tr>
@@ -134,7 +134,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <input type="submit" name="submit" value="Submit">
 </form>     
 </div>
-<!-- End Constant Contact Inline Form Code -->       
+End Constant Contact Inline Form Code -->       
        
        
     <h2>Mailing Address</h2>
