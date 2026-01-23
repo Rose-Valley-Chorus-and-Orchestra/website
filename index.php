@@ -66,8 +66,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
       </ul>
      </div>
     </nav>
+      
  </header>
-
+ <?php include("announcement.php"); ?>
   <section>
     <aside class="first_article" style="height: 100%">        
             <div class="firstShow" >

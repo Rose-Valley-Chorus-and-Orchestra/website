@@ -56,6 +56,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     </nav>
  </header>
 
+ <?php include("announcement.php"); ?>
     
 <!--begin content -->     
 <div id="content" style="padding-right: 10px">
