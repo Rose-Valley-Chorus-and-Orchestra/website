@@ -14,7 +14,44 @@
 <link href="css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
-<?php 
+<style  type="text/css" media="screen">
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-input {
+    display: block;
+}
+
+.form-error {
+    color: red;
+}
+#popup-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#popup-form-container form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    margin: 30px auto;
+}
+    
+</style>        
+
+     
+     <?php 
      ini_set("include_path", '/home/rvco/php:' . ini_get("include_path") );
 if(isset($_POST['submit'])){
     $to = "wbmichael99@gmail.com"; // this is your Email address
@@ -57,10 +94,26 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
       eval("obj.style."+theProp+"="+theValue);
     else eval("obj.style."+theProp+"='"+theValue+"'");
   }
+function showPopupForm() {
+  document.getElementById("popup-form-container").style.display = "block";
+}
+
+function hidePopupForm() {
+  document.getElementById("popup-form-container").style.display = "none";
+}
+
+document.getElementById("contact-form").addEventListener("submit", (event) => {
+  const contactForm = event.target
+  if (!validateContactForm(contactForm)) {
+    event.preventDefault();
+    displayError(contactForm, 'Invalid input')
+  }
+});         
+     
+     
 }
 //-->
 </script>
-    
 </head>
 <body>
 <div class="container">
@@ -102,16 +155,35 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     <p>If you would like to be added or removed from our mailing list, email and post mail, email us at <a href="mailto:info@rvco.org?subject=Mailing List">info@rvco.org</a>.
     Please include your name, address, and email address.</p>
        
+<!-- <button id="show-popup" onClick="showPopupForm()">Show Contact Form</button>    -->   
+<div id="popup-form-container" style="display:;">       
+          <form id="contact-form" method="POST" action="sendmail.php">
+            <div class="form-row form-error" style="display:none;"></div>
+            <div class="form-row">
+              <label for="contact-form-name">Name:</label>
+              <input id="contact-form-name" class="form-input" type="text" name="name" required>
+            </div>
+            <div class="form-row">
+              <label for="contact-form-email">Email:</label>
+              <input id="contact-form-email" class="form-input" type="email" name="email" required>
+            </div>
+            <div class="form-row">
+              <label for="contact-form-phone">Phone:</label>
+              <input id="contact-form-phone" class="form-input" type="tel" name="phone">
+            </div>
+            <div class="form-row">
+              <label for="contact-form-message">Message:</label>
+              <textarea id="contact-form-message" class="form-input" name="message" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>       
+</div>       
+       
 
        
 <!-- Begin Constant Contact Inline Form Code 
 <div class="table-responsive"><form action="" method="post">
 <table class="table table-sm" id="emailform">
-     <tr><td>First Name: </td><tr></tr><td><input type="text" name="first_name"></td></tr>
-     <tr><td>Last Name: </td><tr></tr><td><input type="text" name="last_name"></td></tr>
-     <tr><td>Email: </td><tr></tr><td><input type="text" name="email"></td></tr>
-     <tr><td>Message:<div><textarea rows="5" name="message" cols="30"></textarea></div></td></tr>
-
      <tr><td>    
           
           <div>
@@ -126,15 +198,21 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
               Remove me from your mailing list
             </label>
           </div>     
-     </tr></td>
+     </td></tr>
+     <tr><td>First Name: </td><tr></tr><td><input type="text" name="first_name"></td></tr>
+     <tr><td>Last Name: </td><tr></tr><td><input type="text" name="last_name"></td></tr>
+     <tr><td>Email: </td><tr></tr><td><input type="text" name="email"></td></tr>
+     <tr><td>Message:<div><textarea rows="5" name="message" cols="30"></textarea></div></td></tr>
+     <tr><td><input id="email_submit" type="submit" name="submit" value="Submit"></td></tr>
+
           
           
 </table>     
      
-<input type="submit" name="submit" value="Submit">
+
 </form>     
 </div>
-End Constant Contact Inline Form Code -->       
+<!-- End Constant Contact Inline Form Code -->       
        
        
     <h2>Mailing Address</h2>
