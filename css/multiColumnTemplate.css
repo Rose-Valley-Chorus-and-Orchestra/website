@@ -686,4 +686,4 @@ th .description {font-weight: normal}
 #emailform label {font-weight: normal;}
 #emailform #email_submit {color: white; background-color: #A30029; border-width: 0px; border-radius: 8px; padding: 10px 15px;}
 
-#announcement {padding: 10px 40px; width:80%; text-align: center;border: 1px solid #A30029; border-radius: 8px; margin: 10px auto;}
+#announcement {padding: 10px 40px; width:80%; text-align: center;border: 1px solid #A30029; border-radius: 8px; margin: 10px auto; background-color: #FFEAF0;}
