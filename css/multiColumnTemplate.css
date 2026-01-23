@@ -697,7 +697,7 @@ th .description {font-weight: normal}
  
 /* (B) CENTER TEXT */
 .vitem {
-  ddisplay: flex;
+  ddisplay: flex; 
   text-align: center; margin: 0px auto;
   /*justify-content: center;*/
   align-items: center;
@@ -708,7 +708,7 @@ th .description {font-weight: normal}
 .vmove { position: relative; bottom: 0; }
 @keyframes tickerv {
   0% { bottom: -100%; }
-  100% { bottom: 400%; }
+  100% { bottom: 200%; }
 }
 .vmove { animation: tickerv linear 15s infinite; }
 .vmove:hover { animation-play-state: paused; } 
