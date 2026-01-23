@@ -708,7 +708,7 @@ th .description {font-weight: normal}
 .vmove { position: relative; bottom: 0; }
 @keyframes tickerv {
   0% { bottom: -100%; }
-  100% { bottom: 200%; }
+  100% { bottom: 150%; }
 }
 .vmove { animation: tickerv linear 15s infinite; }
 .vmove:hover { animation-play-state: paused; } 
