@@ -5,13 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Gondoleirs Cast Page - RVCO</title>
-<link rel="shortcut icon" href="file:///Seagate X/images/rvco.ico" />
-<link href="file:///Seagate X/RVCO/css/bootstrap.css" rel="stylesheet" type="text/css">	
-<link href="file:///Seagate X/RVCO/css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
-<link href="file:///Seagate X/RVCO/css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
-<link href="file:///Seagate X/RVCO/css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
-<link href="file:///Seagate X/RVCO/css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
-<link href="file:///Seagate X/RVCO/css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="https://www.rvco.org/images/rvco.ico" />
+<link href="https://www.rvco.org/css/bootstrap.css" rel="stylesheet" type="text/css">	
+<link href="https://www.rvco.org/css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<link href="https://www.rvco.org/css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
+<link href="https://www.rvco.org/css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
+<link href="https://www.rvco.org/css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
+<link href="https://www.rvco.org/css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
 </head>
 <script src="//use.edgefonts.net/calligraffitti;chewy;handlee;indie-flower.js"></script> 	
 <style type="text/css">
@@ -159,7 +159,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div class="container">
   <header>
     <div class="primary_header">
-		 <?php include("file:///Seagate X/RVCO/header2_new.php"); ?>
+		 <?php include("https://www.rvco.org/header2_new.php"); ?>
     </div>
     <nav>
          <div class="secondary_header" id="menu">
@@ -546,7 +546,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div>
 <footer class="secondary_header, footer">
     <div class="copyright">
- <?php include("/footer2.php"); ?></div>
+ <?php include("https://www.rvco.org/footer2.php"); ?></div>
   </footer>
 </div>
 </body>
