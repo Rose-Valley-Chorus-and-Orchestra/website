@@ -211,10 +211,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          
                          
                        <!-- begin TICKETS HERE -->
-                             <div id="buyShowlink" class="gondoliers">
+                             <div id="buyShowlink" class="howTo">
                                   <div class="ticketsSponsors"><a title="Go to Zeffy to Buy Tickets to How to Succeed in Business Without Really Trying" href="https://www.zeffy.com/en-US/ticketing/how-to-succeed-in-business-without-really-trying">Buy Tickets</a>
                                   <a title="Go to Zeffy to Donate to Be a Show Sponsor" href="https://www.zeffy.com/en-US/ticketing/sponsorship-for-how-to-succeed-in-business-without-really-trying">Be a Sponsor</a>
-                                  <a title="Find out more information on placing an ad in our playbill" href="Ads.php">Playbill Ads</a>
+                                  <!--<a title="Find out more information on placing an ad in our playbill" href="Ads.php">Playbill Ads</a>-->
                                   </div>
                              </div>
                          
