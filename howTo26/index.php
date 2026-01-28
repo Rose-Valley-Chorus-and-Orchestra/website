@@ -180,7 +180,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
           <!-- Begin content masthead -->
           <div id="content">
                <div id="castPage">
-                    <h1 id="pageName"><i>How to Succeed in Business Wiothout Really Trying</i> Cast Page</h1> 
+                    <h1 id="pageName"><i>How to Succeed in Business Without Really Trying</i> Cast Page</h1> 
 
                               <!-- <div class="notification">The <b>costume fitting</b> will take place Saturday, March 16 at our Firehouse located at <a href="https://www.google.com/maps/place/184+Bortondale+Rd,+Media,+PA+19063/@39.9017988,-75.3992073,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e8fb077ef113:0xc1aaad1af713cf34!8m2!3d39.9017988!4d-75.3966324!16s%2Fg%2F11c3q3ffv8?entry=ttu" title="Go to Google Maps" target="new" titler="Go to Google Maps">184 Bortondale Road, Media</a>
                                    <ul class="notificationTime"><li><b>Men</b>: 10:00 am - 11:00 am</li>
@@ -217,7 +217,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                          <div class="schedule">
                               <h2>Schedule</h2>
-                              <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.</div>
+                              <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
+                                   <ul>If you know you will be late or not at rehearsal please call:
+                                   <li>Florrie: 610-453-1407 (cell)</li></ul></div>
 
 
                <!--begins remaining rehearsal dates -->
