@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Gondoleirs Cast Page - RVCO</title>
+<title>How to Succeed Cast Page - RVCO</title>
 <link rel="shortcut icon" href="https://www.rvco.org/images/rvco.ico" />
 <link href="https://www.rvco.org/css/bootstrap.css" rel="stylesheet" type="text/css">	
 <link href="https://www.rvco.org/css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
@@ -159,7 +159,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div class="container">
   <header>
     <div class="primary_header">
-		 <?php include("https://www.rvco.org/header2_new.php"); ?>
+		 <?php include("../header2_new.php"); ?>
     </div>
     <nav>
          <div class="secondary_header" id="menu">
@@ -180,7 +180,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
           <!-- Begin content masthead -->
           <div id="content">
                <div id="castPage">
-                    <h1 id="pageName"><i>The Gondoliers</i> Cast Page</h1> 
+                    <h1 id="pageName"><i>How to Succeed in Business Wiothout Really Trying</i> Cast Page</h1> 
 
                               <!-- <div class="notification">The <b>costume fitting</b> will take place Saturday, March 16 at our Firehouse located at <a href="https://www.google.com/maps/place/184+Bortondale+Rd,+Media,+PA+19063/@39.9017988,-75.3992073,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e8fb077ef113:0xc1aaad1af713cf34!8m2!3d39.9017988!4d-75.3966324!16s%2Fg%2F11c3q3ffv8?entry=ttu" title="Go to Google Maps" target="new" titler="Go to Google Maps">184 Bortondale Road, Media</a>
                                    <ul class="notificationTime"><li><b>Men</b>: 10:00 am - 11:00 am</li>
@@ -546,7 +546,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div>
 <footer class="secondary_header, footer">
     <div class="copyright">
- <?php include("https://www.rvco.org/footer2.php"); ?></div>
+ <?php include("../footer2.php"); ?></div>
   </footer>
 </div>
 </body>
