@@ -219,7 +219,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <h2>Schedule</h2>
                               <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
                                    <ul>If you know you will be late or not at rehearsal please call:
-                                   <li>Florrie: 610-453-1407 (cell)</li></ul></div>
+                                   <li>Florrie: (610) 453-1407 (cell)</li>
+                                   <li>Chris F.: (484) 860-5324 (cell)</li></ul></div>
 
 
                <!--begins remaining rehearsal dates -->
