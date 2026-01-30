@@ -164,12 +164,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     <nav>
          <div class="secondary_header" id="menu">
                      <ul>
-                         <li><a href="file:///Seagate X/RVCO/index.php">HOME</a></li>
-                         <li><a href="file:///Seagate X/RVCO/AboutUs.php">ABOUT</a></li>
-                         <li><a href="file:///Seagate X/RVCO/Tickets.php">TICKETS</a></li>
-                         <li><a href="file:///Seagate X/RVCO/archive/Venue.php">VENUE</a></li>
-                         <li><a href="file:///Seagate X/RVCO/Auditions.php">AUDITION</a></li>
-                         <li><a href="file:///Seagate X/RVCO/Contacts.php"><nobr>CONTACT US</nobr></a></li>
+                         <li><a href="http://www.rvco.org/index.php">HOME</a></li>
+                         <li><a href="http://www.rvco.org/AboutUs.php">ABOUT</a></li>
+                         <li><a href="http://www.rvco.org/Tickets.php">TICKETS</a></li>
+                         <li><a href="http://www.rvco.org/Venue.php">VENUE</a></li>
+                         <li><a href="http://www.rvco.org/Auditions.php">AUDITION</a></li>
+                         <li><a href="http://www.rvco.org/Contacts.php"><nobr>CONTACT US</nobr></a></li>
                      </ul>
          </div> <!--class="secondary_header" id="menu" -->
     </nav>
@@ -222,10 +222,54 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <li>Florrie: (610) 453-1407 (cell)</li>
                                    <li>Chris F.: (484) 860-5324 (cell)</li></ul></div>
 
+                              <div class="castpageLinks" style="margin-bottom: -20px;">
+                                   <div id="ViewDays" style="padding: 0px 0px 0px 10px; float: left;width:auto;margin-top: -20px;margin-bottom: -20px;">
+                                        <a title="View ALL rehearsal dates"  onclick="
+                                                  MM_showHideLayers('History','','hide');
+                                                  MM_changeProp('History','','height','0px','DIV');
+                                                  MM_showHideLayers('ViewHistory','','show');
+                                                  MM_changeProp('ViewHistory','','width','auto','DIV');
+                                                  MM_changeProp('ViewHistory','','height','auto','DIV');
+                                                  MM_showHideLayers('HideHistoryLink','','hide');
+                                                  MM_changeProp('HideHistoryLink','','width','0px','DIV');
+                                                  MM_changeProp('HideHistoryLink','','height','0px','DIV');
+                                                  MM_showHideLayers('HideLink','','show');
+                                                  MM_changeProp('HideLink','','width','auto','DIV');
+                                                  MM_changeProp('HideLink','','height','auto','DIV');
+                                                  MM_showHideLayers('Days','','show');
+                                                  MM_changeProp('Days','','height','100%','DIV');
+                                                  MM_showHideLayers('ViewDays','','hide');
+                                                  MM_changeProp('ViewDays','','width','0px','DIV');
+                                                  MM_changeProp('ViewDays','','height','0px','DIV');
+                                                  MM_showHideLayers('legend','','show');
+                                                  MM_changeProp('legend','','height','auto','ID');
+                                                  MM_showHideLayers('legend2','','show');
+                                                  MM_changeProp('legend2','','height','auto','ID');
+                                                  MM_showHideLayers('legend3','','show');
+                                                  MM_changeProp('legend3','','height','auto','ID');
+                                                                           " >View All rehearsal dates and information</a></div>
+                                   <div id="HideLink" style="visibility:hidden;color:#333;float:left;width:0px;height:0px;margin-top: -20px;margin-bottom: -20px;">
+                                        <a title="Hide past rehearsal dates" onclick="
+                                                   MM_showHideLayers('Days','','hide');
+                                                   MM_changeProp('Days','','height','0px','DIV');
+                                                   MM_showHideLayers('ViewDays','','show');
+                                                   MM_changeProp('ViewDays','','width','auto','DIV');
+                                                   MM_changeProp('ViewDays','','height','auto','DIV');
+                                                   MM_showHideLayers('HideLink','','hide');
+                                                   MM_changeProp('HideLink','','width','0px','DIV');
+                                                   MM_changeProp('HideLink','','height','0px','DIV'); 
+                                                   MM_showHideLayers('legend','','hide');
+                                                   MM_changeProp('legend','','height','0px','ID');
+                                                   MM_showHideLayers('legend2','','hide');
+                                                   MM_changeProp('legend2','','height','0px','ID');
+                                                   MM_showHideLayers('legend3','','hide');
+                                                   MM_changeProp('legend3','','height','0px','ID');
+                                                                  " alt="Hide past rehearsal dates">Hide past rehearsal dates</a>
+                                        <div><a href="#currentDate" style="margin: 0 0 0 -20px;">Go to current date</a></div>
+                                   </div>
+                              </div>
 
-               <!--begins remaining rehearsal dates -->
-                              <span id="currentDate"></span>
-                              <div style="clear: both;">   
+                              <div id="Days" class="castlistDays">
 
                                         <div><ul><b>Wednesday Janurary 28</b>: 2 room
                                                        <ul><u>CALLED</u>: Ensemble</span>
@@ -237,9 +281,15 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             <li>Finch, Gatch, Rosemary, Smitty, Bud, Biggley, Bratt, Biggley (can plug in Miss Jones another time)</li>
                                                             <li>Character work + Blocking: I.1-I.5 (no Hedy needed)</li>
                                                            </ul>
-                                             </ul>
+                                                       </ul>
                                         </div>
 
+                              </div>
+                              
+
+               <!--begins remaining rehearsal dates -->
+                              <span id="currentDate"></span>
+                              <div style="clear: both;margin-top: -20px;">   
                                         <div><ul><b>Sunday February 1</b>: 2 rooms
                                                        <ul><u>CALLED</u>: Ensemble - <span style="color: firebrick;">no Aaron</span>
                                                        <li>Choreography with Caity:
@@ -247,8 +297,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
                                         <div><ul><b>Monday February 2</b>: 1 room
-                                                       <ul><u>Called</u>: Miss Jones, Hedy, Bud, Bratt, Finch, Rosemary, Smitty, 
-                                                            <li>Miss Jones for a little bit at the beginnging, Biggley (can come late), (can plug in Gatch later)</li>
+                                                       <ul>
+                                                            : Miss Jones, Hedy, Bud, Bratt, Finch, Rosemary, Smitty [No ensemble]<u>Called</u>: Miss Jones, Hedy, Bud, Bratt, Finch, Rosemary, Smitty [<b>No ensemble</b>]
+                                                            <ul>
+                                                                 <li>Miss Jones for a little bit at the beginnging, Biggley (can come late), (can plug in Gatch later)</li>
+                                                            </ul>
                                                        <li>Brief character work and Blocking: I.6-1.10 (no Twimble/Womper needed)</li></ul>
                                              </ul>
                                         </div>
@@ -263,11 +316,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
 
                                         <div><ul><b>Sunday February 8</b>: 2 rooms
-                                                       <u>CALLED</u>: Bratt, Smitty, Rosemary, Finch, Bud, Hedy, Biggley, Ovington - <span style="color: firebrick;">no Aaron</span>
-                                                       <ul>Choreography with Caity:
-                                                            <li>Clean <i>Coffee Break</i></li>
-                                                            <li>Intro for <i>How to Succeed &#8230;</i></li></ul> 
-                                             </ul>
+                                                       <ul><u>CALLED</u>: Bratt, Smitty, Rosemary, Finch, Bud, Hedy, Biggley, Ovington - <span style="color: firebrick;">no Aaron</span>
+                                                            <li>Blocking I.11-I.14 (completing Act I)</li></ul>
+                                                       <ul><u>CALLED</u>: Ensemble
+                                                            <li>2:00 Music with Florrie - Ladies working on #15 and #23</i></li>
+                                                            <li>3:00 Music with Florrie - ALL</i></li>
+                                                            <li>End Music with Florrie - Men working on #37 and #33</li></ul> 
                                         </div>
 
                                    
@@ -282,11 +336,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Wednesday February 11</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: Finch, Twimble, a few guys to be named; then ensemble - <span style="color: firebrick;">no Kate</span></ul>
+                                                       <ul><u>CALLED</u>: Ensemble, Finch, Twimble, a few guys to be named - <span style="color: firebrick;">no Kate</span></ul>
                                                        <ul>Choreography with Caity:
                                                             <li><i>Company Way</i> and <i>Company Way</i> (reprise)</li></ul> 
                                                        <ul>Music with Florrie:
-                                                            <li>Florrie's discretion, should be mostly all ensemble</li></ul> 
+                                                            <li>Music review if time with the ensemble</li></ul> 
                                              </ul>
                                         </div>
 
