@@ -217,10 +217,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                          <div class="schedule">
                               <h2>Schedule</h2>
+                              <div  class="Rtimes"><a href="H2$ Schedule for Cast revised-Final.pdf" title="Download rehearsal schedule" target="new"><span class="button" href="">Downnload</span></a> a PDF version of the schedule to print.</div>
                               <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
-                                   <ul>If you know you will be late or not at rehearsal please call:
-                                   <li>Florrie: (610) 453-1407 (cell)</li>
-                                   <li>Chris F.: (484) 860-5324 (cell)</li></ul></div>
+                                   <ul><li>If you know you will be late or not at rehearsal, please email <a href="mailto:florrie@barks.org,fittingchris20@gmail.com?subject=Missing rehearsal">Florrie and Chris</a>.</li>
+                                   <li>Day of rehearsal, please text Florrie at (610) 453-1407 (cell) or email Chris at fittingchris20@gmail.com.</li></ul></div>
 
                               <div class="castpageLinks" style="margin-bottom: -20px;">
                                    <div id="ViewDays" style="padding: 0px 0px 0px 10px; float: left;width:auto;margin-top: -20px;margin-bottom: -20px;">
@@ -297,12 +297,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
                                         <div><ul><b>Monday February 2</b>: 1 room
-                                                       <ul>
-                                                            : Miss Jones, Hedy, Bud, Bratt, Finch, Rosemary, Smitty [No ensemble]<u>Called</u>: Miss Jones, Hedy, Bud, Bratt, Finch, Rosemary, Smitty [<b>No ensemble</b>]
-                                                            <ul>
-                                                                 <li>Miss Jones for a little bit at the beginnging, Biggley (can come late), (can plug in Gatch later)</li>
-                                                            </ul>
-                                                       <li>Brief character work and Blocking: I.6-1.10 (no Twimble/Womper needed)</li></ul>
+                                                       <ul><u>Called</u>: Miss Jones, Hedy, Bud, Bratt, Finch, Rosemary, Smitty [<b>No ensemble</b>]
+                                                            <li>Miss Jones for a little bit at the beginnging, Biggley (can come late), (can plug in Gatch later)</li>
+                                             <li>Brief character work and Blocking: I.6-1.10 (no Twimble/Womper needed)</li></ul>
                                              </ul>
                                         </div>
 
@@ -328,7 +325,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <div><ul><b>Monday February 9</b>: 2 rooms
                                                        <ul><u>CALLED</u>: Ensemble - <span style="color: firebrick;">no Ross</span></ul>
                                                        <ul>Music with Florrie:
-                                                            <li>some time for all-male numbers, some time for all-female numbers, perhaps some time in the middle overlapping for a review??</li>
+                                                            <li>some time for all-male numbers, some time for all-female numbers, perhaps some time in the middle overlapping for a review</li>
                                                             </ul> 
                                                        <ul>Blocking with Chris:
                                                             <li>Walk through Act I with principals that have already been called for blocking rehearsals</ul> 
@@ -344,8 +341,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
-                                        <div><ul><b>Sunday February 15</b>:
-                                             <span>(Ash Wednesday) 2 rooms</span>
+                                        <div><ul><b>Sunday February 15</b>: 2 rooms</span>
                                                        <ul><u>CALLED</u>: Ensemble - <span style="color: firebrick;">no Aaron, Ross, Kate</span>
                                                        <li>Choreography with Caity:
                                                             <i>A Secretary is Not a Toy</i> and review</li></ul> 
@@ -397,29 +393,30 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Monday March 2</b>: 2 rooms
+                                                       <ul><u>CALLED</u>: Ensemble<span style="color: firebrick;"></span>
+                                                            <li>Review Music with Florrie:</li></ul>
                                                        <ul><u>CALLED</u> - Bud, Finch, Hedy, Biggley, Rosemary, Bratt <span style="color: firebrick;">no Kate</span>
                                                             <li>Block Act II.2-II.4</li></ul>
                                              </ul>
                                         </div>
 
                                         <div><ul><b>Wednesday March 4</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: <span style="color: firebrick;"></span>
-                                                            <ul><u>TBD</u>:
-                                                                 <li>Choreography with Caity: <i>Pirate Dance</i></li></ul>
-                                                            <ul><u>Finch, Biggley, Bud, Bratt, Rosemary. Hedy, Tackaberry, Toynbee, Davis, Jenkins, Policeman</u>:
+                                                       <ul><u>CALLED</u>: TBD<span style="color: firebrick;"></span>
+                                                            <li>Choreography with Caity: <i>Pirate Dance</i></li></ul>
+                                                       <ul><u>CALLED</u>: Finch, Biggley, Bud, Bratt, Rosemary. Hedy, Tackaberry, Toynbee, Davis, Jenkins, Policeman:
                                                                  <li>Blocking with Chris: Act II.5-II.7</li></ul></ul>
                                              </ul>
                                         </div>
 
                                         <div><ul><b>Sunday March 8</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: <i>Mostly</i> ALL  <span style="color: firebrick;"></span>
+                                                       <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL <span style="color: firebrick;"></span>
                                                        <li>BLOCK II.10 (Finale)</li>
                                                        <li>Run/catch-up/plug in small roles for ACT II</li></ul>
                                              </ul>
                                         </div>
 
                                         <div><ul><b>Monday March 9</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: <i>Assume</i> ALL  <span style="color: firebrick;"></span>
+                                                       <ul><u>CALLED</u>: <!--<i>Assume</i> -->ALL <span style="color: firebrick;"></span>
                                                        <li>Run what we have, knowing a few things haven't been choreographed</li></ul>
                                              </ul>
                                              </ul>
