@@ -284,22 +284,26 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        </ul>
                                         </div>
 
+                              <div style="clear: both;margin-top: -20px;">   
+                                        <ul><b>Sunday February 1</b>: 1 room
+                                                  <ul><u>CALLED</u>: Ensemble - <span style="color: firebrick;">no Aaron</span>
+                                                  <li>Choreography with Caity:
+                                                  <i>Coffee Break</i></li></ul> 
+                                        </ul>
+                              </div>
+                      
+                      
                               </div>
                               
 
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
-                              <div style="clear: both;margin-top: -20px;">   
-                                        <div><ul><b>Sunday February 1</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: Ensemble - <span style="color: firebrick;">no Aaron</span>
-                                                       <li>Choreography with Caity:
-                                                            <i>Coffee Break</i></li></ul> 
-                                             </ul>
-                                        </div>
-                                        <div><ul><b>Monday February 2</b>: 1 room
-                                                       <ul><u>Called</u>: Miss Jones, Hedy, Bud, Bratt, Finch, Rosemary, Smitty [<b>No ensemble</b>]
+                                        <div><ul><b>Monday February 2</b>: 2 rooms
+                                                       <ul><u>Called</u>: <b>Ensemble</b>
+                                                            <li>Music with Florrie</li></ul>
+                                                       <ul><u>Called</u>: Miss Jones, Hedy, Bud, Bratt, Finch, Rosemary, Smitty
                                                             <li>Miss Jones for a little bit at the beginnging, Biggley (can come late), (can plug in Gatch later)</li>
-                                             <li>Brief character work and Blocking: I.6-1.10 (no Twimble/Womper needed)</li></ul>
+                                                            <li>Brief character work and Blocking: I.6-1.10 (no Twimble/Womper needed)</li></ul>
                                              </ul>
                                         </div>
 
