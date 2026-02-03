@@ -308,25 +308,26 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
-                                        <div><ul><b>Wednesday February 4</b>: 2 rooms
+<div><ul><b>Wednesday February 4</b>: 2 rooms
                                                        <ul><u>CALLED</u>: Chorus, Bud, Smitty - <span style="color: firebrick;">no Ross</span>
                                                        <ul>Choreography with Caity:
                                                             <li>Clean <i>Coffee Break</i></li>
                                                             <li>Intro for <i>How to Succeed &#8230;</i></li></ul></ul> 
-                                                       <ul>CALLED: Everyone NOT in <i>Coffee Break</i>
+                                                       <ul><u>CALLED</u>: Everyone NOT in <i>Coffee Break</i>
                                                             <ul>7:30 Music with Florrie</ul></ul> 
                                              </ul>
                                         </div>
 
 
                                         <div><ul><b>Sunday February 8</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL
-                                                            <ul>Bratt, Smitty, Rosemary, Finch, Bud, Hedy, Biggley, Ovington - <span style="color: firebrick;">no Aaron</span>
-                                                            <li>Blocking I.11-I.14 (completing Act I)</li></ul>
-                                                       <ul>Chorus
-                                                            <li>2:00 Music with Florrie - Ladies working on #15 <i>Paris Original</i> and #23 <i>Cinderella, Darling</i></i></li>
-                                                            <li>3:00 Music with Florrie - ALL</i></li>
-                                                            <li>End Music with Florrie - Men, Miss Jones working on #27 <i>I Believe in You</i> and #33 <i>Brotherhood of Man</i></li></ul> </ul>
+                                                       <ul><u>CALLED</u>: ALL except Miss Jones - <span style="color: firebrick;">no Aaron</span>
+                                                            <ul>Blocking with Chris
+                                                            <li>Bratt, Smitty, Rosemary, Finch, Bud, Hedy, Biggley, Ovington - I.11-I.14 (completing Act I) </li></ul>
+                                                       <ul>Music with Florrie
+                                                            <li>2:00 - Ladies working on #15 <i>Paris Original</i> and #23 <i>Cinderella, Darling</i></i></li>
+                                                            <li>3:00 - ALL</i></li>
+                                                            <li>? - 4:30 - Men working on #27 <i>I Believe in You</i> and #33 <i>Brotherhood of Man</i></li>
+                                                            <li>4:30  - Finch, Bigley, Hedy</i></li></ul> </ul>
 </div>
 
                                    
@@ -342,12 +343,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Wednesday February 11</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: Chorus, Finch, Twimble, a few guys to be named - <span style="color: firebrick;">no Kate</span></ul>
+                                                       <ul><u>CALLED</u>: ALL a few guys to be named - <span style="color: firebrick;">no Kate</span>
                                                        <ul>Choreography with Caity:
                                                             <li>7:30 - 7:45 Finch, Twimble <i>Company Way</i></li> 
-                                             <li>7:45 ALL - <i>Company Way</i> (reprise)</li></ul> 
+                                                            <li>7:45 ALL - <i>Company Way</i> (reprise)</li></ul> 
                                                        <ul>Music with Florrie:
-                                                            <li>Music review if time with the ensemble</li></ul> 
+                                                            <li>Music review if time with the chorus</li>
+                                                       </ul> 
                                              </ul>
                                         </div>
 
@@ -357,7 +359,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             <li><i>A Secretary is Not a Toy</i> and review</li></ul>
                                                        <ul>Music with Florrie:
                                                             <li>Those not in <i>A Secretary is Not a Toy</i></li></ul> 
-                                             </ul>
+</ul>
                                         </div>
 
                                         <div><ul><b>Monday February 16</b>
@@ -367,7 +369,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
 
                                         <div><ul><b>Wednesday February 18</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: Chorus - <span style="color: firebrick;">no Kate, Florrie</span></ul>
+                                                       <ul><u>CALLED</u>: Chorus - <span style="color: firebrick;">no Kate, Florrie</span>
                                                        <ul>Choreography with Caity:
                                                             <li>Female cast - <i>Paris Original</i> and review</li></ul> 
                                                        <ul>Blocking with Chris:
