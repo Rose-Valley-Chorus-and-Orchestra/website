@@ -333,9 +333,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    
                                         <div><ul><b>Monday February 9</b>: 2 rooms
                                                        <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Ross</span>
-                                                       <ul>7:30 Audition for Miss Kromholtz and other roles</ul>
+                                                       <ul>7:30 Audition for Miss Kromholtz and other minor female roles</ul>
                                                        <ul>7:45 Music with Florrie:
-                                                            <li>some time for all-male numbers, some time for all-female numbers, perhaps some time in the middle overlapping for a review</li>
+                                                            <li>TBD</li>
                                                             </ul> 
                                                        <ul>7:45 Blocking with Chris:
                                                             <li>Walk through Act I with principals that have already been called for blocking rehearsals</ul></ul>
