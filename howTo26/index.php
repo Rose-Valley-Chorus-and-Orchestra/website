@@ -218,7 +218,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                          <div class="schedule">
 <h2>Schedule</h2>
-                              <div  class="Rtimes"><a href="H2$ Schedule for Cast revised-Final.pdf" title="Download rehearsal schedule" target="new"><span class="button" href="">Download</span></a> a PDF version of the schedule to print.</div>
+                              <div  class="Rtimes"><a href="H2$ Schedule for Cast revised-Final2.pdf" title="Download the updated schedule February 3" target="new"><span class="button" href="">Download</span></a> a PDF version of the schedule to print.</div>
                               <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
                                    <ul><li>If you know you will be late or not at rehearsal, please email <a href="mailto:florrie@barks.org,fittingchris20@gmail.com?subject=Missing rehearsal">Florrie and Chris</a>.</li>
                                    <li>Day of rehearsal, please text Florrie at (610) 453-1407 (cell) or email Chris at fittingchris20@gmail.com.</li></ul></div>
@@ -345,7 +345,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <div><ul><b>Wednesday February 11</b>: 2 rooms
                                                        <ul><u>CALLED</u>: ALL a few guys to be named - <span style="color: firebrick;">no Kate</span>
                                                        <ul>Choreography with Caity:
-                                                            <li>7:30 - 7:45 Finch, Twimble <i>Company Way</i></li> 
+                                                            <li>7:30 - 7:45 Finch, Twimble - <i>Company Way</i></li> 
                                                             <li>7:45 ALL - <i>Company Way</i> (reprise)</li></ul> 
                                                        <ul>Music with Florrie:
                                                             <li>Music review if time with the chorus</li>
