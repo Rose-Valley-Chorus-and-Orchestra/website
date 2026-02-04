@@ -354,7 +354,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Sunday February 15</b>: 2 rooms</span>
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Ross, Kate</span>
+                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Ross, Kate, Lisa F</span>
                                                        <ul>Choreography with Caity:
                                                             <li><i>A Secretary is Not a Toy</i> and review</li></ul>
                                                        <ul>Music with Florrie:
@@ -369,7 +369,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
 
                                         <div><ul><b>Wednesday February 18</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: Chorus - <span style="color: firebrick;">no Kate, Florrie</span>
+                                                       <ul><u>CALLED</u>: Chorus - <span style="color: firebrick;">no Kate, Florrie, Mike</span>
                                                        <ul>Choreography with Caity:
                                                             <li>Female cast - <i>Paris Original</i> and review</li></ul> 
                                                        <ul>Blocking with Chris:
@@ -378,7 +378,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Sunday February 22</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: Chorus - <span style="color: firebrick;">no Aaron, Kate, Ross leaves early</span>
+                                                       <ul><u>CALLED</u>: Chorus - <span style="color: firebrick;">no Aaron, Kate, Ross &amp; Lisa F leaves early</span>
                                                        <li>CLEAN ACT I (and plug in minor characters into blocking)</li> 
                                              </ul>
                                         </div>
@@ -473,22 +473,22 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
                     
                                         <div><ul><b>Sunday March 22</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Andrea</span>
+                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Andrea, Mike, Rob, Laura</span>
                                                             <li>Run Act I</li></ul>
                                         </div>
 
                                         <div><ul><b>Monday March 23</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
+                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Mike</span>
                                                             <li>Run Act II</li></ul>
                                         </div>
 
                                         <div><ul><b>Wednesday March 25</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;"></span>
+                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Mike</span>
                                                             <li>Trouble spots TBD with Caity</li></ul>
                                         </div>
                
                                         <div><ul><b>Sunday March 29</b>: Auditorium
-                                                       <ul><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
+                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Mike</span>
                                                             <li>Run show</li></ul>
                                         </div>
 
@@ -498,7 +498,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Wednesday April 1</b>: Auditorium
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Ross</span>
+                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Ross, Mike</span>
                                                             <li>Trouble spots TBD and/or attempt a run without those missing</li></ul>
                                         </div>
 
