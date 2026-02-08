@@ -196,7 +196,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <p>If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.</p>
                               <p><img src="../images/new.png"> Send bios to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill" >wbmichael@comcast.net</a></p>
 
-                              <p><img src="../images/new.png"> Get the PDF of the <a href="../howTo26/dance/Coffee Break Dance Steps.pdf" title="Open the flier in a new tab" target="new"><i>Coffee Break</i> choreography</a>.</p>
+                              <p>Get the PDF of the <a href="../howTo26/dance/Coffee Break Dance Steps.pdf" title="Open the flier in a new tab" target="new"><i>Coffee Break</i> choreography</a>.</p>
                               <!-- <p>Access: <a title="Jump down to the list of cast emails" href="#emails">Cast emails</a>;  <a title="Jump down to listen or downlaod the dance music" href="#music">Dance music</a>; <a title="See setting, actors, song, director, and notes for each scene " href="../cinderella/CinderPageDetails.php">Scene Details</a>; <a title="See the set designs for Cinderella" href="../cinderella/CinderSetDesign.php">Set Design</a></p>
                     
                               <p>Print out the PDF of the <a href="../cinderella/show_fliers/SponsorandAdForm-Cinderella.pdf" title="Open the sponsorhsip form in a new tab to print" target="new">Sponsorship form</a> or <a href="../cinderella/show_fliers/Cinderella show flier.pdf" title="Open the flier in a new tab" target="new">Cinderella show flier</a>.</p>
@@ -302,24 +302,24 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </ul>
                               </div>
 
+                              <div><ul><b>Wednesday February 4</b>: 2 rooms
+                                             <ul><u>CALLED</u>: Chorus, Bud, Smitty - <span style="color: firebrick;">no Ross</span>
+                                             <ul>Choreography with Caity:
+                                                  <li>Clean <i>Coffee Break</i></li>
+                                                  <li>Intro for <i>How to Succeed &#8230;</i></li></ul></ul> 
+                                             <ul><u>CALLED</u>: Everyone NOT in <i>Coffee Break</i>
+                                                  <ul>7:30 Music with Florrie</ul></ul> 
+                                   </ul>
+                              </div>
+
                       
 </div>
                               
 
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
-<div><ul><b>Wednesday February 4</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: Chorus, Bud, Smitty - <span style="color: firebrick;">no Ross</span>
-                                                       <ul>Choreography with Caity:
-                                                            <li>Clean <i>Coffee Break</i></li>
-                                                            <li>Intro for <i>How to Succeed &#8230;</i></li></ul></ul> 
-                                                       <ul><u>CALLED</u>: Everyone NOT in <i>Coffee Break</i>
-                                                            <ul>7:30 Music with Florrie</ul></ul> 
-                                             </ul>
-                                        </div>
 
-
-                                        <div><ul><b>Sunday February 8</b>: 2 rooms
+<div><ul><b>Sunday February 8</b>: 2 rooms
                                                        <ul><u>CALLED</u>: ALL except Miss Jones - <span style="color: firebrick;">no Aaron</span>
                                                             <ul>Blocking with Chris
                                                             <li>Bratt, Smitty, Rosemary, Finch, Bud, Hedy, Biggley, Ovington - I.11-I.14 (completing Act I) </li></ul>
@@ -369,7 +369,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
 
                                         <div><ul><b>Wednesday February 18</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: Chorus - <span style="color: firebrick;">no Kate, Florrie, Mike, Chris</span>
+                                                       <ul><u>CALLED</u>: Chorus - <span style="color: firebrick;">no Kate, Florrie, Mike, Chris, Ross</span>
                                                        <ul>Choreography with Caity:
                                                             <li>Female cast - <i>Paris Original</i> and review</li></ul> 
                                                        <ul>Blocking with Chris:
@@ -425,7 +425,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                                         <div><ul><b>Sunday March 8</b>: 2 rooms
                                                        <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL <span style="color: firebrick;"></span>
-                                                       <li><img src="../images/new.png"> Headshot for the playbill and lobby board</li>
+                                                       <li><img src="../images/new.png"> Headshots for the playbill and lobby board</li>
                                                        <li>BLOCK II.10 (Finale)</li>
                                                        <li>Run/catch-up/plug in small roles for ACT II</li></ul>
                                              </ul>
