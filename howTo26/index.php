@@ -194,7 +194,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          </div>-->
 
                               <p>If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.</p>
-                              <p><img src="../images/new.png"> Send bios to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill" >wbmichael@comcast.net</a></p>
+                              <p><!--<img src="../images/new.png"> -->Send bios to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill" >wbmichael@comcast.net</a></p>
 
                               <p>Get the PDF of the <a href="../howTo26/dance/Coffee Break Dance Steps.pdf" title="Open the flier in a new tab" target="new"><i>Coffee Break</i> choreography</a>.</p>
                               <!-- <p>Access: <a title="Jump down to the list of cast emails" href="#emails">Cast emails</a>;  <a title="Jump down to listen or downlaod the dance music" href="#music">Dance music</a>; <a title="See setting, actors, song, director, and notes for each scene " href="../cinderella/CinderPageDetails.php">Scene Details</a>; <a title="See the set designs for Cinderella" href="../cinderella/CinderSetDesign.php">Set Design</a></p>
@@ -220,7 +220,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <h2>Schedule</h2>
                               <div  class="Rtimes"><a href="H2$ Schedule for Cast revised-Final2.pdf" title="Download the updated schedule February 3" target="new"><span class="button" href="">Download</span></a> a PDF version of the schedule to print.</div>
                               <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
-                                   <ul><li>If you know you will be late or not at rehearsal, please email <a href="mailto:florrie@barks.org,fittingchris20@gmail.com?subject=Missing rehearsal">Florrie and Chris</a>.</li>
+                                   <ul><li>If you know you will be late or not at rehearsal, please email <a href="mailto:florrie@barks.org,fittingchris20@gmail.com,wbmichael@comcast.net?subject=Missing rehearsal">Florrie, Chris, and Bill</a>.</li>
                                    <li>Day of rehearsal, please text Florrie at (610) 453-1407 (cell) or email Chris at fittingchris20@gmail.com.</li></ul></div>
 
                               <div class="castpageLinks" style="margin-bottom: -20px;">
@@ -311,24 +311,25 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   <ul>7:30 Music with Florrie</ul></ul> 
                                    </ul>
                               </div>
+                      
+                              <div><ul><b>Sunday February 8</b>: 2 rooms
+                                             <ul><u>CALLED</u>: ALL except Miss Jones - <span style="color: firebrick;">no Aaron</span>
+                                                  <ul>Blocking with Chris
+                                                  <li>Bratt, Smitty, Rosemary, Finch, Bud, Hedy, Biggley, Ovington - I.11-I.14 (completing Act I) </li></ul>
+                                             <ul>Music with Florrie
+                                                  <li>2:00 - Ladies working on #15 <i>Paris Original</i> and #23 <i>Cinderella, Darling</i></i></li>
+                                                  <li>3:00 - ALL</i></li>
+                                                  <li>? - 4:30 - Men working on #27 <i>I Believe in You</i> and #33 <i>Brotherhood of Man</i></li>
+                                                  <li>4:30  - Finch, Bigley, Hedy</i></li></ul> </ul>
+                              </div>
+
 
                       
-</div>
+               </div>
                               
 
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
-
-<div><ul><b>Sunday February 8</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL except Miss Jones - <span style="color: firebrick;">no Aaron</span>
-                                                            <ul>Blocking with Chris
-                                                            <li>Bratt, Smitty, Rosemary, Finch, Bud, Hedy, Biggley, Ovington - I.11-I.14 (completing Act I) </li></ul>
-                                                       <ul>Music with Florrie
-                                                            <li>2:00 - Ladies working on #15 <i>Paris Original</i> and #23 <i>Cinderella, Darling</i></i></li>
-                                                            <li>3:00 - ALL</i></li>
-                                                            <li>? - 4:30 - Men working on #27 <i>I Believe in You</i> and #33 <i>Brotherhood of Man</i></li>
-                                                            <li>4:30  - Finch, Bigley, Hedy</i></li></ul> </ul>
-</div>
 
                                    
                                         <div><ul><b>Monday February 9</b>: 2 rooms

@@ -123,7 +123,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <ul>Tackaberry - <a href="#Bill">Bill Michael</a></ul>
                          <ul>Miss Krumholtz - <at href="#TBD">TBD</a></ul>
                          <ul>Jenkins - <at href="#Naz">Steve Naz</a></ul>
-                         <ul>Toynbee - <at href="#Mike">Mike Salmansen</a></ul>
+                         <ul>Toynbee - <a href="#Mike">Mike Salmansen</a></ul>
                          <ul>Davis - <at href="#Albert">Albert Melli</a></ul>
                          <ul>Johnson - <at href="#Marc">Marc Rubino</a></ul>
                                         <!-- <ul style="margin:30px 0;"><u>Please note</u>: <i>Members of the ensemble will be listed in January.</i></ul>-->
