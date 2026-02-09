@@ -175,6 +175,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     </nav>
  </header>
      
+     
+          
 <!-- end masthead -->
 
           <!-- Begin content masthead -->
@@ -182,7 +184,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <div id="castPage">
                     <h1 id="pageName"><i>How to Succeed in Business Without Really Trying</i> Cast Page</h1> 
 
-                              <!-- <div class="notification">The <b>costume fitting</b> will take place Saturday, March 16 at our Firehouse located at <a href="https://www.google.com/maps/place/184+Bortondale+Rd,+Media,+PA+19063/@39.9017988,-75.3992073,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e8fb077ef113:0xc1aaad1af713cf34!8m2!3d39.9017988!4d-75.3966324!16s%2Fg%2F11c3q3ffv8?entry=ttu" title="Go to Google Maps" target="new" titler="Go to Google Maps">184 Bortondale Road, Media</a>
+                    
+<?php include("sp_announcement.php"); ?>
+<!-- <div class="notification">The <b>costume fitting</b> will take place Saturday, March 16 at our Firehouse located at <a href="https://www.google.com/maps/place/184+Bortondale+Rd,+Media,+PA+19063/@39.9017988,-75.3992073,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e8fb077ef113:0xc1aaad1af713cf34!8m2!3d39.9017988!4d-75.3966324!16s%2Fg%2F11c3q3ffv8?entry=ttu" title="Go to Google Maps" target="new" titler="Go to Google Maps">184 Bortondale Road, Media</a>
                                    <ul class="notificationTime"><li><b>Men</b>: 10:00 am - 11:00 am</li>
                                          <li><b>Women</b>: 11:00 am - 12:00 pm</li></ul>
                                          <div>Please let <a href="mailto:lauraryandesigns@gmail.com?subject=March 16 costume fitting" title="Send an email to our costumer Laura" >Laura</a> know if are not able to be there or can't make your allotted time.</div></div>
@@ -335,9 +339,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <div><ul><b>Monday February 9</b>: 2 rooms
                                                        <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Ross</span>
                                                        <ul>7:30 Audition for Miss Kromholtz, scrubwomen, and additional lines</ul>
-                                                       <ul>7:45 Music with Florrie:
-                                                            <li>TBD</li>
-                                                            </ul> 
+                                                       7:45 Music with Florrie: <b>CANCELED</b>
                                                        <ul>7:45 Blocking with Chris:
                                                             <li>Walk through Act I with principals that have already been called for blocking rehearsals</ul></ul>
                                              </ul>
