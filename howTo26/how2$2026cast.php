@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="learn about the cast and crew for our 2026 production of How to Succeed in Business Without Really Trying" />
 <meta name="keywords" content="The Pirates of Penzance, Me and My Girl, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
-<title>The Gondoliers 2025 Cast list - RVCO</title>
+<title>The How to Succed in Business Without Really Trying 2026 Cast list - RVCO</title>
 <link rel="shortcut icon" href="../images/rvco.ico" />
 <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">	
 <link href="../css/multiColumnTemplate.css" rel="stylesheet" type="text/css">

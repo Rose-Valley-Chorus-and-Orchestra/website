@@ -326,6 +326,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   <li>? - 4:30 - Men working on #27 <i>I Believe in You</i> and #33 <i>Brotherhood of Man</i></li>
                                                   <li>4:30  - Finch, Bigley, Hedy</i></li></ul> </ul>
                               </div>
+                                   
+                              <div><ul><b>Monday February 9</b>: 2 rooms
+                                             <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Ross</span>
+                                             <ul>7:30 Audition for Miss Kromholtz, scrubwomen, and additional lines</ul>
+                                             7:45 Music with Florrie: <b>CANCELED</b>
+                                             <ul>7:45 Blocking with Chris:
+                                                  <li>Walk through Act I with principals that have already been called for blocking rehearsals</ul></ul>
+                                   </ul>
+                              </div>
+
 
 
                       
@@ -334,16 +344,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
-
-                                   
-                                        <div><ul><b>Monday February 9</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Ross</span>
-                                                       <ul>7:30 Audition for Miss Kromholtz, scrubwomen, and additional lines</ul>
-                                                       7:45 Music with Florrie: <b>CANCELED</b>
-                                                       <ul>7:45 Blocking with Chris:
-                                                            <li>Walk through Act I with principals that have already been called for blocking rehearsals</ul></ul>
-                                             </ul>
-                                        </div>
 
                                         <div><ul><b>Wednesday February 11</b>: 2 rooms
                                                        <ul><u>CALLED</u>: ALL a few guys to be named - <span style="color: firebrick;">no Kate</span>

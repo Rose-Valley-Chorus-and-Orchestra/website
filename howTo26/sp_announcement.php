@@ -6,6 +6,7 @@
 </div></div>-->
 
 
+<!--
 <div  id="announcement" class="vwrap"><div class="vmove">
      <div class="vitem responisive" style="color: #000;font-size: 1.2em;">Florrie is not feeling well today.</div>
      <div class="vitem responisive" style="color: #A30029;font-size: 1.2em;"><b>No music</b> rehearsal tonight,</div> 
@@ -17,4 +18,4 @@
      <div class="vitem responisive">&nbsp;</div>
 
 
-</div></div>
+</div></div> -->
