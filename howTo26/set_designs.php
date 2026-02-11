@@ -193,7 +193,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <p><b>Dowload pictures from dress rehearsal:</b> <a href="http://www.rvco.org/cinderella/pictures.php">http://www.rvco.org/cinderella/pictures.php</a></p> -->   
                     
                          <div class="castpageLinks">
-                              <span class="button"><a title="Return to the cast page" href="index.php">Cast page</a></span>
+                              <a title="Return to the cast page" href="index.php"><span class="button">Cast page</span></a>
                               
                          </div>
 
@@ -212,7 +212,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                          <div class="schedule">
 <h2>Set Designs</h2>
-                              <div style="margin: 0 0 0 30px; max-width: 800px;"><b>Jump to:</b>
+                              <div style="margin: 0 0 0 30px; max-width: 800px;"><b>Jump to:</b> click on the image to open in a new tab
                                    <div style="margin-left: 25px;"><b>Act I</b>
                                         <div><a href="#A1S2" style="margin: 0 25px 0 0px; line-height: 200%;">Scene&nbsp;2/3</a>
                                              <a href="#A1S4" style="margin: 0 25px 0 0; line-height: 200%;">Scene&nbsp;4/5</a>
@@ -226,15 +226,15 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </div>
                               </div>
                               
-                              <div><img id="A1S2" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S2-3.png" href="artwork/set design/"></div>
-                              <div><img id="A1S4" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S4-5.png" href="artwork/set design/"></div>
-                              <div><img id="A1S6" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S6-7.png" href="artwork/set design/"></div>
-                              <div><img id="A1S8" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S8.png" href="artwork/set design/"></div>
-                              <div><img id="A1S9" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S9.png" href="artwork/set design/"></div>
-                              <div><img id="A1S10" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S10.png" href="artwork/set design/"></div>
-                              <div><img id="A1S12" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S12.png" href="artwork/set design/"></div>
-                              <div><img id="A1S13" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S13.png" href="artwork/set design/"></div>
-                              <div><img id="A1S14" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S14.png" href="artwork/set design/"></div>
+                              <div><a href="artwork/set design/H2$-set-design-A1-S2-3.png" target="_blank"><img id="A1S2" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S2-3.png" href="artwork/set design/"></a></div>
+                              <div><a href="artwork/set design/H2$-set-design-A1-S4-5.png" target="_blank"><img id="A1S4" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S4-5.png" href="artwork/set design/"></a></div>
+                              <div><a href="artwork/set design/H2$-set-design-A1-S6-7.png" target="_blank"><img id="A1S6" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S6-7.png" href="artwork/set design/"></a></div>
+                              <div><a href="artwork/set design/H2$-set-design-A1-S8.png" target="_blank"><img id="A1S8" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S8.png" href="artwork/set design/"></a></div>
+                              <div><a href="artwork/set design/H2$-set-design-A1-S9.png" target="_blank"><img id="A1S9" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S9.png" href="artwork/set design/"></a></div>
+                              <div><a href="artwork/set design/H2$-set-design-A1-S10.png" target="_blank"><img id="A1S10" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S10.png" href="artwork/set design/"></a></div>
+                              <div><a href="artwork/set design/H2$-set-design-A1-S12.png" target="_blank"><img id="A1S12" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S12.png" href="artwork/set design/"></a></div>
+                              <div><a href="artwork/set design/H2$-set-design-A1-S13.png" target="_blank"><img id="A1S13" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S13.png" href="artwork/set design/"></a></div>
+                              <div><a href="artwork/set design/H2$-set-design-A1-S14.png" target="_blank"><img id="A1S14" class="img-responsive" style="max-width: 1200px;" src="artwork/set design/H2$-set-design-A1-S14.png" href="artwork/set design/"></a></div>
 
 
 
