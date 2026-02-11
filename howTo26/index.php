@@ -192,10 +192,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                          <div>Please let <a href="mailto:lauraryandesigns@gmail.com?subject=March 16 costume fitting" title="Send an email to our costumer Laura" >Laura</a> know if are not able to be there or can't make your allotted time.</div></div>
                               <p><b>Dowload pictures from dress rehearsal:</b> <a href="http://www.rvco.org/cinderella/pictures.php">http://www.rvco.org/cinderella/pictures.php</a></p> -->   
                     
-                         <!--<div class="castpageLinks">
-                              <span class="button"><a title="Go to the videos page" href="file:///Seagate X/RVCO/gondoliers/DVideos.php" style="font-size: 1.2em; color:#EDEDED; padding:13px;">Dance videos</a></span>
+                         <div class="castpageLinks">
+                              <span class="button"><a title="Go to the set design page" href="set_designs.php">Set Designs</a></span>
                               
-                         </div>-->
+                         </div>
 
                               <p>If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.</p>
                               <p><!--<img src="../images/new.png"> -->Send bios to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill" >wbmichael@comcast.net</a></p>
@@ -222,7 +222,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                          <div class="schedule">
 <h2>Schedule</h2>
-                              <div  class="Rtimes"><a href="H2$ Schedule for Cast revised-Final2.pdf" title="Download the updated schedule February 3" target="new"><span class="button" href="">Download</span></a> a PDF version of the schedule to print.</div>
+                              <div  class="Rtimes"><a href="H2$ Schedule for Cast revised-Final3.pdf" title="Download the updated schedule February 3" target="new"><span class="button" href="">Download</span></a> a PDF version of the schedule to print.</div>
                               <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
                                    <ul><li>If you know you will be late or not at rehearsal, please email <a href="mailto:florrie@barks.org,fittingchris20@gmail.com,wbmichael@comcast.net?subject=Missing rehearsal">Florrie, Chris, and Bill</a>.</li>
                                    <li>Day of rehearsal, please text Florrie at (610) 453-1407 (cell) or email Chris at fittingchris20@gmail.com.</li></ul></div>
@@ -346,7 +346,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <span id="currentDate"></span>
 
                                         <div><ul><b>Wednesday February 11</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL a few guys to be named - <span style="color: firebrick;">no Kate</span>
+                                                       <ul><u>CALLED</u>: ALL a few guys to be named - <span style="color: firebrick;">no Kate, Lisette</span>
                                                        <ul>Choreography with Caity:
                                                             <li>7:30 - 7:45 Finch, Twimble - <i>Company Way</i></li> 
                                                             <li>7:45 ALL - <i>Company Way</i> (reprise)</li></ul> 
@@ -387,9 +387,14 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
-                                        <div><ul><b>Monday February 23</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: Chorus - <span style="color: firebrick;">no Kate</span>
-                                                       <li>CLEAN ACT I (and plug in minor characters into blocking)</li> 
+                                        <div><ul><b>Monday February 23</b>: 2 rooms - <span style="color: firebrick;">no Kate</span>
+                                                       <ul><u>CALLED</u>: Finch and Heady
+                                                            <li>7:30 - Intimacy Choreography with Julie Zaffarano</li></ul>
+                                                       <ul><u>CALLED</u>: Finch and Rosemary
+                                                            <li>7:45  - Intimacy Choreography with Julie Zaffarano</li></ul>
+                                                       <ul><u>CALLED</u>: All
+                                                            <li>8:00 - CLEAN ACT I (plug minor characters into blocking)</li>
+                                                       </ul> 
                                              </ul>
                                         </div>     
 
