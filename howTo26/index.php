@@ -193,7 +193,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <p><b>Dowload pictures from dress rehearsal:</b> <a href="http://www.rvco.org/cinderella/pictures.php">http://www.rvco.org/cinderella/pictures.php</a></p> -->   
                     
                          <div class="castpageLinks">
-                              <a href="set_designs.php" title="Go to the set design page"><span class="button">Set Designs</span></a>
+                             <a href="set_designs.php" title="Go to the set design page"><span class="button">Set Designs</span></a> <img src="../images/new.png"> 
                          </div>
 
                               <p>If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.</p>
