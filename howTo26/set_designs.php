@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How to Succeed Cast Page - RVCO</title>
+<title>How to Succeed Set Design Page - RVCO</title>
 <link rel="shortcut icon" href="https://www.rvco.org/images/rvco.ico" />
 <link href="https://www.rvco.org/css/bootstrap.css" rel="stylesheet" type="text/css">	
 <link href="https://www.rvco.org/css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
@@ -194,7 +194,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     
                          <div class="castpageLinks">
                               <a title="Return to the cast page" href="index.php"><span class="button">Cast page</span></a>
-                              
+                              <a href="dance.php" title="Go to the dance page"><span class="button">Dance page</span></a>
                          </div>
 
                     

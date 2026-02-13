@@ -193,7 +193,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <p><b>Dowload pictures from dress rehearsal:</b> <a href="http://www.rvco.org/cinderella/pictures.php">http://www.rvco.org/cinderella/pictures.php</a></p> -->   
                     
                          <div class="castpageLinks">
-                             <a href="set_designs.php" title="Go to the set design page"><span class="button">Set Designs</span></a> <img src="../images/new.png"> 
+                                   <a href="set_designs.php" title="Go to the set design page"><span class="button">Set Designs</span></a> 
+                                   <a href="dance.php" title="Go to the dance page"><span class="button">Dance page</span></a>
+                                   <img src="../images/new.png"> 
                          </div>
 
                               <p>If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.</p>
@@ -335,8 +337,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </ul>
                               </div>
 
-
-
+                              <div><ul><b>Wednesday February 11</b>: 2 rooms
+                                             <ul><u>CALLED</u>: ALL a few guys to be named - <span style="color: firebrick;">no Kate, Lisette</span>
+                                             <ul>Choreography with Caity:
+                                                  <li>7:30 - 7:45 Finch, Twimble - <i>Company Way</i></li> 
+                                                  <li>7:45 ALL - <i>Company Way</i> (reprise)</li></ul> 
+                                             <ul>Music with Florrie:
+                                                  <li>Music review if time with the chorus</li>
+                                             </ul> 
+                                   </ul>
+                              </div>
                       
                </div>
                               
@@ -344,24 +354,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
 
-                                        <div><ul><b>Wednesday February 11</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL a few guys to be named - <span style="color: firebrick;">no Kate, Lisette</span>
-                                                       <ul>Choreography with Caity:
-                                                            <li>7:30 - 7:45 Finch, Twimble - <i>Company Way</i></li> 
-                                                            <li>7:45 ALL - <i>Company Way</i> (reprise)</li></ul> 
-                                                       <ul>Music with Florrie:
-                                                            <li>Music review if time with the chorus</li>
-                                                       </ul> 
-                                             </ul>
-                                        </div>
-
                                         <div><ul><b>Sunday February 15</b>: 2 rooms</span>
                                                        <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Ross, Kate, Lisa F</span>
-                                                       <ul>Choreography with Caity:
-                                                            <li><i>A Secretary is Not a Toy</i> and review</li></ul>
-                                                       <ul>Music with Florrie:
-                                                            <li>Those not in <i>A Secretary is Not a Toy</i></li></ul> 
-</ul>
+                                                                 <ul>Choreography with Caity:
+                                                                      <li><i>A Secretary is Not a Toy</i> and review</li></ul>
+                                                                 <ul>Music with Florrie:
+                                                                      <li>Those not in <i>A Secretary is Not a Toy</i></li></ul> 
+                                                       </ul>
                                         </div>
 
                                         <div><ul><b>Monday February 16</b>
