@@ -105,6 +105,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <h2 id="top" class="storyHead">Directors</h2>
                               <ul>Stage Director - <at href="#Kate">Chris Fitting</a></ul>
                               <ul>Music Director - <at href="#Florrie">Florrie Marks</a></ul>
+                              <ul>Choreographer - <at href="#Caity">Caity Moon</a></ul>
 
                     <h2 class="storyHead">Actors</h2>
                     <div style="line-height: 120%; ">

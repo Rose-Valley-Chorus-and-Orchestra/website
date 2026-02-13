@@ -379,9 +379,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <ul><li>Stage left people (G1), step left with the left foot when Bud sings "I" then spin left on "<u><b>some</b></u>day". 
                                                   On "earn" step with the right foot and lean toward Bud.</li>
                                              <li>Stage right people (G2), step right with the right foot when Bud sings "I" then spin right on "<u><b>some</b></u>day". 
-                                                  On "earn" step with the left foot and lean toward Bud.</li></ul>
+                                                  On "earn" step with the left foot and lean toward Bud.</li>
+                                             <li>Clap 3 times after Bud sings "employee".</li>
+                                        </ul>
                                    </div>
-                                   <div>Clap 3 times after Bud sings "employee".  Stay leaning in. Stand when Bud sings "me".</div>
+                                   <div>At <b style="font-size: 1.2em;">F</b>: Caroline crosses stage right in front of Bud. Stand up straight when Bud sings "me".</div>
                                    <div>At <b style="font-size: 1.2em;">G</b>: Switch sides weaving the lines. The stage left lines (G1) go in front of the stage right lines (G2). Be in place by policy.  Look at Bud when he sings "him" then look away when he sings "</u><b>o</b></u>kay".</div>
                                    <div>Stage right people (G1) spin left when Bud sings "I'll".  Stage left people (G2) spin right when Bud sings "but".</div>
                                    <div>At <b style="font-size: 1.2em;">I</b>: Form a circle around Bud with the stage right people in front of Bud. Start moving right when he sings "here".  Be in place by the time we sing "dump any man". </div>
