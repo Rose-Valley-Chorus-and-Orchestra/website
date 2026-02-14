@@ -6,16 +6,12 @@
 </div></div>-->
 
 
-<!--
+
 <div  id="announcement" class="vwrap"><div class="vmove">
-     <div class="vitem responisive" style="color: #000;font-size: 1.2em;">Florrie is not feeling well today.</div>
-     <div class="vitem responisive" style="color: #A30029;font-size: 1.2em;"><b>No music</b> rehearsal tonight,</div> 
-     <div class="vitem responisive" style="color: #000;font-size: 1.2em;">Monday, February 9.</div> 
-     <div class="vitem responisive">&nbsp;</div>
-     <div class="vitem responisive" style="color: #000;font-size: 1.2em;">The audition for Miss Kromholtz, scrubwomen, etc.</div>
-     <div class="vitem responisive" style="color: #000;font-size: 1.2em;">and walk thru Act I with Chris.</div>
-     <div class="vitem responisive" style="color: #A30029;font-size: 1.2em;">will go on <span style="color: #000;">as scheduled.</span></div>
-     <div class="vitem responisive">&nbsp;</div>
+     <div class="vitem responisive" style="color: #000;font-size: 1.2em;"><b>NOTE</b>: Schedule update for</div>
+     <div class="vitem responisive" style="color: #000;font-size: 1.2em;">tomorrow, Sunday February 15</div> 
+     <div class="vitem responisive" style="color: #000;font-size: 1.2em;">Wednesday, February 18</div> 
+     <div class="vitem responisive" style="color: #000;font-size: 1.2em;">and Sunday February 22.</div> 
 
 
-</div></div> -->
+</div></div>
