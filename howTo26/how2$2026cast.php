@@ -14,6 +14,38 @@
 <link href="../css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
 <link href="../css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
  
+<style type="text/css">     
+ul.listing {
+max-width: 40em;
+padding: 0;
+overflow-x: hidden;
+list-style: none;
+}
+
+ul.listing li:before {
+float: left;
+width: 0;
+white-space: nowrap;
+content:
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+}
+
+ul.listing span:first-child {
+padding-right: 0.33em;
+background: white;
+}
+
+ul.listing span + span {
+float: right;
+padding-left: 0.33em;
+background: white;
+}     
+.listing {margin: 0 40px 0;} 
+.listing li {line-height: 180%;}     
+</style>     
 <script type="text/javascript">
 <!--
 function MM_showHideLayers() { //v9.0
@@ -103,21 +135,43 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <div style="margin: 20px 20px 20px 20px;"><img style="background-color: white;  max-width: 500px;" src="../howTo26/logo/FLABhowToChair@500.webp" alt="How to Succeed in Business Without Really Trying< logo" class="img-responsive" name="how2"  title="" hspace="0" vspace="0" /></div>
        
                <h2 id="top" class="storyHead">Directors</h2>
-                              <ul>Stage Director - <at href="#Kate">Chris Fitting</a></ul>
-                              <ul>Music Director - <at href="#Florrie">Florrie Marks</a></ul>
-                              <ul>Choreographer - <at href="#Caity">Caity Moon</a></ul>
+                         <ul class="listing">
+                              <li><span>Stage Director</span> <span><at href="#Kate">Chris Fitting</a></span></li>
+                              <li><span>Music Director</span> <span><at href="#Florrie">Florrie Marks</a></span></li>
+                              <li><span>Choreographer</span> <span><at href="#Caity">Caity Moon</a><</li>
+                         </ul>
 
                     <h2 class="storyHead">Actors</h2>
-                    <div style="line-height: 120%; ">
+                         <ul class="listing">
+                         <li><span>J. Pierrepont Finch</span> <span><at href="#ChrisR">Chris Rubino</a></span></li>
+                         <li><span>J.B. Biggley</span> <span><at href="#Jeff">Jeff Swafford</a></span></li>
+                         <li><span>Rosemary</span> <span><at href="#Allie">Allie Beik</a></span></li>
+                         <li><span>Bud Frump</span> <span><at href="#Aaron">Aaron Kirschner</a></span></li>
+                         <li><span>Bratt</span> <span><at href="#Rob">Rob Hull</a></span></li>
+                         <li><span>Mr. Twimble/Womper</span> <span><at href="#Tim">Ross Druker</a></span></li>
+                         <li><span>Smitty</span> <span><at href="#Kate">Kate Philips-Kaiser</a></span></li>
+                         <li><span>Miss Jones</span> <span><a href="#Andrea">Andrea Broido</a></span></li>
+                         <li><span>Hedy</span> <span><at href="#Donna">Donna Winquist</a></span></li>
+                         <li><span>Ovington</span> <span><at href="#Bob">Robert Moore</a></span></li>
+                         <li><span>Gatch</span> <span><a href="#Don">Don Cheetham</a></span></li>
+                         <li><span>Tackaberry</span> <span><a href="#Bill">Bill Michael</a></li>
+                         <li><span>Miss Krumholtz</span> <span><at href="#Kotzen">Sharon Kotzen</a></span></li>
+                         <li><span>Jenkins</span> <span><at href="#Naz">Steve Naz</a></span></li>
+                         <li><span>Toynbee</span> <span><a href="#Mike">Mike Salmansen</a></span></li>
+                         <li><span>Davis</span> <span><at href="#Albert">Albert Melli</a></span></li>
+                         <li><span>Scrubwomen</span> <span><at href="#Sharon">Sharon Weil-Chalker</a></span></li>
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#LisaF">Lisa Franks</a></span></li>
                          
-                         <ul>J. Pierrepont Finch - <at href="#ChrisR">Chris Rubino</a></ul>
+                              
+                              
+                         <!--<ul>J. Pierrepont Finch - <at href="#ChrisR">Chris Rubino</a></ul>
                          <ul>J.B. Biggley - <at href="#Jeff">Jeff Swafford</a></ul>
                          <ul>Rosemary - <at href="#Allie">Allie Beik</a></ul>
                          <ul>Bud Frump - <at href="#Aaron">Aaron Kirschner</a></ul>
                          <ul>Bratt - <at href="#Rob">Rob Hull</a></ul>
                          <ul>Mr. Twimble/Womper - <at href="#Tim">Ross Druker</a></ul>
                          <ul>Smitty - <at href="#Kate">Kate Philips-Kaiser</a></ul>
-                         <ul>Miss Jones - <at href="#Andrea">Andrea Broido</a></ul>
+                         <ul>Miss Jones - <a href="#Andrea">Andrea Broido</a></ul>
                          <ul>Hedy - <at href="#Donna">Donna Winquist</a></ul>
                          <ul>Ovington - <at href="#Bob">Robert Moore</a></ul>
                          <ul>Gatch - <a href="#Don">Don Cheetham</a></ul>
@@ -126,35 +180,26 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <ul>Jenkins - <at href="#Naz">Steve Naz</a></ul>
                          <ul>Toynbee - <a href="#Mike">Mike Salmansen</a></ul>
                          <ul>Davis - <at href="#Albert">Albert Melli</a></ul>
-                         <ul>Scrubwomen - <at href="#Sharon">Sharon Weil-Chalker</a> and <a href="#LisaF">Lisa Franks</a></ul>
+                         <ul>Scrubwomen - <at href="#Sharon">Sharon Weil-Chalker</a> and <a href="#LisaF">Lisa Franks</a></ul>-->
                          
                                         <!-- <ul style="margin:30px 0;"><u>Please note</u>: <i>Members of the ensemble will be listed in January.</i></ul>-->
                                    
-                         <ul>Executive - <at href="#Lisette">Lisette Walker</a></ul>
-                         <ul>Coffee Cart Man - <at href="#Marc">Marc Rubino</a></ul>
-                         <ul>TV Host - <at href="#Bob">Robert Moore</a></ul>
-                         <ul>Policeman - <at href="#Bob">Robert Moore</a></ul>
-                         <ul style="line-height: 160%">Secretaries
-                                                  <ul><at href="#LisaC">Lisa Cleek</a></ul>
-                                                  <ul><a href="#LisaF">Lisa Franks</a></ul>
-                                                  <ul><at href="#Jennifer">Jennifer Heller</a></ul>
-                                                  <ul><at href="#Laura"></a>Laura Hull</ul> 
-                                                  <ul><at href="#Caroline">Caroline Pashos</a></ul>
-                                                  <ul><at href="#Sharon">Sharon Weil-Chalker</a></ul>
-
+                         <li><span>Executive</span> <span><at href="#Lisette">Lisette Walker</a></li>
+                         <li><span>Coffee Cart Man</span> <span><at href="#Marc">Marc Rubino</a></li>
+                         <li><span>TV Host</span> <span><at href="#Bob">Robert Moore</a></li>
+                         <li><span>Policeman</span><span><at href="#Bob">Robert Moore</a></li>
+                         <li><span>Wickette Girls</span> <span><at href="#Jennifer">Jennifer Heller</a></li>
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Caroline">Caroline Pashos</a></span></li>
+                              
+                         <li><span>Secretaries</span> <span><at href="#LisaC">Lisa Cleek</a></span></li>
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#LisaF">Lisa Franks</a></span></li>
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Jennifer">Jennifer Heller</a></span></li>
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Laura"></a>Laura Hull</span></li> 
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Caroline">Caroline Pashos</a></span></li>
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Sharon">Sharon Weil-Chalker</a></span></li>
+                         </li>
                          </ul>
-                                   <!--<ul style="line-height: 160%">Policemen
-                                                  <ul><a href="#Don">Don Cheetham</a></ul>
-                                                  <ul><a href="#Richard">Richard Kalwaic</a></ul>
-                                                  <ul><a href="#Doug">Doug Kurtze</a></ul>
-                                                  <ul><a href="#Bill">Bill Michael</a></ul>
-                                                  <ul><a href="#Bob">Robert Moore</a></ul>
-                                                  <ul><a href="#Naz">Steve Naz</a></ul>
-                                                  <ul><a href="#Chris">Chris Rubino</a></ul>
-                                                  <ul><a href="#Margaretta">Margaretta Sacco</a></ul>
-                                                  <!--<ul><at href="#Gene">Gene</a></ul> -->
 
-               </div>
                <!--     <h2 class="storyHead">Orchestra</h2>
                                    <div><ul>Conductor and Manager - <a href="#Florrie">Florrie Marks</a></ul>
                                    <ul style="line-height: 160%">Flute 1
@@ -195,18 +240,22 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
 
           <h2 class="storyHead">Production Staff</h2>
-                    <ul>Producer - <a href="#Bill">Bill Michael</a></ul>
-                    <ul>Lighting Designer - <at href="#Bill">Philip Milone</a></ul>   
+               <ul class="listing">
+                              
+                    <li><span>Producer</span>  <span><a href="#Bill">Bill Michael</a></span></li>
+                    <li><span>Lighting Designer</span> <span><at href="#Bill">Philip Milone</a></span></li>   
                <!--<ul>Lighting Operator - <at href="#Bill">Kathy Michael</a></ul>   
                     <ul>Sound Engineer - <at href="#Bill">Anne Hamilton</a></ul>-->   
-                    <ul>Stage Manager - <at href="#Kathy">Kathy Michael</a></ul>  
-                    <ul>Costumes - <at href="#Ellen">Ellen Kecskemethy Tillman</a></ul>
-                    <ul>Properties - <at href="#Grace">Grace Albert</a> (chair)</ul>
-                    <ul>Set Designer - <at href="#Mark">Mark Teseny</a></ul>
-                    <ul>Playbill - <at href="#Stacey">Stacey Martinez</a></ul>               
-                    <ul>House Managers - <at href="#Janet">Janet Lloyd Murchy</a> and <at href="#Janet">Ray Murphy</a></ul>
-                    <ul>Webmaster - <a href="#Bill">Bill Michael</a></ul>
-                    <ul>Rehearsal and Audition Pianist - <at href="#Florrie">Florrie Marks</a></ul>                    
+                    <li><span>Stage Manager</span>  <span><at href="#Kathy">Kathy Michael</a></span></li>  
+                    <li><span>Costumes</span>  <span><at href="#Ellen">Ellen Kecskemethy Tillman</a></span></li>
+                    <li><span>Properties</span>  <span><at href="#Grace">Grace Albert</a> (chair)</span></li>
+                    <li><span>Set Designer</span>  <span><at href="#Mark">Mark Teseny</a></span></li>
+                    <li><span>Playbill</span>  <span><at href="#Stacey">Stacey Martinez</a></span></li>               
+                    <li><span>House Managers</span> <span><at href="#Janet">Janet Lloyd Murchy</a> and <at href="#Janet">Ray Murphy</a></span></li>
+                    <li><span>Webmaster</span> <span><a href="#Bill">Bill Michael</a></span></li>
+                    <li><span>Rehearsal and Audition Pianist</span>  <span><at href="#Florrie">Florrie Marks</a></span></li>   
+               </ul>     
+
 <!--                    <ul style="line-height: 160%">Stage Crew
                          <ul><at href="#Sean">Sean Hall</a></ul>
                          <ul><at href="#Todd">Todd Andrews</a></ul>
@@ -243,26 +292,30 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 -->               
                
                     <!-- Production Staff end -->
-       
+
+               
        
 
 <div class="bios">
           <H2 class="storyHead">Bios</H2>
           <div class="listAlpha" ><span class="role">listed alphabetically</span></div>
-               <p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/cinderella2024/headshots/Don.jpg" alt="Don Cheetham headshot" class="headshot" /></span><a name="Don"></a><span class="person">Don Cheetham</span> (<span class="role">Gatch/Ensemble</span>) Previous RVC&amp;O shows include parts as Giorgio in <i>The Gondoliers</i>, Dave Miller in <i>State Fair</i>, the Steward in <i>Rodgers and Hammerstein's Cinderella</i>, Andrew McLaren in <i>Brigadoon</i>, and chorus in several other musicals. Other favorite roles include two in <i>Our Town</i> – Editor Webb (Barley Sheaf Players) and Simon Stimson (St. Peter's Players), as well as Paul Sycamore in <i>You Can't Take It With You</i> (Barley Sheaf Players.) <a href="#top" class="back2top">Back to top</a></p>
+
+               <p class="bios"><span class="headshot_img"><imgg src="https://archive.rvco.org/past_shows/cinderella2024/headshots/Don.jpg" alt="Andrea Broido headshot" class="headshot" /></span><a name="Andrea"></a><span class="person">Andrea Broido</span> (<span class="role">Miss Jones</span>) is an accomplished soprano recognized for her work in opera, oratorio and recital.  She has sung with Virginia Opera, Opera Delaware, Opera Ensemble of NY, Berks Grand Opera (Reading, PA), Center Stage Opera and Capital Opera (both in Harrisburg, PA), Delaware Valley Opera Co., Rose Valley Chorus &amp; Orchestra and The Arden Club in such roles include Violetta, Mimi, Pamina, Rosalinda, Nedda, Micaela, Donna Elvira, the Countess and the Governess and Hanna Glawari. She has appeared as featured soloist with the Delaware Symphony Orchestra, the Roanoke Symphony, the Terre Haute Symphony (IN), the Concerto Soloists of Phila., the Reading Symphony, Vox Amadeus, as well as numerous appearances with the Lansdowne Symphony Orchestra and PA Pro Musica.  She holds a B.A. in Music from Hollins University (Roanoke, VA) and maintains a private voice studio in the Philadelphia area. <a href="#top" class="back2top">Back to top</a></p>
+
+               <p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/cinderella2024/headshots/Don.jpg" alt="Don Cheetham headshot" class="headshot" /></span><a name="Don"></a><span class="person">Don Cheetham</span> (<span class="role">Gatch/Ensemble</span>) Previous RVCO shows include parts as Giorgio in <i>The Gondoliers</i>, Dave Miller in <i>State Fair</i>, the Steward in <i>Rodgers and Hammerstein's Cinderella</i>, Andrew McLaren in <i>Brigadoon</i>, and chorus in several other musicals. Other favorite roles include two in <i>Our Town</i> – Editor Webb (Barley Sheaf Players) and Simon Stimson (St. Peter's Players), as well as Paul Sycamore in <i>You Can't Take It With You</i> (Barley Sheaf Players.) <a href="#top" class="back2top">Back to top</a></p>
      
                <p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/statefair2025/headshots/Lisa%20Franks%20playbill.jpg" alt="Lisa Franks headshot" class="headshot"/></span><a name="LisaF"></a><span class="person">Lisa Franks</span> (<i>Secretary</i>) has appeared in many RVCO shows, as as  Fiametta in <i>The Gondoliers</i>, Melissa Frake in <i>State Fair</i>, Godmother in <i>Rodgers &amp; Hammerstein's Cinderella</i>, and Mrs. Fezziwig in <i>A Christmas Carol - The Musical</i>.  Other community theater roles include Fiona (<i>Brigadoon</i>), Liza Doolittle (<i>My Fair Lady</i>), Sally Smith (<i>Me and My Girl</i>), Sarah Brown (<i>Guys &amp; Dolls</i>), Marion Paroo (<i>The Music Man</i>), Laurey (<i>Oklahoma!</i>), Agnes Cohan (<i>George M!</i>), and Reno Sweeney (<i>Anything Goes</i>). Understudied Charlotte Hay (<i>Moon Over Buffalo</i>, Walnut St. Theatre). When not on stage, Lisa can be found teaching French at Villanova University. <a href="#top" class="back2top">Back to top</a></p>
 
-               <p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/statefair2025/headshots/Bill%20Michael%20playbill.jpg" alt="Bill Michael headshot" class="headshot"/></span><a name="Bill"></a><span class="person">Bill Michael</span> (<span class="role">Tackaberry/Policeman, Producer, Webmaster</span>) was last seen with RVCO as Harry in <i>State Fair</i>. Other roles with RVCO include the Solicitor in <i>Patience</i>, George Kitteridge <i>High Society</i>, Ito in <i>Mame</i>, Beadle / Mr. Hawkins / Scrooge's Father in <i>A Christmas Carol - The Musical</i>, Slim in <i>Oklahoma!</i>, and Jacob Miller in <i>Plain and Fancy</i>, and Pierre in <i>The Red Mill</i>. He has appeared in many RVCO shows in the past 30 plus years and performed just as many roles behind the scenes. This is Bill's 8<sup>th</sup> show produced for RVCO. &ldquo;A shout-out to the stage manager, my wife Kathy.&ldquo; <a href="#top" class="back2top">Back to top</a></p> 
-     
+               <p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/statefair2025/headshots/Bill%20Michael%20playbill.jpg" alt="Bill Michael headshot" class="headshot"/></span><a name="Bill"></a><span class="person">Bill Michael</span> (<span class="role">Tackaberry/Policeman, Producer, Webmaster</span>) was last seen with RVCO as Harry in <i>State Fair</i>. Other roles with RVCO include the Solicitor in <i>Patience</i>, George Kitteridge <i>High Society</i>, Ito in <i>Mame</i>, Beadle / Mr. Hawkins / Scrooge's Father in <i>A Christmas Carol - The Musical</i>, Slim in <i>Oklahoma!</i>, and Jacob Miller in <i>Plain and Fancy</i>, and Pierre in <i>The Red Mill</i>. He has appeared in many RVCO shows in the past 30 plus years and performed just as many roles behind the scenes. This is Bill's 8<sup>th</sup> show as producer for RVCO. A shout-out to the stage manager, my wife Kathy. <a href="#top" class="back2top">Back to top</a></p> 
+
+               <p class="bios"><span class="headshot_img"><imgg src="../pirates2024/headshots/Faith.jpg" alt="Caroline Pashos's headshot" class="headshot"/></span><a name="Caroline"></a><span class="person">Caroline Pashos</span> (<span class="role">Secretary, Wickette Girl</span>) is excited to return to the stage with RVCO after making her debut last Autumn in <i>The Gondoliers</i>. She also performs with the Delaware Valley Opera Company where she serves as Chorus Manager and Board Member. Her credits with them include <i>La rondine</i>, <i>Carmen</i>, <i>The Merry Widow</i>, <i>Dialogues of the Carmelites</i> (Sister Martha), <i>Les contes d'Hoffmann</i>, <i>Susannah</i>, <i>Cavalleria rusticana</i>, <i>I Pagliacci</i>, <i>Amahl and the Night Visitors</i>, <i>Le nozze di Figaro</i>, <i>Il matrimono segreto</i>, and <i>Dido and Aeneas</i>. Additionally, she sings in the choir of Trinity Evangelical Lutheran Church in her hometown of Lansdale, PA. She graduated in 2017 from Temple University with a BA in Theatre. Outside of theatre, she loves astronomy, aviation, nature, roller coasters, and sports. <a href="#top" class="back2top">Back to top</a></p>
+
                <p class="bios"><span class="headshot_img"><imgg src="../howTo26/headshots/Mike.jpg" alt="SMike Salmanson's headshot" class="headshot"/></span><a name="Mike"></a><span class="person">Mike Salmanson</span> (<i>Toynbee</i>) is thrilled to be in his first RVCO production!  Former theatrics include <i>The Music Man</i> (crew); <i>South Pacific</i> (SeaBee); <i>Tommy</i> (ensemble); <i>West Side Story</i> (crew); <i>The Mystery of Edwin Drood</i> (ensemble) and <i>Crazy for You</i> (ensemble).  He created, and co-wrote the book, music and lyrics for the award-winning <i>A House Divided</i>, which he directed in its world premiere at Narberth Community Theater.   Along with castmates Lisa Franks and Kate Phillips-Kaiser, he co-founded the Castaways, a small ensemble that performs at various events, including most notably the Narberth Dickens Festival.  When not performing, he is a lawyer and a member of Narberth Borough Council. <a href="#top" class="back2top">Back to top</a></p>
 
      
            <!--              <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Meg.jpg" alt="Meg Averill headshot" class="headshot" /></span><a name="Meg"></a><span class="person">Meg Averill</span> (<span class="role">Daughter</span>)returns for her second production with RVCO and is thrilled to be part of this fabulous cast. Past theater ensemble experiences include <i>Fiddler on the Roof</i> (Players Club of Swarthmore), <i>High Society</i> (RVCO), Gilbert &amp; Sullivan's <i>Ruddigore</i> (Moore Family Singers in upstate NY) and <i>The Pirates of Penzance</i> (Players Club of Swarthmore), <i>Bells Are Ringing</i> (Y in Northeast Philadelphia), and <i>West Side Story</i> (The Wilma and PCS). She enjoys contra and latin dancing, playing the piano, traveling, cooking, and especially, spending time with her sons (who are in the 5-College area of western MA), her siblings (upstate NY), and her cousins and friends in the Philadelphia area. She is grateful to her parents, brother and sister for inspiring in her a lifelong passion for music and theater, and to her sons, who carry on that passion. <a href="#top" class="back2top">Back to top</a></p>
      
                          <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Lisa C.jpg" alt="Lisa Cleek headshot" class="headshot" /></span><a name="LisaC"></a><b>Lisa Cleek</b> (<i>Daughter, Properties Chair</i>) Having started at RVCO as a sound assistant, Lisa is now a regular fixture, and is delighted to be performing in <i>The Pirates of Penzance</i> for the THIRD time! Her recent productions include <i>Rodgers &amp; Hammerstein's Cinderella</i>, <i>High Society</i>, <i>Patience</i>, and <i>H.M.S. Pinafore</i>. Lisa would like to thank the Producers, Directors, and fellow "orphans" for their cameraderie, support, hard work, dedication, and brilliance in making this show come to life! <a href="#top" class="back2top">Back to top</a></p>
-
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Faith.jpg" alt="Faith Donaher's headshot" class="headshot"/></span><a name="Faith"></a><span class="person">Faith Donaher</span> (<span class="role">Kate</span>) is delighted to be returning for her fourth show with RVCO. She first joined RVCO in 2022 to play Cousin Hebe in <i>H.M.S. Pinafore</i>. She has also performed in many G&amp;S operettas with the Bucks County Gilbert and Sullivan Society, appearing as Vittoria in <i>Gondoliers</i> and Isabel in <i>The Pirates of Penzance</i>. <a href="#top" class="back2top">Back to top</a></p>
                
                          <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Genevieve@0.2x.webp" alt="Genevieve Hahn headshot" class="headshot" /></span><a name="Genevieve"></a><span class="person">Genevieve Hahn</span> (<span class="role">Mabel</span>) is a freelance soprano and flutist from Newark, DE. A recent graduate of the University of Delaware with two Master's degrees in Flute and Vocal Performance, she participated in the American Institute of Musical Studies last summer in Graz, Austria. Recent roles have included Rose Maybud in <i>Ruddigore</i> (The Ardensingers), Dorothy in <i>The Wizard of Oz</i> (Delaware Children's Theatre), and the chorus of <i>Die Fledermaus</i> (Wilmington Concert Opera). She is also an artist-in-residence at Lower Brandywine Presbyterian Church. To learn more about Genna and her upcoming events, visit <a href="../pirates2024/www.genevievehahn.com" target="new">www.genevievehahn.com</a> and follow her on Facebook, Instagram, and YouTube. <a href="#top" class="back2top">Back to top</a></p>
      

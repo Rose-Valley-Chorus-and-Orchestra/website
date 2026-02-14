@@ -354,7 +354,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
 
-                                        <div><ul><b>Sunday February 15</b>: 2 rooms</span> - <span style="color: firebrick;">no Kate,  Mike, Chris, Ross, Lisa</span>
+                                        <div><ul><b>Sunday February 15</b>: 2 rooms</span> - <span style="color: firebrick;">no Kate, Ross, Lisa F</span>
                                                   <ul><u>CALLED</u>: All Men, Ladies Chorus, Rosemary, Hedy
                                                             <ul>Music with Florrie
                                                        <li>2:00 Full Chorus review</li>
@@ -376,7 +376,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
 
                                         <div><ul><b>Wednesday February 18</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Ross, Kate, Lisa F</span>
+                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Ross, Kate, Chris, Mike</span>
                                                                  <ul>Choreography with Caity:
                                                                       <li><i>A Secretary is Not a Toy</i> and start <i>Paris Original</i></li>
                                                                  </ul>
