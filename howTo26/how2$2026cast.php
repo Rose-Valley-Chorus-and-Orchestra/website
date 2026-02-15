@@ -138,7 +138,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <ul class="listing">
                               <li><span>Stage Director</span> <span><at href="#Kate">Chris Fitting</a></span></li>
                               <li><span>Music Director</span> <span><at href="#Florrie">Florrie Marks</a></span></li>
-                              <li><span>Choreographer</span> <span><at href="#Caity">Caity Moon</a><</li>
+                              <li><span>Choreographer</span> <span><at href="#Caity">Caity Moon</a></li>
                          </ul>
 
                     <h2 class="storyHead">Actors</h2>
@@ -250,11 +250,28 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <li><span>Costumes</span>  <span><at href="#Ellen">Ellen Kecskemethy Tillman</a></span></li>
                     <li><span>Properties</span>  <span><at href="#Grace">Grace Albert</a> (chair)</span></li>
                     <li><span>Set Designer</span>  <span><at href="#Mark">Mark Teseny</a></span></li>
+                    <li><span>Set Contruction Chair</span> <span><at href="#Chris">Dave Zaffarano</a></span></li>
+                         <!--<li><at href="#Michael">Michael Chang</a></li>-->
+                         <li><span>Set Construcion Crew</span> <span><a href="#Don">Don Cheetham</a></span></li>
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Dutka">Mike Dutka</a></span></li>
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#LisaF">Lisa Franks</a></span></li>
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Sean">Sean Hall</a></span></li>
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Bill">Bill Michael</a></span></li>
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Bob">Robert Moore</a></span></li>
+                         <!--<li><at href="#Brain">Brian Rubino</a></li>-->
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Chris">Chris Rubino</a></span></li>
+                         <!--<li><at href="#Meagan">Meagan Rubino</a></li>-->
+
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Jeff">Jeff Swafford</a></span></li>
+                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Donna">Donna Winquist</a></span></li>
                     <li><span>Playbill</span>  <span><at href="#Stacey">Stacey Martinez</a></span></li>               
-                    <li><span>House Managers</span> <span><at href="#Janet">Janet Lloyd Murchy</a> and <at href="#Janet">Ray Murphy</a></span></li>
+                    <li><span>House Managers</span> <span><at href="#Janet">Janet Lloyd Murphy</a> and <at href="#Janet">Ray Murphy</a></span></li>
                     <li><span>Webmaster</span> <span><a href="#Bill">Bill Michael</a></span></li>
                     <li><span>Rehearsal and Audition Pianist</span>  <span><at href="#Florrie">Florrie Marks</a></span></li>   
-               </ul>     
+          
+     
+     
+     </ul>     
 
 <!--                    <ul style="line-height: 160%">Stage Crew
                          <ul><at href="#Sean">Sean Hall</a></ul>
@@ -262,19 +279,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <ul><at href="#Kathy">Barb Matheson</at></ul>
                          <ul><at href="#Casey">Casey Kuhn</a></ul></ul>
                     
-                    <ul style="line-height: 160%">Set Construction - <at href="#Chris">Chris Rubino</a> (chair)
-                         <ul><at href="#Todd">Todd Andrews</a></ul>
-                         <ul><at href="#Michael">Michael Chang</a></ul>
-                         <ul><at href="#LisaF">Lisa Franks</a></ul>
-                         <ul><at href="#Sean">Sean Hall</a></ul>
-                         <ul><at href="#Bill">Bill Michael</a></ul>
-                         <ul><at href="#Bob">Robert Moore</a></ul>
-                         <ul><at href="#Brain">Brian Rubino</a></ul>
-                         <ul><at href="#Chris">Chris Rubino</a></ul>
-                         <ul><at href="#Meagan">Meagan Rubino</a></ul>
-                         <ul><at href="#Joycd">Joyce Severin</a></ul>
-                         <ul><at href="#Jeff">Jeff Swafford</a></ul>
-                         <ul><at href="#Donna">Donna Winquist</a></ul>
+                    
                          </ul>
                          <div><ul>Marketing and Communications Chair - <at href="#Donna">Donna Winquist</a></ul></div>
                         <div><ul>Make-up Designer - <a href="#Robert">Robert Moore</a></ul></div>
