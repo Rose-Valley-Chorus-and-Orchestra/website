@@ -200,7 +200,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                               <p>If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.
                               <div style="margin:0 0 0 30px; padding: 0;"><!--<img src="../images/new.png"> -->Send bios to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill" >wbmichael@comcast.net</a> by March 1<sup>st</sup>
-                                        <div style="margin:0 0 0 50px; padding: 0;">Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">6</b> out of <b style="color:darkgreen; font-size: 1.2em;">25</b></div></div></p>
+                                        <div style="margin:0 0 0 50px; padding: 0;">Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">10</b> out of <b style="color:darkgreen; font-size: 1.2em;">27</b></div></div></p>
 
                               <!-- <p>Access: <a title="Jump down to the list of cast emails" href="#emails">Cast emails</a>;  <a title="Jump down to listen or downlaod the dance music" href="#music">Dance music</a>; <a title="See setting, actors, song, director, and notes for each scene " href="../cinderella/CinderPageDetails.php">Scene Details</a>; <a title="See the set designs for Cinderella" href="../cinderella/CinderSetDesign.php">Set Design</a></p>
                     
@@ -347,36 +347,40 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul> 
                                    </ul>
                               </div>
-                      
+
+                              <div><ul><b>Sunday February 15</b>: 2 rooms</span> - <span style="color: firebrick;">no Kate, Ross, Lisa F</span>
+                                        <ul><u>CALLED</u>: All Men, Ladies Chorus, Rosemary, Hedy
+                                                  <ul>Music with Florrie
+                                             <li>2:00 Full Chorus review</li>
+                                                  <li>2:45 Ladies Chorus review</li>
+                                             </ul> 
+                                             <ul>Blocking with Chris:
+                                                  <li>2:00 Finch and Biggley review I.8 and "Grand Old Ivy"</li>
+
+                                                  <li>2:45 Male cast - Review Act I and hopefully plug in Jenkins, Toynbee, Davis, Tackaberry</li>
+                                             </ul> 
+                                        </ul>
+                                   </ul>
+                              </div>
+
+                              <div><ul><b>Monday February 16</b>
+                                   <ul>*** <span style="color: firebrick;"><b>No rehearsal - PRESIDENTS DAY</b></span> ***</ul>
+                                   </ul>
+                              </div>
+
+     
+                                   
+                                   
+                                   
                </div>
                               
 
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
 
-                                        <div><ul><b>Sunday February 15</b>: 2 rooms</span> - <span style="color: firebrick;">no Kate, Ross, Lisa F</span>
-                                                  <ul><u>CALLED</u>: All Men, Ladies Chorus, Rosemary, Hedy
-                                                            <ul>Music with Florrie
-                                                       <li>2:00 Full Chorus review</li>
-                                                            <li>2:45 Ladies Chorus review</li>
-                                                       </ul> 
-                                                       <ul>Blocking with Chris:
-                                                            <li>2:00 Finch and Biggley review I.8 and "Grand Old Ivy"</li>
-
-                                                            <li>2:45 Male cast - Review Act I and hopefully plug in Jenkins, Toynbee, Davis, Tackaberry</li>
-                                                       </ul> 
-                                                  </ul>
-                                             </ul>
-                                        </div>
-
-                                        <div><ul><b>Monday February 16</b>
-                                             <ul>*** <span style="color: firebrick;"><b>No rehearsal - PRESIDENTS DAY</b></span> ***</ul>
-                                             </ul>
-                                        </div>
-
 
                                         <div><ul><b>Wednesday February 18</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Ross, Kate, Chris, Mike</span>
+                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Ross, Kate, Chris, Mike, Jeff</span>
                                                                  <ul>Choreography with Caity:
                                                                       <li><i>A Secretary is Not a Toy</i> and start <i>Paris Original</i></li>
                                                                  </ul>
@@ -415,7 +419,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
                     
                                         <div><ul><b>Sunday March 1</b>: 2 rooms
-                                                       <ul><u>CALLED</u>:  - <span style="color: firebrick;">no Kate</span>
+                                                       <ul><u>CALLED</u>:  - <span style="color: firebrick;">no Kate, Marc, Sharon K</span>
                                                             <ul><u>Female cast</u>:
                                                                  <li>Choreography with Caity: <i>Cinderella , Darling</i></li>
                                                                  <li>Blocking with Chris: Act II.1</li></ul>
@@ -425,7 +429,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Monday March 2</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: Chorus<span style="color: firebrick;"></span>
+                                                       <ul><u>CALLED</u>: Chorus - <span style="color: firebrick;">no Sharon K</span>
                                                             <li>Review Music with Florrie:</li></ul>
                                                        <ul><u>CALLED</u> - Bud, Finch, Hedy, Biggley, Rosemary, Bratt <span style="color: firebrick;">no Kate</span>
                                                             <li>Block Act II.2-II.4</li></ul>
@@ -433,7 +437,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </div>
 
                                         <div><ul><b>Wednesday March 4</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL except Smitty and Miss Jones<span style="color: firebrick;"></span>
+                                                       <ul><u>CALLED</u>: ALL except Smitty and Miss Jones - <span style="color: firebrick;">no Sharon K</span>
                                                             <li>Choreography with Caity: <i>Pirate Dance</i></li></ul>
                                                        <ul><u>CALLED</u>: Finch, Biggley, Bud, Bratt, Rosemary. Hedy, Tackaberry, Toynbee, Davis, Jenkins, Policeman:
                                                                  <li>Blocking with Chris: Act II.5-II.7</li></ul></ul>
@@ -441,8 +445,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Sunday March 8</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL <span style="color: firebrick;"></span>
-                                                       <li><img src="../images/new.png"> Headshots for the playbill and lobby board</li>
+                                                       <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL - <span style="color: firebrick;">no Sharon K</span>
+                                                       <li><b>Headshots for the playbill and lobby board</b></li>
                                                        <li>BLOCK II.10 (Finale)</li>
                                                        <li>Run/catch-up/plug in small roles for ACT II</li></ul>
                                              </ul>
