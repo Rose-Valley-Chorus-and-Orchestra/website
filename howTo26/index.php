@@ -195,12 +195,21 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <div class="castpageLinks">
                                    <a href="set_designs.php" title="Go to the set design page"><span class="button">Set Designs</span></a> 
                                    <a href="dance.php" title="Go to the dance page"><span class="button">Dance page</span></a>
-                                   <img src="../images/new.png"> 
-                         </div>
+</div>
 
                               <p>If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.
-                              <div style="margin:0 0 0 30px; padding: 0;"><!--<img src="../images/new.png"> -->Send bios to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill" >wbmichael@comcast.net</a> by March 1<sup>st</sup>
-                                        <div style="margin:0 0 0 50px; padding: 0;">Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">10</b> out of <b style="color:darkgreen; font-size: 1.2em;">27</b></div></div></p>
+                                   <div style="margin:0 0 0 30px; padding: 0;"><b>Bios</b>:
+                                        <ul>Send to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill">wbmichael@comcast.net</a> by March 1<sup>st</sup>
+                                             <ul>Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">11</b> out of <b style="color:darkgreen; font-size: 1.2em;">28</b>
+                                             </ul>
+                                        </ul>
+                                   </div>
+                                   <div style="margin:0 0 0 30px; padding: 0;"><b>Costumes</b>: <img src="../images/new.png">
+                                        <ul><li>Fitting Signup: <a href="https://www.signupgenius.com/go/4090D4DAFAA23A0FB6-62431339-rvcos" title="Go to SignUpGenius to select a time" target="new">Costume SignUpGenius</a></li>
+                                        <li>Costuming Questionnaire: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGzfcNnsL16Ko75I8hqD7QxGPO5L-4fs3q2vcDTwpEynM3Ew/viewform?usp=dialog" title="Fill out this costume questionaire" target="new">Go to Google Form</a></li>
+                                        </ul>
+                                   </div>
+                              </p>
 
                               <!-- <p>Access: <a title="Jump down to the list of cast emails" href="#emails">Cast emails</a>;  <a title="Jump down to listen or downlaod the dance music" href="#music">Dance music</a>; <a title="See setting, actors, song, director, and notes for each scene " href="../cinderella/CinderPageDetails.php">Scene Details</a>; <a title="See the set designs for Cinderella" href="../cinderella/CinderSetDesign.php">Set Design</a></p>
                     
@@ -368,9 +377,17 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </ul>
                               </div>
 
-     
-                                   
-                                   
+                              <div><ul><b>Wednesday February 18</b>: 2 rooms
+                                             <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Ross, Kate, Chris, Mike, Jeff</span>
+                                                       <ul>Choreography with Caity:
+                                                            <li><i>A Secretary is Not a Toy</i> and start <i>Paris Original</i></li>
+                                                       </ul>
+                                                       <!--<ul>Music with Florrie:
+                                                            <li>Those not in <i>A Secretary is Not a Toy</i></li></ul>-->
+                                             </ul>
+                                   </ul>
+                              </div>
+
                                    
                </div>
                               
@@ -378,17 +395,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
 
-
-                                        <div><ul><b>Wednesday February 18</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Ross, Kate, Chris, Mike, Jeff</span>
-                                                                 <ul>Choreography with Caity:
-                                                                      <li><i>A Secretary is Not a Toy</i> and start <i>Paris Original</i></li>
-                                                                 </ul>
-                                                                 <!--<ul>Music with Florrie:
-                                                                      <li>Those not in <i>A Secretary is Not a Toy</i></li></ul>-->
-                                                       </ul>
-                                             </ul>
-                                        </div>
 
                                         <div><ul><b>Sunday February 22</b>: 2 rooms
                                                        <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Kate, Ross &amp; Lisa F leaves early</span>

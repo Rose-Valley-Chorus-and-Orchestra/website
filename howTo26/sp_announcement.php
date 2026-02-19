@@ -7,10 +7,10 @@
 
 
 
-<div  id="announcement" class="vwrap"><div class="vmove">
+<!--<div  id="announcement" class="vwrap"><div class="vmove">
      <div class="vitem responisive" style="color: #000;font-size: 1.2em;"><b>NOTE</b>: Schedule update for</div>
      <div class="vitem responisive" style="color: #000;font-size: 1.2em;">Wednesday, February 18</div> 
      <div class="vitem responisive" style="color: #000;font-size: 1.2em;">and Sunday February 22.</div> 
 
 
-</div></div>
+</div></div>-->
