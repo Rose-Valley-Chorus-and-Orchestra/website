@@ -200,13 +200,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <p>If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.
                                    <div style="margin:0 0 0 30px; padding: 0;"><b>Bios</b>:
                                         <ul>Send to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill">wbmichael@comcast.net</a> by March 1<sup>st</sup>
-                                             <ul>Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">11</b> out of <b style="color:darkgreen; font-size: 1.2em;">28</b>
+                                             <ul>Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">12</b> out of <b style="color:darkgreen; font-size: 1.2em;">28</b>
                                              </ul>
                                         </ul>
                                    </div>
                                    <div style="margin:0 0 0 30px; padding: 0;"><b>Costumes</b>: <img src="../images/new.png">
                                         <ul><li>Fitting Signup: <a href="https://www.signupgenius.com/go/4090D4DAFAA23A0FB6-62431339-rvcos" title="Go to SignUpGenius to select a time" target="new">Costume SignUpGenius</a></li>
-                                        <li>Costuming Questionnaire: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGzfcNnsL16Ko75I8hqD7QxGPO5L-4fs3q2vcDTwpEynM3Ew/viewform?usp=dialog" title="Fill out this costume questionaire" target="new">Go to Google Form</a></li>
+                                        <li>Questionnaire: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGzfcNnsL16Ko75I8hqD7QxGPO5L-4fs3q2vcDTwpEynM3Ew/viewform?usp=dialog" title="Fill out this costume questionaire" target="new">Go to Google Form</a></li>
                                         </ul>
                                    </div>
                               </p>
