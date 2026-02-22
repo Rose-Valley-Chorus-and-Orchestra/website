@@ -7,10 +7,11 @@
 
 
 
-<!--<div  id="announcement" class="vwrap"><div class="vmove">
-     <div class="vitem responisive" style="color: #000;font-size: 1.2em;"><b>NOTE</b>: Schedule update for</div>
-     <div class="vitem responisive" style="color: #000;font-size: 1.2em;">Wednesday, February 18</div> 
-     <div class="vitem responisive" style="color: #000;font-size: 1.2em;">and Sunday February 22.</div> 
+<div  id="announcement" class="vwrap"><div class="vmove">
+     <div class="vitem responisive" style="color: #000;font-size: 1.2em;"><b>UPDATE</b>: The Roosevelt Community Center</div>
+     <div class="vitem responisive" style="color: #000;font-size: 1.2em;">is closed Sunday and Monday Feb 22-23.</div> 
+     <div class="vitem responisive" style="color: #000;font-size: 1.2em;">----------</div> 
+     <div class="vitem responisive" style="color: #000;font-size: 1.2em;">Next rehearsal Wednesday, February 25.</div> 
 
 
-</div></div>-->
+</div></div>

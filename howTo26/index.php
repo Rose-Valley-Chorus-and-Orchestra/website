@@ -425,7 +425,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
                     
                                         <div><ul><b>Sunday March 1</b>: 2 rooms
-                                                       <ul><u>CALLED</u>:  - <span style="color: firebrick;">no Kate, Marc, Sharon K</span>
+                                                       <ul><u>CALLED</u>:  - <span style="color: firebrick;">no Kate, Marc, Sharon K, Ross leave early</span>
                                                             <ul><u>Female cast</u>:
                                                                  <li>Choreography with Caity: <i>Cinderella , Darling</i></li>
                                                                  <li>Blocking with Chris: Act II.1</li></ul>
