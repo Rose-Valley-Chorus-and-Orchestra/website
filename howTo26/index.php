@@ -200,7 +200,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <p>If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.
                                    <div style="margin:0 0 0 30px; padding: 0;"><b>Bios</b>:
                                         <ul>Send to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill">wbmichael@comcast.net</a> by March 1<sup>st</sup>
-                                             <ul>Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">12</b> out of <b style="color:darkgreen; font-size: 1.2em;">28</b>
+                                             <ul>Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">13</b> out of <b style="color:darkgreen; font-size: 1.2em;">29</b>
                                              </ul>
                                         </ul>
                                    </div>
@@ -388,6 +388,27 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </ul>
                               </div>
 
+                              <div><ul><b>Sunday February 22</b>: 2 rooms
+                                             <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Kate, Ross &amp; Lisa F leaves early</span>
+                                             <ul>Choreography with Caity:
+                                                  <li>2:00 - 3:00 Female cast to finish <i>Paris Original</i> and review</li></ul> 
+                                             <ul>Blocking with Chris:
+                                                  <li>3:00 CLEAN ACT I (and plug in minor characters into blocking)</li></ul>
+                                             </ul>
+                                   </ul>
+                              </div>
+
+                              <div><ul><b>Monday February 23</b>: 2 rooms - <span style="color: firebrick;">no Kate</span>
+                                             <ul><u>CALLED</u>: Finch and Heady
+                                                  <li>7:30 - Intimacy Choreography with Julie Zaffarano</li></ul>
+                                             <ul><u>CALLED</u>: Finch and Rosemary
+                                                  <li>7:45  - Intimacy Choreography with Julie Zaffarano</li></ul>
+                                             <ul><u>CALLED</u>: All
+                                                  <li>8:00 - CLEAN ACT I (plug minor characters into blocking)</li>
+                                             </ul> 
+                                   </ul>
+                              </div>     
+
                                    
                </div>
                               
@@ -395,27 +416,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
 
-
-                                        <div><ul><b>Sunday February 22</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Kate, Ross &amp; Lisa F leaves early</span>
-                                                       <ul>Choreography with Caity:
-                                                            <li>2:00 - 3:00 Female cast to finish <i>Paris Original</i> and review</li></ul> 
-                                                       <ul>Blocking with Chris:
-                                                            <li>3:00 CLEAN ACT I (and plug in minor characters into blocking)</li></ul>
-                                                       </ul>
-                                             </ul>
-                                        </div>
-
-                                        <div><ul><b>Monday February 23</b>: 2 rooms - <span style="color: firebrick;">no Kate</span>
-                                                       <ul><u>CALLED</u>: Finch and Heady
-                                                            <li>7:30 - Intimacy Choreography with Julie Zaffarano</li></ul>
-                                                       <ul><u>CALLED</u>: Finch and Rosemary
-                                                            <li>7:45  - Intimacy Choreography with Julie Zaffarano</li></ul>
-                                                       <ul><u>CALLED</u>: All
-                                                            <li>8:00 - CLEAN ACT I (plug minor characters into blocking)</li>
-                                                       </ul> 
-                                             </ul>
-                                        </div>     
 
                                         <div><ul><b>Wednesday February 25</b>: 2 rooms
                                                        <ul><u>CALLED</u>: Men - <span style="color: firebrick;">no Kate</span>
@@ -425,7 +425,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
                     
                                         <div><ul><b>Sunday March 1</b>: 2 rooms
-                                                       <ul><u>CALLED</u>:  - <span style="color: firebrick;">no Kate, Marc, Sharon K, Ross leave early</span>
+                                                       <ul><u>CALLED</u>:  - <span style="color: firebrick;">no Kate, Marc, Sharon K, Lisette, Ross leave early</span>
                                                             <ul><u>Female cast</u>:
                                                                  <li>Choreography with Caity: <i>Cinderella , Darling</i></li>
                                                                  <li>Blocking with Chris: Act II.1</li></ul>
