@@ -71,8 +71,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div id="content" style="padding-right: 10px">
   <h1 id="pageName">AUDITIONS</h1>
   <div id="auditions" class="story">
-          <p><b>Note</b>:  RVCO is a non-union, non-paying community 
-theater organization. We encourage performers of all races and 
+          <p><b>Note</b>:  RVCO is a non-union, non-paying community theater organization. We encourage performers of all races and 
 ethnicities, gender identities, sexualities, and abilities to audition.</p>
 
        <h2 id="auditionTitle"><i>The Grand Duke</i></h2>
