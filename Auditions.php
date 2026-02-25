@@ -178,7 +178,7 @@ p.m. and Sunday March 21&nbsp; at 1:30 – 4:30 p.m.</p>
                </tr>
                <tr>
                    <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Prince of Monte Carlo.pdf"><b>Prince of Monte Carlo</b></a> (Baritone)<br />Formerly down on his luck Prince and in dire financial straits. With the invention of Roulette, now rolling in money, and therefore arrives at the door of the Grand Duke to whom his daughter the Princess was engaged 20 years prior. Ready to FINALLY unite his kingdom and Rudolph's duchy.  <u>French Accent possible</u>.</p>
-                        <ul><ul><li>Music: No. 27 "Take my advice" (pp. 342-344, mm. 4-44)</li></ul></ul>
+                        <ul>Music: No. 27 "Take my advice" (pp. 342-344, mm. 4-44)</ul>
                          <ul>Dialog:
                               <ul><li> p. 335 / dialog after No. 25 "Well, my dear, here we are at last" TO "...not convincing."</li>
                                    <li>p.341 / dialog after No.26 FROM top TO "You didn't expect me?"</li>
@@ -216,7 +216,7 @@ p.m. and Sunday March 21&nbsp; at 1:30 – 4:30 p.m.</p>
                </td></tr>
                <tr>
                    <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Baroness.pdf"><b>Baroness Von Krakenfeldt</b></a> <i>fiancée of Rudolf</i> (Contralto)<br />A perfect match for the Grand Duke. As miserly as he is. Very much feels they were made for each other. She does love a good party and great champagne! Gets tipsy easily.</p>
-                        <ul><ul><li>Music: No. 21 "Come bumpers – aye, ever so many," verse 1 (pp. 303-306, m. 2-34)</li></ul></ul>
+                        <ul>Music: No. 21 "Come bumpers – aye, ever so many," verse 1 (pp. 303-306, m. 2-34)</ul>
                          <ul>Dialog:
                               <ul><li>p. 124 / dialog after No. 9a "Rudolph!  Why, what's the matter?"</li>
                                    <li>p. 279 / dialog after No. 17a "Is this court..," TO "…isn't born to it."</li>
@@ -229,8 +229,7 @@ p.m. and Sunday March 21&nbsp; at 1:30 – 4:30 p.m.</p>
                               <ul><li>No. 16 – "I have a rival" (pp. 263-268, mm. 31-62)</li>
                                    <li>No. 19 "No, no! (pp. 287-291, mm. 90-to the end)</li>
                               </ul></ul>             
-                        <ul><ul><li>Dialog: pp. 53-4 / dialog after No. 3 "Herr Dummkopf, a word with you, if you please."
-</li></ul></ul>
+                        <ul>Dialog: pp. 53-4 / dialog after No. 3 "Herr Dummkopf, a word with you, if you please."</ul>
                     </td>
 
                </tr>
