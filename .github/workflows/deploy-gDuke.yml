@@ -32,14 +32,14 @@ jobs:
           scp -i ~/.ssh/id_ed25519 \
               -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
               deploy.tar.gz \
-              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/rvco/gDuke.rvco.org/
+              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/rvco/gduke.rvco.org/
 
       - name: Extract on server
         run: |
           ssh -i ~/.ssh/id_ed25519 \
               -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
               ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
-              "cd /home/rvco/gDuke.rvco.org && \
+              "cd /home/rvco/gduke.rvco.org && \
                echo 'Extracting archive in:' && pwd && \
                ls -lh deploy.tar.gz && \
                tar -xvzf deploy.tar.gz && \
