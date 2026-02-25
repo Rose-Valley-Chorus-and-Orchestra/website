@@ -238,7 +238,7 @@ p.m. and Sunday March 21&nbsp; at 1:30 – 4:30 p.m.</p>
                    <td class="menWomen" colspan="2" ><p>Women's Roles</p></td>
                </tr>-->
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/gondoliers/audition material/Duchess.pdf" target="new"><b>Lisa</b></a> <i>a Soubrette – Ingenue</i> (Soprano or Mezzo Soprano)<br />Sweet, radiant, madly in love with and adored by Ludwig. Not much of a match for Julia.</p>
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Lisa.pdf" target="new"><b>Lisa</b></a> <i>a Soubrette – Ingenue</i> (Soprano or Mezzo Soprano)<br />Sweet, radiant, madly in love with and adored by Ludwig. Not much of a match for Julia.</p>
                         <p class="TableParagraph">Music: No. 12d "The die is cast – my hopes have perished" (pp. 213-216, mm. 474-509)</span></p>
                         <p class="TableParagraph">Dialog: p. 33 / dialog after No. 1a "And as we produce our magnificent classical revival"; read all women's lines</p>
                         <!--<p class="TableParagraph">Music: &ldquo;On the day when I was wedded&rdquo; pp. 232-235, verse 1</p>
@@ -246,7 +246,7 @@ p.m. and Sunday March 21&nbsp; at 1:30 – 4:30 p.m.</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><at href="gondoliers/audition material/Duchess.pdf" target="new"><b>Olga, Gretchen, Bertha, Elsa</b></at> (Soprano or Mezzo Soprano)<br />
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Olga Gretchen Bertha Elsa.pdf" target="new"><b>Olga, Gretchen, Bertha, Elsa</b></a> (Soprano or Mezzo Soprano)<br />
                         A bit "catty," take pot shots at Lisa prior to her wedding…out of her hearing….they don't hesitate to let their opinions be known.  Enjoy partying.</p>
                         <p class="TableParagraph">Music: No. 1, pp. 18-19, mm. 37-48 "If her dress is badly fitting" [sing the top staff in m. 48] Sing all 4 parts in this passage as if it is for one person
 </span></p>
