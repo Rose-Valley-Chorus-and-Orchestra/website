@@ -399,7 +399,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               </div>
 
                               <div><ul><b>Monday February 23</b>: 2 rooms - <span style="color: firebrick;">no Kate</span>
-                                             <ul><u>CALLED</u>: Finch and Heady
+                                             <ul><u>CALLED</u>: Finch and Hedy
                                                   <li>7:30 - Intimacy Choreography with Julie Zaffarano</li></ul>
                                              <ul><u>CALLED</u>: Finch and Rosemary
                                                   <li>7:45  - Intimacy Choreography with Julie Zaffarano</li></ul>
@@ -428,7 +428,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        <ul><u>Female cast</u>
                                                             <li>Choreography with Caity: <i>Paris Original</i> then <i>Cinderella , Darling</i></li>
                                                                  <li>Blocking with Chris: Act II.1</li></ul>
-                                                       <ul><u>Biggley, Heady</u>
+                                                       <ul><u>Biggley, Hedy</u>
                                                             <li>2:00  Music with Florrie <i>Love from a Heart of Gold</i></li></ul>
                                                        <ul><u>Bud, Finch, Bratt, Biggley, Womper</u>
                                                                  <li>Blocking with Chris: Act II.8-9A</li></ul></ul>
