@@ -569,7 +569,7 @@ body {
 .Rtimes {margin: 0px 0px 0px 40px;}
 .castlist  .storyHead {font-size: 150%; margin-top: 0px;}
 .bios  .storyHead {font-size: 150%; float: left;}
-.bios .listAlpha {float: left;padding: 20px 10px 20px;}
+.bios .listAlpha {float: left; padding: 5px 10px 20px;}
 .bios, .chorus {
 	font-weight:normal;
 	text-align: left;

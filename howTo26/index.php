@@ -200,8 +200,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <p>If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.
                                    <div style="margin:0 0 0 30px; padding: 0;"><b>Bios</b>:
                                         <ul>Send to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill">wbmichael@comcast.net</a> by March 1<sup>st</sup>
-                                             <ul>Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">14</b> out of <b style="color:darkgreen; font-size: 1.2em;">29</b>
-                                             </ul>
+                                             <!--<ul>Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">14</b> out of <b style="color:darkgreen; font-size: 1.2em;">29</b>
+                                             </ul>-->
                                         </ul>
                                    </div>
                                    <div style="margin:0 0 0 30px; padding: 0;"><b>Costumes</b>: <img src="../images/new.png">
@@ -425,32 +425,34 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
                     
                                         <div><ul><b>Sunday March 1</b>: 2 rooms  - <span style="color: firebrick;">no Kate, Marc, Sharon K, Lisette, Ross leave early</span>
-                                                       <ul><u>CALLED</u>: Female cast
-                                                            <li>Choreography with Caity: <i>Cinderella , Darling</i></li>
+                                                       <ul><u>Female cast</u>
+                                                            <li>Choreography with Caity: <i>Paris Original</i> then <i>Cinderella , Darling</i></li>
                                                                  <li>Blocking with Chris: Act II.1</li></ul>
-                                                       <ul><u>CALLED</u>:<u>Bud, Finch, Bratt, Biggley, Womper</u>:
+                                                       <ul><u>Biggley, Heady</u>
+                                                            <li>2:00  Music with Florrie <i>Love from a Heart of Gold</i></li></ul>
+                                                       <ul><u>Bud, Finch, Bratt, Biggley, Womper</u>
                                                                  <li>Blocking with Chris: Act II.8-9A</li></ul></ul>
                                              </ul>
                                         </div>
 
-                                        <div><ul><b>Monday March 2</b>: 2 rooms - <span style="color: firebrick;">no Sharon K</span>
+                                        <div><ul><b>Monday March 2</b>: 2 rooms - <span style="color: firebrick;">no Kate, Sharon K</span>
                                                        <ul><u>CALLED</u>: Chorus
                                                             <li>Review Music with Florrie:</li></ul>
-                                                       <ul><u>CALLED</u> - Bud, Finch, Hedy, Biggley, Rosemary, Bratt <span style="color: firebrick;">no Kate</span>
-                                                            <li>Block Act II.2-II.4</li></ul>
+                                                       <ul><u>CALLED</u> - ALL
+                                                            <li>8:00 RUN/WORK ACT I with Florrie playing</li></ul>
                                              </ul>
                                    </div>
 
-                                        <div><ul><b>Wednesday March 4</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL except Smitty and Miss Jones - <span style="color: firebrick;">no Sharon K</span>
+                                        <div><ul><b>Wednesday March 4</b>: 2 rooms - <span style="color: firebrick;">no Sharon K</span>
+                                                       <ul><u>CALLED</u>: ALL except Smitty and Miss Jones 
                                                             <li>Choreography with Caity: <i>Pirate Dance</i></li></ul>
                                                        <ul><u>CALLED</u>: Finch, Biggley, Bud, Bratt, Rosemary. Hedy, Tackaberry, Toynbee, Davis, Jenkins, Policeman
                                                                  <li>Blocking with Chris: Act II.5-II.7</li></ul></ul>
                                              </ul>
                                         </div>
 
-                                        <div><ul><b>Sunday March 8</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL - <span style="color: firebrick;">no Sharon K</span>
+                                        <div><ul><b>Sunday March 8</b>: 2 rooms - <span style="color: firebrick;">no Sharon K</span>
+                                                       <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL
                                                        <li><b>Headshots for the playbill and lobby board</b></li>
                                                        <li>BLOCK II.10 (Finale)</li>
                                                        <li>Run/catch-up/plug in small roles for ACT II</li></ul>
