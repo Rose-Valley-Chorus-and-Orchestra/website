@@ -97,7 +97,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     <p><b>Sign Up:</b> <a href="https://tinyurl.com/rvco-gd" target="new">https://tinyurl.com/rvco-gd</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>
 
                     <p><b>Rehearsal dates and times</b> Sundays 2:00 - 5:00 p.m. and Monday and Wednesday  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.
-                         <ul style="Margin-top:-10px;margin-left: 20px;"><li class="more_info">Lead only rehearsals Wednesday August 26 - Sunday August 30.</li>
+                         <ul style="Margin-top:-10px;margin-left: 20px;"><li class="more_info">Lead only rehearsals August Wednesday  26, Sunday 30, &amp; Monday 31.</li>
                               <li class="more_info">Full cast script read through Wednesday September 2.</li>
                               <li class="more_info">Full cast rehearsals start Wednesday September 9.</li></ul></p>
        
