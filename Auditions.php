@@ -89,35 +89,38 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
 
                     <!--<p>The first rehearsal is Sunday, ?? from 2 pm to 5 pm at <a href="https://www.google.com/maps/place/Holy+Trinity+Lutheran+Church/@39.8769582,-75.3648066,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e81375fa5483:0xdfe67210e756930!8m2!3d39.8769541!4d-75.3622317!16s%2Fg%2F1tg7szsf?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="new"><u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063. We will be reading through the show and doing some dancing. We'd love to have you join us. If you are planning on joining us, please email <a href="mailto:info@rvco.org">info@rvco.org</a> with your name and email address</p>-->
 
-                     <p><b>When:</b> Thursday March 19 at 7:00 – 10:00 
-p.m. and Saturday March 21&nbsp; at 1:30 – 4:30 p.m.</p>
+                     <p><b>When:</b> Thursday March 19 at 7:00 – 10:00 p.m. and Saturday March 21 at 1:30 – 4:30 p.m.</p>
 
                      <p><b>Where:</b>	
                          <a href="https://www.google.com/maps/dir/Middletown+Free+Library,+464+S+Old+Middletown+Rd,+Media,+PA+19063//@39.8960977,-75.4441304,13z/data=!4m8!4m7!1m5!1m1!1s0x89c6e8eef37e4d19:0xcdda32443f69ddaa!2m2!1d-75.4029311!2d39.8960391!1m0?entry=ttu&amp;g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" title="Find Roosevelt Community Center in Google Maps" target="new">Roosevelt Community Center</a>, 464 S. Old Middletown Road, Media, PA 19063</p>
 
                     <p><b>Sign Up:</b> <a href="https://tinyurl.com/rvco-gd" target="new">https://tinyurl.com/rvco-gd</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>
 
-                    <p><b>Rehearsal dates and times</b> tentatively set to start early September 2026 on Sundays 2:00 - 5:00 p.m. and Monday and Wednesday  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.</p>
-                    <p><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
-                    <ul style="margin-top: -15px;">Sitzprobe: Saturday November 7, 9:30 a.m.  - 12:30 p.m.</ul>
-                              <ul style="margin-top: -9px;">Tech: Sunday November 8, 1:00 - 10:00 p.m.</ul>
-                  <ul style="margin-top: -9px;margin-bottom: -6px;">Tech run-throughs: November 9-11 6:00 - 10:00 p.m.</ul><p></p>
+                    <p><b>Rehearsal dates and times</b> Sundays 2:00 - 5:00 p.m. and Monday and Wednesday  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.
+                         <ul style="Margin-top:-10px;margin-left: 20px;"><li class="more_info">Lead only rehearsals Wednesday August 26 - Sunday August 30.</li>
+                              <li class="more_info">Full cast script read through Wednesday September 2.</li>
+                              <li class="more_info">Full cast rehearsals start Wednesday September 9.</li></ul></p>
+       
+                    <p style="Margin-top:-20px;"><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span>
+                    <ul style="margin-top: -15px;">Sitzprobe: Saturday October 31, 9:30 a.m.  - 12:30 p.m.</ul>
+                    <ul style="margin-top: -9px;">Tech: Sunday November 1, 1:00 - 10:00 p.m.</ul>
+                    <ul style="margin-top: -9px;margin-bottom: 6px;">Tech run-throughs: November 2-4 6:00 - 10:00 p.m.</ul>
                   
-                    <p><b>Show dates:</b> November 14 - 22 <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
+                    <p><b>Show dates:</b> November 7 - 15 <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
 
                     <p><b>Performance Site:</b> <u>Strath Haven Middle School</u>, 200 South Providence Road, Wallingford, PA 19086</p>
 
                     <p><b>Audition Information</b></p><ul style="Margin-top:-10px;margin-left: 20px;">
                               <!--<li class="more_info"><u>To receive the audition material</u>, email <a href="mailto:auditions@rvco.org" title="Send your filled out PDF of the How to Succed audtion form to auditions@rvco.org" subject="Request for audition material">auditions@rvco.org</a>.&nbsp; Use "Request for audition material" as the subject. &nbsp;</li>-->
                               <li class="more_info">To audition for a role, you <i>must</i> sing and read the selections provided — readers and a pianist are provided to read with you and play for you. Due to time constraints, you may be asked to only sing or read one excerpt. You are not required to memorize the music or the dialog for the audition.</li>
-                              <li class="more_info">If time allows, you may audition for up to two roles.&nbsp;</li>
+                              <li class="more_info">If time allows, you may audition for up to two roles.</li>
                               <li class="more_info"><b>Email</b> your <a href="grandDuke2026/Audition material/RVCO Audition Form - The Grand Duke.pdf" title="Open a fillable PDF of The Grand Duke audition form" target="new">audition form</a> to <a href="mailto:auditions@rvco.org" title="Send your filled out PDF of the How to Succed audtion form to auditions@rvco.org" subject="How to Succeed... Audtition Form">auditions@rvco.org</a> <i>and</i> <b>bring</b> a copy to your audition.</li>
-                              <li> The day of your audition, if you cannot make your scheduled time or need to cancel, please call (484) 981-9108.&nbsp;</li>
+                              <li> The day of your audition, if you cannot make your scheduled time or need to cancel, please call (484) 981-9108.</li>
                     
                          <div style="margin-left: -40px; tes"><u>Additional Information</u></div>
-                              <li class="more_info">If you are cast in a minor role, you will also be part of the ensemble and perform in ensemble numbers wherever possible.&nbsp;</li>
-                              <li class="more_info">A chorus call will be sent late Summer for those who wish to join the ensemble.&nbsp;</li>
-                              <li class="more_info">Cast members are required to pay a $25 membership fee.&nbsp;</li>
+                              <li class="more_info">If you are cast in a minor role, you will also be part of the ensemble and perform in ensemble numbers wherever possible.</li>
+                              <li class="more_info">A chorus call will be sent late Summer for those who wish to join the ensemble.</li>
+                              <li class="more_info">Cast members are required to pay a $25 membership fee.</li>
                     <p></p>
      
 
