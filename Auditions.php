@@ -113,6 +113,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     <p><b>Audition Information</b></p><ul style="Margin-top:-10px;margin-left: 20px;">
                               <!--<li class="more_info"><u>To receive the audition material</u>, email <a href="mailto:auditions@rvco.org" title="Send your filled out PDF of the How to Succed audtion form to auditions@rvco.org" subject="Request for audition material">auditions@rvco.org</a>.&nbsp; Use "Request for audition material" as the subject. &nbsp;</li>-->
                               <li class="more_info">To audition for a role, you <i>must</i> sing and read the selections provided — readers and a pianist are provided to read with you and play for you. Due to time constraints, you may be asked to only sing or read one excerpt. You are not required to memorize the music or the dialog for the audition.</li>
+                              <li class="more_info">Click on the character name for the audition material.</li>
                               <li class="more_info">If time allows, you may audition for up to two roles.</li>
                               <li class="more_info"><b>Email</b> your <a href="grandDuke2026/Audition material/RVCO Audition Form - The Grand Duke.pdf" title="Open a fillable PDF of The Grand Duke audition form" target="new">audition form</a> to <a href="mailto:auditions@rvco.org" title="Send your filled out PDF of the How to Succed audtion form to auditions@rvco.org" subject="How to Succeed... Audtition Form">auditions@rvco.org</a> <i>and</i> <b>bring</b> a copy to your audition.</li>
                               <li> The day of your audition, if you cannot make your scheduled time or need to cancel, please call (484) 981-9108.</li>
@@ -143,7 +144,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                </tr>-->
 
                <tbody>               <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Rudolph.pdf" target="new"><b>Rudolph</b></a> <i>The Grand Duke of Pfennig Halbpfennig</i> (Baritone)
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Rudolph.pdf" title="Get the Grand Duke Rudolph audition material PDF" target="new"><span class="a_role">Rudolph</span></a> <i>The Grand Duke of Pfennig Halbpfennig</i> (Baritone)
                      <br />
                      Miserly. Planning his impending marriage to Baroness von Krakendfeldt, with plans for the populace to foot the bill. Learns of a plot by the Theatrical Troupe to overthrow him and feels vulnerable, so finding a way to save himself becomes paramount.</p>
                          <ul>Music: 
@@ -158,13 +159,13 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Ernest.pdf" target="new"><b>Ernest Dummkoff</b></a> <i>Theatrical Manager and Thespian</i> (Tenor)<br />Producer of the Theatrical Troupe. The "brains" behind the planned overthrow of the Grand Duke. Putting himself out there to be the next Grand Duke. Madly in love with Julia Jellicoe who does NOT return his ardor and affection.</p>
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Ernest.pdf" title="Get the Ernest Dummkoff audition material PDF" target="new"><span class="a_role">Ernest Dummkoff</span></a> <i>Theatrical Manager and Thespian</i> (Tenor)<br />Producer of the Theatrical Troupe. The "brains" behind the planned overthrow of the Grand Duke. Putting himself out there to be the next Grand Duke. Madly in love with Julia Jellicoe who does NOT return his ardor and affection.</p>
                          <p class="TableParagraph">Music: No. 3 "Were I a king in very truth," verse 1 (pp.45-47, mm. 6-43)</p>
                          <p class="TableParagraph">Dialog: p. 53 after No. 3 "Elected by my fellow conspirators" TO Julia's entrance p.54/ dialog "She's mine" TO bottom</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Ludwig.pdf" target="new"><b>Ludwig</b></a> "Head Comedian" = The Leading Man/actor; Dramatic Actor implied (Baritone)<br />Short on common sense, but comprehends complicated situations—a "Statutory Duel"—pick a card….high card wins…..loser "dies" (ceases to exist on paper and in the eyes of the law) but is in fact still very much alive. Very much in love with Lisa.  Can be manipulative.</p>
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Ludwig.pdf" title="Get the Ludwig audition material PDF" target="new"><span class="a_role">Ludwig</span></a> "Head Comedian" = The Leading Man/actor; Dramatic Actor implied (Baritone)<br />Short on common sense, but comprehends complicated situations—a "Statutory Duel"—pick a card….high card wins…..loser "dies" (ceases to exist on paper and in the eyes of the law) but is in fact still very much alive. Very much in love with Lisa.  Can be manipulative.</p>
                          <ul>Music: 
                               <ul><li>No. 1a "Pretty Lisa" (pp. 24-25, mm. 79-110)</li>
                                    <li>No. 12a "Oh, a monarch who boasts intellectual graces" (pp. 184-187, mm. 250-282)</li>
@@ -176,7 +177,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top" s="s"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Dr Tannhauser.pdf" target="new"><b>Dr. Tannhauser</b></a> <i>Notary</i> (High Baritone)<br />
+                   <td valign="top" s="s"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Dr Tannhauser.pdf" title="Get the Dr. Tannhauser audition material PDF" target="new"><span class="a_role">Dr. Tannhauser</span></a> <i>Notary</i> (High Baritone)<br />
                         A lawyer/attorney with all the answers—right or wrong—to a knotty situation. Can change on a dime.  Has a ready answer for any situation…. how to resolve any new, but related issue.  A consummate lawyer.
                    
                         <p class="TableParagraph">Music: No. 6 "About a century since," verse 1 (pp. 79-80, mm. 4-27)</p>
@@ -184,7 +185,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Prince of Monte Carlo.pdf"><b>Prince of Monte Carlo</b></a> (Baritone)<br />Formerly down on his luck Prince and in dire financial straits. With the invention of Roulette, now rolling in money, and therefore arrives at the door of the Grand Duke to whom his daughter the Princess was engaged 20 years prior. Ready to FINALLY unite his kingdom and Rudolph's duchy.  <u>French Accent possible</u>.</p>
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Prince of Monte Carlo.pdf" title="Get the Prince audition material PDF" target="new"><span class="a_role">Prince of Monte Carlo</span></a> (Baritone)<br />Formerly down on his luck Prince and in dire financial straits. With the invention of Roulette, now rolling in money, and therefore arrives at the door of the Grand Duke to whom his daughter the Princess was engaged 20 years prior. Ready to FINALLY unite his kingdom and Rudolph's duchy.  <u>French Accent possible</u>.</p>
                         <ul>Music: No. 27 "Take my advice" (pp. 342-344, mm. 4-44)</ul>
                          <ul>Dialog:
                               <ul><li> p. 335 after No. 25 "Well, my dear, here we are at last" TO "...not convincing."</li>
@@ -193,36 +194,36 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><at href="gondoliers/audition material/Francesco.pdf" target="new"><b>Viscount Mentone</b></at> Attendant to the Prince<br />
+                   <td valign="top"><p class="TableParagraph"><at href="gondoliers/audition material/Francesco.pdf" target="new"><span class="a_role">Viscount Mentone</span></at> Attendant to the Prince<br />
                         Head attendant who was collected from the back alleys of Monaco (by the Costumier) to fill out the retinue of the Prince for his visit to the Grand Duke. Part of the Prince's "Window Dressing".</p>
                         <p class="TableParagraph"><span style="padding-left: 20px;">TO BE CAST FROM OTHER AUDITIONS </span></p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><at href="gondoliers/audition material/Francesco.pdf" target="new"><b>Ben Hashbaz</b></at> <i>Costumier</i><br />Flamboyant. Very proud of his work with the Supernumeraries, but in reality of very low status. <u>Possibly Cockney</u>, which may slip out from time to time, especially when hovering over the supers.</p>
+                   <td valign="top"><p class="TableParagraph"><at href="gondoliers/audition material/Francesco.pdf" target="new"><span class="a_role">Ben Hashbaz</span></at> <i>Costumier</i><br />Flamboyant. Very proud of his work with the Supernumeraries, but in reality of very low status. <u>Possibly Cockney</u>, which may slip out from time to time, especially when hovering over the supers.</p>
                         <p class="TableParagraph"><span style="padding-left: 20px;">TO BE CAST FROM OTHER AUDITIONS </span></p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Herald.pdf" target="new"><b>Herald</b></a> <i>Charged with announcing the entrance of the Royal duo</i> (Baritone)<br />
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Herald.pdf" title="Get the Herald audition material PDF" target="new"><span class="a_role">Herald</span></a> <i>Charged with announcing the entrance of the Royal duo</i> (Baritone)<br />
                         Man of great self importance</p>
                         <p class="TableParagraph">Music: No. 23 "The Prince of Monte Carlo," pp. 313-314, mm.1-9 and p. 320, mm. 37-38 </p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><at href="gondoliers/audition material/Francesco.pdf" target="new"><b>Six Nobles</b></at> (4 Tenors / 2 Basses)</p>
+                   <td valign="top"><p class="TableParagraph"><at href="gondoliers/audition material/Francesco.pdf" target="new"><span class="a_role">Six Nobles</span></at> (4 Tenors / 2 Basses)</p>
                         <p class="TableParagraph"><span style="padding-left: 20px;">TO BE CAST FROM OTHER AUDITIONS </span></p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Princess of Monte Carlo.pdf" target="new"><b>Princess of Monte Carlo</b></a> <i>betrothed to Rudolph</i> (Soprano or Mezzo Soprano)<br />Long awaiting this journey to Pfennig Halbpfennig. Very spoiled! Very opinionated. Very manipulative. <u>French Accent possible</u>.</p>
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Princess of Monte Carlo.pdf" title="Get Princess audition material PDF" target="new"><span class="a_role">Princess of Monte Carlo</span></a> <i>betrothed to Rudolph</i> (Soprano or Mezzo Soprano)<br />Long awaiting this journey to Pfennig Halbpfennig. Very spoiled! Very opinionated. Very manipulative. <u>French Accent possible</u>.</p>
                         <p class="TableParagraph">Music: No. 25 "With a brilliant staff a Prince should make a show (pp. 325-329, mm. 19-39; sing the "original" staff)</span></p>
                         <p class="TableParagraph">Dialog: p. 335 after No. 25 "Yes, papa, and if you hadn't fortunately discovered"</p>
                         <!--<p class="TableParagraph" >Music: None. Auditioners who are new to RVCO will be asked to sing a selection of their choice.</p>
                         <p class="TableParagraph" >Reading: p. 168</p></td>-->
                </td></tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Baroness.pdf"><b>Baroness Von Krakenfeldt</b></a> <i>fiancée of Rudolph</i> (Contralto)<br />A perfect match for the Grand Duke. As miserly as he is. Very much feels they were made for each other. She does love a good party and great champagne! Gets tipsy easily.</p>
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Baroness.pdf" title="Get the Baroness Von Krakenfeldt audition material PDF" target="new"><span class="a_role">Baroness Von Krakenfeldt</span></a> <i>fiancée of Rudolph</i> (Contralto)<br />A perfect match for the Grand Duke. As miserly as he is. Very much feels they were made for each other. She does love a good party and great champagne! Gets tipsy easily.</p>
                         <ul>Music: No. 21 "Come bumpers – aye, ever so many," verse 1 (pp. 303-306, m. 2-34)</ul>
                          <ul>Dialog:
                               <ul><li>p. 124 after No. 9a "Rudolph!  Why, what's the matter?"</li>
@@ -231,7 +232,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                    </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Julia.pdf"><b>Julia Jellicoe</b></a> <i>an "English" Comedienne - The Leading Lady, Dramatic Actor implied</i> (Soprano)<br />She <b>IS</b> the Leading Lady and she <b>WILL</b> play the most important part in <b>EVERYTHING</b>. Haughty and ambitious..</p>
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Julia.pdf" title="Get the Julia Jellicoe audition material PDF" target="new"><span class="a_role">Julia Jellicoe</span></a> <i>an "English" Comedienne - The Leading Lady, Dramatic Actor implied</i> (Soprano)<br />She <b>IS</b> the Leading Lady and she <b>WILL</b> play the most important part in <b>EVERYTHING</b>. Haughty and ambitious..</p>
                          <ul>Music:
                               <ul><li>No. 16 "I have a rival" (pp. 263-268, mm. 31-62)</li>
                                    <li>No. 19 "No, no! (pp. 287-291, mm. 90-to the end)</li>
@@ -243,7 +244,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                    <td class="menWomen" colspan="2" ><p>Women's Roles</p></td>
                </tr>-->
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Lisa.pdf" target="new"><b>Lisa</b></a> <i>a Soubrette – Ingenue</i> (Soprano or Mezzo Soprano)<br />Sweet, radiant, madly in love with and adored by Ludwig. Not much of a match for Julia.</p>
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Lisa.pdf" title="Get the Lisa audition material PDF" target="new"><span class="a_role">Lisa</span></a> <i>a Soubrette – Ingenue</i> (Soprano or Mezzo Soprano)<br />Sweet, radiant, madly in love with and adored by Ludwig. Not much of a match for Julia.</p>
                         <p class="TableParagraph">Music: No. 12d "The die is cast – my hopes have perished" (pp. 213-216, mm. 474-509)</span></p>
                         <p class="TableParagraph">Dialog: p. 33 after No. 1a "And as we produce our magnificent classical revival"; read all women's lines</p>
                         <!--<p class="TableParagraph">Music: &ldquo;On the day when I was wedded&rdquo; pp. 232-235, verse 1</p>
@@ -251,7 +252,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Olga Gretchen Bertha Elsa.pdf" target="new"><b>Olga, Gretchen, Bertha, Elsa</b></a> (Soprano or Mezzo Soprano)<br />
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Olga Gretchen Bertha Elsa.pdf" title="Get the Olga, Gretchen, Bertha, Elsa audition material PDF" target="new"><span class="a_role">Olga, Gretchen, Bertha, Elsa</span></a> (Soprano or Mezzo Soprano)<br />
                         A bit "catty," take pot shots at Lisa prior to her wedding…out of her hearing….they don't hesitate to let their opinions be known.  Enjoy partying.</p>
                         <p class="TableParagraph">Music: No. 1, pp. 18-19, mm. 37-48 "If her dress is badly fitting" [sing the top staff in m. 48] Sing all 4 parts in this passage as if it is for one person
 </span></p>
