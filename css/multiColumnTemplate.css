@@ -688,7 +688,7 @@ th .description {font-weight: normal}
 
 #announcement {padding: 10px 30px; width:80%; text-align: center;border: 2px solid #A30029; border-radius: 8px; margin: 10px auto; background-color: #FFEAF0;}
 
-.a_role {font-size: 1.2em;font-weight: bold;padding-left:3px;}
+.a_role {font-size: 1.2em;font-weight: bold;padding-right:3px;}
 
 /* (A) UNIFORM ROW HEIGHT */
 /* make sure enough height space */

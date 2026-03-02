@@ -165,7 +165,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Ludwig.pdf" title="Get the Ludwig audition material PDF" target="new"><span class="a_role">Ludwig</span></a> "Head Comedian" = The Leading Man/actor; Dramatic Actor implied (Baritone)<br />Short on common sense, but comprehends complicated situations—a "Statutory Duel"—pick a card….high card wins…..loser "dies" (ceases to exist on paper and in the eyes of the law) but is in fact still very much alive. Very much in love with Lisa.  Can be manipulative.</p>
+                   <td valign="top"><p class="TableParagraph"><a href="grandDuke2026/Audition material/Ludwig.pdf" title="Get the Ludwig audition material PDF" target="new"><span class="a_role">Ludwig</span></a> "Head Comedian" The Leading Man/actor; Dramatic Actor implied (Baritone)<br />Short on common sense, but comprehends complicated situations—a "Statutory Duel"—pick a card….high card wins…..loser "dies" (ceases to exist on paper and in the eyes of the law) but is in fact still very much alive. Very much in love with Lisa.  Can be manipulative.</p>
                          <ul>Music: 
                               <ul><li>No. 1a "Pretty Lisa" (pp. 24-25, mm. 79-110)</li>
                                    <li>No. 12a "Oh, a monarch who boasts intellectual graces" (pp. 184-187, mm. 250-282)</li>
