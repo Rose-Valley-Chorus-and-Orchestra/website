@@ -420,6 +420,18 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        <li>Music with Florrie: <i>Paris Original</i> and <i>Cinderella, Darling</i></li></ul> 
                                              </ul>
                                         </div>
+
+                              <div><ul><b>Sunday March 1</b>: 2 rooms  - <span style="color: firebrick;">no Kate, Marc, Sharon K, Lisette, Ross leave early</span>
+                                             <ul><u>Female cast</u>
+                                                  <li>Choreography with Caity: <i>Paris Original</i> then <i>Cinderella , Darling</i></li>
+                                                       <li>Blocking with Chris: Act II.1</li></ul>
+                                             <ul><u>Biggley, Hedy</u>
+                                                  <li>2:00  Music with Florrie <i>Love from a Heart of Gold</i></li></ul>
+                                             <ul><u>Bud, Finch, Bratt, Biggley, Womper</u>
+                                                       <li>Blocking with Chris: Act II.8-9A</li></ul></ul>
+                                   </ul>
+                              </div>
+
                     
 
                                    
@@ -428,17 +440,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
-
-                                        <div><ul><b>Sunday March 1</b>: 2 rooms  - <span style="color: firebrick;">no Kate, Marc, Sharon K, Lisette, Ross leave early</span>
-                                                       <ul><u>Female cast</u>
-                                                            <li>Choreography with Caity: <i>Paris Original</i> then <i>Cinderella , Darling</i></li>
-                                                                 <li>Blocking with Chris: Act II.1</li></ul>
-                                                       <ul><u>Biggley, Hedy</u>
-                                                            <li>2:00  Music with Florrie <i>Love from a Heart of Gold</i></li></ul>
-                                                       <ul><u>Bud, Finch, Bratt, Biggley, Womper</u>
-                                                                 <li>Blocking with Chris: Act II.8-9A</li></ul></ul>
-                                             </ul>
-                                        </div>
 
                                         <div><ul><b>Monday March 2</b>: 2 rooms - <span style="color: firebrick;">no Kate, Sharon K</span>
                                                        <ul><u>CALLED</u>: Chorus
