@@ -211,11 +211,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </div>
                                    <div style="margin:0 0 0 30px; padding: 0;"><b>State Stret Pub</b>: <img src="../images/new.png">
                                         <ul><li>Please join your fellow cast members following Sunday rehearsals in March at the State Street Pub in Media.</li>
-                                        <li>37 E. State Street, Media <a href="https://www.statestreetpubmedia.com">https://www.statestreetpubmedia.com</a></li>
+                                        <li>37 E. State Street, Media <a href="https://www.statestreetpubmedia.com" title="Go to the State Steet Pub website" target="new">https://www.statestreetpubmedia.com</a></li>
+                                        </ul>
+                                   </div>
+                                   <div style="margin:0 0 0 30px; padding: 0;"><b>Order a Show T-shirt</b>: <img src="../images/new.png"> <a href="https://shepscustomdesigns.com/product-category/rvco/" title="Go to the How to Succeed t-shirt order form" target="new">https://shepscustomdesigns.com/product-category/rvco/</a>
                                         </ul>
                                    </div>
                               </p>
-
                               <!-- <p>Access: <a title="Jump down to the list of cast emails" href="#emails">Cast emails</a>;  <a title="Jump down to listen or downlaod the dance music" href="#music">Dance music</a>; <a title="See setting, actors, song, director, and notes for each scene " href="../cinderella/CinderPageDetails.php">Scene Details</a>; <a title="See the set designs for Cinderella" href="../cinderella/CinderSetDesign.php">Set Design</a></p>
                     
                               <p>Print out the PDF of the <a href="../cinderella/show_fliers/SponsorandAdForm-Cinderella.pdf" title="Open the sponsorhsip form in a new tab to print" target="new">Sponsorship form</a> or <a href="../cinderella/show_fliers/Cinderella show flier.pdf" title="Open the flier in a new tab" target="new">Cinderella show flier</a>.</p>
@@ -432,7 +434,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </ul>
                               </div>
 
-                    
+                              <div><ul><b>Monday March 2</b>: 2 rooms - <span style="color: firebrick;">no Kate, Sharon K</span>
+                                             <ul><u>CALLED</u>: Chorus
+                                                  <li>Review Music with Florrie:</li></ul>
+                                             <ul><u>CALLED</u> - ALL
+                                                  <li>8:00 RUN/WORK ACT I with Florrie playing</li></ul>
+                                   </ul>
+                         </div>
 
                                    
                </div>
@@ -440,14 +448,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
-
-                                        <div><ul><b>Monday March 2</b>: 2 rooms - <span style="color: firebrick;">no Kate, Sharon K</span>
-                                                       <ul><u>CALLED</u>: Chorus
-                                                            <li>Review Music with Florrie:</li></ul>
-                                                       <ul><u>CALLED</u> - ALL
-                                                            <li>8:00 RUN/WORK ACT I with Florrie playing</li></ul>
-                                             </ul>
-                                   </div>
 
                                         <div><ul><b>Wednesday March 4</b>: 2 rooms - <span style="color: firebrick;">no Sharon K</span>
                                                        <ul><u>CALLED</u>: ALL except Smitty and Miss Jones 
