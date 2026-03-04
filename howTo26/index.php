@@ -450,18 +450,25 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <span id="currentDate"></span>
 
                                         <div><ul><b>Wednesday March 4</b>: 2 rooms - <span style="color: firebrick;">no Sharon K</span>
-                                                       <ul><u>CALLED</u>: ALL except Smitty and Miss Jones 
+                                                  <ul><u>CALLED</u>: ALL
+                                                       <li>7:30-8:15 fix opening number with ALL STAFF PRESENT</li>
+                                                       <li>8:15-9:15: fix <i>A Secretary Is Not a Toy</i> With Caity</li>
+                                                       <li>8:15-10 Chris blocking scenes II.4-II.7 with Finch, Bratt, Biggley, Bud, Bob Moore, and Hedy</li>
+                                                       <li>9:15-10 Female ensemble run numbers per Caity's discretion</li>
+                                                       <li>9:15-10 Male ensemble (maybe Rosemary) join Chris</li>
+                                                       <!--<ul><u>CALLED</u>: ALL except Smitty and Miss Jones 
                                                             <li>Choreography with Caity: <i>Pirate Dance</i></li></ul>
                                                        <ul><u>CALLED</u>: Finch, Biggley, Bud, Bratt, Rosemary. Hedy, Tackaberry, Toynbee, Davis, Jenkins, Policeman
-                                                                 <li>Blocking with Chris: Act II.5-II.7</li></ul></ul>
+                                                                 <li>Blocking with Chris: Act II.5-II.7</li></ul>-->
                                              </ul>
                                         </div>
 
                                         <div><ul><b>Sunday March 8</b>: 2 rooms - <span style="color: firebrick;">no Sharon K</span>
                                                        <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL
                                                        <li><b>Headshots for the playbill and lobby board</b></li>
-                                                       <li>BLOCK II.10 (Finale)</li>
-                                                       <li>Run/catch-up/plug in small roles for ACT II</li></ul>
+                                                       <li>2:00 ALL except Leads and Tackaberry - Choreography with Caity: <i>Pirate Dance</i></li></li>
+                                                       <li>3:15 ALL: with Chris Act II.10. With whatever time is left, plugging people in for miscellaneous Act 2 stuff.</li>
+                                                       </ul>
                                              </ul>
                                         </div>
 
