@@ -5,6 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>How to Succeed Set Design Page - RVCO</title>
+     
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+     
 <link rel="shortcut icon" href="https://www.rvco.org/images/rvco.ico" />
 <link href="https://www.rvco.org/css/bootstrap.css" rel="stylesheet" type="text/css">	
 <link href="https://www.rvco.org/css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
@@ -181,24 +185,35 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
           <!-- Begin content masthead -->
           <div id="content">
-               <div id="castPage">
-                    <h1 id="pageName"><i>How to Succeed in Business Without Really Trying</i> Cast Page</h1> 
+               <?php include("sp_announcement.php"); ?>
+                                   
+                    <div class="castpageLinks">
+                         <a title="Return to the cast page" href="index.php"><span class="button" style="float:left;">Cast page</span></a>
+                         <a href="set_designs.php" title="Go to the set design page"><span class="button" style="float:left;margin-left: 20px;">Set Designs</span></a>                               
+
+                         <div class="dropdown" style="float:left;">
+                         <button type="button" class="btn btn-primary dropdown-toggle button" data-bs-toggle="dropdown">Choreography
+                             </button>
+                             <ul class="dropdown-menu">
+                               <li><a class="dropdown-item" href="#" style="margin-left: -40px;">Coffee Break</a></li>
+                               <li><a class="dropdown-item" href="dance/CompanyWay.php" style="margin-left: -40px;">The Company Way</a></li>
+                               <li><a class="dropdown-item" href="dance/SecretaryToy.php" style="margin-left: -40px;">A Secretary Is Not a Toy</a></li>
+                             </ul> 
+                         </div>
+                    </div>
+
+               <div id="castPage" style="clear: both;">                    
+                    <h1 id="pageName" style="clear: both;"><i>Set Designs</h1> 
 
                     
-<?php include("sp_announcement.php"); ?>
+
 <!-- <div class="notification">The <b>costume fitting</b> will take place Saturday, March 16 at our Firehouse located at <a href="https://www.google.com/maps/place/184+Bortondale+Rd,+Media,+PA+19063/@39.9017988,-75.3992073,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e8fb077ef113:0xc1aaad1af713cf34!8m2!3d39.9017988!4d-75.3966324!16s%2Fg%2F11c3q3ffv8?entry=ttu" title="Go to Google Maps" target="new" titler="Go to Google Maps">184 Bortondale Road, Media</a>
                                    <ul class="notificationTime"><li><b>Men</b>: 10:00 am - 11:00 am</li>
                                          <li><b>Women</b>: 11:00 am - 12:00 pm</li></ul>
                                          <div>Please let <a href="mailto:lauraryandesigns@gmail.com?subject=March 16 costume fitting" title="Send an email to our costumer Laura" >Laura</a> know if are not able to be there or can't make your allotted time.</div></div>
                               <p><b>Dowload pictures from dress rehearsal:</b> <a href="http://www.rvco.org/cinderella/pictures.php">http://www.rvco.org/cinderella/pictures.php</a></p> -->   
                     
-                         <div class="castpageLinks">
-                              <a title="Return to the cast page" href="index.php"><span class="button">Cast page</span></a>
-                              <a href="dance.php" title="Go to the dance page"><span class="button">Dance page</span></a>
-                         </div>
-
-                    
-<div class="feature" style="clear: both;">
+                    <div class="feature" style="clear: both;">
                       <!--  <p class="headlines"></p>  -->
                                    <!--<h2>View or Download</h2>
                                         <ul class="downLinks" style="padding-left: 55px;">
@@ -211,7 +226,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <p><a href="../gondoliers/pirates platforms.php" target="_top" title="View the set platfrm layuot">Set platform layout</a></p>-->
 
                          <div class="schedule">
-<h2>Set Designs</h2>
                               <div style="margin: 0 0 0 30px; max-width: 800px;"><b>Jump to:</b> click on the image to open in a new tab
                                    <div style="margin-left: 25px;"><b>Act I</b>
                                         <div><a href="#A1S2" style="margin: 0 25px 0 0px; line-height: 200%;">Scene&nbsp;2/3</a>

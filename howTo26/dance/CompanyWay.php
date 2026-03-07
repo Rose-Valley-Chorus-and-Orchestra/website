@@ -4,7 +4,11 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How to Succeed Dance Page - RVCO</title>
+<title>The Company Way Choreography - RVCO</title>
+     
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+          
 <link rel="shortcut icon" href="https://www.rvco.org/images/rvco.ico" />
 <link href="https://www.rvco.org/css/bootstrap.css" rel="stylesheet" type="text/css">	
 <link href="https://www.rvco.org/css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
@@ -14,6 +18,7 @@
 <link href="https://www.rvco.org/css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
 </head>
 <script src="//use.edgefonts.net/calligraffitti;chewy;handlee;indie-flower.js"></script> 	
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>     
 <style type="text/css">
 .schedule td {
      border: 1px solid;
@@ -176,7 +181,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div class="container">
   <header>
     <div class="primary_header">
-		 <?php include("../header2_new.php"); ?>
+		 <?php include("../../header2_new.php"); ?>
     </div>
     <nav>
          <div class="secondary_header" id="menu">
@@ -198,175 +203,35 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
           <!-- Begin content masthead -->
           <div id="content">
-               <div id="castPage">
-                    <h1 id="pageName"><i>How to Succeed &hellip;</i> Dance Page</h1> 
-
-                    
-<?php include("sp_announcement.php"); ?>
-<!-- <div class="notification">The <b>costume fitting</b> will take place Saturday, March 16 at our Firehouse located at <a href="https://www.google.com/maps/place/184+Bortondale+Rd,+Media,+PA+19063/@39.9017988,-75.3992073,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e8fb077ef113:0xc1aaad1af713cf34!8m2!3d39.9017988!4d-75.3966324!16s%2Fg%2F11c3q3ffv8?entry=ttu" title="Go to Google Maps" target="new" titler="Go to Google Maps">184 Bortondale Road, Media</a>
-                                   <ul class="notificationTime"><li><b>Men</b>: 10:00 am - 11:00 am</li>
-                                         <li><b>Women</b>: 11:00 am - 12:00 pm</li></ul>
-                                         <div>Please let <a href="mailto:lauraryandesigns@gmail.com?subject=March 16 costume fitting" title="Send an email to our costumer Laura" >Laura</a> know if are not able to be there or can't make your allotted time.</div></div>
-                              <p><b>Dowload pictures from dress rehearsal:</b> <a href="http://www.rvco.org/cinderella/pictures.php">http://www.rvco.org/cinderella/pictures.php</a></p> -->   
+               
+               <?php include("../sp_announcement.php"); ?>
+               
                     
                          <div class="castpageLinks">
-                              <a title="Return to the cast page" href="index.php"><span class="button">Cast page</span></a> <a href="set_designs.php" title="Go to the set design page"><span class="button">Set Designs</span></a>
+                              <a title="Return to the cast page" href="../index.php"><span class="button" style="float:left;">Cast page</span></a> 
+                              <a href="../set_designs.php" title="Go to the set design page"><span class="button" style="float:left;margin-left: 20px;">Set Designs</span></a> 
+
+                              <div class="dropdown" style="float:left;">
+                              <button type="button" class="btn btn-primary dropdown-toggle button" data-bs-toggle="dropdown">Choreography
+                                  </button>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="CoffeBreak.php" title="Go to the Coffee Break choreography page" class="dropdown-item" style="margin-left: -10px;">Coffee Break</a></li>
+                                    <li><a class="dropdown-item" title="Go to the A Secretary Is Not a Toy choreography page" href="SecretaryToy.php" style="margin-left: -10px;">A Secretary Is Not a Toy</a></li>
+                                  </ul> 
+                              </div>
                               
                          </div>
 
-                    
-<div class="feature" style="clear: both;">
-                      <!--  <p class="headlines"></p>  -->
-                                   <!--<h2>View or Download</h2>
-                                        <ul class="downLinks" style="padding-left: 55px;">
-                                             <li><a href="/gondoliers/flyer/Gondoliers show flyer_NP.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show flier">Show flyer</a></li>
-                                             <li><a href="/gondoliers/sponsor and ad/SponsorandAdForm-Gondoliers.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the sponsor and ad form">Sponsor and Ad form</a></li>
-                                             <li><a href="/gondoliers/poster/Gondoliers poster.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show poster">Show poster</a></li>
-                                             <li><a href="/gondoliers/Gondoliers 2025 Rehearsal Schedule Final.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the rehearsal schedule">Rehearsal Schedule (original)</a></li>
-                                          </ul>
+               <div id="castPage" style="clear: both;">
+                    <h1 id="pageName"><i>The Company Way</i> Choreography</h1> 
 
-                                        <p><a href="../gondoliers/pirates platforms.php" target="_top" title="View the set platfrm layuot">Set platform layout</a></p>-->
-
-                         <div style="margin-left: 40px;">
-                              <h2>Choreography Notes</h2>
-                              
-                    
-                                   <div style="margin: 0 0 0 30px; max-width: 800px;"><b>Jazz Square</b> - standing on your toes with the knees bent
-                                        <ul><li>Step forward with your right foot and cross the right foot over the left. Your weight should be on your right foot.</li>
-                                        <li>Step back with the left foot. Your weight should be on your left foot and lift your right foot.</li>
-                                        <li>Step to the side with your right foot.</li>
-                                        <li>If doing a second jazz square the weight needs to be shifted back to the left foot.</li></ul>
-                                   </div>
-
-                                   <div style="margin: 0 0 0 30px; max-width: 800px;"><b>Jump to:</b>
-                                             <div><!--<a href="#CoffeBreak" style="margin: 0 25px 0 0px; line-height: 200%;">Coffee Break</a>-->
-                                                       <a href="#CompanyWay" style="margin: 0 25px 0 0; line-height: 200%;">The Company Way</a>
-                                             </div>
-                                   </div>
-                              
-                              
-                              
-                              
-                              <div id="CoffeeBreak">
-                                   <hr />
-                                   <h3>Coffee Break</h3>
-                                   <div><a href="dance/Coffee Break Dance Steps.pdf" target="_blank">Download PDF</a></div>
-                                   <div>Rush from opening position to line up for coffee on MAN: Coffee break! </div>
-                                   <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MISS KRUMHOLTZ: It's about time!<br />
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BUD: There's no coffee.<br />
-                                        <b>Speak</b>: <u>No coffee? No coffee?</u> (<i>React in consternation</i>)<br />
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SMITTY: No coffee.<br />
-                                   </div>
-                                   <div>Go up stage left on "BUD: No coffee." LONG FRAZZLED CHORD</div>
-                                   <div>At <b style="font-size: 1.2em;">A</b>: randomly move shoulders up and down while Bud sings.</div>
-                                   <div><u><b>Sing</b></u>: "Lies down And something within me dies!" (<i>arms out and down</i>)</div>
-                                   <div>At <b style="font-size: 1.2em;">B</b>: randomly twitch while Smitty sings.</div>
-                                   <div>While <u><b>Singing</b></u> "Lies down And something within me dies!"
-                                        <ul><li>move down stage right in 6 steps</li></ul></div>
-                                   <div><b>Speak</b>: "No coffee &lt;rest rest&gt; no coffee, no coffee, no coffee, no coffee
-                                   No coffee, no coffee, no coffee" 
-                                   <ul><li>find/move to your dance partner: by the final 'no coffee' partners should be facing each other with the man stage left</li></ul></div>
-                                   <div>Starting at <b style="font-size: 1.2em;">D</b> while Smitty's sings:
-                                             <ul>
-                                                  <li>"That office light &hellip;"
-                                                       <ul>Tango step – first step on downbeat at "light" and close on the -ent of fluorescent.</ul>
-                                                       <ul>
-                                                            <li>Men: forward Right Left Right step Left close with Right</li>
-                                                            <li>Women: back Left Right Left step Right close with Left </li>
-                                                       </ul>
-                                                  </li>
-                                             </ul>
-
-                                             <ul>
-                                                  <li>"I'll get no pains in the head" 
-                                                       <ul>
-                                                            <li>face front by men turning left, women turning left</li>
-                                                            <li>Hands to head</li>
-                                                            <li>Pop head (ear to shoulder) on the "dum-dum" after "head" Women, also pop the hip.</li>
-                                                       </ul>
-                                                  </li>
-                                             </ul>
-
-                                             <ul>
-                                                  <li>"That office chair doesn't have to be foam rubber"
-                                                       <ul>
-                                                            <li>Women spin left in to face partner</li>
-                                                       </ul>
-                                                  </li>
-                                             </ul>
                                         
-                                             <ul>
-                                                  <li>"So if I spread, so I spread"
-                                                       <ul>
-                                                            <li>Women spin out right to face downstage</li>
-                                                       </ul>
-                                                  </li>
-                                             </ul>
+                    <div class="feature" style="clear: both;">
 
-                                             <ul>
-                                                  <li>"But only one chemical substance" 
-                                                       <ul>
-                                                            <li>Women spin back in face parter lean back cicling left to right</li>
-                                                       </ul>
-                                                  </li>
-                                             </ul>
-                                        
-                                             <ul>
-                                                  <li>"Gets out the lead" 
-                                                       <ul>
-                                                            <li>Women spin out to the left</li>
-                                                       </ul>
-                                                  </li>
-                                             </ul>
-                                   </div>
-                                   <div>While <u><b>Singing</b></u>: 
-                                        <ul>"Like she said"
-                                             <ul><li>Point to Smitty with right hand</li>
-                                                  <li>then immediately after singing, shake imaginary empty coffee cup with left hand</li></ul>
-                                        </ul>
-                                        <ul>"If I can't take"
-                                             <ul><li>2 Sidesteps to the left</li></ul>
-                                        </ul>
-                                        <ul>"my coffee break"
-                                             <ul><li>2 Sidesteps to the right</li></ul>
-                                        </ul>
-                                        <ul>"my coffee break"
-                                             <ul><li>2 Steps forward</li></ul>
-                                        </ul>
-                                        <ul>"my coffee break"
-                                             <ul><li>2 Steps backward</li></ul>
-                                        </ul>
-                                        <ul>"If I can't take my coffee break"
-                                             <ul><li>bounce bending the knees</li></ul>
-                                        </ul>
-                                   </div>
-
-                                   <div>While <b>Saying</b> "No coffee, no coffee, no coffee, no coffee, no coffee, no coffee, no coffee, no coffee,
-                                             no coffee, no coffee" REST REST SCREAM
-                                        <ul><li>4 jazz squares: men start hands up, women start hands down</li>
-                                             <li>the right foot should always land on the word 'coffee'</li>
-                                             <li>step pivot to face each other in your group of four before the scream</li>
-                                        </ul>
-                                   </div>
-                                   <div>While <u><b>Singing</b></u> "If I can't take my coffee break": 
-                                             <ul><li>Consternation over empty cups in the groups of 4</li></ul>
-                                   </div>
-                                   
-                                   <div>While <u><b>Singing</b></u> "Coffee, coffee, coffee, coffee,: 
-                                             <ul><li>Frantically wave arms</li></ul>
-                                   </div>
-                                  
-                                   <div>While <u><b>Singing</b></u> "Coffee or otherwise, coffee or otherwise Something inside of me dies: 
-                                             <ul><li>Face front</li>
-                                                  <li>In you are able, collapses to the floor on 'dies'</li></ul>
-                                   </div>
-                              </div>
-                              
+                         <div style="margin-left: 0px;padding-top: 10px;">
                               
                               <div id="CompanyWay">
-                                   <hr />
-                                   <h3>The Company Way</h3>
-                                   <div><a href="dance/The Company Way choreography.pdf" target="_blank">Download a PDF version</a></div>
+                                   <div><a href="The Company Way choreography.pdf" target="_blank">Download a PDF version</a></div>
                                    <div>Two groups upstage.
                                         <ul><li>Group 1 - Stage left in 2 lines: Jen, Sharon K, Caroline, Lisa C, Lisette, Bob, Bill</li>
                                         <li>Group 2 - Stage right 2 lines: Lisa F, Sharon WC, Laura, Mike, Marc, Steve, Chip</li></ul>
@@ -479,7 +344,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div>
 <footer class="secondary_header, footer">
     <div class="copyright">
- <?php include("../footer2.php"); ?></div>
+ <?php include("../../footer2.php"); ?></div>
   </footer>
 </div>
 </body>

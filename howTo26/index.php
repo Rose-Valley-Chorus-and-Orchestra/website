@@ -5,6 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>How to Succeed Cast Page - RVCO</title>
+     
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+     
 <link rel="shortcut icon" href="https://www.rvco.org/images/rvco.ico" />
 <link href="https://www.rvco.org/css/bootstrap.css" rel="stylesheet" type="text/css">	
 <link href="https://www.rvco.org/css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
@@ -181,23 +185,37 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
           <!-- Begin content masthead -->
           <div id="content">
-               <div id="castPage">
+               <?php include("sp_announcement.php"); ?>
+               
+               <div class="castpageLinks">
+
+                    <a href="set_designs.php" title="Go to the set design page"><span class="button" style="float:left;">Set Designs</span></a>                               
+
+                    <div class="dropdown" style="float:left;">
+                    <button type="button" class="btn btn-primary dropdown-toggle button" data-bs-toggle="dropdown">Choreography
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#" style="margin-left: -40px;">Coffee Break</a></li>
+                          <li><a class="dropdown-item" href="dance/CompanyWay.php" style="margin-left: -40px;">The Company Way</a></li>
+                          <li><a class="dropdown-item" href="dance/SecretaryToy.php" style="margin-left: -40px;">A Secretary Is Not a Toy</a></li>
+                        </ul> 
+                    </div>
+
+               </div>
+               
+               <div id="castPage" style="clear: both;">
                     <h1 id="pageName"><i>How to Succeed in Business Without Really Trying</i> Cast Page</h1> 
 
                     
-<?php include("sp_announcement.php"); ?>
+
 <!-- <div class="notification">The <b>costume fitting</b> will take place Saturday, March 16 at our Firehouse located at <a href="https://www.google.com/maps/place/184+Bortondale+Rd,+Media,+PA+19063/@39.9017988,-75.3992073,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e8fb077ef113:0xc1aaad1af713cf34!8m2!3d39.9017988!4d-75.3966324!16s%2Fg%2F11c3q3ffv8?entry=ttu" title="Go to Google Maps" target="new" titler="Go to Google Maps">184 Bortondale Road, Media</a>
                                    <ul class="notificationTime"><li><b>Men</b>: 10:00 am - 11:00 am</li>
                                          <li><b>Women</b>: 11:00 am - 12:00 pm</li></ul>
                                          <div>Please let <a href="mailto:lauraryandesigns@gmail.com?subject=March 16 costume fitting" title="Send an email to our costumer Laura" >Laura</a> know if are not able to be there or can't make your allotted time.</div></div>
                               <p><b>Dowload pictures from dress rehearsal:</b> <a href="http://www.rvco.org/cinderella/pictures.php">http://www.rvco.org/cinderella/pictures.php</a></p> -->   
                     
-                         <div class="castpageLinks">
-                                   <a href="set_designs.php" title="Go to the set design page"><span class="button">Set Designs</span></a> 
-                                   <a href="dance.php" title="Go to the dance page"><span class="button">Dance page</span></a>
-</div>
 
-                              <p>If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.
+                              <p style="clear: both; padding-top: 15px;">If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.
                                    <div style="margin:0 0 0 30px; padding: 0;"><b>Bios</b>:
                                         <ul>Send to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill">wbmichael@comcast.net</a> by March 1<sup>st</sup>
                                              <!--<ul>Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">14</b> out of <b style="color:darkgreen; font-size: 1.2em;">29</b>
@@ -237,7 +255,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                                         <p><a href="../gondoliers/pirates platforms.php" target="_top" title="View the set platfrm layuot">Set platform layout</a></p>-->
 
-                    <div class="schedule">
+               <div class="schedule">
                     <h2>Schedule</h2>
                               <div  class="Rtimes"><a href="schedule/H2$ Schedule for Cast revised-Final4.pdf" title="Download the updated schedule February 3" target="new"><span class="button" href="">Download</span></a> a PDF version of the schedule to print.</div>
                               <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
@@ -442,6 +460,21 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </ul>
                          </div>
 
+                         <div><ul><b>Wednesday March 4</b>: 2 rooms - <span style="color: firebrick;">no Sharon K</span>
+                                   <ul><u>CALLED</u>: ALL
+                                        <li>7:30-8:15 fix opening number with ALL STAFF PRESENT</li>
+                                        <li>8:15-9:15 fix <i>A Secretary Is Not a Toy</i> With Caity</li>
+                                        <li>8:15-10 Chris blocking scenes II.4-II.7 with Finch, Bratt, Biggley, Bud, Bob Moore, and Hedy</li>
+                                        <li>9:15-10 Female ensemble run numbers per Caity's discretion</li>
+                                        <li>9:15-10 Male ensemble (maybe Rosemary) join Chris</li>
+                                        <!--<ul><u>CALLED</u>: ALL except Smitty and Miss Jones 
+                                             <li>Choreography with Caity: <i>Pirate Dance</i></li></ul>
+                                        <ul><u>CALLED</u>: Finch, Biggley, Bud, Bratt, Rosemary. Hedy, Tackaberry, Toynbee, Davis, Jenkins, Policeman
+                                                  <li>Blocking with Chris: Act II.5-II.7</li></ul>-->
+                              </ul>
+                         </div>
+
+
                                    
                </div>
                               
@@ -449,21 +482,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
 
-                                        <div><ul><b>Wednesday March 4</b>: 2 rooms - <span style="color: firebrick;">no Sharon K</span>
-                                                  <ul><u>CALLED</u>: ALL
-                                                       <li>7:30-8:15 fix opening number with ALL STAFF PRESENT</li>
-                                                       <li>8:15-9:15: fix <i>A Secretary Is Not a Toy</i> With Caity</li>
-                                                       <li>8:15-10 Chris blocking scenes II.4-II.7 with Finch, Bratt, Biggley, Bud, Bob Moore, and Hedy</li>
-                                                       <li>9:15-10 Female ensemble run numbers per Caity's discretion</li>
-                                                       <li>9:15-10 Male ensemble (maybe Rosemary) join Chris</li>
-                                                       <!--<ul><u>CALLED</u>: ALL except Smitty and Miss Jones 
-                                                            <li>Choreography with Caity: <i>Pirate Dance</i></li></ul>
-                                                       <ul><u>CALLED</u>: Finch, Biggley, Bud, Bratt, Rosemary. Hedy, Tackaberry, Toynbee, Davis, Jenkins, Policeman
-                                                                 <li>Blocking with Chris: Act II.5-II.7</li></ul>-->
-                                             </ul>
-                                        </div>
-
-                                        <div><ul><b>Sunday March 8</b>: 2 rooms - <span style="color: firebrick;">no Sharon K</span>
+                                        <div><ul><b>Sunday March 8</b>: 2 rooms - <span style="color: firebrick;">no Sharon K., Caroline</span>
                                                        <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL
                                                        <li><b>Headshots for the playbill and lobby board</b></li>
                                                        <li>2:00 ALL except Leads and Tackaberry - Choreography with Caity: <i>Pirate Dance</i></li></li>
@@ -472,15 +491,15 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
-                                        <div><ul><b>Monday March 9</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: <!--<i>Assume</i> -->ALL <span style="color: firebrick;"></span>
+                                        <div><ul><b>Monday March 9</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
+                                                       <ul><u>CALLED</u>: <!--<i>Assume</i> -->ALL 
                                                        <li>Run what we have, knowing a few things haven't been choreographed</li></ul>
                                              </ul>
                                              </ul>
                                         </div>
 
-                                        <div><ul><b>Wednesday March 11</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: TBD <span style="color: firebrick;"></span>
+                                        <div><ul><b>Wednesday March 11</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
+                                                       <ul><u>CALLED</u>: TBD
                                                        <ul>Choreography with Caity: 
                                                             <li><i>"I Believe in You"</i></li>
                                                             <li>Review (Caity's discretion)</li></ul>
@@ -644,7 +663,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   <li>5:30 STRIKE then PARTY</li></ul></ul>
                                         </div>
 
-                                    </div>         
                <!--ends remaining rehearsal dates -->
      
                          </div><!--ends class="schedule" -->
