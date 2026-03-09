@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cinderella, Darling Choreography - RVCO</title>
+<title>Pirate Dance Choreography - RVCO</title>
      
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -218,93 +218,104 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <li><a href="CoffeBreak.php" title="Go to the Coffee Break choreography page" class="dropdown-item" style="margin-left: -10px;">Coffee Break</a></li>
                               <li><a href="CompanyWay.php" title="Go to The Company Way choreography page" class="dropdown-item" style="margin-left: -10px;">The Company Way</a></li>
                               <li><a class="dropdown-item" title="Go to the A Secretary Is Not a Toy choreography page" href="SecretaryToy.php" style="margin-left: -10px;">A Secretary Is Not a Toy</a></li>
-                              <li><a class="dropdown-item" href="dance/Paris.php" title="Go to the Paris Original choreography page" style="margin-left: -10px;">Paris Original</a></li>
-                              <li><a class="dropdown-item" href="dance/Pirate.php" title="Go to the Pirate Dance choreography page" style="margin-left: -10px;">Pirate Dance</a></li>
+                              <li><a class="dropdown-item" href="dance/Paris.php" title="Go to the Paris Original choreography page" style="margin-left: -10px;">Paris Original</a></li>                              
+                              <li><a class="dropdown-item" title="Go to the Cinderella, Darling choreography page" href="Cinderella.php" style="margin-left: -10px;">Cinderella Darling</a></li>
                               <li><a class="dropdown-item" title="Go to the Brotherhood of Man choreography page" href="Brotherhood.php" style="margin-left: -10px;">Brotherhood of Man</a></li>
-                         </ul> 
+                        </ul> 
                     </div>
 
                </div>
 
                <div id="castPage" style="clear: both;">
-                         <h1 id="pageName"><i>Cinderella, Darling</i> Choreography</h1> 
+                         <h1 id="pageName"><i>Pirate Dance</i> Choreography</h1> 
                                         
 <div class="feature" style="margin:20px 30px 20px 30px;">
-                                   <p><a href="Cinderella Darling Choreography.pdf" title="Download a PDF of the Cinderella, Darling choreography" target="new">Download a PDF version</a></p>
+                    <p><a href="Pirate Dance Choreography.pdf" title="Download a PDF of the Pirate Dance choreography" target="new">Download a PDF version</a></p>
+                    <p>Pirate Dance music<br/><audio controls>
+                           <source src="../music/H2$ (The Pirate Dance).m4a" type="audio/mp4">
+                         Your browser does not support the audio element.
+                         </audio></p>
+
+     
+                         Pirate Dance  
+                    Note: The dance is continuous, not really in "sections" but I think separate sections makes it easier to learn.
+
+                    <h3>Section 1</h3>
+                    <ul>
+                         <li>Jen and Caroline enter with Bob.  Bob spins each girl then leaves.</li>
+                         <li style="max-width:600px">Other girls enter and make a pyramid with Jen at the apex, Lisa F (L) and Caroline (R) in 2nd row, Sharon, Lisa C and Sharon in the 3rd row</li>
+                    </ul>
+                         
+                    <div class="placement" style="width:400px">
+                           <div></div>  
+                           <div></div>  
+                           <div style="background-color: #ddd;">Jen</div>
+                           <div></div>
+                           <div></div>
+                    </div>
+                    <div class="placement" style="width:400px">
+                           <div style="width:20px"></div>
+                           <div></div>
+                           <div style="background-color: #ddd;">Lisa F</div>  
+                           <div class="half"></div>
+                           <div style="background-color: #ddd;">Caroline</div>
+                           <div></div>
+                           <div style="width:20px"></div>
+                    </div>
+                    <div class="placement" style="width:400px">
+                           <div class="half"></div>
+                           <div style="background-color: #ddd;">Sharon K</div>
+                           <div class="half"></div>
+                           <div style="background-color: #ddd;">Lisa C</div>
+                           <div class="half"></div>
+                           <div style="background-color: #ddd;">Sharon WC</div>
+                           <div class="half"></div>
+                    </div>
+
+                    <ul>
+                         <li>Hand over eyebrows search Right 2-3-4  ; Search Left 2-3-4-</li>
+                         <li>Slow pivot over left shoulder 2X</li>
+                         <li>Step L (1-2) hike right knee (3-4)  ;  Step R  (1-2)  hike left knee (3-4)</li>
+                         <li>Sway with hip pops Right &amp; Left</li>
+                         <li>Jen spins left, then add in 2nd row, then add in 3rd row</li>
+                         <li>All move front to a single line for &ldquo;Yo-Ho-Ho&rdquo;</li>
+                    </ul>
 
 
-                                             <ul><b>Lineup:</b> Jen – Caroline – Kate – Allie - Lisa C - Sharon W – Lisa F  -  Anyone else?
-                                             </ul>
-                                             <ul>First Hallelujah!<li style="margin-left:50px;">Stage Right girls spin out</li></ul>
-                                                  
-                                             <ul>Second   Hallelujah!
-                                                  <li style="margin-left:50px;">Stage Left   girls spin out</li>
-                                             </ul>
-                                             <ul>Third   Hallelujah!
-                                                  <li style="margin-left:50px;">All spin out</li>
-                                             </ul>
-                                             <ul><b><span style="font-size: 1.2em;">B</span></b>  Cinderella   &amp; the Prince
-                                                  <li style="margin-left:50px;">Dramatic arms   out</li>
-                                             </ul>
-                                             <ul><b><span style="font-size: 1.2em;">D </span></b> Don't,   don't, don't
-                                                  <li style="margin-left:50px;">Stomp on 1st   and 3rd &quot;don't&quot;</li>
-                                             </ul>
-                                             <ul><b><span style="font-size: 1.2em;">E</span></b> We were raised on you darling
-                                                       <li style="margin-left:50px;">Step L-R-L-beat – then kick back right on &quot;raised&quot;</li>
-                                                       <li style="margin-left:50px;">Step right   front on &quot;on&quot;  step ball   change then ½ Jazz Square RLR on &quot;on you darling&quot; (R crosses L)</li>
-                                             </ul>
-                                             <ul style="margin-left:25px;">Loved you ever since
-                                                       <li style="margin-left:50px;">Spin right   and end in arabesque with left knee back</li>
-                                             </ul>
-                                             <ul style="margin-left:25px;">Don't turn down the prince
-                                                       <li style="margin-left:50px;">Rockettes   line-up outside leg forward and leaning back</li>
-                                             </ul>
-                                                                                               
-                                             <ul><b><span style="font-size: 1.2em;">F</span></b> On from Bergdorf &hellip;
-                                                  <li style="margin-left:50px;">Pose on individual solos</li>
-                                             </ul>
+                    <h3>Section 2</h3> (Brotherhood of Man music starts)
+                    <ul>
+                         <li><u>Women</u>:  Grapevine R  ;  <u>Men</u>: Grapevine L   (Start to move on "brother"; this is fast)</li>
+                         <li><u>Women</u>: spin over left shoulder upstage;  <u>Men</u>: spin downstage</li>
+                         <li><u>Women</u>: spin downstage;  <u>Men</u>: spin upstage</li>
+                         <li>Search with hand over brows for 4 counts</li>
+                    </ul>
 
-                                             <ul style="margin-left:25px;">New Rochelle PTA
-                                                       <li style="margin-left:50px;">Drag Rosemary back to the desk UC</li>
-                                             </ul>
-                                                  
-                                             <ul><b><span style="font-size: 1.2em;">G</span></b> Kate's &quot;phone us&quot;
-                                                  <li style="margin-left:50px;">Move downstage</li>
-                                             </ul>
-                                             
-                                             <ul><b><span style="font-size: 1.2em;">H</span></b> But don't, don't, don'&hellip;
-                                                  <li style="margin-left:50px;">Start grapevine on 3<sup>rd</sup> &quot;don't&quot; 
-                                                       <li style="margin-left:50px;"><u>Stage Right</u>:</li>
-                                                       <ul><li style="margin-left:50px;">R (don't) L (Cinda)  R with hip pop (rella) (Left X front over R)
-                                                       Sway hips R-L-R (step on Don't –Rela – Dar)</li></ul>
-                                                       <li style="margin-left:50px;"><u>Stage Left</u> reverses does it in reverse</li>
-                                             </ul>
-                                             <ul style="margin-left:25px;">Don't turn down the prince&hellip;
-                                                  <li style="margin-left:50px;">Pop outside   hip on &quot;rella&quot;</li>
-                                                       <li style="margin-left:50px;">Pop inside   hip on (darling)</li>
-                                                       <li style="margin-left:50px;">Pop outside   hip on (don't)</li>
-                                                       <li style="margin-left:50px;">Step back L   on &quot;turn&quot;</li>
-                                                       <li style="margin-left:50px;">Step R fwd on   &quot;down&quot; then L on &quot;the&quot;</li> 
-                                                       <li style="margin-left:50px;">then Right knee up   on &quot;prince&quot;</li>
-                                                       <li style="margin-left:50px;"><span style="color:red; ">(Same ? re. split stage?)</span></li>
-                                             </ul>
+                    <h3>Section 3</h3>
+                    <ul>
+                         <li>With partner:  Step ball change step (bk) step (front) 2X (downstage and upstage)</li>
+                         <li>Spin into partner and sway</li>
+                         <li>Spin out R; Spin in and lean with fancy leg</li>
+                         <li>Spin out L;  Spin in to "Titanic" pose</li>
+                         <li>Turn L with partner;  Kick forward; back; with right leg, then again with left leg</li>
+                         <li>Face partner and lean forward/back 2X</li>
+                    </ul>
 
-                                             
-                                             <ul><b><span style="font-size: 1.2em;">I </span></b> We were raised…
-                                                  <li style="margin-left:50px;">Step   L-R-L-beat – then kick back right on &quot;raised&quot;
-                                                       Step right front on &quot;on&quot; step ball change LRL on &quot;on you darling&quot; </li>
-                                             </ul>
-                                             
-                                             <ul style="margin-left:25px;">Loved you ever since
-                                                  <li style="margin-left:50px;">Spin right and end in arabesque with left knee back</li>
-                                             </ul>
-                                             
-                                             <ul><b><span style="font-size: 1.2em;">J</span></b> Don't louse up&hellip;
-                                                  <li style="margin-left:50px;">Circle counterclockwise</li>
-                                             </ul>
-                                             <ul style="margin-left:25px;">Hallelujah!
-                                                  <li style="margin-left:50px;">Big arms up ballet style, spin and curtsey</li>
-                                             </ul>
+                    <h3>Section 4</h3>
+                    <ul>
+                         <li><u>Men</u>: go upstage; <u>Women</u> walk to single line on 8 counts</li>
+                         <li><u>Women</u>:</li>
+                    <ul>
+                         <li>walk left: L-R-L-R knee up, then back 2-3-4 ; then reverse right:  R-L-R-L knee up back 2-3-4</li>
+                         <li>Walk in an individual circle with arms up, flapping wrists</li>
+                         <li>Shimmy R 2-3-4 ;  Shimmy L 2-3-4</li>
+                         <li>Pivot 2 X</li>
+                         <li>Shimmy with arms up and out</li>
+                         </ul>
+
+
+     
+     
+     
 
 
                      </div><!--ends class="feature" -->    

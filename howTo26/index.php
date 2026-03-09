@@ -198,8 +198,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                           <li><a class="dropdown-item" href="dance/CoffeBreak.php" style="margin-left: -10px;" title="Go to the Coffee Break choreography page" >Coffee Break</a></li>
                           <li><a class="dropdown-item" href="dance/CompanyWay.php" style="margin-left: -10px;" title="Go to The Company Way choreography page">The Company Way</a></li>
                           <li><a class="dropdown-item" href="dance/SecretaryToy.php" title="Go to  A Secretary Is Not A Toy choreography page" style="margin-left: -10px;">A Secretary Is Not a Toy</a></li>
-                          <li><a class="dropdown-item" href="dance/Brotherhood.php" title="Go to the Brotherhood of Man choreography page" style="margin-left: -10px;">Brotherhood of Man</a></li>
+                          <li><a class="dropdown-item" href="dance/Paris.php" title="Go to the Paris Original choreography page" style="margin-left: -10px;">Paris Original</a></li>
                           <li><a class="dropdown-item" href="dance/Cinderella.php" title="Go to the Cinderella, Darling choreography page" style="margin-left: -10px;">Cinderella, Darling</a></li>
+                          <li><a class="dropdown-item" href="dance/Pirate.php" title="Go to the Pirate Dance choreography page" style="margin-left: -10px;">Pirate Dance</a></li>
+                          <li><a class="dropdown-item" href="dance/Brotherhood.php" title="Go to the Brotherhood of Man choreography page" style="margin-left: -10px;">Brotherhood of Man</a></li>
                         </ul> 
                     </div>
 

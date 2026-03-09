@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cinderella, Darling Choreography - RVCO</title>
+<title>Paris Original Choreography - RVCO</title>
      
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -218,92 +218,66 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <li><a href="CoffeBreak.php" title="Go to the Coffee Break choreography page" class="dropdown-item" style="margin-left: -10px;">Coffee Break</a></li>
                               <li><a href="CompanyWay.php" title="Go to The Company Way choreography page" class="dropdown-item" style="margin-left: -10px;">The Company Way</a></li>
                               <li><a class="dropdown-item" title="Go to the A Secretary Is Not a Toy choreography page" href="SecretaryToy.php" style="margin-left: -10px;">A Secretary Is Not a Toy</a></li>
-                              <li><a class="dropdown-item" href="dance/Paris.php" title="Go to the Paris Original choreography page" style="margin-left: -10px;">Paris Original</a></li>
-                              <li><a class="dropdown-item" href="dance/Pirate.php" title="Go to the Pirate Dance choreography page" style="margin-left: -10px;">Pirate Dance</a></li>
+                              <li><a class="dropdown-item" title="Go to the Cinderella, Darling choreography page" href="Cinderella.php" style="margin-left: -10px;">Cinderella Darling</a></li>
+                              <li><a class="dropdown-item" title="Go to the Pirate Dance choreography page" href="dance/Pirate.php" style="margin-left: -10px;">Pirate Dance</a></li>
                               <li><a class="dropdown-item" title="Go to the Brotherhood of Man choreography page" href="Brotherhood.php" style="margin-left: -10px;">Brotherhood of Man</a></li>
-                         </ul> 
+                        </ul> 
                     </div>
 
                </div>
 
                <div id="castPage" style="clear: both;">
-                         <h1 id="pageName"><i>Cinderella, Darling</i> Choreography</h1> 
+                         <h1 id="pageName"><i>Paris Original</i> Choreography</h1> 
                                         
 <div class="feature" style="margin:20px 30px 20px 30px;">
-                                   <p><a href="Cinderella Darling Choreography.pdf" title="Download a PDF of the Cinderella, Darling choreography" target="new">Download a PDF version</a></p>
+                    <p><a href="Paris Original Choreography.pdf" title="Download a PDF of the Paris Original choreography" target="new">Download a PDF version</a></p>
 
 
-                                             <ul><b>Lineup:</b> Jen – Caroline – Kate – Allie - Lisa C - Sharon W – Lisa F  -  Anyone else?
+                                             <ul><b>Lineup:</b> Jen – Caroline – Kate – Andrea - Allie – Sharon K – Sharon W – Lisa C – Lisa F
                                              </ul>
-                                             <ul>First Hallelujah!<li style="margin-left:50px;">Stage Right girls spin out</li></ul>
-                                                  
-                                             <ul>Second   Hallelujah!
-                                                  <li style="margin-left:50px;">Stage Left   girls spin out</li>
+                                             <ul><b><span style="font-size: 1.2em;">L</span></b> - Last 2 measures
+                                                  <li style="margin-left:50px;">Jen enters</li>
                                              </ul>
-                                             <ul>Third   Hallelujah!
-                                                  <li style="margin-left:50px;">All spin out</li>
+                                             <ul><b><span style="font-size: 1.2em;">M &amp; N </span></b>
+                                                  <li style="margin-left:50px;">Jen and Allie (Rosemary) trade looks then circle </li>
                                              </ul>
-                                             <ul><b><span style="font-size: 1.2em;">B</span></b>  Cinderella   &amp; the Prince
-                                                  <li style="margin-left:50px;">Dramatic arms   out</li>
-                                             </ul>
-                                             <ul><b><span style="font-size: 1.2em;">D </span></b> Don't,   don't, don't
-                                                  <li style="margin-left:50px;">Stomp on 1st   and 3rd &quot;don't&quot;</li>
-                                             </ul>
-                                             <ul><b><span style="font-size: 1.2em;">E</span></b> We were raised on you darling
-                                                       <li style="margin-left:50px;">Step L-R-L-beat – then kick back right on &quot;raised&quot;</li>
-                                                       <li style="margin-left:50px;">Step right   front on &quot;on&quot;  step ball   change then ½ Jazz Square RLR on &quot;on you darling&quot; (R crosses L)</li>
-                                             </ul>
-                                             <ul style="margin-left:25px;">Loved you ever since
-                                                       <li style="margin-left:50px;">Spin right   and end in arabesque with left knee back</li>
-                                             </ul>
-                                             <ul style="margin-left:25px;">Don't turn down the prince
-                                                       <li style="margin-left:50px;">Rockettes   line-up outside leg forward and leaning back</li>
-                                             </ul>
-                                                                                               
-                                             <ul><b><span style="font-size: 1.2em;">F</span></b> On from Bergdorf &hellip;
-                                                  <li style="margin-left:50px;">Pose on individual solos</li>
+                                             <ul><b><span style="font-size: 1.2em;">O</span></b> - And I could
+                                                       <li style="margin-left:50px;">Sharon K (Miss Krumholtz) enters</li>
                                              </ul>
 
-                                             <ul style="margin-left:25px;">New Rochelle PTA
-                                                       <li style="margin-left:50px;">Drag Rosemary back to the desk UC</li>
+                                             <ul><b><span style="font-size: 1.2em;">P</span></b> - Last 2 measures
+                                                  <li style="margin-left:50px;">Caroline enters</li>
                                              </ul>
                                                   
-                                             <ul><b><span style="font-size: 1.2em;">G</span></b> Kate's &quot;phone us&quot;
-                                                  <li style="margin-left:50px;">Move downstage</li>
+                                             <ul><b><span style="font-size: 1.2em;">S</span></b> - &hellip;Voil&aacute;
+                                                  <li style="margin-left:50px;">Other girls enter</li>
                                              </ul>
                                              
-                                             <ul><b><span style="font-size: 1.2em;">H</span></b> But don't, don't, don'&hellip;
-                                                  <li style="margin-left:50px;">Start grapevine on 3<sup>rd</sup> &quot;don't&quot; 
-                                                       <li style="margin-left:50px;"><u>Stage Right</u>:</li>
-                                                       <ul><li style="margin-left:50px;">R (don't) L (Cinda)  R with hip pop (rella) (Left X front over R)
-                                                       Sway hips R-L-R (step on Don't –Rela – Dar)</li></ul>
-                                                       <li style="margin-left:50px;"><u>Stage Left</u> reverses does it in reverse</li>
+                                             <ul><b><span style="font-size: 1.2em;">U</span></b> &ldquo;Thirty-nine bucks I hand out&rdquo;
+                                                  <li style="margin-left:50px;">Right knee up; Right hand out palm up 
                                              </ul>
-                                             <ul style="margin-left:25px;">Don't turn down the prince&hellip;
-                                                  <li style="margin-left:50px;">Pop outside   hip on &quot;rella&quot;</li>
-                                                       <li style="margin-left:50px;">Pop inside   hip on (darling)</li>
-                                                       <li style="margin-left:50px;">Pop outside   hip on (don't)</li>
-                                                       <li style="margin-left:50px;">Step back L   on &quot;turn&quot;</li>
-                                                       <li style="margin-left:50px;">Step R fwd on   &quot;down&quot; then L on &quot;the&quot;</li> 
-                                                       <li style="margin-left:50px;">then Right knee up   on &quot;prince&quot;</li>
-                                                       <li style="margin-left:50px;"><span style="color:red; ">(Same ? re. split stage?)</span></li>
+                                             <ul style="margin-left:25px;">&ldquo;For something to make me stand out&rdquo;
+                                                  <li style="margin-left:50px;">Snake arms up then out then flip hands up</li>
+                                             </ul>
+                                             <ul style="margin-left:25px;">&ldquo;And suddenly I've gone into mimeograph&rdquo;
+                                                  <li style="margin-left:50px;">Circle R end with hands up and right knee up </li>
+                                             </ul>
+                                             <ul style="margin-left:25px;">&ldquo;Some laugh&rdquo;
+                                                  <li style="margin-left:50px;">Hands down</li>
                                              </ul>
 
-                                             
-                                             <ul><b><span style="font-size: 1.2em;">I </span></b> We were raised…
-                                                  <li style="margin-left:50px;">Step   L-R-L-beat – then kick back right on &quot;raised&quot;
-                                                       Step right front on &quot;on&quot; step ball change LRL on &quot;on you darling&quot; </li>
+                                             <ul><b><span style="font-size: 1.2em;">V</span></b> &ldquo;This irresistible&rdquo;
+                                                  <li style="margin-left:50px;">Macarena arms RL on "This" and "-Sist"</li>
+                                             </ul>
+                                             <ul style="margin-left:25px;">&ldquo;Paris original&rdquo;
+                                                  <li style="margin-left:50px;">Shimmy arms down to hips</li>
                                              </ul>
                                              
-                                             <ul style="margin-left:25px;">Loved you ever since
-                                                  <li style="margin-left:50px;">Spin right and end in arabesque with left knee back</li>
+                                             <ul>&ldquo;This mass-produced crime&rdquo; <u>leading into</u> <b><span style="font-size: 1.2em;">W</span></b> &ldquo;I'm wearing tonight&rdquo;
+                                                  <li style="margin-left:50px;">Two lines cross each other to reverse in an arc</li>
                                              </ul>
-                                             
-                                             <ul><b><span style="font-size: 1.2em;">J</span></b> Don't louse up&hellip;
-                                                  <li style="margin-left:50px;">Circle counterclockwise</li>
-                                             </ul>
-                                             <ul style="margin-left:25px;">Hallelujah!
-                                                  <li style="margin-left:50px;">Big arms up ballet style, spin and curtsey</li>
+                                             <ul style="margin-left:25px;">&ldquo;For the very last time&rdquo;
+                                                  <li style="margin-left:50px;">Hands up on "time" then on last beat fold arms and stomp with outside leg</li>
                                              </ul>
 
 
