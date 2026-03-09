@@ -215,8 +215,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <button type="button" class="btn btn-primary dropdown-toggle button" data-bs-toggle="dropdown">Choreography
                                   </button>
                                   <ul class="dropdown-menu">
-                                    <li><a href="CoffeBreak.php" title="Go to the Coffee Break choreography page" class="dropdown-item" style="margin-left: -10px;">Coffee Break</a></li>
-                                    <li><a class="dropdown-item" title="Go to the A Secretary Is Not a Toy choreography page" href="SecretaryToy.php" style="margin-left: -10px;">A Secretary Is Not a Toy</a></li>
+                                    <li><a class="dropdown-item" href="CoffeBreak.php" title="Go to the Coffee Break choreography page" style="margin-left: -10px;">Coffee Break</a></li>
+                                    <li><a class="dropdown-item" href="SecretaryToy.php" title="Go to the A Secretary Is Not a Toy choreography page" style="margin-left: -10px;">A Secretary Is Not a Toy</a></li>
+                                    <li><a class="dropdown-item" href="Brotherhood.php" title="Go to the Brotherhood of Man choreography page" style="margin-left: -10px;">Brotherhood of Man</a></li>
+                                    <li><a class="dropdown-item" href="dance/Cinderella.php" title="Go to the Cinderella, Darling choreography page" style="margin-left: -10px;">Cinderella, Darling</a></li>
                                   </ul> 
                               </div>
                               

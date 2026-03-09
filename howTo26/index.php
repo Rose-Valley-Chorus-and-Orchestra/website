@@ -198,6 +198,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                           <li><a class="dropdown-item" href="dance/CoffeBreak.php" style="margin-left: -10px;" title="Go to the Coffee Break choreography page" >Coffee Break</a></li>
                           <li><a class="dropdown-item" href="dance/CompanyWay.php" style="margin-left: -10px;" title="Go to The Company Way choreography page">The Company Way</a></li>
                           <li><a class="dropdown-item" href="dance/SecretaryToy.php" title="Go to  A Secretary Is Not A Toy choreography page" style="margin-left: -10px;">A Secretary Is Not a Toy</a></li>
+                          <li><a class="dropdown-item" href="dance/Brotherhood.php" title="Go to the Brotherhood of Man choreography page" style="margin-left: -10px;">Brotherhood of Man</a></li>
+                          <li><a class="dropdown-item" href="dance/Cinderella.php" title="Go to the Cinderella, Darling choreography page" style="margin-left: -10px;">Cinderella, Darling</a></li>
                         </ul> 
                     </div>
 
@@ -216,12 +218,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     
 
                               <p style="clear: both; padding-top: 15px;">If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.
-                                   <div style="margin:0 0 0 30px; padding: 0;"><b>Bios</b>:
+                                   <!--<div style="margin:0 0 0 30px; padding: 0;"><b>Bios</b>:
                                         <ul>Send to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill">wbmichael@comcast.net</a> by March 1<sup>st</sup>
-                                             <!--<ul>Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">14</b> out of <b style="color:darkgreen; font-size: 1.2em;">29</b>
-                                             </ul>-->
+                                             <ul>Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">14</b> out of <b style="color:darkgreen; font-size: 1.2em;">29</b>
+                                             </ul>
                                         </ul>
-                                   </div>
+                                   </div>-->
                                    <div style="margin:0 0 0 30px; padding: 0;"><b>Costumes</b>: 
                                         <ul><li>Fitting Signup: <a href="https://www.signupgenius.com/go/4090D4DAFAA23A0FB6-62431339-rvcos" title="Go to SignUpGenius to select a time" target="new">Costume SignUpGenius</a></li>
                                         <li>Questionnaire: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGzfcNnsL16Ko75I8hqD7QxGPO5L-4fs3q2vcDTwpEynM3Ew/viewform?usp=dialog" title="Fill out this costume questionaire" target="new">Go to Google Form</a></li>
@@ -474,6 +476,15 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               </ul>
                          </div>
 
+                         <div><ul><b>Sunday March 8</b>: 2 rooms - <span style="color: firebrick;">no Sharon K., Caroline</span>
+                                        <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL
+                                        <li><b>Headshots for the playbill and lobby board</b></li>
+                                        <li>2:00 ALL except Leads and Tackaberry - Choreography with Caity: <i>Pirate Dance</i></li></li>
+                                        <li>3:15 ALL: with Chris Act II.10. With whatever time is left, plugging people in for miscellaneous Act 2 stuff.</li>
+                                        </ul>
+                              </ul>
+                         </div>
+
 
                                    
                </div>
@@ -482,20 +493,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
 
-                                        <div><ul><b>Sunday March 8</b>: 2 rooms - <span style="color: firebrick;">no Sharon K., Caroline</span>
-                                                       <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL
-                                                       <li><b>Headshots for the playbill and lobby board</b></li>
-                                                       <li>2:00 ALL except Leads and Tackaberry - Choreography with Caity: <i>Pirate Dance</i></li></li>
-                                                       <li>3:15 ALL: with Chris Act II.10. With whatever time is left, plugging people in for miscellaneous Act 2 stuff.</li>
-                                                       </ul>
-                                             </ul>
-                                        </div>
-
                                         <div><ul><b>Monday March 9</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
                                                        <ul><u>CALLED</u>: <!--<i>Assume</i> -->ALL 
-                                                       <li>Run what we have, knowing a few things haven't been choreographed</li></ul>
+                                                       <li>7:30 Catchup with Smitty and Miss Krumholtz</li>
+                                                       <li>7:40 Work through the show</li></ul>
                                              </ul>
-                                             </ul>
+
                                         </div>
 
                                         <div><ul><b>Wednesday March 11</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
@@ -527,29 +530,30 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <ul style="color: firebrick;background-color: yellow; padding: 5px 0px 5px 50px; font-size: 0.85em">
                                                             <b>----- EVERYONE OFF BOOK -----</b></ul>                                   
 
-                                        <div><ul><b>Wednesday March 18</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: TBD <span style="color: firebrick;">no Kate</span>
-                                                            <li>Choreography clean-up day</li>
-                                                            <li>Possible leads/music review</li></ul> 
+                                        <div><ul><b>Wednesday March 18</b>: 2 rooms - <span style="color: firebrick;">no Kate</span>
+                                                       <ul><u>CALLED</u>: TBD 
+                                                            <li>7:30 Finch Hedy intimacy</li>
+                                                            <li>7:50 Finch Rosemary intimacy</li>
+                                                            <li>8:10 - TBD</li></ul> 
                                         </div>
                     
-                                        <div><ul><b>Sunday March 22</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Andrea, Mike, Rob, Laura</span>
+                                        <div><ul><b>Sunday March 22</b>: 2 rooms - <span style="color: firebrick;">no Andrea, Mike, Rob, Laura</span>
+                                                       <ul><u>CALLED</u>: ALL - 
                                                             <li>Run Act I</li></ul>
                                         </div>
 
-                                        <div><ul><b>Monday March 23</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Mike</span>
+                                        <div><ul><b>Monday March 23</b>: 2 rooms - <span style="color: firebrick;">no Mike</span>
+                                                       <ul><u>CALLED</u>: ALL - 
                                                             <li>Run Act II</li></ul>
                                         </div>
 
-                                        <div><ul><b>Wednesday March 25</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Mike</span>
+                                        <div><ul><b>Wednesday March 25</b>: 2 rooms - <span style="color: firebrick;">no Mike</span>
+                                                       <ul><u>CALLED</u>: ALL
                                                             <li>Trouble spots TBD with Caity</li></ul>
                                         </div>
                
-                                        <div><ul><b>Sunday March 29</b>: Auditorium
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Mike</span>
+                                        <div><ul><b>Sunday March 29</b>: Auditorium - <span style="color: firebrick;">no Mike</span>
+                                                       <ul><u>CALLED</u>: ALL
                                                             <li>Run show</li></ul>
                                         </div>
 
@@ -558,8 +562,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             <li>Run show</li></ul>
                                         </div>
 
-                                        <div><ul><b>Wednesday April 1</b>: Auditorium
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Ross, Mike</span>
+                                        <div><ul><b>Wednesday April 1</b>: Auditorium - <span style="color: firebrick;">no Ross, Mike</span>
+                                                       <ul><u>CALLED</u>: ALL
                                                             <li>Trouble spots TBD and/or attempt a run without those missing</li></ul>
                                         </div>
 
@@ -568,8 +572,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
-                                        <div><ul><b>Monday April 6</b>: Auditorium
-                                                       <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Andrea</span>
+                                        <div><ul><b>Monday April 6</b>: Auditorium - <span style="color: firebrick;">no Andrea</span>
+                                                       <ul><u>CALLED</u>: ALL
                                                             <li>Run show</li></ul>
                                         </div>
 
