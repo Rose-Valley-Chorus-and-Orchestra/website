@@ -503,10 +503,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <span id="currentDate"></span>
 
                                         <div><ul><b>Wednesday March 11</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
-                                                       <ul><u>CALLED</u>: ALL Men and Miss Jones
-                                                       <ul>Choreography with Caity: 
+                                                       <ul><u>CALLED</u>: Just the 8 MEN 
                                                             <li>7:30 <i>I Believe in You</i> first with Florrie then Caity</li>
-                                                            <li>8:45 <i>Brotherhood of Man</i> with Caity</li></ul>
+                                                       </ul>
+                                                       <ul><u>CALLED</u>: ALL Men and Miss Jones
+                                                            <li>8:45 <i>Brotherhood of Man</i> with Caity</li>
+                                                       </ul>
                                              </ul>
                                         </div>                                                       
 
