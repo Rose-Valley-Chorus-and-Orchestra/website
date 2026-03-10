@@ -487,6 +487,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               </ul>
                          </div>
 
+                         <div><ul><b>Monday March 9</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
+                                        <ul><u>CALLED</u>: <!--<i>Assume</i> -->ALL 
+                                        <li>7:30 Catchup with Smitty and Miss Krumholtz</li>
+                                        <li>7:40 Work through the show</li></ul>
+                              </ul>
+
+                         </div>
 
                                    
                </div>
@@ -495,19 +502,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
 
-                                        <div><ul><b>Monday March 9</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
-                                                       <ul><u>CALLED</u>: <!--<i>Assume</i> -->ALL 
-                                                       <li>7:30 Catchup with Smitty and Miss Krumholtz</li>
-                                                       <li>7:40 Work through the show</li></ul>
-                                             </ul>
-
-                                        </div>
-
                                         <div><ul><b>Wednesday March 11</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
-                                                       <ul><u>CALLED</u>: TBD
+                                                       <ul><u>CALLED</u>: ALL Men and Miss Jones
                                                        <ul>Choreography with Caity: 
-                                                            <li><i>"I Believe in You"</i></li>
-                                                            <li>Review (Caity's discretion)</li></ul>
+                                                            <li>7:30 <i>I Believe in You</i> first with Florrie then Caity</li>
+                                                            <li>8:45 <i>Brotherhood of Man</i> with Caity</li></ul>
                                              </ul>
                                         </div>                                                       
 
