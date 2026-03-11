@@ -512,7 +512,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>                                                       
 
-                                        <div><ul><b>Sunday March 15</b>: 2 rooms
+                                        <div><ul><b>Sunday March 15</b>: 2 rooms [A]
                                                        <ul><u>CALLED</u>: TBD <span style="color: firebrick;"></span>
                                                        <ul>Choreography with Caity: 
                                                             <li>Anything that still needs to be choreographed and/or a Choreo Review day</ul>
@@ -523,7 +523,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             EVERYONE is called from this date forward -----</b></ul>
                                    
 
-                                        <div><ul><b>Monday March 16</b>: 2 rooms
+                                        <div><ul><b>Monday March 16</b>: 2 rooms [A]
                                                        <ul><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
                                                             <li>Run/clean Act II</li></ul>
                                              </ul>
@@ -545,37 +545,37 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             <li>Run Act I</li></ul>
                                         </div>
 
-                                        <div><ul><b>Monday March 23</b>: 2 rooms - <span style="color: firebrick;">no Mike</span>
+                                        <div><ul><b>Monday March 23</b>: 2 rooms [A] - <span style="color: firebrick;">no Mike</span>
                                                        <ul><u>CALLED</u>: ALL - 
                                                             <li>Run Act II</li></ul>
                                         </div>
 
-                                        <div><ul><b>Wednesday March 25</b>: 2 rooms - <span style="color: firebrick;">no Mike</span>
+                                        <div><ul><b>Wednesday March 25</b>: 2 rooms [A] - <span style="color: firebrick;">no Mike</span>
                                                        <ul><u>CALLED</u>: ALL
                                                             <li>Trouble spots TBD with Caity</li></ul>
                                         </div>
                
-                                        <div><ul><b>Sunday March 29</b>: Auditorium - <span style="color: firebrick;">no Mike</span>
+                                        <div><ul><b>Sunday March 29</b>: [A] - <span style="color: firebrick;">no Mike</span>
                                                        <ul><u>CALLED</u>: ALL
                                                             <li>Run show</li></ul>
                                         </div>
 
-                                        <div><ul><b>Monday March 30</b>: Auditorium
+                                        <div><ul><b>Monday March 30</b>: [A]
                                                        <ul><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
                                                             <li>Run show</li></ul>
                                         </div>
 
-                                        <div><ul><b>Wednesday April 1</b>: Auditorium - <span style="color: firebrick;">no Ross, Mike</span>
+                                        <div><ul><b>Wednesday April 1</b>: [A] - <span style="color: firebrick;">no Ross, Mike</span>
                                                        <ul><u>CALLED</u>: ALL
                                                             <li>Trouble spots TBD and/or attempt a run without those missing</li></ul>
                                         </div>
 
-                                        <div><ul><b>Sunday April 5</b>: Auditorium
+                                        <div><ul><b>Sunday April 5</b>:
                                              <ul>*** <span style="color: firebrick;"><b>No rehearsal - EASTER</b></span> ***</ul>
                                              </ul>
                                         </div>
 
-                                        <div><ul><b>Monday April 6</b>: Auditorium - <span style="color: firebrick;">no Andrea</span>
+                                        <div><ul><b>Monday April 6</b>: [A] - <span style="color: firebrick;">no Andrea</span>
                                                        <ul><u>CALLED</u>: ALL
                                                             <li>Run show</li></ul>
                                         </div>
