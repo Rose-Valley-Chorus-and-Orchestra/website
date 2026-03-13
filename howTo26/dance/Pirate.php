@@ -284,7 +284,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                     <h3>Section 2</h3> (Brotherhood of Man music starts)
                     <ul>
-                         <li><u>Women</u>:  Grapevine R  ;  <u>Men</u>: Grapevine L   (Start to move on "brother"; this is fast)</li>
+                         <li><u>Women</u>:  Grapevine R/L&nbsp; ;  <u>Men</u>: Grapevine L/R&nbsp; &nbsp;(Start to move on "brother"; this is fast)</li>
                          <li><u>Women</u>: spin over left shoulder upstage;  <u>Men</u>: spin downstage</li>
                          <li><u>Women</u>: spin downstage;  <u>Men</u>: spin upstage</li>
                          <li>Search with hand over brows for 4 counts</li>

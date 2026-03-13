@@ -62,12 +62,12 @@ h3 {font-size: 20px; color: darkred;}
 .placement div { display: flex;
      justify-content: center;
      align-items: center;
-     width: 80px; 
+     width: 60px; 
      height: 30px;
      text-align: center;
      padding: 0px;
-     font-size: 0.8em;}
-.placement .half { width: 40px;}
+     font-size: 0.8em;margin:0px;}
+.placement .half { width: 35px; }
            
 .button {
   font: bold 13px Arial;
@@ -240,52 +240,120 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </div>
 
                                    <div>Starting before&nbsp; <b style="font-size: 1.2em;">F</b>: bend knees 
-                                        <ul><li>spin to the right on &ldquo;Oh, aren't you proud to be&rdquo;</li>
-                                             <li>spin to the left on &ldquo;in that fraternity&rdquo;</li>
-                                             <li>On &ldquo;The great, big brotherhood of man?&rdquo;</li>
-                                                  <ul><li>hands down on "broth"</li>
-                                                  <li>up on "er"</li>
-                                                  <li>down on "hood"</li>
-                                                  <li>up on "of"</li>
-                                                  <li>jump in place on "man"</li></ul>
+                                        <ul><li>Upper body clockwise circle on “Oh, aren't you proud to be”</li>
+                                             <li>Upper body counterclockwise circle on &ldquo;in that fraternity&rdquo;</li>
+                                             <li>On &ldquo;The great, big brotherhood of man?&rdquo; hands:</li>
+                                             
+                                             <div style="display: table; wwidth: 350px;font-size: 0.9em;">
+                                                  <div style="display: table-row;color:darkslateblue;font-weight: bold;background-color: #ddd;">
+                                                       <div style="display: table-cell;"></div>
+                                                       <div style="display: table-cell; text-align: center; padding: 5px 10px;">brother</div>
+                                                       <div style="display: table-cell; text-align: center; padding: 5px 10px;">er</div>
+                                                       <div style="display: table-cell; text-align: center; padding: 5px 10px;">hood</div>
+                                                       <div style="display: table-cell; text-align: center; padding: 5px 10px;">of</div>
+                                                       <div style="display: table-cell; text-align: center; padding: 5px 10px;">man</div>
+                                                  </div>
+                                                  <div style="display: table-row;">
+                                                       <div style="display: table-cell; text-align: center; padding: 5px 10px;">1<sup>st</sup> row</div>
+                                                       <div style="display: table-cell; text-align: center;">down</div>
+                                                       <div style="display: table-cell; text-align: center;">up</div>
+                                                       <div style="display: table-cell; text-align: center;">down</div>
+                                                       <div style="display: table-cell; text-align: center;">up</div>
+                                                       <div style="display: table-cell; text-align: center;">jump</div>
+                                                  </div>
+                                                  <div  style="display: table-row;">                                                      
+                                                       <div style="display: table-cell; text-align: center; padding: 5px 10px;">2<sup>nd</sup> row</div>
+                                                       <div style="display: table-cell; text-align: center;">up</div>
+                                                       <div style="display: table-cell; text-align: center;">down</div>
+                                                       <div style="display: table-cell; text-align: center;">up</div>
+                                                       <div style="display: table-cell; text-align: center;">down</div>
+                                                       <div style="display: table-cell; text-align: center;">jump</div>
+                                                  </div>
+
+                                             </div>
+
+                                   <div>At <b style="font-size: 1.2em;">M</b>:
+                                        <ul>
+                                             <li>Lunge forward with left foot on the rest on &ldquo;Yes, you're a brother&rdquo;: </li>
+                                             <li>Lean more on &ldquo;Oh, yes, oh yes.&rdquo;</li>
                                         </ul>
                                    </div>
 
-                                   <div>At <b style="font-size: 1.2em;">M</b>: &ldquo;Yes, you're a brother&rdquo;: lunge forward with left foot.</div>
-
 
                                    <div>Leading into <b style="font-size: 1.2em;">O</b>: 
-                                        <ul><li>Shake your neighbors hand at &ldquo;Oh, yes your lifelong&rdquo;</li>
-                                             <li>On &ldquo;membership&rdquo;: 
-                                                  <ul><li>front line turns around to shake the hand of the person behind them</li>
-                                                       <li>second line shakes the hand of the peson in front of them</li></ul>
+                                        <ul><li>Right hand on heart at &ldquo;Oh, yes your lifelong&rdquo;</li>
+                                             <li>Shake your neighbor's hand on “membership”: 
+                                             <li>front line turns around to shake the hand of the person behind them on &ldquo;is free&rdquo;</li>
                                              <li>Form 3 lines at &ldquo;Keep a-givin' each&rdquo;: </li>
+                                        </ul>
+                                        <div class="placement" style="width:400px;padding-left:40px;">
+                                             <div style="background-color: #ddd;width: 60px;">Ross</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Chris</div>                                               
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Rob</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Jeff</div>
+                                        </div>
+                                        <div class="placement" style="width:500px;padding-left:40px;">
+                                               <div style="background-color: #fff;width: 40px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Don</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Aaron</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Bill</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Bob</div>
+                                               
+                                        </div>
+                                        <div class="placement" style="width:400px;padding-left:40px;">
+                                               <div style="background-color: #ddd;width: 60px;">Steve</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Marc</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Lisette</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Chip</div>
+                                        </div>
+
                                    </div>
 
-                                   <div>After <b style="font-size: 1.2em;">P</b>: Link arms on &ldquo;fraternity&rdquo;
-                                        <ul><li>Kicks on each syllable of &ldquo;brotherhood of&rdquo; starting with the right foot</ul></li>
+                                   <div>After <b style="font-size: 1.2em;">P</b>: Arms on the shoulders of the people next to you &ldquo;fraternity&rdquo;
+                                        <ul><li>1<sup>st</sup> row: Kicks on each syllable of &ldquo;brotherhood of&rdquo; starting with the right foot and &ldquo;brotherhood of&rdquo; is right left right</li>
+                                             <li>2<sup>nd</sup> row: sway on each syllable of &ldquo;brotherhood of&rdquo; starting to the left and &ldquo;brotherhood of&rdquo; is left right left</li>
+                                        <li>3<sup>rd</sup> row: sway on each syllable of &ldquo;brotherhood of&rdquo; starting to the right and &ldquo;brotherhood of&rdquo; is right left right</li></ul>
                                    </div>
 
                                    <div>At <b style="font-size: 1.2em;">Q</b>: 
                                         <ul><li>Turn upstage looking at Miss Jones</li>
-                                             <li>4 claps -</li>
-                                                  <ul><li>up to your left, up to your right, down to your left, down to your right</li>
-                                                  <li>When she sings &ldquo;Oh, that <b>no</b>ble feeling. <b>Feels</b> like <b>bells</b> are pealling. <b>Down</b> with double&rdquo;</li>
+                                             <li>Claps on beat 2 and 4 -</li>
+                                                  <ul>
+                                                       <li>2<sup>nd</sup> row: start up left &rarr; up right &rarr; down left &rarr; down right</li>
+                                                       <li>3<sup>rd</sup> row: start down left &rarr; down right &rarr; up left &rarr; up right</li>                                                       
+                                                  <li>When she sings “Oh, <b>that</b> no<b>ble</b> feel<b>ing</b>. <b>Feels</b> <b>like</b> bells <b>are</b> peal<b>ling</b>. <b>Down</b> <b>with</b> doub<b>le</b>.”</li>
                                                   </ul>
                                              <li>Pivot to face forward on her first &ldquo;you-oo&rdquo;</li>
                                         </ul>
                                    </div>
 
-                                   <div>At <b style="font-size: 1.2em;">S</b>: bend your knees, hands tap your thighs.</div>
+                                   <div>At <b style="font-size: 1.2em;">S</b>: bend your knees, hands tap your thighs. Stop at last measure before <b style="font-size: 1.2em;">U</b>.</div>
 
                                    <div>At <b style="font-size: 1.2em;">U</b>:
-                                        <ul>
-                                             <li>Face right and step forward with the left foot on &ldquo;Oh, that&rdquo;</li>
+                                        <ul><li>2<sup>nd</sup> row:
+                                             <ul><li>Face right and step forward with the left foot on &ldquo;Oh, that&rdquo;</li>
                                              <li>Put right heel forward on &ldquo;noble feeling&rdquo;</li>
                                              <li>Clap on the rest; step back with right foot on&ldquo;Feels like&rdquo;</li>
                                              <li>Step back on left foot on &ldquo;bells are pealling&rdquo;</li>
                                              <li>Clap on the rest; Face forward on on &ldquo;Dance&rdquo;</li> 
-                                             <li>Jazz hands on &ldquo;Oh, brother&rdquo;</li>
+                                             <li>Jazz hands on &ldquo;Oh, brother&rdquo;</li></ul></li>
+                                        </ul>
+                                        <ul><li>3<sup>rd</sup> row:
+                                             <ul><li>Face left and step forward with the right foot on &ldquo;Oh, that&rdquo;</li>
+                                             <li>Put left heel forward on &ldquo;noble feeling&rdquo;</li>
+                                             <li>Clap on the rest; step back with left foot on&ldquo;Feels like&rdquo;</li>
+                                             <li>Step back on right foot on &ldquo;bells are pealling&rdquo;</li>
+                                             <li>Clap on the rest; Face forward on on &ldquo;Dance&rdquo;</li> 
+                                             <li>Jazz hands on &ldquo;Oh, brother&rdquo;</li></ul></li>
                                         </ul>
                                    </div>
                                    
@@ -293,10 +361,62 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <ul>
                                              <li>Get into a pyramid on the second &ldquo;you-oo&rdquo;</li>
                                         </ul>
+                                        
+                                        
+                                        
+                                        <div class="placement" style="width:400px;padding-left:40px;">
+                                               <div style="background-color: #fff;width: 60px;"></div>
+                                               <div style="background-color: #fff;width: 15px;"></div>
+                                               <div style="background-color: #fff;width: 60px;"></div>                                               
+                                               <div style="background-color: #ddd;width: 60px;">Andrea</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #fff;width: 60px;"></div>
+                                        </div>
+                                        <div class="placement" style="width:400px;padding-left:40px;">
+                                               <div style="background-color: #fff;width: 60px;"></div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Ross</div>                                               
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Chris</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #fff;width: 60px;"></div>
+                                        </div>
+                                        <div class="placement" style="width:400px;padding-left:40px;">
+                                               <div style="background-color: #fff;width: 60px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Rob</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>                                               
+                                               <div style="background-color: #ddd;width: 60px;">Jeff</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Aaron</div>
+                                               <div style="background-color: #fff;width: 60px;"></div>
+                                        </div>
+                                        <div class="placement" style="width:400px;padding-left:40px;">
+                                               <div style="background-color: #ddd;width: 60px;">Don</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Lisette</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Bill</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Bob</div>
+                                        </div>
+                                        <div class="placement" style="width:400px;padding-left:40px;">
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Steve</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Chip</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Mike</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Marc</div>   
+                                        </div>
+                                        
+                                                                                
                                    </div>
                                
-                                   <div>At <b style="font-size: 1.2em;">W</b>: 
+                                   <div>Leading into <b style="font-size: 1.2em;">W</b>: 
                                         <ul>
+                                             <li>Tap right foot 6 times on &ldquo;your life-long&rdquo;</li>
                                              <li>Elbows out and right knee up on &ldquo;is free&rdquo;</li>
                                              <li>Bend to the left on &ldquo;Keep&rdquo;</li>
                                              <li>Bend to the right on &ldquo;givin'&rdquo;</li>
@@ -311,8 +431,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <li>Down on &ldquo;be&rdquo;</li>
                                              <li>Right knee up/slap right hand to knee on &ldquo;in that fra&rdquo;</li>
                                              <li>Left knee up/slap Left hand to knee on  &ldquo;ternity&rdquo;</li>
-                                             <li>Both hands up to the right on &ldquo;broth&rdquo;, pump to right on &ldquo;er&rdquo;</li> 
-                                             <li>Both hands up to the left on &ldquo;hood&rdquo;, pump to left on &ldquo;of&rdquo;</li>
+                                             <li>Both hands up to the right on &ldquo;broth&rdquo; &rarr; left on &ldquo;er&rdquo; &rarr; right on &ldquo;hood&rdquo; &rarr; left on &ldquo;of&rdquo;</li>
                                              <li>On &ldquo;man&rdquo;:
                                                   <ul><li>If stage right: left hand down to the left/right hand up to the right</li>
                                                        <li>If stage left: left hand up to the left/right hand down to the right</li></ul></li> 
