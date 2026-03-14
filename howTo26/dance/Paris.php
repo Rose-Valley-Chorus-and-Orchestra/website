@@ -220,6 +220,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <li><a class="dropdown-item" title="Go to the A Secretary Is Not a Toy choreography page" href="SecretaryToy.php" style="margin-left: -10px;">A Secretary Is Not a Toy</a></li>
                               <li><a class="dropdown-item" title="Go to the Cinderella, Darling choreography page" href="Cinderella.php" style="margin-left: -10px;">Cinderella Darling</a></li>
                               <li><a class="dropdown-item" title="Go to the Pirate Dance choreography page" href="Pirate.php" style="margin-left: -10px;">Pirate Dance</a></li>
+                              <li><a class="dropdown-item" href="Believe.php" title="Go to the I Believe In You choreography page" style="margin-left: -10px;">I Believe In You</a></li>
                               <li><a class="dropdown-item" title="Go to the Brotherhood of Man choreography page" href="Brotherhood.php" style="margin-left: -10px;">Brotherhood of Man</a></li>
                         </ul> 
                     </div>

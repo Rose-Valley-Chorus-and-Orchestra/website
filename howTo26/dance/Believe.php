@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cinderella, Darling Choreography - RVCO</title>
+<title>I Believe In You Choreography - RVCO</title>
      
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -62,12 +62,12 @@ h3 {font-size: 20px; color: darkred;}
 .placement div { display: flex;
      justify-content: center;
      align-items: center;
-     width: 80px; 
+     width: 60px; 
      height: 30px;
      text-align: center;
      padding: 0px;
-     font-size: 0.8em;}
-.placement .half { width: 40px;}
+     font-size: 0.8em;margin:0px;}
+.placement .half { width: 35px; }
            
 .button {
   font: bold 13px Arial;
@@ -219,93 +219,71 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <li><a class="dropdown-item" href="CompanyWay.php" title="Go to The Company Way choreography page" style="margin-left: -10px;">The Company Way</a></li>
                               <li><a class="dropdown-item" href="SecretaryToy.php" title="Go to the A Secretary Is Not a Toy choreography page" style="margin-left: -10px;">A Secretary Is Not a Toy</a></li>
                               <li><a class="dropdown-item" href="Paris.php" title="Go to the Paris Original choreography page" style="margin-left: -10px;">Paris Original</a></li>
+                              <li><a class="dropdown-item" href="Cinderella.php" title="Go to the Cinderella, Darling choreography page" style="margin-left: -10px;">Cinderella, Darling</a></li>
                               <li><a class="dropdown-item" href="Pirate.php" title="Go to the Pirate Dance choreography page" style="margin-left: -10px;">Pirate Dance</a></li>
                               <li><a class="dropdown-item" href="Brotherhood.php" title="Go to the Brotherhood of Man choreography page" style="margin-left: -10px;">Brotherhood of Man</a></li>
-                              <li><a class="dropdown-item" href="Believe.php" title="Go to the I Believe In You choreography page" style="margin-left: -10px;">I Believe In You</a></li>
                          </ul> 
                     </div>
 
                </div>
 
                <div id="castPage" style="clear: both;">
-                         <h1 id="pageName"><i>Cinderella, Darling</i> Choreography</h1> 
+                         <h1 id="pageName"><i>I Believe In You</i> Choreography</h1> 
                                         
-<div class="feature" style="margin:20px 30px 20px 30px;">
-                                   <p><a href="Cinderella Darling Choreography.pdf" title="Download a PDF of the Cinderella, Darling choreography" target="new">Download a PDF version</a></p>
+                    <div class="feature" style="margin:20px 30px 20px 30px;">
 
+                         <p><a href="Brotherhood.pdf" title="Download a PDF of the BI Believe In You choreography" target="new">Download a PDF version</a></p>
+                         
+                         <div>Line up from left to right: Mike, Rob, Don, Aaron, Chris, Bill, Steve, Lisette</div>
+                         
+                         <div>At <b style="font-size: 1.2em;">A</b>: Start with both hands on the sink.
+                         </div>
+                                   
+                         <div>At <b style="font-size: 1.2em;">B</b>: 
+                              <ul>
+                                   <li>Stand up at first &ldquo;Gotta stop&rdquo;</li>
+                                   <li>Punch with left hand on second &ldquo;Gotta stop&rdquo;</li>
+                                   <li>Punch with right hand on third &ldquo;gotta stop&rdquo;</li>
+                                   <li>Punch right fist into left hand 3 times on &ldquo;stop that man&rdquo;</li>
+                              </ul>
+                         </div>
+                         
+                         <div>Right before <b style="font-size: 1.2em;">E</b>: pretend to get ready like straight tie, fold down your sleeves, etc.</div>
 
-                                             <ul><b>Lineup:</b> Jen – Caroline – Kate – Allie - Lisa C - Sharon W – Lisa F  -  Anyone else?
-                                             </ul>
-                                             <ul>First Hallelujah!<li style="margin-left:50px;">Stage Right girls spin out</li></ul>
-                                                  
-                                             <ul>Second   Hallelujah!
-                                                  <li style="margin-left:50px;">Stage Left   girls spin out</li>
-                                             </ul>
-                                             <ul>Third   Hallelujah!
-                                                  <li style="margin-left:50px;">All spin out</li>
-                                             </ul>
-                                             <ul><b><span style="font-size: 1.2em;">B</span></b>  Cinderella   &amp; the Prince
-                                                  <li style="margin-left:50px;">Dramatic arms   out</li>
-                                             </ul>
-                                             <ul><b><span style="font-size: 1.2em;">D </span></b> Don't,   don't, don't
-                                                  <li style="margin-left:50px;">Stomp on 1st   and 3rd &quot;don't&quot;</li>
-                                             </ul>
-                                             <ul><b><span style="font-size: 1.2em;">E</span></b> We were raised on you darling
-                                                       <li style="margin-left:50px;">Step L-R-L-beat – then kick back right on &quot;raised&quot;</li>
-                                                       <li style="margin-left:50px;">Step right   front on &quot;on&quot;  step ball   change then ½ Jazz Square RLR on &quot;on you darling&quot; (R crosses L)</li>
-                                             </ul>
-                                             <ul style="margin-left:25px;">Loved you ever since
-                                                       <li style="margin-left:50px;">Spin right   and end in arabesque with left knee back</li>
-                                             </ul>
-                                             <ul style="margin-left:25px;">Don't turn down the prince
-                                                       <li style="margin-left:50px;">Rockettes   line-up outside leg forward and leaning back</li>
-                                             </ul>
-                                                                                               
-                                             <ul><b><span style="font-size: 1.2em;">F</span></b> On from Bergdorf &hellip;
-                                                  <li style="margin-left:50px;">Pose on individual solos</li>
-                                             </ul>
+                         <div>At <b style="font-size: 1.2em;">H</b>: Freeze</div>
+                         
+                         <div>At <b style="font-size: 1.2em;">J</b>: UnFreeze
+                              <ul>
+                                   <li>run your right hand then left hand through your hair on &ldquo;cool, clear&rdquo;</li>
+                                   <li>Slam you hand on the sink on beat 2 when Finch sings &ldquo;slam&rdquo;</li>
+                              </ul>
+                         </div>
 
-                                             <ul style="margin-left:25px;">New Rochelle PTA
-                                                       <li style="margin-left:50px;">Drag Rosemary back to the desk UC</li>
-                                             </ul>
-                                                  
-                                             <ul><b><span style="font-size: 1.2em;">G</span></b> Kate's &quot;phone us&quot;
-                                                  <li style="margin-left:50px;">Move downstage</li>
-                                             </ul>
-                                             
-                                             <ul><b><span style="font-size: 1.2em;">H</span></b> But don't, don't, don'&hellip;
-                                                  <li style="margin-left:50px;">Start grapevine on 3<sup>rd</sup> &quot;don't&quot; 
-                                                       <li style="margin-left:50px;"><u>Stage Right</u>:</li>
-                                                       <ul><li style="margin-left:50px;">R (don't) L (Cinda)  R with hip pop (rella) (Left X front over R)
-                                                       Sway hips R-L-R (step on Don't –Rela – Dar)</li></ul>
-                                                       <li style="margin-left:50px;"><u>Stage Left</u> reverses does it in reverse</li>
-                                             </ul>
-                                             <ul style="margin-left:25px;">Don't turn down the prince&hellip;
-                                                  <li style="margin-left:50px;">Pop outside   hip on &quot;rella&quot;</li>
-                                                       <li style="margin-left:50px;">Pop inside   hip on (darling)</li>
-                                                       <li style="margin-left:50px;">Pop outside   hip on (don't)</li>
-                                                       <li style="margin-left:50px;">Step back L   on &quot;turn&quot;</li>
-                                                       <li style="margin-left:50px;">Step R fwd on   &quot;down&quot; then L on &quot;the&quot;</li> 
-                                                       <li style="margin-left:50px;">then Right knee up   on &quot;prince&quot;</li>
-                                                       <li style="margin-left:50px;"><span style="color:red; ">(Same ? re. split stage?)</span></li>
-                                             </ul>
+                         <div>Right before <b style="font-size: 1.2em;">L</b>: Point at Finch on &ldquo;Gotta stop that man&rdquo;</div>
 
+                         <div>At <b style="font-size: 1.2em;">M</b>: Pretend to shave (you will hear kazoos), stop when the kasoos stop.</div>
+                         
+                         <div>At <b style="font-size: 1.2em;">O</b>: Move in front of the sinks on &ldquo;Don't let him be such a hero&rdquo;</div>
+                              <ul>
+                                   <li>Aaron, Bill, and Steve go via the center gap. the others go around the end.</li>
+                                   <li>2 side steps to the right:
+                                        <ul>
+                                             <li>&nbsp;(R)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(L)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(R)&nbsp;&nbsp;&nbsp;&nbsp;(L)</li>
+                                             <li>Stop that man, got-ta stop him</li></ul></li>
+                                   <li>2 side steps to the left:
+                                        <ul>
+                                             <li>&nbsp;(L)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(R)&nbsp;&nbsp;&nbsp;&nbsp;(L)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(R)</li>
+                                             <li>Stop that man, got-ta stop him</li></ul></li>
+                              </ul>
+                              
                                              
-                                             <ul><b><span style="font-size: 1.2em;">I </span></b> We were raised…
-                                                  <li style="margin-left:50px;">Step   L-R-L-beat – then kick back right on &quot;raised&quot;
-                                                       Step right front on &quot;on&quot; step ball change LRL on &quot;on you darling&quot; </li>
-                                             </ul>
-                                             
-                                             <ul style="margin-left:25px;">Loved you ever since
-                                                  <li style="margin-left:50px;">Spin right and end in arabesque with left knee back</li>
-                                             </ul>
-                                             
-                                             <ul><b><span style="font-size: 1.2em;">J</span></b> Don't louse up&hellip;
-                                                  <li style="margin-left:50px;">Circle counterclockwise</li>
-                                             </ul>
-                                             <ul style="margin-left:25px;">Hallelujah!
-                                                  <li style="margin-left:50px;">Big arms up ballet style, spin and curtsey</li>
-                                             </ul>
+                         <div>At <b style="font-size: 1.2em;">Q</b>:
+                              <ul>
+                                   <li>2 small steps forward on &ldquo;Gotta stop that man&rdquo;: </li>
+                                   <li>Bill, Steve, Lisette turn right on &ldquo;cold&hellip;&rdquo; then walk of stage</li>
+                                   <li>Aaron, Don, Rob, Mike turn left on &ldquo;cold&hellip;&rdquo; then walk of stage</li>
+                              </ul>
+                         </div>
 
 
                      </div><!--ends class="feature" -->    
