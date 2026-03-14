@@ -144,18 +144,18 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <h2 class="storyHead">Actors</h2>
                          <ul class="listing">
                          <li><span>J. Pierrepont Finch</span> <span><a href="#ChrisR">Chris Rubino</a></span></li>
+                         <li><span>Rosemary Pilkington</span> <span><a href="#Allie">Allie Beik</a></span></li>
                          <li><span>J.B. Biggley</span> <span><a href="#Jeff">Jeff Swafford</a></span></li>
-                         <li><span>Rosemary</span> <span><a href="#Allie">Allie Beik</a></span></li>
                          <li><span>Bud Frump</span> <span><a href="#Aaron">Aaron Kirschner</a></span></li>
-                         <li><span>Bratt</span> <span><a href="#Rob">Rob Hull</a></span></li>
-                         <li><span>Mr. Twimble/Womper</span> <span><a href="#Ross">Ross Druker</a></span></li>
-                         <li><span>Smitty</span> <span><a href="#Kate">Kate Philips-Kaiser</a></span></li>
-                         <li><span>Miss Jones</span> <span><a href="#Andrea">Andrea Broido</a></span></li>
                          <li><span>Hedy LaRue</span> <span><a href="#Donna">Donna Winquist</a></span></li>
+                         <li><span>Bratt</span> <span><a href="#Rob">Rob Hull</a></span></li>
+                         <li><span>Smitty</span> <span><a href="#Kate">Kate Philips-Kaiser</a></span></li>
+                         <li><span>Mr. Twimble/Womper</span> <span><a href="#Ross">Ross Druker</a></span></li>
+                         <li><span>Miss Jones</span> <span><a href="#Andrea">Andrea Broido</a></span></li>
                          <li><span>Ovington</span> <span><a href="#Bob">Robert Moore</a></span></li>
                          <li><span>Gatch</span> <span><a href="#Don">Don Cheetham</a></span></li>
-                         <li><span>Tackaberry</span> <span><a href="#Bill">Bill Michael</a></li>
                          <li><span>Miss Krumholtz</span> <span><a href="#SharonK">Sharon Kotzen</a></span></li>
+                         <li><span>Tackaberry</span> <span><a href="#Bill">Bill Michael</a></li>
                          <li><span>Jenkins</span> <span><a href="#Naz">Steve Naz</a></span></li>
                          <li><span>Toynbee</span> <span><a href="#Mike">Mike Salmansen</a></span></li>
                          <li><span>Davis</span> <span><a href="#Albert">Albert Melli</a></span></li>
@@ -175,7 +175,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <li><span>Secretaries</span> <span><a href="#LisaC">Lisa Cleek</a></span></li>
                          <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#LisaF">Lisa Franks</a></span></li>
                          <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Jen">Jennifer Heller</a></span></li>
-                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Laura">Laura Hull</a></span></li> 
+                         <!--<li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Laura">Laura Hull</a></span></li>-->
                          <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Caroline">Caroline Pashos</a></span></li>
                          <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#SharonWC">Sharon Weil-Chalker</a></span></li>
                          </li>
@@ -305,7 +305,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                <p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/statefair2025/headshots/Jennifer%20Heller%20playbill.jpg" class="headshot" /></span><a name="Jen"></a><span class="person">Jennifer Heller</span> (<span class="role">Secretary</span>) is delighted to be performing with her beloved RVCO family again. Ms. Heller has performed with many community theatre organizations throughout the region starting with RVCO in 2002. Regarding this production she shared, &ldquo;It's hard work but truly a joy with such talented and supportive directors, cast, and crew. As always, I hope this show might inspire an audience member to explore a new hobby. It's a wonderful community and there's something for everyone both onstage and behind the scenes.&rdquo; She would like to thank her husband for his love and support and cats Audrey, Nutkin, and Tiggywinkle for a daily dose of fuzz and joy. <a href="#top" class="back2top">Back to top</a></p>
      
-               <p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/patience2023/headshots/laura.jpg" alt="Laura Hull headshot" class="headshot"/></span><a name="Laura"></a><span class="person">Laura Hull</span> (<i>Secretay</i>) is excited to be performing again with RVCO!  Laura recently played Tessa in last fall's production of <i>The Gondoliers</i>. Past roles include Lady Saphir (<i>Patience</i>), Melissa (<i>Princess Ida</i>), Peep Bo (<i>The Mikado</i>), Player Queen (<i>Hamlet</i>), Mrs. Cratchit (<i>A Christmas Carol - The Musical</i>), and Fanchon (<i>Naughty Marietta, Revised 2018</i>). Before RVCO, Laura was a long time ensemble member of the Savoy Company in Philadelphia appearing in <i>The Pirates of Penzance</i>, <i>Iolanthe</i>, <i>Ruddigore</i>, <i>The Mikado</i>, <i>Yeoman of the Guard</i>, <i>The Gondoliers</i>, and <i>Trial By Jury</i>. Laura studies voice with Countertenor Gus Mercante of Wilmington, DE and thanks her husband Rob and their three cats for their love and support. <a href="#top" class="back2top">Back to top</a></p>
+               <!--<p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/patience2023/headshots/laura.jpg" alt="Laura Hull headshot" class="headshot"/></span><a name="Laura"></a><span class="person">Laura Hull</span> (<i>Secretay</i>) is excited to be performing again with RVCO!  Laura recently played Tessa in last fall's production of <i>The Gondoliers</i>. Past roles include Lady Saphir (<i>Patience</i>), Melissa (<i>Princess Ida</i>), Peep Bo (<i>The Mikado</i>), Player Queen (<i>Hamlet</i>), Mrs. Cratchit (<i>A Christmas Carol - The Musical</i>), and Fanchon (<i>Naughty Marietta, Revised 2018</i>). Before RVCO, Laura was a long time ensemble member of the Savoy Company in Philadelphia appearing in <i>The Pirates of Penzance</i>, <i>Iolanthe</i>, <i>Ruddigore</i>, <i>The Mikado</i>, <i>Yeoman of the Guard</i>, <i>The Gondoliers</i>, and <i>Trial By Jury</i>. Laura studies voice with Countertenor Gus Mercante of Wilmington, DE and thanks her husband Rob and their three cats for their love and support. <a href="#top" class="back2top">Back to top</a></p>-->
      
                <p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/patience2023/headshots/rob.jpg" alt="Rob Hull headshot" class="headshot"/></span><a name="Rob"></a><span class="person">Rob Hull</span> (<i>Bratt</i>) is glad to be appearing again with RVCO, after playing Don Alhambra in last Fall's production of <i>The Gondoliers</i>. He has previously been onstage with RVCO many times, in such roles as Henry Higgins (<i>My Fair Lady</i>), Scrooge, and Bunthorne (<i>Patience</i>), among others. Other favorite roles include Malvolio/Sir Toby/Sir Andrew (<i>Twelfth Night</i>), Valere (<i>Le Medecin Malgre Lui</i>), Canon Pennefather (<i>Murder on the Nile</i>), Christian/Valvere (<i>Cyrano</i>), Harold Hill, Fagin, Barney (<i>The Middle Ages</i>) and Marc (<i>Art</i>). He has performed with many other theaters in PA/DE, including City Theater, OperaDelaware, Players Club of Swathmore, Steel River Playhouse, K of P Players, Candlelight Dinner Theater and DE Children's Theater. He met his wife, Laura, in RVCO's 2018 production of <i>The Sorcerer</i> – truly magical onstage and off. They have three "familiars," Gracie, Hobbes and Benny – but sorry – they won't be appearing in this show. <a href="#top" class="back2top">Back to top</a></p>
           
