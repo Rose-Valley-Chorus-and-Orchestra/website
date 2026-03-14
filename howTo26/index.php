@@ -492,8 +492,17 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <li>7:30 Catchup with Smitty and Miss Krumholtz</li>
                                         <li>7:40 Work through the show</li></ul>
                               </ul>
-
                          </div>
+
+                         <div><ul><b>Wednesday March 11</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
+                                        <ul><u>CALLED</u>: Just the 8 MEN 
+                                             <li>7:30 <i>I Believe in You</i> first with Florrie then Caity</li>
+                                        </ul>
+                                        <ul><u>CALLED</u>: ALL Men and Miss Jones
+                                             <li>8:45 <i>Brotherhood of Man</i> with Caity</li>
+                                        </ul>
+                              </ul>
+                         </div>                                                       
 
                                    
                </div>
@@ -502,18 +511,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
 
-                                        <div><ul><b>Wednesday March 11</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
-                                                       <ul><u>CALLED</u>: Just the 8 MEN 
-                                                            <li>7:30 <i>I Believe in You</i> first with Florrie then Caity</li>
-                                                       </ul>
-                                                       <ul><u>CALLED</u>: ALL Men and Miss Jones
-                                                            <li>8:45 <i>Brotherhood of Man</i> with Caity</li>
-                                                       </ul>
-                                             </ul>
-                                        </div>                                                       
-
                                         <div><ul><b>Sunday March 15</b>: [A]
-                                                       <ul><u>CALLED</u>: TBD <span style="color: firebrick;"></span>
+                                                       <ul><u>CALLED</u>: ALL except Rosemary <span style="color: firebrick;"></span>
                                                        <ul>Choreography with Caity: 
                                                             <li>Anything that still needs to be choreographed and/or a Choreo Review day</ul>
                                         </div>

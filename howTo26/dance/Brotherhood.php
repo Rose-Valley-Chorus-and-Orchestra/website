@@ -271,7 +271,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   </div>
 
                                              </div>
-
+                              </div>
+                                             
                                    <div>At <b style="font-size: 1.2em;">M</b>:
                                         <ul>
                                              <li>Lunge forward with left foot on the rest on &ldquo;Yes, you're a brother&rdquo;: </li>
@@ -286,8 +287,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <li>front line turns around to shake the hand of the person behind them on &ldquo;is free&rdquo;</li>
                                              <li>Form 3 lines at &ldquo;Keep a-givin' each&rdquo;: </li>
                                         </ul>
-                                        <div class="placement" style="width:400px;padding-left:40px;">
-                                             <div style="background-color: #ddd;width: 60px;">Ross</div>
+                                        <div class="placement" style="width:720px;padding-left:20px;font-size: 1.0em;">
+                                               <div style="background-color: #fff;width: 45px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Ross</div>
                                                <div style="background-color: #fff;width: 30px;"></div>
                                                <div style="background-color: #ddd;width: 60px;">Chris</div>                                               
                                                <div style="background-color: #fff;width: 30px;"></div>
@@ -295,8 +297,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                <div style="background-color: #fff;width: 30px;"></div>
                                                <div style="background-color: #ddd;width: 60px;">Jeff</div>
                                         </div>
-                                        <div class="placement" style="width:500px;padding-left:40px;">
-                                               <div style="background-color: #fff;width: 40px;"></div>
+                                        <div class="placement" style="width:700px;padding-left:20px;font-size: 1.0em;">
+                                               <div style="background-color: #ddd;width: 60px;">Steve</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
                                                <div style="background-color: #ddd;width: 60px;">Don</div>
                                                <div style="background-color: #fff;width: 30px;"></div>
                                                <div style="background-color: #ddd;width: 60px;">Aaron</div>
@@ -306,8 +309,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                <div style="background-color: #ddd;width: 60px;">Bob</div>
                                                
                                         </div>
-                                        <div class="placement" style="width:400px;padding-left:40px;">
-                                               <div style="background-color: #ddd;width: 60px;">Steve</div>
+                                        <div class="placement" style="width:720px;padding-left:20px;font-size: 1.0em;">
+                                               <div style="background-color: #fff;width: 44px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Mike</div>
                                                <div style="background-color: #fff;width: 30px;"></div>
                                                <div style="background-color: #ddd;width: 60px;">Marc</div>
                                                <div style="background-color: #fff;width: 30px;"></div>
