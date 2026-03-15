@@ -229,7 +229,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <ul>Sound Engineer - <at href="#Bill">Anne Hamilton</a></ul>-->   
                     <li><span>Stage Manager</span>  <span><a href="#Kathy">Kathy Michael</a></span></li>  
                     <li><span>Costumes</span>  <span><a href="#Ellen">Ellen Kecskemethy Tillman</a></span></li>
-                    <li><span>Properties</span>  <span><at href="#Grace">Grace Albert</a> (chair)</span></li>
+                    <li><span>Properties</span>  <span><a href="#Grace">Grace Albert</a> (chair)</span></li>
                     <li><span>Set Designer</span>  <span><a href="#Mark">Mark Teseny</a></span></li>
                     <li><span>Set Contruction Chair</span> <span><at href="#Chris">Dave Zaffarano</a></span></li>
                          <!--<li><at href="#Michael">Michael Chang</a></li>-->
@@ -244,7 +244,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <!--<li><at href="#Brain">Brian Rubino</a></li>-->
                          <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Chris">Chris Rubino</a></span></li>
                          <!--<li><at href="#Meagan">Meagan Rubino</a></li>-->
-
                          <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Jeff">Jeff Swafford</a></span></li>
                          <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Donna">Tim Tillman</a></span></li>
                          <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Donna">Donna Winquist</a></span></li>
@@ -289,6 +288,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
           <H2 class="storyHead">Bios</H2>
           <div class="listAlpha" ><span class="role">listed alphabetically</span></div>
 
+               <p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/statefair2025/headshots/Grace%20Albert%20playbill.jpg" alt="Allie Beik headshot" class="headshot" /></span><a name="Grace"></a><span class="person">Grace Albert</span> (<span class="role">Props</span>) is excited to be helping out this upbeat and vibrant production. She was recently seen as Eleanor, Jeanne and a Fairtone in last years production of <i>State Fair</i>. <a href="#top" class="back2top">Back to top</a></p>
+     
                <p class="bios"><span class="headshot_img"><imgg src="https://archive.rvco.org/past_shows/cinderella2024/headshots/Don.jpg" alt="Allie Beik headshot" class="headshot" /></span><a name="Allie"></a><span class="person">Allie Beik</span> (<span class="role">Rosemary</span>) is so excited to make her RVCO debut in this incredibly fun production! Her most recent roles have been with NCT in <i>Into the Woods</i> (Cinderella's Stepmother), <i>A Little Night Music</i> (Mrs. Nordstrom), <i>Joseph and the Amazing Technicolor Dreamcoat</i> (Ensemble), and before that with Brooklyn Theatre Club in <i>My Fair Lady</i> (Eliza Doolittle), <i>Into the Woods</i> (Cinderella), <i>The Mystery of Edwin Drood</i> (Rosa Bud), and <i>Suessical</i> (Jojo). She is so thankful to her husband and family for taking on extra toddler time while she rehearses for this show and for their never-ending support!  <a href="#top" class="back2top">Back to top</a></p>
 
                <p class="bios"><span class="headshot_img"><imgg src="https://archive.rvco.org/past_shows/cinderella2024/headshots/Don.jpg" alt="Andrea Broido headshot" class="headshot" /></span><a name="Andrea"></a><span class="person">Andrea Broido</span> (<span class="role">Miss Jones</span>) is an accomplished soprano recognized for her work in opera, oratorio and recital.  She has sung with Virginia Opera, Opera Delaware, Opera Ensemble of NY, Berks Grand Opera (Reading, PA), Center Stage Opera and Capital Opera (both in Harrisburg, PA), Delaware Valley Opera Co., Rose Valley Chorus &amp; Orchestra and The Arden Club in such roles include Violetta, Mimi, Pamina, Rosalinda, Nedda, Micaela, Donna Elvira, the Countess and the Governess and Hanna Glawari. She has appeared as featured soloist with the Delaware Symphony Orchestra, the Roanoke Symphony, the Terre Haute Symphony (IN), the Concerto Soloists of Phila., the Reading Symphony, Vox Amadeus, as well as numerous appearances with the Lansdowne Symphony Orchestra and PA Pro Musica.  She holds a B.A. in Music from Hollins University (Roanoke, VA) and maintains a private voice studio in the Philadelphia area. <a href="#top" class="back2top">Back to top</a></p>
