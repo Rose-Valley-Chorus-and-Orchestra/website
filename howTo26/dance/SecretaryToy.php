@@ -243,7 +243,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    
                                    <ul>While singing &ldquo;so do not go jumping for joy&rdquo; walk 3 steps upstage. Pivot on left foot and turn head downstage on "<u><b>Boy</b></u>" then face downstage.</ul>
                                    <ul>After singing the second "A secretary is not", look left, look forward, look left while the Women enter on "a toy".</ul>
-                                   <ul>Half the people put their right hand up when singing the first "Hooray", the other keep it down.  On the second "Hooray", if you had your hand up now put it down else if you had your right hand down now put it up.</ul>
                                    </div>
                                         
                                    <div>At <b style="font-size: 1.2em;">G</b>, <u>Women</u> enter from stage left and cross right in 8 steps and face front on 8.</li>
@@ -290,8 +289,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                
                                    <div>At <b style="font-size: 1.2em;">M</b>: <u>Men</u> start forming a V upstage of Bud while the women for a V downstage of Bud.</div>
                                         <ul>On <b>toy</b>
-                                             <ul><li><u>Men</u>: spin the left</li>
-                                             <li><u>Women</u>: spin to the right</li>
+                                             <ul>
+                                                  <li>First <u>Women</u>spin to the right</li>
+                                                  <li>Then <u>Men</u>spin the left</li>
                                              </ul></ul>       
                                         <ul><b>Then</b> <u>ALL:</u>
                                              <ul><li>Lines 1 &amp; 3:</li>
@@ -300,6 +300,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        <li>3 - Chassé steps to the left, kick up with right foot</li>
                                                        <li>3 - Chassé steps to the right, kick up with left foot</li>
                                                        <li>2 - Jazz square - right over left</li>
+                                                       <li>8 - Grapevine steps to the right</li>
+                                                       <li>8 - Grapevine steps to the left</li>
                                                   </ul>
                                              </ul>                                                  
                                              <ul><li>Lines 2: spin to the right</li>
@@ -308,6 +310,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        <li>3 - Chassé steps to the right, kick up with left foot</li>                                               
                                                        <li>3 - Chassé steps to the left, kick up with right foot</li>
                                                        <li>2 - Jazz square - left over right</li>
+                                                       <li>8 - Grapevine steps to the left</li>
+                                                       <li>8 - Grapevine steps to the right</li>
                                                   </ul>
                                              </ul>   
                                              
@@ -319,8 +323,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                                    
                                    <div>At <b style="font-size: 1.2em;">P</b>: 
-                                        <ul><li><u>Men</u> watch Hedy enter</li>
-                                             <li><u>Women</u>: Women get their notepads from desks</li>
+                                        <ul><li><u>Men</u>: Move forward before singing &ldquo;And when you &hellip;&rdquo; then watch Hedy enter</li>
+                                             <li><u>Women</u>: Get  notepads from desks</li>
                                         </ul>
                                    </div>
 
@@ -349,7 +353,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </ul>
                                         <ul style="margin-left:-20px;">&rdquo;&hellip;a Tinker Toy!&rdquo;:   
                                              <ul><li><u>Women</u>: Pose left hip popped Right knee up facing center.</li>
-                                                  <li><u>Men</u>: ?</li></ul>     
+                                                  <li><u>Men</u>: Follow Heady upstage and exit.</li>
+                                             </ul>     
                                              </ul>
                                    </div>
                                              

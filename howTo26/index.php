@@ -502,7 +502,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <li>8:45 <i>Brotherhood of Man</i> with Caity</li>
                                         </ul>
                               </ul>
-                         </div>                                                       
+                         </div>          
+
+                         <div><ul><b>Sunday March 15</b>: [A]
+                                        <ul><u>CALLED</u>: ALL except Rosemary <span style="color: firebrick;"></span>
+                                        <ul>Choreography with Caity: 
+                                             <li>Anything that still needs to be choreographed and/or a Choreo Review day</ul>
+                         </div>
 
                                    
                </div>
@@ -511,20 +517,18 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
 
-                                        <div><ul><b>Sunday March 15</b>: [A]
-                                                       <ul><u>CALLED</u>: ALL except Rosemary <span style="color: firebrick;"></span>
-                                                       <ul>Choreography with Caity: 
-                                                            <li>Anything that still needs to be choreographed and/or a Choreo Review day</ul>
-                                        </div>
-
                                                                    
                                         <ul style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 50px; font-size: 0.85em"><b>-----  
                                                             EVERYONE is called from this date forward -----</b></ul>
                                    
 
                                         <div><ul><b>Monday March 16</b>: [A]
-                                                       <ul><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
-                                                            <li>Run/clean Act II</li></ul>
+                                                       <ul><div><span style="color: firebrick;"><b>NO REHEARSAL</b></span>: Due to possible severe storms,
+                                                            the Roosevelt Community Center
+                                                            is closing tonight.</div> 
+                                                            
+                                                            <s><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
+                                                            <li>Run/clean Act II</li></s></ul>
                                              </ul>
                                         </div>
 
@@ -532,9 +536,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <ul style="color: firebrick;background-color: yellow; padding: 5px 0px 5px 50px; font-size: 0.85em">
                                                             <b>----- EVERYONE OFF BOOK -----</b></ul>                                   
 
-                                        <div><ul><b>Wednesday March 18</b>: 2 rooms - <span style="color: firebrick;">no Kate</span>
-                                                       <ul><u>CALLED</u>: TBD 
+                                        <div><ul><b>Wednesday March 18</b>: 2 rooms - <span style="color: firebrick;">no Kate, Lisette</span>
+                                                       <ul><u>CALLED</u>: ALL 
                                                             <li>7:30 Finch Hedy intimacy</li>
+                                                            <li>7:30 Run through ensemble numbers: move details to follow</li>
                                                             <li>7:50 Finch Rosemary intimacy</li>
                                                             <li>8:10 - TBD</li></ul> 
                                         </div>
@@ -579,7 +584,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             <li>Run show</li></ul>
                                         </div>
 
-                                        <div><ul><b>Wednesday April 8</b>
+                                        <div><ul><b>Wednesday April 8</b> - <span style="color: firebrick;">no Matc</span>
                                                        <li><span style="color: firebrick;"><b>Note</b>: Strath Haven Middle School (SHMS)</span></li>
                                                        <li>Run show</li>
                                              </ul>
