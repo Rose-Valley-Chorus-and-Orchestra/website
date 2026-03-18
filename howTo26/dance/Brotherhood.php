@@ -324,9 +324,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </div>
 
                                    <div>After <b style="font-size: 1.2em;">P</b>: Arms on the shoulders of the people next to you &ldquo;fraternity&rdquo;
-                                        <ul><li>1<sup>st</sup> row: Kicks on each syllable of &ldquo;brotherhood of&rdquo; starting with the right foot and &ldquo;brotherhood of&rdquo; is right left right</li>
-                                             <li>2<sup>nd</sup> row: sway on each syllable of &ldquo;brotherhood of&rdquo; starting to the left and &ldquo;brotherhood of&rdquo; is left right left</li>
-                                        <li>3<sup>rd</sup> row: sway on each syllable of &ldquo;brotherhood of&rdquo; starting to the right and &ldquo;brotherhood of&rdquo; is right left right</li></ul>
+                                        <ul><li>1<sup>st</sup> row: Kicks on each syllable of “brotherhood of” starting with the right foot and “brotherhood of man” is right left right</li>
+                                             <li>2<sup>nd</sup> row: sway on each syllable of “brotherhood of” starting to the left and “brotherhood of man” is left right left</li>
+                                        <li>3<sup>rd</sup> row: sway on each syllable of “brotherhood of” starting to the right and “brotherhood of man” is right left right</li></ul>
                                    </div>
 
                                    <div>At <b style="font-size: 1.2em;">Q</b>: 
@@ -335,7 +335,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   <ul>
                                                        <li>2<sup>nd</sup> row: start up left &rarr; up right &rarr; down left &rarr; down right</li>
                                                        <li>3<sup>rd</sup> row: start down left &rarr; down right &rarr; up left &rarr; up right</li>                                                       
-                                                  <li>When she sings “Oh, <b>that</b> no<b>ble</b> feel<b>ing</b>. <b>Feels</b> <b>like</b> bells <b>are</b> peal<b>ling</b>. <b>Down</b> <b>with</b> doub<b>le</b>.”</li>
+                                                  <li>When she sings “Oh, <b>that</b> no<b>ble</b> feel<b>ing</b>. <b>Feels</b> <b>like</b> bells <b>are</b> peal<b>ing</b>. <b>Down</b> <b>with</b> doub<b>le</b>.”</li>
                                                   </ul>
                                              <li>Pivot to face forward on her first &ldquo;you-oo&rdquo;</li>
                                         </ul>
@@ -348,16 +348,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <ul><li>Face right and step forward with the left foot on &ldquo;Oh, that&rdquo;</li>
                                              <li>Put right heel forward on &ldquo;noble feeling&rdquo;</li>
                                              <li>Clap on the rest; step back with right foot on&ldquo;Feels like&rdquo;</li>
-                                             <li>Step back on left foot on &ldquo;bells are pealling&rdquo;</li>
-                                             <li>Clap on the rest; Face forward on on &ldquo;Dance&rdquo;</li> 
+                                             <li>Step back on left foot on “bells are pealing”</li>
+                                             <li>Clap on the rest; Face forward on “Down”</li> 
                                              <li>Jazz hands on &ldquo;Oh, brother&rdquo;</li></ul></li>
                                         </ul>
                                         <ul><li>3<sup>rd</sup> row:
                                              <ul><li>Face left and step forward with the right foot on &ldquo;Oh, that&rdquo;</li>
                                              <li>Put left heel forward on &ldquo;noble feeling&rdquo;</li>
                                              <li>Clap on the rest; step back with left foot on&ldquo;Feels like&rdquo;</li>
-                                             <li>Step back on right foot on &ldquo;bells are pealling&rdquo;</li>
-                                             <li>Clap on the rest; Face forward on on &ldquo;Dance&rdquo;</li> 
+                                             <li>Step back on right foot on “bells are pealing”</li>
+                                             <li>Clap on the rest; Face forward on on “Down”</li> 
                                              <li>Jazz hands on &ldquo;Oh, brother&rdquo;</li></ul></li>
                                         </ul>
                                    </div>
@@ -421,10 +421,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                
                                    <div>Leading into <b style="font-size: 1.2em;">W</b>: 
                                         <ul>
-                                             <li>Tap right foot 6 times on &ldquo;your life-long&rdquo;</li>
-                                             <li>Elbows out and right knee up on &ldquo;is free&rdquo;</li>
-                                             <li>Bend to the left on &ldquo;Keep&rdquo;</li>
-                                             <li>Bend to the right on &ldquo;givin'&rdquo;</li>
+                                             <li>Facing stage left, Tap right foot 6 times on “your life-long”</li>
+                                             <li>Elbows out  on “is free”</li>
+                                             <li>Bend with  left elbow down on “Keep”</li>
+                                             <li>Bend with the right elbow down on “givin'”</li>
                                              <li>Spin left after singing &ldquo;brother all&rdquo;</li>
                                              <li>Elbows at your side/left hand swings out/right hand swings in to your stomach then the opposite during &ldquo;Oh, aren't you&rdquo;</li>
                                         </ul>
@@ -434,12 +434,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <ul>
                                              <li>Up on your toes on &ldquo;proud&rdquo;</li>
                                              <li>Down on &ldquo;be&rdquo;</li>
-                                             <li>Right knee up/slap right hand to knee on &ldquo;in that fra&rdquo;</li>
-                                             <li>Left knee up/slap Left hand to knee on  &ldquo;ternity&rdquo;</li>
-                                             <li>Both hands up to the right on &ldquo;broth&rdquo; &rarr; left on &ldquo;er&rdquo; &rarr; right on &ldquo;hood&rdquo; &rarr; left on &ldquo;of&rdquo;</li>
+                                             <li>Left knee up/slap with right hand on “in that fra”</li>
+                                             <li>Right knee up/slap with left hand “ternity”</li>
+                                             <li>Both hands up to the right on “broth” → pump on “er” → to the left on “hood” → pump on “of”</li>
                                              <li>On &ldquo;man&rdquo;:
                                                   <ul><li>If stage right: left hand down to the left/right hand up to the right</li>
-                                                       <li>If stage left: left hand up to the left/right hand down to the right</li></ul></li> 
+                                                       <li>If stage left: left hand up to the left/right hand down to the right</li>
+                                                       <li>Jeff, Chris, Bill li  ft Andrea.</li></ul></li> 
 
                                         </ul>
                                    </div>

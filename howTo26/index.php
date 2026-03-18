@@ -509,7 +509,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <ul>Choreography with Caity: 
                                              <li>Anything that still needs to be choreographed and/or a Choreo Review day</ul>
                          </div>
+                              
+                         <div><ul><b>Monday March 16</b>: [A]
+                                        <ul><div><span style="color: firebrick;"><b>NO REHEARSAL</b></span>: Due to possible severe storms,
+                                             the Roosevelt Community Center
+                                             is closing tonight.</div> 
 
+                                             <s><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
+                                             <li>Run/clean Act II</li></s></ul>
+                              </ul>
+                         </div>
                                    
                </div>
                               
@@ -522,29 +531,19 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             EVERYONE is called from this date forward -----</b></ul>
                                    
 
-                                        <div><ul><b>Monday March 16</b>: [A]
-                                                       <ul><div><span style="color: firebrick;"><b>NO REHEARSAL</b></span>: Due to possible severe storms,
-                                                            the Roosevelt Community Center
-                                                            is closing tonight.</div> 
-                                                            
-                                                            <s><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
-                                                            <li>Run/clean Act II</li></s></ul>
-                                             </ul>
-                                        </div>
-
                                              
                                              <ul style="color: firebrick;background-color: yellow; padding: 5px 0px 5px 50px; font-size: 0.85em">
                                                             <b>----- EVERYONE OFF BOOK -----</b></ul>                                   
 
-                                        <div><ul><b>Wednesday March 18</b>: 2 rooms - <span style="color: firebrick;">no Kate, Lisette</span>
+                                        <div><ul><b>Wednesday March 18</b>: 2 rooms - <span style="color: firebrick;">no Kate, Rob</span>
                                                        <ul><u>CALLED</u>: ALL 
                                                             <li>7:30 Finch Hedy intimacy</li>
-                                                            <li>7:30 Run through ensemble numbers: move details to follow</li>
+                                                            <li>7:30 Run through ensemble numbers: more details to follow</li>
                                                             <li>7:50 Finch Rosemary intimacy</li>
                                                             <li>8:10 - TBD</li></ul> 
                                         </div>
                     
-                                        <div><ul><b>Sunday March 22</b>: 2 rooms - <span style="color: firebrick;">no Andrea, Mike, Rob, Laura</span>
+                                        <div><ul><b>Sunday March 22</b>: 2 rooms - <span style="color: firebrick;">no Andrea, Mike, Rob</span>
                                                        <ul><u>CALLED</u>: ALL - 
                                                             <li>Run Act I</li></ul>
                                         </div>
