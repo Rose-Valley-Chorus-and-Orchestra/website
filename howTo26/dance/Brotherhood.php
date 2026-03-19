@@ -55,7 +55,7 @@ h3 {font-size: 20px; color: darkred;}
 .notification {border: red solid 2px;margin: 10px 30px 0px;border-radius: 10px; padding:10px;}
 .notificationTime {margin-left: 30px;}
 
-#CompanyWay, #CoffeeBreak {margin: 10px 0 0 30px; max-width: 800px;}     
+#CompanyWay, #CoffeeBreak {margin: 10px 0 0 10px; max-width: 800px;}     
 #CompanyWay div, #CoffeeBreak div {margin-bottom: 10px;} 
 
 .placement {display: flex; width: 400px; margin-bottom; -30px;margin-top; -30px;padding: 0px;height: 35px;}
@@ -230,7 +230,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <div id="castPage" style="clear: both;">
                          <h1 id="pageName"><i>Brotherhood Of Man</i> Choreography</h1> 
                                         
-<div class="feature" style="margin:20px 30px 20px 30px;">
+                    <div class="feature" style="margin:20px 30px 20px 30px;">
 
 
                                    <p><a href="Brotherhood.pdf" title="Download a PDF of the Brotherhood of Man choreography" target="new">Download a PDF version</a></p>
