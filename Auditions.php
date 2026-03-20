@@ -89,7 +89,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
 
                     <!--<p>The first rehearsal is Sunday, ?? from 2 pm to 5 pm at <a href="https://www.google.com/maps/place/Holy+Trinity+Lutheran+Church/@39.8769582,-75.3648066,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e81375fa5483:0xdfe67210e756930!8m2!3d39.8769541!4d-75.3622317!16s%2Fg%2F1tg7szsf?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="new"><u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063. We will be reading through the show and doing some dancing. We'd love to have you join us. If you are planning on joining us, please email <a href="mailto:info@rvco.org">info@rvco.org</a> with your name and email address</p>-->
 
-                     <p><b>When:</b> Thursday March 19 at 7:00 – 10:00 p.m. and Saturday March 21 at 1:30 – 4:30 p.m.</p>
+                     <p><b>When:</b> Thursday March 19 at 7:00 – 10:00 p.m., Saturday March 21 at 1:30 – 4:30 p.m., and Saturday March 28 from 1:30-4:30 p.m.</p>
 
                      <p><b>Where:</b>	
                          <a href="https://www.google.com/maps/dir/Middletown+Free+Library,+464+S+Old+Middletown+Rd,+Media,+PA+19063//@39.8960977,-75.4441304,13z/data=!4m8!4m7!1m5!1m1!1s0x89c6e8eef37e4d19:0xcdda32443f69ddaa!2m2!1d-75.4029311!2d39.8960391!1m0?entry=ttu&amp;g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" title="Find Roosevelt Community Center in Google Maps" target="new">Roosevelt Community Center</a>, 464 S. Old Middletown Road, Media, PA 19063</p>
