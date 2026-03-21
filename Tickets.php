@@ -106,7 +106,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   </p>
                                                   <p>For information on Group tickets, e-mail <a href="mailto:groups@rvco.org">groups@rvco.org</a>.
                                                       <ul style="margin-left: 25px; margin-top: -10px;"><li>$15 each for 10 or more tickets</li>
-                                                      <li>Tickets must be for the same performance</li></ul></p>
+                                                      </ul>
+                                                 </p>
                                    <p>Performances:<br />
                                                        
                                                       <ul class="showDates" style="margin-top: -10px;">Saturday, April 18 at 2 p.m. and 7:30 p.m.</ul>
