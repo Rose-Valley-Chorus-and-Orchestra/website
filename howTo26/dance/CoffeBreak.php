@@ -295,7 +295,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <ul>
                                                   <li>"That office chair doesn't have to be foam rubber"
                                                        <ul>
-                                                            <li>Women spin left in to face partner</li>
+                                                            <li>Women spin left in place to face partner</li>
                                                        </ul>
                                                   </li>
                                              </ul>
