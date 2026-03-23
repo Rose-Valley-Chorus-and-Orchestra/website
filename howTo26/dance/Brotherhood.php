@@ -190,7 +190,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <li><a href="http://www.rvco.org/AboutUs.php">ABOUT</a></li>
                               <li><a href="http://www.rvco.org/Tickets.php">TICKETS</a></li>
                               <li><a href="http://www.rvco.org/Venue.php">VENUE</a></li>
-                              <li><a href="http://www.rvco.org/Auditions.php">AUDITION</a></li>
+                              <li><a href="http://www.rvco.org/Auditions.php">AUDITIONS</a></li>
                               <li><a href="http://www.rvco.org/Contacts.php"><nobr>CONTACT US</nobr></a></li>
                           </ul>
               </div> <!--class="secondary_header" id="menu" -->
@@ -439,7 +439,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <li>On &ldquo;man&rdquo;:
                                                   <ul><li>If stage right: left hand down to the left/right hand up to the right</li>
                                                        <li>If stage left: left hand up to the left/right hand down to the right</li>
-                                                       <li>Jeff, Chris, Bill li  ft Andrea.</li></ul></li> 
+                                                       <li>Jeff, Chris, Bill lift Andrea.</li>
+                                                  </ul></li> 
 
                                         </ul>
                                    </div>

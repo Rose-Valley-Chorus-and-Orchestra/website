@@ -567,7 +567,7 @@ body {
 .castpageLinks a:hover {color:darkred;}
 .castpageLinks div:not(first) {padding-left: 20px;}
 .Rtimes {margin: 0px 0px 0px 40px;}
-.castlist  .storyHead {font-size: 150%; margin-top: 0px;}
+.castlist  .storyHead {font-size: 150%; margin-top: 20px;}
 .bios  .storyHead {font-size: 150%; float: left;}
 .bios .listAlpha {float: left; padding: 5px 10px 20px;}
 .bios, .chorus {

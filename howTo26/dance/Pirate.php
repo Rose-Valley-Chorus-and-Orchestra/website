@@ -30,6 +30,8 @@ hr {border: 1.2px solid #DFBBBC;}
 .schedule {margin-left: auto; margin-right: auto; clear:both; padding-top: 5px;}
 #castPage {padding: 5px 0px;margin: 5px; font-size: 16px;}
 #castPage p {padding: ;margin: 10px 5px 5px 10px;}
+#dancePage {margin: 10px 0 0 10px; max-width: 800px;}     
+#dancePage div {margin-bottom: 10px;} 
 
 .schedule tr:nth-child(even){background-color: #f2f2f2;}
 .schedule tr:nth-child(odd){background-color: #ffffff;}
@@ -190,7 +192,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <li><a href="http://www.rvco.org/AboutUs.php">ABOUT</a></li>
                               <li><a href="http://www.rvco.org/Tickets.php">TICKETS</a></li>
                               <li><a href="http://www.rvco.org/Venue.php">VENUE</a></li>
-                              <li><a href="http://www.rvco.org/Auditions.php">AUDITION</a></li>
+                              <li><a href="http://www.rvco.org/Auditions.php">AUDITIONS</a></li>
                               <li><a href="http://www.rvco.org/Contacts.php"><nobr>CONTACT US</nobr></a></li>
                           </ul>
               </div> <!--class="secondary_header" id="menu" -->
@@ -230,13 +232,15 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <div id="castPage" style="clear: both;">
                          <h1 id="pageName"><i>Pirate Dance</i> Choreography</h1> 
                                         
-<div class="feature" style="margin:20px 30px 20px 30px;">
-                    <p><a href="Pirate Dance Choreography.pdf" title="Download a PDF of the Pirate Dance choreography" target="new">Download a PDF version</a></p>
+               <div id="dancePage" class="feature" style="margin:20px 30px 20px 30px;">
+                    <p><span style="padding-right:15px;"><a href="Pirate Dance Choreography.pdf" title="Download a PDF of the Pirate Dance choreography" target="new">Download a PDF version</a></span>
+                         <span style="padding: 0 15px;border-left: thin #AAA solid"><a href="#videos">Jump to Videos</a></span></p>
                     <p>Pirate Dance music<br/><audio controls>
                            <source src="../music/H2$ (The Pirate Dance).m4a" type="audio/mp4">
                          Your browser does not support the audio element.
                          </audio></p>
-
+                    
+                    <hr style="border: thin  #820608 solid" />
      
                          Pirate Dance  
                     Note: The dance is continuous, not really in "sections" but I think separate sections makes it easier to learn.
@@ -313,13 +317,31 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <li>Shimmy with arms up and out</li>
                          </ul>
 
+                    <hr style="border: thin  #820608 solid" /><a name="videos"></a>
 
-     
-     
-     
+                    <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/Pirate Dance full.mp4" title="Download the Full Pirate Dance choreography video" target="new">Download the complete video</a></div>
+                     <div class="video" style="padding: 5px;ackground-color: #52DB2D; position: relative; width: 100%; overflow: hidden; padding-top: 56.25%;" >
+                              <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/v3EyRqgvwyE" title="Full Pirate Dance choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
+                    </div>
 
-
-                     </div><!--ends class="feature" -->    
+                    <hr style="border: thin  #820608 solid" />
+     
+                         
+                    <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/Pirate Dance couples.mp4" title="Download the couples part of ther Pirate Dance choreography video" target="new">Download the couples portion of the dance video</a></div>
+                     <div class="video" style="padding: 5px;ackground-color: #52DB2D; position: relative; width: 303px; overflow: hidden; padding-top: 56.25%;" >
+                              <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/nBSS1Qmiix0" title="The couples part of the Pirate Dance choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
+                    </div>
+                         
+                         
+                         
+                    <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/Pirate Dance end.mp4" title="Download the end portion of the Pirate Dance choreography video" target="new">Download the end of the dance video</a></div>
+                     <div class="video" style="padding: 5px;ackground-color: #52DB2D; position: relative; width: 303px; overflow: hidden; padding-top: 56.25%;" >
+                              <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/kwdvzfrmqNE" title="End portion Pirate Dance choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
+                    </div>
+                         
+                         
+                         
+               </div><!--ends class="feature" -->    
      
                  </div><!--ends id="castPage" -->
 

@@ -29,6 +29,8 @@ hr {border: 1.2px solid #DFBBBC;}
 .schedule {margin-left: auto; margin-right: auto; clear:both; padding-top: 5px;}
 #castPage {padding: 5px 0px;margin: 5px; font-size: 16px;}
 #castPage p {padding: ;margin: 10px 5px 5px 10px;}
+#dancePage {margin: 10px 0 0 10px; max-width: 800px;}     
+#dancePage div {margin-bottom: 10px;} 
 
 .schedule tr:nth-child(even){background-color: #f2f2f2;}
 .schedule tr:nth-child(odd){background-color: #ffffff;}
@@ -57,10 +59,9 @@ h3 {font-size: 20px; color: darkred;}
 #castPage {padding: 5px 0px;margin: 5px; font-size: 16px;}
 #castPage p {padding: ;margin: 10px 5px 5px 10px;}
 
-#CompanyWay, #CoffeeBreak {margin: 10px 0 0 10px; max-width: 800px;}     
-#CompanyWay div, #CoffeeBreak div {margin-bottom: 10px;} 
-     
-     
+#dancePage, {margin: 10px 0 0 10px; max-width: 800px;}     
+#dancePage div {margin-bottom: 10px;} 
+        
      
 .placement {display: flex; width: 400px; margin-bottom; -30px;margin-top; -30px;padding: 0px;height: 35px;}
 .placement div { display: flex;
@@ -194,7 +195,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <li><a href="http://www.rvco.org/AboutUs.php">ABOUT</a></li>
                          <li><a href="http://www.rvco.org/Tickets.php">TICKETS</a></li>
                          <li><a href="http://www.rvco.org/Venue.php">VENUE</a></li>
-                         <li><a href="http://www.rvco.org/Auditions.php">AUDITION</a></li>
+                         <li><a href="http://www.rvco.org/Auditions.php">AUDITIONS</a></li>
                          <li><a href="http://www.rvco.org/Contacts.php"><nobr>CONTACT US</nobr></a></li>
                      </ul>
          </div> <!--class="secondary_header" id="menu" -->
@@ -236,7 +237,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <div class="feature" style="margin:20px 30px 20px 30px;">
                               
                     
-                              <div id="CoffeeBreak">
+                              <div id="dancePage">
                                    
                                    <div style="max-width: 800px;"><b>Jazz Square</b> - standing on your toes with the knees bent
                                         <ul><li>Step forward with your right foot and cross the right foot over the left. Your weight should be on your right foot.</li>
@@ -246,7 +247,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </div>
                                    
                                    <hr style="border: thin  #820608 solid"/>
-                                   <div><a href="Coffee Break Dance Steps.pdf" target="_blank">Download PDF</a></div>
+                                   <div><a href="Coffee Break Dance Steps.pdf" title="Download the Coffee Break choreography" target="new">Download PDF</a></div>
                                    <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/CoffeeBreak.mp4" title="Download the Coffee Break video" target="new">Download video</a></div>
                                     <div class="video" style="padding: 5px;ackground-color: #52DB2D; position: relative; width: 100%; overflow: hidden; padding-top: 56.25%;" >
                                              <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/qR3y9RgVzkM" title="Coffee Break choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />

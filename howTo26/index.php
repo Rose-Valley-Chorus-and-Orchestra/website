@@ -172,7 +172,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <li><a href="http://www.rvco.org/AboutUs.php">ABOUT</a></li>
                          <li><a href="http://www.rvco.org/Tickets.php">TICKETS</a></li>
                          <li><a href="http://www.rvco.org/Venue.php">VENUE</a></li>
-                         <li><a href="http://www.rvco.org/Auditions.php">AUDITION</a></li>
+                         <li><a href="http://www.rvco.org/Auditions.php">AUDITIONS</a></li>
                          <li><a href="http://www.rvco.org/Contacts.php"><nobr>CONTACT US</nobr></a></li>
                      </ul>
          </div> <!--class="secondary_header" id="menu" -->
@@ -201,6 +201,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                           <li><a class="dropdown-item" href="dance/Paris.php" title="Go to the Paris Original choreography page" style="margin-left: -10px;">Paris Original</a></li>
                           <li><a class="dropdown-item" href="dance/Cinderella.php" title="Go to the Cinderella, Darling choreography page" style="margin-left: -10px;">Cinderella, Darling</a></li>
                           <li><a class="dropdown-item" href="dance/Pirate.php" title="Go to the Pirate Dance choreography page" style="margin-left: -10px;">Pirate Dance</a></li>
+                          <li><a class="dropdown-item" href="Believe.php" title="Go to the I Believe In You choreography page" style="margin-left: -10px;">I Believe In You</a></li>
                           <li><a class="dropdown-item" href="dance/Brotherhood.php" title="Go to the Brotherhood of Man choreography page" style="margin-left: -10px;">Brotherhood of Man</a></li>
                         </ul> 
                     </div>
@@ -536,12 +537,15 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <li>8:10 - TBD</li></ul> 
                          </div>
                     
-                              
-                              
-                              
-                              
-                              
-                              
+                                             
+                         <ul style="color: firebrick;background-color: yellow; padding: 5px 0px 5px 50px; font-size: 0.85em">
+                                        <b>----- EVERYONE OFF BOOK -----</b></ul>                                   
+
+                         <div><ul><b>Sunday March 22</b>: 2 rooms - <span style="color: firebrick;">no Andrea, Mike, Rob</span>
+                                   <ul><u>CALLED</u>: ALL - 
+                                        <li>Run Act I</li></ul>
+                         </div>
+                                                            
                               
                </div>
                               
@@ -550,14 +554,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <span id="currentDate"></span>
 
                                                                    
-                                             
-                                             <ul style="color: firebrick;background-color: yellow; padding: 5px 0px 5px 50px; font-size: 0.85em">
-                                                            <b>----- EVERYONE OFF BOOK -----</b></ul>                                   
-
-                                        <div><ul><b>Sunday March 22</b>: 2 rooms - <span style="color: firebrick;">no Andrea, Mike, Rob</span>
-                                                       <ul><u>CALLED</u>: ALL - 
-                                                            <li>Run Act I</li></ul>
-                                        </div>
 
                                         <div><ul><b>Monday March 23</b>: [A] - <span style="color: firebrick;">no Mike</span>
                                                        <ul><u>CALLED</u>: ALL - 

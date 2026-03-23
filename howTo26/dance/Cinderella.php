@@ -31,6 +31,9 @@ hr {border: 1.2px solid #DFBBBC;}
 #castPage {padding: 5px 0px;margin: 5px; font-size: 16px;}
 #castPage p {padding: ;margin: 10px 5px 5px 10px;}
 
+#dancePage {margin: 10px 0 0 10px; max-width: 800px;}     
+#dancePage div {margin-bottom: 10px;} 
+
 .schedule tr:nth-child(even){background-color: #f2f2f2;}
 .schedule tr:nth-child(odd){background-color: #ffffff;}
 .schedule tr:hover {background-color: #ddd;}
@@ -190,7 +193,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <li><a href="http://www.rvco.org/AboutUs.php">ABOUT</a></li>
                               <li><a href="http://www.rvco.org/Tickets.php">TICKETS</a></li>
                               <li><a href="http://www.rvco.org/Venue.php">VENUE</a></li>
-                              <li><a href="http://www.rvco.org/Auditions.php">AUDITION</a></li>
+                              <li><a href="http://www.rvco.org/Auditions.php">AUDITIONS</a></li>
                               <li><a href="http://www.rvco.org/Contacts.php"><nobr>CONTACT US</nobr></a></li>
                           </ul>
               </div> <!--class="secondary_header" id="menu" -->
@@ -230,10 +233,15 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <div id="castPage" style="clear: both;">
                          <h1 id="pageName"><i>Cinderella, Darling</i> Choreography</h1> 
                                         
-<div class="feature" style="margin:20px 30px 20px 30px;">
-                                   <p><a href="Cinderella Darling Choreography.pdf" title="Download a PDF of the Cinderella, Darling choreography" target="new">Download a PDF version</a></p>
-
-
+                         <div id="dancePage" class="feature" style="margin:20px 30px 20px 30px;">
+                                   <div><a href="Cinderella Darling Choreography.pdf" tle="Download a PDF of the Cinderella, Darling choreography" tatarget="new">Download PDF</a></div>
+                                   <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/Cinderella Darling full.mp4" title="Download the full Cinderella Darling choreography video" target="new">Download video</a></div>
+                                    <div class="video" style="padding: 5px;ackground-color: #52DB2D; position: relative; width: 100%; overflow: hidden; padding-top: 56.25%;" >
+                                             <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/IwTnF5Gt0Oo" title="Full Cinderella Darling choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
+                                   </div>
+ 
+                                   <hr style="border: thin  #820608 solid" />
+     
                                              <ul><b>Lineup:</b> Jen – Caroline – Kate – Allie - Lisa C - Sharon W – Lisa F  -  Anyone else?
                                              </ul>
                                              <ul>First Hallelujah!<li style="margin-left:50px;">Stage Right girls spin out</li></ul>

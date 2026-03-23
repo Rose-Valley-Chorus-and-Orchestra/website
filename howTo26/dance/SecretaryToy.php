@@ -190,7 +190,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <li><a href="http://www.rvco.org/AboutUs.php">ABOUT</a></li>
                          <li><a href="http://www.rvco.org/Tickets.php">TICKETS</a></li>
                          <li><a href="http://www.rvco.org/Venue.php">VENUE</a></li>
-                         <li><a href="http://www.rvco.org/Auditions.php">AUDITION</a></li>
+                         <li><a href="http://www.rvco.org/Auditions.php">AUDITIONS</a></li>
                          <li><a href="http://www.rvco.org/Contacts.php"><nobr>CONTACT US</nobr></a></li>
                      </ul>
          </div> <!--class="secondary_header" id="menu" -->
@@ -311,6 +311,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        <li>3 - Chassé steps to the left, kick up with right foot</li>
                                                        <li>3 - Chassé steps to the right, kick up with left foot</li>
                                                        <li>2 - Jazz square - right over left</li>
+                                                       <li><u>Line 1</u> moves back to become Line 3/<u>Line 2</u> moves forward to become Line 1</li>
                                                        <li>8 - Grapevine steps to the right</li>
                                                        <li>8 - Grapevine steps to the left</li>
                                                   </ul>
@@ -321,6 +322,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        <li>3 - Chassé steps to the right, kick up with left foot</li>                                               
                                                        <li>3 - Chassé steps to the left, kick up with right foot</li>
                                                        <li>2 - Jazz square - left over right</li>
+                                                       <li><u>Move forward to become Line 2</li>
                                                        <li>8 - Grapevine steps to the left</li>
                                                        <li>8 - Grapevine steps to the right</li>
                                                   </ul>

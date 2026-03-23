@@ -190,7 +190,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <li><a href="http://www.rvco.org/AboutUs.php">ABOUT</a></li>
                               <li><a href="http://www.rvco.org/Tickets.php">TICKETS</a></li>
                               <li><a href="http://www.rvco.org/Venue.php">VENUE</a></li>
-                              <li><a href="http://www.rvco.org/Auditions.php">AUDITION</a></li>
+                              <li><a href="http://www.rvco.org/Auditions.php">AUDITIONS</a></li>
                               <li><a href="http://www.rvco.org/Contacts.php"><nobr>CONTACT US</nobr></a></li>
                           </ul>
               </div> <!--class="secondary_header" id="menu" -->

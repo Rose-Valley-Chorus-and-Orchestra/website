@@ -31,6 +31,9 @@ hr {border: 1.2px solid #DFBBBC;}
 #castPage {padding: 5px 0px;margin: 5px; font-size: 16px;}
 #castPage p {padding: ;margin: 10px 5px 5px 10px;}
 
+#dancePage {margin: 10px 0 0 10px; max-width: 800px;}     
+#dancePage div {margin-bottom: 10px;} 
+     
 .schedule tr:nth-child(even){background-color: #f2f2f2;}
 .schedule tr:nth-child(odd){background-color: #ffffff;}
 .schedule tr:hover {background-color: #ddd;}
@@ -190,7 +193,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <li><a href="http://www.rvco.org/AboutUs.php">ABOUT</a></li>
                          <li><a href="http://www.rvco.org/Tickets.php">TICKETS</a></li>
                          <li><a href="http://www.rvco.org/Venue.php">VENUE</a></li>
-                         <li><a href="http://www.rvco.org/Auditions.php">AUDITION</a></li>
+                         <li><a href="http://www.rvco.org/Auditions.php">AUDITIONS</a></li>
                          <li><a href="http://www.rvco.org/Contacts.php"><nobr>CONTACT US</nobr></a></li>
                      </ul>
          </div> <!--class="secondary_header" id="menu" -->
@@ -231,18 +234,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <h1 id="pageName"><i>The Company Way</i> Choreography</h1> 
 
                                         
-                    <div class="feature" style="clear: both;">
+                    <div id="dancePage" class="feature" style="margin:20px 30px 20px 30px;">
 
-                         <div style="margin-left: 0px;padding-top: 10px;">
                               
-                              <div id="CompanyWay">
                                    <div><a href="The Company Way choreography.pdf" target="_blank">Download a PDF version</a></div>
                                    <div>Two groups upstage.
                                         <ul><li>Group 1 - Stage left in 2 lines: Jen, Sharon K, Caroline, Lisa C, Lisette, Bob, Bill</li>
                                         <li>Group 2 - Stage right 2 lines: Lisa F, Sharon WC, Laura, Mike, Marc, Steve, Chip</li></ul>
                                    </div>
                                    <div>At <b style="font-size: 1.2em;">C</b>, starting on the left foot take 3 steps forward.</div>
-                                   <div>When Bud sings "pride" put right fist at your heart.  Put your fist down on "in<u><b>side</b></u>".</div>
+                                   <div>When you sing "pride" put right fist at your heart.  Put your fist down when Bud sings  "in<u><b>side</b></u>".</div>
                                    <div>When Bud sings "sweet" put your right palm on your heart then point your index finger up on "con<u><b>form</b></u>ity".</div>
                                    <div>Half the people put their right hand up when singing the first "Hooray", the other keep it down.  On the second "Hooray", if you had your hand up now put it down else if you had your right hand down now put it up.</div>
                                    <div>At <b style="font-size: 1.2em;">E</b>:
@@ -289,7 +290,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                           <div></div>
                                           <div></div>  
                                           <div></div>
-                                          <div style="background-color: #ddd;">Laura</div>
                                    </div>
                                    <div class="placement" style="width:400px">
                                           <div style="background-color: #ddd;">Bob</div>
@@ -330,9 +330,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </div>
                                    <div>Raise both hands toward Bud on "way". Pump your hands on the final "Frump".</div>
 
-                         </div>
-                         </div>    
-                         </div>                                   
+
+                    </div>                                   
                               
 
 
