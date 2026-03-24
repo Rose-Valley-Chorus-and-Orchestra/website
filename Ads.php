@@ -93,18 +93,21 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <tr style="border-bottom: medium solid #910407"><th>Ad Size</th>
                                              <th style="text-align-last: center;">&nbsp;Cost&nbsp;</th>
                                              <th style="text-align-last: center;">&nbsp;Tickets</th></tr>
-                                        <tr><td>Inside Cover</td>
+                                        <tr><td>Inside Cover<br />(7.5"H x 4.5"W)</td>
                                              <td style="text-align-last: center;">$200</td>
-                                             <td style="text-align-last: center;">4</tr></tr>
-                                        <tr><td>Full Page</td>
+                                             <td style="text-align-last: center;">4</td></tr>
+                                             <tr><td colspan="3"><hr style="border: 1.5px #F6D0D1 solid; padding: 0px;margin:0px;"/></td></tr>
+                                        <tr><td>Full Page<br />(7.5"H x 4.5"W)</td>
                                              <td style="text-align-last: center;">$150</td>
-                                             <td style="text-align-last: center;">3</td></tr>
-                                        <tr><td>Half Page</td>
+                                             <td style="text-align-last: center;">3</td>
+                                             <tr><td colspan="3"><hr style="border: 1.5px #F6D0D1 solid; padding: 0px;margin:0px;"/></td></tr>
+                                        <tr><td>Half Page<br />(3.6"H x 4.5"W)</td>
                                              <td style="text-align-last: center;">$100</td>
-                                             <td style="text-align-last: center;">2</td></tr>
-                                        <tr><td>Quarter Page</td>
+                                             <td style="text-align-last: center;">2</td>
+                                             <tr><td colspan="3"><hr style="border: 1.5px #F6D0D1 solid; padding: 0px;margin:0px;"/></td></tr>
+                                        <tr><td>Quarter Page<br />(1.8"H x 4.5"W)</td>
                                              <td style="text-align-last: center;">$75</td>
-                                             <td style="text-align-last: center;">1</tr></td>
+                                             <td style="text-align-last: center;">1</td></tr>
                                        </table>
 
                                         <p>For additional information email: <a href="mailto:ads@rvco.org">ads@rvco.org</a></p>
