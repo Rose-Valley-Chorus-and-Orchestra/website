@@ -545,6 +545,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <ul><u>CALLED</u>: ALL - 
                                         <li>Run Act I</li></ul>
                          </div>
+                              
+                         <div><ul><b>Monday March 23</b>: [A] - <span style="color: firebrick;">no Mike</span>
+                                        <ul><u>CALLED</u>: ALL - 
+                                             <li>Run Act II</li></ul>
+                         </div>
+
                                                             
                               
                </div>
@@ -555,14 +561,17 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                                                                    
 
-                                        <div><ul><b>Monday March 23</b>: [A] - <span style="color: firebrick;">no Mike</span>
-                                                       <ul><u>CALLED</u>: ALL - 
-                                                            <li>Run Act II</li></ul>
-                                        </div>
-
                                         <div><ul><b>Wednesday March 25</b>: [A] - <span style="color: firebrick;">no Mike</span>
                                                        <ul><u>CALLED</u>: ALL
-                                                            <li>Trouble spots TBD with Caity</li></ul>
+                                                            <li>7:30-8:00 Act II, Scene 1 "Cinderella, Darling"</li>
+
+                                                            <li>8:00-8:15 Assorted Bud Frump scene music cues, namely elevator dance and #32 "Doom" (call Bud, Hedy, Marc, Finch)</li>
+
+                                                            <li>8:15-8:30 "Been a Long Day" (Finch, Rose, Smitty)</li>
+
+                                                            <li>8:30-9:00 Act I, Scene 13 party scene (all but Ross?)</li>
+
+                                                            <li>9:00-10:00 "Brotherhood" (all men plus Andrea)</li></ul>
                                         </div>
                
                                         <div><ul><b>Sunday March 29</b>: [A] - <span style="color: firebrick;">no Mike</span>
