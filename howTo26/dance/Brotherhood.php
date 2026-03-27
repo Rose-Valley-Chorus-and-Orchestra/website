@@ -30,7 +30,17 @@ hr {border: 1.2px solid #DFBBBC;}
 .schedule {margin-left: auto; margin-right: auto; clear:both; padding-top: 5px;}
 #castPage {padding: 5px 0px;margin: 5px; font-size: 16px;}
 #castPage p {padding: ;margin: 10px 5px 5px 10px;}
-
+#dancePage {margin: 10px 0 0 10px; max-width: 800px;}     
+#dancePage div {margin-bottom: 10px;} 
+     
+.danceTable {max-width: 600px;
+     margin-left: 40px;
+     border: 1px solid #BBBBBB;}
+.danceTable th, td {padding: 0px 8px;
+     border: 1px solid #BBBBBB;
+     }
+danceTable th {background-color: black;
+     }     
 .schedule tr:nth-child(even){background-color: #f2f2f2;}
 .schedule tr:nth-child(odd){background-color: #ffffff;}
 .schedule tr:hover {background-color: #ddd;}
@@ -229,13 +239,15 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <div id="castPage" style="clear: both;">
                          <h1 id="pageName"><i>Brotherhood Of Man</i> Choreography</h1> 
                                         
-                    <div class="feature" style="margin:20px 30px 20px 30px;">
+                         <div id="dancePage" class="feature" style="margin:20px 30px 20px 30px;">
+
 
 
                                    <p><a href="Brotherhood.pdf" title="Download a PDF of the Brotherhood of Man choreography" target="new">Download a PDF version</a></p>
+                                   <p><a href="Brotherhood.docx" title="Download a PDF of the Brotherhood of Man choreography" target="new">Download a Microsoft Word version</a></p>
                                    <div>At <b style="font-size: 1.2em;">E</b>:
-                                        <ul><li>Form 2 lines.</li>
-                                             <li>On &ldquo;all you <b>can</b>&rdquo; point to the person next to you.</li>
+                                        <ul><li>Form 2 lines on &ldquo;in <b>free</b>&rdquo;.</li>
+                                             <li>On &ldquo;all <b>you</b> can&rdquo; point to the person next to you.</li>
                                         </ul>
                                    </div>
 
@@ -273,16 +285,31 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </div>
                               </div>
                                              
-                                   <div>At <b style="font-size: 1.2em;">M</b>:
+                                   <div>At <b style="font-size: 1.2em;">L</b>:
                                         <ul>
-                                             <li>Lunge forward with left foot on the rest on &ldquo;Yes, you're a brother&rdquo;: </li>
+                                             <li>Start clap after “man”: </li>
+                                             <li>Stop clapping as Womper indicates.</li>
+                                             <li>Bud keeps clapping until Bratt taps his head.</li>
+                                        </ul>
+                                   </div>
+                                        
+<div>At <b style="font-size: 1.2em;">M</b>:
+                                        <ul>
+                                             <li>Lunge forward with left foot on the rest on &ldquo;Yes, you're a brother&rdquo;. </li>
                                              <li>Lean more on &ldquo;Oh, yes, oh yes.&rdquo;</li>
                                         </ul>
                                    </div>
 
+                                   <div>At <b style="font-size: 1.2em;">N</b>:
+                                        <ul>
+                                             <li>Stand up straight &ldquo;<b>All</b> human hearts&rdquo;. </li>
+                                             <li>Right hand on heart at &ldquo;Oh, <b>yes</b> your lifelong&rdquo;</li>
+                                        </ul>
+                                   </div>
 
-                                   <div>Leading into <b style="font-size: 1.2em;">O</b>: 
-                                        <ul><li>Right hand on heart at &ldquo;Oh, yes your lifelong&rdquo;</li>
+
+                                   <div>At <b style="font-size: 1.2em;">O</b>: 
+                                        <ul>
                                              <li>Shake your neighbor's hand on “membership”: 
                                              <li>front line turns around to shake the hand of the person behind them on &ldquo;is free&rdquo;</li>
                                              <li>Form 3 lines at &ldquo;Keep a-givin' each&rdquo;: </li>
@@ -311,36 +338,70 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
                                         <div class="placement" style="width:720px;padding-left:20px;font-size: 1.0em;">
                                                <div style="background-color: #fff;width: 44px;"></div>
-                                               <div style="background-color: #ddd;width: 60px;">Mike</div>
-                                               <div style="background-color: #fff;width: 30px;"></div>
-                                               <div style="background-color: #ddd;width: 60px;">Marc</div>
+                                               <div style="background-color: #ddd;width: 60px;">Chip</div>
                                                <div style="background-color: #fff;width: 30px;"></div>
                                                <div style="background-color: #ddd;width: 60px;">Lisette</div>
                                                <div style="background-color: #fff;width: 30px;"></div>
-                                               <div style="background-color: #ddd;width: 60px;">Chip</div>
+                                               <div style="background-color: #ddd;width: 60px;">Marc</div>
+                                               <div style="background-color: #fff;width: 30px;"></div>
+                                               <div style="background-color: #ddd;width: 60px;">Mike</div>
                                         </div>
 
                                    </div>
 
-                                   <div>After <b style="font-size: 1.2em;">P</b>: Arms on the shoulders of the people next to you &ldquo;fraternity&rdquo;
-                                        <ul><li>1<sup>st</sup> row: Kicks on each syllable of “brotherhood of” starting with the right foot and “brotherhood of man” is right left right</li>
-                                             <li>2<sup>nd</sup> row: sway on each syllable of “brotherhood of” starting to the left and “brotherhood of man” is left right left</li>
-                                        <li>3<sup>rd</sup> row: sway on each syllable of “brotherhood of” starting to the right and “brotherhood of man” is right left right</li></ul>
+                                   <div>After <b style="font-size: 1.2em;">P</b>: Arms on the shoulders of the people next to you “in that fraternity”
+                                        <table class="danceTable">
+                                             <tr style="background-color: lightcyan;">
+                                                  <th>Row</th>
+                                                  <th>Broth</th>
+                                                  <th>er</th>
+                                                  <th>hood</th>
+                                                  <th>of</th>
+                                                  <th>man&nbsp;&nbsp;&nbsp;&nbsp;Beat 3&nbsp;&nbsp;&nbsp;Beat 1</th>
+                                             </tr>
+                                             <tr>
+                                                  <td>1<sup>st</sup> - kicks</td>
+                                                  <td>Right</td>
+                                                  <td>Left</td>
+                                                  <td>Right</td>
+                                                  <td>Left</td>
+                                                  <td>Right&nbsp;&nbsp;&nbsp;&nbsp;Left&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right</td>
+                                             </tr>
+                                             <tr>
+                                                  <td>2<sup>st</sup> - sways</td>
+                                                  <td>Right</td>
+                                                  <td>Left</td>
+                                                  <td>Right</td>
+                                                  <td>Left</td>
+                                                  <td>Right&nbsp;&nbsp;&nbsp;&nbsp;Left&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right</th>
+                                             </tr>
+                                             <tr>
+                                                  <td>3<sup>rd</sup> - sways</td>
+                                                  <td>Left</td>
+                                                  <td>Right</td>
+                                                  <td>Left</td>
+                                                  <td>Right</td>
+                                                  <td>Left&nbsp;&nbsp;&nbsp;&nbsp;Right&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right</th>
+                                             </tr>
+                                        </table>
+                                        <!--<ul><li>1<sup>st</sup> row: Kicks on each syllable of “brotherhood of” starting with the right foot and “brotherhood of man” is right left right</li>
+                                             <li>2<sup>nd</sup> row: sway on each syllable of “brotherhood of” starting to the <b>left</b> and “brotherhood of man” is left right left</li>
+                                        <li>3<sup>rd</sup> row: sway on each syllable of “brotherhood of” starting to the <b>right</b> and “brotherhood of man” is right left right</li></ul>-->
                                    </div>
 
                                    <div>At <b style="font-size: 1.2em;">Q</b>: 
-                                        <ul><li>Turn upstage looking at Miss Jones</li>
-                                             <li>Claps on beat 2 and 4 -</li>
+                                        <ul><li>Turn upstage looking at  Miss Jones on the rest.</li>
+                                             <li>Clap on beat 2 and 4 when she sings:</li>
                                                   <ul>
-                                                       <li>2<sup>nd</sup> row: start up left &rarr; up right &rarr; down left &rarr; down right</li>
-                                                       <li>3<sup>rd</sup> row: start down left &rarr; down right &rarr; up left &rarr; up right</li>                                                       
-                                                  <li>When she sings “Oh, <b>that</b> no<b>ble</b> feel<b>ing</b>. <b>Feels</b> <b>like</b> bells <b>are</b> peal<b>ing</b>. <b>Down</b> <b>with</b> doub<b>le</b>.”</li>
+                                                  <li><span style="color: white;"><span style="color: black;">&nbsp;UL &nbsp;&nbsp; UR</span> &nbsp;no<span style="color: black;">DL</span> feel <span style="color: black;">DR</span>. &nbsp;<span style="color: black;">DR</span> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: black;">DL</span> bells &nbsp;&nbsp;<span style="color: black;">UR</span> peal&nbsp;<span style="color: black;">UL</span>. &nbsp;&nbsp;&nbsp;<span style="color: black;">UL</span> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: black;">UR</span> doub&nbsp;&nbsp;<span style="color: black;">DL</span> deal<span style="color: black;">DR</span>.</span></li>
+                                                  <li><b>Oh</b>, <b>that</b> no<b>ble</b> feel<b>ing</b>. <b>Feels</b> <b>like</b> bells <b>are</b> peal<b>ing</b>. <b>Down</b> <b>with</b> doub<b>le</b> deal<b>ing</b>.”</li>
                                                   </ul>
+                                             <li>Stop clapping on &ldquo;Oh, brother.&rdquo;</li>
                                              <li>Pivot to face forward on her first &ldquo;you-oo&rdquo;</li>
                                         </ul>
                                    </div>
 
-                                   <div>At <b style="font-size: 1.2em;">S</b>: bend your knees, hands tap your thighs. Stop at last measure before <b style="font-size: 1.2em;">U</b>.</div>
+                                   <div>At <b style="font-size: 1.2em;">S</b>: 2<sup>nd</sup> and 3<sup>rd</sup> rows: bend your knees, hands tap your thighs. Stop at last measure before <b style="font-size: 1.2em;">U</b>.</div>
 
                                    <div>At <b style="font-size: 1.2em;">U</b>:
                                         <ul><li>2<sup>nd</sup> row:
@@ -420,11 +481,15 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                
                                    <div>Leading into <b style="font-size: 1.2em;">W</b>: 
                                         <ul>
-                                             <li>Facing stage left, Tap right foot 6 times on “your life-long”</li>
-                                             <li>Elbows out  on “is free”</li>
-                                             <li>Bend with  left elbow down on “Keep”</li>
-                                             <li>Bend with the right elbow down on “givin'”</li>
-                                             <li>Spin left after singing &ldquo;brother all&rdquo;</li>
+                                             <li>Facing stage left, Tap right foot 6 times on &ldquo;your life-long membership&rdquo;</li>
+                                             <li>Right hip thrust out and elbows out on &ldquo;is&rdquo;</li>
+                                             <li>Twist front on &ldquo;free"</li>
+                                             <li>Elbows out  on &ldquo;is free&rdquo;</li>
+                                             <li>Bend down with the left elbow on &ldquo;Keep&rdquo;</li>
+                                             <li>Bend down with the right elbow down on &ldquo;givin'”</li>
+                                             <li> Step with right foot on &ldquo;brother</li>
+                                             <li>Step forward with the left foot on &ldquo;all&rdquo;</li>
+                                             <li>Spin left on &ldquo;you can&rdquo;</li>
                                              <li>Elbows at your side/left hand swings out/right hand swings in to your stomach then the opposite during &ldquo;Oh, aren't you&rdquo;</li>
                                         </ul>
                                    </div>
@@ -433,9 +498,14 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <ul>
                                              <li>Up on your toes on &ldquo;proud&rdquo;</li>
                                              <li>Down on &ldquo;be&rdquo;</li>
-                                             <li>Left knee up/slap with right hand on “in that fra”</li>
-                                             <li>Right knee up/slap with left hand “ternity”</li>
-                                             <li>Both hands up to the right on “broth” → pump on “er” → to the left on “hood” → pump on “of”</li>
+                                             <li>Step forward with the left foot on &ldquo;in&rdquo;</li>
+                                             <li>Square up with the right foot on &ldquo;that&rdquo;</li>
+                                             <li>Left knee up/slap with right hand on “fra”</li>
+                                             <li>Right knee up/slap with left hand “ty”</li>
+                                             <li>On brotherhood of man:</li>
+                                                  <ul><li>Stage right: Both hands up to the right on "broth" → pump on "er" → to the left on "hood" → pump on "of"</li>
+                                                  <li>Stage right: Both hands up to the left on “broth” → pump on “er” → to the right on “hood” → pump on “of”</li>
+                                                  </ul>     
                                              <li>On &ldquo;man&rdquo;:
                                                   <ul><li>If stage right: left hand down to the left/right hand up to the right</li>
                                                        <li>If stage left: left hand up to the left/right hand down to the right</li>
@@ -446,6 +516,19 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    </div>
 
 
+                    
+                    <hr style="border: thin  #820608 solid" /><a name="videos"></a>
+
+                    <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/Brotherhood.MOV" title="Download the Brotherhood of Man choreography video" target="new">Download the complete video</a></div>
+                     <div class="video" style="padding: 5px;ackground-color: #52DB2D; position: relative; width: 100%; overflow: hidden; padding-top: 56.25%;" >
+                              <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/U-O2b9ngQzg" title="Brotherhood of Man choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
+                    </div>
+
+                    
+                    
+                    
+                    
+                    
                      </div><!--ends class="feature" -->    
      
                  </div><!--ends id="castPage" -->
