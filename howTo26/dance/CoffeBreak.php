@@ -212,8 +212,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <?php include("../sp_announcement.php"); ?>
 
                     <div class="castpageLinks">
-                         <a title="Return to the cast page" href="index.php"><span class="button" style="float:left;">Cast page</span></a>
-                         <a href="set_designs.php" title="Go to the set design page"><span class="button" style="float:left;margin-left: 20px;">Set Designs</span></a>                               
+                         <a title="Return to the cast page" href="../index.php"><span class="button" style="float:left;">Cast page</span></a>
+                         <a href="../set_designs.php" title="Go to the set design page"><span class="button" style="float:left;margin-left: 20px;">Set Designs</span></a>                               
 
                          <div class="dropdown" style="float:left;">
                          <button type="button" class="btn btn-primary dropdown-toggle button" data-bs-toggle="dropdown">Choreography
