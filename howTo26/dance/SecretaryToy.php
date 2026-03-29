@@ -322,7 +322,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        <li>3 - Chassé steps to the right, kick up with left foot</li>                                               
                                                        <li>3 - Chassé steps to the left, kick up with right foot</li>
                                                        <li>2 - Jazz square - left over right</li>
-                                                       <li><u>Move forward to become Line 2</li>
+                                                       <li>Move forward to become Line 2</li>
                                                        <li>8 - Grapevine steps to the left</li>
                                                        <li>8 - Grapevine steps to the right</li>
                                                   </ul>
