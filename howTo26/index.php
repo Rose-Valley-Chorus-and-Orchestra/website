@@ -563,7 +563,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                                              <li>9:00-10:00 "Brotherhood" (all men plus Andrea)</li></ul>
                          </div>
-
+                              
+                         <div><ul><b>Sunday March 29</b>: [A] - <span style="color: firebrick;">no Mike</span>
+                                        <ul><u>CALLED</u>: ALL
+                                             <li>Run show</li></ul>
+                         </div>
                                                             
                               
                </div>
@@ -573,11 +577,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <span id="currentDate"></span>
 
                
-                                        <div><ul><b>Sunday March 29</b>: [A] - <span style="color: firebrick;">no Mike</span>
-                                                       <ul><u>CALLED</u>: ALL
-                                                            <li>Run show</li></ul>
-                                        </div>
-
                                         <div><ul><b>Monday March 30</b>: [A]
                                                        <ul><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
                                                             <li>Run show</li></ul>
@@ -598,7 +597,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             <li>Run show</li></ul>
                                         </div>
 
-                                        <div><ul><b>Wednesday April 8</b> - <span style="color: firebrick;">no Matc</span>
+                                        <div><ul><b>Wednesday April 8</b> - <span style="color: firebrick;">no Marc</span>
                                                        <li><span style="color: firebrick;"><b>Note</b>: Strath Haven Middle School (SHMS)</span></li>
                                                        <li>Run show</li>
                                              </ul>
