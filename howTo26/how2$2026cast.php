@@ -185,42 +185,36 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                          </ul>
 
-               <!--     <h2 class="storyHead">Orchestra</h2>
-                                   <div><ul>Conductor and Manager - <a href="#Florrie">Florrie Marks</a></ul>
-                                   <ul style="line-height: 160%">Flute 1
-                                             <ul> John Kauffman</ul><ul>Carolyn Giardini</ul></ul>
-                                   <ul style="line-height: 160%">Flute 2 /Piccolo - Melissa Almanza</ul>
-                                   <ul>Oboe - Michael Holtz</ul>
-                                   <ul style="line-height: 160%">Clarinet 
-                                             <ul>Kyle Barger</ul><ul>Jerilyn Greenfield</ul><ul>Vincent Hurtubise</ul></ul>
-                                   <ul>Bassoon 
-                                             <ul>Don Greenfield</ul><ul>Abi Nathan</ul></ul>
-                                   <ul style="line-height: 160%">French Horn 
-                                             <ul>Donna Winquist</ul><ul>Jessie Dietz</ul></ul>
-                                   <ul style="line-height: 160%">Trumpet 
-                                             <ul>Allen Tollen</ul><ul>Susan Haidar</ul><ul>Caroline Sychterz</ul></ul>
-                                   <ul style="line-height: 160%">Trombone 
-                                             <ul>Don Matheson</ul><ul>Rich Cappo</ul></ul>
-                                   <ul>Percussion - Paul Sherin</ul>
-                                   <ul style="line-height: 160%">Violin
-                                             <ul>Sherry Ash</ul>
-                                             <ul>Norman Ellman</ul>
-                                             <ul>Jen Galasso</ul>
-                                             <ul>Aili Lazaar</ul>
-                                             <ul>Shirley Peters</ul>
-                                             <ul>Frank Wang</ul></ul>
-                                   <ul style="line-height: 160%">Viola
-                                             <ul>Glen Bradley</ul>
-                                             <ul>Peter Kwak</ul></ul>
-                                   <ul style="line-height: 160%">Cello
-                                             <ul>K. B. Milan</ul>
-                                             <ul>Charles Thompson</ul></ul>
-                                   <ul style="line-height: 160%">Bass
-                                             <ul>Steve Butt</ul>
-                                             <ul>Faye Kahmer</ul>
-                                             <ul>Leslie Rickert</ul></ul>
-                         </div> -->
-                         
+                         <h2 class="storyHead">Orchestra</h2>
+                         <ul class="listing">
+                              <li><span>Conductor</span><span><a href="#Florrie">Florrie Marks</a></span></li>
+                              <li><span>Reeds</span><span><at href="#">Karri Giamporcaro</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Michael Smith</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Donna Higgins</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Riley Parker</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">John Juzbasich</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Vince Hurtubise</a></span></li>
+                              <li><span>French Horn</span><span><at href="#">Jessie Dietz</a></span></li>
+                              <li><span>Trumpet</span><span><at href="#">Charlie Wolfe</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Caroline Sychterz</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Susan Haidar</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Doug Barger</a></span></li>
+                              <li><span>Trombone</span><span><at href="#">Rich Cappo</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Don Matheson</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Richie Michael</a></span></li>
+                              <li><span>Drums</span><span><at href="#">Jeff Sherman</a></span></li>
+                              <li><span>Keyboard</span><span><at href="#">John Kampmeyer, Jr.</a></span></li>
+                              <li><span>Violin</span><span><at href="#">Sherry Ash</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Jen Galasso</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Norman Ellman</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Alli Lazaar</a></span></li>
+                              <li><span>Cello</span><span><at href="#">Jenny Pondo</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span>K. B. Milan</span></li>
+                              <li><span>Bass</span><span><at href="#">Faye Kahmer</a></span></li>
+                              <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span>Leslie Rickert</span></li>
+
+                         </ul>
+                                   
 
 
 
@@ -237,21 +231,22 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <li><span>Set Designer</span>  <span><a href="#Mark">Mark Teseny</a></span></li>
                     <li><span>Set Contruction Chair</span> <span><at href="#Chris">Dave Zaffarano</a></span></li>
                          <!--<li><at href="#Michael">Michael Chang</a></li>-->
-                         <li><span>Set Construcion Crew</span> <span><a href="#Don">Don Cheetham</a></span></li>
-                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Dutka">Mike Dutka</a></span></li>
-                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#LisaF">Lisa Franks</a></span></li>
-                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Sean">Sean Hall</a></span></li>
-                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Rob">Rob Hull</a></span></li>
-                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Chip">Albert Melli</a></span></li>
-                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Bill">Bill Michael</a></span></li>
-                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Bob">Robert Moore</a></span></li>
-                         <!--<li><at href="#Brain">Brian Rubino</a></li>-->
-                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Chris">Chris Rubino</a></span></li>
-                         <!--<li><at href="#Meagan">Meagan Rubino</a></li>-->
-                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Jeff">Jeff Swafford</a></span></li>
-                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Donna">Tim Tillman</a></span></li>
-                         <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Donna">Donna Winquist</a></span></li>
-                    <li><span>Playbill</span>  <span><at href="#Stacey">Stacey Martinez</a></span></li>               
+                    <li><span>Set Construcion Crew</span> <span><a href="#Don">Don Cheetham</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Dutka">Mike Dutka</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#LisaF">Lisa Franks</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Sean">Sean Hall</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Rob">Rob Hull</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Chip">Albert Melli</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Bill">Bill Michael</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Bob">Robert Moore</a></span></li>
+                    <!--<li><at href="#Brain">Brian Rubino</a></li>-->
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Chris">Chris Rubino</a></span></li>
+                    <!--<li><at href="#Meagan">Meagan Rubino</a></li>-->
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Jeff">Jeff Swafford</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Donna">Tim Tillman</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Donna">Donna Winquist</a></span></li>
+                    <li><span>Playbill</span>  <span><at href="#Stacey">Stacey Martinez</a></span></li>
+                    <li><span>Orchestra Manager</span>  <span><a href="#Florrie">Florrie Marks</a></span></li>   
                     <li><span>House Managers</span> <span><at href="#Janet">Janet Lloyd Murphy</a> and <at href="#Janet">Ray Murphy</a></span></li>
                     <li><span>Webmaster</span> <span><a href="#Bill">Bill Michael</a></span></li>
                     <li><span>Rehearsal and Audition Pianist</span>  <span><a href="#Florrie">Florrie Marks</a></span></li>   

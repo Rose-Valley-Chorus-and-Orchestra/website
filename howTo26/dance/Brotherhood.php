@@ -243,8 +243,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
 
 
-                                   <p><a href="Brotherhood.pdf" title="Download a PDF of the Brotherhood of Man choreography" target="new">Download a PDF version</a></p>
-                                   <p><a href="Brotherhood.docx" title="Download a PDF of the Brotherhood of Man choreography" target="new">Download a Microsoft Word version</a></p>
+                                   <p><a href="Brotherhood.pdf" title="Download a PDF of the Brotherhood of Man choreography" target="new" style="padding-right: 15px;">Download a PDF version</a>
+                                        <a href="Brotherhood.docx" title="Download a PDF of the Brotherhood of Man choreography" target="new" style="padding: 0 15px;border-left: thin #AAA solid">Download a Microsoft Word version</a></p>
+                                   <p><span><a href="#videos">Jump to Videos</a></span></p>
                                    <div>At <b style="font-size: 1.2em;">E</b>:
                                         <ul><li>Form 2 lines on &ldquo;in <b>free</b>&rdquo;.</li>
                                              <li>On &ldquo;all <b>you</b> can&rdquo; point to the person next to you.</li>
@@ -519,13 +520,17 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     
                     <hr style="border: thin  #820608 solid" /><a name="videos"></a>
 
-                    <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/Brotherhood.MOV" title="Download the Brotherhood of Man choreography video" target="new">Download the complete video</a></div>
+                    <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/Brotherhood of Man_Mar-30.MOV" title="Download the March 30th Brotherhood of Man choreography video" target="new">Download the March 30<sup>th</sup> video</a></div>
                      <div class="video" style="padding: 5px;ackground-color: #52DB2D; position: relative; width: 100%; overflow: hidden; padding-top: 56.25%;" >
-                              <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/U-O2b9ngQzg" title="Brotherhood of Man choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
+                              <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/bEgImVZqnRM" title="Brotherhood of Man choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
                     </div>
 
-                    
-                    
+                    <hr style="border: thin  #820608 solid" />
+
+                    <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/Brotherhood.MOV" title="Download the Brotherhood of Man choreography video" target="new">Download the video</a></div>
+                     <div class="video" style="padding: 5px;ackground-color: #52DB2D; position: relative; width: 100%; overflow: hidden; padding-top: 56.25%;" >
+                              <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/U-O2b9ngQzg" title="Brotherhood of Man choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
+                    </div>                    
                     
                     
                     

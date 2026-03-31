@@ -237,21 +237,21 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <hr style="border: thin  #820608 solid;"/>
                                    <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/SecretaryToy.mp4" title="Download A Secretary Is Not A Toy video" target="new">Download video</a></div>
                                     <div class="video" style="padding: 5px;ackground-color: #52DB2D; position: relative; width: 100%; overflow: hidden; padding-top: 56.25%;" >
-                                         <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/vHhqJiuvtAY" title="A Secreatary Is Not a Toy choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
+                                         <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/6ze-k8qTj3s" title="A Secreatary Is Not a Toy choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
                                    </div>
  
                                    <hr style="border: thin  #820608 solid" />
                                    
                                    
                                    
-<div><u>Men</u>: 
+                                   <div><u>Men</u>: 
                                         <ul>Start upstage left</ul>
                                         <ul>At <b style="font-size: 1.2em;">D</b>: After the following dialog, go to places, for example: Lizette, Bud, Bill down center:
                                         <ul>JENKINS: You're absolutely right, Mr. Bratt.<br/>
                                         BUD: We wouldn't have it any other way, Mr. Bratt.<br/>
                                         JENKINS: It's a company rule, Mr. Bratt.</ul></ul>
                                         
-                                   
+                                   <ul>slap hands on thigh L R L F, 2 snaps; repeat, repeat</ul>
                                    <ul>While singing &ldquo;so do not go jumping for joy&rdquo; walk 3 steps upstage. Pivot on left foot and turn head downstage on "<u><b>Boy</b></u>" then face downstage.</ul>
                                    <ul>After singing the second "A secretary is not", look left, look forward, look left while the Women enter on "a toy".</ul>
                                    </div>
