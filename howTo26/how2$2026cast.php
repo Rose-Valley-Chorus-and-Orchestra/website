@@ -226,6 +226,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <!--<ul>Lighting Operator - <at href="#Bill">Kathy Michael</a></ul>   
                     <ul>Sound Engineer - <at href="#Bill">Anne Hamilton</a></ul>-->   
                     <li><span>Stage Manager</span>  <span><a href="#Kathy">Kathy Michael</a></span></li>  
+                    <li><span>Stage Crew</span> <span><at href="#Don">Faith Donaher</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Dutka">Sean Hall</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#LisaF">Sue Kelley</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Sean"></a>Roger Kennedy</span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Rob">Barb Matheson</a></span></li>
                     <li><span>Costumes</span>  <span><a href="#Ellen">Ellen Kecskemethy Tillman</a></span></li>
                     <li><span>Properties</span>  <span><a href="#Grace">Grace Albert</a> (chair)</span></li>
                     <li><span>Set Designer</span>  <span><a href="#Mark">Mark Teseny</a></span></li>
@@ -241,9 +246,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Bob">Robert Moore</a></span></li>
                     <!--<li><at href="#Brain">Brian Rubino</a></li>-->
                     <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Chris">Chris Rubino</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Marc">Marc Rubino</a></span></li>
                     <!--<li><at href="#Meagan">Meagan Rubino</a></li>-->
                     <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Jeff">Jeff Swafford</a></span></li>
-                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Donna">Tim Tillman</a></span></li>
+                    <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Tim">Tim Tillman</a></span></li>
                     <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><a href="#Donna">Donna Winquist</a></span></li>
                     <li><span>Playbill</span>  <span><at href="#Stacey">Stacey Martinez</a></span></li>
                     <li><span>Orchestra Manager</span>  <span><a href="#Florrie">Florrie Marks</a></span></li>   

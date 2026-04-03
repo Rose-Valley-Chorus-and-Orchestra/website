@@ -231,15 +231,15 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <ul><li>Fitting Signup: <a href="https://www.signupgenius.com/go/4090D4DAFAA23A0FB6-62431339-rvcos" title="Go to SignUpGenius to select a time" target="new">Costume SignUpGenius</a></li>
                                         <li>Questionnaire: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGzfcNnsL16Ko75I8hqD7QxGPO5L-4fs3q2vcDTwpEynM3Ew/viewform?usp=dialog" title="Fill out this costume questionaire" target="new">Go to Google Form</a></li>
                                         </ul>
-                                   </div>-->
-                                   <div style="margin:0 0 0 30px; padding: 0;"><b>State Stret Pub</b>: <!--<img src="../images/new.png">-->
+                                   </div>
+                                   <div style="margin:0 0 0 30px; padding: 0;"><b>State Stret Pub</b>: <!--<img src="../images/new.png">
                                         <ul><li>Please join your fellow cast members following Sunday rehearsals in March at the State Street Pub in Media.</li>
                                         <li>37 E. State Street, Media <a href="https://www.statestreetpubmedia.com" title="Go to the State Steet Pub website" target="new">https://www.statestreetpubmedia.com</a></li>
                                         </ul>
                                    </div>
-                                   <!--<div style="margin:0 0 0 30px; padding: 0;"><b>Order a Show T-shirt</b>: <img src="../images/new.png"> <a href="https://shepscustomdesigns.com/product-category/rvco/" title="Go to the How to Succeed t-shirt order form" target="new">https://shepscustomdesigns.com/product-category/rvco/</a>
+                                   <div style="margin:0 0 0 30px; padding: 0;"><b>Order a Show T-shirt</b>: <img src="../images/new.png"> <a href="https://shepscustomdesigns.com/product-category/rvco/" title="Go to the How to Succeed t-shirt order form" target="new">https://shepscustomdesigns.com/product-category/rvco/</a>
                                         </ul>
-                                   </div>-->
+                                   </div>
                               </p>
                               <!-- <p>Access: <a title="Jump down to the list of cast emails" href="#emails">Cast emails</a>;  <a title="Jump down to listen or downlaod the dance music" href="#music">Dance music</a>; <a title="See setting, actors, song, director, and notes for each scene " href="../cinderella/CinderPageDetails.php">Scene Details</a>; <a title="See the set designs for Cinderella" href="../cinderella/CinderSetDesign.php">Set Design</a></p>
                     
@@ -569,6 +569,17 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <li>Run show</li></ul>
                          </div>
                                                             
+                         <div><ul><b>Monday March 30</b>: [A]
+                                        <ul><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
+                                             <li>Run show</li></ul>
+                         </div>
+                              
+                         <div><ul><b>Wednesday April 1</b>: [A] - <span style="color: firebrick;">no Ross, Mike, Bob. Lisette </span>
+                                        <ul><u>CALLED</u>: ALL
+                                             <li>Trouble spots TBD and/or attempt a run without those missing</li></ul>
+                         </div>
+
+
                               
                </div>
                               
@@ -577,22 +588,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <span id="currentDate"></span>
 
                
-                                        <div><ul><b>Monday March 30</b>: [A]
-                                                       <ul><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
-                                                            <li>Run show</li></ul>
-                                        </div>
-
-                                        <div><ul><b>Wednesday April 1</b>: [A] - <span style="color: firebrick;">no Ross, Mike, Bob</span>
-                                                       <ul><u>CALLED</u>: ALL
-                                                            <li>Trouble spots TBD and/or attempt a run without those missing</li></ul>
-                                        </div>
-
                                         <div><ul><b>Sunday April 5</b>:
                                              <ul>*** <span style="color: firebrick;"><b>No rehearsal - EASTER</b></span> ***</ul>
                                              </ul>
                                         </div>
 
-                                        <div><ul><b>Monday April 6</b>: [A] - <span style="color: firebrick;">no Andrea</span>
+                                        <div><ul><b>Monday April 6</b>: [A] - <span style="color: firebrick;"></span>
                                                        <ul><u>CALLED</u>: ALL
                                                             <li>Run show</li></ul>
                                         </div>
