@@ -72,6 +72,20 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     <p>In 1997 Rose Valley Chorus &amp; Orchestra purchased the old Middletown Firehouse in Media. It serves as our set construction site and houses our extensive costume and prop collection.</p>
     <p>In keeping with its long-standing traditions and policies, Rose Valley Chorus &amp; Orchestra considers those seeking to participate in its programming and productions on the basis of individual merit.  RVCO does not discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity, national or ethnic origin, age, status as an individual with a disability, protected veteran status, genetic information, or other protected classes under the law.</p>
   </div>
+     
+<h2>RVCO Board</h2>
+     <ul><b>President</b>: Chris Rubino</ul>
+          <ul><b>Vice-President</b>: John Kauffman</ul>
+          <ul><b>Secrretary</b>: Kathy Michael</ul>
+          <ul><b>Acting Treasurer</b>: Donna Winquist</ul>
+          <ul><b>Members-At-Large</b>:
+               <ul>
+                    <ul>Lisa Franks</ul>
+                    <ul>Paula McGeary</ul>
+                    <ul>Steve Naz</ul>
+                    <ul>Jeff Swafford</ul></ul>
+          </ul>
+     </ul>
 </div>
 <!--end content -->
 
