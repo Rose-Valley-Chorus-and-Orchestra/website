@@ -76,8 +76,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <h2>RVCO Board</h2>
      <ul><b>President</b>: Chris Rubino</ul>
           <ul><b>Vice-President</b>: John Kauffman</ul>
-          <ul><b>Secrretary</b>: Kathy Michael</ul>
-          <ul><b>Acting Treasurer</b>: Donna Winquist</ul>
+          <ul><b>Secretary</b>: Kathy Michael</ul>
+          <ul><b>Treasurer</b>: Donna Winquist</ul>
           <ul><b>Members-At-Large</b>:
                <ul>
                     <ul>Lisa Franks</ul>
