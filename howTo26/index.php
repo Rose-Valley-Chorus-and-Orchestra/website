@@ -578,6 +578,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <ul><u>CALLED</u>: ALL
                                              <li>Trouble spots TBD and/or attempt a run without those missing</li></ul>
                          </div>
+               
+                         <div><ul><b>Sunday April 5</b>:
+                              <ul>*** <span style="color: firebrick;"><b>No rehearsal - EASTER</b></span> ***</ul>
+                              </ul>
+                         </div>
+
+                         <div><ul><b>Monday April 6</b>: [A] - <span style="color: firebrick;"></span>
+                                        <ul><u>CALLED</u>: ALL
+                                             <li>Run show</li></ul>
+                         </div>
 
 
                               
@@ -587,18 +597,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
 
-               
-                                        <div><ul><b>Sunday April 5</b>:
-                                             <ul>*** <span style="color: firebrick;"><b>No rehearsal - EASTER</b></span> ***</ul>
-                                             </ul>
-                                        </div>
-
-                                        <div><ul><b>Monday April 6</b>: [A] - <span style="color: firebrick;"></span>
-                                                       <ul><u>CALLED</u>: ALL
-                                                            <li>Run show</li></ul>
-                                        </div>
-
-                                        <div><ul><b>Wednesday April 8</b> - <span style="color: firebrick;">no Marc</span>
+                                        <div><ul><b>Wednesday April 8 at 7 p.m.</b> - <span style="color: firebrick;">no Marc</span>
                                                        <li><span style="color: firebrick;"><b>Note</b>: Strath Haven Middle School (SHMS)</span></li>
                                                        <li>Run show</li>
                                              </ul>

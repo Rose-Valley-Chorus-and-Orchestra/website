@@ -319,6 +319,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                     <hr style="border: thin  #820608 solid" /><a name="videos"></a>
 
+                    <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/Pirate Dance Apr 6.MOV" title="Download the Full Pirate Dance choreography video" target="new">Download the April 6 video</a></div>
+                     <div class="video" style="padding: 5px;ackground-color: #52DB2D; position: relative; width: 100%; overflow: hidden; padding-top: 56.25%;" >
+                              <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/Nn6gSMBAgMM" title="Full Pirate Dance choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
+                    </div>
+
+                    <hr style="border: thin  #820608 solid" />
+     
                     <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/Pirate Dance full.mp4" title="Download the Full Pirate Dance choreography video" target="new">Download the complete video</a></div>
                      <div class="video" style="padding: 5px;ackground-color: #52DB2D; position: relative; width: 100%; overflow: hidden; padding-top: 56.25%;" >
                               <iframe style="position: absolute;  top: 0;  left: 0;  bottom: 0;  right: 0;  width: 100%;  height: 100%;  border: none;" src="https://www.youtube.com/embed/v3EyRqgvwyE" title="Full Pirate Dance choreography video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br />
@@ -326,6 +333,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                     <hr style="border: thin  #820608 solid" />
      
+                         
+                         
+                         https://youtu.be/
+                         
+                         
+                         
+                         
                          
                     <div><a href="https://archive.rvco.org/past_shows/howTo26/dance/video/Pirate Dance couples.mp4" title="Download the couples part of ther Pirate Dance choreography video" target="new">Download the couples portion of the dance video</a></div>
                      <div class="video" style="padding: 5px;ackground-color: #52DB2D; position: relative; width: 303px; overflow: hidden; padding-top: 56.25%;" >
