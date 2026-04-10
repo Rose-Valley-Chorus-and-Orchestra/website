@@ -78,7 +78,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
           <ul><b>Vice-President</b>: John Kauffman</ul>
           <ul><b>Secretary</b>: Kathy Michael</ul>
           <ul><b>Treasurer</b>: Donna Winquist</ul>
-          <ul><b>Members-At-Large</b>:
+          <ul><b>Members-at-Large</b>:
                <ul>
                     <ul>Lisa Franks</ul>
                     <ul>Paula McGeary</ul>

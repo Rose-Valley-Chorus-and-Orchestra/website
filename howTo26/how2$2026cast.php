@@ -187,6 +187,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                          <h2 class="storyHead">Orchestra</h2>
                          <ul class="listing">
+                              <img src="headshots/orchestra.png" class="img-responsive">
+
                               <li><span>Conductor</span><span><a href="#Florrie">Florrie Marks</a></span></li>
                               <li><span>Reeds</span><span><at href="#">Karri Giamporcaro</a></span></li>
                               <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#">Michael Smith</a></span></li>
@@ -212,6 +214,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span>K. B. Milan</span></li>
                               <li><span>Bass</span><span><at href="#">Faye Kahmer</a></span></li>
                               <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span>Leslie Rickert</span></li>
+                              
 
                          </ul>
                                    
@@ -223,8 +226,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               
                     <li><span>Producer</span>  <span><a href="#Bill">Bill Michael</a></span></li>
                     <li><span>Lighting Designer</span> <span><a href="#Phil">Philip Milone</a></span></li>   
-               <!--<ul>Lighting Operator - <at href="#Bill">Kathy Michael</a></ul>   
-                    <ul>Sound Engineer - <at href="#Bill">Anne Hamilton</a></ul>-->   
+                    <li><span>Sound Designer</span> <span>Joe Ward</span></li>   
+                    <li><span>Sound Engineer</span> <span>Dani Castillo</span></li>   
                     <li><span>Stage Manager</span>  <span><a href="#Kathy">Kathy Michael</a></span></li>  
                     <li><span>Stage Crew</span> <span><at href="#Don">Faith Donaher</a></span></li>
                     <li><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span><at href="#Dutka">Sean Hall</a></span></li>

@@ -589,6 +589,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <li>Run show</li></ul>
                          </div>
 
+                         <div><ul><b>Wednesday April 8 at 7 p.m.</b> - <span style="color: firebrick;">no Marc</span>
+                                        <li><span style="color: firebrick;"><b>Note</b>: Strath Haven Middle School (SHMS)</span></li>
+                                        <li>Run show</li>
+                              </ul>
+                         </div>
 
                               
                </div>
@@ -596,13 +601,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                <!--begins remaining rehearsal dates -->
                               <span id="currentDate"></span>
-
-                                        <div><ul><b>Wednesday April 8 at 7 p.m.</b> - <span style="color: firebrick;">no Marc</span>
-                                                       <li><span style="color: firebrick;"><b>Note</b>: Strath Haven Middle School (SHMS)</span></li>
-                                                       <li>Run show</li>
-                                             </ul>
-                                        </div>
-                  
                     
 <!--<div><p><b>Thursday February 17</b> 
                          <ul><u>Move-in</u> <b>ALL</b>
@@ -619,50 +617,62 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                                         <div><ul><b>Sunday April 12</b> (SHMS) at <span style="color: firebrick;">1:00 p.m. – 9:00 p.m.</span>
                                                        <li>TECH </li>
+                                                  <li>1:00 p.m. Start: Actors get mikes on and costumes, crew works with the set.</li>
+                                                  <li>2:00 p.m. Costume Parade - bring <b>all</b> your costumes</li>
+                                                  <li>We will aim for having a dinner break around 5:30 - 6 pm, but this is not definite. <u>Please bring food</u> - don't depend on Grub Hub, etc. as they won't always deliver to the school</li>
                                              </ul>
                                         </div>
 
-                                        <div><ul><b>Monday April 13</b> (SHMS)
-                                                       <li>6:00 CALL - tech rehearsal with piano</li>
-                                                       <li>7:00 DOWNBEAT</li>
+                                        <div><ul><b>Monday April 13</b> (SHMS) - tech with piano
+                                                       <li>5:00 We can start arriving</li>
+                                                       <li>5:30 CALL </li>
+                                                       <li>6:45 Mic check</li>
+                                                       <li>7:00 Overture</li>
                                              </ul>
                                         </div>
 
 
-                                        <div><ul><b>Tuesday April 14</b> (SHMS)
-                                                       <li>6:00 CALL - tech rehearsal with orchestra</li>
-                                                       <li>7:00 DOWNBEAT</li>
+                                        <div><ul><b>Tuesday April 14</b> (SHMS) - tech with orchestra
+                                                       <li>5:00 We can start arriving</li>
+                                                       <li>5:30 CALL</li>
+                                                       <li>6:30 Mic check followed by orchestra warm up</li>
+                                                       <li>7:00 Overture</li>
                                              </ul>
                                         </div>
 
-                                        <div><ul><b>Wednesday April 15</b> (SHMS)
-                                                       <li>6:00 CALL - tech rehearsal with orchestra</li>
-                                                       <li>7:00 DOWNBEAT</li>
+                                        <div><ul><b>Wednesday April 15</b> (SHMS) - tech with orchestra (show conditions)
+                                                       <li>5:00 We can start arriving</li>
+                                                       <li>5:30 CALL</li>
+                                                       <li>6:30 Mic check followed by orchestra warm up</li>
+                                                       <li>7:00 Overture</li>
                                              </ul>
                                         </div>
 
                                         <div><ul><b>Saturday April 18</b> (SHMS)
                                              <ul><u>2:00 Performance</u>
+                                                  <li>11:00 We can start arriving</li>
                                                   <li>12:00 CALL</li>
                                                   <li>1:00 Mic check</li>
                                                   <li>2:00 Curtain</li></ul>
                                              <ul><u>7:30 Performance</u>
                                                   <li>6:00 CALL</li>
                                                   <li>6:30 Mic check</li>
-                                                  <li>7:30 Curtain</li></ul></ul>
-</div>
+                                                  <li>7:30 Overture</li></ul></ul>
+                                        </div>
 
                                          <div>         
                                              <ul><b>Sunday April 19</b> (SHMS)
                                              <ul><u>2:00 Performance</u>
+                                                  <li>11:00 We can start arriving</li>
                                                   <li>12:00 CALL</li>
                                                   <li>1:00 Mic check</li>
-                                                  <li>2:00 Curtain</li></ul></ul>
+                                                  <li>2:00 Overture</li></ul></ul>
                                          </div>
 
                                          <div>         
                                              <ul><b>Wednesday April 22</b> (SHMS)
                                              <ul><u>7:30 Performance</u>
+                                                  <li>5:00 We can start arriving</li>
                                                   <li>6:00 CALL</li>
                                                   <li>6:30 Mic check</li>
                                                   <li>7:30 Curtain</li></ul></ul>
@@ -670,20 +680,22 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                                         <div><ul><b>Saturday April 25</b> (SHMS)
                                              <ul><u>2:00 Performance</u>
+                                                  <li>11:00 We can start arriving</li>
                                                   <li>12:00 CALL</li>
                                                   <li>1:00 Mic check</li>
                                                   <li>2:00 Curtain</li></ul>
                                              <ul><u>7:30 Performance</u>
                                                   <li>6:00 CALL</li>
                                                   <li>6:30 Mic check</li>
-                                                  <li>7:30 Curtain</li></ul></ul>
+                                                  <li>7:30 Overture</li></ul></ul>
                                         </div>
 
                                          <div><ul><b>Sunday April 26</b> (SHMS)
                                              <ul><u>2:00 Performance</u>
+                                                  <li>11:00 We can start arriving</li>
                                                   <li>12:00 CALL</li>
                                                   <li>1:00 Mic check</li>
-                                                  <li>2:00 Curtain</li>
+                                                  <li>2:00 Overture</li>
                                                   <li>5:30 STRIKE then PARTY</li></ul></ul>
                                         </div>
 
