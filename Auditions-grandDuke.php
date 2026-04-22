@@ -96,7 +96,7 @@ p.m. and Sunday March 21&nbsp; at 1:30 – 4:30 p.m.</p>
                      <p><b>Where:</b>	
                          <a href="https://www.google.com/maps/dir/Middletown+Free+Library,+464+S+Old+Middletown+Rd,+Media,+PA+19063//@39.8960977,-75.4441304,13z/data=!4m8!4m7!1m5!1m1!1s0x89c6e8eef37e4d19:0xcdda32443f69ddaa!2m2!1d-75.4029311!2d39.8960391!1m0?entry=ttu&amp;g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="new">Roosevelt Community Center</a>, 464 S. Old Middletown Road, Media, PA 19063</p>
 
-                    <p><b>Sign Up:</b> <a href="https://www.signupgenius.com/go/10C054DAFAE23AAF4C52-62543845-grand#/\" target="new">https://www.signupgenius.com/go/10C054DAFAE23AAF4C52-62543845-grand#/\</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>
+                    <p><b>Sign Up:</b> <a href="https://www.signupgenius.com/go/10C054DAFAE23AAF4C52-62543845-grand#/" target="new">https://www.signupgenius.com/go/10C054DAFAE23AAF4C52-62543845-grand#/\</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>
 
                     <p><b>Rehearsal dates and times</b> tentatively set to start early September 2026 on Sundays 2:00 - 5:00 p.m. and Monday and Wednesday  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.</p>
                     <p><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
