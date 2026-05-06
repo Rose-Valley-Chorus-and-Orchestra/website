@@ -311,12 +311,14 @@ h5 {
 	padding: 8px 0px 8px 10px;
 	color: #999;
 	text-decoration: none;
-
 }
 #siteInfo {
      /*text-transform:capitalize;*/
-	padding-top: 5px;
+	padding-top: 5px;display: block;
+     margin-left: auto;
+     margin-right: auto;
 }
+#rvco_logo {width: 200px;background-color: green;}
 .title {
 	font-weight: bold;
 	font-style: normal;
@@ -448,7 +450,7 @@ body {
 }
 .secondShow {
 	color: #003366;
-	background-color: #FDEAB0;
+	background-color: #D3E2EA;
 }
 .secondShow a {
     color: blue;
@@ -459,7 +461,7 @@ body {
 
 .firstShow {
 	color: #003366;
-	background-color: #D3E2EA  /* #c9dede #000033  #05294B; */
+	background-color: #FDEAB0  /* #c9dede #000033  #05294B; */
 }
 
 .firstShow a {
@@ -635,10 +637,12 @@ h2  {padding: 0px 0 0 20px;
 #castPage p {padding: 5px 20px;}
 #castPage ul {padding-left:40px;}
 
-#copyCredit {font-size: 10pt;
+#copyCredit {font-size: 10pt; text-align: center;
      padding: 3px 25px 3px;
      line-height: 120%;}
-
+.secondaryCredit {font-size: 90%;
+     padding: 10px 0px;
+     line-height: 120%;}
 #sharedArea {
      background-color: white;}
 a.ticketZeffy {background-color: #A30029;  color: white; padding: 15px 25px; border-radius: 10px;}

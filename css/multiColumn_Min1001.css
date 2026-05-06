@@ -152,14 +152,13 @@ subtitle {font-size: 22px;}
           text-align: center;
 	}
 .first_show_img, .second_show_img  {
-	width: 95%;
 	display: block;
      margin-left: auto;
-     margin-right: auto; max-width: 800px;
+     margin-right: auto; width: 800px;
 	}
-.first_show_img  {content: url("../howTo26/logo/FLABhowToChair.webp")}
+.first_show_img  {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@1000w.webp")}
 .second_show_img {clear:both;}          
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo.webp")}     
+.second_show_img {content: url("../camelot2027/artwork/logo/JPG/CAMELOT_LOGO_FULL HORZ_4C.jpg")}     
 .show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
      text-align: center;
      line-height: 150%;
@@ -221,7 +220,6 @@ subtitle {font-size: 22px;}
 .castlist {margin-left:30px; }
 
 .first_article {float: none;width: 100%;}
-.first_show_img {max-width: 700px;}     
 .second_article {float: none;width: 100%;}     
 
 
@@ -248,11 +246,10 @@ I hide and show another table  */
 .container {font-size: 16px; width:1100px;}
 .secondary_header {width: 1100px;}
 .first_article {float: none;width: 100%;}    
-.first_show_img {max-width: 600px;}          
 .second_article {float:none;width: 100%;} 
 .img-circle {width: 400px;}
-.second_show_img {max-width: 600px;}          
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@600w.webp")}    
+.first_show_img, .second_show_img {max-width: 800px;}          
+.second_show_img {content: url("../camelot2027/artwork/logo/jpg/CAMELOT_LOGO_FULL HORZ_4C.jpg")}    
 }
 
 
@@ -289,7 +286,7 @@ section {
 }
 .secondShow {width: 500px;}	
 .second_show_img {width: 450px; }     
-.first_show_img  {content: url("../howTo26/logo/FLABhowToChair.webp")}
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@500w.webp")}    
+.first_show_img  {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@500w.webp")}
+.second_show_img {content: url("../camelot2027/artwork/logo/jpg/CAMELOT_LOGO_FULL HORZ_4C.jpg");}    
 }
 }

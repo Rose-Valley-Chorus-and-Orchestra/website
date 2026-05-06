@@ -57,13 +57,13 @@ subtitle {font-size: 22px;}
 	margin: 15px;
 	}     
 .first_show_img, .second_show_img  {
-	width: 95%;
+	width: 500px;
 	display: block;
      margin-left: auto;
      margin-right: auto;
 	}
-.second_show_img  {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@600w.webp")}
-.first_show_img {padding-top: 20px; content: url( "../howTo26/logo/FLABhowToChair@500.webp"); width: 500px;}         
+.second_show_img  {content: url("../camelot2027/artwork/logo/JPG/CAMELOT_LOGO_FULL HORZ_4C.jpg")}
+.first_show_img {padding-top: 20px; content: url( "../grandDuke2026/artwork/logo/GrandDuke-logo@600w.webp"); width: 500px;}         
 .show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
      text-align: center;
      line-height: 150%;
@@ -259,11 +259,13 @@ I hide and show another table  */
 @media (min-width: 426px) and (max-width: 605px) {	
 .jump2year {clear: left; padding-top:10px;}
 .bios p  {width:100%; padding-right: 0px}
-.first_show_img  {content: url("../howTo26/logo/FLABhowToChair@500.webp")}
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@400w.webp"); width:450px;}              
+.first_show_img  {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@400w.webp")}
+.second_show_img {content: url("../camelot2027/artwork/logo/JPG/CAMELOT_LOGO_FULL HORZ_4C.jpg"); width:450px;}              
 }
-@media (min-width: 451px) and (max-width: 525px) {	
-.first_show_img {content: url("../howTo26/logo/FLABhowToChair@500.webp"); width:400px;}              
+@media (min-width: 451px) and (max-width: 525px) {
+.first_show_img, .second_show_img { width:400px;}              
+.first_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@400w.webp");}              
+.second_show_img {content: url("../camelot2027/artwork/logo/JPG/CAMELOT_LOGO_FULL HORZ_4C.jpg");}              
 }
 @media (min-width: 426px) and (max-width: 570px) {
 .face_tube_text {
@@ -304,8 +306,9 @@ I hide and show another table  */
 #siteName {width: 300px;}
 #menu {
 	font-size: 14px;}	
-.first_show_img  {content: url("../howTo26/logo/FLABhowToChair@400.webp"); width:400px;}
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@400w.webp"); width: 400px;}
+.first_show_img, .second_show_img { width:380px;}              
+.first_show_img  {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@400w.webp");}
+.second_show_img {content: url("../camelot2027/artwork/logo/JPG/CAMELOT_LOGO_FULL HORZ_4C.jpg");}
 #facebook_youtube {
 	max-width: 120px;
      padding: 0px 10px 0px 20px;}

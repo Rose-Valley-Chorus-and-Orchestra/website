@@ -75,18 +75,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                 <!--  TITLE / SEASON  -->
                     <div class="current_header">
-                              <div class="current_headerA">April 2026</div>
-                              <div class="current_headerB"style="visibility: hidden;">How to Succeed in Business Without Really Trying</div>
+                              <div class="current_headerA">November 2026</div>
+                              <div class="current_headerB"style="visibility: hidden;">Gilbert &amp; Sullivan's The Grand Duke</div>
                               <!--<div class="a_sub" style="visibility: hidden; height: 0px;">or The King of Barataria</div>-->
                     </div>
-                     <img class="first_show_img" name="How to Succeed in Bussiness without Really Trying"  title="How to Succeed in Bussiness without Really Trying logo" hspace="20" vspace="5" />
+                    <img class="first_show_img" name="The Grand Duke" title="The Grand Duke logo" hspace="20" vspace="5" />
                  
-                    <div class="show_authors">
-                                        <div>Book by <span class="authors">Abe Burrows</span>, <span class="authors">Jack Weinstock</span> and <span class="authors">Willie Gilbert</span></div>
-                                        <div style="padding-top:5px">Music and Lyrics by <span class="lyricist">Frank Loesser</span></div>
-                                        <div style="padding-top:5px">Based upon the book by <span class="authors">Shepherd Mead</div>
-                   </div>
-                 
+                    <div class="show_authors">		
+                         <div>Book by <span class="lyricist">W. S. Gilbert</span></div>
+                         <div>Music by <span class="authors">Arthur Sullivan</span></div>
+                    </div>                 
                  
 
              <!--  BEGIN CAROUSEL HERE -->                                                                                                                               
@@ -150,7 +148,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                        <!-- DIRECTORS -->
                              <div class="coming_directors">
-                                        <nobr>Chris Fitting -&nbsp;Stage Director</nobr><br />
+                                        <nobr>Julie May  -&nbsp;Stage Director</nobr><br />
                                         <nobr>Florrie Marks -&nbsp;Music&nbsp;Director</nobr><br />
                               </div>
 
@@ -162,13 +160,14 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
 
                          <!-- begin DATES -->
-                              <div class="current_dates">Saturday, April 18 at 2 p.m. and 7:30 p.m.<br />
-                                                       Sunday, April 19 at 2 p.m.<br />
-                                                       Wednesday, April 22 at 7:30 p.m.<br />
-                                                       Saturday, April 25 at 2 p.m. and 7:30 p.m.<br />
-                                                       Sunday, April 26 at 2 p.m.<br />
-                                   <!--<span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span>-->
+                              <div class="current_dates">Saturday, November 7 at 2 p.m. and 7:30 p.m.<br />
+                                                       Sunday, November 8 at 2 p.m.<br />
+                                                       Wednesday, November 11 at 7:30 p.m.<br />
+                                                       Saturday, November 14 at 2 p.m. and 7:30 p.m.<br />
+                                                       Sunday, November 15 at 2 p.m.<br />
+                                   <span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span>
                               </div>           
+
                         <!-- end DATES -->
                          
                          
@@ -184,102 +183,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
               <!-- begin SYNOPSIS HERE -->
                     <div class="viewSynopsis">
                          <span class="current_castlist">
-                              <span><a href="howTo26/how2$2026cast.php" title="Go to the How to Succeed in Business Without Really Trying">Cast List</a></span>
-                              <span id="ViewSpringSynopsis" class=""><a title="View the synopsis of The Gondoliers"  
-                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','show');
-                                        MM_changeProp('ShowSpringSynopsis','','height','auto','DIV');
-                                        MM_changeProp('ShowSpringSynopsis','','width','auto','DIV');
-                                        MM_changeProp('ViewSpringSynopsis','','height','0px','SPAN');
-                                        MM_changeProp('ViewSpringSynopsis','','width','0px','SPAN');
-                                        MM_showHideLayers('ViewSpringSynopsis','','hide');
-                                        " >Synopsis</a></span>
-                              <!--<span><a href="SFfunfacts.php" title="Go to our page with fun facts about State Fair">Fun Facts</a></span>-->
-                    </div>
-                    <div id="ShowSpringSynopsis" width="0px" height="0px">
-                            <a title="Hide the The Gondoliers synopsis" 
-                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','hide');
-                                                  MM_changeProp('ShowSpringSynopsis','','height','0px','DIV');
-                                                  MM_changeProp('ShowSpringSynopsis','','width','0px','DIV');
-                                                  MM_changeProp('ViewSpringSynopsis','','height','auto','SPAN');
-                                                  MM_changeProp('ViewSpringSynopsis','','width','auto','SPAN');
-                                                 MM_showHideLayers('ViewSpringSynopsis','','show');" alt="Hide The Gondoliers synopsis">(Hide Synopsis)</a><br />
-                              <p>J. Pierrepont Finch is a restless window washer with ambitions of climbing the corporate ladder. Amidst the absurdities of big business and taking inspiration from a how-to book on corporate finagling, Finch employs cunning and charm to wheedle his way to the top. Throughout his ascent, Finch wins the unwavering faith of Rosemary, a secretary eager for marriage, who recognizes his potential and is charmed by his innocence. While Rosemary clearly has her eyes set on the prize, will their budding romance falter amidst Finch's corporate aspirations? Can Finch ultimately realize the best of both worlds?</p>
-
-                              <p>This Tony Award-winning musical with its unforgettable score by Frank Loesser includes memorable numbers like the whimsical "Coffee Break," the energetic "Brotherhood of Man," and the satirical ballad "I Believe In You." Its witty book earned the 1962 Pulitzer Prize for Best Drama.</p>
-                    </div>
-            <!-- begin SYNOPSIS HERE -->
-                         
-                         
-                       <!-- begin TICKETS HERE -->
-                             <div id="buyShowlink" class="howTo">
-                                  <div class="ticketsSponsors"><a title="Go to Zeffy to Buy Tickets to How to Succeed in Business Without Really Trying" href="https://www.zeffy.com/en-US/ticketing/how-to-succeed-in-business-without-really-trying">Buy Tickets</a>
-                                  <a title="Go to Zeffy to Donate to Be a Show Sponsor" href="https://www.zeffy.com/en-US/ticketing/sponsorship-for-how-to-succeed-in-business-without-really-trying">Be a Sponsor</a>
-                                  <a title="Find out more information on placing an ad in our playbill" href="Ads.php">Playbill Ads</a>
-                                  </div>
-                             </div>
-                         
-                         
-                         
-            <!-- end SYNOPSIS HERE -->
-                      <!--<div id="copyCredit">ME AND MY GIRL is presented by arrangement with Concord Theatricals. www.concordtheatricals.com</div>             
-            </div>     -->
-            <!--  end CURRENT  SHOW  -->   
-                         
-                         <div id="copyCredit">Originally presented by Cy Feuer and Ernest H. Martin in Association with Frank Productions.</div>
-                         <div id="copyCredit">How to Succeed in Business Without Really Trying is presented through special arrangement with Music Theatre International (MTI).</div>
-                         <div id="copyCredit">All authorized performance materials are also supplied by MTI.</div>
-                         <div id="copyCredit">www.mtishows.com</div>
-                         
-         </div>
-    </aside>
-       
-    <aside class="second_article">
-		<div class="secondShow">
-                    <div class="coming_header">
-                         <div class="coming_headerA">November 2026</div>
-                         <div class="coming_headerB" style="visibility: hidden;">Gilber and Sullivan's <i>The Grand Duke or The Statutory Duel</i></div>
-                    </div>
-		
-                    <!--  <div style="font-family:'Newcomen Black', 'Royale 40', 'Aviano Royale Black';font-size: 38px;text-align: center;padding-top:30px;">The Grand Duke</div>
-                    <div style="font-family:'Aviano Royale Black';font-size: 28px;text-align: center;">or The Statutory Duel</div> -->
-               
-                    <img alt="The Grand Duke logo" class="second_show_img" name="grandDuke"  title="" hspace="20" vspace="0" />
-                              
-                    <div class="show_authors">		
-                         <div>Book by W. S. Gilbert</div>
-                         <div>Music by Arthur Sullivan</div>
-                    </div>
-                    <div class="show_info">
-                                             <!-- DIRECTORS -->
-                              <div class="current_directors">
-                                        <nobr>Julie May -&nbsp;Stage Director</nobr><br />
-                                        <nobr>Florrie Marks -&nbsp;Music&nbsp;Director</nobr><br />
-                                        <!--<nobr>Kenneth Fisher -&nbsp;Choreographer</nobr><br />-->
-                              </div>
-                         
-                         <!-- begin DATES -->
-                              <div class="current_dates" style="visibility: hidden; height: 0px;width:0;padding: 0px;margin:0px;">Saturday, November 8 at 2 p.m. and 7:30 p.m.<-br />
-                                                       Sunday, November 9 at 2 p.m.<-br />
-                                                       Wednesday, November 12 at 7:30 p.m.<-br />
-                                                       Saturday, November 15 at 2 p.m. and 7:30 p.m.<-br />
-                                                       Sunday, November 16 at 2 p.m.<-br />
-                                   <!--<span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span>-->
-                              </div>           
-                        <!-- end DATES -->
- 
-                         <!-- VENUE -->
-                             <div class="current_venue" style="visibility: hidden; height: 0px;width:0;padding: 0px;margin:0px;">
-                                        <a href="archive/Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>,<br /> Wallingford, PA</div>                
-
-                    </div>				
-
-            <!-- begin SYNOPSIS HERE -->
-               
-               <p><p>In Gilbert &amp; Sullivan's final collaboration, a troupe of actors conspires to overthrow an unpopular and miserly Grand Duke. Things go awry when their plot is accidentally revealed, prompting a series of disputes and political successions settled by "statutory" duel—an ingenious law that renders the legal death of the adversary who draws the lowest from a deck of cards. Hilarious entanglements, including thwarted marriages and questionable legal contracts, imbue this topsy-turvy comic opera with a wit that only Gilbert and Sullivan can contrive.</p></p>
-                    <div class="viewSynopsis">
-                         <span class="current_castlist">
-                              <span style="visibility: hidden; width: 0px;"><a href="gondoliers/GONDOLIERS25cast.php" title="Go to The Gondoliers cast list">Cast List</a></span>
-                              <span id="ViewSpringSynopsis" class=""  style="visibility: hidden; width: 0px;"><a title="View the synopsis of The Gondoliers"  
+                              <span><a href="grandDuke2026/grandDuke26cast.php" title="Go to The Grand Duke cast page">Cast List</a></span>
+                              <span id="ViewSpringSynopsis" class=""><a title="View the synopsis of The Grand Duke"  
                                         onclick="MM_showHideLayers('ShowSpringSynopsis','','show');
                                         MM_changeProp('ShowSpringSynopsis','','height','auto','DIV');
                                         MM_changeProp('ShowSpringSynopsis','','width','auto','DIV');
@@ -297,13 +202,108 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   MM_changeProp('ViewSpringSynopsis','','height','auto','SPAN');
                                                   MM_changeProp('ViewSpringSynopsis','','width','auto','SPAN');
                                                  MM_showHideLayers('ViewSpringSynopsis','','show');" alt="Hide The Gondoliers synopsis">(Hide Synopsis)</a><br />
-                             <p>Marco and Giuseppe Palmieri, Venetian gondoliers, are told that one of them is the heir to the throne of Barataria. Until it is determined which one is the new king, the brothers must rule together. Complicating matters, the brothers have not only recently married young Venetian ladies, but they will soon meet the daughter of the Duke of Plaza Toro to whom the unsuspecting future king was married in infancy. As the Grand Inquisitor seeks the truth from the prince’s foster mother, everyone assembles in Barataria awaiting the answer. Who is the rightful king?…and will hearts be mended or broken?</p>
+                              <p>In Gilbert &amp; Sullivan's final collaboration, a troupe of actors conspires to overthrow an unpopular and miserly Grand Duke. Things go awry when their plot is accidentally revealed, prompting a series of disputes and political successions settled by "statutory" duel—an ingenious law that renders the legal death of the adversary who draws the lowest from a deck of cards. Hilarious entanglements, including thwarted marriages and questionable legal contracts, imbue this topsy-turvy comic opera with a with that only Gilbert and Sullivan can contrive.</p>
                     </div>
             <!-- begin SYNOPSIS HERE -->
-                        
+                         
+                         
+                       <!-- begin TICKETS HERE -->
+                             <div id="buyShowlink" class="howTo">
+                                  <div class="ticketsSponsors"><a title="Go to Zeffy to Buy Tickets to The Grand Duke" href="https://www.zeffy.com/en-US/ticketing/how-to-succeed-in-business-without-really-trying">Buy Tickets</a>
+                                  <a title="Go to Zeffy to Donate to Be a Show Sponsor" href="https://www.zeffy.com/en-US/ticketing/sponsorship-for-how-to-succeed-in-business-without-really-trying">Be a Sponsor</a>
+                                  <a title="Find out more information on placing an ad in our playbill" href="Ads.php">Playbill Ads</a>
+                                  </div>
+                             </div>
+                         
+                         
+                         
+            <!-- end SYNOPSIS HERE -->
+                      <!--<div id="copyCredit">ME AND MY GIRL is presented by arrangement with Concord Theatricals. www.concordtheatricals.com</div>             
+            </div>     -->
+            <!--  end CURRENT  SHOW  -->   
+                         
+                         
+         </div>
+    </aside>
+       
+    <aside class="second_article">
+		<div class="secondShow">
+                    <div class="coming_header">
+                         <div class="coming_headerA">April 2027</div>
+                         <div class="coming_headerB" style="visibility: hidden;">Lerner &amp; Loewe's <i>Camelot</i></div>
+                    </div>
+		
+                    <!--  <div style="font-family:'Newcomen Black', 'Royale 40', 'Aviano Royale Black';font-size: 38px;text-align: center;padding-top:30px;">The Grand Duke</div>
+                    <div style="font-family:'Aviano Royale Black';font-size: 28px;text-align: center;">or The Statutory Duel</div> -->
+               
+                    <img alt="The Grand Duke logo" class="second_show_img" name="grandDuke"  title="" hspace="20" vspace="0" />
+                              
+                    <div class="show_authors">
+                              <div>Book and Lyrics by <span class="lyricist">ALAN JAY LERNER</span></div>
+                              <div style="padding-top:5px">Music by <span class="authors">FREDERICK LOEWE</span></div>
 
-                      <!--<div id="copyCredit">STATE FAIR is presented by arrangement with Concord Theatricals on behalf of The Rodgers &amp; Hammerstein Organization.
-                              www.concordtheatricals.com</div>-->             
+                              <div class="secondaryCredit">Originally Production Directed and Staged by <nobr>Moss Hart</nobr></div>
+                              <div class="secondaryCredit">Based on The Once and Future King by <nobr>T.H. White</nobr></div>
+
+                    </div>
+                    <div class="show_info" style="visibility: hidden; height: 0px;width:0;padding: 0px;margin:0px;">
+                                             <!-- DIRECTORS -->
+                              <div class="current_directors" style="visibility: hidden; height: 0px;width:0;padding: 0px;margin:0px;">
+                                        <nobr>Julie May -&nbsp;Stage Director</nobr><br />
+                                        <nobr>Florrie Marks -&nbsp;Music&nbsp;Director</nobr><br />
+                                        <!--<nobr>Kenneth Fisher -&nbsp;Choreographer</nobr><br />-->
+                              </div>
+                         
+                         <!-- begin DATES -->
+                              <div class="current_dates" style="visibility: hidden; height: 0px;width:0;padding: 0px;margin:0px;">Saturday, April 8 at 2 p.m. and 7:30 p.m.<-br />
+                                                       Sunday, April 9 at 2 p.m.<-br />
+                                                       Wednesday, April 12 at 7:30 p.m.<-br />
+                                                       Saturday, April 15 at 2 p.m. and 7:30 p.m.<-br />
+                                                       Sunday, April 16 at 2 p.m.<-br />
+                                   <!--<span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span>-->
+                              </div>           
+                        <!-- end DATES -->
+ 
+                         <!-- VENUE -->
+                             <div class="current_venue" style="visibility: hidden; height: 0px;width:0;padding: 0px;margin:0px;">
+                                        <a href="archive/Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>,<br /> Wallingford, PA</div>                
+
+                    </div>				
+
+            <!-- begin SYNOPSIS HERE -->
+               
+               <p>An idealistic young King Arthur hopes to create a kingdom built on honor and dignity, embodied by his Knights of The Round Table.  His Ideals, however are tested when his lovely queen, Guenevere, falls in love with the young Knight, Lancelot and the fate of the kingdom hangs in the balance.</p>
+                         
+               <!-- Code a synopsis    
+                    <div class="viewSynopsis">
+                         <span class="current_castlist">
+                              <span style="visibility: hidden; width: 0px;"><a href="gondoliers/GONDOLIERS25cast.php" title="Go to The Gondoliers cast list">Cast List</a></span>
+                              <span id="ViewSpringSynopsis" class=""  style="visibility: hidden; width: 0px;"><a title="View the synopsis of The Gondoliers"  
+                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','show');
+                                        MM_changeProp('ShowSpringSynopsis','','height','auto','DIV');
+                                        MM_changeProp('ShowSpringSynopsis','','width','auto','DIV');
+                                        MM_changeProp('ViewSpringSynopsis','','height','0px','SPAN');
+                                        MM_changeProp('ViewSpringSynopsis','','width','0px','SPAN');
+                                        MM_showHideLayers('ViewSpringSynopsis','','hide');
+                                        " >Synopsis</a></span>
+                              
+                    </div>
+                    <div id="ShowSpringSynopsis" width="0px" height="0px">
+                            <a title="Hide the The Grand Duke synopsis" 
+                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','hide');
+                                                  MM_changeProp('ShowSpringSynopsis','','height','0px','DIV');
+                                                  MM_changeProp('ShowSpringSynopsis','','width','0px','DIV');
+                                                  MM_changeProp('ViewSpringSynopsis','','height','auto','SPAN');
+                                                  MM_changeProp('ViewSpringSynopsis','','width','auto','SPAN');
+                                                 MM_showHideLayers('ViewSpringSynopsis','','show');" alt="Hide The Gondoliers synopsis">(Hide Synopsis)</a><br />
+                             <p>Marco and Giuseppe Palmieri, Venetian gondoliers, are told that one of them is the heir to the throne of Barataria. Until it is determined which one is the new king, the brothers must rule together. Complicating matters, the brothers have not only recently married young Venetian ladies, but they will soon meet the daughter of the Duke of Plaza Toro to whom the unsuspecting future king was married in infancy. As the Grand Inquisitor seeks the truth from the prince’s foster mother, everyone assembles in Barataria awaiting the answer. Who is the rightful king?…and will hearts be mended or broken?</p>
+                    </div> -->
+            <!-- begin SYNOPSIS HERE -->
+                        
+                         <div id="copyCredit">Camelot is presented through special arrangement with Music Theatre International (MTI).</div>
+                         <div id="copyCredit">All authorized performance materials are also supplied by MTI.</div>
+                         <div id="copyCredit">www.mtishows.com</div>
+
          
        </div>     <!-- ends class="firstShow" div -->
                <!--            </div>    -->

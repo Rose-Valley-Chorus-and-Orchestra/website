@@ -103,8 +103,8 @@ subtitle {font-size: 16px;}
      margin-left: auto;
      margin-right: auto;
 	}
-.first_show_img  {content: url("../howTo26/logo/FLABhowToChair@500.webp")}
-.second_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@400w.webp")}         
+.first_show_img  {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@400w.webp")}
+.second_show_img {content: url("../camelot2027/artwork/logo/JPG/CAMELOT_LOGO_FULL HORZ_4C.jpg")}         
 .show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
      text-align: center;
      line-height: 150%;
