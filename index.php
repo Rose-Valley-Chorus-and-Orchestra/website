@@ -232,10 +232,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <div class="coming_headerA">April 2027</div>
                          <div class="coming_headerB" style="visibility: hidden;">Lerner &amp; Loewe's <i>Camelot</i></div>
                     </div>
-		
-                    <!--  <div style="font-family:'Newcomen Black', 'Royale 40', 'Aviano Royale Black';font-size: 38px;text-align: center;padding-top:30px;">The Grand Duke</div>
-                    <div style="font-family:'Aviano Royale Black';font-size: 28px;text-align: center;">or The Statutory Duel</div> -->
-               
+		               
                     <img alt="Camelot logo" class="second_show_img" name="camelot"  title="" hspace="20" vspace="0" />
                               
                     <div class="show_authors">

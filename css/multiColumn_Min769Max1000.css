@@ -100,7 +100,8 @@ subtitle {font-size: 22px;}
      margin-right: auto;
 	}
 .first_show_img  {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@600w.webp")}
-.second_show_img  {clear: both;padding-top: 20px;content: url("../camelot2027/artwork/logo/jpg/CAMELOT_LOGO_FULL HORZ_4C.jpg");width: 600px;}
+/*.second_show_img {clear: both;padding-top: 20px;content: url("../camelot2027/artwork/logo/jpg/CAMELOT_LOGO_FULL HORZ_4C.jpg");width: 600px;}*/
+.second_show_img {content: url("../camelot2027/artwork/logo/JPG/CAMELOT_LOGO_FULL HORZ_4C.jpg")}     
          
 .show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
      text-align: center;
@@ -277,16 +278,10 @@ I hide and show another table  */
 }
 
 
-/*      *********     custom for WIDTH > 1001px      *********     */
-/*      *********     custom for WIDTH > 1001px      *********     */
-/*      *********     custom for WIDTH > 1001px      *********     */
-/*      *********     custom for WIDTH > 1001px      *********     */
-/*      *********     custom for WIDTH > 1001px      *********     */
-/*      *********     custom for WIDTH > 1001px      *********     */
-
 @media (min-width: 769px) and (max-width: 800px) {
 .first_show_img  {width: 500px;}
 .second_show_img  {width: 500px;}
+}
 @media (min-width: 769px) and (max-width: 905px) {
 .secondary_header {
 	overflow: auto;
