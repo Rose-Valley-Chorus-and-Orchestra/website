@@ -139,15 +139,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                     <div class="show_info">
                          
-                             
-                         
-                         
-                      <!-- begin DATES -->
-                              <!-- <div class="current_dates"  ></div> -->
-                        <!-- end DATES -->
-
                        <!-- DIRECTORS -->
-                             <div class="coming_directors">
+                             <div class="current_directors">
                                         <nobr>Julie May  -&nbsp;Stage Director</nobr><br />
                                         <nobr>Florrie Marks -&nbsp;Music&nbsp;Director</nobr><br />
                               </div>
@@ -158,7 +151,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                              <div class="current_venue">
                                         <a href="Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>, Wallingford, PA</div>                
 
-
                          <!-- begin DATES -->
                               <div class="current_dates">Saturday, November 7 at 2 p.m. and 7:30 p.m.<br />
                                                        Sunday, November 8 at 2 p.m.<br />
@@ -167,16 +159,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        Sunday, November 15 at 2 p.m.<br />
                                    <span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span>
                               </div>           
-
                         <!-- end DATES -->
                          
-                         
-                <!-- VENUE -->
-                        <!-- <div class="current_venue">
-                                   <a href="Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>,<br /> Wallingford, PA</div>                
-                        <div class="current_castlist" ><a href="pirates2024/PATIENCE2023cast.php" title="Go to The Pirate of Penzance cast list"> See the Cast List</a></div>
-                    </div>				
-
              <!--  end LINKS HERE -->
 <hr style="border-top: 1px solid #003366; width:50%; margin-top: 15px; margin-bottom: 15px;"/>
                 
@@ -238,25 +222,22 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <div class="show_authors">
                               <div>Book and Lyrics by <span class="lyricist">ALAN JAY LERNER</span></div>
                               <div style="padding-top:5px">Music by <span class="authors">FREDERICK LOEWE</span></div>
-
                               <div class="secondaryCredit">Originally Production Directed and Staged by <nobr>Moss Hart</nobr></div>
                               <div class="secondaryCredit">Based on The Once and Future King by <nobr>T.H. White</nobr></div>
-
                     </div>
-                    <div class="show_info" style="visibility: hidden; height: 0px;width:0;padding: 0px;margin:0px;">
+                    <div class="show_info" 
                                              <!-- DIRECTORS -->
-                              <div class="current_directors" style="visibility: hidden; height: 0px;width:0;padding: 0px;margin:0px;">
-                                        <nobr>Julie May -&nbsp;Stage Director</nobr><br />
+                              <div class="coming_directors">
+                                        <nobr>Chris Fitting -&nbsp;Stage Director</nobr><br />
                                         <nobr>Florrie Marks -&nbsp;Music&nbsp;Director</nobr><br />
-                                        <!--<nobr>Kenneth Fisher -&nbsp;Choreographer</nobr><br />-->
                               </div>
                          
                          <!-- begin DATES -->
-                              <div class="current_dates" style="visibility: hidden; height: 0px;width:0;padding: 0px;margin:0px;">Saturday, April 8 at 2 p.m. and 7:30 p.m.<-br />
-                                                       Sunday, April 9 at 2 p.m.<-br />
-                                                       Wednesday, April 12 at 7:30 p.m.<-br />
-                                                       Saturday, April 15 at 2 p.m. and 7:30 p.m.<-br />
-                                                       Sunday, April 16 at 2 p.m.<-br />
+                              <div class="coming_dates" style="visibility: hidden; height: 0px;width:0;padding: 0px;margin:0px;">Saturday, April 8 at 2 p.m. and 7:30 p.m.<-br />
+                                                       Sunday, April 9 at 2 p.m.<br />
+                                                       Wednesday, April 12 at 7:30 p.m.<br />
+                                                       Saturday, April 15 at 2 p.m. and 7:30 p.m.<br />
+                                                       Sunday, April 16 at 2 p.m.<br />
                                    <!--<span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span>-->
                               </div>           
                         <!-- end DATES -->

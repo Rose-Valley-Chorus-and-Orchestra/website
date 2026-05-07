@@ -276,6 +276,6 @@ I hide and show another table  */
      .first_show_img  {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@500w.webp"); width: 500px;}
      /*.second_show_img {content: url("../camelot2027/artwork/logo/jpg/CAMELOT_LOGO_FULL HORZ_4C.jpg");}*/
      .castlist .first_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@1000w.webp");
-          width: 1000px;}
+          width: 800px;}
      }
 }
