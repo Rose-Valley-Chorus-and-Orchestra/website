@@ -272,9 +272,6 @@ section {
           margin-left: auto;
           margin-right: auto;
 }     
-.first_show_img {
-     width: 500px;
-}
 .first_article {display: table-cell;
      width: 700px;
 }
@@ -286,7 +283,10 @@ section {
 }
 .secondShow {width: 500px;}	
 .second_show_img {width: 450px; }     
-.first_show_img  {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@500w.webp")}
-.second_show_img {content: url("../camelot2027/artwork/logo/jpg/CAMELOT_LOGO_FULL HORZ_4C.jpg");}    
+.first_show_img  {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@500w.webp"); width: 500px;}
+.second_show_img {content: url("../camelot2027/artwork/logo/jpg/CAMELOT_LOGO_FULL HORZ_4C.jpg");}
+.castlist .first_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@1000w.webp");
+     width: 1000px;
+}
 }
 }

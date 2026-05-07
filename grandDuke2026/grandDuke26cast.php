@@ -132,8 +132,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
           </div>
      
           <div class="feature castlist">
-                    <div style="margin: 20px 20px 20px 20px;"><img style="background-color: white;  max-width: 500px;" src="../grandDuke2026/artwork/logo/GrandDuke-logo@500w.webp" alt="The Grand Duke logo" class="img-responsive" name="grandDuke"  title="" hspace="0" vspace="0" /></div>
-       
+
+               <img class="first_show_img" name="The Grand Duke" title="The Grand Duke logo" hspace="20" vspace="5" />
                <h2 id="top" class="storyHead">Directors</h2>
                          <ul class="listing">
                               <li><span>Stage Director</span> <span><at href="#ChrisF">Julie May</a></span></li>
@@ -141,7 +141,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <!-- <li><span>Choreographer</span> <span><a href="#Caity">Caity Moon</a></li>-->
                          </ul>
 
-                         <h2 class="storyHead">Actors</h2>
+               <h2 class="storyHead">Actors</h2>
                          <ul class="listing">
                               <li><span>Rudolf, Grand Duke</span> <span><at href="#Rob">Rob Hull</a></span></li>
                               <li><span>Ernest Dummkopf</span> <span><at href="#ChrisR">Chris Rubino</a></span></li>
@@ -159,7 +159,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <li><span>Elsa</span> <span><at href="#KathyS">Kathy Sarlson</a></li>
                          </ul>
                          
-                         <ul style="margin:30px 0;"><u>Please note</u>: <i>Members of the ensemble will be listed in Septembrer.</i></ul>
+                         <ul style="margin:30px 0;"><u>Please note</u>: <i>Members of the ensemble will be listed in September.</i>
+                         </ul>
 
                               
 <!--                         <li><span>Business Person</span> <span><a href="#Lisette">Lisette Walker</a></li>

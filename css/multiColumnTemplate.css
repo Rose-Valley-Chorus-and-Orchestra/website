@@ -314,11 +314,14 @@ h5 {
 }
 #siteInfo {
      /*text-transform:capitalize;*/
-	padding-top: 5px;display: block;
+	padding-top: 5px; 
+}
+#rvco_logo {width: 220px;
+     display: block;
      margin-left: auto;
      margin-right: auto;
+     padding: 10px;
 }
-#rvco_logo {width: 200px;background-color: green;}
 .title {
 	font-weight: bold;
 	font-style: normal;
