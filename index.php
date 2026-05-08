@@ -169,32 +169,22 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <span class="current_castlist">
                               <span><a href="grandDuke2026/grandDuke26cast.php" title="Go to The Grand Duke cast page">Cast List</a></span>
                               <span id="ViewSpringSynopsis" class=""><a title="View the synopsis of The Grand Duke"  
-                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','show');
-                                        MM_changeProp('ShowSpringSynopsis','','height','auto','DIV');
-                                        MM_changeProp('ShowSpringSynopsis','','width','auto','DIV');
-                                        MM_changeProp('ViewSpringSynopsis','','height','0px','SPAN');
-                                        MM_changeProp('ViewSpringSynopsis','','width','0px','SPAN');
-                                        MM_showHideLayers('ViewSpringSynopsis','','hide');
+                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','show');MM_changeProp('ShowSpringSynopsis','','height','auto','DIV');MM_changeProp('ShowSpringSynopsis','','width','auto','DIV');MM_changeProp('ViewSpringSynopsis','','height','0px','SPAN');MM_changeProp('ViewSpringSynopsis','','width','0px','SPAN');MM_showHideLayers('ViewSpringSynopsis','','hide');
                                         " >Synopsis</a></span>
                               <!--<span><a href="SFfunfacts.php" title="Go to our page with fun facts about State Fair">Fun Facts</a></span>-->
                     </div>
                     <div id="ShowSpringSynopsis" width="0px" height="0px">
                             <a title="Hide the The Grand Duke synopsis" 
-                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','hide');
-                                                  MM_changeProp('ShowSpringSynopsis','','height','0px','DIV');
-                                                  MM_changeProp('ShowSpringSynopsis','','width','0px','DIV');
-                                                  MM_changeProp('ViewSpringSynopsis','','height','auto','SPAN');
-                                                  MM_changeProp('ViewSpringSynopsis','','width','auto','SPAN');
-                                                 MM_showHideLayers('ViewSpringSynopsis','','show');" alt="Hide The Gondoliers synopsis">(Hide Synopsis)</a><br />
-                              <p>In Gilbert &amp; Sullivan's final collaboration, a troupe of actors conspires to overthrow an unpopular and miserly Grand Duke. Things go awry when their plot is accidentally revealed, prompting a series of disputes and political successions settled by "statutory" duel—an ingenious law that renders the legal death of the adversary who draws the lowest from a deck of cards. Hilarious entanglements, including thwarted marriages and questionable legal contracts, imbue this topsy-turvy comic opera with a with that only Gilbert and Sullivan can contrive.</p>
+                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','hide');MM_changeProp('ShowSpringSynopsis','','height','0px','DIV');MM_changeProp('ShowSpringSynopsis','','width','0px','DIV');MM_changeProp('ViewSpringSynopsis','','height','auto','SPAN');MM_changeProp('ViewSpringSynopsis','','width','auto','SPAN');MM_showHideLayers('ViewSpringSynopsis','','show')" alt="Hide The Gondoliers synopsis">(Hide Synopsis)</a><br />
+                              <p>In Gilbert &amp; Sullivan's final collaboration, a troupe of actors conspires to overthrow an unpopular and miserly Grand Duke. Things go awry when their plot is accidentally revealed, prompting a series of disputes and political successions settled by "statutory" duel—an ingenious law that renders the legal death of the adversary who draws the lowest from a deck of cards. Hilarious entanglements, including thwarted marriages and questionable legal contracts, imbue this topsy-turvy comic opera with a wit that only Gilbert and Sullivan can contrive.</p>
                     </div>
             <!-- begin SYNOPSIS HERE -->
                          
                          
                        <!-- begin TICKETS HERE -->
                              <div id="buyShowlink" class="howTo">
-                                  <div class="ticketsSponsors"><a title="Go to Zeffy to Buy Tickets to The Grand Duke" href="https://www.zeffy.com/en-US/ticketing/how-to-succeed-in-business-without-really-trying">Buy Tickets</a>
-                                  <a title="Go to Zeffy to Donate to Be a Show Sponsor" href="https://www.zeffy.com/en-US/ticketing/sponsorship-for-how-to-succeed-in-business-without-really-trying">Be a Sponsor</a>
+                                  <div class="ticketsSponsors"><a title="Go to Zeffy to Buy Tickets to The Grand Duke" href="https://www.zeffy.com/en-US/ticketing/tickets-the-grand-duke">Buy Tickets</a>
+                                  <a title="Go to Zeffy to Donate to Be a Show Sponsor" href="https://www.zeffy.com/en-US/ticketing/become-a-sponsor-the-grand-duke">Be a Sponsor</a>
                                   <a title="Find out more information on placing an ad in our playbill" href="Ads.php">Playbill Ads</a>
                                   </div>
                              </div>
@@ -250,7 +240,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
             <!-- begin SYNOPSIS HERE -->
                
-               <p>An idealistic young King Arthur hopes to create a kingdom built on honor and dignity, embodied by his Knights of The Round Table.  His Ideals, however are tested when his lovely queen, Guenevere, falls in love with the young Knight, Lancelot and the fate of the kingdom hangs in the balance.</p>
+               <p>An idealistic young King Arthur hopes to create a kingdom built on honor and dignity, embodied by his Knights of The Round Table.  His ideals, however are tested when his lovely queen, Guenevere, falls in love with the young knight, Lancelot, and the fate of the kingdom hangs in the balance.</p>
                          
                <!-- Code a synopsis    
                     <div class="viewSynopsis">

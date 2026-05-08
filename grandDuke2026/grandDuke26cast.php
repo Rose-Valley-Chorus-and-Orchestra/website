@@ -15,38 +15,6 @@
 <link href="../css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
  
 <style type="text/css">     
-ul.listing {
-max-width: 40em;
-padding: 0;
-overflow-x: hidden;
-list-style: none;
-}
-
-ul.listing li:before {
-float: left;
-width: 0;
-white-space: nowrap;
-content:
-". . . . . . . . . . . . . . . . . . . . "
-". . . . . . . . . . . . . . . . . . . . "
-". . . . . . . . . . . . . . . . . . . . "
-". . . . . . . . . . . . . . . . . . . . "
-}
-
-ul.listing span:first-child {
-padding-right: 0.33em;
-background: white;
-}
-
-ul.listing span + span {
-float: right;
-padding-left: 0.33em;
-background: white;
-}     
-     
-.lighter {filter: brightness(150%);}     
-.listing {margin: 0 40px 0;} 
-.listing li {line-height: 180%;}     
 </style>     
 <script type="text/javascript">
 <!--
@@ -143,12 +111,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                <h2 class="storyHead">Actors</h2>
                          <ul class="listing">
-                              <li><span>Rudolf, Grand Duke</span> <span><at href="#Rob">Rob Hull</a></span></li>
+                              <li><span>Rudolph<span class="castlist-small">, The Grand Duke</span></span> <span><at href="#Rob">Rob Hull</a></span></li>
                               <li><span>Ernest Dummkopf</span> <span><at href="#ChrisR">Chris Rubino</a></span></li>
-                              <li><span>The Princess of Monte Carlo</span> <span><at href="#Meagan">Meagan Rubino</a></span></li>
+                              <li><span><span class="castlist-small">The </span>Princess of Monte Carlo</span> <span><at href="#Meagan">Meagan Rubino</a></span></li>
                               <li><span>Ludwig</span> <span><at href="#Peter">Peter Beik</a></span></li>
                               <li><span>Dr Tannhäuser</span> <span><at href="#Sean">Sean O'Donnell</a></span></li>
-                              <li><span>Baroness von Krakenfeldt</span> <span><at href="#Brenda">Brenda Rose Simkin</a></span></li>
+                              <li><span>Baroness<span class="castlist-small"> von Krakenfeldt</span></span> <span><at href="#Brenda">Brenda Rose Simkin</a></span></li>
                               <li><span>Prince of Monte Carlo</span> <span><at href="#Jeff">Jeff Swafford</a></span></li>
                               <li><span>Julia Jellico</span> <span><at href="#mary">Mary Punshon</a></span></li>
                               <li><span>Herald</span> <span><at href="#Ray">Ray Murphy</a></span></li>

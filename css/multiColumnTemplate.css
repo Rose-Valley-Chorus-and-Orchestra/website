@@ -696,7 +696,7 @@ th .description {font-weight: normal}
 #announcement {padding: 10px 30px; width:80%; text-align: center;border: 2px solid #A30029; border-radius: 8px; margin: 10px auto; background-color: #FFEAF0;}
 
 .a_role {font-size: 1.2em;font-weight: bold;padding-right:3px;}
-
+/* FOR SCROLLING ANNOUNCEMENTS */
 /* (A) UNIFORM ROW HEIGHT */
 /* make sure enough height space */
 .vwrap, .vvitem { height: 100px; }
@@ -718,4 +718,42 @@ th .description {font-weight: normal}
   100% { bottom: 275%; }
 }
 .vmove { animation: tickerv linear 10s infinite; }
-.vmove:hover { animation-play-state: paused; } 
+.vmove:hover { animation-play-state: paused; }
+
+
+
+/* FOR CREATING ... IN THE CAST LIST*/
+
+ul.listing {
+max-width: 40em;
+padding: 0;
+overflow-x: hidden;
+list-style: none;
+}
+
+ul.listing li:before {
+float: left;
+width: 0;
+white-space: nowrap;
+content:
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+}
+
+ul.listing span:first-child {
+padding-right: 0.33em;
+background: white;
+}
+
+ul.listing span + span {
+float: right;
+padding-left: 0.33em;
+background: white;
+}     
+     
+.lighter {filter: brightness(150%);}     
+.listing {margin: 0 40px 0;} 
+.listing li {line-height: 180%;}     
+
