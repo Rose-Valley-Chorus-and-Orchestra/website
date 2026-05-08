@@ -319,7 +319,8 @@ I hide and show another table  */
 .face_tube {
 	text-indent: -5px;
      height: 40px;
-}
-
+     }
+.castlist-small {display: none;}
+.castlist-small .level1 {display: block;}
 }
 

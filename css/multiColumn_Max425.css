@@ -269,10 +269,9 @@ I hide and show another table  */
 #phoneTable {display: initial; visibility: visible;}
 #notPhoneTable {visibility: hidden; display:none;}
 
+.castlist-small {display: none;}
+
 }
-.castlist-small {ddisplay: none;}
-.listing {font-size: 13px;}
-.listing {ffont-size: 0.9em;}
 
 @media (max-width: 360px) {
 
