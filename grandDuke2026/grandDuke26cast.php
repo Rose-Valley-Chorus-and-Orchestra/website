@@ -113,7 +113,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <ul class="listing">
                               <li><span>Rudolph, The Grand Duke</span> <span><at href="#Rob">Rob Hull</a></span></li>
                               <li><span>Ernest Dummkopf</span> <span><at href="#ChrisR">Chris Rubino</a></span></li>
-                              <li><span>Princess<span class="castlist-small"> of Monte Carlo</span></span> <span><at href="#Meagan">Meagan Rubino</a></span></li>
+                              <li><span>Princess<span class="castlist-small2"> of Monte Carlo</span></span> <span><at href="#Meagan">Meagan Rubino</a></span></li>
                               <li><span>Ludwig</span> <span><at href="#Peter">Peter Beik</a></span></li>
                               <li><span>Dr Tannhäuser</span> <span><at href="#Sean">Sean O'Donnell</a></span></li>
                               <li><span>Baroness<span class="castlist-small"> von Krakenfeldt</span></span> <span><at href="#Brenda">Brenda Rose Simkin</a></span></li>

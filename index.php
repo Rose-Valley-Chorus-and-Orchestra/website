@@ -212,7 +212,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <div class="show_authors">
                               <div>Book and Lyrics by <span class="lyricist">ALAN JAY LERNER</span></div>
                               <div style="padding-top:5px">Music by <span class="authors">FREDERICK LOEWE</span></div>
-                              <div class="secondaryCredit">Originally Production Directed and Staged by <nobr>Moss Hart</nobr></div>
+                              <div class="secondaryCredit">Original Production Directed and Staged by <nobr>Moss Hart</nobr></div>
                               <div class="secondaryCredit">Based on The Once and Future King by <nobr>T.H. White</nobr></div>
                     </div>
                     <div class="show_info" 
