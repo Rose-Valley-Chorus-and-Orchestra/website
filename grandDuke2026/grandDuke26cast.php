@@ -121,7 +121,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <li><span>Ben Hashbaz (a Costumier)</span> <span><at href="#">to be cast</a></span></li>                              
                                    <li><span>Herald</span> <span><at href="#Ray">Ray Murphy</a></span></li>
                                    <li><span>The Princess of Monte Carlo (Betrothed&nbsp;to Rudolph)</span> <span><at href="#Meagan">Meagan Rubino</a></span></li>
-                                   <li><span>The Baroness von Krakenfeldt (Betrothed to Rudolf)</span> <span><at href="#Brenda">Brenda Rose Simkin</a></span></li>
+                                   <li><span>The Baroness von Krakenfeldt (Betrothed to Rudolph)</span> <span><at href="#Brenda">Brenda Rose Simkin</a></span></li>
                                    <li><span>Julia Jellico (an English Comedian)</span> <span><at href="#mary">Mary Punshon</a></span></li>                              
                               </div>
                               <div class="castlistSmall">
