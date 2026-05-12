@@ -90,13 +90,14 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     <!--<p><b>Sign Up:</b> <a href="https://tinyurl.com/rvco-gd" target="new">https://tinyurl.com/rvco-gd</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>-->
 
                     <p><b>Rehearsal dates and times:</b> Sundays 2:00 - 5:00 p.m. &amp; Mondays and Wednesdays  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.
-                         <ul style="Margin-top:-10px;margin-left: 20px;"><li class="more_info">Lead only rehearsals August Wednesday  26; Sunday 30; and Monday 31.</li>
-                              <li class="more_info">Full cast script read through Wednesday September 2.</li>
-                              <li class="more_info">Full cast rehearsals start Wednesday September 9.</li></ul></p>
+                         <ul style="Margin-top:-10px;margin-left: 20px;"><li class="more_info">Lead only rehearsals Wednesday, August 26; Sunday, August 30; and Monday, August 31.</li>
+                              <li class="more_info">Full cast script read through on Wednesday September 2.</li>
+                              <li class="more_info">Full cast rehearsals start on Wednesday September 9.</li>
+                         </ul></p>
        
                     <p style="Margin-top:-20px;"><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span>
-                    <ul style="margin-top: -15px;">Sitzprobe: Saturday October 31, 9:30 a.m.  - 12:30 p.m.</ul>
-                    <ul style="margin-top: -9px;">Tech: Sunday November 1, 1:00 - 10:00 p.m.</ul>
+                    Sitzprobe: Saturday, October 31, 9:30 a.m.  - 12:30 p.m.
+                    Tech: Sunday, November 1, 1:00 - 10:00 p.m.
                     <ul style="margin-top: -9px;margin-bottom: 6px;">Tech run-throughs: November 2-4 6:00 - 10:00 p.m.</ul>
                   
                     <p><b>Show dates:</b> November 7 - 15 <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
