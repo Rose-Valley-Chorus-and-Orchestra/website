@@ -1,44 +1,23 @@
 <!doctype html>
-<html>
-<head>
+<html><head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="our ticket prices are $25.00 for Adult tickets, $20.00 forSenior (60+)/Student tickets, and $10.00 for a Child (12 and under) ticket; link to Zeffy to purchase a tickts online" />
-<meta name="keywords" content="The Pirates of Penzance, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
-<title>Tickets - RVCO</title>
-<link rel="shortcut icon" href="images/rvco.ico" />
+<meta name="description" content="learn about the cast and crew for our 2026 production of The Grand Duke" />
+<meta name="keywords" content="The Pirates of Penzance, The Grand Duke, Camelot, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
+<title>Auditions - RVCO</title>
+<link rel="shortcut icon" href="../images/rvco.ico" />
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">	
 <link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
-
-<!-- First uploaded Januart 16, 2024 -->
-<style>
-            button.zeffy-btn {
-                background-color: #YOURHEXCOLOUR;
-                border: none;
-                border-radius: 5px;
-                box-sizing: border-box;
-                color: white;
-                cursor: pointer;
-                left: calc(50% - 75px);
-                margin: 10px;
-                min-height: 50px;
-                min-width: 150px;
-                padding: 5px 10px;
-                text-transform: uppercase;
-                top: calc(50% - 25px);
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-        </style>     
-
+ 
+<style type="text/css">     
+</style>     
 <script type="text/javascript">
-
+<!--
 function MM_showHideLayers() { //v9.0
   var i,p,v,obj,args=MM_showHideLayers.arguments;
   for (i=0; i<(args.length-2); i+=3) 
@@ -55,48 +34,43 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     else eval("obj.style."+theProp+"='"+theValue+"'");
   }
 }
-
+//-->
 </script>
     
 </head>
 <body>
-<div class="container">     
-     <header>
-    <div class="primary_header">
-		 <div id="masthead">  
-	<div id="facebook_youtube">
-		<div class="face_tube">
-			<a class="face_tube_img" href="https://www.facebook.com/RoseValleyChorus/" target="_blank"><img src="images/facebook.svg" alt="Follow us on Facebook" vspace="1" align="absmiddle" title="Find us on Facebook" /></a>
-               <a class="face_tube_img" href="https://www.instagram.com/rvco1907/" target="_blank"><img src="images/Instagram@50px.webp" alt="Follow us on Instagram" vspace="1" align="absmiddle" title="Follow us on Instagram" /></a> 
-                </div>
-        <div class="face_tube">
-			<a class="face_tube_img" href="http://www.youtube.com/user/rosevalleychorus" target="_blank"><img src="images/youtube.svg" alt="Visit our YouTube channel" vspace="1" align="absmiddle" title="Visit our YouTube channel" /></a></div>
-	</div>
-     <h1 id="siteName"><a href="index.php">Rose Valley Chorus &amp; Orchestra</a></h1>
-</div>
-    </div>
-    <nav><div class="secondary_header" id="menu">
-      <ul>
-            <li><a href="index.php">HOME</a></li>
-           <li><a href="AboutUs.php">ABOUT</a></li>
-             <li>TICKETS</li>
-		  <li><a href="Venue.php">VENUE</a></li>
-		  <li><a href="Auditions.php">AUDITIONS</a></li>
-            <li><a href="contact pages/ContactUs.php"><nobr>CONTACT US</nobr></a></li>
-      </ul>
-    </div>
-    </nav>
-  </header>
-  <section>
-    <h2 class="noDisplay">Main Content</h2>
-                   <article class="left_article">
-                              <h1 id="pageName">TICKETS</h1>
-                              <h2 class="storyHead" style="visibility: hidden;"><i>State Fair</i></h2>
-                              <div style="margin: 20px;"><img style="background-color: white;  max-width: 500px;margin-left: auto;margin-right: auto;" src="howTo26/logo/FLABhowToChair@500.webp" alt="How to Succed in Business logo" class="img-responsive" name="howTo"  title="" hspace="0" vspace="0" /></div>
+<div class="container">
+       <header>
+              <div class="primary_header">
+                     <?php include("header2_new.php"); ?>
+              </div>
+              <nav>
+                   <div class="secondary_header" id="menu">
+                          <ul>
+                               <li><a href="index.php">HOME</a></li>
+                               <li><a href="AboutUs.php">ABOUT</a></li>
+                                <li><a href="Tickets.php">TICKETS</a></li>
+                                <li><a href="Venue.php">VENUE</a></li>
+                                <li>AUDITIONS</li>
+                               <li><a href="Contacts.php"><nobr>CONTACT US</nobr></a></li>
+                          </ul>
+                    </div>
+              </nav>
+      </header> <!--end navbar -->	
+
+<!--  <div id="advert"></div> -->
+
+
+<div id="content" style="padding-right: 10px">
+  <h1 id="pageName">TICKETS</h1>
+            <div class="feature castlist">
+
+                              <h2 class="storyHead" style="visibility: hidden;"><i>The Grand Duke</i></h2>
+                              <div style="margin: 20px;"><img class="first_show_img" name="The Grand Duke" title="The Grand Duke logo" hspace="20" vspace="5" /></div>
 
                               <div id="tickets">
                                    <p class="ticketsButton" style="max-width: 800px;font-size: 1.1em; color:#003366;margin-left:auto; margin-right: auto;"><b>RVCO tickets make a great gift.</b></p>
-                                                  <p class="ticketsButton"><a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to How to Succeed in Business Without Really Trying" href="https://www.zeffy.com/en-US/ticketing/how-to-succeed-in-business-without-really-trying">Buy Tickets</a></p>
+                                                  <p class="ticketsButton"><a class="ticketZeffy" title="Go to Zeffy to Buy Tickets to The Grand Duke" href="https://www.zeffy.com/en-US/ticketing/tickets-the-grand-duke">Buy Tickets</a></p>
                                                   <p>Peformances are at <a href="Venue.php">Strath Haven Middle School</a>, 200 South Providence Road, Wallingford, PA 19086.</p>
 
                                                   <p>All tickets are general admission and good for <b><i>any</i></b> performance.
@@ -110,12 +84,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                  </p>
                                    <p>Performances:<br />
                                                        
-                                                      <ul class="showDates" style="margin-top: -10px;">Saturday, April 18 at 2 p.m. and 7:30 p.m.</ul>
-                                                      <ul class="showDates">Sunday, April 19 at 2:00 p.m.</ul>
-                                                      <ul class="showDates"> Wednesday, April 22 at 7:30 p.m.</ul>
-                                                      <ul class="showDates">Saturday, April 25 at 2:00 p.m. and 7:30 p.m.</ul>
-                                                      <ul class="showDates">Sunday, April 26 at 2:00 p.m.</ul>
-                                                  
+                                                      <ul class="showDates" style="margin-top: -10px;">Saturday, November 7 at 2 p.m. and 7:30 p.m.</ul>
+                                                      <ul class="showDates">Sunday, November 8 at 2:00 p.m.</ul>
+                                                      <ul class="showDates"> Wednesday, November 11 at 7:30 p.m.</ul>
+                                                      <ul class="showDates">Saturday, November 14 at 2:00 p.m. and 7:30 p.m.</ul>
+                                                      <ul class="showDates">Sunday, November 15 at 2:00 p.m.</ul>
+                                                  <ul><span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span></ul>
                                                   <!--<ul><span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span></ul>-->
                                                   </p>
                                                   
@@ -129,21 +103,17 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 End of Inclement Weather Cancelatio message -->	  
 
                               </div>
-                    </article>
-  </section>
+     </div>
+</div>    <!-- end of content-->
+ <?php include("join.php"); ?>     
      
-     
-     
-<footer class="secondary_header, footer">
-    <div class="copyright">
- <div id="bottomLinks">
-	<span><a href="Venue.php" title="Get directions to our theater">Directions</a></span> 
-	<span><a href="productionHistory_new.php" title="See our complete history of shows">Production History</a></span> 
-	<span><a href="Contacts.php" alt="Contact Us" title="Go a page with our address, phone number and email addresses to contact us" >Contact Us</a></span></div>
-<div id="siteInfo">&copy; 2025 Rose Valley Chorus and Orchestra</div>
-<br /> 
-</div>
-  </footer>
-</div>
+
+         
+          <footer class="secondary_header, footer">
+               <div class="copyright">
+               <?php include("footer.php"); ?></div>
+          </footer>
+
+</div>     <!-- end of container-->
 </body>
 </html>

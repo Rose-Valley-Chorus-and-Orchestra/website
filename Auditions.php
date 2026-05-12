@@ -1,22 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="learn about the cast and crew for our 2026 production of The Grand Duke" />
+<meta name="keywords" content="The Pirates of Penzance, The Grand Duke, Camelot, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
 <title>Auditions - RVCO</title>
-<link rel="shortcut icon" href="https://www.rvco.org/images/rvco.ico" />
+<link rel="shortcut icon" href="../images/rvco.ico" />
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">	
 <link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
 <link href="css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
-
-<!-- First uploaded September 16, 2025 -->
-
+ 
+<style type="text/css">     
+</style>     
 <script type="text/javascript">
-
+<!--
 function MM_showHideLayers() { //v9.0
   var i,p,v,obj,args=MM_showHideLayers.arguments;
   for (i=0; i<(args.length-2); i+=3) 
@@ -33,41 +34,33 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     else eval("obj.style."+theProp+"='"+theValue+"'");
   }
 }
-
+//-->
 </script>
     
-<style>:is([id*='google_ads_iframe'],[id*='taboola-'],.taboolaHeight,.taboola-placeholder,#top-ad,#credential_picker_container,#credentials-picker-container,#credential_picker_iframe,[id*='google-one-tap-iframe'],#google-one-tap-popup-container,.google-one-tap__module,.google-one-tap-modal-div,#amp_floatingAdDiv,#ez-content-blocker-container) {display:none!important;min-height:0!important;height:0!important;}</style></head>
+</head>
 <body>
 <div class="container">
-  <header>
-    <div class="primary_header">
-		 <div id="masthead">  
-	<div id="facebook_youtube">
-		<div class="face_tube">
-			<a class="face_tube_img" href="https://www.facebook.com/RoseValleyChorus/" target="_blank"><img src="howTo26/Audition material/Auditions-H2$_files/facebook.svg" alt="Follow us on Facebook" vspace="1" align="absmiddle" title="Find us on Facebook"></a>
-               <a class="face_tube_img" href="https://www.instagram.com/rvco1907/" target="_blank"><img src="howTo26/Audition material/Auditions-H2$_files/Instagram@50px.webp" alt="Follow us on Instagram" vspace="1" align="absmiddle" title="Follow us on Instagram"></a> 
-                </div>
-        <div class="face_tube">
-			<a class="face_tube_img" href="http://www.youtube.com/user/rosevalleychorus" target="_blank"><img src="howTo26/Audition material/Auditions-H2$_files/youtube.svg" alt="Visit our YouTube channel" vspace="1" align="absmiddle" title="Visit our YouTube channel"></a></div>
-	</div>
-     <h1 id="siteName"><a href="https://www.rvco.org/index.php">Rose Valley Chorus &amp; Orchestra</a></h1>
-</div>
-    </div>
-    <nav><div class="secondary_header" id="menu">
-      <ul>
-            <li><a href="https://www.rvco.org/index.php">HOME</a></li>
-            <li><a href="https://www.rvco.org/AboutUs.php">ABOUT</a></li>
-            <li><a href="https://www.rvco.org/Tickets.php">TICKETS</a></li>
-		  <li><a href="https://www.rvco.org/Venue.php">VENUE</a></li>
-		  <li>AUDITIONS</li>
-           <li><a href="https://www.rvco.org/Contacts.php"><nobr>CONTACT US</nobr></a></li>
-      </ul>
-     </div>
-    </nav>
- </header>
+       <header>
+              <div class="primary_header">
+                     <?php include("header2_new.php"); ?>
+              </div>
+              <nav>
+                   <div class="secondary_header" id="menu">
+                          <ul>
+                               <li><a href="index.php">HOME</a></li>
+                               <li><a href="AboutUs.php">ABOUT</a></li>
+                                <li><a href="Tickets.php">TICKETS</a></li>
+                                <li><a href="Venue.php">VENUE</a></li>
+                                <li>AUDITIONS</li>
+                               <li><a href="Contacts.php"><nobr>CONTACT US</nobr></a></li>
+                          </ul>
+                    </div>
+              </nav>
+      </header> <!--end navbar -->	
 
-    
-<!--begin content -->     
+<!--  <div id="advert"></div> -->
+
+
 <div id="content" style="padding-right: 10px">
   <h1 id="pageName">AUDITIONS</h1>
   <div id="auditions" class="story">
@@ -140,21 +133,16 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
      
      
      </div>
-<!--end content -->
-<!--begin sponsor and donate -->          
- <div class="social">
-          <h4>Please consider helping us keep live musical theater in the community! <br>Consider making a <a title="Goi oto Zeffy to Donate Now" href="https://www.zeffy.com/en-US/donation-form/d9b4ba19-0df8-4869-9aa8-2b7835686f90">donation now</a> or consider becoming a <a htitle="Go to Zeffy to Be a Show Sponsor" href="https://www.zeffy.com/ticketing/sponsorship-for-the-gondoliers-2">sponsor</a> for a specific show.</h4>
-</div> 
- <!---->
-<!--end sponsor and donate -->     
+</div>    <!-- end of content-->
+ <?php include("join.php"); ?>     
+     
 
+         
+          <footer class="secondary_header, footer">
+               <div class="copyright">
+               <?php include("footer.php"); ?></div>
+          </footer>
 
-     <footer class="secondary_header, footer">
-         <div class="copyright">
-                <?php include("footer.php"); ?>
-          </div>
-     </footer>
-</div>  <!-- The end of id="content"  -->
-
-
-</div></body></html>
+</div>     <!-- end of container-->
+</body>
+</html>
