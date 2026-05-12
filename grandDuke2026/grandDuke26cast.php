@@ -42,17 +42,17 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div class="container">
        <header>
               <div class="primary_header">
-                     <?php include("file:///MINI HD/private/var/folders/vq/wwg2k5s51gzf91gfsvz8tl800000gn/T/Adobe/header2_new.php"); ?>
+                     <?php include("../header2_new.php"); ?>
               </div>
               <nav>
                    <div class="secondary_header" id="menu">
                           <ul>
-                               <li><a href="file:///MINI HD/private/var/folders/vq/wwg2k5s51gzf91gfsvz8tl800000gn/T/Adobe/index.php">HOME</a></li>
-                               <li><a href="file:///MINI HD/private/var/folders/vq/wwg2k5s51gzf91gfsvz8tl800000gn/T/Adobe/AboutUs.php">ABOUT</a></li>
-                                <li><a href="file:///MINI HD/private/var/folders/vq/wwg2k5s51gzf91gfsvz8tl800000gn/T/Adobe/Tickets.php">TICKETS</a></li>
-                                <li><a href="file:///MINI HD/private/var/folders/vq/wwg2k5s51gzf91gfsvz8tl800000gn/T/Adobe/archive/Venue.php">VENUE</a></li>
-                                <li><a href="file:///MINI HD/private/var/folders/vq/wwg2k5s51gzf91gfsvz8tl800000gn/T/Adobe/Auditions.php">AUDITIONS</a></li>
-                               <li><a href="file:///MINI HD/private/var/folders/vq/wwg2k5s51gzf91gfsvz8tl800000gn/T/Adobe/Contacts.php"><nobr>CONTACT US</nobr></a></li>
+                               <li><a href="../index.php">HOME</a></li>
+                               <li><a href="../AboutUs.php">ABOUT</a></li>
+                                <li><a href="../Tickets.php">TICKETS</a></li>
+                                <li><a href="../Venue.php">VENUE</a></li>
+                                <li><a href="../Auditions.php">AUDITIONS</a></li>
+                               <li><a href="../Contacts.php"><nobr>CONTACT US</nobr></a></li>
                           </ul>
                     </div>
               </nav>
@@ -93,7 +93,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               MM_changeProp('HideLink','','width','0px','DIV');
                               MM_changeProp('HideLink','','height','0px','DIV');
                               " alt="Hide the synopsis">Hide Synopsis</a></div>                                  
-               <div style="float:left">&nbsp; &nbsp;<a href="file:///MINI HD/private/var/folders/vq/wwg2k5s51gzf91gfsvz8tl800000gn/T/Adobe/productionHistory_new.php" >Production History</a></div>
+               <div style="float:left">&nbsp; &nbsp;<a href="../productionHistory_new.php" >Production History</a></div>
           </div>
           <div id="Synopsis" class="castlistSynopsis">
                <p>In Gilbert &amp; Sullivan's ultimate collaboration, a troupe of actors conspires to overthrow the unpopular and miserly Grand Duke. Things go awry when their plot is accidentally revealed, prompting a series of disputes and political successions settled by "statutory" duel—an ingenious law that renders the legal death of the adversary who draws the lowest from a deck of cards. Hilarious entanglements, including thwarted marriages and questionable legal contracts, imbue this topsy-turvy comic opera with a wit and charm that only Gilbert and Sullivan can contrive. Never fear, a lawyer solves the problem and all ends happily.</p>
