@@ -269,22 +269,22 @@ I hide and show another table  */
 #phoneTable {display: initial; visibility: visible;}
 #notPhoneTable {visibility: hidden; display:none;}
 
-.castlist-small {display: none;}
-
-}
+.castlistSmall {display: block;}
+.castlistSmall li {margin-bottom: 5px;}     
+.castlistBig {display: none;}
 
 @media (max-width: 360px) {
-
 /*           begin Bill custom for WIDTH <360px           */
-#masthead{
-	margin: 0px;
-	padding: 15px 0px 75px 0px;
-	border-bottom: 1px solid  #333;
-	width: 100%;
-	background-color: #FCFCFC;
-     hheight: 80px;
+     #masthead{
+          margin: 0px;
+          padding: 15px 0px 75px 0px;
+          border-bottom: 1px solid  #333;
+          width: 100%;
+          background-color: #FCFCFC;
+          hheight: 80px;
+          }
+     #siteName {
+          font-size: 22px;
+          padding: 0px 0px 0px 10px;}
      }
-#siteName {
-	font-size: 22px;
-	padding: 0px 0px 0px 10px;}
 }

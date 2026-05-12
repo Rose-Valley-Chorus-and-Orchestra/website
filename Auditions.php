@@ -79,7 +79,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                </div>-->
              <div class="story">
                   <div>
-                       <p style="border: thin #666666 solid"><i>The Grand Duke</i> has been cast. View the <span><a href="grandDuke2026/grandDuke26cast.php" title="Go to The Grand Duke cast page">Cast List</a></span> for more information.  If you are interested in joing the cast in the chorus or helping out backstage, please contact us at <a href="mailto:info@rvco.org?subject=Interest in The Grand Duke">info@rvco.org</a>.</p>
+                       <p style="border: thin #666666 solid"><i>The Grand Duke</i> has been predominantly cast. View the <span><a href="grandDuke2026/grandDuke26cast.php" title="Go to The Grand Duke cast page">Cast List</a></span> for more information.  Two additional rolls will be cast from the chorus. If you are interested in joining the cast in the chorus or helping out backstage, please contact us at <a href="mailto:info@rvco.org?subject=Interest in The Grand Duke">info@rvco.org</a>.</p>
                        <p>The first rehearsal is in  September 2 at the <a href="https://www.google.com/maps/place/Holy+Trinity+Lutheran+Church/@39.8769582,-75.3648066,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e81375fa5483:0xdfe67210e756930!8m2!3d39.8769541!4d-75.3622317!16s%2Fg%2F1tg7szsf?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="new"><u>Roosevelt Community Center</u></a>, 464 S. Old Middletown Road, Media, PA 19063. We'd love to have you join us. If you are planning on joining us, please email <a href="mailto:info@rvco.org">info@rvco.org</a> with your name and email address.</p>
                     </div>
 
@@ -96,8 +96,8 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
 
                     <!--<p><b>Sign Up:</b> <a href="https://tinyurl.com/rvco-gd" target="new">https://tinyurl.com/rvco-gd</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>-->
 
-                    <p><b>Rehearsal dates and times:</b> Sundays 2:00 - 5:00 p.m. and Monday and Wednesday  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.
-                         <ul style="Margin-top:-10px;margin-left: 20px;"><li class="more_info">Lead only rehearsals August Wednesday  26; Sunday 30; &amp; Monday 31.</li>
+                    <p><b>Rehearsal dates and times:</b> Sundays 2:00 - 5:00 p.m. &amp; Mondays and Wednesdays  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.
+                         <ul style="Margin-top:-10px;margin-left: 20px;"><li class="more_info">Lead only rehearsals August Wednesday  26; Sunday 30; and Monday 31.</li>
                               <li class="more_info">Full cast script read through Wednesday September 2.</li>
                               <li class="more_info">Full cast rehearsals start Wednesday September 9.</li></ul></p>
        
@@ -114,11 +114,11 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
 
           <h2>Show Synopsis</h2>
                     <div class="story">          
-                     <p>In Gilbert &amp; Sullivan's final collaboration, a troupe of actors conspires to overthrow an unpopular and miserly Grand Duke. Things go awry when their plot is accidentally revealed, prompting a series of disputes and political successions settled by "statutory" duel—an ingenious law that renders the legal death of the adversary who draws the lowest from a deck of cards. Hilarious entanglements, including thwarted marriages and questionable legal contracts, imbue this topsy-turvy comic opera with a wit that only Gilbert and Sullivan can contrive.</p>
+                     <p>In Gilbert &amp; Sullivan's ultimate collaboration, a troupe of actors conspires to overthrow the unpopular and miserly Grand Duke. Things go awry when their plot is accidentally revealed, prompting a series of disputes and political successions settled by "statutory" duel—an ingenious law that renders the legal death of the adversary who draws the lowest from a deck of cards. Hilarious entanglements, including thwarted marriages and questionable legal contracts, imbue this topsy-turvy comic opera with a wit and charm that only Gilbert and Sullivan can contrive. Never fear, a lawyer solves the problem and all ends happily.</p>
             </div>
      
 
-          <h2>Director's Note:</h2>
+          <!--<h2>Director's Note:</h2>
                     <div class="story">          
                      <p>One major premise of this show is that this is a troupe of Bavarian, Austrian, or German actors. They are "blessed" with the FABULOUS, ENGLISH Julia Jellicoe. Quoting Ernest: "The lovely English comedienne - the beautiful Julia, whose dramatic ability is so overwhelming that our audiences forgive even her strong English accent." And, in fact, in the original production, all the D'Oyly Carte players had British accents EXCEPT Julia, who had an Hungarian accent. Similarly, our Julia will have an Austrian/German/Hungarian accent.</p>
             </div>
@@ -126,11 +126,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
           <h2>Side note:</h2>
                     <div class="story">          
                      <p>The first Julia was exactly as described above. Ilka Pálmay was a Hungarian-born singer and actress. Pálmay began her stage career in Hungary by 1880. In 1895, Pálmay began to perform in London, and in 1896 she created the leading role of Julia in The Grand Duke. In 1897, Pálmay returned to Hungary and spent most of the rest of her long and successful career in Hungary and Austria.</p>
-            </div>
-
-
-
-                 <!--<p class="alert-danger"><b>All those auditioning acknowledge the contagious nature of Coronovirus Covid-19 and the risk of exposure that exists in any public place where people are present. They agree to comply with any and all Covid protocols set in place by RVCO and the venues for rehearsals and performance. Auditioners voluntarily assume any and all risks of exposure during the audition process, and release, hold harmless and indemnify RVCO and its directors, members and volunteers for any and all claims arising out of or relating to exposure to or infection by Covid-19 or similar disease which may occur in connection with participation in the audition process.</b></p> -->
+            </div> -->
 
           <!--end content -->
 

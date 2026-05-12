@@ -252,6 +252,7 @@ aside .donate {
 I hide and show another table  */
 #phoneTable {visibility: hidden; display:none;}
 #notPhoneTable {display: initial; visibility: visible;}
+     
 }
      
      
@@ -265,8 +266,13 @@ I hide and show another table  */
 @media (min-width: 451px) and (max-width: 525px) {
 .first_show_img, .second_show_img { width:400px;}              
 .first_show_img {content: url("../grandDuke2026/artwork/logo/GrandDuke-logo@400w.webp");}              
-.second_show_img {content: url("../camelot2027/artwork/logo/JPG/CAMELOT_LOGO_FULL HORZ_4C.jpg");}              
+.second_show_img {content: url("../camelot2027/artwork/logo/JPG/CAMELOT_LOGO_FULL HORZ_4C.jpg");}     
+.castlistBig {display: none;}
+.castlistSmall {display: block;}
+.castlistSmall li {margin-bottom: 5px;}          
 }
+
+
 @media (min-width: 426px) and (max-width: 570px) {
 .face_tube_text {
      visibility: hidden;
@@ -320,7 +326,10 @@ I hide and show another table  */
 	text-indent: -5px;
      height: 40px;
      }
-.castlist-small {display: none;}
-.castlist-small .level1 {display: block;}
 }
-
+@media (min-width: 426px) and (max-width: 650px) {	
+.castlistBig {display: none;}
+.castlistSmall {display: block;}
+.castlistSmall li {margin-bottom: 5px;}         
+     
+}

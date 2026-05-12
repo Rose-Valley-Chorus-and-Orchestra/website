@@ -756,4 +756,8 @@ background: white;
 .lighter {filter: brightness(150%);}     
 .listing {margin: 0 40px 0;} 
 .listing li {line-height: 180%;}     
+.castlistBig {display: block;}
+.castlistSmall {display: none;}
+
+   
 
