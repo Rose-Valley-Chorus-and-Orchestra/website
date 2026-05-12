@@ -364,7 +364,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
       <div>          
           <footer class="secondary_header, footer">
                <div class="copyright">
-               <?php include("file:///MINI HD/private/var/folders/vq/wwg2k5s51gzf91gfsvz8tl800000gn/T/Adobe/footer2.php"); ?></div>
+               <?php include("../footer2.php"); ?></div>
           </footer>
      </div>
 </div>     <!-- end of container-->
