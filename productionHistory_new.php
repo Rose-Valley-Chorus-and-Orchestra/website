@@ -56,12 +56,18 @@
        <tr>
         <td>&nbsp;</td>
         <td align="center"><!--<a href="gondoliers/GONDOLIERS25cast.php">cast list &amp; synopsis</a>--></td>
+        <td><div align="center">2027</div></td>
+        <td><i>Camelot</i></td>
+      </tr>
+       <tr>
+        <td>&nbsp;</td>
+        <td align="center"><a href="grandDuke2026/grandDuke26cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2026</div></td>
         <td><i>The Grand Duke</i></td>
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="howTo26/how2$2026cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="https://archive.rvco.org/past_shows/howTo26/how2$2026cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2026</div></td>
         <td><i>How to Succeed in Business without Really Trying</i></td>
       </tr>

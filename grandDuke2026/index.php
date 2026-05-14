@@ -185,24 +185,24 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
           <!-- Begin content masthead -->
           <div id="content">
-               <?php include("../howTo26/sp_announcement.php"); ?>
+               <?php include("../howTo2026/sp_announcement.php"); ?>
                
                <div class="castpageLinks">
 
-                    <a href="../howTo26/set_designs.php" title="Go to the set design page"><span class="button" style="float:left;">Set Designs</span></a>                               
+                    <a href="../howTo2026/set_designs.php" title="Go to the set design page"><span class="button" style="float:left;">Set Designs</span></a>                               
 
                     <div class="dropdown" style="float:left;">
                     <button type="button" class="btn btn-primary dropdown-toggle button" data-bs-toggle="dropdown">Choreography
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="../howTo26/dance/CoffeBreak.php" style="margin-left: -10px;" title="Go to the Coffee Break choreography page" >Coffee Break</a></li>
-                          <li><a class="dropdown-item" href="../howTo26/dance/CompanyWay.php" style="margin-left: -10px;" title="Go to The Company Way choreography page">The Company Way</a></li>
-                          <li><a class="dropdown-item" href="../howTo26/dance/SecretaryToy.php" title="Go to  A Secretary Is Not A Toy choreography page" style="margin-left: -10px;">A Secretary Is Not a Toy</a></li>
-                          <li><a class="dropdown-item" href="../howTo26/dance/Paris.php" title="Go to the Paris Original choreography page" style="margin-left: -10px;">Paris Original</a></li>
-                          <li><a class="dropdown-item" href="../howTo26/dance/Cinderella.php" title="Go to the Cinderella, Darling choreography page" style="margin-left: -10px;">Cinderella, Darling</a></li>
-                          <li><a class="dropdown-item" href="../howTo26/dance/Pirate.php" title="Go to the Pirate Dance choreography page" style="margin-left: -10px;">Pirate Dance</a></li>
-                          <li><a class="dropdown-item" href="../howTo26/dance/Believe.php" title="Go to the I Believe In You choreography page" style="margin-left: -10px;">I Believe In You</a></li>
-                          <li><a class="dropdown-item" href="../howTo26/dance/Brotherhood.php" title="Go to the Brotherhood of Man choreography page" style="margin-left: -10px;">Brotherhood of Man</a></li>
+                          <li><a class="dropdown-item" href="../howTo2026/dance/CoffeBreak.php" style="margin-left: -10px;" title="Go to the Coffee Break choreography page" >Coffee Break</a></li>
+                          <li><a class="dropdown-item" href="../howTo2026/dance/CompanyWay.php" style="margin-left: -10px;" title="Go to The Company Way choreography page">The Company Way</a></li>
+                          <li><a class="dropdown-item" href="../howTo2026/dance/SecretaryToy.php" title="Go to  A Secretary Is Not A Toy choreography page" style="margin-left: -10px;">A Secretary Is Not a Toy</a></li>
+                          <li><a class="dropdown-item" href="../howTo2026/dance/Paris.php" title="Go to the Paris Original choreography page" style="margin-left: -10px;">Paris Original</a></li>
+                          <li><a class="dropdown-item" href="../howTo2026/dance/Cinderella.php" title="Go to the Cinderella, Darling choreography page" style="margin-left: -10px;">Cinderella, Darling</a></li>
+                          <li><a class="dropdown-item" href="../howTo2026/dance/Pirate.php" title="Go to the Pirate Dance choreography page" style="margin-left: -10px;">Pirate Dance</a></li>
+                          <li><a class="dropdown-item" href="../howTo2026/dance/Believe.php" title="Go to the I Believe In You choreography page" style="margin-left: -10px;">I Believe In You</a></li>
+                          <li><a class="dropdown-item" href="../howTo2026/dance/Brotherhood.php" title="Go to the Brotherhood of Man choreography page" style="margin-left: -10px;">Brotherhood of Man</a></li>
                         </ul> 
                     </div>
 
@@ -262,7 +262,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                <div class="schedule">
                     <h2>Schedule</h2>
-                              <div  class="Rtimes"><a href="../howTo26/schedule/H2$ Schedule for Cast revised-Final4.pdf" title="Download the updated schedule February 3" target="new"><span class="button" href="">Download</span></a> a PDF version of the schedule to print.</div>
+                              <div  class="Rtimes"><a href="../howTo2026/schedule/H2$ Schedule for Cast revised-Final4.pdf" title="Download the updated schedule February 3" target="new"><span class="button" href="">Download</span></a> a PDF version of the schedule to print.</div>
                               <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
                                    <ul><li>If you know you will be late or not at rehearsal, please email <a href="mailto:florrie@barks.org,fittingchris20@gmail.com,wbmichael@comcast.net?subject=Missing rehearsal">Florrie, Chris, and Bill</a>.</li>
                                    <li>Day of rehearsal, please text Florrie at (610) 453-1407 (cell) or email Chris at fittingchris20@gmail.com.</li></ul></div>

@@ -57,7 +57,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                </div>-->
              <div class="story">
 
-                     <div style="padding: 10px 10px 3px 20px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="Audition material/Finch.pdf">J. Pierrepont Finch</a></b>
+                     <div style="padding: 10px 10px 3px 20px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="../../howTo26/Audition material/Audition material/Finch.pdf">J. Pierrepont Finch</a></b>
                          <p>Sing <u>one</u> of the following:
                               <ul style="list-style-type: disc; margin: -10px 0px -20px; padding-left: 60px;">
                                  <li><i>I Believe in You</i> : pick-up to C through 7 measures after E (or 2 measures before F)</li>
@@ -66,7 +66,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          </div>
                     
 
-                    <div style="padding: 10px 10px 3px 20px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="Audition material/Bud.pdf">Bud Frump</a></b>
+                    <div style="padding: 10px 10px 3px 20px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="../../howTo26/Audition material/Audition material/Bud.pdf">Bud Frump</a></b>
                          <p>Sing <u>one</u> of the following:
                               <ul style="list-style-type: disc; margin: -10px 0px -20px; padding-left: 60px;">
                                  <li><i>I Believe in You</i> : pick-up to C through 7 measures after E (or 2 measures before F)</li>
@@ -75,7 +75,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          </div>
                   
                   
-                         <div style="padding: 10px 10px 3px 20px;  margin-top: 0px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="Audition material/Biggley.pdf">J. B. Biggley</a></b>
+                         <div style="padding: 10px 10px 3px 20px;  margin-top: 0px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="../../howTo26/Audition material/Audition material/Biggley.pdf">J. B. Biggley</a></b>
                               <p>Sing <u>one</u> of the following:                              
                                    <ul style="list-style-type: disc; margin: -10px 0px -20px; padding-left: 60px;">
                                         <li><i>Grand Old Ivy</i> : measure 9 to 1 measure before E</li>
@@ -86,7 +86,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                 <div style="padding: 10px 10px 3px 20px; margin-bottom: 10px;">If you are auditioning for <b style="font-size: 1.5em;">Twimble/Womper or Gatch</b> do the singing and reading required for J. B. Bigley.</div>
        
        
-                         <div style="padding: 10px 10px 3px 20px;  margin-top: 0px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="Audition material/Bratt.pdf">Bratt</a></b>
+                         <div style="padding: 10px 10px 3px 20px;  margin-top: 0px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="../../howTo26/Audition material/Audition material/Bratt.pdf">Bratt</a></b>
                               <p>Sing <u>one</u> of the following:                              
                                    <ul style="list-style-type:disc; margin: -10px 0px -20px; padding-left: 60px;">
                                         <li><i>Grand Old Ivy</i> : measure 9 to 1 measure before E</li>
@@ -94,7 +94,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                  <p>Read: p.30 "Hello. Yes, JB." to end of 31</p>
                          </div>
 
-                         <div style="padding: 10px 10px 3px 20px; margin-top: 0px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="Audition material/Rosemary.pdf">Rosemary</a></b>
+                         <div style="padding: 10px 10px 3px 20px; margin-top: 0px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="../../howTo26/Audition material/Audition material/Rosemary.pdf">Rosemary</a></b>
                               <p>Sing <u>one</u> of the following:                              
                                    <ul style="list-style-type:disc; margin: -10px 0px -20px; padding-left: 60px;">
                                       <li><i>Happy to Keep His Dinner Warm</i> : pick-up to E to the end</li>
@@ -102,7 +102,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <p>Read: p.90-91: p.90 "Rosemary?" To p.91 "… in gold leaf."</p>
                          </div>
 
-                         <div style="padding: 10px 10px 3px 20px; margin-top: 0px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="Audition material/Smitty.pdf">Smitty</a></b>
+                         <div style="padding: 10px 10px 3px 20px; margin-top: 0px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="../../howTo26/Audition material/Audition material/Smitty.pdf">Smitty</a></b>
                               <p>Sing <u>one</u> of the following:                              
                                    <ul style="list-style-type:disc; margin: -10px 0px -20px; padding-left: 60px;">
                                       <li><i>Happy to Keep His Dinner Warm</i> : pick-up to E to the end</li>
@@ -110,7 +110,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <p>Read: p.7 (with Rosemary) "Good God, Rosemary" to end of page</p>
                          </div>
 
-                         <div style="padding: 10px 10px 3px 20px; margin-top: 0px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="Audition material/Hedy.pdf">Hedy</a></b>
+                         <div style="padding: 10px 10px 3px 20px; margin-top: 0px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="../../howTo26/Audition material/Audition material/Hedy.pdf">Hedy</a></b>
                               <p>Sing <u>one</u> of the following:                              
                                    <ul style="list-style-type:disc; margin: -10px 0px -20px; padding-left: 60px;">
                                       <li><i>Happy to Keep His Dinner Warm</i> : pick-up to E to the end</li>
@@ -118,7 +118,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <p>Read: p.53 (w Biggley): "how do you like your" to "but angel"</p>
                          </div>
 
-                         <div style="padding: 10px 10px 3px 20px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="Audition material/Miss Jones.pdf">Miss Jones</a></b>
+                         <div style="padding: 10px 10px 3px 20px; margin-bottom: 0px;"><b style="font-size: 1.5em;"><a href="../../howTo26/Audition material/Audition material/Miss Jones.pdf">Miss Jones</a></b>
                               <ul style="list-style-type:disc; margin: 10px 0px -20px; padding-left: 60px;">
                                    <li>Sing <i>Brotherhood of Man</i>: Q to S</li>
                                    <li>Read: p.18 -19: "Pardon me, ma'am" to end of p.19</li>

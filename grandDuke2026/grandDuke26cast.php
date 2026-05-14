@@ -115,14 +115,14 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <li><span>Rudolph (Grand Duke<span> of Pfennig-Halbpfennig</span>)</span> <span><at href="#Rob">Rob Hull</a></span></li>
                                    <li><span>Ernest Dummkopf (a Theatrical Manager)</span><span><at href="#ChrisR">Chris Rubino</a></span></li>
                                    <li><span>Ludwig (his Leading Comedian)</span> <span><at href="#Peter">Peter Beik</a></span></li>
-                                   <li><span>Dr Tannhäuser (a Notary)</span> <span><at href="#Sean">Sean O'Donnell</a></span></li>
+                                   <li><span>Dr Tannh&#228;user (a Notary)</span> <span><at href="#Sean">Sean O'Donnell</a></span></li>
                                    <li><span>The Prince of Monte Carlo</span> <span><at href="#Jeff">Jeff Swafford</a></span></li>                              
                                    <li><span>Viscount Mentone</span> <span><at href="#">to be cast</a></span></li>
                                    <li><span>Ben Hashbaz (a Costumier)</span> <span><at href="#">to be cast</a></span></li>                              
                                    <li><span>Herald</span> <span><at href="#Ray">Ray Murphy</a></span></li>
                                    <li><span>The Princess of Monte Carlo (Betrothed&nbsp;to Rudolph)</span> <span><at href="#Meagan">Meagan Rubino</a></span></li>
                                    <li><span>The Baroness von Krakenfeldt (Betrothed to Rudolph)</span> <span><at href="#Brenda">Brenda Rose Simkin</a></span></li>
-                                   <li><span>Julia Jellico (an English Comedian)</span> <span><at href="#mary">Mary Punshon</a></span></li>                              
+                                   <li><span>Julia Jellicoe (an English Com&#233;dienne)</span> <span><at href="#mary">Mary Punshon</a></span></li>                              
                               </div>
                               <div class="castlistSmall">
                                    <div>Rudolph (Grand Duke) of Pfennig-Halbpfennig

@@ -157,9 +157,9 @@ subtitle {font-size: 22px;}
      margin-left: auto;
      margin-right: auto; max-width: 800px;
 	}
-.first_show_img  {content: url("../gondoliers2025/artwork/logo/Gondoliers logo.webp")}
+.first_show_img  {content: url("../../../howTo26/Audition material/gondoliers2025/artwork/logo/Gondoliers logo.webp")}
 .second_show_img {clear:both;}          
-.second_show_img {content: url("../howTo26/logo/FLABhowToChair.webp")}     
+.second_show_img {content: url("../../../howTo26/Audition material/howTo26/logo/FLABhowToChair.webp")}     
 .show_authors, .show_info, .current_directors, .current_venue, .current_castlist {
      text-align: center;
      line-height: 150%;

@@ -263,8 +263,8 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
 
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../../../howTo26/Audition material/fonts/glyphicons-halflings-regular.eot');
+  src: url('../../../howTo26/Audition material/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../../howTo26/Audition material/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../../../howTo26/Audition material/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../../howTo26/Audition material/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../../howTo26/Audition material/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -6331,21 +6331,21 @@ button.close {
 }
 .carousel-control.left {
      background-repeat:no-repeat;
-     background-image: url("../images/previous_chevron.png");
+     background-image: url("../../../howTo26/Audition material/images/previous_chevron.png");
           margin-left:10px;
 }
 .carousel-control.left:hover {
      background-repeat:no-repeat;
-     background-image: url("../images/previous_chevron_hover.png");
+     background-image: url("../../../howTo26/Audition material/images/previous_chevron_hover.png");
 }
 .carousel-control.right {
   right: 0;
   left: auto;
   background-repeat: no-repeat;
-  background-image: url("../images/next_chevron.png");
+  background-image: url("../../../howTo26/Audition material/images/next_chevron.png");
 }
 .carousel-control.right:hover {
-  background-image: url("../images/next_chevron_hover.png");
+  background-image: url("../../../howTo26/Audition material/images/next_chevron_hover.png");
 }
 
 .carousel-control:hover,
