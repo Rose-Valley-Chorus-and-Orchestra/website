@@ -41,28 +41,19 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <div class="container">
   <header>
     <div class="primary_header">
-		 <div id="masthead">  
-	<div id="facebook_youtube">
-		<div class="face_tube">
-			<a class="face_tube_img" href="https://www.facebook.com/RoseValleyChorus/" target="_blank"><img src="../../howTo2026/Audition material/Auditions-H2$_files/facebook.svg" alt="Follow us on Facebook" vspace="1" align="absmiddle" title="Find us on Facebook"></a>
-               <a class="face_tube_img" href="https://www.instagram.com/rvco1907/" target="_blank"><img src="../../howTo2026/Audition material/Auditions-H2$_files/Instagram@50px.webp" alt="Follow us on Instagram" vspace="1" align="absmiddle" title="Follow us on Instagram"></a> 
-                </div>
-        <div class="face_tube">
-			<a class="face_tube_img" href="http://www.youtube.com/user/rosevalleychorus" target="_blank"><img src="../../howTo2026/Audition material/Auditions-H2$_files/youtube.svg" alt="Visit our YouTube channel" vspace="1" align="absmiddle" title="Visit our YouTube channel"></a></div>
-	</div>
-     <h1 id="siteName"><a href="https://www.rvco.org/index.php">Rose Valley Chorus &amp; Orchestra</a></h1>
-</div>
+		 <?php include("../header2_new.php"); ?>
     </div>
-    <nav><div class="secondary_header" id="menu">
-      <ul>
-            <li><a href="https://www.rvco.org/index.php">HOME</a></li>
-            <li><a href="https://www.rvco.org/AboutUs.php">ABOUT</a></li>
-            <li><a href="https://www.rvco.org/Tickets.php">TICKETS</a></li>
-		  <li><a href="https://www.rvco.org/Venue.php">VENUE</a></li>
-		  <li>AUDITIONS</li>
-           <li><a href="https://www.rvco.org/Contacts.php"><nobr>CONTACT US</nobr></a></li>
-      </ul>
-     </div>
+    <nav>
+         <div class="secondary_header" id="menu">
+                     <ul>
+                         <li><a href="http://www.rvco.org/index.php">HOME</a></li>
+                         <li><a href="http://www.rvco.org/AboutUs.php">ABOUT</a></li>
+                         <li><a href="http://www.rvco.org/Tickets.php">TICKETS</a></li>
+                         <li><a href="http://www.rvco.org/Venue.php">VENUE</a></li>
+                         <li><a href="http://www.rvco.org/Auditions.php">AUDITIONS</a></li>
+                         <li><a href="http://www.rvco.org/Contacts.php"><nobr>CONTACT US</nobr></a></li>
+                     </ul>
+         </div> <!--class="secondary_header" id="menu" -->
     </nav>
  </header>
 
@@ -112,7 +103,7 @@ p.m. and Sunday March 21&nbsp; at 1:30 – 4:30 p.m.</p>
                               <!--<li class="more_info"><u>To receive the audition material</u>, email <a href="mailto:auditions@rvco.org" title="Send your filled out PDF of the How to Succed audtion form to auditions@rvco.org" subject="Request for audition material">auditions@rvco.org</a>.&nbsp; Use "Request for audition material" as the subject. &nbsp;</li>-->
                               <li class="more_info">To audition for a role, you <i>must</i> sing and read the selections provided — readers and a pianist are provided to read with you and play for you. Due to time constraints, you may be asked to only sing or read one excerpt. You are not required to memorize the music or the dialog for the audition.</li>
                               <li class="more_info">If time allows, you may audition for up to two roles.&nbsp;</li>
-                              <li class="more_info"><b>Email</b> your <a href="https://www.rvco.org/howTo26/Audition%20material/RVCO%20Audition%20Form%20-%20How%20To%20Succeed.pdf" title="Open a fillable PDF of the How to Succeed in Bussiness without Really Trying audition form" target="new">audition form</a> to <a href="mailto:auditions@rvco.org" title="Send your filled out PDF of the How to Succed audtion form to auditions@rvco.org" subject="How to Succeed... Audtition Form">auditions@rvco.org</a> <i>and</i> <b>bring</b> a copy to your audition.</li>
+                              <li class="more_info"><b>Email</b> your <a href="" title="Open a fillable PDF of the How to Succeed in Bussiness without Really Trying audition form" target="new">audition form</a> to <a href="mailto:auditions@rvco.org" title="Send your filled out PDF of the How to Succed audtion form to auditions@rvco.org" subject="How to Succeed... Audtition Form">auditions@rvco.org</a> <i>and</i> <b>bring</b> a copy to your audition.</li>
                               <li> The day of your audition, if you cannot make your scheduled time or need to cancel, please call 484 981-9108.&nbsp;</li>
                     
                          <div style="margin-left: -40px; tes"><u>Additional Information</u></div>
