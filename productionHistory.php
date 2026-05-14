@@ -1284,7 +1284,7 @@
        </tr>
        <tr>
              <td>&nbsp;</td>
-             <td align="center"><a href="grandDuke2026/grandDuke26cast.php">cast list &amp; synopsis</a></td>
+             <td align="center"><a href="grandDuke2026/grandDuke2026cast.php">cast list &amp; synopsis</a></td>
              <td><div align="center">2026</div></td>
              <td><i>The Grand Duke</i></td>
        </tr>

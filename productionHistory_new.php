@@ -67,7 +67,7 @@
       </tr>
        <tr>
         <td>&nbsp;</td>
-        <td align="center"><a href="https://archive.rvco.org/past_shows/howTo26/how2$2026cast.php">cast list &amp; synopsis</a></td>
+        <td align="center"><a href="https://archive.rvco.org/past_shows/howTo2026/how2$2026cast.php">cast list &amp; synopsis</a></td>
         <td><div align="center">2026</div></td>
         <td><i>How to Succeed in Business without Really Trying</i></td>
       </tr>
