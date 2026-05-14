@@ -115,7 +115,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <li><span>Rudolph (Grand Duke<span> of Pfennig-Halbpfennig</span>)</span> <span><at href="#Rob">Rob Hull</a></span></li>
                                    <li><span>Ernest Dummkopf (a Theatrical Manager)</span><span><at href="#ChrisR">Chris Rubino</a></span></li>
                                    <li><span>Ludwig (his Leading Comedian)</span> <span><at href="#Peter">Peter Beik</a></span></li>
-                                   <li><span>Dr Tannh&#228;user (a Notary)</span> <span><at href="#Sean">Sean O'Donnell</a></span></li>
+                                   <li><span>Dr. Tannh&#228;user (a Notary)</span> <span><at href="#Sean">Sean O'Donnell</a></span></li>
                                    <li><span>The Prince of Monte Carlo</span> <span><at href="#Jeff">Jeff Swafford</a></span></li>                              
                                    <li><span>Viscount Mentone</span> <span><at href="#">to be cast</a></span></li>
                                    <li><span>Ben Hashbaz (a Costumier)</span> <span><at href="#">to be cast</a></span></li>                              

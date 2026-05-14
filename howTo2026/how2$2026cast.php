@@ -6,13 +6,13 @@
 <meta name="description" content="learn about the cast and crew for our 2026 production of How to Succeed in Business Without Really Trying" />
 <meta name="keywords" content="The Pirates of Penzance, Me and My Girl, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
 <title>The How to Succed in Business Without Really Trying 2026 Cast list - RVCO</title>
-<link rel="shortcut icon" href="../images/rvco.ico" />
-<link href="../css/bootstrap.css" rel="stylesheet" type="text/css">	
-<link href="../css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
-<link href="../css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
-<link href="../css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
-<link href="../css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
-<link href="../css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="http://www.rvco.org/images/rvco.ico" />
+<link href="http://www.rvco.org/css/bootstrap.css" rel="stylesheet" type="text/css">	
+<link href="http://www.rvco.org/css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<link href="http://www.rvco.org/css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
+<link href="http://www.rvco.org/css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
+<link href="http://www.rvco.org/css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
+<link href="http://www.rvco.org/css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
  
 <style type="text/css">     
 ul.listing {
@@ -71,10 +71,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
     
 </head>
 <body>
+<!-- begin container-->     
 <div class="container">
             <header>
                         <div class="primary_header">
-                               <?php include("../header2_new.php"); ?>
+                               <?php include("http://www.rvco.org/header2_new.php"); ?>
                         </div>
                         <nav>
                              <div class="secondary_header" id="menu">
@@ -92,46 +93,46 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
 <!--  <div id="advert"></div> -->
 
-
+<!-- begin content -->
 <div id="content">
           <h1 id="pageName">CAST LIST for <i>How to Succeed in Business Without Really Trying</i></h1>
           <h2 id="season">Spring 2026</h2>
-                         <div class="castpageLinks">
-                                   <div id="ViewSynopsis" style="padding:0px 0px; float: left;width:auto;"><a title="View The Gondoliers synopsis"  onclick="
-                                                                      MM_showHideLayers('History','','hide');
-                                                                      MM_changeProp('History','','height','0px','DIV');
-                                                                      MM_showHideLayers('ViewHistory','','show');
-                                                                      MM_changeProp('ViewHistory','','width','auto','DIV');
-                                                                      MM_changeProp('ViewHistory','','height','auto','DIV');
-                                                                      MM_showHideLayers('HideHistoryLink','','hide');
-                                                                      MM_changeProp('HideHistoryLink','','width','0px','DIV');
-                                                                      MM_changeProp('HideHistoryLink','','height','0px','DIV');
-                                                                      MM_showHideLayers('HideLink','','show');
-                                                                      MM_changeProp('HideLink','','width','auto','DIV');
-                                                                      MM_changeProp('HideLink','','height','auto','DIV');
-                                                                      MM_showHideLayers('Synopsis','','show');
-                                                                      MM_changeProp('Synopsis','','height','100%','DIV');
-                                                                      MM_showHideLayers('ViewSynopsis','','hide');
-                                                                      MM_changeProp('ViewSynopsis','','width','0px','DIV');
-                                                                      MM_changeProp('ViewSynopsis','','height','0px','DIV');
-                                                                      " >View Synopsis</a></div>
-                                   <div id="HideLink" style="visibility:hidden;color:#333;float:left;width:0px;height:0px;"><a title="Hide the synopsis" onclick="
-                                                                      MM_showHideLayers('Synopsis','','hide');
-                                                                      MM_changeProp('Synopsis','','height','0px','DIV');
-                                                                      MM_showHideLayers('ViewSynopsis','','show');
-                                                                      MM_changeProp('ViewSynopsis','','width','auto','DIV');
-                                                                      MM_changeProp('ViewSynopsis','','height','auto','DIV');
-                                                                      MM_showHideLayers('HideLink','','hide');
-                                                                      MM_changeProp('HideLink','','width','0px','DIV');
-                                                                      MM_changeProp('HideLink','','height','0px','DIV');
-                                                                      " alt="Hide the synopsis">Hide Synopsis</a></div>                                  
-                              <div style="float:left">&nbsp; &nbsp;<a href="../productionHistory_new.php" >Production History</a></div>
-                         </div>
-                         <div id="Synopsis" class="castlistSynopsis">
+               <div class="castpageLinks">
+                         <div id="ViewSynopsis" style="padding:0px 0px; float: left;width:auto;"><a title="View The Gondoliers synopsis"  onclick="
+                                                            MM_showHideLayers('History','','hide');
+                                                            MM_changeProp('History','','height','0px','DIV');
+                                                            MM_showHideLayers('ViewHistory','','show');
+                                                            MM_changeProp('ViewHistory','','width','auto','DIV');
+                                                            MM_changeProp('ViewHistory','','height','auto','DIV');
+                                                            MM_showHideLayers('HideHistoryLink','','hide');
+                                                            MM_changeProp('HideHistoryLink','','width','0px','DIV');
+                                                            MM_changeProp('HideHistoryLink','','height','0px','DIV');
+                                                            MM_showHideLayers('HideLink','','show');
+                                                            MM_changeProp('HideLink','','width','auto','DIV');
+                                                            MM_changeProp('HideLink','','height','auto','DIV');
+                                                            MM_showHideLayers('Synopsis','','show');
+                                                            MM_changeProp('Synopsis','','height','100%','DIV');
+                                                            MM_showHideLayers('ViewSynopsis','','hide');
+                                                            MM_changeProp('ViewSynopsis','','width','0px','DIV');
+                                                            MM_changeProp('ViewSynopsis','','height','0px','DIV');
+                                                            " >View Synopsis</a></div>
+                         <div id="HideLink" style="visibility:hidden;color:#333;float:left;width:0px;height:0px;"><a title="Hide the synopsis" onclick="
+                                                            MM_showHideLayers('Synopsis','','hide');
+                                                            MM_changeProp('Synopsis','','height','0px','DIV');
+                                                            MM_showHideLayers('ViewSynopsis','','show');
+                                                            MM_changeProp('ViewSynopsis','','width','auto','DIV');
+                                                            MM_changeProp('ViewSynopsis','','height','auto','DIV');
+                                                            MM_showHideLayers('HideLink','','hide');
+                                                            MM_changeProp('HideLink','','width','0px','DIV');
+                                                            MM_changeProp('HideLink','','height','0px','DIV');
+                                                            " alt="Hide the synopsis">Hide Synopsis</a></div>                                  
+                    <div style="float:left">&nbsp; &nbsp;<a href="../productionHistory_new.php" >Production History</a></div>
+               </div>
+               <div id="Synopsis" class="castlistSynopsis">
                               <p>J. Pierrepont Finch is a restless window washer with ambitions of climbing the corporate ladder. Amidst the absurdities of big business and taking inspiration from a how-to book on corporate finagling, Finch employs cunning and charm to wheedle his way to the top. Throughout his ascent, Finch wins the unwavering faith of Rosemary, a secretary eager for marriage, who recognizes his potential and is charmed by his innocence. While Rosemary clearly has her eyes set on the prize, will their budding romance falter amidst Finch's corporate aspirations? Can Finch ultimately realize the best of both worlds?</p>
 
                               <p>This Tony Award-winning musical with its unforgettable score by Frank Loesser includes memorable numbers like the whimsical "Coffee Break," the energetic "Brotherhood of Man," and the satirical ballad "I Believe In You." Its witty book earned the 1962 Pulitzer Prize for Best Drama.</p>
-                    </div>
+                         </div>
      
           <div class="feature castlist">
                     <div style="margin: 20px 20px 20px 20px;"><img style="background-color: white;  max-width: 500px;" src="logo/FLABhowToChair@500.webp" alt="How to Succeed in Business Without Really Trying< logo" class="img-responsive" name="how2"  title="" hspace="0" vspace="0" /></div>
@@ -218,9 +219,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                          </ul>
                                    
-
-
-
           <h2 class="storyHead">Production Staff</h2>
                <ul class="listing">
                               
@@ -264,34 +262,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
      
      </ul>     
 
-<!--                    <ul style="line-height: 160%">Stage Crew
-                         <ul><at href="#Sean">Sean Hall</a></ul>
-                         <ul><at href="#Todd">Todd Andrews</a></ul>
-                         <ul><at href="#Kathy">Barb Matheson</at></ul>
-                         <ul><at href="#Casey">Casey Kuhn</a></ul></ul>
-                    
-                    
-                         </ul>
-                         <div><ul>Marketing and Communications Chair - <at href="#Donna">Donna Winquist</a></ul></div>
-                        <div><ul>Make-up Designer - <a href="#Robert">Robert Moore</a></ul></div>
-                         <div><ul>Hair Designer - <at href="#Sally">Sally Foster-Chang</a></ul></div>
-				<div><ul>Show Selection Committee - <a href="#Robert">Robert Moore</a> <span style="font-weight: normal">(chair)</span></ul></div>
-                              <div style="margin-left: 100px; line-height: 180%; margin-top:-10px;">
-                                        <div><at href="#Sally">Sally Foster-Chang</a></div>
-                                        <div><a href="#Edwin">Edwin Nealley</a></div>
-                                         <div><a href="#Chris">Chris Rubino</a></div>
-                                        <div><at href="#Janice">Barb Matheson</a></div>
-                                        <div><a href="#Cathy">Cathy Wakefield</a></div>
-                                        <div><at href="#Julie">Julie Zaffarano</a></div>
-                              </div>
-                    
--->               
-               
-                    <!-- Production Staff end -->
-
-               
-       
-
+<!-- begin of bios-->  
 <div class="bios">
           <H2 class="storyHead">Bios</H2>
           <div class="listAlpha" ><span class="role">listed alphabetically</span></div>
@@ -313,9 +284,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <p class="bios"><span class="headshot_img"><img src="headshots/Lisa Franks a.jpg" alt="Lisa Franks headshot" class="headshot lighter"/></span><a name="LisaF"></a><span class="person">Lisa Franks</span> (<i>Secretary, Scrubwoman, RVCO Board Member</i>) has appeared in many RVCO shows, as as  Fiametta in <i>The Gondoliers</i>, Melissa Frake in <i>State Fair</i>, Godmother in <i>Rodgers &amp; Hammerstein's Cinderella</i>, and Mrs. Fezziwig in <i>A Christmas Carol - The Musical</i>.  Other community theater roles include Fiona (<i>Brigadoon</i>), Liza Doolittle (<i>My Fair Lady</i>), Sally Smith (<i>Me and My Girl</i>), Sarah Brown (<i>Guys &amp; Dolls</i>), Marion Paroo (<i>The Music Man</i>), Laurey (<i>Oklahoma!</i>), Agnes Cohan (<i>George M!</i>), and Reno Sweeney (<i>Anything Goes</i>). Understudied Charlotte Hay (<i>Moon Over Buffalo</i>, Walnut St. Theatre). When not on stage, Lisa can be found teaching French at Villanova University. <a href="#top" class="back2top">Back to top</a></p>
 
                <p class="bios"><span class="headshot_img"><img src="headshots/Jennifer Heller a.jpg" class="headshot lighter" /></span><a name="Jen"></a><span class="person">Jennifer Heller</span> (<span class="role">Secretary</span>) is delighted to be performing with her beloved RVCO family again. Ms. Heller has performed with many community theatre organizations throughout the region starting with RVCO in 2002. Regarding this production she shared, &ldquo;It's hard work but truly a joy with such talented and supportive directors, cast, and crew. As always, I hope this show might inspire an audience member to explore a new hobby. It's a wonderful community and there's something for everyone both onstage and behind the scenes.&rdquo; She would like to thank her husband for his love and support and cats Audrey, Nutkin, and Tiggywinkle for a daily dose of fuzz and joy. <a href="#top" class="back2top">Back to top</a></p>
-     
-               <!--<p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/patience2023/headshots/laura.jpg" alt="Laura Hull headshot" class="headshot"/></span><a name="Laura"></a><span class="person">Laura Hull</span> (<i>Secretay</i>) is excited to be performing again with RVCO!  Laura recently played Tessa in last fall's production of <i>The Gondoliers</i>. Past roles include Lady Saphir (<i>Patience</i>), Melissa (<i>Princess Ida</i>), Peep Bo (<i>The Mikado</i>), Player Queen (<i>Hamlet</i>), Mrs. Cratchit (<i>A Christmas Carol - The Musical</i>), and Fanchon (<i>Naughty Marietta, Revised 2018</i>). Before RVCO, Laura was a long time ensemble member of the Savoy Company in Philadelphia appearing in <i>The Pirates of Penzance</i>, <i>Iolanthe</i>, <i>Ruddigore</i>, <i>The Mikado</i>, <i>Yeoman of the Guard</i>, <i>The Gondoliers</i>, and <i>Trial By Jury</i>. Laura studies voice with Countertenor Gus Mercante of Wilmington, DE and thanks her husband Rob and their three cats for their love and support. <a href="#top" class="back2top">Back to top</a></p>-->
-     
+          
                <p class="bios"><span class="headshot_img"><img src="headshots/Rob Hull a.jpg" alt="Rob Hull headshot" class="headshot lighter"/></span><a name="Rob"></a><span class="person">Rob Hull</span> (<i>Bratt</i>) is glad to be appearing again with RVCO, after playing Don Alhambra in last Fall's production of <i>The Gondoliers</i>. He has previously been onstage with RVCO many times, in such roles as Henry Higgins (<i>My Fair Lady</i>), Scrooge, and Bunthorne (<i>Patience</i>), among others. Other favorite roles include Malvolio/Sir Toby/Sir Andrew (<i>Twelfth Night</i>), Valere (<i>Le Medecin Malgre Lui</i>), Canon Pennefather (<i>Murder on the Nile</i>), Christian/Valvere (<i>Cyrano</i>), Harold Hill, Fagin, Barney (<i>The Middle Ages</i>) and Marc (<i>Art</i>). He has performed with many other theaters in PA/DE, including City Theater, OperaDelaware, Players Club of Swathmore, Steel River Playhouse, K of P Players, Candlelight Dinner Theater and DE Children's Theater. He met his wife, Laura, in RVCO's 2018 production of <i>The Sorcerer</i> – truly magical onstage and off. They have three "familiars," Gracie, Hobbes and Benny – but sorry – they won't be appearing in this show. <a href="#top" class="back2top">Back to top</a></p>
           
                <p class="bios"><span class="headshot_img"><img src="headshots/Ellen Tillman a.jpg" alt="Ellen Kecskemethy Tillman headshot" class="headshot lighter"/></span><a name="Ellen"></a><span class="person">Ellen Kecskemethy Tillman</span> (<i>Costumer</i>) is excited to have another opportunity to costume another fantastic RVCO cast! As an avid student of historical fashion and a hobby curator of vintage clothing (at least, that's what she tells herself every time she opens her closet and can't access any of her modern clothes...), she is excited to delve into the fashion of the early 1960s in "How to Succeed"! She was previously the costumer for RVCO's production of <i>State Fair</i> in 2025, and is a passionate sewist and crafter. She'd like to thank the cast, crew, and orchestra for making this such a fun experience. She'd also like to shout out her husband and kiddos for supporting her in her continuing costuming adventures! <a href="#top" class="back2top">Back to top</a></p>
@@ -362,73 +331,26 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
  
      
      
-      
-           <!--              
-
-
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Ray.jpg" alt="Ray Murhpy headshot" class="headshot"/></span><a name="Ray"></a><span class="person">Ray Murphy</span> (<span class="role">Pitate King</span>) has participated in many aspects of community theater.  First seen as a second trombone in the orchestra, he has also worked behind the scenes doing technical aspects, and moving sets.  Onstage, he has played parts in a number of our Gilbert and Sullivan operettas, including Koko in <i>The Mikado</i>, Sir Joseph Porter in <i>H.M.S. Pinafore</i>, Colonel Caverly in <i>Patience</i>, Wilfred Shadbolt in <i>The Yeomen of the Guard</i>, Florian in <i>Princess Ida</i>, Private Willis in <i>Iolanthe</i>, and Old Adam in <i>Ruddigore</i>.  He also appeared as Mayor Shinn and Harold Hill in productions of <i>The Music Man</i>,  King Charlemagne in <i>Pippin</i>, Bobby in <i>Company</i>, Mr. Toad in <i>The Wind in the Willows</i>, Potiphar in <i>Joseph and the Amazing Technicolor Dreamcoat</i>, and Moonface Martin in <i>Anything Goes</i>.  He takes great enjoyment in performing in shows with his sons, and met his amazing wife through RVCO.  He can be found tending the gardens of Nemours Estate in Wilmington, Delaware, and participates in the praise band at New Hope Christian Church, where he bends the knee for the King of Kings. <a href="#top" class="back2top">Back to top</a></p> 
-     
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Joshua.jpg" alt="Johsua David Myers' headshot" class="headshot"/></span><a name="Joshua"></a><span class="person">Joshua David Myers</span> (<span class="role">Frederic</span>) is a tenor, composer, and actor who is delighted to make his RVCO debut. Joshua holds a BA in Music &amp; Psychology from Muhlenberg College, Allentown, PA, where he studied under tenor Christopher Hodson. He also studied at Temple University, where he performed in scenes from Mozart's <i>Don Giovanni</i>, Mozart's <i>Die Entführung aus dem Serail</i>, and Ravel's <i>L'heure espagnole</i>. Joshua recently appeared as Gherardo in Queens Summer Vocal Institute's production of <i>Gianni Schicchi</i>. Joshua has performed with ensembles across Southeast Pennsylvania, including The Bach Choir of Bethlehem, Interrupted Silence Vocal Ensemble, the Allentown Symphony Orchestra, and, currently, the Bucks County-based men's choir Cordus Mundi. <a href="#top" class="back2top">Back to top</a></p>
-
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Ed.jpg" alt="Edwin Nealley headshot" class="headshot"/></span><a name="Edwin"></a><b>Edwin Nealley</b> (<i>Major General Stanley, RVCO Board Treasurer</i>) returns to the shores of Cornwall, having played Samuel (2013) and the Maj. General (2006) in the last two RVCO productions.  More recent RVCO performances include <i>Patience</i> (Col. Calverley), <i>High Society</i> (Seth Lord), <i>Naughty Marietta, Revised 2018</i> (Lt. Gov. Grandet) in 2019, <i>The Sorcerer</i> (Sir Marmaduke) in 2018, <i>The Mikado</i> (Pish-Tush) in 2017 and <i>Iolanthe</i> (Lord Chancellor) in 2016.  Other recent productions include <i>The Gondoliers</i> (Giuseppe) with Bucks County G&amp;S and <i>Ruddigore</i> (Robin Oakapple) with Ardensingers.  He loves G&amp;S with affection unspeakable and hopes that our show will send you forward with a song in your heart. <a href="#top" class="back2top">Back to top</a></p>
-
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Kate.jpg" alt="Katherine Nealley headshot" class="headshot"/></span><a name="Kate"></a><b>Katherine Nealley</b> (<i>Stage Director</i>) returns to Rose Valley after directing <i>Naughty Marietta, Revised 2018</i> for RVCO in 2019. Kate has directed all 14 G&amp;S Operettas, including Bruce Montgomery's musical setting of <i>Thespis</i> with RVCO in 2015. She has also directed other Operettas and Musicals including <i>Ruddigore</i>, <i>The Gondoliers</i>, <i>Die Fledermaus</i>, <i>The Merry Widow</i>, <i>The Music Man</i>, <i>Kiss Me Kate</i>, <i>Brigadoon</i>, and <i>Oklahoma</i>. Kate and her husband Ed met in an RVCO Production of <i>Ruddigore</i> back in 1990. Their daughter, Sara, performed Gianetta (<i>Gondoliers</i>) professionally with Ohio Light Opera this past summer, after playing Tracy Lord (<i>High Society</i>) at RVCO in 2023. Kate danced professionally with the Miami Ballet, and she has a lifelong interest in history, social dance forms and costume. She serves as a teacher and caller for both English and Scottish Country Dancing in the region. <a href="#top" class="back2top">Back to top</a></p>
-
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Sarah.jpg" alt="Sarah Norton headshot" class="headshot"/></span><a name="Sarah"></a><span class="person">Sarah Norton</span> (<span class="role">Isabel</span>) is excited to return to RVCO as Isabel for her seventh G&amp;S show! She recently played Ruth in <i>Ruddigore</i> (2024) and Sacarissa (as well as being the understudy for Melissa) in <i>Princess Ida</i> (2023) with Ardensingers.  Sarah is proudly neurodivergent and disabled and is passionate about disability rights. She thanks her three rescue beagles for their continual support and goofy antics.  <a href="#top" class="back2top">Back to top</a></p>
-
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Brian.jpg" alt="Brian Rubino headshot" class="headshot"/></span><a name="Brian"></a><span class="person">Brian Rubino</span> (<span class="role">Pirate Apprentice</span>) is thrilled to be one of the young recruits to this rollicking band of pirates! His RVCO credits include Very Young Scrooge in <i>A Christmas Carol - The Musical</i> (2019), Midshipmite in <i>H.M.S. Pinafore</i> (2022), and Royal Page in <i>Rodger's and Hammerstein's Cinderella</i> (2024). Additional credits include playing Shrek in Upper Darby Summer Stage's 2024 Magic Makers showcase. Brian can also be found playing the cello and spell-casting in his middle school's D&amp;D club. <a href="#top" class="back2top">Back to top</a></p>
-
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Chris.jpg" alt="Chris Rubino headshot" class="headshot"/></span><a name="Chris"></a><span class="person">Chris Rubino</span> (<span class="role">Pirate/Policeman, Set Designer, Producer. RVCO President</span>) has been performing with RVCO since 2011. Notable roles include Freddy in <i>My Fair Lady</i>, Nanki-Poo in <i>The Mikado</i>, Ralph in <i>H.M.S. Pinafore</i>, Dexter in <i>High Society</i>, and the Prince in <i>Rodgers &amp; Hammerstein's Cinderella</i>. Chris has also designed sets for RVCO, starting with The Sorcerer (2018), <i>A Christmas Carol - the Musical</i> (2019), <i>H.M.S. Pinafore</i> (2022), <i>High Society</i> (2023), and <i>Patience</i> (2023). &ldquo;Much love to my wife Meagan and our two sons Marc and Brian, all of whom have inspired me to grow in my stagecraft.&rdquo;  <a href="#top" class="back2top">Back to top</a></p>
-     
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Meagan.jpg" alt="Meagan Rubino headshot" class="headshot"/></span><a name="Meagan"></a><span class="person">Meagan Rubino</span> (<span class="role">Edith</span>) greets you gaily for another RVCO production! Previously with RVCO, she was obnoxious as Portia in <i>Rodgers &amp; Hammerstein's Cinderella</i>, aesthetic as Lady Ella in <i>Patience</i>, and served in Her Majesty's chorus on the <i>H.M.S. Pinafore</i>. She has also performed with the Penn Singers and the Philadelphia Gilbert &amp; Sullivan Union. Meagan is a proud member of the faculty of School of the Future in Philadelphia and an ardent advocate of public education and civil service in Upper Darby Township. To my McNuggets: &ldquo;I love you to the moon and back!&rdquo; To my own Pirate prince: &ldquo;That's some fine booty!&rdquo; <a href="#top" class="back2top">Back to top</a></p>
-     
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Margaretta.jpg" alt="Margaretta Sacco headshot" class="headshot"/></span><a name="Margaretta"></a><span class="person">Margaretta Sacco</span> (<span class="role">Pirate/Policeman</span>) is thrilled to be making her RVCO debut in the pirate chorus. No stranger to Gilbert and Sullivan, she has performed in numerous G&amp;S productions in Chicago. More recently, she sang in the Bridesmaids' chorus with The Ardensingers 2024 production of <i>Ruddigore</i>. This is her third production of <i>The Pirates of Penzance</i> and also her third chorus for the show, as she has now performed as a daughter, a policeman, and a pirate. <a href="#top" class="back2top">Back to top</a></p>
-     
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Michael.jpg" alt="Michael Sacco headshot" class="headshot"/></span><a name="Michael"></a><span class="person">Michael Sacco</span> (<span class="role">Pirate Apprentice</span>) is excited to make his Gilbert and Sullivan debut with RVCO in the pirate chorus. Prior to this show he performed as a snake, a spider, and a soloist in his school's 2nd grade musical production of <i>Squirm</i>. He studies piano with Lotus Cheng at the Wilmington Music School. In his spare time he enjoys doing art and learning about science. <a href="#top" class="back2top">Back to top</a></p>
-     
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Erica.webp" alt="Erica Marie Santos' headshot" class="headshot"/></span><a name="Erica"></a><span class="person">Erica Marie Santos</span> (<span class="role">Daughter</span>) is delighted to make her RVCO debut! Not a stranger to the stage, some of the places Erica has performed include Ardensingers, University of Delaware School of Music, in the chorus of Opera Delaware, Carnegie Hall, and internationally. Erica graduated from the University of Delaware with a Bachelor of Music in Vocal Performance and a Bachelor of Science in Finance.  When she is not on the stage Erica enjoys training for half-marathons, volunteering her time as a member of the Board of Directors of the University of Delaware Alumni Association, and spending time with her friends and family. <a href="#top" class="back2top">Back to top</a></p>
-     
-                         <p class="bios"><a name="Joyce"></a><span class="headshot_img"><img src="../pirates2024/headshots/Joyce.jpg" alt="Joyce Severin headshot" class="headshot"/></span><a name="Joyce"></a><span class="person">Joyce Severin</span> (<span class="role">Daughter</span>) is thrilled to be joining Rose Valley Chorus and Orchestra for this season's production, Gilbert and Sullivan's <i>The Pirates of Penzance</i>. She is very excited to be working with such a talented cast and crew. Joyce last appeared with RVCO in the Ensemble of <i>Rodgers and Hammerstein's Cinderella</i>.  Joyce is also a member of the Havertown Choristers, St. Andrew Parish Choir, and the William Penn Community Chorus,&ldquo;Thank you to my family for all their love and support in this, and all my endeavors!&rdquo; <a href="#top" class="back2top">Back to top</a></p>
-     
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/MarthaA.jpg" alt="Martha Smylie's headshot" class="headshot"/></span><a name="Martha"></a><span class="person">Martha Smylie</span> (<span class="role">Ruth, Playbill</span>) is a proud Life Member and former president of the RVCO. She's performed all the contralto roles (some many times over) in the entire G&amp;S canon as well as two innovative reverse-gender shows (The Learned Judge in <i>Miss-Trial By Jury</i> and Major-General Stanley in <i>The Pirettes of Penzance</i>). A slave of duty, Martha has also been president of five G&amp;S societies around the Delaware Valley, and she's performed in lots of other musical comedies and dramedies over the years, including several roles at nearby Hedgerow Theatre, whose building was RVCO's original home in 1907. Enjoy the show, everyone! To the cast, crew and orchestra, &ldquo;I love you all with affection unspeakable!&rdquo; <a href="#top" class="back2top">Back to top</a></p>
-     
-                         <p class="bios"><a name="Fiona"></a><span class="headshot_img"><img src="../cinderella/headshots/Fiona.jpg" alt="Fiona Tillman headshot" class="headshot"/></span><span class="person">Fiona Tillman</span> (<span class="role">Pirate Apprentice</span>) is thrilled to be part of RVCO. She has been acting for 4 years in youth performances as well as participating in <i>Rodgers &amp; Hammerstein's Cinderella</i> in the spring. She has a love for both sports and music, and participates in softball and cross country as well as both chorus and band. She is so excited to be back for a second show with RVCO! <a href="#top" class="back2top">Back to top</a></p>
-     
-                         <p class="bios"><a name="Tim"></a><span class="headshot_img"><img src="../cinderella/headshots/Tim.jpg" alt="Tim Tillman headshot" class="headshot"/></span><span class="person">Tim Tillman</span> (<span class="role">Pirate</span>) originally hails from Baltimore, Maryland.  He likes spending time with his family, as well as enjoying running, rock climbing, and occasionally dabbling in mortgage lending compliance. Tim joined RVCO this past spring to perform in <i>Rodgers &amp; Hammerstein's Cinderella</i>, and  is delighted to return to RVCO for the second time for <i>The Pirates of Penzance</i>. <a href="#top" class="back2top">Back to top</a></p>
-     
-                         <p class="bios"><span class="headshot_img"><img src="../pirates2024/headshots/Zimmerman.jpg" alt="Steve Zimmerman'a headshot" class="headshot" /></span><a name="Steve"></a><span class="person">Steve Zimmerman</span> (<span class="role">Sergeant of Police/Pirate</span>) is thrilled to be in his first production with Rose Valley. He has been in a number of shows with The Ardensingers in Wilmington since 2015, and on the stages of many other area community theaters. He also plays woodwinds in pit orchestras for schools and community theaters. Favorite lead roles include Captain Corcoran in <i>H.M.S. Pinafore</i>, Colonel Calverley in <i>Patience</i>, King Gama in <i>Princess Ida</i>, and Old Adam in <i>Ruddigore</i>.  Steve conducts the orchestra and participates in other music ensembles at the Osher Lifelong Learning Institute (OLLI) in Wilmington. Thanks to Kate and Florrie for your leadership, advice, and support, to all my friends in the cast and crew, and to my dear wife Laurie for putting up with my absences and coming to all my shows. <a href="#top" class="back2top">Back to top</a></p>
-     
-
-                    </div>    -->
-<!-- end of bios-->               
-</div>   <!-- end of feature-->     
+             
+</div> 
+<!-- end of bios-->                 
+               <!-- end of feature-->     
                
                
                
                
 </div>    <!-- end of content-->
 
- <div>     
-
-<footer class="secondary_header, footer">
-    <div class="copyright">
- <?php include("../cinderella/footer.php"); ?></div>
-  </footer>
-</div>
-</body>
-</html>
-
-
-               
-               
-               
-               
-     
-                              <footer class="secondary_header, footer">
-                                  <div class="copyright">
-                               <?php include("../footer2.php"); ?></div>
-                                </footer>
+           <div>     
+               <footer class="secondary_header, footer">
+                   <div class="copyright">
+                     <?php include("https://www.rvco.org/footer2.php"); ?>
+                    </div>
+                 </footer>
           </div>
-</div>     <!-- end of container-->
+</div>
+<!-- end content-->
+</div>  
+<!-- end container-->     
 </body>
 </html>
