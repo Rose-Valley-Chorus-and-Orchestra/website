@@ -361,12 +361,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                
 </div>    <!-- end of content-->
 
-      <div>          
-          <footer class="secondary_header, footer">
-               <div class="copyright">
-               <?php include("../footer2.php"); ?></div>
-          </footer>
-     </div>
+                
+     <footer class="secondary_header, footer">
+          <div class="copyright">
+          <?php include("../footer2.php"); ?></div>
+     </footer>
+     
 </div>     <!-- end of container-->
 </body>
 </html>

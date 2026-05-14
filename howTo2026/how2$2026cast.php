@@ -6,13 +6,13 @@
 <meta name="description" content="learn about the cast and crew for our 2026 production of How to Succeed in Business Without Really Trying" />
 <meta name="keywords" content="The Pirates of Penzance, Me and My Girl, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
 <title>The How to Succed in Business Without Really Trying 2026 Cast list - RVCO</title>
-<link rel="shortcut icon" href="http://www.rvco.org/images/rvco.ico" />
-<link href="http://www.rvco.org/css/bootstrap.css" rel="stylesheet" type="text/css">	
-<link href="http://www.rvco.org/css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
-<link href="http://www.rvco.org/css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
-<link href="http://www.rvco.org/css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
-<link href="http://www.rvco.org/css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
-<link href="http://www.rvco.org/css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="https://www.rvco.org/images/rvco.ico" />
+<link href="https://www.rvco.org/css/bootstrap.css" rel="stylesheet" type="text/css">	
+<link href="https://www.rvco.org/css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
+<link href="https://www.rvco.org/css/multiColumn_Max425.css" rel="stylesheet" type="text/css">
+<link href="https://www.rvco.org/css/multiColumn_Min426Max768.css" rel="stylesheet" type="text/css">
+<link href="https://www.rvco.org/css/multiColumn_Min769Max1000.css" rel="stylesheet" type="text/css">
+<link href="https://www.rvco.org/css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
  
 <style type="text/css">     
 ul.listing {
@@ -98,7 +98,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
           <h1 id="pageName">CAST LIST for <i>How to Succeed in Business Without Really Trying</i></h1>
           <h2 id="season">Spring 2026</h2>
                <div class="castpageLinks">
-                         <div id="ViewSynopsis" style="padding:0px 0px; float: left;width:auto;"><a title="View The Gondoliers synopsis"  onclick="
+                         <div id="ViewSynopsis" style="padding:0px 0px; float: left;width:auto;"><a title="View the How to Succeed in Business Without Really Trying synopsis"  onclick="
                                                             MM_showHideLayers('History','','hide');
                                                             MM_changeProp('History','','height','0px','DIV');
                                                             MM_showHideLayers('ViewHistory','','show');
@@ -341,15 +341,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                
 </div>    <!-- end of content-->
 
-           <div>     
-               <footer class="secondary_header, footer">
-                   <div class="copyright">
-                     <?php include("https://www.rvco.org/footer2.php"); ?>
-                    </div>
-                 </footer>
-          </div>
+
 </div>
 <!-- end content-->
+     <footer class="secondary_header, footer">
+          <div class="copyright">
+          <?php include("https://www.rvco.org/footer2.php"); ?>
+          </div>
+     </footer>
+ksjfalsk     
+     
 </div>  
 <!-- end container-->     
 </body>

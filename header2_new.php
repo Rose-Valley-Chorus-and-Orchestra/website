@@ -8,8 +8,5 @@
 			<a class="face_tube_img" href="http://www.youtube.com/user/rosevalleychorus" target="_blank"><img src="https://www.rvco.org/images/youtube.svg" alt="Visit our YouTube channel" vspace="1" align="absmiddle" title="Visit our YouTube channel" /></a> 
           </div>
 	</div>
-     <!--   <div class="face_tube">
-			 </div>
-	</div> -->
-     <h1 id="siteName"><a href="../index.php">Rose Valley Chorus &amp; Orchestra</a></h1>
+     <h1 id="siteName"><a href="https://www.rvco.org/index.php">Rose Valley Chorus &amp; Orchestra</a></h1>
 </div>
