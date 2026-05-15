@@ -93,7 +93,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   <!--<ul><span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span></ul>-->
                                                   </p>
                                                   
-                                   <p>For questions, e-mail <a href="mailto:tickets@rvco.org">tickets@rvco.org</a> or call : <font class="high">484-891-9108</font><!--<font class="high">484-981-9108</font>--></p>
+                                   <p>For questions, e-mail <a href="mailto:tickets@rvco.org">tickets@rvco.org</a> or call : <font class="high">484-981-9108</font><!--<font class="high">484-981-9108</font>--></p>
                                    
 	  
 <!-- Inclement Weather Cancelation message	  
