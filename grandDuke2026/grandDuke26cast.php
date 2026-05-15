@@ -142,7 +142,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    
                                    <li><span>Viscount Mentone</span> <span><at href="#">to be cast</a></span></li>
 
-                                   <li><span>Ben Hashbaz <br class="castlist-BR"/>(a Costumier)</span> <span><at href="#">to be cast</a></span></li>
+                                   <li><span>Ben Hashbaz (a Costumier)</span> <span><at href="#">to be cast</a></span></li>
 
                                    <li><span>Herald</span> <span><at href="#Ray">Ray Murphy</a></span></li>
 
@@ -159,10 +159,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <li><span>Lisa (a Soubrette)</span> <span><at href="#Laura">Laura Hull</a></span></li>
 
                               <div>Members of Ernest Dummkopf's Theatrical Company
-                                   <div style="margin-left: 15px;"><li><span>Olga</span> <span><at href="#Faith">Faith Donaher</a></span></li>
-                                   <li><span>Gretchen</span> <span><at href="#Heidi">Heidi Williams</a></span></li>
-                                   <li><span>Bertha</span> <span><at href="#SharonWC">Sharon Weil-Chalker</a></span></li>
-                                   <li><span>Elsa</span> <span><at href="#KathyS">Kathy Sarlson</a></li></div>
+                                   <div style="margin-left: 15px;">
+                                        <li><span>Olga</span> <span><at href="#Faith">Faith Donaher</a></span></li>
+                                        <li><span>Gretchen</span> <span><at href="#Heidi">Heidi Williams</a></span></li>
+                                        <li><span>Bertha</span> <span><at href="#SharonWC">Sharon Weil-Chalker</a></span></li>
+                                        <li><span>Elsa</span> <span><at href="#KathyS">Kathy Sarlson</a></li>
+                                   </div>
                          </ul>
                          
                          <ul style="margin:30px 0;"><u>Please note</u>: <i>Members of the chorus will be listed in September.</i>
