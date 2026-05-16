@@ -152,7 +152,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <div>The Baroness von Krakenfeldt (Betrothed&nbsp;to Rudolph)
                                    <li><span> </span> <span><at href="#Brenda">Brenda Rose Simkin</a></span></li/></div>
 
-                                   <div>Julia Jellico (an English Comedian)
+                                   <div>Julia Jellicoe (an English Com&#233;dienne)
                                    <li><span> </span> <span><at href="#mary">Mary Punshon</a></span></li/></div>
                               </div>
                                         
