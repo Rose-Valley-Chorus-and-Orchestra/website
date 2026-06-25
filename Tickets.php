@@ -84,11 +84,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                  </p>
                                    <p>Performances:<br />
                                                        
-                                                      <ul class="showDates" style="margin-top: -10px;">Saturday, November 7 at 2 p.m. and 7:30 p.m.</ul>
+                                                      <ul class="showDates" style="margin-top: -10px;">Saturday, october 31 at 2 p.m. and 7:30 p.m.</ul>
+                                                      <ul class="showDates">Sunday, November 1 at 2:00 p.m.</ul>
+                                                      <ul class="showDates"> Wednesday, November 4 at 7:30 p.m.</ul>
+                                                      <ul class="showDates">Saturday, November 7 at 2:00 p.m. and 7:30 p.m.</ul>
                                                       <ul class="showDates">Sunday, November 8 at 2:00 p.m.</ul>
-                                                      <ul class="showDates"> Wednesday, November 11 at 7:30 p.m.</ul>
-                                                      <ul class="showDates">Saturday, November 14 at 2:00 p.m. and 7:30 p.m.</ul>
-                                                      <ul class="showDates">Sunday, November 15 at 2:00 p.m.</ul>
                                                   <ul><span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span></ul>
                                                   <!--<ul><span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span></ul>-->
                                                   </p>

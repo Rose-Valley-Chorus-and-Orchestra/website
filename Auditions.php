@@ -96,11 +96,11 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                          </ul></p>
        
                     <p style="Margin-top:-20px;"><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span>
-                    Sitzprobe: Saturday, October 31, 9:30 a.m.  - 12:30 p.m.
-                    Tech: Sunday, November 1, 1:00 - 10:00 p.m.
+                    Sitzprobe: Saturday, October 24, 9:30 a.m.  - 12:30 p.m.
+                    Tech: Sunday, October25, 1:00 - 10:00 p.m.
                     <ul style="margin-top: -9px;margin-bottom: 6px;">Tech run-throughs: November 2-4 6:00 - 10:00 p.m.</ul>
                   
-                    <p><b>Show dates:</b> November 7 - 15 <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
+                    <p><b>Show dates:</b> October 31 - November 8&nbsp; <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
 
                     <p><b>Performance Site:</b> <u>Strath Haven Middle School</u>, 200 South Providence Road, Wallingford, PA 19086</p>
 

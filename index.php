@@ -152,11 +152,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <a href="Venue.php" title="Go to our Venue page for a map and directions"><nobr>Strath Haven Middle School</nobr></a>, Wallingford, PA</div>                
 
                          <!-- begin DATES -->
-                              <div class="current_dates">Saturday, November 7 at 2 p.m. and 7:30 p.m.<br />
+                              <div class="current_dates">Saturday, October 21 at 2 p.m. and 7:30 p.m.<br />
+                                                       Sunday, November 1 at 2 p.m.<br />
+                                                       Wednesday, November 4 at 7:30 p.m.<br />
+                                                       Saturday, November 7 at 2 p.m. and 7:30 p.m.<br />
                                                        Sunday, November 8 at 2 p.m.<br />
-                                                       Wednesday, November 11 at 7:30 p.m.<br />
-                                                       Saturday, November 14 at 2 p.m. and 7:30 p.m.<br />
-                                                       Sunday, November 15 at 2 p.m.<br />
                                    <span style="font-size: 0.8em;">(Show dates and times are subject to final confirmation with the venue.)</span>
                               </div>           
                         <!-- end DATES -->
