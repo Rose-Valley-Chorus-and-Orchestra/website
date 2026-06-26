@@ -210,17 +210,25 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                
                <div id="castPage" style="clear: both;">
                     <h1 id="pageName"><i>The Grand Duke</i> Cast Page</h1> 
-
                     
+                    <p style="clear: both; padding-top: 15px;">If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.
+                    
+                    <h2>Libretto</h2>
+                    <div class="Rtimes" style="clear: both; padding-top: 0px;"><ol><li> Print the entire score (double-sided); it's 349 pages, so 175 sheets of paper.</li>
+                           <li>If you would like to omit the editor's notes and the Overture, print the following pages, double-sided:
+                              pages 3-6, 27-349<br />
+                              [Pages 3-6 will give you the title page and the contents.]</li></ol>
+
+                    <a href="../grandDuke2026/Grand Duke Vocal Score RVCO 2026 - 2.pdf" title="Download The Grand Duke libretto" target="new"><span class="button" href="">Download</span></a></div>
+
 
 <!-- <div class="notification">The <b>costume fitting</b> will take place Saturday, March 16 at our Firehouse located at <a href="https://www.google.com/maps/place/184+Bortondale+Rd,+Media,+PA+19063/@39.9017988,-75.3992073,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e8fb077ef113:0xc1aaad1af713cf34!8m2!3d39.9017988!4d-75.3966324!16s%2Fg%2F11c3q3ffv8?entry=ttu" title="Go to Google Maps" target="new" titler="Go to Google Maps">184 Bortondale Road, Media</a>
                                    <ul class="notificationTime"><li><b>Men</b>: 10:00 am - 11:00 am</li>
                                          <li><b>Women</b>: 11:00 am - 12:00 pm</li></ul>
-                                         <div>Please let <a href="mailto:lauraryandesigns@gmail.com?subject=March 16 costume fitting" title="Send an email to our costumer Laura" >Laura</a> know if are not able to be there or can't make your allotted time.</div></div>
-                              <p><b>Dowload pictures from dress rehearsal:</b> <a href="http://www.rvco.org/cinderella/pictures.php">http://www.rvco.org/cinderella/pictures.php</a></p> -->   
+                                         <div>Please let <a href="mailto:lauraryandesigns@gmail.com?subject=March 16 costume fitting" title="Send an email to our costumer Laura" >Laura</a> know if are not able to be there or can't make your allotted time.</div></div>-->
+
                     
 
-                              <p style="clear: both; padding-top: 15px;">If you have not already paid your dues, <!--new and current members can--> <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.
                                    <!--<div style="margin:0 0 0 30px; padding: 0;"><b>Bios</b>:
                                         <ul>Send to Bill Michael: <a href="mailto:wbmichael@comcast.net?subject=Here's my bio" title="Email my bio to Bill">wbmichael@comcast.net</a> by March 1<sup>st</sup>
                                              <ul>Bios received to date: <b style="margin:0 0 0 15px; color:darkgreen; font-size: 1.2em;">14</b> out of <b style="color:darkgreen; font-size: 1.2em;">29</b>
@@ -262,72 +270,79 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                <div class="schedule">
                     <h2>Schedule</h2>
-                              <div  class="Rtimes"><a href="../howTo2026/schedule/H2$ Schedule for Cast revised-Final4.pdf" title="Download the updated schedule February 3" target="new"><span class="button" href="">Download</span></a> a PDF version of the schedule to print.</div>
-                              <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
-                                   <ul><li>If you know you will be late or not at rehearsal, please email <a href="mailto:florrie@barks.org,fittingchris20@gmail.com,wbmichael@comcast.net?subject=Missing rehearsal">Florrie, Chris, and Bill</a>.</li>
-                                   <li>Day of rehearsal, please text Florrie at (610) 453-1407 (cell) or email Chris at fittingchris20@gmail.com.</li></ul></div>
+                         <div  class="Rtimes"><a href="../howTo2026/schedule/H2$ Schedule for Cast revised-Final4.pdf" title="Download the updated schedule February 3" target="new"><span class="button" href="">Download</span></a> a PDF version of the schedule to print.</div>
+                         <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
+                              <ul><li>If you know you will be late or not at rehearsal, please email <a href="mailto:florrie@barks.org,juliecmay@msn.com,?subject=Missing rehearsal">Florrie and Julie</a>.</li>
+                              <li>Day of rehearsal, please text Florrie at (610) 453-1407 (cell) or Julie at (???) ???-????</li></ul></div>
 
-                              <div class="castpageLinks" style="margin-bottom: -20px;">
-                                   <div id="ViewDays" style="padding: 0px 0px 0px 10px; float: left;width:auto;margin-top: -20px;margin-bottom: -20px;">
-                                        <a title="View ALL rehearsal dates"  onclick="
-                                                  MM_showHideLayers('History','','hide');
-                                                  MM_changeProp('History','','height','0px','DIV');
-                                                  MM_showHideLayers('ViewHistory','','show');
-                                                  MM_changeProp('ViewHistory','','width','auto','DIV');
-                                                  MM_changeProp('ViewHistory','','height','auto','DIV');
-                                                  MM_showHideLayers('HideHistoryLink','','hide');
-                                                  MM_changeProp('HideHistoryLink','','width','0px','DIV');
-                                                  MM_changeProp('HideHistoryLink','','height','0px','DIV');
-                                                  MM_showHideLayers('HideLink','','show');
-                                                  MM_changeProp('HideLink','','width','auto','DIV');
-                                                  MM_changeProp('HideLink','','height','auto','DIV');
-                                                  MM_showHideLayers('Days','','show');
-                                                  MM_changeProp('Days','','height','100%','DIV');
-                                                  MM_showHideLayers('ViewDays','','hide');
-                                                  MM_changeProp('ViewDays','','width','0px','DIV');
-                                                  MM_changeProp('ViewDays','','height','0px','DIV');
-                                                  MM_showHideLayers('legend','','show');
-                                                  MM_changeProp('legend','','height','auto','ID');
-                                                  MM_showHideLayers('legend2','','show');
-                                                  MM_changeProp('legend2','','height','auto','ID');
-                                                  MM_showHideLayers('legend3','','show');
-                                                  MM_changeProp('legend3','','height','auto','ID');
-                                                                           " >View All rehearsal dates and information</a></div>
-                                   <div id="HideLink" style="visibility:hidden;color:#333;float:left;width:0px;height:0px;margin-top: -20px;margin-bottom: -20px;">
-                                        <a title="Hide past rehearsal dates" onclick="
-                                                   MM_showHideLayers('Days','','hide');
-                                                   MM_changeProp('Days','','height','0px','DIV');
-                                                   MM_showHideLayers('ViewDays','','show');
-                                                   MM_changeProp('ViewDays','','width','auto','DIV');
-                                                   MM_changeProp('ViewDays','','height','auto','DIV');
-                                                   MM_showHideLayers('HideLink','','hide');
-                                                   MM_changeProp('HideLink','','width','0px','DIV');
-                                                   MM_changeProp('HideLink','','height','0px','DIV'); 
-                                                   MM_showHideLayers('legend','','hide');
-                                                   MM_changeProp('legend','','height','0px','ID');
-                                                   MM_showHideLayers('legend2','','hide');
-                                                   MM_changeProp('legend2','','height','0px','ID');
-                                                   MM_showHideLayers('legend3','','hide');
-                                                   MM_changeProp('legend3','','height','0px','ID');
-                                                                  " alt="Hide past rehearsal dates">Hide past rehearsal dates</a>
-                                        <div><a href="#currentDate" style="margin: 0 0 0 -20px;">Go to current date</a></div>
-                                   </div>
+                         <div class="castpageLinks" style="margin-bottom: -20px;">
+                              <div id="ViewDays" style="padding: 0px 0px 0px 10px; float: left;width:auto;margin-top: -20px;margin-bottom: -20px;">
+                                   <a title="View ALL rehearsal dates"  onclick="
+                                             MM_showHideLayers('History','','hide');
+                                             MM_changeProp('History','','height','0px','DIV');
+                                             MM_showHideLayers('ViewHistory','','show');
+                                             MM_changeProp('ViewHistory','','width','auto','DIV');
+                                             MM_changeProp('ViewHistory','','height','auto','DIV');
+                                             MM_showHideLayers('HideHistoryLink','','hide');
+                                             MM_changeProp('HideHistoryLink','','width','0px','DIV');
+                                             MM_changeProp('HideHistoryLink','','height','0px','DIV');
+                                             MM_showHideLayers('HideLink','','show');
+                                             MM_changeProp('HideLink','','width','auto','DIV');
+                                             MM_changeProp('HideLink','','height','auto','DIV');
+                                             MM_showHideLayers('Days','','show');
+                                             MM_changeProp('Days','','height','100%','DIV');
+                                             MM_showHideLayers('ViewDays','','hide');
+                                             MM_changeProp('ViewDays','','width','0px','DIV');
+                                             MM_changeProp('ViewDays','','height','0px','DIV');
+                                             MM_showHideLayers('legend','','show');
+                                             MM_changeProp('legend','','height','auto','ID');
+                                             MM_showHideLayers('legend2','','show');
+                                             MM_changeProp('legend2','','height','auto','ID');
+                                             MM_showHideLayers('legend3','','show');
+                                             MM_changeProp('legend3','','height','auto','ID');
+                                                                      " >View All rehearsal dates and information</a></div>
+                              <div id="HideLink" style="visibility:hidden;color:#333;float:left;width:0px;height:0px;margin-top: -20px;margin-bottom: -20px;">
+                                   <a title="Hide past rehearsal dates" onclick="
+                                              MM_showHideLayers('Days','','hide');
+                                              MM_changeProp('Days','','height','0px','DIV');
+                                              MM_showHideLayers('ViewDays','','show');
+                                              MM_changeProp('ViewDays','','width','auto','DIV');
+                                              MM_changeProp('ViewDays','','height','auto','DIV');
+                                              MM_showHideLayers('HideLink','','hide');
+                                              MM_changeProp('HideLink','','width','0px','DIV');
+                                              MM_changeProp('HideLink','','height','0px','DIV'); 
+                                              MM_showHideLayers('legend','','hide');
+                                              MM_changeProp('legend','','height','0px','ID');
+                                              MM_showHideLayers('legend2','','hide');
+                                              MM_changeProp('legend2','','height','0px','ID');
+                                              MM_showHideLayers('legend3','','hide');
+                                              MM_changeProp('legend3','','height','0px','ID');
+                                                             " alt="Hide past rehearsal dates">Hide past rehearsal dates</a>
+                                   <div><a href="#currentDate" style="margin: 0 0 0 -20px;">Go to current date</a></div>
                               </div>
+                         </div>
 
-                              <div id="Days" class="castlistDays">
+                         <div id="Days" class="castlistDays">
 
-                                        <div><ul><b>Wednesday Janurary 28</b>: 2 room
-                                                       <ul><u>CALLED</u>: Chorus</span>
-                                                       <ul><u>MUSIC: with Florrie</u>
-                                                            <li><i>Coffee Break</i>, <i>Company Way</i> (Rep), <i>A Secretary Is Not a Toy</i>, <i>Been a Long Day</i>, <i>Finale</i>, Bows;</li>
-                                                            <li>new cast member auditions (if necessary)</i></li>
-                                                            </ul> 
-                                                       <ul><U>STAGING</U>:
-                                                            <li>Finch, Gatch, Rosemary, Smitty, Bud, Biggley, Bratt, Biggley (can plug in Miss Jones another time)</li>
-                                                            <li>Character work + Blocking: I.1-I.5 (no Hedy needed)</li>
-                                                           </ul>
-                                                       </ul>
-                                        </div>
+
+                         <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                         </div>
+
+                         <span id="currentDate"></span>
+                                   
+                         <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                              <div><ul><b>Wednesday Janurary 28</b>: 2 room
+                                             <ul><u>CALLED</u>: Chorus</span>
+                                             <ul><u>MUSIC: with Florrie</u>
+                                                  <li><i>Coffee Break</i>, <i>Company Way</i> (Rep), <i>A Secretary Is Not a Toy</i>, <i>Been a Long Day</i>, <i>Finale</i>, Bows;</li>
+                                                  <li>new cast member auditions (if necessary)</i></li>
+                                                  </ul> 
+                                             <ul><U>STAGING</U>:
+                                                  <li>Finch, Gatch, Rosemary, Smitty, Bud, Biggley, Bratt, Biggley (can plug in Miss Jones another time)</li>
+                                                  <li>Character work + Blocking: I.1-I.5 (no Hedy needed)</li>
+                                                 </ul>
+                                             </ul>
+                              </div>
 
                               <div style="clear: both;margin-top: -20px;">   
                                         <ul><b>Sunday February 1</b>: 1 room
@@ -355,7 +370,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   <ul>7:30 Music with Florrie</ul></ul> 
                                    </ul>
                               </div>
-                      
+
                               <div><ul><b>Sunday February 8</b>: 2 rooms
                                              <ul><u>CALLED</u>: ALL except Miss Jones - <span style="color: firebrick;">no Aaron</span>
                                                   <ul>Blocking with Chris
@@ -366,7 +381,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   <li>? - 4:30 - Men working on #27 <i>I Believe in You</i> and #33 <i>Brotherhood of Man</i></li>
                                                   <li>4:30  - Finch, Bigley, Hedy</i></li></ul> </ul>
                               </div>
-                                   
+
                               <div><ul><b>Monday February 9</b>: 2 rooms
                                              <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Ross</span>
                                              <ul>7:30 Audition for Miss Kromholtz, scrubwomen, and additional lines</ul>
@@ -463,151 +478,141 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <ul><u>CALLED</u> - ALL
                                                   <li>8:00 RUN/WORK ACT I with Florrie playing</li></ul>
                                    </ul>
-                         </div>
+                              </div>
 
-                         <div><ul><b>Wednesday March 4</b>: 2 rooms - <span style="color: firebrick;">no Sharon K</span>
-                                   <ul><u>CALLED</u>: ALL
-                                        <li>7:30-8:15 fix opening number with ALL STAFF PRESENT</li>
-                                        <li>8:15-9:15 fix <i>A Secretary Is Not a Toy</i> With Caity</li>
-                                        <li>8:15-10 Chris blocking scenes II.4-II.7 with Finch, Bratt, Biggley, Bud, Bob Moore, and Hedy</li>
-                                        <li>9:15-10 Female ensemble run numbers per Caity's discretion</li>
-                                        <li>9:15-10 Male ensemble (maybe Rosemary) join Chris</li>
-                                        <!--<ul><u>CALLED</u>: ALL except Smitty and Miss Jones 
-                                             <li>Choreography with Caity: <i>Pirate Dance</i></li></ul>
-                                        <ul><u>CALLED</u>: Finch, Biggley, Bud, Bratt, Rosemary. Hedy, Tackaberry, Toynbee, Davis, Jenkins, Policeman
-                                                  <li>Blocking with Chris: Act II.5-II.7</li></ul>-->
-                              </ul>
-                         </div>
+                              <div><ul><b>Wednesday March 4</b>: 2 rooms - <span style="color: firebrick;">no Sharon K</span>
+                                        <ul><u>CALLED</u>: ALL
+                                             <li>7:30-8:15 fix opening number with ALL STAFF PRESENT</li>
+                                             <li>8:15-9:15 fix <i>A Secretary Is Not a Toy</i> With Caity</li>
+                                             <li>8:15-10 Chris blocking scenes II.4-II.7 with Finch, Bratt, Biggley, Bud, Bob Moore, and Hedy</li>
+                                             <li>9:15-10 Female ensemble run numbers per Caity's discretion</li>
+                                             <li>9:15-10 Male ensemble (maybe Rosemary) join Chris</li>
+                                             <!--<ul><u>CALLED</u>: ALL except Smitty and Miss Jones 
+                                                  <li>Choreography with Caity: <i>Pirate Dance</i></li></ul>
+                                             <ul><u>CALLED</u>: Finch, Biggley, Bud, Bratt, Rosemary. Hedy, Tackaberry, Toynbee, Davis, Jenkins, Policeman
+                                                       <li>Blocking with Chris: Act II.5-II.7</li></ul>-->
+                                   </ul>
+                              </div>
 
-                         <div><ul><b>Sunday March 8</b>: 2 rooms - <span style="color: firebrick;">no Sharon K., Caroline</span>
-                                        <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL
-                                        <li><b>Headshots for the playbill and lobby board</b></li>
-                                        <li>2:00 ALL except Leads and Tackaberry - Choreography with Caity: <i>Pirate Dance</i></li></li>
-                                        <li>3:15 ALL: with Chris Act II.10. With whatever time is left, plugging people in for miscellaneous Act 2 stuff.</li>
-                                        </ul>
-                              </ul>
-                         </div>
+                              <div><ul><b>Sunday March 8</b>: 2 rooms - <span style="color: firebrick;">no Sharon K., Caroline</span>
+                                             <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL
+                                             <li><b>Headshots for the playbill and lobby board</b></li>
+                                             <li>2:00 ALL except Leads and Tackaberry - Choreography with Caity: <i>Pirate Dance</i></li></li>
+                                             <li>3:15 ALL: with Chris Act II.10. With whatever time is left, plugging people in for miscellaneous Act 2 stuff.</li>
+                                             </ul>
+                                   </ul>
+                              </div>
 
-                         <div><ul><b>Monday March 9</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
-                                        <ul><u>CALLED</u>: <!--<i>Assume</i> -->ALL 
-                                        <li>7:30 Catchup with Smitty and Miss Krumholtz</li>
-                                        <li>7:40 Work through the show</li></ul>
-                              </ul>
-                         </div>
+                              <div><ul><b>Monday March 9</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
+                                             <ul><u>CALLED</u>: <!--<i>Assume</i> -->ALL 
+                                             <li>7:30 Catchup with Smitty and Miss Krumholtz</li>
+                                             <li>7:40 Work through the show</li></ul>
+                                   </ul>
+                              </div>
 
-                         <div><ul><b>Wednesday March 11</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
-                                        <ul><u>CALLED</u>: Just the 8 MEN 
-                                             <li>7:30 <i>I Believe in You</i> first with Florrie then Caity</li>
-                                        </ul>
-                                        <ul><u>CALLED</u>: ALL Men and Miss Jones
-                                             <li>8:45 <i>Brotherhood of Man</i> with Caity</li>
-                                        </ul>
-                              </ul>
-                         </div>          
+                              <div><ul><b>Wednesday March 11</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
+                                             <ul><u>CALLED</u>: Just the 8 MEN 
+                                                  <li>7:30 <i>I Believe in You</i> first with Florrie then Caity</li>
+                                             </ul>
+                                             <ul><u>CALLED</u>: ALL Men and Miss Jones
+                                                  <li>8:45 <i>Brotherhood of Man</i> with Caity</li>
+                                             </ul>
+                                   </ul>
+                              </div>          
 
-                         <div><ul><b>Sunday March 15</b>: [A]
-                                        <ul><u>CALLED</u>: ALL except Rosemary <span style="color: firebrick;"></span>
-                                        <ul>Choreography with Caity: 
-                                             <li>Anything that still needs to be choreographed and/or a Choreo Review day</ul>
-                         </div>
+                              <div><ul><b>Sunday March 15</b>: [A]
+                                             <ul><u>CALLED</u>: ALL except Rosemary <span style="color: firebrick;"></span>
+                                             <ul>Choreography with Caity: 
+                                                  <li>Anything that still needs to be choreographed and/or a Choreo Review day</ul>
+                              </div>
 
-                         <ul style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 50px; font-size: 0.85em"><b>-----  
-                                   EVERYONE is called from this date forward -----</b></ul>
-                                   
+                              <ul style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 50px; font-size: 0.85em"><b>-----  
+                                        EVERYONE is called from this date forward -----</b></ul>
 
-                              
-                              
-                              
-                         <div><ul><b>Monday March 16</b>: [A]
-                                        <ul><div><span style="color: firebrick;"><b>NO REHEARSAL</b></span>: Due to possible severe storms,
-                                             the Roosevelt Community Center
-                                             is closing tonight.</div> 
 
-                                             <s><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
-                                             <li>Run/clean Act II</li></s></ul>
-                              </ul>
-                         </div>
- 
-                              
-                         <div><ul><b>Wednesday March 18</b>: 2 rooms - <span style="color: firebrick;">no Kate, Rob</span>
-                                        <ul><u>CALLED</u>: ALL 
-                                             <li>7:30 Finch Hedy intimacy</li>
-                                             <li>7:30 Run through ensemble numbers: more details to follow</li>
-                                             <li>7:50 Finch Rosemary intimacy</li>
-                                             <li>8:10 - TBD</li></ul> 
-                         </div>
-                    
-                                             
-                         <ul style="color: firebrick;background-color: yellow; padding: 5px 0px 5px 50px; font-size: 0.85em">
-                                        <b>----- EVERYONE OFF BOOK -----</b></ul>                                   
 
-                         <div><ul><b>Sunday March 22</b>: 2 rooms - <span style="color: firebrick;">no Andrea, Mike, Rob</span>
-                                   <ul><u>CALLED</u>: ALL - 
-                                        <li>Run Act I</li></ul>
-                         </div>
-                              
-                         <div><ul><b>Monday March 23</b>: [A] - <span style="color: firebrick;">no Mike</span>
+                              <div><ul><b>Monday March 16</b>: [A]
+                                             <ul><div><span style="color: firebrick;"><b>NO REHEARSAL</b></span>: Due to possible severe storms,
+                                                  the Roosevelt Community Center
+                                                  is closing tonight.</div> 
+
+                                                  <s><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
+                                                  <li>Run/clean Act II</li></s></ul>
+                                   </ul>
+                              </div>
+
+
+                              <div><ul><b>Wednesday March 18</b>: 2 rooms - <span style="color: firebrick;">no Kate, Rob</span>
+                                             <ul><u>CALLED</u>: ALL 
+                                                  <li>7:30 Finch Hedy intimacy</li>
+                                                  <li>7:30 Run through ensemble numbers: more details to follow</li>
+                                                  <li>7:50 Finch Rosemary intimacy</li>
+                                                  <li>8:10 - TBD</li></ul> 
+                              </div>
+
+
+                              <ul style="color: firebrick;background-color: yellow; padding: 5px 0px 5px 50px; font-size: 0.85em">
+                                             <b>----- EVERYONE OFF BOOK -----</b></ul>                                   
+
+                              <div><ul><b>Sunday March 22</b>: 2 rooms - <span style="color: firebrick;">no Andrea, Mike, Rob</span>
                                         <ul><u>CALLED</u>: ALL - 
-                                             <li>Run Act II</li></ul>
-                         </div>
-                              
-                         <div><ul><b>Wednesday March 25</b>: [A] - <span style="color: firebrick;">no Mike</span>
-                                        <ul><u>CALLED</u>: ALL
-                                             <li>7:30-8:00 Act II, Scene 1 "Cinderella, Darling"</li>
+                                             <li>Run Act I</li></ul>
+                              </div>
 
-                                             <li>8:00-8:15 Assorted Bud Frump scene music cues, namely elevator dance and #32 "Doom" (call Bud, Hedy, Marc, Finch)</li>
+                              <div><ul><b>Monday March 23</b>: [A] - <span style="color: firebrick;">no Mike</span>
+                                             <ul><u>CALLED</u>: ALL - 
+                                                  <li>Run Act II</li></ul>
+                              </div>
 
-                                             <li>8:15-8:30 "Been a Long Day" (Finch, Rose, Smitty)</li>
+                              <div><ul><b>Wednesday March 25</b>: [A] - <span style="color: firebrick;">no Mike</span>
+                                             <ul><u>CALLED</u>: ALL
+                                                  <li>7:30-8:00 Act II, Scene 1 "Cinderella, Darling"</li>
 
-                                             <li>8:30-9:00 Act I, Scene 13 party scene (all but Ross?)</li>
+                                                  <li>8:00-8:15 Assorted Bud Frump scene music cues, namely elevator dance and #32 "Doom" (call Bud, Hedy, Marc, Finch)</li>
 
-                                             <li>9:00-10:00 "Brotherhood" (all men plus Andrea)</li></ul>
-                         </div>
-                              
-                         <div><ul><b>Sunday March 29</b>: [A] - <span style="color: firebrick;">no Mike</span>
-                                        <ul><u>CALLED</u>: ALL
-                                             <li>Run show</li></ul>
-                         </div>
-                                                            
-                         <div><ul><b>Monday March 30</b>: [A]
-                                        <ul><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
-                                             <li>Run show</li></ul>
-                         </div>
-                              
-                         <div><ul><b>Wednesday April 1</b>: [A] - <span style="color: firebrick;">no Ross, Mike, Bob. Lisette </span>
-                                        <ul><u>CALLED</u>: ALL
-                                             <li>Trouble spots TBD and/or attempt a run without those missing</li></ul>
-                         </div>
-               
-                         <div><ul><b>Sunday April 5</b>:
-                              <ul>*** <span style="color: firebrick;"><b>No rehearsal - EASTER</b></span> ***</ul>
-                              </ul>
-                         </div>
+                                                  <li>8:15-8:30 "Been a Long Day" (Finch, Rose, Smitty)</li>
 
-                         <div><ul><b>Monday April 6</b>: [A] - <span style="color: firebrick;"></span>
-                                        <ul><u>CALLED</u>: ALL
-                                             <li>Run show</li></ul>
-                         </div>
+                                                  <li>8:30-9:00 Act I, Scene 13 party scene (all but Ross?)</li>
 
-                         <div><ul><b>Wednesday April 8 at 7 p.m.</b> - <span style="color: firebrick;">no Marc</span>
-                                        <li><span style="color: firebrick;"><b>Note</b>: Strath Haven Middle School (SHMS)</span></li>
-                                        <li>Run show</li>
-                              </ul>
-                         </div>
+                                                  <li>9:00-10:00 "Brotherhood" (all men plus Andrea)</li></ul>
+                              </div>
 
-                              
-               </div>
-                              
+                              <div><ul><b>Sunday March 29</b>: [A] - <span style="color: firebrick;">no Mike</span>
+                                             <ul><u>CALLED</u>: ALL
+                                                  <li>Run show</li></ul>
+                              </div>
 
-               <!--begins remaining rehearsal dates -->
-                              <span id="currentDate"></span>
-                    
-<!--<div><p><b>Thursday February 17</b> 
+                              <div><ul><b>Monday March 30</b>: [A]
+                                             <ul><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
+                                                  <li>Run show</li></ul>
+                              </div>
+
+                              <div><ul><b>Wednesday April 1</b>: [A] - <span style="color: firebrick;">no Ross, Mike, Bob. Lisette </span>
+                                             <ul><u>CALLED</u>: ALL
+                                                  <li>Trouble spots TBD and/or attempt a run without those missing</li></ul>
+                              </div>
+
+                              <div><ul><b>Sunday April 5</b>:
+                                   <ul>*** <span style="color: firebrick;"><b>No rehearsal - EASTER</b></span> ***</ul>
+                                   </ul>
+                              </div>
+
+                              <div><ul><b>Monday April 6</b>: [A] - <span style="color: firebrick;"></span>
+                                             <ul><u>CALLED</u>: ALL
+                                                  <li>Run show</li></ul>
+                              </div>
+
+                              <div><ul><b>Wednesday April 8 at 7 p.m.</b> - <span style="color: firebrick;">no Marc</span>
+                                             <li><span style="color: firebrick;"><b>Note</b>: Strath Haven Middle School (SHMS)</span></li>
+                                             <li>Run show</li>
+                                   </ul>
+                              </div>                    
+                         <div><p><b>Thursday February 17</b> 
                          <ul><u>Move-in</u> <b>ALL</b>
                               <ul style="padding-left:10px;">
                                    <li>4:00 pm - 5:30 pm <span style="color: firebrick;">RVCO Firehouse</span>, 184 Bortondale Road, Media</li>
                                    <li>5:00 pm - 7:00 pm <span style="color: firebrick;">Strath Haven Middle School (SHMS)</span></li></ul>
-                    </div>-->                                        
+                         </div>                                        
 
 
                                         <div><ul><b>Saturday April 11</b> at <span style="color: firebrick;">9:30 a.m. - 12:30 p.m.</span>
