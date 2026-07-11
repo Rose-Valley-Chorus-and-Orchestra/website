@@ -219,7 +219,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               pages 3-6, 27-349<br />
                               [Pages 3-6 will give you the title page and the contents.]</li></ol>
 
-                    <a href="../grandDuke2026/Grand Duke Vocal Score RVCO 2026 - 2.pdf" title="Download The Grand Duke libretto" target="new"><span class="button" href="">Download</span></a></div>
+                    <a href="../grandDuke2026/Grand Duke Vocal Score RVCO 2026 - 2 final.pdf" title="Download The Grand Duke libretto" target="new"><span class="button" href="">Download</span></a></div>
 
 
 <!-- <div class="notification">The <b>costume fitting</b> will take place Saturday, March 16 at our Firehouse located at <a href="https://www.google.com/maps/place/184+Bortondale+Rd,+Media,+PA+19063/@39.9017988,-75.3992073,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e8fb077ef113:0xc1aaad1af713cf34!8m2!3d39.9017988!4d-75.3966324!16s%2Fg%2F11c3q3ffv8?entry=ttu" title="Go to Google Maps" target="new" titler="Go to Google Maps">184 Bortondale Road, Media</a>
