@@ -759,5 +759,20 @@ background: white;
 .castlistBig {display: block;}
 .castlistSmall {display: none;}
 
-   
+.blue_button {
+  font: bold 13px Arial;
+  text-decoration: none;
+  background-color:darkblue;
+  color: #dedede;
+  padding: 5px 8px 5px 8px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+     margin-bottom: 4px;
+     border-radius: 10px;     
+}
+a:link .blue_button {color:white; text-decoration: none;}     
+a:hover .blue_button {color:#dedede; background-color:mediumblue; text-decoration: none;}     
+
 
