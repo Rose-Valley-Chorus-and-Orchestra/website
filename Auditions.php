@@ -100,9 +100,9 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     <!--<p><b>Sign Up:</b> <a href="https://tinyurl.com/rvco-gd" target="new">https://tinyurl.com/rvco-gd</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>-->
 
                          <p><b>Rehearsal dates and times:</b> Sundays 2:00 - 5:00 p.m. &amp; Mondays and Wednesdays  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.
-                    <ul style="Margin-top:-10px;margin-left: 20px;"><li class="more_info">Lead only rehearsals Wednesday, August 26; Sunday, August 30; and Monday, August 31.</li>
-                              <li class="more_info">Full cast script read through on Wednesday September 2.</li>
-                              <li class="more_info">Full cast rehearsals start on Wednesday September 9.</li>
+                    <ul style="Margin-top:-10px;margin-left: 20px;"><li class="more_info">Lead only rehearsals are Wednesday August 19; Sunday, August 23; and Monday, August 24.</li>
+                              <!-- <li class="more_info">Full cast script read through on Wednesday September 2.</li>-->
+                              <li class="more_info">Full cast rehearsals start on Wednesday August 26.</li>
                     </ul></p>
 
        
@@ -148,7 +148,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                      <p><b>Where:</b>	
                          <a href="https://www.google.com/maps/dir/Middletown+Free+Library,+464+S+Old+Middletown+Rd,+Media,+PA+19063//@39.8960977,-75.4441304,13z/data=!4m8!4m7!1m5!1m1!1s0x89c6e8eef37e4d19:0xcdda32443f69ddaa!2m2!1d-75.4029311!2d39.8960391!1m0?entry=ttu&amp;g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="new">Roosevelt Community Center</a>, 464 S. Old Middletown Road, Media, PA 19063</p>
 
-                    <p><b>Sign Up:</b> <a href="https://www.signupgenius.com/go/10C054DAFAE23AAF4C52-62543845-grand#/" target="new">https://www.signupgenius.com/go/10C054DAFAE23AAF4C52-62543845-grand#/\</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>
+                    <p><b>Sign Up:</b> <a href="https://tinyurl.com/rvco-camelot" target="new">https://tinyurl.com/rvco-camelot</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>
 
                     <p><b>Rehearsal dates and times</b> tentatively set to start in January 2026 on Sundays 2:00 - 5:00 p.m. and Monday and Wednesday  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.</p>
                     <p><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
@@ -162,7 +162,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
 
                     <p><b>Audition Information</b></p><ul style="Margin-top:-10px;margin-left: 20px;">
                               <!--<li class="more_info"><u>To receive the audition material</u>, email <a href="mailto:auditions@rvco.org" title="Send your filled out PDF of the How to Succed audtion form to auditions@rvco.org" subject="Request for audition material">auditions@rvco.org</a>.&nbsp; Use "Request for audition material" as the subject. &nbsp;</li>-->
-                              <li class="more_info">To audition for a role, you <i>must</i> sing and read the selections provided — readers and a pianist are provided to read with you and play for you. Due to time constraints, you may be asked to only sing or read one excerpt. You are not required to memorize the music or the dialog for the audition.</li>
+                              <li class="more_info">To audition for a role, you <i>must</i> sing and read the selections provided — readers and a pianist are provided to read with you and play for you. Due to time constraints, you may be asked to only sing or read one excerpt. You are not required to memorize the music or the dialogue for the audition.</li>
                               <li class="more_info">If time allows, you may audition for up to two roles.&nbsp;</li>
                               <li class="more_info"><b>Email</b> your <a href="camelot2027/audition material/RVCO Audition Form - Camelot.pdf" title="Open a fillable PDF of the Camelot audition form" target="new">audition form</a> to <a href="mailto:auditions@rvco.org" title="Send your filled out PDF of the Camelot audtion form to auditions@rvco.org" subject="How to Succeed... Audtition Form">auditions@rvco.org</a> <i>and</i> <b>bring</b> a copy to your audition.</li>
                               <li> The day of your audition, if you cannot make your scheduled time or need to cancel, please call 484 981-9108.</li>
@@ -192,67 +192,73 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                </tr>-->
 
                <tbody>               <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Arthur.pdf" target="new"><b>Arthur</b></a> &nbsp;<i>Age range: 25-50</i>; (Vocal range : Top Eb4; bottom A2)
+                   <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Arthur.pdf" target="new"><b>Arthur</b></a> &nbsp;<i>Age range: 30-60</i>; (Vocal range : Top Eb4; bottom A2)
                      <br />
                       &emsp;Idealistic , compassionate and generous King; tend to be unsure of himself but a huge inspriration to others. Age range: 25-50,</p>
                          <p class="TableParagraph">Music: No. 14 <i>How to Handle a Woman</i> mm. 57-86</p>
                          
-                          <p class="TableParagraph">Dialoge: (choose one)
+                          <p class="TableParagraph">Dialogue: (choose one but be familiar with&nbsp;both)
                               <ul>- p. 7 to top of p. 9 (with Gueniviere)</ul>
                               <ul>- pp. 109-110 (with Tom);</ul>
                          </p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Guenevere.pdf" target="new"><b>Guenevere</b></a> &nbsp;<i>Age range: 20-35</i>; (Vocal range: top A5, bottom B3)<br />
+                   <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Guenevere.pdf" target="new"><b>Guenevere</b></a> &nbsp;<i>Age range: 25-55</i>; (Vocal range: top A5, bottom B3)<br />
                         &emsp;Young, beautiful, and spirited woman soon to be Queen. She loves Arthur but is thrown by the arrival of Lancelot.</p>
                          <p class="TableParagraph">Music: No. 4 <i>The Simple Joys of Maidenhood</i> m. 127 to the end</p>
-                         <p class="TableParagraph">Dialoge: p. 9 from Arthur's line "He lives backwards" to p. 11 "There's not much time"</p>
+                         <p class="TableParagraph">Dialogue: p. 9 from Arthur's line "He lives backwards" to p. 11 "There's not much time"</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Lancelot.pdf" target="new"><b>Lancelot</b></a> &nbsp;<i>Age range 20-35</i>; (Vocal range: top B4, bottom A2)<br />
+                   <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Lancelot.pdf" target="new"><b>Lancelot</b></a> &nbsp;<i>Age range: 25-50</i>; (Vocal range: top B4, bottom A2)<br />
                         &emsp;Self-involved French Knight used to excelling at everything.</p>
                          <p class="TableParagraph">Music: No. 22 <i>If Ever I Would Leave You</i> mm. 55-86</p>
                          
-                         <p class="TableParagraph">Dialoge: p. 40 from Arthur's line "I want you to hear the&hellip;" to p. 41 "Highly, Your Majesty."</p>
+                         <p class="TableParagraph">Dialogue: p. 40 from Arthur's line "I want you to hear the&hellip;" to p. 41 "Highly, Your Majesty."</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top" s="s"><p class="TableParagraph"><a href="Dr Tannhauser.pdf" target="new"><b>Mordred</b></a> <i>Age range 20-30</i>; (Vocal range: top D4, bottom C3)<br />
+                   <td valign="top" s="s"><p class="TableParagraph"><a href="Dr Tannhauser.pdf" target="new"><b>Mordred</b></a> <i>Age range: 20-30</i>; (Vocal range: top D4, bottom C3)<br />
                         &emsp;Illegitimate son of Arthur, bound to destroy his kingdom.</p>
                         <p class="TableParagraph">Music: (choose one) 
                              <ul>- No 14 <i>How to Handle a Woman</i> mm. 57-86</ul>
                              <ul>- No. 22 <i>If Ever I Would Leave You</i> mm. 55-86</ul>
-                        <p class="TableParagraph">Dialog: p. 76 from "I bring you greetings" to p.77 "&hellip; than to gain your confidence."</p>
+                        <p class="TableParagraph">Dialogue: p. 76 from "I bring you greetings" to p.77 "&hellip; than to gain your confidence."</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Pellinore.pdf"><b>Pellinore</b></a> <i>Age range 50-70</i><br />
+                   <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Pellinore.pdf"><b>Pellinore</b></a> <i>Age range: 50-70</i><br />
                         &emsp;An old, eccentric knight, devoted to Arthur. </p>
                          <p class="TableParagraph">Music: not required at this time</p>
-                         <p class="TableParagraph">Dialog: top of p. 35 to "&hellip; Hello, you've changed your frock" on p. 36</p>
+                         <p class="TableParagraph">Dialogue: top of p. 35 to "&hellip; Hello, you've changed your frock" on p. 36</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Morgan.pdf" target="new"><b>Morgan Le Fay</b></a> <i>Age range 40-50</i><br />
+                   <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Morgan.pdf" target="new"><b>Morgan Le Fay</b></a> <i>Age range: 40-70</i><br />
                         &emsp;Mordred's magical Aunt who casts a spell on Arthur</p>
                          <p class="TableParagraph">Music: not required at this time</p>
-                         <p class="TableParagraph">Dialog: top p. 90 to end p. 91</p>
+                         <p class="TableParagraph">Dialogue: top p. 90 to end p. 91</p>
 
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Nimue.pdf" target="new"><b>Nimue</b></a> <i>Age range:20 -40</i>; (Vocal range: top Eb5, bottom Eb4)<br />
+                   <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Nimue.pdf" target="new"><b>Nimue</b></a> <i>Age range: Any</i>; (Vocal range: top Eb5, bottom Eb4)<br />
                         &emsp;A mythical creature who lures Merlyn away and steals his magical powers.</p>
                          <p class="TableParagraph">Music: No. 8 <i>Follow Me</i> pick-up to m. 18 through m. 25 and mm. 49-57 (sing the top notes in mm. 54-56)</p>
-                         <p class="TableParagraph">Dialog: none</p>
+                         <p class="TableParagraph">Dialogue: none</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><at href="Herald.pdf" target="new"><b>Sir Sagramore, Sir Lionel, Sir Dinedan</b></at><br />
+                   <td valign="top"><p class="TableParagraph"><at href="Herald.pdf" target="new"><b>Sir Sagramore, Sir Lionel, Sir Dinedan</b></at> <i>Age range: Any</i>;<br />
                         &emsp;Knights of the Round Table</p>
-                        <p class="TableParagraph">Use the audition material for <a href="camelot2027/audition material/Arthur.pdf" target="new"><b>Arthur</b></a> or <a href="camelot2027/audition material/Lancelot.pdf" target="new"><b>Lancelot</b></a>.</p>
+                        <p class="TableParagraph">If interested in these roles, prepare the audition material for <a href="camelot2027/audition material/Arthur.pdf" target="new"><b>Arthur</b></a> or <a href="camelot2027/audition material/Lancelot.pdf" target="new"><b>Lancelot</b></a>.</p>
+                    </td>
+               </tr>
+               <tr>
+                   <td valign="top"><p class="TableParagraph"><at href="Herald.pdf" target="new"><b>Merlyn</b></at> <i>Age range: 50+</i>;<br />
+                        &emsp;King Arthur's long time mentor, a Wizard who ages backwards.</p>
+                        <p class="TableParagraph">If interested in this role, prepare the audition material for <a href="camelot2027/audition material/Arthur.pdf" target="new"><b>Arthur</b></a> or <a href="camelot2027/audition material/Pellinore.pdf" target="new"><b>Pellinore</b></a>.</p>
                     </td>
                </tr>
 
