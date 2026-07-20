@@ -100,18 +100,18 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     <!--<p><b>Sign Up:</b> <a href="https://tinyurl.com/rvco-gd" target="new">https://tinyurl.com/rvco-gd</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>-->
 
                          <p><b>Rehearsal dates and times:</b> Sundays 2:00 - 5:00 p.m. &amp; Mondays and Wednesdays  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.
-                    <ul style="Margin-top:-10px;margin-left: 20px;"><li class="more_info">Lead only rehearsals are Wednesday August 19; Sunday, August 23; and Monday, August 24.</li>
+                    <ul style="Margin-top:-10px;margin-left: 20px;"><li class="more_info">Lead only rehearsals are Wednesday, August 19; Sunday, August 23; and Monday, August 24.</li>
                               <!-- <li class="more_info">Full cast script read through on Wednesday September 2.</li>-->
-                              <li class="more_info">Full cast rehearsals start on Wednesday August 26.</li>
+                              <li class="more_info">Full cast rehearsals start on Wednesday, August 26.</li>
                     </ul></p>
 
        
                          <p><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
                               <ul style="margin-top: -15px;">Sitzprobe: Saturday, October 24, 9:30 a.m.  - 12:30 p.m.</ul>
                               <ul style="margin-top: -9px;">Tech: Sunday, October 25, 1:00 - 10:00 p.m.</ul>
-                              <ul style="margin-top: -9px;margin-bottom: -6px;">Tech run-throughs: Monday - Wednesday October 26-28 6:00 - 10:00 p.m.</ul><p></p>
+                              <ul style="margin-top: -9px;margin-bottom: -6px;">Tech run-throughs: Monday - Wednesday, October 26-28, 6:00 - 10:00 p.m.</ul><p></p>
                   
-                         <p><b>Show dates:</b> October 31 - November 8&nbsp; <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
+                         <p><b>Show dates:</b> October 31 - November 8,&nbsp;2026 <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
 
                          <p><b>Performance Site:</b> <u>Strath Haven Middle School</u>, 200 South Providence Road, Wallingford, PA 19086</p>
 
@@ -143,7 +143,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
 
                     <!--<p>The first rehearsal is Sunday, ?? from 2 pm to 5 pm at <a href="https://www.google.com/maps/place/Holy+Trinity+Lutheran+Church/@39.8769582,-75.3648066,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e81375fa5483:0xdfe67210e756930!8m2!3d39.8769541!4d-75.3622317!16s%2Fg%2F1tg7szsf?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="new"><u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063. We will be reading through the show and doing some dancing. We'd love to have you join us. If you are planning on joining us, please email <a href="mailto:info@rvco.org">info@rvco.org</a> with your name and email address</p>-->
 
-                     <p><b>When:</b> Thursday August 27 at 7:00 – 10:00 p.m. and Saturday August 29 at 2:00 – 5:00 p.m.; Call backs by invitation Tuesday September 1&nbsp;</p>
+                     <p><b>When:</b> Thursday, August 27 at 7:00 – 10:00 p.m. and Saturday, August 29 at 2:00 – 5:00 p.m.; Callbacks by invitation on Tuesday, September 1&nbsp;</p>
 
                      <p><b>Where:</b>	
                          <a href="https://www.google.com/maps/dir/Middletown+Free+Library,+464+S+Old+Middletown+Rd,+Media,+PA+19063//@39.8960977,-75.4441304,13z/data=!4m8!4m7!1m5!1m1!1s0x89c6e8eef37e4d19:0xcdda32443f69ddaa!2m2!1d-75.4029311!2d39.8960391!1m0?entry=ttu&amp;g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" target="new">Roosevelt Community Center</a>, 464 S. Old Middletown Road, Media, PA 19063</p>
@@ -151,13 +151,15 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     <p><b>Sign Up:</b> <a href="https://tinyurl.com/rvco-camelot" target="new">https://tinyurl.com/rvco-camelot</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>
 
                     <p><b>Rehearsal dates and times</b> tentatively set to start in January 2026 on Sundays 2:00 - 5:00 p.m. and Mondays and Wednesdays&nbsp; 7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.</p>
+                    <p><b>Show dates:</b>&nbsp;April 10 - 18,&nbsp;2027 <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
+
                     <p><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
                               <ul style="margin-top: -9px;">Sitzprobe: Saturday April 3, 9:30 a.m.  - 12:30 p.m.</ul>
                               <ul style="margin-top: -9px;">Tech: Sunday April 4, 1:00 - 10:00 p.m.</ul>
-                    <ul style="margin-top: -9px;margin-bottom: -6px;">Tech run-throughs: April 5-7 6:00 - 10:00 p.m.</ul><p></p>
+                              <ul style="margin-top: -9px;">Tech run-throughs: April 5-7 6:00 - 10:00 p.m.</ul>
+                              <ul style="margin-bottom: -6px;">Attendance is required for all tech week and all performance dates.</ul>
+                   </p>
                   
-                    <p><b>Show dates:</b> &nbsp;April 10 - 18&nbsp; <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
-
                     <p><b>Performance Site:</b> <u>Strath Haven Middle School</u>, 200 South Providence Road, Wallingford, PA 19086</p>
 
                     <p><b>Audition Information</b></p><ul style="Margin-top:-10px;margin-left: 20px;">
