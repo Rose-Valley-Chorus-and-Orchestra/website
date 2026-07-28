@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="learn about the cast and crew for our 2026 production of The Grand Duke" />
-<meta name="keywords" content="The Pirates of Penzance, The Grand Duke, Camelot, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield" />
+<meta name="keywords" content="The Pirates of Penzance, The Grand Duke, Camelot, Rose Valley, Delaware Valley, theater, theatre, performance, orchestra, Rose Valley, Media, Springfield, DELCO, Delaware Valley, Delaware County. auditions" />
 <title>Auditions - RVCO</title>
 <link rel="shortcut icon" href="../images/rvco.ico" />
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">	
