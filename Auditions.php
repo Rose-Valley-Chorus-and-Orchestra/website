@@ -281,7 +281,6 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
 </div>    <!-- end of content-->
  <?php include("join.php"); ?>     
      
-
          
           <footer class="secondary_header, footer">
                <div class="copyright">
