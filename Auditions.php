@@ -196,7 +196,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                <tbody>               <tr>
                    <td valign="top"><p class="TableParagraph"><a href="camelot2027/audition material/Arthur.pdf" target="_blank"><b>Arthur</b></a>&emsp; Age range: 30-60; Vocal range: A2 - Eb4
                      <br />
-                      &emsp;Idealistic , compassionate and generous King; tend to be unsure of himself but a huge inspriration to others. Age range: 25-50,</p>
+                      &emsp;Idealistic , compassionate and generous King; tend to be unsure of himself but a huge inspriration to others.</p>
                          <p class="TableParagraph">Music: No. 14 <i>How to Handle a Woman</i> mm. 57-86</p>
                          
                           <p class="TableParagraph">Dialogue: (choose one but be familiar with&nbsp;both)
