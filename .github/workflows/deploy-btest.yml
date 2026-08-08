@@ -18,7 +18,7 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+          ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
 
       - name: Create deployment archive
         run: |
@@ -44,7 +44,7 @@ jobs:
               -o StrictHostKeyChecking=no \
               -o UserKnownHostsFile=/dev/null \
               /tmp/deploy.tar.gz \
-              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/public_html/btest/deploy.tar.gz
+              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/rvco/btest.rvco.org/deploy.tar.gz
 
       - name: Verify and extract on server
         run: |
@@ -52,7 +52,9 @@ jobs:
               -o StrictHostKeyChecking=no \
               -o UserKnownHostsFile=/dev/null \
               ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
-              "cd /home/${{ secrets.SSH_USER }}/public_html/btest && \
+              "cd /home/rvco/btest.rvco.org && \
+               echo 'Deployment directory:' && \
+               pwd && \
                echo 'Disk space:' && \
                df -h . && \
                echo 'Archive:' && \
