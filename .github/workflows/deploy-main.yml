@@ -22,18 +22,21 @@ jobs:
 
       - name: Create deployment archive
         run: |
-            tar --exclude='.git' \
-                --exclude='.github' \
-                --exclude='deploy.tar.gz' \
-                -czf deploy.tar.gz .
-        
-            echo "Archive created:"
-            ls -lh deploy.tar.gz
-        
-            echo "Testing archive integrity..."
-            gzip -t deploy.tar.gz
-        
-            echo "✅ Archive is valid"
+          tar \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='.DS_Store' \
+            --exclude='*/.DS_Store' \
+            --exclude='error_log' \
+            -czf /tmp/deploy.tar.gz .
+
+          echo "Archive created:"
+          ls -lh /tmp/deploy.tar.gz
+
+          echo "Testing archive integrity..."
+          gzip -t /tmp/deploy.tar.gz
+
+          echo "✅ Archive is valid"
 
       - name: Upload to server
         run: |
