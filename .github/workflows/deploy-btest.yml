@@ -5,6 +5,13 @@ on:
     branches:
       - btest
 
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Reason for deployment"
+        required: false
+        default: "Manual deployment"
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
