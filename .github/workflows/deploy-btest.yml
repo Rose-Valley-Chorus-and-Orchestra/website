@@ -22,34 +22,45 @@ jobs:
 
       - name: Create deployment archive
         run: |
-            tar --exclude='.git' \
-                --exclude='.github' \
-                --exclude='deploy.tar.gz' \
-                -czf deploy.tar.gz .
-        
-            echo "Archive created:"
-            ls -lh deploy.tar.gz
-        
-            echo "Testing archive integrity..."
-            gzip -t deploy.tar.gz
-        
-            echo "✅ Archive is valid"
-        
+          tar \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='.DS_Store' \
+            --exclude='*/.DS_Store' \
+            --exclude='error_log' \
+            -czf /tmp/deploy.tar.gz .
+
+          echo "Archive created:"
+          ls -lh /tmp/deploy.tar.gz
+
+          echo "Testing archive integrity..."
+          gzip -t /tmp/deploy.tar.gz
+
+          echo "✅ Archive is valid"
+
       - name: Upload to server
         run: |
           scp -i ~/.ssh/id_ed25519 \
-              -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
-              deploy.tar.gz \
-              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/rvco/btest.rvco.org/
+              -o StrictHostKeyChecking=no \
+              -o UserKnownHostsFile=/dev/null \
+              /tmp/deploy.tar.gz \
+              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/public_html/btest/deploy.tar.gz
 
-      - name: Extract on server
+      - name: Verify and extract on server
         run: |
           ssh -i ~/.ssh/id_ed25519 \
-              -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+              -o StrictHostKeyChecking=no \
+              -o UserKnownHostsFile=/dev/null \
               ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
-              "cd /home/rvco/btest.rvco.org && \
-               echo 'Extracting archive in:' && pwd && \
+              "cd /home/${{ secrets.SSH_USER }}/public_html/btest && \
+               echo 'Disk space:' && \
+               df -h . && \
+               echo 'Archive:' && \
                ls -lh deploy.tar.gz && \
-               tar -xvzf deploy.tar.gz && \
+               echo 'Testing archive integrity...' && \
+               gzip -t deploy.tar.gz && \
+               echo '✅ Archive verified' && \
+               echo 'Extracting...' && \
+               tar -xzf deploy.tar.gz && \
                rm -f deploy.tar.gz && \
                echo '✅ Extraction complete'"
