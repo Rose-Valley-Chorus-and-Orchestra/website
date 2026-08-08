@@ -11,37 +11,58 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: Setup SSH key
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+          ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
 
       - name: Create deployment archive
         run: |
-          tar --exclude='.git' \
-              --exclude='.github' \
-              --exclude='deploy.tar.gz' \
-              -czf deploy.tar.gz . || true
+          tar \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='.DS_Store' \
+            --exclude='*/.DS_Store' \
+            --exclude='error_log' \
+            -czf /tmp/deploy.tar.gz .
+
+          echo "Archive created:"
+          ls -lh /tmp/deploy.tar.gz
+
+          echo "Testing archive integrity..."
+          gzip -t /tmp/deploy.tar.gz
+
+          echo "✅ Archive is valid"
 
       - name: Upload to server
         run: |
           scp -i ~/.ssh/id_ed25519 \
-              -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
-              deploy.tar.gz \
-              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/rvco/test/
+              -o StrictHostKeyChecking=no \
+              -o UserKnownHostsFile=/dev/null \
+              /tmp/deploy.tar.gz \
+              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/rvco/test/deploy.tar.gz
 
-      - name: Extract on server
+      - name: Verify and extract on server
         run: |
           ssh -i ~/.ssh/id_ed25519 \
-              -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+              -o StrictHostKeyChecking=no \
+              -o UserKnownHostsFile=/dev/null \
               ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
               "cd /home/rvco/test && \
-               echo 'Extracting archive in:' && pwd && \
+               echo 'Deployment directory:' && \
+               pwd && \
+               echo 'Disk space:' && \
+               df -h . && \
+               echo 'Archive:' && \
                ls -lh deploy.tar.gz && \
-               tar -xvzf deploy.tar.gz && \
+               echo 'Testing archive integrity...' && \
+               gzip -t deploy.tar.gz && \
+               echo '✅ Archive verified' && \
+               echo 'Extracting...' && \
+               tar -xzf deploy.tar.gz && \
                rm -f deploy.tar.gz && \
                echo '✅ Extraction complete'"
