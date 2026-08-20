@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Thye Grand Duke Cast Page - RVCO</title>
+<title>The Grand Duke Cast Page - RVCO</title>
      
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -214,13 +214,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <div id="castPage" style="clear: both;">
                     <h1 id="pageName"><i>The Grand Duke</i> Cast Page</h1> 
                     
-                    <p style="clear: both; padding-top: 15px;">If you have not already paid your dues, --new and current members can <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.</p>
+                    <p style="clear: both; padding-top: 15px;">If you have not already paid your dues, new and current members can <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.</p>
                     
                     <h2>Libretto</h2>
-                    <div class="Rtimes" style="clear: both; padding-top: 0px;"><ol><li> Print the entire score (double-sided); it's 349 pages, so 175 sheets of paper.</li>
-                           <li>If you would like to omit the editor's notes and the Overture, print the following pages, double-sided:
-                              pages 3-6, 27-349<br />
-                              [Pages 3-6 will give you the title page and the contents.]</li></ol>
+                    <div class="Rtimes" style="clear: both; padding-top: 0px;">
+                         <ol><li>Print the entire score (double-sided); it's 349 pages, so 175 sheets of paper.</li>
+                              <li>If you would like to omit the editor's notes and the Overture, print the following pages, double-sided:
+                                   pages 3-6, 27-349<br>
+                                   [Pages 3-6 are the title page and the contents.]</li>
+                              <li>Use on a tablet.</li>
+                    </ol>
 
                               <a href="../grandDuke2026/Grand Duke Vocal Score RVCO 2026 - 2 final.pdf" title="Download The Grand Duke libretto" target="new"><span class="button" href="">Download</span></a>
                     </div>
@@ -273,8 +276,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <div class="Rtimes"><a href="../grandDuke2026/The Grand Duke - RVCO - rehearsal schedule - Final.pdf" title="Download the schedule" target="new"><span class="button" href="">Download</span></a> a PDF to print.
                                    </div>
                                    <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
-                                        <ul><li>If you know you will be late or not at rehearsal, please email <a href="mailto:florrie@barks.org,juliecmay@msn.com,?subject=Missing rehearsal">Florrie and Julie</a>.</li>
-                                        <li>Day of rehearsal, please text Florrie at (610) 453-1407 (cell) or Julie at (???) ???-????</li></ul>
+                                        <ul><li>If you know you will be late, leaving early, or not at rehearsal, please email <a href="mailto:florrie@barks.org,juliecmay@msn.com,?subject=Missing rehearsal">Florrie and Julie</a>.</li>
+                                        <li>Day of rehearsal, please text Florrie at (610) 453-1407 (cell) or Julie at (610) 564-3544</li>
+                                        </ul>
                                    </div>
                                    <div class="castpageLinks" style="">
                                         <div id="ViewDays" style="display:inline;">
