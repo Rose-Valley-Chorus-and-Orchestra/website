@@ -26,6 +26,7 @@
      vertical-align: top;
 }
 .schedule {margin-left: auto; margin-right: auto; clear:both; padding-top: 5px;}
+
 #castPage {padding: 5px 0px;margin: 5px; font-size: 16px;}
 #castPage p {padding: ;margin: 10px 5px 5px 10px;}
 
@@ -33,6 +34,7 @@
 .schedule tr:nth-child(odd){background-color: #ffffff;}
 .schedule tr:hover {background-color: #ddd;}
 .schedule ul { list-style:disc;padding-left: 15px;}
+     
 .schedule ul li {padding: 0; margin: 0 0 0 25px;}
 .schedule ol { list-style-type:upper-alpha;padding-left: 15px;}
 .schedule ol li {padding: 0; margin: 0 0 0 10px;}
@@ -44,7 +46,9 @@
 	  background-color: #A30029;
 	  color: white;
 }
-.schedule ul ul {margin: 0 0 10px}
+.schedule ul ul {margin: 0 0 10px -20px;padding-left: 5px;}
+.schedule ul ul li {margin: 0 0 10px 20px;padding-left: 5px;}
+
 .schedule div {padding: 10px 0px;}
 h2, h2 .storyHead {color: darkred;
      font-size: 24px;}
@@ -66,7 +70,8 @@ h2, h2 .storyHead {color: darkred;
 }
 .button a:link {color:#dedede; text-decoration: none;}  
 .downLinks { max-width: 1000px;}     
-.downLinks li {float:left;padding: 0 15px 0 0px;margin: 0 15px; max-width: 1000px;}     
+.downLinks li {float:left;padding: 0 15px 0 0px;margin: 0 15px; max-width: 1000px;}
+     
 @media (max-width: 425px) {
                         .story, .feature .story {width: 380px;
                               font-size: 14px;
@@ -88,8 +93,9 @@ h2, h2 .storyHead {color: darkred;
                                 color: white;
                                margin: 0px;
                          }
-                         .schedule div ul {margin: 0 0 10px 0px;padding-left: 5px;}
-                         .schedule ul ul {margin: 0 0 10px 0px;padding-left: 5px;}
+                         .schedule div ul {margin: 0 0 10px -10px;padding-left: 5px;}
+                         .schedule ul ul {margin: 0 0 10px -30px;padding-left: 5px;}
+                         .schedule ul ul li {margin: 0 0 10px 20px;padding-left: 5px;}
                          .schedule div {padding: 10px 0px;}
 
                          table.schedule {max-width: 380px;}
@@ -128,11 +134,14 @@ h2, h2 .storyHead {color: darkred;
                          }
 @media (max-width: 400px) {
      .schedule {width: 350px;}
-     .schedule div ul {margin: 0 3px 10px -10px;padding-left: 0px;}
-     .schedule ul ul {margin: 0 0 10px 0px;padding-left: 0px;}
+     .schedule div ul {margin: 0 3px 10px -20px;padding-left: 0px;}
+     .schedule ul ul {margin: 0 0 5px -30px;padding-left: 0px;}
+     .schedule ul ul li {margin: 0 0 10px 20px;padding-left: 0px;}
      .schedule div {padding: 10px 0px;}
      .schedule p {padding: 0px;margin-left: -20px;}
      }
+
+     
      
 </style>
 
@@ -275,54 +284,48 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <ul><li>If you know you will be late or not at rehearsal, please email <a href="mailto:florrie@barks.org,juliecmay@msn.com,?subject=Missing rehearsal">Florrie and Julie</a>.</li>
                               <li>Day of rehearsal, please text Florrie at (610) 453-1407 (cell) or Julie at (???) ???-????</li></ul></div>
 
-                         <div class="castpageLinks" style="margin-bottom: -20px;">
-                              <div id="ViewDays" style="padding: 0px 0px 0px 10px; float: left;width:auto;margin-top: -20px;margin-bottom: -20px;">
-                                   <a title="View ALL rehearsal dates"  onclick="
-                                             MM_showHideLayers('History','','hide');
-                                             MM_changeProp('History','','height','0px','DIV');
-                                             MM_showHideLayers('ViewHistory','','show');
-                                             MM_changeProp('ViewHistory','','width','auto','DIV');
-                                             MM_changeProp('ViewHistory','','height','auto','DIV');
-                                             MM_showHideLayers('HideHistoryLink','','hide');
-                                             MM_changeProp('HideHistoryLink','','width','0px','DIV');
-                                             MM_changeProp('HideHistoryLink','','height','0px','DIV');
-                                             MM_showHideLayers('HideLink','','show');
-                                             MM_changeProp('HideLink','','width','auto','DIV');
-                                             MM_changeProp('HideLink','','height','auto','DIV');
-                                             MM_showHideLayers('Days','','show');
-                                             MM_changeProp('Days','','height','100%','DIV');
-                                             MM_showHideLayers('ViewDays','','hide');
-                                             MM_changeProp('ViewDays','','width','0px','DIV');
-                                             MM_changeProp('ViewDays','','height','0px','DIV');
-                                             MM_showHideLayers('legend','','show');
-                                             MM_changeProp('legend','','height','auto','ID');
-                                             MM_showHideLayers('legend2','','show');
-                                             MM_changeProp('legend2','','height','auto','ID');
-                                             MM_showHideLayers('legend3','','show');
-                                             MM_changeProp('legend3','','height','auto','ID');
+                         <div class="castpageLinks" style="">
+                              <div id="ViewDays" style="display:inline;">
+                                   <a href="#pastDays" title="View ALL rehearsal dates"  onclick="
+                                             MM_changeProp('HideLink','','display','inline','DIV');
+                                             MM_changeProp('pastDays','','display','inline','DIV');
+                                             MM_changeProp('ViewDays','','display','none','DIV');
                                                                       " >View All rehearsal dates and information</a></div>
-                              <div id="HideLink" style="visibility:hidden;color:#333;float:left;width:0px;height:0px;margin-top: -20px;margin-bottom: -20px;">
-                                   <a title="Hide past rehearsal dates" onclick="
-                                              MM_showHideLayers('Days','','hide');
-                                              MM_changeProp('Days','','height','0px','DIV');
-                                              MM_showHideLayers('ViewDays','','show');
-                                              MM_changeProp('ViewDays','','width','auto','DIV');
-                                              MM_changeProp('ViewDays','','height','auto','DIV');
-                                              MM_showHideLayers('HideLink','','hide');
-                                              MM_changeProp('HideLink','','width','0px','DIV');
-                                              MM_changeProp('HideLink','','height','0px','DIV'); 
-                                              MM_showHideLayers('legend','','hide');
-                                              MM_changeProp('legend','','height','0px','ID');
-                                              MM_showHideLayers('legend2','','hide');
-                                              MM_changeProp('legend2','','height','0px','ID');
-                                              MM_showHideLayers('legend3','','hide');
-                                              MM_changeProp('legend3','','height','0px','ID');
+                              <div id="HideLink" style="display:none;">
+                                   <a href="#currentDate" title="Hide past rehearsal dates" onclick="
+                                             MM_changeProp('HideLink','','display','none','DIV');
+                                             MM_changeProp('pastDays','','display','none','DIV');
+                                             MM_changeProp('ViewDays','','display','inline','DIV');
                                                              " alt="Hide past rehearsal dates">Hide past rehearsal dates</a>
-                                   <div><a href="#currentDate" style="margin: 0 0 0 -20px;">Go to current date</a></div>
+                                   <div><a href="#currentDate" style="">Go to current date</a></div>
                               </div>
                          </div>
 
-                         <div id="Days" class="castlistDays">
+                         <div id="pastDays" class="castlistDays" style="display:none;">
+                              <div><ul class="day"><b>Wednesday August 19</b>: 2 rooms
+                                             <ul class="day"><u>CALLED</u>: Rudolph, Ernest, Ludwig, Notary, Prince, Princess, Baroness, Julia, Lisa</span></ul>
+                                             <ul><u>BLOCKING: </u>
+                                                  <li>7:30–8:15 Baroness &amp; Rudolph</br>
+                                                       <b>F</b>. p. 124-125 (partial?), #10 start Play out Tango with piano, Choreography</li>
+                                                  <li>8:15-9:00</br>
+                                                       <ol>– Prince &amp; Princess #25, <b>L</b>. p.335-336</li></ol>
+                                                       <ol>– Prince, Princess &amp; Ludwig <b>M</b>. p.341, <b>N</b>. p.351</ol>
+                                                  </li>
+                                                  <li>9:00–10:00 Julia, Lisa, Ernest, Notary &amp; Ludwig</br>
+                                                       <b>D</b>. p. 77-78,#6 p. 79, <b>E</b>. p. 88, #7 p. 89, (#8 p. 99)?? 
+                                                  </li>
+                                             </ul> 
+                                             <ul><U>MUSIC</U>:
+                                                  <li>7:30–8:30 Julia, Lisa, Ernest, Notary &amp; Ludwig<br>
+                                                       3 Quintets #6, #7, #8</li>
+                                                  <li>8:30–8:50 Baroness &amp; Rudolph: #10</li>
+                                                  <li>8:50–9:15 Baroness #18, #21</li>
+                                                  <li>9:15–9:30 Baroness &amp; Ludwig #17 pp. 272-275</li>
+                                                  <li>9:30–10:00 Prince, Princess #25, #27</li>
+                                             </ul>
+                                   </ul>
+                              </div>
+
 
 
                          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
@@ -331,378 +334,459 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          <span id="currentDate"></span>
                                    
                          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-                              <div><ul><b>Wednesday Janurary 28</b>: 2 room
-                                             <ul><u>CALLED</u>: Chorus</span>
-                                             <ul><u>MUSIC: with Florrie</u>
-                                                  <li><i>Coffee Break</i>, <i>Company Way</i> (Rep), <i>A Secretary Is Not a Toy</i>, <i>Been a Long Day</i>, <i>Finale</i>, Bows;</li>
-                                                  <li>new cast member auditions (if necessary)</i></li>
-                                                  </ul> 
-                                             <ul><U>STAGING</U>:
-                                                  <li>Finch, Gatch, Rosemary, Smitty, Bud, Biggley, Bratt, Biggley (can plug in Miss Jones another time)</li>
-                                                  <li>Character work + Blocking: I.1-I.5 (no Hedy needed)</li>
-                                                 </ul>
-                                             </ul>
-                              </div>
-
-                              <div style="clear: both;margin-top: -20px;">   
-                                        <ul><b>Sunday February 1</b>: 1 room
-                                                  <ul><u>CALLED</u>: Chorus - <span style="color: firebrick;">no Aaron</span>
-                                                  <li>Choreography with Caity:
-                                                  <i>Coffee Break</i></li></ul> 
-                                        </ul>
-                              </div>
-
-                              <div><ul><b>Monday February 2</b>: 2 rooms
-                                             <ul><u>Called</u>: <b>Chorus</b>
-                                                  <li>Music with Florrie</li></ul>
-                                             <ul><u>Called</u>: Miss Jones, Hedy, Bud, Bratt, Finch, Rosemary, Smitty
-                                                  <li>Miss Jones for a little bit at the beginnging, Biggley (can come late), (can plug in Gatch later)</li>
-                                                  <li>Brief character work and Blocking: I.6-1.10 (no Twimble/Womper needed)</li></ul>
-                                   </ul>
-                              </div>
-
-                              <div><ul><b>Wednesday February 4</b>: 2 rooms
-                                             <ul><u>CALLED</u>: Chorus, Bud, Smitty - <span style="color: firebrick;">no Ross</span>
-                                             <ul>Choreography with Caity:
-                                                  <li>Clean <i>Coffee Break</i></li>
-                                                  <li>Intro for <i>How to Succeed &#8230;</i></li></ul></ul> 
-                                             <ul><u>CALLED</u>: Everyone NOT in <i>Coffee Break</i>
-                                                  <ul>7:30 Music with Florrie</ul></ul> 
-                                   </ul>
-                              </div>
-
-                              <div><ul><b>Sunday February 8</b>: 2 rooms
-                                             <ul><u>CALLED</u>: ALL except Miss Jones - <span style="color: firebrick;">no Aaron</span>
-                                                  <ul>Blocking with Chris
-                                                  <li>Bratt, Smitty, Rosemary, Finch, Bud, Hedy, Biggley, Ovington - I.11-I.14 (completing Act I) </li></ul>
-                                             <ul>Music with Florrie
-                                                  <li>2:00 - Ladies working on #15 <i>Paris Original</i> and #23 <i>Cinderella, Darling</i></i></li>
-                                                  <li>3:00 - ALL</i></li>
-                                                  <li>? - 4:30 - Men working on #27 <i>I Believe in You</i> and #33 <i>Brotherhood of Man</i></li>
-                                                  <li>4:30  - Finch, Bigley, Hedy</i></li></ul> </ul>
-                              </div>
-
-                              <div><ul><b>Monday February 9</b>: 2 rooms
-                                             <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Ross</span>
-                                             <ul>7:30 Audition for Miss Kromholtz, scrubwomen, and additional lines</ul>
-                                             7:45 Music with Florrie: <b>CANCELED</b>
-                                             <ul>7:45 Blocking with Chris:
-                                                  <li>Walk through Act I with principals that have already been called for blocking rehearsals</ul></ul>
-                                   </ul>
-                              </div>
-
-                              <div><ul><b>Wednesday February 11</b>: 2 rooms
-                                             <ul><u>CALLED</u>: ALL a few guys to be named - <span style="color: firebrick;">no Kate, Lisette</span>
-                                             <ul>Choreography with Caity:
-                                                  <li>7:30 - 7:45 Finch, Twimble - <i>Company Way</i></li> 
-                                                  <li>7:45 ALL - <i>Company Way</i> (reprise)</li></ul> 
-                                             <ul>Music with Florrie:
-                                                  <li>Music review if time with the chorus</li>
-                                             </ul> 
-                                   </ul>
-                              </div>
-
-                              <div><ul><b>Sunday February 15</b>: 2 rooms</span> - <span style="color: firebrick;">no Kate, Ross, Lisa F</span>
-                                        <ul><u>CALLED</u>: All Men, Ladies Chorus, Rosemary, Hedy
-                                                  <ul>Music with Florrie
-                                             <li>2:00 Full Chorus review</li>
-                                                  <li>2:45 Ladies Chorus review</li>
-                                             </ul> 
-                                             <ul>Blocking with Chris:
-                                                  <li>2:00 Finch and Biggley review I.8 and "Grand Old Ivy"</li>
-
-                                                  <li>2:45 Male cast - Review Act I and hopefully plug in Jenkins, Toynbee, Davis, Tackaberry</li>
-                                             </ul> 
+                              <div><ul><b>Sunday August 23</b>: 2 rooms <span style="color: firebrick;">no Jeff S, Brenda Rose</span>
+                                        <ul><u>CALLED</u>: Rudolph, Ernest, Ludwig, Julia, Lisa</span></ul>
+                                        <ul><u>BLOCKING:</u>
+                                             <li>2:00–2:20 Ludwig &amp; Julia: <b>I</b>. p. 259</li>
+                                             <li>2:20–2:45 Julia, Lisa &amp; Ernest <b>K</b>. pp. 292-293</li>
+                                             <li>2:45–3:25 Julia &amp; Ernest <b>C</b>. pp. 53-54, #4</li>
+                                             <li>3:25–3:55 Rudolph <b>G</b>. p.146, #11</li>
+                                             <li>3:55–4:25 Ludwig &amp; Rudolph <b>H</b>. pp. 153-154</li>
+                                             <li>4:25–5:00 Ludwig &amp; Lisa #1 pp. 21-23, #1a, p.24</li>
+                                        </ul> 
+                                        <ul><U>MUSIC</U>:
+                                                  <li>2:00–2:15 Ernest #3, #5  pp. 65-66</li>
+                                                  <li>2:15–3:00 Rudolph #9a, #11, #28a</li>
+                                                  <li>3:00–4:00 
+                                                       <ol>– Ludwig &amp; Lisa #1a</ol>
+                                                       <ol>– Ludwig #2, #5, #14, #15, #22, #24</ol>
+                                                  </li>
+                                                  <li>4:00–4:30 Ernest &amp; Julia #4</li>
+                                                  <li>4:30–5:00 with Julie/blocking</li>
                                         </ul>
                                    </ul>
                               </div>
 
-                              <div><ul><b>Monday February 16</b>
-                                   <ul>*** <span style="color: firebrick;"><b>No rehearsal - PRESIDENTS DAY</b></span> ***</ul>
+                              <div><ul><b>Monday August 24</b>: 2 rooms <span style="color: firebrick;">no Jeff S, Brenda Rose</span>
+                                        <ul><u>CALLED</u>: Rudolph, Ernest, Ludwig, Notary, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
+                                        <ul><u>BLOCKING:</u>
+                                                  <li>7:30–9:00 
+                                                       <ol>– Ernest #3</ol>
+                                                       <ol>– Review Rudolph’s numbers and dialogue if time</ol>
+                                                       <ol>– Ludwig, Lisa, Notary, Gretchen, Elsa, Olga &amp; Bertha</br>
+                                                            &emsp;<b>A</b>. p.33, <b>B</b>. pp.41&amp;44</ol>
+                                                       <ol>– Rudolph, Gretchen, Elsa, Olga &amp; Bertha</br>
+                                                            &emsp;#12 p.172 (Molto vivace) to p.181</ol>
+                                             </li>
+                                                   <li>9:00–10:00 Julia, Lisa, Ernest, Notary &amp; Ludwig
+                                                       <ol>With Florrie finish blocking as needed;</ol>
+                                                       <ol>run Quintets &amp; dialogue <b>D</b>. pp.77-78, #6, #7, #8, <b>E</b>. p.88</ol>
+                                                   </li>
+                                        </ul>
+                                        <ul><U>MUSIC</U>:
+                                                  <li>7:30–9:00 All leads involved in Act 1 Finale (#12) (i.e., not Ernest)</li>
+                                                  <li>9:00–10:00 Julia, Lisa, Ernest, Notary &amp; Ludwig
+                                                       <ol>With Florrie finish blocking as needed;</ol>
+                                                       <ol>run Quintets &amp; dialogue <b>D</b>. pp.77-78, #6, #7, #8, <b>E</b>. p.88</ol>
+                                                  </li>
+                                        </ul>
                                    </ul>
                               </div>
 
-                              <div><ul><b>Wednesday February 18</b>: 2 rooms
-                                             <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Ross, Kate, Chris, Mike, Jeff</span>
-                                                       <ul>Choreography with Caity:
-                                                            <li><i>A Secretary is Not a Toy</i> and start <i>Paris Original</i></li>
-                                                       </ul>
-                                                       <!--<ul>Music with Florrie:
-                                                            <li>Those not in <i>A Secretary is Not a Toy</i></li></ul>-->
+                              <div><ul><b>Wednesday August 26</b>: Auditorium <span style="color: firebrick;">no Sharon, Mike D, Chip, Ray?</span>
+                                             <ul><u>CALLED</u>: ALL</ul>
+                                             <ul><u>READ-TRHOUGH</u> 2:00–?</ul>
+                                             <ul><u>BLOCKING:</u>                                                  
+                                                  <li>Time permitting: Ludwig #2 &amp; #5</li>
+                                             </ul>
+                                             <ul><u>MUSIC:</u>
+                                                  <li>Time permiiting: Chorus: #1, #1a, #2</li>
+                                             </ul>
+                              </div>
+
+                              <div><ul><b>Sunday August 30</b>: 2 rooms <span style="color: firebrick;">no Sharon, Mike D, Chip, Ray?</span>
+                                             <ul><u>CALLED</u>: Rudolph, Ludwig, Notary, Julia, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus</ul>
+                                             <ul><u>BLOCKING:</u>
+                                                  <li>2:00–3:30
+                                                       <ol>– Rudolph, Ludwig, Notary, Lisa, Julia #12</ol>
+                                                       <ol>– Ludwig, Notary, Julia #12a</ol>
+                                                       <ol>– More #12 sectioins if time permits</ol>
+                                                  </li>
+                                                  <li>3:30–5:00 Chorus, Ludwig, Lisa, Notary, Gretchen, Elsa, Olga, Bertha
+                                                       <ol>– #1, #1a, <b>A</b>. p. 33, #2</ol>
+                                                       <ol>– (#5 With Ludwig if not finished on 8/26)</ol>
+                                                  </li>
+                                             </ul>
+                                             <ul><u>MUSIC:</u>
+                                                  <li>2:00–3:30
+                                                       <ol>– Chorus</br>
+                                                            &emsp; #3, #5, start #12</br>
+                                                            &emsp; review #1, #1a, #2 before blocking</ol>
+                                                  </li>
+                                                  <li>3:30–4:00 Ludwig, Julia #16</li>
+                                                  <li>4:00–5:00 Possible review with Rudolph followed by Join Julie for blocking #1, #1a, #2</li>
+                                             </ul>
+                              </div>
+
+                              <div><ul><b>Monday August 31</b>: 2 rooms <span style="color: firebrick;">no Sharon, Chip, Ray?</span>
+                                             <ul><u>CALLED</u>: Ernest, Ludwig, Notary, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus</ul>
+                                             <ul><u>BLOCKING:</u>
+                                                  <li>7:30–9:00
+                                                       <ol>– Ludwig, Julia <b>I</b>. pp. 259, #16</ol>
+                                                       <ol>– Julia #19</ol>
+                                                       <ol>– Ludwig, Julia, Baroness <b>J</b>. p. 279</ol>
+                                                  </li>
+                                                  <li>9:00–10:00 Chorus, Ludwig, Lisa, Ernest, Julia #5
+                                                       <ol>– Chorus exit p. 76</ol>
+                                                  </li>
+                                             </ul>
+                                             <ul><u>MUSIC:</u>
+                                                  <li>7:30–9:00
+                                                       <ol>– Chorus</br>
+                                                            &emsp; Complete #12</br>
+                                                            &emsp; Review others numbers ITP</ol>
+                                                  </li>
+                                                  <li>9:00–10:00 Possible review with Baroness followed by Julia #19 (note: Julia &amp; Ernest are in #5 but can be added later)</li>
                                              </ul>
                                    </ul>
                               </div>
 
-                              <div><ul><b>Sunday February 22</b>: 2 rooms
-                                             <ul><u>CALLED</u>: ALL - <span style="color: firebrick;">no Aaron, Kate, Ross &amp; Lisa F leaves early</span>
-                                             <ul>Choreography with Caity:
-                                                  <li>2:00 - 3:00 Female cast to finish <i>Paris Original</i> and review</li></ul> 
-                                             <ul>Blocking with Chris:
-                                                  <li>3:00 CLEAN ACT I (and plug in minor characters into blocking)</li></ul>
+                              <div><ul><b>Wednesday September 2</b>: 2 rooms <span style="color: firebrick;">no Sharon, Chip, Peter</span>
+                                             <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Prince, PrincessBaroness, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus</ul>
+                                             <ul><u>BLOCKING:</u>
+                                                  <li>7:30–9:00
+                                                       <ol>– Rudolph, Baroness #10 + Tango</ol>
+                                                       <ol>– Herald #23</ol>
+                                                  </li>
+                                                  <li>9:00–10:00 
+                                                       <ol>– Chorus, Ludwig, Lisa, Notary, Ernest, Gretchen, Elsa, Olga, Bertha
+                                                       <ol>&emsp; <b>B</b>. pp. 41 - 44</ol>
+                                                       <ol>– Chorus, Ernest, Notary #3</ol>
+                                                  </li>
+                                             </ul>
+                                             <ul><u>MUSIC:</u>
+                                                  <li>7:30–9:00
+                                                       <ol>– Chorus</br>
+                                                            &emsp; #13, #14, #17, #18, end of #20, #21</br>
+                                                            &emsp; more of #12 if needed</ol>
+                                                  </li>
+                                                  <li>9:00–10:00 Possible review with Baroness</br>
+                                                       &emsp; followed by Julia #19 (note: Julia &amp; Ernest are in #5 but can be added later)</li>
                                              </ul>
                                    </ul>
                               </div>
 
-                              <div><ul><b>Monday February 23</b>: 2 rooms - <span style="color: firebrick;">no Kate</span>
-                                             <ul><u>CALLED</u>: Finch and Hedy
-                                                  <li>7:30 - Intimacy Choreography with Julie Zaffarano</li></ul>
-                                             <ul><u>CALLED</u>: Finch and Rosemary
-                                                  <li>7:45  - Intimacy Choreography with Julie Zaffarano</li></ul>
-                                             <ul><u>CALLED</u>: All
-                                                  <li>8:00 - CLEAN ACT I (plug minor characters into blocking)</li>
-                                             </ul> 
+                              <div><ul><b>Sunday September 6</b>
+                                   <ul>*** <span style="color: firebrick;"><b>No rehearsal - LABOR DAY WEEKEND</b></span> ***</ul>
+                                   </ul>
+                              </div>
+
+                              <div><ul><b>Monday September 7</b>
+                                   <ul>*** <span style="color: firebrick;"><b>No rehearsal - LABOR DAY</b></span> ***</ul>
+                                   </ul>
+                              </div>
+
+                              <div><ul><b>Wednesday September 9</b>: 2 rooms <span style="color: firebrick;">no Peter</span>
+                                             <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Baroness, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus</ul>
+                                             <ul><u>BLOCKING:</u>
+                                                  <li>Baroness #17 &amp; #31</li>
+                                                  <li>Ernest, Notary, Rudolph #28, #28a</li>
+                                                  <li>Run dialogues:
+                                                       <ol>– Ernest &amp; Julia <b>C</b>. pp. 53-54.</ol>
+                                                       <ol>– Rudolph &amp; Baroness <b>F</b>. pp. 124-125</ol>
+                                                       <ol>– Prince &amp; Princess <b>L</b>. pp. 335-336</ol>
+                                                       <ol>– Rudolph <b>G</b>. p. 146</ol>
+                                                  </li>
+                                             </ul>
+                                             <ul><u>MUSIC:</u>
+                                                  <li>Chorus (and the Monte Carlo contingent):
+                                                       <ol>#22, #23, #27, #28, #28a, #29, if time, continue to work on #12</ol>
+                                                  </li>
+                                             </ul>
+                                   </ul>
+                              </div>
+
+                              <div><ul><b>Sunday September 13</b>: 2 rooms <span style="color: firebrick;">no Peter, Mike</span>
+                                             <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Baroness, Julia, Lisa (NO Chorus)</ul>
+                                             <ul><u>BLOCKING:</u>
+                                                  <li>Julia #12b
+                                                       <ol>–   add Lisa &amp; Ludwig at end (fill in Ludwig later)</ol>
+                                                  </li>
+                                                  <li>Lisa, Julia #12c 
+                                                       <ol>– add Notary at the end</ol>
+                                                  </li>
+                                                  <li>Julia #19</li>
+                                                  <li>Julia, Ernest #20 exit p. 301</li>
+                                                  <li>Review
+                                                       <ol>Rudolph, Baroness <b>F</b>. pp. 124-125, #10</ol>
+                                                       <ol>Julia, Ernest <b>K</b>. pp 292-293 </ol></li>
+                                             </ul>
+                                             <ul><u>MUSIC:</u>
+                                                  <li>Below are specific numbers we need to do; we will also review as much music as time permits when you are not working with Julie
+                                                       <ol>– Ernest, Julia #20</ol>
+                                                       <ol>– Rudolph, Ernest, Notary #28 pp. 354-355</ol>
+                                                  </li>
+                                                  <li>Florrie work with Julie on review of #10 and tango?</li>
+                                             </ul>
+                                   </ul>
+                              </div>
+
+                              <div><ul><b>Monday September 14</b>: 2 rooms <span style="color: firebrick;">Ray late</span>
+                                             <ul><u>CALLED</u>: Chorus, Rudolph, Ludwig, Notary, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
+                                             <ul><u>BLOCKING:</u>
+                                                  <li>ALL
+                                                       <ol>–  #12 Act 1 Finale</ol>
+                                                  </li>
+                                                  <li>Chamberlains #9</li>
+                                                  <li>Chamberlains, Rudolph #9a</li>
+                                                  <li>Rudolph exit</li>
+                                             </ul>
+                                             <ul><u>MUSIC:</u>
+                                                  <li>Music review TBD</li>
+                                                  <li>Followed by blocking with Julie</li>
+                                             </ul>
                                    </ul>
                               </div>     
-                                        <div><ul><b>Wednesday February 25</b>: 2 rooms - <span style="color: firebrick;">no Kate</span>
-                                                       <ul><u>CALLED</u>: Men, Miss Jones
-                                                       <li>Choreography with Caity: <i>Brotherhood of Man</i></li></ul> 
-                                                       <ul><u>CALLED</u>: Women Chorus
-                                                       <li>Music with Florrie: <i>Paris Original</i> and <i>Cinderella, Darling</i></li></ul> 
+
+                              <div><ul><b>Wednesday September 16</b>: 2 rooms <span style="color: firebrick;">no Mary</span>
+                                             <ul><u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
+                                             <ul><u>BLOCKING:</u>
+                                                  <li>Chorus, Ludwig, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
+                                                       <ol>–  #13, #26</ol></li>
+                                                  <li>If time: Baroness/chorus #21</li></ul> 
                                              </ul>
-                                        </div>
-
-                              <div><ul><b>Sunday March 1</b>: 2 rooms  - <span style="color: firebrick;">no Kate, Marc, Sharon K, Lisette, Ross leave early</span>
-                                             <ul><u>Female cast</u>
-                                                  <li>Choreography with Caity: <i>Paris Original</i> then <i>Cinderella , Darling</i></li>
-                                                       <li>Blocking with Chris: Act II.1</li></ul>
-                                             <ul><u>Biggley, Hedy</u>
-                                                  <li>2:00  Music with Florrie <i>Love from a Heart of Gold</i></li></ul>
-                                             <ul><u>Bud, Finch, Bratt, Biggley, Womper</u>
-                                                       <li>Blocking with Chris: Act II.8-9A</li></ul></ul>
-                                   </ul>
-                              </div>
-
-                              <div><ul><b>Monday March 2</b>: 2 rooms - <span style="color: firebrick;">no Kate, Sharon K</span>
-                                             <ul><u>CALLED</u>: Chorus
-                                                  <li>Review Music with Florrie:</li></ul>
-                                             <ul><u>CALLED</u> - ALL
-                                                  <li>8:00 RUN/WORK ACT I with Florrie playing</li></ul>
-                                   </ul>
-                              </div>
-
-                              <div><ul><b>Wednesday March 4</b>: 2 rooms - <span style="color: firebrick;">no Sharon K</span>
-                                        <ul><u>CALLED</u>: ALL
-                                             <li>7:30-8:15 fix opening number with ALL STAFF PRESENT</li>
-                                             <li>8:15-9:15 fix <i>A Secretary Is Not a Toy</i> With Caity</li>
-                                             <li>8:15-10 Chris blocking scenes II.4-II.7 with Finch, Bratt, Biggley, Bud, Bob Moore, and Hedy</li>
-                                             <li>9:15-10 Female ensemble run numbers per Caity's discretion</li>
-                                             <li>9:15-10 Male ensemble (maybe Rosemary) join Chris</li>
-                                             <!--<ul><u>CALLED</u>: ALL except Smitty and Miss Jones 
-                                                  <li>Choreography with Caity: <i>Pirate Dance</i></li></ul>
-                                             <ul><u>CALLED</u>: Finch, Biggley, Bud, Bratt, Rosemary. Hedy, Tackaberry, Toynbee, Davis, Jenkins, Policeman
-                                                       <li>Blocking with Chris: Act II.5-II.7</li></ul>-->
-                                   </ul>
-                              </div>
-
-                              <div><ul><b>Sunday March 8</b>: 2 rooms - <span style="color: firebrick;">no Sharon K., Caroline</span>
-                                             <ul><u>CALLED</u>: <!--<i>Mostly</i> -->ALL
-                                             <li><b>Headshots for the playbill and lobby board</b></li>
-                                             <li>2:00 ALL except Leads and Tackaberry - Choreography with Caity: <i>Pirate Dance</i></li></li>
-                                             <li>3:15 ALL: with Chris Act II.10. With whatever time is left, plugging people in for miscellaneous Act 2 stuff.</li>
+                                             <ul><u>MUSIC:</u>
+                                                  <li>Review with Baroness</li>
+                                                  <li>Followed by blocking with Julie</li> 
                                              </ul>
                                    </ul>
                               </div>
 
-                              <div><ul><b>Monday March 9</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
-                                             <ul><u>CALLED</u>: <!--<i>Assume</i> -->ALL 
-                                             <li>7:30 Catchup with Smitty and Miss Krumholtz</li>
-                                             <li>7:40 Work through the show</li></ul>
+                              <div><ul><b>Sunday September 20</b>: 2 rooms <span style="color: firebrick;">no Mike</span>
+                                             <ul><u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Olga, Gretchen, Bertha, Elsa</ul>
+                                             <ul><u>BLOCKING:</u>
+                                                  <ol>
+                                                  <li>Chorus, Ludwig, Baroness #17</li>
+                                                  <li>Ludwig, Baroness, Julia  <b>J</b>. p. 279, #18</li>
+                                                  <li>Chorus, Ludwig, Julia, Lisa Review #13</li>
+                                                  <li>Julie works with Ludwig blocking before adding chorus in #14</li></ol>
+                                             </ul> 
+                                   <ul><u>MUSIC:</u>
+                                                  <ol>A. - C. With blocking.</ol>
+                                                  <ol>D. Florrie works with Chorus #13 &amp; #14 while Julie works with Ludwig before adding Chorus and blocking.</ol>
+                                   </ul> 
                                    </ul>
                               </div>
 
-                              <div><ul><b>Wednesday March 11</b>: 2 rooms <span style="color: firebrick;">no Caroline</span>
-                                             <ul><u>CALLED</u>: Just the 8 MEN 
-                                                  <li>7:30 <i>I Believe in You</i> first with Florrie then Caity</li>
-                                             </ul>
-                                             <ul><u>CALLED</u>: ALL Men and Miss Jones
-                                                  <li>8:45 <i>Brotherhood of Man</i> with Caity</li>
-                                             </ul>
+                              <div><ul><b>Monday September 21</b>: 2 rooms <span style="color: firebrick;">no Mike, Kathy</span>
+                                             <ul><u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Costumier, Princess, Baroness, Julia, Olga, Gretchen, Bertha, Elsa</ul>
+                                             <ul><u>BLOCKING:</u>
+                                                  <li>Chorus End of #20 (pp. 301-303-ties into #21)</li>
+                                                  <li>Baroness &amp; Chorus #21 (Review or do if not blocked Wed 16)</li>
+                                                  <li>Ludwig &amp; Chorus #22</li>
+                                                  <li>Herald, Ludwig &amp; Chorus #22 &amp; #23</li>
+                                                  <li>Ludwig &amp; Chorus #24</li>
+                                                  <li>Prince, Princess, Costumier, Supernumeraries #25 <b>L</b>. p. 335</li>
+                                   </ul> 
+                                             <ul><u>MUSIC:</u>
+                                                  <li>Prince, Princess, Costumier, Supernumeraries #25</li>
+                                             </ul> 
                                    </ul>
-                              </div>          
+                              </div>
 
-                              <div><ul><b>Sunday March 15</b>: [A]
-                                             <ul><u>CALLED</u>: ALL except Rosemary <span style="color: firebrick;"></span>
-                                             <ul>Choreography with Caity: 
-                                                  <li>Anything that still needs to be choreographed and/or a Choreo Review day</ul>
+                              <div><ul><b>Wednesday September 23</b>: 2 rooms
+                                             <ul><u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
+                                             <ul><u>BLOCKING:</u>
+                                                  <li>Chorus, Ludwig, Julia, Lisa, Olga, Gretchen, Bertha, Elsa 
+                                                       <ol>–  Review #13 &amp; #26</ol>
+                                                  </li>
+                                                  <li>Prince, Princess, Nobles, Costumier, Supernumeraries
+                                                       <ol>–  #25, <b>L</b>. p335 REVIEW THESE OR FINISH AS NEEDED</ol>
+                                                  </li>
+                                                  <li>Ludwig &amp; Chorus #24</li>
+                                             </ul> 
+                                             <ul><u>MUSIC:</u>
+                                                  <li>Prince, Princess, Nobles Costumier, Supernumeraries 
+                                                       <ol>–  #25 review</ol>
+                                                  </li>
+                                             </ul> 
+                                   </ul>
                               </div>
 
                               <ul style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 50px; font-size: 0.85em"><b>-----  
                                         EVERYONE is called from this date forward -----</b></ul>
 
 
+                              <div><ul><b>Sunday September 27</b>: 2 rooms <span style="color: firebrick;">(we must be out by 5:00)</span>
+                                             <ul><u>CALLED</u>: ALL</ul>
+                                             <ul><u>BLOCKING:</u>
+                                                  <li>Rudolph, Ludwig <b>H</b>. pp. 153-154</li>
+                                                  <li>Ernest, Notary, Rudolph #38, #28a, <b>O</b>. p. 367</li>
+                                                  <li>ALL <b>M</b>. p.341, #27, <b>N</b>. p.351, #28, #28a, #29</li>
+                                             </ul> 
+                                             <ul><u>MUSIC:</u>
+                                                  <li>Chorus #27, #28, #28a, #29</li>
+                                             </ul> 
+                                   </ul>
+                              </div>
 
-                              <div><ul><b>Monday March 16</b>: [A]
-                                             <ul><div><span style="color: firebrick;"><b>NO REHEARSAL</b></span>: Due to possible severe storms,
-                                                  the Roosevelt Community Center
-                                                  is closing tonight.</div> 
+                              <div><ul><b>Monday September 28</b>: 1 Room #3 <span style="color: firebrick;">no Ray</span>
+                                             <ul><u>CALLED</u>: ALL</ul>
+                                             <ul><u>BLOCKING &amp; MUSIC:</u>
+                                                  <li>Finish these as needed - review the rest
+                                                       <ol>#27, #28, #28a, <b>O</b>. p367-368, #29 (Finale)</ol>
+                                                  </li>
+                                             </ul> 
+                                   </ul>
+                              </div>
 
-                                                  <s><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
-                                                  <li>Run/clean Act II</li></s></ul>
+                              <div><ul><b>Wednesday September 30</b>: 2 rooms
+                                             <ul><u>CALLED</u>: ALL</ul>
+                                             <ul><u>BLOCKING &amp; MUSIC:</u> Review TBD</ul> 
+                                   </ul>
+                              </div>          
+
+                              <div><ul><b>Sunday October 4</b>: Auditorium
+                                             <ul>Crawl-through as much of the show as we can</ul>
+                              </div>
+
+                              <div><ul><b>Monday October 5</b>: 2 rooms
+                                             <ul>Continue the crawl-through from Sunday</ul>
                                    </ul>
                               </div>
 
 
-                              <div><ul><b>Wednesday March 18</b>: 2 rooms - <span style="color: firebrick;">no Kate, Rob</span>
-                                             <ul><u>CALLED</u>: ALL 
-                                                  <li>7:30 Finch Hedy intimacy</li>
-                                                  <li>7:30 Run through ensemble numbers: more details to follow</li>
-                                                  <li>7:50 Finch Rosemary intimacy</li>
-                                                  <li>8:10 - TBD</li></ul> 
-                              </div>
+                              <div><ul><b>Wednesday October 7</b>: 2 rooms</span>
+                                             <ul>FIX</ul>
+</div>
 
 
                               <ul style="color: firebrick;background-color: yellow; padding: 5px 0px 5px 50px; font-size: 0.85em">
                                              <b>----- EVERYONE OFF BOOK -----</b></ul>                                   
 
-                              <div><ul><b>Sunday March 22</b>: 2 rooms - <span style="color: firebrick;">no Andrea, Mike, Rob</span>
-                                        <ul><u>CALLED</u>: ALL - 
-                                             <li>Run Act I</li></ul>
-                              </div>
-
-                              <div><ul><b>Monday March 23</b>: [A] - <span style="color: firebrick;">no Mike</span>
-                                             <ul><u>CALLED</u>: ALL - 
-                                                  <li>Run Act II</li></ul>
-                              </div>
-
-                              <div><ul><b>Wednesday March 25</b>: [A] - <span style="color: firebrick;">no Mike</span>
-                                             <ul><u>CALLED</u>: ALL
-                                                  <li>7:30-8:00 Act II, Scene 1 "Cinderella, Darling"</li>
-
-                                                  <li>8:00-8:15 Assorted Bud Frump scene music cues, namely elevator dance and #32 "Doom" (call Bud, Hedy, Marc, Finch)</li>
-
-                                                  <li>8:15-8:30 "Been a Long Day" (Finch, Rose, Smitty)</li>
-
-                                                  <li>8:30-9:00 Act I, Scene 13 party scene (all but Ross?)</li>
-
-                                                  <li>9:00-10:00 "Brotherhood" (all men plus Andrea)</li></ul>
-                              </div>
-
-                              <div><ul><b>Sunday March 29</b>: [A] - <span style="color: firebrick;">no Mike</span>
-                                             <ul><u>CALLED</u>: ALL
-                                                  <li>Run show</li></ul>
-                              </div>
-
-                              <div><ul><b>Monday March 30</b>: [A]
-                                             <ul><u>CALLED</u>: ALL <span style="color: firebrick;"></span>
-                                                  <li>Run show</li></ul>
-                              </div>
-
-                              <div><ul><b>Wednesday April 1</b>: [A] - <span style="color: firebrick;">no Ross, Mike, Bob. Lisette </span>
-                                             <ul><u>CALLED</u>: ALL
-                                                  <li>Trouble spots TBD and/or attempt a run without those missing</li></ul>
-                              </div>
-
-                              <div><ul><b>Sunday April 5</b>:
-                                   <ul>*** <span style="color: firebrick;"><b>No rehearsal - EASTER</b></span> ***</ul>
+                              <div><ul><b>Sunday October 11</b>: Auditorium <span style="color: firebrick;">no Mike, Peter</span>
+                                             <ul>Crawl Show - <span style="color: firebrick;">CAN call for lines</span></ul>
                                    </ul>
                               </div>
 
-                              <div><ul><b>Monday April 6</b>: [A] - <span style="color: firebrick;"></span>
-                                             <ul><u>CALLED</u>: ALL
-                                                  <li>Run show</li></ul>
+                              <div><ul><b>Monday October 12</b>: 2 rooms <span style="color: firebrick;">no Mike</span>
+                                             <ul>Run Act 1 or 2 - <span style="color: firebrick;">CAN call for lines</span></ul>
+                                   </ul>
                               </div>
 
-                              <div><ul><b>Wednesday April 8 at 7 p.m.</b> - <span style="color: firebrick;">no Marc</span>
+                              <div><ul><b>Wednesday October 14</b>: 2 rooms
+                                             <ul>Run Act 2 or 1 - <span style="color: firebrick;">LAST TIME calling for lines</span></ul>
+                                   </ul>
+                              </div>
+
+                              <div><ul><b>Sunday October 18</b>: Auditorium
+                                             <ul>Run show - <span style="color: firebrick;">NO LINES CALLED!</span>
+                              </div>
+
+                              <div><ul><b>Monday October 19</b>: 
+<ul>FIX
+                                                  <li>7:00 Classroom</li>
+                                                  <li>8:00 Auditorium</li>
+</ul>
+                              </div>
+
+<div><ul><b>Wednesday October 21 at 7 p.m.</b>
                                              <li><span style="color: firebrick;"><b>Note</b>: Strath Haven Middle School (SHMS)</span></li>
-                                             <li>Run show</li>
+                                             <li>Run show on stage</li>
                                    </ul>
-                              </div>                    
-                         <div><p><b>Thursday February 17</b> 
-                         <ul><u>Move-in</u> <b>ALL</b>
-                              <ul style="padding-left:10px;">
-                                   <li>4:00 pm - 5:30 pm <span style="color: firebrick;">RVCO Firehouse</span>, 184 Bortondale Road, Media</li>
-                                   <li>5:00 pm - 7:00 pm <span style="color: firebrick;">Strath Haven Middle School (SHMS)</span></li></ul>
-                         </div>                                        
-
-
-                                        <div><ul><b>Saturday April 11</b> at <span style="color: firebrick;">9:30 a.m. - 12:30 p.m.</span>
-                                                       <li>SITZPROBE: Roosevelt Community Center</li>
+</div>
+                                   
+                              <div><p><b>Thursday October 22</b> 
+                                        <ul><u>Move-in</u> <b>ALL</b>
+                                             <ul style="padding-left:10px;">
+                                                  <li>4:00 pm - 5:30 pm <span style="color: firebrick;">RVCO Firehouse</span>, 184 Bortondale Road, Media</li>
+                                                  <li>5:00 pm - 7:00 pm <span style="color: firebrick;">Strath Haven Middle School (SHMS)</span></li>
                                              </ul>
-                                        </div>
-
-                                        <div><ul><b>Sunday April 12</b> (SHMS) at <span style="color: firebrick;">1:00 p.m. – 9:00 p.m.</span>
-                                                       <li>TECH </li>
-                                                  <li>1:00 p.m. Start: Actors get mikes on and costumes, crew works with the set.</li>
-                                                  <li>2:00 p.m. Costume Parade - bring <b>all</b> your costumes</li>
-                                                  <li>We will aim for having a dinner break around 5:30 - 6 pm, but this is not definite. <u>Please bring food</u> - don't depend on Grub Hub, etc. as they won't always deliver to the school</li>
-                                             </ul>
-                                        </div>
-
-                                        <div><ul><b>Monday April 13</b> (SHMS) - tech with piano
-                                                       <li>5:00 We can start arriving</li>
-                                                       <li>5:30 CALL </li>
-                                                       <li>6:45 Mic check</li>
-                                                       <li>7:00 Overture</li>
-                                             </ul>
-                                        </div>
+                                        </ul>
+                              </div>                                        
 
 
-                                        <div><ul><b>Tuesday April 14</b> (SHMS) - tech with orchestra
-                                                       <li>5:00 We can start arriving</li>
-                                                       <li>5:30 CALL</li>
-                                                       <li>6:30 Mic check followed by orchestra warm up</li>
-                                                       <li>7:00 Overture</li>
-                                             </ul>
-                                        </div>
+<div><ul><b>Saturday October 24</b> at <span style="color: firebrick;">12:30 a.m. - 3:30 p.m.</span>
+          <li>SITZPROBE: Roosevelt Community Center</li>
+                                   </ul>
+</div>
 
-                                        <div><ul><b>Wednesday April 15</b> (SHMS) - tech with orchestra (show conditions)
-                                                       <li>5:00 We can start arriving</li>
-                                                       <li>5:30 CALL</li>
-                                                       <li>6:30 Mic check followed by orchestra warm up</li>
-                                                       <li>7:00 Overture</li>
-                                             </ul>
-                                        </div>
+                              <div><ul><b>Sunday October 25</b> (SHMS) at <span style="color: firebrick;">1:00 p.m. – 9:00 p.m.</span>
+                                             <li>TECH (schedule may change) </li>
+                                        <li>1:00 p.m. Start: Actors get mikes on and costumes, crew works with the set.</li>
+                                        <li>2:00 p.m. Costume Parade - bring <b>all</b> your costumes</li>
+                                        <li>We will aim for having a dinner break around 5:30 - 6 pm, but this is not definite. <u>Please bring food</u> - don't depend on Grub Hub, etc. as they won't always deliver to the school.</li>
+                                   </ul>
+                              </div>
 
-                                        <div><ul><b>Saturday April 18</b> (SHMS)
-                                             <ul><u>2:00 Performance</u>
-                                                  <li>11:00 We can start arriving</li>
-                                                  <li>12:00 CALL</li>
-                                                  <li>1:00 Mic check</li>
-                                                  <li>2:00 Curtain</li></ul>
-                                             <ul><u>7:30 Performance</u>
-                                                  <li>6:00 CALL</li>
-                                                  <li>6:30 Mic check</li>
-                                                  <li>7:30 Overture</li></ul></ul>
-                                        </div>
+                              <div><ul><b>Monday October 26</b> (SHMS) - tech with piano
+                                             <li>5:00 We can start arriving</li>
+                                             <li>5:30 CALL </li>
+                                             <li>6:45 Mic check</li>
+                                             <li>7:00 Overture</li>
+                                   </ul>
+                              </div>
 
-                                         <div>         
-                                             <ul><b>Sunday April 19</b> (SHMS)
-                                             <ul><u>2:00 Performance</u>
-                                                  <li>11:00 We can start arriving</li>
-                                                  <li>12:00 CALL</li>
-                                                  <li>1:00 Mic check</li>
-                                                  <li>2:00 Overture</li></ul></ul>
-                                         </div>
+                              <div><ul><b>Tuesday October 27</b> (SHMS) - tech with orchestra
+                                             <li>5:00 We can start arriving</li>
+                                             <li>5:30 CALL</li>
+                                             <li>6:30 Mic check followed by orchestra warm up</li>
+                                             <li>7:00 Overture</li>
+                                   </ul>
+                              </div>
 
-                                         <div>         
-                                             <ul><b>Wednesday April 22</b> (SHMS)
-                                             <ul><u>7:30 Performance</u>
-                                                  <li>5:00 We can start arriving</li>
-                                                  <li>6:00 CALL</li>
-                                                  <li>6:30 Mic check</li>
-                                                  <li>7:30 Curtain</li></ul></ul>
-                                         </div>
+<div><ul><b>Wednesday October 28</b> (SHMS) - tech with orchestra (show conditions)
+                                             <li>5:00 We can start arriving</li>
+                                             <li>5:30 CALL</li>
+                                             <li>6:30 Mic check followed by orchestra warm up</li>
+                                             <li>7:00 Overture</li>
+                                   </ul>
+</div>
 
-                                        <div><ul><b>Saturday April 25</b> (SHMS)
-                                             <ul><u>2:00 Performance</u>
-                                                  <li>11:00 We can start arriving</li>
-                                                  <li>12:00 CALL</li>
-                                                  <li>1:00 Mic check</li>
-                                                  <li>2:00 Curtain</li></ul>
-                                             <ul><u>7:30 Performance</u>
-                                                  <li>6:00 CALL</li>
-                                                  <li>6:30 Mic check</li>
-                                                  <li>7:30 Overture</li></ul></ul>
-                                        </div>
+                              <div><ul><b>Saturday October 31</b> (SHMS)
+                                        <ul><u>2:00 Performance</u>
+                                             <li>11:00 We can start arriving</li>
+                                             <li>12:00 CALL</li>
+                                             <li>1:00 Mic check</li>
+                                             <li>2:00 Curtain</li></ul>
+                                        <!--<ul><u>7:30 Performance</u>
+                                             <li>6:00 CALL</li>
+                                             <li>6:30 Mic check</li>
+                                             <li>7:30 Overture</li></ul>-->
+                                   </ul>
+                              </div>
 
-                                         <div><ul><b>Sunday April 26</b> (SHMS)
-                                             <ul><u>2:00 Performance</u>
-                                                  <li>11:00 We can start arriving</li>
-                                                  <li>12:00 CALL</li>
-                                                  <li>1:00 Mic check</li>
-                                                  <li>2:00 Overture</li>
-                                                  <li>5:30 STRIKE then PARTY</li></ul></ul>
-                                        </div>
+                               <div>         
+                                   <ul><b>Sunday November 1</b> (SHMS)
+                                        <ul><u>2:00 Performance</u>
+                                             <li>11:00 We can start arriving</li>
+                                             <li>12:00 CALL</li>
+                                             <li>1:00 Mic check</li>
+                                             <li>2:00 Overture</li></ul>
+                                    </ul>
+                               </div>
+
+                               <div>         
+                                   <ul><b>Wednesday November 4</b> (SHMS)
+                                   <ul><u>7:30 Performance</u>
+                                        <li>5:00 We can start arriving</li>
+                                        <li>6:00 CALL</li>
+                                        <li>6:30 Mic check</li>
+                                        <li>7:30 Curtain</li></ul></ul>
+                               </div>
+
+                              <div><ul><b>Saturday November 7</b> (SHMS)
+                                        <ul><u>2:00 Performance</u>
+                                             <li>11:00 We can start arriving</li>
+                                             <li>12:00 CALL</li>
+                                             <li>1:00 Mic check</li>
+                                             <li>2:00 Curtain</li></ul>
+                                        <ul><u>7:30 Performance</u>
+                                             <li>6:00 CALL</li>
+                                             <li>6:30 Mic check</li>
+                                             <li>7:30 Overture</li></ul>
+                                   </ul>
+                              </div>
+
+<div><ul><b>Sunday November 8</b> (SHMS)
+                                        <ul><u>2:00 Performance</u>
+                                             <li>11:00 We can start arriving</li>
+                                             <li>12:00 CALL</li>
+                                             <li>1:00 Mic check</li>
+                                             <li>2:00 Overture</li>
+                                             <li>5:30 STRIKE then PARTY</li></ul>
+                                    </ul>
+</div>
 
                <!--ends remaining rehearsal dates -->
      
