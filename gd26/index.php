@@ -194,7 +194,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
      <div id="content">
           <?php include("../howTo2026/sp_announcement.php"); ?>
 
-          <div class="castpageLinks">
+          <!--<div class="castpageLinks">
                <a href="../howTo2026/set_designs.php" title="Go to the set design page"><span class="button" style="float:left;">Set Designs</span></a>
                <div class="dropdown" style="float:left;">
                     <button type="button" class="btn btn-primary dropdown-toggle button" data-bs-toggle="dropdown">Choreography</button>
@@ -209,7 +209,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <li><a class="dropdown-item" href="../howTo2026/dance/Brotherhood.php" title="Go to the Brotherhood of Man choreography page" style="margin-left: -10px;">Brotherhood of Man</a></li>
                     </ul> 
                </div>
-          </div>
+          </div>-->
                
                <div id="castPage" style="clear: both;">
                     <h1 id="pageName"><i>The Grand Duke</i> Cast Page</h1> 
