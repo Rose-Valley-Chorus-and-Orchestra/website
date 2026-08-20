@@ -225,7 +225,7 @@ subtitle {font-size: 22px;}
 
 
 .castlistSynopsis {visibility:hidden;height:0px;color:#333;padding:0px 15px; margin-left:30px; margin-right: auto; ; text-align: justify; clear:left;max-width: 800px;}
-.castlistDays {visibility:hidden;height:0px;color:#333;padding:0px 15px; margin-left:30px; margin-right: auto; text-align: justify; clear:left;max-width: 800px;}
+.castlistDays {color:#333;margin-left:10px; margin-right: auto; text-align: justify; max-width: 800px;}
 #sharedArea {max-width: 95%;
      padding: 10px 0px 10px 10px;
      margin-left:auto;

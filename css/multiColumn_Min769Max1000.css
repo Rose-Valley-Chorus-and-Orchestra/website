@@ -262,7 +262,7 @@ aside .donate {
 .second_article {float: none;width: 100%;}     
      
 .castlistSynopsis {visibility:hidden;height:0px;color:#333; margin-left:auto; margin-right: auto;  text-align: justify; clear:left;width: 90%; max-height: 800px;}
-.castlistDays {visibility:hidden;height:0px;color:#333; margin-left:auto; margin-right: auto;  text-align: justify; clear:left;width: 90%; max-height: 800px;}
+.castlistDays {color:#333; width: 90%;}
      #sharedArea {max-width: 95%;
      padding: 10px 0px 10px 10px;
      margin-left:auto;
