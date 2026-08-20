@@ -224,7 +224,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                               <a href="../grandDuke2026/Grand Duke Vocal Score RVCO 2026 - 2 final.pdf" title="Download The Grand Duke libretto" target="new"><span class="button" href="">Download</span></a>
                     </div>
-                    <div style="margin:0 0 0 30px; padding: 0;"><b>Bios</b>:
+                    <div style="margin:20px 0 0 30px; padding: 0;"><b>Bios</b>:
                          <ul>Send to Bill Michael and Chris Rubino: <a href="mailto:wbmichael@comcast.net,cmrubino@gmail.com?subject=Here's my bio" title="Email my bio to Bill">wbmichael@comcast.net and cmrubino@gmail.com</a> by September 14<sup>th</sup>                              
                          </ul>
                     </div>
@@ -261,8 +261,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <h2>View or Download</h2>
                                         <ul class="downLinks" style="padding-left: 55px;">
                                              <!--<li><a href="/gondoliers/flyer/Gondoliers show flyer_NP.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show flier">Show flyer</a></li>
-                                             <li><a href="/gondoliers/sponsor and ad/SponsorandAdForm-Gondoliers.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the sponsor and ad form">Sponsor and Ad form</a></li>-->
-                                             <li><a href="../grandDuke2026/The Grand Duke - RVCO - rehearsal schedule - Final.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the rehearsal schedule">Rehearsal Schedule (original)</a></li>
+                                             <li><a href="/gondoliers/sponsor and ad/SponsorandAdForm-Gondoliers.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the sponsor and ad form">Sponsor and Ad form</a></li>
+                                             <li><a href="../grandDuke2026/The Grand Duke - RVCO - rehearsal schedule - Final.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the rehearsal schedule">Rehearsal Schedule (original)</a></li>-->
                                              <li><a href="../grandDuke2026/artwork/poster/The Grand Duke poster.png" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show poster">Show poster</a></li>
                                           </ul>
 
@@ -270,7 +270,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                          <div class="schedule">
                               <h2>Schedule</h2>
-                                   <div class="Rtimes"><a href="../howTo2026/schedule/H2$ Schedule for Cast revised-Final4.pdf" title="Download the updated schedule February 3" target="new"><span class="button" href="">Download</span></a> a PDF version of the schedule to print.
+                                   <div class="Rtimes"><a href="../grandDuke2026/The Grand Duke - RVCO - rehearsal schedule - Final.pdf" title="Download the schedule" target="new"><span class="button" href="">Download</span></a> a PDF to print.
                                    </div>
                                    <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
                                         <ul><li>If you know you will be late or not at rehearsal, please email <a href="mailto:florrie@barks.org,juliecmay@msn.com,?subject=Missing rehearsal">Florrie and Julie</a>.</li>
