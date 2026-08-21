@@ -687,7 +687,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   </ul>
                                         </div>                                        
 
-                                        <div><ul><b>Saturday October 24</b> at <span style="color: firebrick;">12:30 a.m. - 3:30 p.m.</span>
+                                        <div><ul><b>Saturday October 24</b> at <span style="color: firebrick;">12:30 p.m. - 3:30 p.m.</span>
                                                   <li>SITZPROBE: Roosevelt Community Center</li>
                                                                            </ul>
                                         </div>
