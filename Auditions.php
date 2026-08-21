@@ -154,7 +154,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     <p><b>Show dates:</b>&nbsp;April 10 - 18,&nbsp;2027 <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
 
                     <p><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
-                              Sitzprobe: Saturday April 3, 12:30 a.m.  - 12:30 p.m.
+                              <ul style="margin-top: -12px;">Sitzprobe: Saturday April 3, 12:30 a.m.  - 12:30 p.m.</ul>
                               <ul style="margin-top: -9px;">Tech: Sunday April 4, 1:00 - 10:00 p.m.</ul>
                               <ul style="margin-top: -9px;">Tech run-throughs: April 5-7 6:00 - 10:00 p.m.</ul>
                               <ul style="margin-bottom: -6px;">Attendance is required for all tech week and all performance dates.</ul>
