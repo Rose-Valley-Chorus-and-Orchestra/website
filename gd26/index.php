@@ -341,8 +341,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             <li>2:00–2:15 Ernest #3, #5  pp. 65-66</li>
                                                             <li>2:15–3:00 Rudolph #9a, #11, #28a</li>
                                                             <li>3:00–4:00 
-                                                                 <ol>– Ludwig &amp; Lisa #1a</ol>
-                                                                 <ol>– Ludwig #2, #5, #14, #15, #22, #24</ol>
+                                                                 – Ludwig &amp; Lisa #1a.&nbsp;
+                                                                 – Ludwig #2, #5, #14,  #22, #24
                                                             </li>
                                                             <li>4:00–4:30 Ernest &amp; Julia #4</li>
                                                             <li>4:30–5:00 with Julie/blocking</li>
