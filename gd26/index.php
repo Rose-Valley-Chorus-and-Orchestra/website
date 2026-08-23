@@ -216,7 +216,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     
                     <p style="clear: both; padding-top: 15px;">If you have not already paid your dues, new and current members can <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them. <!--If you have any q-->Questions, <!--please -->reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.</p>
                     
-                    <h2>Libretto</h2>
+                    <h2>Vocal Score</h2>
                     <div class="Rtimes" style="clear: both; padding-top: 0px;">
                          <ol><li>Print the entire score (double-sided); it's 349 pages, so 175 sheets of paper.</li>
                               <li>If you would like to omit the editor's notes and the Overture, print the following pages, double-sided:
@@ -687,7 +687,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                   </ul>
                                         </div>                                        
 
-                                        <div><ul><b>Saturday October 24</b> at <span style="color: firebrick;">12:30 a.m. - 3:30 p.m.</span>
+                                        <div><ul><b>Saturday October 24</b> at <span style="color: firebrick;">12:30 p.m. - 3:30 p.m.</span>
                                                   <li>SITZPROBE: Roosevelt Community Center</li>
                                                                            </ul>
                                         </div>
