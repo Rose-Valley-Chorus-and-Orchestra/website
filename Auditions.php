@@ -74,7 +74,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     <div>
                          <p style="border: thin #666666 solid"><i>The Grand Duke</i> has been predominantly cast. View the <span><a href="grandDuke2026/grandDuke26cast.php" title="Go to The Grand Duke cast page">Cast List</a></span> for more information.  Two additional roles will be cast from the chorus. If you are interested in joining the cast in the chorus or helping out backstage, please contact us at <a href="mailto:info@rvco.org?subject=Interest in The Grand Duke">info@rvco.org</a>.</p>
 
-                         <p>The first rehearsal is on August 26 at the <a href="https://www.google.com/maps/place/Holy+Trinity+Lutheran+Church/@39.8769582,-75.3648066,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e81375fa5483:0xdfe67210e756930!8m2!3d39.8769541!4d-75.3622317!16s%2Fg%2F1tg7szsf?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="new"><u>Roosevelt Community Center</u></a>, 464 S. Old Middletown Road, Media, PA 19063. We'd love to have you join us. If you are planning on joining us, please email <a href="mailto:info@rvco.org">info@rvco.org</a> with your name and email address.</p>
+                         <p><b>The first rehearsal is on August 26 at the <a href="https://www.google.com/maps/place/Holy+Trinity+Lutheran+Church/@39.8769582,-75.3648066,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e81375fa5483:0xdfe67210e756930!8m2!3d39.8769541!4d-75.3622317!16s%2Fg%2F1tg7szsf?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="new"><u>Roosevelt Community Center</u></a>, 464 S. Old Middletown Road, Media, PA 19063. If you want to be in the chorus, we'd love to have you join us.</b> If you are planning on joining us, please email <a href="mailto:info@rvco.org">info@rvco.org</a> with your name and email address.</p>
                     </div>
                     <p id="viewMoreLink" class=""><a title="View the more informtion on The Grand Duke"  
                          onclick="MM_changeProp('viewMoreLink','','display','none','P');
@@ -106,7 +106,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     </ul></p>
 
        
-                         <p><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
+                         <p><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em"><!--(Currently dates are tentative)--></span></p>
                               <ul style="margin-top: -15px;">Sitzprobe: Saturday, October 24, 12:30 p.m. - 3:30 p.m.</ul>
                               <ul style="margin-top: -9px;">Tech: Sunday, October 25, 1:00 - 10:00 p.m.</ul>
                               <ul style="margin-top: -9px;margin-bottom: -6px;">Tech run-throughs: Monday - Wednesday, October 26-28, 6:00 - 10:00 p.m.</ul><p></p>
