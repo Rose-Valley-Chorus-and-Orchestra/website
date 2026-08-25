@@ -111,7 +111,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                               <ul style="margin-top: -9px;">Tech: Sunday, October 25, 1:00 - 10:00 p.m.</ul>
                               <ul style="margin-top: -9px;margin-bottom: -6px;">Tech run-throughs: Monday - Wednesday, October 26-28, 6:00 - 10:00 p.m.</ul><p></p>
                   
-                         <p><b>Show dates:</b> October 31 - November 8,&nbsp;2026 <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
+                         <p><b>Show dates:</b> October 31 - November 8,&nbsp;2026 <span style="font-weight: normal; font-size:0.8em"><!--(Currently dates are tentative)--></span></p>
 
                          <p><b>Performance Site:</b> <u>Strath Haven Middle School</u>, 200 South Providence Road, Wallingford, PA 19086</p>
 
