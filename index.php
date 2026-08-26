@@ -143,6 +143,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                              <div class="current_directors">
                                         <nobr>Julie May  -&nbsp;Stage Director</nobr><br />
                                         <nobr>Florrie Marks -&nbsp;Music&nbsp;Director</nobr><br />
+                                        <nobr>Susan Greene -&nbsp;Choreographer</nobr><br />
                               </div>
 
                 <!-- begin LINKS HERE -->
