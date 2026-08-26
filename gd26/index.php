@@ -264,7 +264,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <h2>View or Download</h2>
                                         <ul class="downLinks" style="padding-left: 55px;">
                                              <li><a href="../grandDuke2026/Grand Duke vocal score RVCO 2026 errata variant list.pdf" target="_blank" rel="noreferrer noopener" title="Open the Microsoft Word version of the vocal score errata/variants">Vocal score errata/variants </a></li>
-                                             <li><a href="../grandDuke2026/Grand Duke glossary.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the sponsor and ad form">The Grand Duke Glossary</a></li>
+                                             <li><a href="../grandDuke2026/Grand Duke glossary.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of The Grand Duke glossary">The Grand Duke glossary</a></li>
+                                             <li><a href="../grandDuke2026/GD - Dialogue edit p. 351 & 352.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF of dialogue edits for pages 351 and 352">pp. 351-2 diaolgue edits</a></li>
                                              <!--<li><a href="../grandDuke2026/The Grand Duke - RVCO - rehearsal schedule - Final.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the rehearsal schedule">Rehearsal Schedule (original)</a></li>
                                              <li><a href="/gondoliers/flyer/Gondoliers show flyer_NP.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show flier">Show flyer</a></li>
                                              <li><a href="/gondoliers/sponsor and ad/SponsorandAdForm-Gondoliers.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the sponsor and ad form">Sponsor and Ad form</a></li>
