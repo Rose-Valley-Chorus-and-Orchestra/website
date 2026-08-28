@@ -290,7 +290,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                       <div class="feature" style="clear: both;">
                            <p><a href="index.php" title="Go back to the cast's page">&larr; Back to the cast's page</a></p>
                          <p class="headlines"></p>
-                                   <h2>View or Download</h2>
 
                            
                               <div id="GrandDukeEnsemble" align="center">
