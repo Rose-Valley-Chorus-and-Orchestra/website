@@ -66,12 +66,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
   <div id="auditions" class="story">
           <p><b>Note</b>:  RVCO is a non-union, non-paying community theater organization. We encourage performers of all races and 
 ethnicities, gender identities, sexualities, and abilities to audition.</p>
-
-       <h2 id="auditionTitle"><i>The Grand Duke</i></h2>
-               <!--<div><p style="border: thin #666666 solid">Please return to see more information regarding auditions for <i>Me and My Girl</i>.  RVCO is tentatively planning on holding auditions at the end of Septmber and the beginning of October.</p>
-               </div>-->
+              
              <div class="story">
-                    <div>
+                  <!--<h2 id="auditionTitle"><i>The Grand Duke</i></h2>
+                      <div>
                          <p style="border: thin #666666 solid"><i>The Grand Duke</i> has been predominantly cast. View the <span><a href="grandDuke2026/grandDuke26cast.php" title="Go to The Grand Duke cast page">Cast List</a></span> for more information.  Two additional roles will be cast from the chorus. If you are interested in joining the cast in the chorus or helping out backstage, please contact us at <a href="mailto:info@rvco.org?subject=Interest in The Grand Duke">info@rvco.org</a>.</p>
 
                          <p><b>The first rehearsal is on August 26 at the <a href="https://www.google.com/maps/place/Middletown+Free+Library,+464+S+Old+Middletown+Rd,+Media,+PA+19063/@39.896039,-75.4078074,17z/data=!3m1!4b1!4m16!1m9!4m8!1m0!1m6!1m2!1s0x89c6e8eef37e4d19:0xcdda32443f69ddaa!2sMiddletown+Free+Library,+464+S+Old+Middletown+Rd,+Media,+PA+19063!2m2!1d-75.4029311!2d39.8960391!3m5!1s0x89c6e8eef37e4d19:0xcdda32443f69ddaa!8m2!3d39.8960391!4d-75.4029311!16s%2Fg%2F11c5q0ln1k?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D" target="new"><u>Roosevelt Community Center</u></a>, 464 S. Old Middletown Road, Media, PA 19063. If you want to be in the chorus, we'd love to have you join us.</b> If you are planning on joining us, please email <a href="mailto:info@rvco.org">info@rvco.org</a> with your name and email address.</p>
@@ -92,46 +90,40 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                  
 
 
-                     <!--<p><b>When:</b> Thursday March 19 at 7:00 – 10:00 p.m., Saturday March 21 at 1:30 – 4:30 p.m., and Saturday March 28 from 1:30-4:30 p.m.</p>-->
+                     <p><b>When:</b> Thursday March 19 at 7:00 – 10:00 p.m., Saturday March 21 at 1:30 – 4:30 p.m., and Saturday March 28 from 1:30-4:30 p.m.</p>
 
                           <p><b>Where:</b>	
                          <a href="https://www.google.com/maps/dir/Middletown+Free+Library,+464+S+Old+Middletown+Rd,+Media,+PA+19063//@39.8960977,-75.4441304,13z/data=!4m8!4m7!1m5!1m1!1s0x89c6e8eef37e4d19:0xcdda32443f69ddaa!2m2!1d-75.4029311!2d39.8960391!1m0?entry=ttu&amp;g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D" title="Find Roosevelt Community Center in Google Maps" target="new">Roosevelt Community Center</a>, 464 S. Old Middletown Road, Media, PA 19063</p>
 
-                    <!--<p><b>Sign Up:</b> <a href="https://tinyurl.com/rvco-gd" target="new">https://tinyurl.com/rvco-gd</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>-->
+                    <p><b>Sign Up:</b> <a href="https://tinyurl.com/rvco-gd" target="new">https://tinyurl.com/rvco-gd</a> or <b>email</b> <a href="mailto:auditions@rvco.org">auditions@rvco.org</a> for an audition time. Please provide  your name and phone number.</p>
 
                          <p><b>Rehearsal dates and times:</b> Sundays 2:00 - 5:00 p.m. &amp; Mondays and Wednesdays  7:30 - 10:00 p.m. at the <u>Roosevelt Community Center</u>, 464 S. Old Middletown Road, Media, PA 19063.
                     <ul style="Margin-top:-10px;margin-left: 20px;"><li class="more_info">Lead only rehearsals are Wednesday, August 19; Sunday, August 23; and Monday, August 24.</li>
-                              <!-- <li class="more_info">Full cast script read through on Wednesday September 2.</li>-->
                               <li class="more_info">Full cast rehearsals start on Wednesday, August 26.</li>
                     </ul></p>
 
        
-                         <p><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em"><!--(Currently dates are tentative)--></span></p>
+                         <p><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em"> (Currently dates are tentative</span></p>
                               <ul style="margin-top: -15px;">Sitzprobe: Saturday, October 24, 12:30 p.m. - 3:30 p.m.</ul>
                               <ul style="margin-top: -9px;">Tech: Sunday, October 25, 1:00 - 10:00 p.m.</ul>
                               <ul style="margin-top: -9px;margin-bottom: -6px;">Tech run-throughs: Monday - Wednesday, October 26-28, 6:00 - 10:00 p.m.</ul><p></p>
                   
-                         <p><b>Show dates:</b> October 31 - November 8,&nbsp;2026 <span style="font-weight: normal; font-size:0.8em"><!--(Currently dates are tentative)--></span></p>
+                         <p><b>Show dates:</b> October 31 - November 8,&nbsp;2026 <span style="font-weight: normal; font-size:0.8em"> (Currently dates are tentative) </span></p>
 
                          <p><b>Performance Site:</b> <u>Strath Haven Middle School</u>, 200 South Providence Road, Wallingford, PA 19086</p>
 
-                         <!--Use the links below to open a PDF file of the audition material for the desired role. Sing the music and read the role for the selection unless otherwise noted.-->
+                         <!--Use the links below to open a PDF file of the audition material for the desired role. Sing the music and read the role for the selection unless otherwise noted.
 
                          <h2>Show Synopsis</h2>
                          <div class="story">          
                           <p>In Gilbert &amp; Sullivan's ultimate collaboration, a troupe of actors conspires to overthrow the unpopular and miserly Grand Duke. Things go awry when their plot is accidentally revealed, prompting a series of disputes and political successions settled by "statutory" duel—an ingenious law that renders the legal death of the adversary who draws the lowest from a deck of cards. Hilarious entanglements, including thwarted marriages and questionable legal contracts, imbue this topsy-turvy comic opera with a wit and charm that only Gilbert and Sullivan can contrive. Never fear, a lawyer solves the problem and all ends happily.</p>
-                    </div>
+                    </div>-->
      
 
-                    </div>
-
-          <!--end content -->
-
-          </ul></div>
      
             <h2 id="auditionTitle">Lerner and Loewe's <i>Camelot</i></h2>
                                
-              <div class="story">
+              
                   <!--<div><p style="border: thin #666666 solid"><i>The Gondoliers</i> has been cast. If you are interested in joing the cast in the chorus or helping out backstage, please contact us at <a href="mailto:info@rvco.org?subject=Interest in The Pirates of Penzance">info@rvco.org</a>.</p>
                        <p>See <a href="gondoliers/logo/moreInfor.php" title="Go to additional information on The Gondoliers">additional information</a> including rehearsal and performance dates and locations.</p>
                     </div>
@@ -251,7 +243,7 @@ ethnicities, gender identities, sexualities, and abilities to audition.</p>
                     </td>
                </tr>
                <tr>
-                   <td valign="top"><p class="TableParagraph"><at href="Herald.pdf" target="new"><b>Sir Sagramore, Sir Lionel, Sir Dinedan</b></at> &emsp; Age range: Any</i><br />
+                   <td valign="top"><p class="TableParagraph"><at href="Herald.pdf" target="new"><b>Sir Sagramore, Sir Lionel, Sir Dinadan</b></at> &emsp; Age range: Any</i><br />
                         &emsp;Knights of the Round Table</p>
                         <p class="TableParagraph">If interested in these roles, prepare the audition material for <a href="camelot2027/audition material/Arthur.pdf" target="_blank"><b>Arthur</b></a> or <a href="camelot2027/audition material/Lancelot.pdf" target="_blank"><b>Lancelot</b></a>.</p>
                     </td>
