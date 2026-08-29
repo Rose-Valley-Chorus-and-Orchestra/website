@@ -343,7 +343,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <td role="cell">Dutka, Mike</td>
                                    <td role="cell">Ensemble</td>
                                    <td role="cell">mikedutka@gmail.com</td>
-                                   <td role="cell">&nbsp;</td>
+                                   <td role="cell">215-534-8489</td>
                               </tr>
 
                               <tr role="row"><td role="cell">Lisa Franks</td>
@@ -405,7 +405,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <td role="cell">Melli, Albert</td>
                                    <td role="cell">Ensemble</td>
                                    <td role="cell">albert.u.melli@gmail.com</td>
-                                   <td role="cell">&nbsp;</td>
+                                   <td role="cell">610-662-9204</td>
                               </tr>
 
                               <tr role="row"><td role="cell">Bob Moore</td>
@@ -437,7 +437,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <td role="cell">Pashos, Caroline</td>
                                    <td role="cell">Ensemble</td>
                                    <td role="cell">pashoscd@yahoo.com</td>
-                                   <td role="cell">&nbsp;</td>
+                                   <td role="cell">215-896-3528</td>
                               </tr>
 
                               <tr role="row"><td role="cell">Mary Punshon</td>
@@ -457,7 +457,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <td role="cell">Rubino, Chris</td>
                                    <td role="cell">Ernest Dummkopf</td>
                                    <td role="cell">cmrubino@gmail.com</td>
-                                   <td role="cell">610-679-8297</td></tr>
+                                   <td role="cell">267-679-6297</td></tr>
 
                               <tr role="row"><td role="cell">Meagan Rubino</td>
                                    <td role="cell">Rubino, Meagan</td>
