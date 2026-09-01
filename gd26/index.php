@@ -443,7 +443,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
           <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                         <div><ul><b>Wednesday September 2</b>: 2 rooms <span style="color: firebrick;">no Sharon, Chip, Peter</span>
-                                                       <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Prince, PrincessBaroness, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus</ul>
+                                                       <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald,  Baroness, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus
+                                                       </ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>7:30–9:00
                                                                  <ol>– Rudolph, Baroness #10 + Tango</ol>
@@ -478,9 +479,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Wednesday September 9</b>: 2 rooms <span style="color: firebrick;">no Peter</span>
-                                                       <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Baroness, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus</ul>
+                                                       <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus
+                                                       </ul>
                                                        <ul><u>BLOCKING:</u>
-                                                            <li>Baroness #17 &amp; #31</li>
+                                                            <li>Baroness #17 &amp; #21</li>
                                                             <li>Ernest, Notary, Rudolph #28, #28a</li>
                                                             <li>Run dialogues:
                                                                  <ol>– Ernest &amp; Julia <b>C</b>. pp. 53-54.</ol>
@@ -506,6 +508,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             <li>Lisa, Julia #12c 
                                                                  <ol>– add Notary at the end</ol>
                                                             </li>
+                                                            <li>Lisa, Julia #12d 
+                                                                 <ol>– add Julia at the end or maybe another day: TBD"</ol>
+                                                            </li>
                                                             <li>Julia #19</li>
                                                             <li>Julia, Ernest #20 exit p. 301</li>
                                                             <li>Review
@@ -530,7 +535,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             </li>
                                                             <li>Chamberlains #9</li>
                                                             <li>Chamberlains, Rudolph #9a</li>
-                                                            <li>Rudolph exit</li>
+                                                            <li>Chamberlains exit</li>
                                                        </ul>
                                                        <ul><u>MUSIC:</u>
                                                             <li>Music review TBD</li>
@@ -541,7 +546,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                                         <div><ul><b>Wednesday September 16</b>: 2 rooms <span style="color: firebrick;">no Mary</span>
                                                        <ul style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 50px; font-size: 0.85em;margin: 0 20px 0 20px;width:80%;"><b>Headshots Day</b></ul>
-                                                       <ul><u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
+                                             <ul><u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>Chorus, Ludwig, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
                                                                  <ol>–  #13, #26</ol></li>
@@ -571,7 +576,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Monday September 21</b>: 2 rooms <span style="color: firebrick;">no Mike, Kathy</span>
-                                                       <ul><u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Costumier, Princess, Baroness, Julia, Olga, Gretchen, Bertha, Elsa</ul>
+                                                       <ul><u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>Chorus End of #20 (pp. 301-303-ties into #21)</li>
                                                             <li>Baroness &amp; Chorus #21 (Review or do if not blocked Wed 16)</li>
@@ -598,7 +603,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             <li>Ludwig &amp; Chorus #24</li>
                                                        </ul> 
                                                        <ul><u>MUSIC:</u>
-                                                            <li>Prince, Princess, Nobles Costumier, Supernumeraries 
+                                                            <li>Prince, Princess, Nobles, Costumier, Supernumeraries 
                                                                  <ol>–  #25 review</ol>
                                                             </li>
                                                        </ul> 
@@ -612,7 +617,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        <ul><u>CALLED</u>: ALL</ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>Rudolph, Ludwig <b>H</b>. pp. 153-154</li>
-                                                            <li>Ernest, Notary, Rudolph #38, #28a, <b>O</b>. p. 367</li>
+                                                            <li>Ernest, Notary, Rudolph #28, #28a, <b>O</b>. p. 367</li>
                                                             <li>ALL <b>M</b>. p.341, #27, <b>N</b>. p.351, #28, #28a, #29</li>
                                                        </ul> 
                                                        <ul><u>MUSIC:</u>
