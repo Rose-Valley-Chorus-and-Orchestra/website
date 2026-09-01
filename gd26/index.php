@@ -270,11 +270,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <li><a href="/gondoliers/flyer/Gondoliers show flyer_NP.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show flier">Show flyer</a></li>
                                              <li><a href="/gondoliers/sponsor and ad/SponsorandAdForm-Gondoliers.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the sponsor and ad form">Sponsor and Ad form</a></li>
                                              <li><a href="../grandDuke2026/The Grand Duke - RVCO - rehearsal schedule - Final.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the rehearsal schedule">Rehearsal Schedule (original)</a></li>-->
+                                             <li><a href="TGD_Ensemble.php" target="_top" rel="noreferrer noopener" title="Open the Cast List page">Cast emails and phone numbers</a></li>
                                              <li><a href="../grandDuke2026/artwork/poster/The Grand Duke poster.png" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show poster">Show poster</a></li>
                                           </ul>
 
                                         <!--<p><a href="../gondoliers/pirates platforms.php" target="_top" title="View the set platfrm layuot">Set platform layout</a></p>-->
-
+          
                          <div class="schedule">
                               <h2>Schedule</h2>
                                    <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
@@ -323,64 +324,57 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             </ul>
                                                        </ul>
                                                   </div>
-                                             <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-                                             </span>                                   
+     
+                                                  <div><ul><b>Sunday August 23</b>: 2 rooms <span style="color: firebrick;">no Jeff S, Brenda Rose</span>
+                                                            <ul><u>CALLED</u>: Rudolph, Ernest, Ludwig, Julia, Lisa</span></ul>
+                                                            <ul><u>BLOCKING:</u>
+                                                                 <li>2:00–2:20 Ludwig, Julia: <b>I</b>. p. 259</li>
+                                                                 <li>2:20–2:45 Julia, Lisa, Ernest <b>K</b>. pp. 292-293</li>
+                                                                 <li>2:45–3:25 Julia, Ernest <b>C</b>. pp. 53-54, #4</li>
+                                                                 <li>3:25–3:55 Rudolph <b>G</b>. p.146, #11</li>
+                                                                 <li>3:55–4:25 Ludwig, Rudolph <b>H</b>. pp. 153-154</li>
+                                                                 <li>4:25–5:00 Ludwig, Lisa #1 pp. 21-23, #1a, p.24</li>
+                                                            </ul> 
+                                                            <ul><U>MUSIC</U>:
+                                                                      <li>2:00–2:15 Ernest #3, #5  pp. 65-66</li>
+                                                                      <li>2:15–3:00 Rudolph #9a, #11, #28a</li>
+                                                                      <li>3:00–4:00 
+                                                                           – Ludwig &amp; Lisa #1a.&nbsp;
+                                                                           – Ludwig #2, #5, #14,  #22, #24
+                                                                      </li>
+                                                                      <li>4:00–4:30 Ernest &amp; Julia #4</li>
+                                                                      <li>4:30–5:00 with Julie/blocking</li>
+                                                            </ul>
+                                                       </ul>
+                                                  </div>
 
-                                        </div>  <!--   id="HideLink"   -->
-                                   </div>  <!-- class="castpageLinks" -->
-                                   <span id="currentDate"></span>
+                                                  <div><ul><b>Monday August 24</b>: 2 rooms <span style="color: firebrick;">no Jeff S, Brenda Rose</span>
+                                                            <ul><u>CALLED</u>: Rudolph, Ernest, Ludwig, Notary, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
+                                                            <ul><u>BLOCKING:</u>
+                                                                      <li>7:30–9:00 
+                                                                           <ol>– Ernest #3</ol>
+                                                                           <ol>– Review Rudolph’s numbers and dialogue if time</ol>
+                                                                           <ol>– Ludwig, Lisa, Notary, Gretchen, Elsa, Olga &amp; Bertha</br>
+                                                                                &emsp;<b>A</b>. p.33, <b>B</b>. pp.41&amp;44</ol>
+                                                                           <ol>– Rudolph, Gretchen, Elsa, Olga &amp; Bertha</br>
+                                                                                &emsp;#12 p.172 (Molto vivace) to p.181</ol>
+                                                                 </li>
+                                                                       <li>9:00–10:00 Julia, Lisa, Ernest, Notary &amp; Ludwig
+                                                                           <ol>With Florrie finish blocking as needed;</ol>
+                                                                           <ol>run Quintets &amp; dialogue <b>D</b>. pp.77-78, #6, #7, #8, <b>E</b>. p.88</ol>
+                                                                       </li>
+                                                            </ul>
+                                                            <ul><U>MUSIC</U>:
+                                                                      <li>7:30–9:00 All leads involved in Act 1 Finale (#12) (i.e., not Ernest)</li>
+                                                                      <li>9:00–10:00 Julia, Lisa, Ernest, Notary &amp; Ludwig
+                                                                           <ol>With Florrie finish blocking as needed;</ol>
+                                                                           <ol>run Quintets &amp; dialogue <b>D</b>. pp.77-78, #6, #7, #8, <b>E</b>. p.88</ol>
+                                                                      </li>
+                                                            </ul>
+                                                       </ul>
+                                                  </div>
 
-          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-                                        <div><ul><b>Sunday August 23</b>: 2 rooms <span style="color: firebrick;">no Jeff S, Brenda Rose</span>
-                                                  <ul><u>CALLED</u>: Rudolph, Ernest, Ludwig, Julia, Lisa</span></ul>
-                                                  <ul><u>BLOCKING:</u>
-                                                       <li>2:00–2:20 Ludwig, Julia: <b>I</b>. p. 259</li>
-                                                       <li>2:20–2:45 Julia, Lisa, Ernest <b>K</b>. pp. 292-293</li>
-                                                       <li>2:45–3:25 Julia, Ernest <b>C</b>. pp. 53-54, #4</li>
-                                                       <li>3:25–3:55 Rudolph <b>G</b>. p.146, #11</li>
-                                                       <li>3:55–4:25 Ludwig, Rudolph <b>H</b>. pp. 153-154</li>
-                                                       <li>4:25–5:00 Ludwig, Lisa #1 pp. 21-23, #1a, p.24</li>
-                                                  </ul> 
-                                                  <ul><U>MUSIC</U>:
-                                                            <li>2:00–2:15 Ernest #3, #5  pp. 65-66</li>
-                                                            <li>2:15–3:00 Rudolph #9a, #11, #28a</li>
-                                                            <li>3:00–4:00 
-                                                                 – Ludwig &amp; Lisa #1a.&nbsp;
-                                                                 – Ludwig #2, #5, #14,  #22, #24
-                                                            </li>
-                                                            <li>4:00–4:30 Ernest &amp; Julia #4</li>
-                                                            <li>4:30–5:00 with Julie/blocking</li>
-                                                  </ul>
-                                             </ul>
-                                        </div>
-
-                                        <div><ul><b>Monday August 24</b>: 2 rooms <span style="color: firebrick;">no Jeff S, Brenda Rose</span>
-                                                  <ul><u>CALLED</u>: Rudolph, Ernest, Ludwig, Notary, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
-                                                  <ul><u>BLOCKING:</u>
-                                                            <li>7:30–9:00 
-                                                                 <ol>– Ernest #3</ol>
-                                                                 <ol>– Review Rudolph’s numbers and dialogue if time</ol>
-                                                                 <ol>– Ludwig, Lisa, Notary, Gretchen, Elsa, Olga &amp; Bertha</br>
-                                                                      &emsp;<b>A</b>. p.33, <b>B</b>. pp.41&amp;44</ol>
-                                                                 <ol>– Rudolph, Gretchen, Elsa, Olga &amp; Bertha</br>
-                                                                      &emsp;#12 p.172 (Molto vivace) to p.181</ol>
-                                                       </li>
-                                                             <li>9:00–10:00 Julia, Lisa, Ernest, Notary &amp; Ludwig
-                                                                 <ol>With Florrie finish blocking as needed;</ol>
-                                                                 <ol>run Quintets &amp; dialogue <b>D</b>. pp.77-78, #6, #7, #8, <b>E</b>. p.88</ol>
-                                                             </li>
-                                                  </ul>
-                                                  <ul><U>MUSIC</U>:
-                                                            <li>7:30–9:00 All leads involved in Act 1 Finale (#12) (i.e., not Ernest)</li>
-                                                            <li>9:00–10:00 Julia, Lisa, Ernest, Notary &amp; Ludwig
-                                                                 <ol>With Florrie finish blocking as needed;</ol>
-                                                                 <ol>run Quintets &amp; dialogue <b>D</b>. pp.77-78, #6, #7, #8, <b>E</b>. p.88</ol>
-                                                            </li>
-                                                  </ul>
-                                             </ul>
-                                        </div>
-
-                                        <div><ul><b>Wednesday August 26</b>: Auditorium <span style="color: firebrick;">no Sharon, Mike D, Chip, Ray?</span>
+                                                  <div><ul><b>Wednesday August 26</b>: Auditorium <span style="color: firebrick;">no Sharon, Mike D, Chip, Ray?</span>
                                                        <ul><u>CALLED</u>: ALL</ul>
                                                        <ul><u>READ-TRHOUGH</u> 2:00–?</ul>
                                                        <ul><u>BLOCKING:</u>                                                  
@@ -391,7 +385,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        </ul>
                                              </ul>
                                         </div>
-
+     
                                         <div><ul><b>Sunday August 30</b>: 2 rooms <span style="color: firebrick;">no Sharon, Mike D, Chip, Ray?</span>
                                                        <ul><u>CALLED</u>: Rudolph, Ludwig, Notary, Julia, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus</ul>
                                                        <ul><u>BLOCKING:</u>
@@ -440,8 +434,17 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
+                                             <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                                             </span>                                   
+
+                                        </div>  <!--   id="HideLink"   -->
+                                   </div>  <!-- class="castpageLinks" -->
+                                   <span id="currentDate"></span>
+
+          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                         <div><ul><b>Wednesday September 2</b>: 2 rooms <span style="color: firebrick;">no Sharon, Chip, Peter</span>
-                                                       <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Prince, PrincessBaroness, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus</ul>
+                                                       <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald,  Baroness, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus
+                                                       </ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>7:30–9:00
                                                                  <ol>– Rudolph, Baroness #10 + Tango</ol>
@@ -476,9 +479,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Wednesday September 9</b>: 2 rooms <span style="color: firebrick;">no Peter</span>
-                                                       <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Baroness, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus</ul>
+                                                       <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus
+                                                       </ul>
                                                        <ul><u>BLOCKING:</u>
-                                                            <li>Baroness #17 &amp; #31</li>
+                                                            <li>Baroness #17 &amp; #21</li>
                                                             <li>Ernest, Notary, Rudolph #28, #28a</li>
                                                             <li>Run dialogues:
                                                                  <ol>– Ernest &amp; Julia <b>C</b>. pp. 53-54.</ol>
@@ -504,6 +508,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             <li>Lisa, Julia #12c 
                                                                  <ol>– add Notary at the end</ol>
                                                             </li>
+                                                            <li>Lisa, Julia #12d 
+                                                                 <ol>– add Julia at the end or maybe another day: TBD"</ol>
+                                                            </li>
                                                             <li>Julia #19</li>
                                                             <li>Julia, Ernest #20 exit p. 301</li>
                                                             <li>Review
@@ -528,7 +535,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             </li>
                                                             <li>Chamberlains #9</li>
                                                             <li>Chamberlains, Rudolph #9a</li>
-                                                            <li>Rudolph exit</li>
+                                                            <li>Chamberlains exit</li>
                                                        </ul>
                                                        <ul><u>MUSIC:</u>
                                                             <li>Music review TBD</li>
@@ -538,7 +545,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>     
 
                                         <div><ul><b>Wednesday September 16</b>: 2 rooms <span style="color: firebrick;">no Mary</span>
-                                                       <ul><u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
+                                                       <ul style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 50px; font-size: 0.85em;margin: 0 20px 0 20px;width:80%;"><b>Headshots Day</b></ul>
+                                             <ul><u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>Chorus, Ludwig, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
                                                                  <ol>–  #13, #26</ol></li>
@@ -568,7 +576,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Monday September 21</b>: 2 rooms <span style="color: firebrick;">no Mike, Kathy</span>
-                                                       <ul><u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Costumier, Princess, Baroness, Julia, Olga, Gretchen, Bertha, Elsa</ul>
+                                                       <ul><u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>Chorus End of #20 (pp. 301-303-ties into #21)</li>
                                                             <li>Baroness &amp; Chorus #21 (Review or do if not blocked Wed 16)</li>
@@ -595,7 +603,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             <li>Ludwig &amp; Chorus #24</li>
                                                        </ul> 
                                                        <ul><u>MUSIC:</u>
-                                                            <li>Prince, Princess, Nobles Costumier, Supernumeraries 
+                                                            <li>Prince, Princess, Nobles, Costumier, Supernumeraries 
                                                                  <ol>–  #25 review</ol>
                                                             </li>
                                                        </ul> 
@@ -609,7 +617,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                        <ul><u>CALLED</u>: ALL</ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>Rudolph, Ludwig <b>H</b>. pp. 153-154</li>
-                                                            <li>Ernest, Notary, Rudolph #38, #28a, <b>O</b>. p. 367</li>
+                                                            <li>Ernest, Notary, Rudolph #28, #28a, <b>O</b>. p. 367</li>
                                                             <li>ALL <b>M</b>. p.341, #27, <b>N</b>. p.351, #28, #28a, #29</li>
                                                        </ul> 
                                                        <ul><u>MUSIC:</u>
