@@ -275,7 +275,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                           </ul>
 
                                         <!--<p><a href="../gondoliers/pirates platforms.php" target="_top" title="View the set platfrm layuot">Set platform layout</a></p>-->
-
+          
                          <div class="schedule">
                               <h2>Schedule</h2>
                                    <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
@@ -386,14 +386,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
      
-                                             <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-                                             </span>                                   
-
-                                        </div>  <!--   id="HideLink"   -->
-                                   </div>  <!-- class="castpageLinks" -->
-                                   <span id="currentDate"></span>
-
-          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                         <div><ul><b>Sunday August 30</b>: 2 rooms <span style="color: firebrick;">no Sharon, Mike D, Chip, Ray?</span>
                                                        <ul><u>CALLED</u>: Rudolph, Ludwig, Notary, Julia, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus</ul>
                                                        <ul><u>BLOCKING:</u>
@@ -442,6 +434,14 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
+                                             <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                                             </span>                                   
+
+                                        </div>  <!--   id="HideLink"   -->
+                                   </div>  <!-- class="castpageLinks" -->
+                                   <span id="currentDate"></span>
+
+          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                         <div><ul><b>Wednesday September 2</b>: 2 rooms <span style="color: firebrick;">no Sharon, Chip, Peter</span>
                                                        <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Prince, PrincessBaroness, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus</ul>
                                                        <ul><u>BLOCKING:</u>
@@ -540,6 +540,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>     
 
                                         <div><ul><b>Wednesday September 16</b>: 2 rooms <span style="color: firebrick;">no Mary</span>
+                                                       <ul style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 50px; font-size: 0.85em;margin: 0 20px 0 20px;width:80%;"><b>Headshots Day</b></ul>
                                                        <ul><u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>Chorus, Ludwig, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
