@@ -560,7 +560,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Sunday September 20</b>: 2 rooms <span style="color: firebrick;">no Mike</span>
-                                                       <ul><u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Olga, Gretchen, Bertha, Elsa</ul>
+                                                       <ul><u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
+                                                       </ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <ol>
                                                             <li>Chorus, Ludwig, Baroness #17</li>
@@ -600,7 +601,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             <li>Prince, Princess, Nobles, Costumier, Supernumeraries
                                                                  <ol>–  #25, <b>L</b>. p335 REVIEW THESE OR FINISH AS NEEDED</ol>
                                                             </li>
-                                                            <li>Ludwig &amp; Chorus #24</li>
+                                                            <!-- <li>Ludwig &amp; Chorus #24</li>-->
                                                        </ul> 
                                                        <ul><u>MUSIC:</u>
                                                             <li>Prince, Princess, Nobles, Costumier, Supernumeraries 
@@ -679,8 +680,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                                         <div><ul><b>Monday October 19</b>: 
                                              <ul>FIX
-                                                  <li>7:00 Classroom</li>
-                                                  <li>8:00 Auditorium</li>
+                                                  <li>7:30 Classroom</li>
+                                                  <li>8:30 Auditorium</li>
                                              </ul>
                                         </div>
 
