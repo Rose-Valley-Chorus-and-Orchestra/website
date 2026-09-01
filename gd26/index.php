@@ -479,7 +479,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Wednesday September 9</b>: 2 rooms <span style="color: firebrick;">no Peter</span>
-                                                       <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus
+                                                       <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Prince, Pincess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus
                                                        </ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>Baroness #17 &amp; #21</li>
