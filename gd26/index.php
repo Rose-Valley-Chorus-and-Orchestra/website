@@ -280,7 +280,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <h2>Schedule</h2>
                                    <div class="Rtimes"><b>Rehearsal Times:</b> Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
                                         <ul><li>If you know you will be late, leaving early, or not at rehearsal, please email <a href="mailto:florrie@barks.org,juliecmay@msn.com,?subject=Missing rehearsal">Florrie and Julie</a>.</li>
-                                        <li>Day of rehearsal, please text Florrie at (610) 453-1407 (cell) or Julie at (610) 564-3544</li>
+                                        <li><u>Day of rehearsal</u>, please text Florrie at (610) 453-1407 (cell) or Julie at (610) 564-3544</li>
                                         </ul>
                                    </div>
                                    <div class="Rtimes"><a href="../grandDuke2026/The Grand Duke - RVCO - rehearsal schedule - Final.pdf" title="Download the schedule" target="new"><span class="button" href="">Download</span></a> a PDF to print.
@@ -479,7 +479,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Wednesday September 9</b>: 2 rooms <span style="color: firebrick;">no Peter</span>
-                                                       <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus
+                                                       <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Prince, Pincess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus
                                                        </ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>Baroness #17 &amp; #21</li>
