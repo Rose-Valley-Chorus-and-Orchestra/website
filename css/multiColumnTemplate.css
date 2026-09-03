@@ -435,6 +435,13 @@ body {
 }
 .current_castlist {
 }
+.castList_show_img {width:75%;
+     max-width: 600px;
+     align-items: center;
+     margin-left: 8%;
+     }         
+.second_show_img {content: url("../camelot2027/artwork/logo/JPG/CAMELOT_LOGO_FULL HORZ_4C.jpg")}         
+
 .buy_tickets_small{ 
 	display: none;
 }
@@ -574,7 +581,10 @@ body {
 .Rtimes {margin: 0px 0px 0px 40px;}
 .castlist  .storyHead {font-size: 150%; margin-top: 20px;}
 .bios  .storyHead {font-size: 150%; float: left;}
-.bios .listAlpha {float: left; padding: 5px 10px 20px;}
+.bios .listAlpha {
+     margin: 25px 0 0 9rem; /* Adjusts the vertical position */
+     font-style: italic;
+}
 .bios, .chorus {
 	font-weight:normal;
 	text-align: left;
