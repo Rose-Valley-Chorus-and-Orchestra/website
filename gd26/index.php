@@ -434,14 +434,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
-                                             <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-                                             </span>                                   
-
-                                        </div>  <!--   id="HideLink"   -->
-                                   </div>  <!-- class="castpageLinks" -->
-                                   <span id="currentDate"></span>
-
-          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                         <div><ul><b>Wednesday September 2</b>: 2 rooms <span style="color: firebrick;">no Sharon, Chip, Peter</span>
                                                        <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald,  Baroness, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus
                                                        </ul>
@@ -468,6 +460,14 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
+                                             <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                                             </span>                                   
+
+                                        </div>  <!--   id="HideLink"   -->
+                                   </div>  <!-- class="castpageLinks" -->
+                                   <span id="currentDate"></span>
+
+          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                         <div><ul><b>Sunday September 6</b>
                                              <ul>*** <span style="color: firebrick;"><b>No rehearsal - LABOR DAY WEEKEND</b></span> ***</ul>
                                              </ul>

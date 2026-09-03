@@ -100,74 +100,29 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
           </div>
      
           <div class="feature castlist">
-
-               <div class="castList_show_img"><img class="img-responsive" src="artwork/logo/GrandDuke-logo-squarish@600w.webp" name="The Grand Duke" title="TThe Grand Duke logo" hspace="20" vspace="5" /></div>
+               <div class="castList_show_img"><img class="img-responsive" src="artwork/logo/JPG/CAMELOT_LOGO_FULL HORZ_4C.jpg" name="Camelot" title="The Camelot logo" hspace="20" vspace="5" /></div>
                <h2 id="top" class="storyHead">Directors</h2>
                          <ul class="listing">
-                              <li><span>Stage Director</span> <span><at href="#ChrisF">Julie May</a></span></li>
+                              <li><span>Stage Director</span> <span><at href="#ChrisF">Chris Fitting</a></span></li>
                               <li><span>Music Director</span> <span><at href="#Florrie">Florrie Marks</a></span></li>
-                              <li><span>Choreographer</span> <span><at href="#Caity">Susan Greene</a></li>
+                              <!-- <li><span>Choreographer</span> <span><at href="#Caity">Susan Greene</a></li> -->
                          </ul>
 
                <h2 class="storyHead">Actors</h2>
                          <ul class="listing">
-                              <div class=castlistBig>
-                                   <li><span>Rudolph (Grand Duke<span> of Pfennig-Halbpfennig</span>)</span> <span><at href="#Rob">Rob Hull</a></span></li>
-                                   <li><span>Ernest Dummkopf (a Theatrical Manager)</span><span><at href="#ChrisR">Chris Rubino</a></span></li>
-                                   <li><span>Ludwig (his Leading Comedian)</span> <span><at href="#Peter">Peter Beik</a></span></li>
-                                   <li><span>Dr. Tannh&#228;user (a Notary)</span> <span><at href="#Sean">Sean O'Donnell</a></span></li>
-                                   <li><span>The Prince of Monte Carlo</span> <span><at href="#Jeff">Jeff Swafford</a></span></li>                              
-                                   <li><span>Viscount Mentone</span> <span><at href="#">to be cast</a></span></li>
-                                   <li><span>Ben Hashbaz (a Costumier)</span> <span><at href="#">to be cast</a></span></li>                              
-                                   <li><span>Herald</span> <span><at href="#Ray">Ray Murphy</a></span></li>
-                                   <li><span>The Princess of Monte Carlo (Betrothed&nbsp;to Rudolph)</span> <span><at href="#Meagan">Meagan Rubino</a></span></li>
-                                   <li><span>The Baroness von Krakenfeldt (Betrothed to Rudolph)</span> <span><at href="#Brenda">Brenda Rose Simkin</a></span></li>
-                                   <li><span>Julia Jellicoe (an English Com&#233;dienne)</span> <span><at href="#mary">Mary Punshon</a></span></li>                              
-                              </div>
-                              <div class="castlistSmall">
-                                   <div>Rudolph (Grand Duke) of Pfennig-Halbpfennig
-                                   <li><span> </span> <span><at href="#Rob">Rob Hull</a></span></li></div>
 
-                                   <div>Ernest Dummkopf (a Theatrical Manager)
-                                   <li><span> </span> <span><at href="#ChrisR">Chris Rubino</a></span></li></div>
-
-                                   <div>Ludwig (his Leading Comedian)
-                                   <li><span> </span> <span><at href="#Peter">Peter Beik</a></span></li></div>
-
-                                   <div>Dr Tannhäuser (a Notary)
-                                   <li><span> </span> <span><at href="#Sean">Sean O'Donnell</a></span></li></div>
-
-                                   <div>The Prince of Monte Carlo
-                                   <li><span> </span> <span><at href="#Jeff">Jeff Swafford</a></span></li></div>
-                                   
-                                   <li><span>Viscount Mentone</span> <span><at href="#">to be cast</a></span></li>
-
-                                   <li><span>Ben Hashbaz (a Costumier)</span> <span><at href="#">to be cast</a></span></li>
-
-                                   <li><span>Herald</span> <span><at href="#Ray">Ray Murphy</a></span></li>
-
-                                   <div>The Princess of Monte Carlo (Betrothed&nbsp;to Rudolph)
-                                   <li><span> </span> <span><at href="#Meagan">Meagan Rubino</a></span></li></div>
-
-                                   <div>The Baroness von Krakenfeldt (Betrothed&nbsp;to Rudolph)
-                                   <li><span> </span> <span><at href="#Brenda">Brenda Rose Simkin</a></span></li/></div>
-
-                                   <div>Julia Jellicoe (an English Com&#233;dienne)
-                                   <li><span> </span> <span><at href="#mary">Mary Punshon</a></span></li/></div>
-                              </div>
+                                   <li><span>Arthur</span></span> <span><at href="#Rob">Rob Hull</a></span></li>
+                                   <li><span>Guenevere</span> <span><at href="#Genevieve">Genevieve Hahn</a></span></li>
+                                   <li><span>Lancelot</span> <span><at href="#Jeff">Jeff Swafford</a></span></li>
+                                   <li><span>Pellinore</span> <span><at href="#Jonathan">Jonathan Sills</a></span></li>
+                                   <li><span>Merlyn</span> <span><at href="#Don">Don Cheetham</a></span></li>
+                                   <li><span>Mordred</span> <span><at href="#ChrisR">Chris Rubino</a></span></li>                              
+                                   <li><span>Morgan Le Fey</span> <span><at href="#">Donna Winquist</a></span></li>                              
+                                   <li><span>Nimue</span> <span><at href="#Ruby">Ruby Germano</a></span></li>
+                                   <li><span>Knight of the Round Table</span> <span><at href="#Bill">Bill Michael</a></span></li>
+                                   <li><span>Knight of the Round Table</span> <span><at href="#Bob">Robert Moore</a></span></li>
                                         
-                              <li><span>Lisa (a Soubrette)</span> <span><at href="#Laura">Laura Hull</a></span></li>
-
-                              <div>Members of Ernest Dummkopf's Theatrical Company
-                                   <div style="margin-left: 15px;">
-                                        <li><span>Olga</span> <span><at href="#Faith">Faith Donaher</a></span></li>
-                                        <li><span>Gretchen</span> <span><at href="#Heidi">Heidi Williams</a></span></li>
-                                        <li><span>Bertha</span> <span><at href="#SharonWC">Sharon Weil-Chalker</a></span></li>
-                                        <li><span>Elsa</span> <span><at href="#KathyS">Kathy Sarlson</a></li>
-                                   </div>
-                              </div>
-
-                              <div>Ensemble
+                              <!--<div>Ensemble
                                    <div style="margin-left: 15px;">
                                         <li><span> &emsp; </span> <span><a href="#Don">Don Cheetham</a></span></li>
                                         <li><span> &emsp; </span> <span><at href="#Don">Colin Dahms</a></span></li>
@@ -182,11 +137,11 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <li><span> &emsp; </span> <span><at href="#Bob">Albert Melli</a></li>
                                         <li><span> &emsp; </span> <span><at href="#Bob">Robert Moore</a></li>
                                         <li><span> &emsp; </span> <span><at href="#Faith">Steve Naz</a></span></li>
-                                        <li><span> &emsp; </span> <span><a href="#Caroline">Caroline Pashos</a></span></li>
+                                        <li><span> &emsp; </span> <span><at href="#Heidi">Caroline Pashos</a></span></li>
                                         <li><span> &emsp; </span> <span><at href="#SharonWC">Brian Rubino</a></span></li>
                                         <li><span> &emsp; </span> <span><at href="#KathyS">Joyce Severin</a></li>
                                    </div>
-                              </div>
+                              </div>-->
           
                                         
                          </ul>
@@ -279,15 +234,14 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <!-- Bios begin -->       
 
                               
-<div class="bios">
+<!--<div class="bios">
           <H2 class="storyHead">Bios</H2>
           <div class="listAlpha" ><span>listed alphabetically</span></div>
+
                <p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/howTo2026/headshots/Don%20Cheetham%20a.jpg" alt="Don Cheetham headshot" class="headshot lighter" /></span><a name="Don"></a><span class="person">Don Cheetham</span> (<span class="role">Ensemble</span>) Previous RVCO shows include parts as Gatch in <i>How to Succeed in Business Without Really Trying</i>,  Giorgio in <i>The Gondoliers</i>, Dave Miller in <i>State Fair</i>, the Steward in <i>Rodgers and Hammerstein's Cinderella</i>, Andrew McLaren in <i>Brigadoon</i>, and chorus in several other musicals. Other favorite roles include two in <i>Our Town</i> – Editor Webb (Barley Sheaf Players) and Simon Stimson (St. Peter's Players), as well as Paul Sycamore in <i>You Can't Take It With You</i> (Barley Sheaf Players.) <a href="#top" class="back2top">Back to top</a></p>
      
-               <p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/howTo2026/headshots/Caroline Pashos A.jpg" alt="Caroline Pashos's headshot" class="headshot lighter"/></span><a name="Caroline"></a><span class="person">Caroline Pashos</span> (<span class="role">Ensemble</span>) is excited to return to the stage with RVCO for her seccond season after performing in <i>The Gondoliers</i> and <i>How to Succeed in Business Without Really Trying</i> last year. She also performs with the Delaware Valley Opera Company, where she serves on the Board of Directors and as the Chorus Manager. Her credits with them include 14 operas from <i>Carmen</i> to <i>The Merry Widow</i> to <i>Le nozze di Figaro</i>, as well as singing the role of Sister Martha in <i>Dialogues of the Carmelites</i>. She also sings in the choir of Trinity Evangelical Lutheran Church in Lansdale, PA. In 2017, she graduated in from Temple University with a BA in Theatre. Outside of theatre, she loves aviation, nature, roller coasters, and sports. <a href="#top" class="back2top">Back to top</a></p>
 
-
-               <!--<p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/statefair2025/headshots/Grace%20Albert%20playbill.jpg" alt="Allie Beik headshot" class="headshot" /></span><a name="Grace"></a><span class="person">Grace Albert</span> (<span class="role">Props</span>) is excited to be helping out this upbeat and vibrant production. She was recently seen as Eleanor, Jeanne and a Fairtone in last years production of <i>State Fair</i>. <a href="#top" class="back2top">Back to top</a></p>
+               <p class="bios"><span class="headshot_img"><img src="https://archive.rvco.org/past_shows/statefair2025/headshots/Grace%20Albert%20playbill.jpg" alt="Allie Beik headshot" class="headshot" /></span><a name="Grace"></a><span class="person">Grace Albert</span> (<span class="role">Props</span>) is excited to be helping out this upbeat and vibrant production. She was recently seen as Eleanor, Jeanne and a Fairtone in last years production of <i>State Fair</i>. <a href="#top" class="back2top">Back to top</a></p>
      
                <p class="bios"><span class="headshot_img"><img src="headshots/Allie Beik a.jpg" alt="Allie Beik headshot" class="headshot lighter" /></span><a name="Allie"></a><span class="person">Allie Beik</span> (<span class="role">Rosemary</span>) is so excited to make her RVCO debut in this incredibly fun production! Her most recent roles have been with NCT in <i>Into the Woods</i> (Cinderella's Stepmother), <i>A Little Night Music</i> (Mrs. Nordstrom), <i>Joseph and the Amazing Technicolor Dreamcoat</i> (Ensemble), and before that with Brooklyn Theatre Club in <i>My Fair Lady</i> (Eliza Doolittle), <i>Into the Woods</i> (Cinderella), <i>The Mystery of Edwin Drood</i> (Rosa Bud), and <i>Suessical</i> (Jojo). She is so thankful to her husband and family for taking on extra toddler time while she rehearses for this show and for their never-ending support!  <a href="#top" class="back2top">Back to top</a></p>
 
@@ -329,6 +283,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
      
                <p class="bios"><span class="headshot_img"><img src="headshots/Steve%20Naz%20a.jpg" class="headshot lighter"/></span><a name="Naz"></a><span class="person">Steve Naz</span> (<span class="role">Jenkins, RVCO Board Member</span>) returns for his eighth appearance with RVCO. Having previously spent years in a corporate environment, Steve says he especially appreciates <i>How To Succeed to Succeed in Business Without Really Trying</i> for the way it lampoons the humor and absurdities of corporate culture. Steve played in numerous bands and ensembles from elementary school through Temple University's marching and concert bands, and has been a member of orchestras in various musicals. Off-stage, Steve is a retired I.T. professional and an actual COBOL specialist, while remaining an all-around technologist.  <a href="#top" class="back2top">Back to top</a></p>
                
+               <p class="bios"><span class="headshot_img"><img src="headshots/Caroline Pashos A.jpg" alt="Caroline Pashos's headshot" class="headshot lighter"/></span><a name="Caroline"></a><span class="person">Caroline Pashos</span> (<span class="role">Secretary, Wickette Girl</span>) is excited to return to the stage with RVCO after making her debut last Autumn in <i>The Gondoliers</i>. She also performs with the Delaware Valley Opera Company where she serves as Chorus Manager and Board Member. Her credits with them include <i>La rondine</i>, <i>Carmen</i>, <i>The Merry Widow</i>, <i>Dialogues of the Carmelites</i> (Sister Martha), <i>Les contes d'Hoffmann</i>, <i>Susannah</i>, <i>Cavalleria rusticana</i>, <i>I Pagliacci</i>, <i>Amahl and the Night Visitors</i>, <i>Le nozze di Figaro</i>, <i>Il matrimono segreto</i>, and <i>Dido and Aeneas</i>. Additionally, she sings in the choir of Trinity Evangelical Lutheran Church in her hometown of Lansdale, PA. She graduated in 2017 from Temple University with a BA in Theatre. Outside of theatre, she loves astronomy, aviation, nature, roller coasters, and sports. <a href="#top" class="back2top">Back to top</a></p>
+
                <p class="bios"><span class="headshot_img"><img src="headshots/Kate Philips Kaiser a.jpg" alt="Kate Philips-Kaiser's headshot" class="headshot lighter"/></span><a name="Kate"></a><span class="person">Kate Philips-Kaiser</span> (<span class="role">Smitty</span>) is delighted to be back on stage with RVCO after haunting <i>A Christmas Carol - The Musical</i> as the Ghost of Christmas Past in 2019. She started off in community theatre many years ago in Canada, as Maria (<i>West Side Story</i>), Marion Paroo (<i>The Music Man</i>), Josephine (<i>H.M.S. Pinafore</i>) and others, as well as performing in improv and comedy shows. She spent a couple of decades in France where she soloed in opera productions as well as choirs and directed musicals with teens. She currently performs with Mendelssohn Chorus of Philadelphia, a French rock band, and co-founded the Narberth pop-up troupe the Cast Aways. By day, she is an Executive Coach with the Wharton School and other leadership development organizations. <a href="#top" class="back2top">Back to top</a></p>
 
                <p class="bios"><span class="headshot_img"><img src="headshots/Chris Rubino a.jpg" alt="Chris Rubino headshot" class="headshot lighter"/></span><a name="Chris"></a><span class="person">Chris Rubino</span> (<span class="role">J. Pierrepont Finch, RVCO President</span>) () has been performing with RVCO since 2011. Memorable roles include Freddy in <i>My Fair Lady</i>, Ralph in <i>H.M.S. Pinafore</i>, Dexter in <i>High Society</i>, Wayne in <i>State Fair</i>, and Marco in <i>The Gondoliers</i>. Notable set designs include <i>The Sorcerer</i> (2018), <i>A Christmas Carol - the Musical</i> (2019), <i>A Little Night Music</i> (Narberth Community Theater, 2022), and <i>The Pirates of Penzance</i> (2024). &ldquo;Much love to my wife Meagan and our two sons Marc and Brian for encouraging&hellip; ok, tolerating&hellip; my onstage antics. I'm playing this role by the book!&rdquo;  <a href="#top" class="back2top">Back to top</a></p>
@@ -366,7 +322,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
      </div>   <!-- end of feature-->     
                
                
-               
+               <p></p>
                
 </div>    <!-- end of content-->
 
