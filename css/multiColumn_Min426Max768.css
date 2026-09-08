@@ -153,9 +153,7 @@ aside .donate {
 #bottomLinks {
 	line-height: 300%;
 }
-.join {
-	margin: 15px;
-}
+.join {}
 /*    FOR MAP ON VENUE PAGE   */
 .g-map iframe {
 	width: 370px;

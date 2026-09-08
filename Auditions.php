@@ -69,12 +69,12 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
           <div class="story">
                <h2 id="auditionTitle">Lerner and Loewe's <i>Camelot</i></h2>
                <div>
-                    <p style="border: thin #666666 solid"><i>Camelot</i> has been predominantly cast. View the <span><a href="camelot2027/camelot27cast.php" title="Go to the Came cast page">Cast List</a></span> for more information.  Additional roles will be cast from the chorus. If you are interested in joining the cast in the chorus or helping out backstage, please contact us at <a href="mailto:info@rvco.org?subject=Interest in The Grand Duke">info@rvco.org</a>.</p>
+                    <p style="border: thin #666666 solid">The leads for <i>Camelot</i> have been cast. View the <span><a href="camelot2027/camelot27cast.php" title="Go to the Came cast page">Cast List</a></span> for more information.  Additional roles will be chosen from the chorus. If you are interested in joining  the chorus or helping out backstage, please contact us at <a href="mailto:info@rvco.org?subject=Interest in The Grand Duke">info@rvco.org</a>.</p>
 
-                    <p><b>The first rehearsal will be in January 2027 at the <a href="https://www.google.com/maps/place/Middletown+Free+Library,+464+S+Old+Middletown+Rd,+Media,+PA+19063/@39.896039,-75.4078074,17z/data=!3m1!4b1!4m16!1m9!4m8!1m0!1m6!1m2!1s0x89c6e8eef37e4d19:0xcdda32443f69ddaa!2sMiddletown+Free+Library,+464+S+Old+Middletown+Rd,+Media,+PA+19063!2m2!1d-75.4029311!2d39.8960391!3m5!1s0x89c6e8eef37e4d19:0xcdda32443f69ddaa!8m2!3d39.8960391!4d-75.4029311!16s%2Fg%2F11c5q0ln1k?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D" target="new"><u>Roosevelt Community Center</u></a>, 464 S. Old Middletown Road, Media, PA 19063. If you want to be in the chorus, we'd love to have you join us.</b> If you are planning on joining us, please email <a href="mailto:info@rvco.org">info@rvco.org</a> with your name and email address.</p>
+                    <p><b>The first rehearsal will be in January 2027 at the <a href="https://www.google.com/maps/place/Middletown+Free+Library,+464+S+Old+Middletown+Rd,+Media,+PA+19063/@39.896039,-75.4078074,17z/data=!3m1!4b1!4m16!1m9!4m8!1m0!1m6!1m2!1s0x89c6e8eef37e4d19:0xcdda32443f69ddaa!2sMiddletown+Free+Library,+464+S+Old+Middletown+Rd,+Media,+PA+19063!2m2!1d-75.4029311!2d39.8960391!3m5!1s0x89c6e8eef37e4d19:0xcdda32443f69ddaa!8m2!3d39.8960391!4d-75.4029311!16s%2Fg%2F11c5q0ln1k?entry=ttu&g_ep=EgoyMDI2MDgyNC4wIKXMDSoASAFQAw%3D%3D" target="new"><u>Roosevelt Community Center</u></a>, 464 S. Old Middletown Road, Media, PA 19063. If you would like to sing   in the chorus, we'd love to have you join us.</b> Please let us know your interest you are planning on joining us by sending and email to <a href="mailto:info@rvco.org">info@rvco.org</a> with your name.</p>
                
                     <p><u>Additional Information</u>
-                              <ul style="margin-top: -15px;"><!--<li class="more_info">If you are cast in a minor role, you will also be part of the ensemble and perform in ensemble numbers wherever possible.&nbsp;</li>-->
+                         <ul style="margin-top: -15px;"><!--<li class="more_info">If you are cast in a minor role, you will also be part of the ensemble and perform in ensemble numbers wherever possible.&nbsp;</li>-->
                               <li class="more_info">A chorus call will be sent later this year for those who wish to join the ensemble.</li>
                               <li class="more_info">Cast members are required to pay a $25 membership fee.&nbsp;</li></ul>
                     </p>
@@ -109,8 +109,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     </p>
 
                     <p><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
-                              <ul style="margin-top: -12px;">Sitzprobe: Saturday April 3, 12:30 a.m.  - 12:30 p.m.</ul>
-                              <ul style="margin-top: -9px;">Tech: Sunday April 4, 1:00 - 10:00 p.m.</ul>
+                              Sitzprobe: Saturday April 3, 9:30 a.m.  - 12:30 p.m.
+                              Tech rehea: Sunday April 4, 1:00 - 10:00 p.m.
                               <ul style="margin-top: -9px;">Tech run-throughs: April 5-7 6:00 - 10:00 p.m.</ul>
                               <ul style="margin-bottom: -6px;">Attendance is required for all tech week and all performance dates.</ul>
                     </p>
