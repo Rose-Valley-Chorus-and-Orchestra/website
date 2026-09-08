@@ -241,9 +241,7 @@ aside .donate {
 	padding-top: 7px;
 	margin: 15px;
 }
-.join {
-	margin: 15px;
-}
+.join {}
 .social p, .social h4 {
      padding:0px 30px;}
 .first_article {float: none;width: 100%;}     
