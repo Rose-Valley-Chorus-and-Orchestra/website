@@ -109,9 +109,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     </p>
 
                     <p><b>Tech week dates and times:</b> <span style="font-weight: normal; font-size:0.8em">(Currently dates are tentative)</span></p>
-                              Sitzprobe: Saturday April 3, 9:30 a.m.  - 12:30 p.m.
-                              Tech rehea: Sunday April 4, 1:00 - 10:00 p.m.
-                              <ul style="margin-top: -9px;">Tech run-throughs: April 5-7 6:00 - 10:00 p.m.</ul>
+                              <ul style="margin-top: -9px;">Sitzprobe: Saturday April 3, 9:30 a.m.  - 12:30 p.m.</ul>
+                              <ul style="margin-top: -6px;">Tech rehearsaal: Sunday April 4, 1:00 - 10:00 p.m.</ul>
+                              <ul style="margin-top: -6px;">Tech run-throughs: April 5-7 6:00 - 10:00 p.m.</ul>
                               <ul style="margin-bottom: -6px;">Attendance is required for all tech week and all performance dates.</ul>
                     </p>
                   
