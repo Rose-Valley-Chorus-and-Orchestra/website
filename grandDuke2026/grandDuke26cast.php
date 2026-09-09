@@ -150,10 +150,10 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <li><span> </span> <span><at href="#Meagan">Meagan Rubino</a></span></li></div>
 
                                    <div>The Baroness von Krakenfeldt (Betrothed&nbsp;to Rudolph)
-                                   <li><span> </span> <span><at href="#Brenda">Brenda Rose Simkin</a></span></li/></div>
+                                   <li><span> </span> <span><at href="#Brenda">Brenda Rose Simkin</at></span></li></div>
 
                                    <div>Julia Jellicoe (an English Com&#233;dienne)
-                                   <li><span> </span> <span><at href="#mary">Mary Punshon</a></span></li/></div>
+                                   <li><span> </span> <span><at href="#Mary">Mary Punshon</at></span></li></div>
                               </div>
                                         
                               <li><span>Lisa (a Soubrette)</span> <span><at href="#Laura">Laura Hull</a></span></li>
