@@ -470,14 +470,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
-                                             <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-                                             </span>                                   
-
-                                        </div>  <!--   id="HideLink"   -->
-                                   </div>  <!-- class="castpageLinks" -->
-                                   <span id="currentDate"></span>
-
-          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                         <div><ul><b>Wednesday September 9</b>: 2 rooms <span style="color: firebrick;">no Peter</span>
                                                        <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Prince, Pincess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus
                                                        </ul>
@@ -499,6 +491,14 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
+                                             <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                                             </span>                                   
+
+                                        </div>  <!--   id="HideLink"   -->
+                                   </div>  <!-- class="castpageLinks" -->
+                                   <span id="currentDate"></span>
+
+          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                         <div><ul><b>Sunday September 13</b>: 2 rooms <span style="color: firebrick;">no Peter, Mike</span>
                                                        <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Baroness, Julia, Lisa (NO Chorus)</ul>
                                                        <ul><u>BLOCKING:</u>
