@@ -162,7 +162,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <div style="margin-left: 15px;">
                                         <li><span>Olga</span> <span><a href="#Faith">Faith Donaher</a></span></li>
                                         <li><span>Gretchen</span> <span><a href="#Heidi">Heidi Williams</a></span></li>
-                                        <li><span>Bertha</span> <span><at href="#SharonWC">Sharon Weil-Chalker</a></span></li>
+                                        <li><span>Bertha</span> <span><a href="#SharonWC">Sharon Weil-Chalker</a></span></li>
                                         <li><span>Elsa</span> <span><a href="#KathyS">Kathy Sarlson</a></li>
                                    </div>
                               </div>
@@ -173,7 +173,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         <li><span> &emsp; </span> <span><a href="#Colin">Colin Dahms</a></span></li>
                                         <li><span> &emsp; </span> <span><a href="#Mike">Mike Dutka</a></span></li>
                                         <li><span> &emsp; </span> <span><a href="#LisaF">Lisa Franks</a></span></li>
-                                        <li><span> &emsp; </span> <span><at href="#Jocelyn">Jocelyn Hall</a></span></li>
+                                        <li><span> &emsp; </span> <span><a href="#Jocelyn">Jocelyn Hall</a></span></li>
                                         <li><span> &emsp; </span> <span><at href="#Jen">Jennifer Heller</a></span></li>
                                         <li><span> &emsp; </span> <span><at href="#Roger">Roger Kennedy</a></span></li>
                                         <li><span> &emsp; </span> <span><a href="#Doug">Doug Kurtze</a></span></li>
