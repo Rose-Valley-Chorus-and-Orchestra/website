@@ -271,7 +271,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <li><a href="/gondoliers/sponsor and ad/SponsorandAdForm-Gondoliers.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the sponsor and ad form">Sponsor and Ad form</a></li>
                                              <li><a href="../grandDuke2026/The Grand Duke - RVCO - rehearsal schedule - Final.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the rehearsal schedule">Rehearsal Schedule (original)</a></li>-->
                                              <li><a href="TGD_Ensemble.php" target="_top" rel="noreferrer noopener" title="Open the Cast List page">Cast emails and phone numbers</a></li>
-                                             <li><a href="../grandDuke2026/artwork/poster/The Grand Duke poster.png" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show poster">Show poster</a></li>
+                                             <li><a href="../grandDuke2026/artwork/poster/The Grand Duke poster.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show poster">Show poster</a></li>
                                           </ul>
 
                                         <!--<p><a href="../gondoliers/pirates platforms.php" target="_top" title="View the set platfrm layuot">Set platform layout</a></p>-->
