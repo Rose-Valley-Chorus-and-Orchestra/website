@@ -194,9 +194,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
      <div id="content">
           <?php include("../howTo2026/sp_announcement.php"); ?>
 
-          <!--<div class="castpageLinks">
-               <a href="../howTo2026/set_designs.php" title="Go to the set design page"><span class="button" style="float:left;">Set Designs</span></a>
-               <div class="dropdown" style="float:left;">
+          <div class="castpageLinks">
+               <a href="DVideo.php" title="Go to the set design page"><span class="button" style="float:left;">Videos</span></a>
+               <!--<div class="dropdown" style="float:left;">
                     <button type="button" class="btn btn-primary dropdown-toggle button" data-bs-toggle="dropdown">Choreography</button>
                     <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="../howTo2026/dance/CoffeBreak.php" style="margin-left: -10px;" title="Go to the Coffee Break choreography page" >Coffee Break</a></li>
@@ -207,9 +207,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <li><a class="dropdown-item" href="../howTo2026/dance/Pirate.php" title="Go to the Pirate Dance choreography page" style="margin-left: -10px;">Pirate Dance</a></li>
                     <li><a class="dropdown-item" href="../howTo2026/dance/Believe.php" title="Go to the I Believe In You choreography page" style="margin-left: -10px;">I Believe In You</a></li>
                     <li><a class="dropdown-item" href="../howTo2026/dance/Brotherhood.php" title="Go to the Brotherhood of Man choreography page" style="margin-left: -10px;">Brotherhood of Man</a></li>
-                    </ul> 
+                    </ul> -->
                </div>
-          </div>-->
+          </div>
                
                <div id="castPage" style="clear: both;">
                     <h1 id="pageName"><i>The Grand Duke</i> Cast Page</h1> 
@@ -271,7 +271,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              <li><a href="/gondoliers/sponsor and ad/SponsorandAdForm-Gondoliers.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the sponsor and ad form">Sponsor and Ad form</a></li>
                                              <li><a href="../grandDuke2026/The Grand Duke - RVCO - rehearsal schedule - Final.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the rehearsal schedule">Rehearsal Schedule (original)</a></li>-->
                                              <li><a href="TGD_Ensemble.php" target="_top" rel="noreferrer noopener" title="Open the Cast List page">Cast emails and phone numbers</a></li>
-                                             <li><a href="../grandDuke2026/artwork/poster/The Grand Duke poster.png" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show poster">Show poster</a></li>
+                                             <li><a href="../grandDuke2026/artwork/poster/The Grand Duke poster.pdf" target="_blank" rel="noreferrer noopener" title="Open a PDF version of the show poster">Show poster</a></li>
                                           </ul>
 
                                         <!--<p><a href="../gondoliers/pirates platforms.php" target="_top" title="View the set platfrm layuot">Set platform layout</a></p>-->
@@ -470,14 +470,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
-                                             <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-                                             </span>                                   
-
-                                        </div>  <!--   id="HideLink"   -->
-                                   </div>  <!-- class="castpageLinks" -->
-                                   <span id="currentDate"></span>
-
-          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                         <div><ul><b>Wednesday September 9</b>: 2 rooms <span style="color: firebrick;">no Peter</span>
                                                        <ul><u>CALLED</u>: Rudolph, Ernest, Notary, Herald, Prince, Pincess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa, Chorus
                                                        </ul>
@@ -559,6 +551,14 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                              </ul>
                                         </div>
 
+                                             <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                                             </span>                                   
+
+                                        </div>  <!--   id="HideLink"   -->
+                                   </div>  <!-- class="castpageLinks" -->
+                                   <span id="currentDate"></span>
+
+          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                         <div><ul><b>Sunday September 20</b>: 2 rooms <span style="color: firebrick;">no Mike</span>
                                                        <ul><u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
                                                        </ul>
@@ -577,7 +577,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Monday September 21</b>: 2 rooms <span style="color: firebrick;">no Mike, Kathy</span>
-                                                       <ul><u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
+                                                       <ul><u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Herald, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>Chorus End of #20 (pp. 301-303-ties into #21)</li>
                                                             <li>Baroness &amp; Chorus #21 (Review or do if not blocked Wed 16)</li>
@@ -593,7 +593,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                         </div>
 
                                         <div><ul><b>Wednesday September 23</b>: 2 rooms
-                                                       <ul><u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
+                                                       <ul><u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Herald, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa</ul>
                                                        <ul><u>BLOCKING:</u>
                                                             <li>Chorus, Ludwig, Julia, Lisa, Olga, Gretchen, Bertha, Elsa 
                                                                  <ol>–  Review #13 &amp; #26</ol>
