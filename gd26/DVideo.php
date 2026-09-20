@@ -206,7 +206,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
           <!-- Begin content masthead -->
           <div id="content">
                <div id="castPage">
-                    <h1 id="pageName"><i>The Gondoliers</i> Cast Video Page</h1> 
+                    <h1 id="pageName"><i>The Grand Duke</i> Video Page</h1> 
 
                          <div class="castpageLinks">
                               <span class="button"><a title="Go to the cast page witht the schedule" href="index.php" style="font-size: 1.2em; color:#EDEDED; padding:13px;">Back to Cast Page</a></span>
