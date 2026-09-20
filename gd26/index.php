@@ -194,9 +194,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
      <div id="content">
           <?php include("../howTo2026/sp_announcement.php"); ?>
 
-          <!--<div class="castpageLinks">
-               <a href="../howTo2026/set_designs.php" title="Go to the set design page"><span class="button" style="float:left;">Set Designs</span></a>
-               <div class="dropdown" style="float:left;">
+          <div class="castpageLinks">
+               <a href="DVideo.php" title="Go to the set design page"><span class="button" style="float:left;">Videos</span></a>
+               <!--<div class="dropdown" style="float:left;">
                     <button type="button" class="btn btn-primary dropdown-toggle button" data-bs-toggle="dropdown">Choreography</button>
                     <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="../howTo2026/dance/CoffeBreak.php" style="margin-left: -10px;" title="Go to the Coffee Break choreography page" >Coffee Break</a></li>
@@ -207,9 +207,9 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     <li><a class="dropdown-item" href="../howTo2026/dance/Pirate.php" title="Go to the Pirate Dance choreography page" style="margin-left: -10px;">Pirate Dance</a></li>
                     <li><a class="dropdown-item" href="../howTo2026/dance/Believe.php" title="Go to the I Believe In You choreography page" style="margin-left: -10px;">I Believe In You</a></li>
                     <li><a class="dropdown-item" href="../howTo2026/dance/Brotherhood.php" title="Go to the Brotherhood of Man choreography page" style="margin-left: -10px;">Brotherhood of Man</a></li>
-                    </ul> 
+                    </ul> -->
                </div>
-          </div>-->
+          </div>
                
                <div id="castPage" style="clear: both;">
                     <h1 id="pageName"><i>The Grand Duke</i> Cast Page</h1> 
