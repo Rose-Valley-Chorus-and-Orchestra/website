@@ -242,6 +242,16 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
             <!-- begin SYNOPSIS HERE -->
                
                <p>An idealistic young King Arthur hopes to create a kingdom built on honor and dignity, embodied by his Knights of The Round Table.  His ideals, however are tested when his lovely queen, Guenevere, falls in love with the young knight, Lancelot, and the fate of the kingdom hangs in the balance.</p>
+         
+                    <div class="viewSynopsis">
+                         <span class="current_castlist">
+                              <span><a href="camelot2027/camelot27cast.php" title="Go to the Camelot cast page">Cast List</a></span>
+                              <!--<span id="ViewSpringSynopsis" class=""><a title="View the synopsis of The Grand Duke"  
+                                        onclick="MM_showHideLayers('ShowSpringSynopsis','','show');MM_changeProp('ShowSpringSynopsis','','height','auto','DIV');MM_changeProp('ShowSpringSynopsis','','width','auto','DIV');MM_changeProp('ViewSpringSynopsis','','height','0px','SPAN');MM_changeProp('ViewSpringSynopsis','','width','0px','SPAN');MM_showHideLayers('ViewSpringSynopsis','','hide');
+                                        " >Synopsis</a></span>
+                              <!--<span><a href="SFfunfacts.php" title="Go to our page with fun facts about State Fair">Fun Facts</a></span>-->
+                    </div>
+         
                          
                <!-- Code a synopsis    
                     <div class="viewSynopsis">

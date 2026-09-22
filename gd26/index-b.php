@@ -205,7 +205,35 @@ function MM_showHideLayers() { //v9.0
                <div id="castPage" style="clear: both;">
                     <h1 id="pageName"><i>The Grand Duke</i> Cast Page</h1> 
 
-                                        
+                    
+               <ul class="nav nav-tabs">
+                 <li class="active"><a data-toggle="tab" href="#home">Schedule</a></li>
+                 <li><a data-toggle="tab" href="#menu1">Videos</a></li>
+                 <li><a data-toggle="tab" href="#menu2">Cast List</a></li>
+                 <li><a data-toggle="tab" href="#menu3">Other</a></li>
+               </ul>
+
+               <div class="tab-content">
+                      <div id="home" class="tab-pane fade in active">
+                             <h3><?php include("GDschedule.php"); ?></h3>
+                      </div>
+                      <div id="menu1" class="tab-pane fade">
+                             <h3>Menu 1</h3>
+                             <div><?php include("video.php"); ?></div>
+                      </div>
+                      <div id="menu2" class="tab-pane fade">
+                             <h3>Cast List</h3>
+                             <div><?php include("TGD_Ensemble.php"); ?></div>
+                      </div>
+                      <div id="menu3" class="tab-pane fade">
+                             <h3>Other</h3>
+                             <p>Some content in menu 2.</p>
+                      </div>
+               </div>
+                    
+     
+                    
+                    
      <p style="clear: both; padding-top: 15px;">If you have not already paid your dues, new and current members can <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them.   If you have any questions, please reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.</p>
 <h2>Vocal Score</h2>
 <div class="Rtimes" style="clear: both; padding-top: 0px;">
@@ -681,54 +709,6 @@ function MM_showHideLayers() { //v9.0
                </ul>
                </ul>
           </div>
-          <div>
-               <ul>
-                    <b>Sunday September 20</b>: 2 rooms<span style="color: firebrick;">no Mike</span>
-                    <ul>
-                         <u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
-                    </ul>
-                    <ul>
-                         <u>BLOCKING:</u>
-                         <ol>
-                              <li>Chorus, Ludwig, Baroness #17</li>
-                              <li>Ludwig, Baroness, Julia<b>J</b>. p. 279, #18</li>
-                              <li>Chorus, Ludwig, Julia, Lisa Review #13</li>
-                              <li>Julie works with Ludwig blocking before adding chorus in #14</li>
-                         </ol>
-                    </ul>
-                    <ul>
-                         <u>MUSIC:</u>
-                         <ol>
-                              A. - C. With blocking.
-                         </ol>
-                         <ol>
-                              D. Florrie works with Chorus #13 &amp; #14 while Julie works with Ludwig before adding Chorus and blocking.
-                         </ol>
-                    </ul>
-               </ul>
-          </div>
-
-          <div>
-               <ul>
-                    <b>Monday September 21</b>: 2 rooms<span style="color: firebrick;">no Mike, Kathy</span>
-                    <ul>
-                         <u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Herald, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
-                    </ul>
-                    <ul>
-                         <u>BLOCKING:</u>
-                         <li>Chorus End of #20 (pp. 301-303-ties into #21)</li>
-                         <li>Baroness &amp; Chorus #21 (Review or do if not blocked Wed 16)</li>
-                         <li>Ludwig &amp; Chorus #22</li>
-                         <li>Herald, Ludwig &amp; Chorus #22 &amp; #23</li>
-                         <li>Ludwig &amp; Chorus #24</li>
-                         <li>Prince, Princess, Costumier, Supernumeraries #25<b>L</b>. p. 335</li>
-                    </ul>
-                    <ul>
-                         <u>MUSIC:</u>
-                         <li>Prince, Princess, Costumier, Supernumeraries #25</li>
-                    </ul>
-               </ul>
-          </div>
           <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
           </span></div>
      <!--   id="HideLink"   -->
@@ -736,6 +716,53 @@ function MM_showHideLayers() { //v9.0
 <!-- class="castpageLinks" -->
 <span id="currentDate"></span>
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+<div>
+     <ul>
+          <b>Sunday September 20</b>: 2 rooms<span style="color: firebrick;">no Mike</span>
+          <ul>
+               <u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
+          </ul>
+          <ul>
+               <u>BLOCKING:</u>
+               <ol>
+                    <li>Chorus, Ludwig, Baroness #17</li>
+                    <li>Ludwig, Baroness, Julia<b>J</b>. p. 279, #18</li>
+                    <li>Chorus, Ludwig, Julia, Lisa Review #13</li>
+                    <li>Julie works with Ludwig blocking before adding chorus in #14</li>
+               </ol>
+          </ul>
+          <ul>
+               <u>MUSIC:</u>
+               <ol>
+                    A. - C. With blocking.
+               </ol>
+               <ol>
+                    D. Florrie works with Chorus #13 &amp; #14 while Julie works with Ludwig before adding Chorus and blocking.
+               </ol>
+          </ul>
+     </ul>
+</div>
+<div>
+     <ul>
+          <b>Monday September 21</b>: 2 rooms<span style="color: firebrick;">no Mike, Kathy</span>
+          <ul>
+               <u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Herald, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
+          </ul>
+          <ul>
+               <u>BLOCKING:</u>
+               <li>Chorus End of #20 (pp. 301-303-ties into #21)</li>
+               <li>Baroness &amp; Chorus #21 (Review or do if not blocked Wed 16)</li>
+               <li>Ludwig &amp; Chorus #22</li>
+               <li>Herald, Ludwig &amp; Chorus #22 &amp; #23</li>
+               <li>Ludwig &amp; Chorus #24</li>
+               <li>Prince, Princess, Costumier, Supernumeraries #25<b>L</b>. p. 335</li>
+          </ul>
+          <ul>
+               <u>MUSIC:</u>
+               <li>Prince, Princess, Costumier, Supernumeraries #25</li>
+          </ul>
+     </ul>
+</div>
 <div>
      <ul>
           <b>Wednesday September 23</b>: 2 rooms
