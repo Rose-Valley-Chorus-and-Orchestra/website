@@ -1,8 +1,8 @@
 <div class="schedule">
 <h2>Schedule</h2>
-<div class="Rtimes"><b>Rehearsal Times:</b>Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
+<div class="Rtimes"><b>Rehearsal Times:&nbsp;</b>Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
      <ul>
-          <li>If you know you will be late, leaving early, or not at rehearsal, please email<a href="mailto:florrie@barks.org,juliecmay@msn.com,?subject=Missing rehearsal">Florrie and Julie</a>.</li>
+          <li>If you know you will be late, leaving early, or not at rehearsal, please email <a href="mailto:florrie@barks.org,juliecmay@msn.com,?subject=Missing rehearsal">Florrie and Julie</a>.</li>
           <li><u>Day of rehearsal</u>, please text Florrie at (610) 453-1407 (cell) or Julie at (610) 564-3544</li>
      </ul>
 </div>
@@ -426,7 +426,7 @@
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
 <div>
      <ul>
-          <b>Sunday September 20</b>: 2 rooms<span style="color: firebrick;">no Mike</span>
+          <b>Sunday September 20</b>: 2 rooms <span style="color: firebrick;">no Mike</span>
           <ul>
                <u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
           </ul>
@@ -452,7 +452,7 @@
 </div>
 <div>
      <ul>
-          <b>Monday September 21</b>: 2 rooms<span style="color: firebrick;">no Mike, Kathy</span>
+          <b>Monday September 21</b>: 2 rooms <span style="color: firebrick;">no Mike, Kathy</span>
           <ul>
                <u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Herald, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
           </ul>
@@ -504,7 +504,7 @@
 <div style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 0px; font-size: 0.85em;text-align: center;"><b>----- EVERYONE is called from this date forward -----</b></div>
 <div>
      <ul>
-          <b>Sunday September 27</b>: 2 rooms<span style="color: firebrick;">(we must be out by 5:00)</span>
+          <b>Sunday September 27</b>: 2 rooms <span style="color: firebrick;">(we must be out by 5:00)</span>
           <ul>
                <u>CALLED</u>: ALL
           </ul>
@@ -522,7 +522,7 @@
 </div>
 <div>
      <ul>
-          <b>Monday September 28</b>: 1 Room #3<span style="color: firebrick;">no Ray</span>
+          <b>Monday September 28</b>: 1 Room #3 <span style="color: firebrick;">no Ray</span>
           <ul>
                <u>CALLED</u>: ALL
           </ul>
@@ -572,15 +572,15 @@
 <div style="color: firebrick;background-color: yellow; padding: 5px 0px 5px 0px; font-size: 0.85em;text-align: center;"><b>----- EVERYONE OFF BOOK -----</b></div>
 <div>
      <ul>
-          <b>Sunday October 11</b>: Auditorium<span style="color: firebrick;">no Mike, Peter</span>
+          <b>Sunday October 11</b>: Auditorium <span style="color: firebrick;">no Mike, Peter</span>
           <ul>
-               Crawl Show -<span style="color: firebrick;">CAN call for lines</span>
+               Crawl Show - <span style="color: firebrick;">CAN call for lines</span>
           </ul>
      </ul>
 </div>
 <div>
      <ul>
-          <b>Monday October 12</b>: 2 rooms<span style="color: firebrick;">no Mike</span>
+          <b>Monday October 12</b>: 2 rooms <span style="color: firebrick;">no Mike</span>
           <ul>
                Run Act 1 or 2 -<span style="color: firebrick;">CAN call for lines</span>
           </ul>
@@ -590,7 +590,7 @@
      <ul>
           <b>Wednesday October 14</b>: 2 rooms
           <ul>
-               Run Act 2 or 1 -<span style="color: firebrick;">LAST TIME calling for lines</span>
+               Run Act 2 or 1 - <span style="color: firebrick;">LAST TIME calling for lines</span>
           </ul>
      </ul>
 </div>
@@ -598,7 +598,7 @@
 <ul>
 <b>Sunday October 18</b>: Auditorium
 <ul>
-Run show -<span style="color: firebrick;">NO LINES CALLED!</span>
+Run show - <span style="color: firebrick;">NO LINES CALLED!</span>
 </div>
 <div>
 <ul>
@@ -621,29 +621,29 @@ Run show -<span style="color: firebrick;">NO LINES CALLED!</span>
      <ul>
           <u>Move-in</u><b>ALL</b>
           <ul style="padding-left:10px;">
-               <li>4:00 pm - 5:30 pm<span style="color: firebrick;">RVCO Firehouse</span>, 184 Bortondale Road, Media</li>
-               <li>5:00 pm - 7:00 pm<span style="color: firebrick;">Strath Haven Middle School (SHMS)</span></li>
+               <li>4:00 pm - 5:30 pm <span style="color: firebrick;">RVCO Firehouse</span>, 184 Bortondale Road, Media</li>
+               <li>5:00 pm - 7:00 pm <span style="color: firebrick;">Strath Haven Middle School (SHMS)</span></li>
           </ul>
      </ul>
 </div>
 <div>
      <ul>
-          <b>Saturday October 24</b>at<span style="color: firebrick;">12:30 p.m. - 3:30 p.m.</span>
+          <b>Saturday October 24 </b>at <span style="color: firebrick;">12:30 p.m. - 3:30 p.m.</span>
           <li>SITZPROBE: Roosevelt Community Center</li>
      </ul>
 </div>
 <div>
      <ul>
-          <b>Sunday October 25</b>(SHMS) at<span style="color: firebrick;">1:00 p.m. – 9:00 p.m.</span>
+          <b>Sunday October 25</b> (SHMS) at <span style="color: firebrick;">1:00 p.m. – 9:00 p.m.</span>
           <li>TECH (schedule may change)</li>
           <li>1:00 p.m. Start: Actors get mikes on and costumes, crew works with the set.</li>
-          <li>2:00 p.m. Costume Parade - bring<b>all</b>your costumes</li>
-          <li>We will aim for having a dinner break around 5:30 - 6 pm, but this is not definite.<u>Please bring food</u>- don't depend on Grub Hub, etc. as they won't always deliver to the school.</li>
+          <li>2:00 p.m. Costume Parade - bring <b>all</b> your costumes</li>
+          <li>We will aim for having a dinner break around 5:30 - 6 pm, but this is not definite.<u>Please bring food</u> - don't depend on Grub Hub, etc. as they won't always deliver to the school.</li>
      </ul>
 </div>
 <div>
      <ul>
-          <b>Monday October 26</b>(SHMS) - tech with piano
+          <b>Monday October 26</b> (SHMS) - tech with piano
           <li>5:00 We can start arriving</li>
           <li>5:30 CALL</li>
           <li>6:45 Mic check</li>
@@ -652,7 +652,7 @@ Run show -<span style="color: firebrick;">NO LINES CALLED!</span>
 </div>
 <div>
      <ul>
-          <b>Tuesday October 27</b>(SHMS) - tech with orchestra
+          <b>Tuesday October 27</b> (SHMS) - tech with orchestra
           <li>5:00 We can start arriving</li>
           <li>5:30 CALL</li>
           <li>6:30 Mic check followed by orchestra warm up</li>
@@ -661,7 +661,7 @@ Run show -<span style="color: firebrick;">NO LINES CALLED!</span>
 </div>
 <div>
      <ul>
-          <b>Wednesday October 28</b>(SHMS) - tech with orchestra (show conditions)
+          <b>Wednesday October 28</b> (SHMS) - tech with orchestra (show conditions)
           <li>5:00 We can start arriving</li>
           <li>5:30 CALL</li>
           <li>6:30 Mic check followed by orchestra warm up</li>
@@ -670,7 +670,7 @@ Run show -<span style="color: firebrick;">NO LINES CALLED!</span>
 </div>
 <div>
      <ul>
-          <b>Saturday October 31</b>(SHMS)
+          <b>Saturday October 31</b> (SHMS)
           <ul>
                <u>2:00 Performance</u>
                <li>11:00 We can start arriving</li>
@@ -686,7 +686,7 @@ Run show -<span style="color: firebrick;">NO LINES CALLED!</span>
 </div>
 <div>
      <ul>
-          <b>Sunday November 1</b>(SHMS)
+          <b>Sunday November 1</b> (SHMS)
           <ul>
                <u>2:00 Performance</u>
                <li>11:00 We can start arriving</li>
@@ -698,7 +698,7 @@ Run show -<span style="color: firebrick;">NO LINES CALLED!</span>
 </div>
 <div>
      <ul>
-          <b>Wednesday November 4</b>(SHMS)
+          <b>Wednesday November 4</b> (SHMS)
           <ul>
                <u>7:30 Performance</u>
                <li>5:00 We can start arriving</li>
@@ -710,7 +710,7 @@ Run show -<span style="color: firebrick;">NO LINES CALLED!</span>
 </div>
 <div>
      <ul>
-          <b>Saturday November 7</b>(SHMS)
+          <b>Saturday November 7</b> (SHMS)
           <ul>
                <u>2:00 Performance</u>
                <li>11:00 We can start arriving</li>
