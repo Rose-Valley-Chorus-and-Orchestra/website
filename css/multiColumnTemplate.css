@@ -763,7 +763,8 @@ padding-left: 0.33em;
 background: white;
 }     
      
-.lighter {filter: brightness(150%);}     
+.lighter {filter: brightness(150%);}
+.lighten {filter: brightness(125%);}
 .listing {margin: 0 40px 0;} 
 .listing li {line-height: 180%;}     
 .castlistBig {display: block;}

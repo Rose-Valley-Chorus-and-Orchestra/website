@@ -273,11 +273,13 @@ function MM_showHideLayers() { //v9.0
                               <div id="ViewDays" style="display:inline;"><a href="#pastDays" title="View ALL rehearsal dates" onclick="
                                                                                 MM_changeProp('HideLink','','display','inline','DIV');
                                                                                 MM_changeProp('ViewDays','','display','none','DIV');
-                                                                                                         " >View All rehearsal dates and information</a></div>
+                                                                                                         " >View All rehearsal dates and information</a>
+                              </div>
                               <div id="HideLink" style="display:none;"><a href="#currentDate" title="Hide past rehearsal dates" onclick="
                                                                                 MM_changeProp('HideLink','','display','none','DIV');
                                                                                 MM_changeProp('ViewDays','','display','inline','DIV');
                                                                                                 " alt="Hide past rehearsal dates">Hide past rehearsal dates</a>
+                              </div>
                                    <div><a href="#currentDate" style="">Go to current date</a></div>
                                    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                    <span id="pastDays">
@@ -762,6 +764,7 @@ function MM_showHideLayers() { //v9.0
                               </div> <!--   id="HideLink"   -->
 
                          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                         <span id="currentDate"></span>
                          <div style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 0px; font-size: 0.85em;text-align: center;"><b>----- EVERYONE is called from this date forward -----</b></div>
                          <div>
                               <ul>

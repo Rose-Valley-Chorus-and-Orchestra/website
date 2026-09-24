@@ -218,20 +218,20 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                               <div class="feature">
                                    <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">#13a: As before you we defile</b>
                                         <div style="margin: 10px 0 10px 50px;">September 20</div>
-                                        <ul><span class="button"><a href="archive.rvco.org/past_shows/grandDuke2026/dvideos/No 13a.mov" download title="download the Croise dance step video">Download</a></span></ul>
+                                        <ul><span class="button"><a href="archive.rvco.org/past_shows/grandDuke2026/dvideos/No 13a.mov" download title="download the Number 13a: As before you we defile video">Download</a></span></ul>
                                         <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/GsYY6Snjsqs" title="No. 13a: As before you we defile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
                                    </div>                                
                     
                                    <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 13b: As before you we defile</b>
                                         <div style="margin: 10px 0 10px 50px;">September 20</div>
-                                        <ul><span class="button"><a href="archive.rvco.org/past_shows//grandDuke2026/dvideos/No 13b.mov" download title="download the Front Open sway dance step video" name="step2">Download</a></span></ul>
+                                        <ul><span class="button"><a href="archive.rvco.org/past_shows//grandDuke2026/dvideos/No 13b.mov" download title="download the Number 13b: As before you we defile video step video" name="step2">Download</a></span></ul>
                                         <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/HiVyQSm07ew" title="No 13b: As before you we defile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
                                    </div>  
                                       
-                                   <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 13c: As before you we defile</b>
+                                   <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 14: At the outset I may mention</b>
                                         <div style="margin: 10px 0 10px 50px;">September 23</div>
-                                        <ul><span class="button"><a href="archive.rvco.org/past_shows//grandDuke2026/dvideos/No 13c.mov" download title="download the Front Open sway dance step video" name="step2">Download</a></span></ul>
-                                        <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/ul8wQgL6qoI" title="No 13c: As before you we defile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
+                                        <ul><span class="button"><a href="archive.rvco.org/past_shows//grandDuke2026/dvideos/No 13c.mov" download title="download the Number 14: At the outset I may mention" name="step2">Download</a></span></ul>
+                                        <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/ul8wQgL6qoI" title="No 14: At the outset I may mention" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
 
                                    </div>  
  
