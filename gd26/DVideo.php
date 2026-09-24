@@ -231,7 +231,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                    <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 13c: As before you we defile</b>
                                         <div style="margin: 10px 0 10px 50px;">September 23</div>
                                         <ul><span class="button"><a href="archive.rvco.org/past_shows//grandDuke2026/dvideos/No 13c.mov" download title="download the Front Open sway dance step video" name="step2">Download</a></span></ul>
-                                        <ul><iframe width="1529" height="860" src="https://youtu.be/ul8wQgL6qoI" title="No 13c: As before you we defile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
+                                        <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/ul8wQgL6qoI" title="No 13c: As before you we defile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
+
                                    </div>  
  
 <!--                                   <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">Dance a Cachucha</b></br></br>
