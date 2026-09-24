@@ -200,62 +200,65 @@ function MM_showHideLayers() { //v9.0
                     <li><a class="dropdown-item" href="../howTo2026/dance/Brotherhood.php" title="Go to the Brotherhood of Man choreography page" style="margin-left: -10px;">Brotherhood of Man</a></li>
                     </ul> -->
           </div>
-     </div>
                
-     <div id="castPage" style="clear: both;">
-          <h1 id="pageName"><i>The Grand Duke</i> Cast Page</h1> 
+          <div id="castPage" style="clear: both;">
+               <h1 id="pageName"><i>The Grand Duke</i> Cast Page</h1> 
 
-                    
-          <ul class="nav nav-tabs">
-            <li id="tab0" style="display: inline;" class="active"><a data-toggle="tab" href="#home">Schedule</a></li>
-            <li id="tab1"><a ddddata-toggle="tab" href="#menu1" onclick="
-                                                  MM_changeProp('tab0','','class','none','LI');
-                                                  MM_changeProp('tab1','','class','active','LI');
-                                                  MM_changeProp('tab2','','class','','LI');
-                                                  MM_changeProp('tab3','','class','','LI');
-                                     MM_changeProp('home','','display','none','DIV');
-                                     MM_changeProp('menu1','','dsiplay','inline','DIV');
-                                     MM_changeProp('menu2','','display','none','DIV');
-                                     MM_changeProp('menu3','','display','none','DIV');
-                                     ">Videos</a></li>
-            <li id="tab2"><a ddddata-toggle="tab" href="#menu2" onclick="
-                                                  MM_changeProp('tab0','','display','none','LI');
-                                                  MM_changeProp('tab1','','class','','LI');
-                                                  MM_changeProp('tab2','','class','active','LI');
-                                                  MM_changeProp('tab3','','class','','LI');
-                                     MM_changeProp('home','','display','none','DIV');
-                                     MM_changeProp('menu1','','dsiplay','none','DIV');
-                                     MM_changeProp('menu2','','display','inline','DIV');
-                                     MM_changeProp('menu3','','display','none','DIV');
-                                     ">Cast List</a></li>
-            <li id="tab3"><a data-toggle="tab" href="#menu3">Other</a></li>
-          </ul>
 
-          <div class="tab-content">
-                 <div id="home" class="tab-pane fade in active" style="display: inline;">
-                        <?php include("GDschedule.php"); ?>
-                 </div>
-                 <div id="menu1" class="tab-pane fade" style="display: none;">
-                        <h3>Menu 1</h3>
-                        <div><?php include("video.php"); ?></div>
-                 </div>
-                 <div id="menu2" class="tab-pane fade" style="display: none;">
-                        <h3>Cast List</h3>
-                        <div><?php include("TGD_Ensemble.php"); ?></div>
-                 </div>
-                 <div id="menu3" class="tab-pane fade" style="display: none;">
-                        <h3>Other</h3>
-                        <p>Some content in menu 2.</p>
-                 </div>
+               <ul class="nav nav-tabs">
+                      <li id="tab0" style="display: inline;" class="active"><a href="#home">Schedule</a></li>
+                      <li id="tab00" style="display: none;"><a href="#home">Schedule</a></li>     
+                      <li id="tab1"><a href="#menu1" onclick="
+                                                            MM_changeProp('tab0','','display','none','LI');
+                                                            MM_changeProp('tab1','','display','inline','LI');
+                                                            MM_changeProp('tab2','','display','none','LI');
+                                                            MM_changeProp('tab3','','display','none','LI');
+                                                            MM_changeProp('tab00','','display','none','LI');
+                                                            MM_changeProp('tab10','','display','inline','LI');
+                                                            MM_changeProp('tab20','','display','none','LI');
+                                                            MM_changeProp('tab30','','display','none','LI');
+                                               MM_changeProp('home','','display','none','DIV');
+                                               MM_changeProp('menu1','','dsiplay','inline','DIV');
+                                               MM_changeProp('menu2','','display','none','DIV');
+                                               MM_changeProp('menu3','','display','none','DIV');
+                                               ">Videos</a></li>
+                      <li id="tab10" style="display: none;" class="active"><a data-toggle="tab" href="#home">Videos</a></li>
+                      <li id="tab2"><a data-toggle="tab" href="#menu2" onclick="
+                                                            MM_changeProp('tab0','','display','none','LI');
+                                                            MM_changeProp('tab1','','class','','LI');
+                                                            MM_changeProp('tab2','','class','active','LI');
+                                                            MM_changeProp('tab3','','class','','LI');
+                                               MM_changeProp('home','','display','none','DIV');
+                                               MM_changeProp('menu1','','dsiplay','none','DIV');
+                                               MM_changeProp('menu2','','display','inline','DIV');
+                                               MM_changeProp('menu3','','display','none','DIV');
+                                               ">Cast List</a></li>
+                      <li id="tab3"><a data-toggle="tab" href="#menu3">Other</a></li>
+               </ul>
+
+               <div class="tab-content">
+                      <div id="home" style="display: none;">
+                             <?php include("GDschedule.php"); ?>
+                      </div>
+                      <div id="menu1" style="display: inline;">
+                             <h3>Menu 1</h3>
+                             <div><?php include("video.php"); ?></div>
+                      </div>
+                      <div id="menu2" style="display: none;">
+                             <h3>Cast List</h3>
+                             <div><?php include("TGD_Ensemble.php"); ?></div>
+                      </div>
+                      <div id="menu3" style="display: none;">
+                             <h3>Other</h3>
+                             <p>Some content in menu 2.</p>
+                      </div>
+               </div>
+
+
+
+
           </div>
-                    
-     
-                    
-                    
-     </div>
 
-<!--ends class="schedule" -->
-</div>
 <!--ends class="feature" -->
 </div>
 <!--ends id="castPage" -->
