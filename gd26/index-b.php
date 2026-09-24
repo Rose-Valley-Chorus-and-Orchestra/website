@@ -207,23 +207,24 @@ function MM_showHideLayers() { //v9.0
 
                     
                <ul class="nav nav-tabs">
-                 <li id="tab0" class="active"><a data-toggle="tab" href="#home">Schedule</a></li>
+                 <li id="tab0" style="display: inline;" class="active"><a data-toggle="tab" href="#home">Schedule</a></li>
                  <li id="tab1"><a data-toggle="tab" href="#menu1" onclick="
-                                                       MM_changeProp('tab0','','class','','ID');
-                                                       MM_changeProp('tab1','','class','active','ID');
-                                                       MM_changeProp('tab2','','class','','ID');
-                      MM_changeProp('home','','display','none','DIV');
-                      MM_changeProp('menu1','','display','inline','DIV');
-                      MM_changeProp('menu2','','display','none','DIV');
-                      MM_changeProp('menu3','','display','none','DIV');
-                                                                                ">Videos</a></li>
-                 <li id="tab1"><a data-toggle="tab" href="#menu2">Cast List</a></li>
-                 <li id="tab1"><a data-toggle="tab" href="#menu3">Other</a></li>
+                                                       MM_changeProp('tab0','','display','none','LI');
+                                                       MM_changeProp('tab1','','class','active','LI');
+                                                       MM_changeProp('tab2','','class','','LI');
+                                                       MM_changeProp('tab3','','class','','LI');
+                                          MM_changeProp('home','','display','none','DIV');
+                                          MM_changeProp('menu1','','dsiplay','inline','DIV');
+                                          MM_changeProp('menu2','','display','none','DIV');
+                                          MM_changeProp('menu3','','display','none','DIV');
+                                          ">Videos</a></li>
+                 <li id="tab2"><a data-toggle="tab" href="#menu2">Cast List</a></li>
+                 <li id="tab3"><a data-toggle="tab" href="#menu3">Other</a></li>
                </ul>
 
                <div class="tab-content">
-                      <div id="home" class="tab-pane fade in active">
-                             <h3><?php include("GDschedule.php"); ?></h3>
+                      <div id="home" class="tab-pane fade in active" style="display: inline;">
+                             <?php include("GDschedule.php"); ?>
                       </div>
                       <div id="menu1" class="tab-pane fade" style="display: none;">
                              <h3>Menu 1</h3>
