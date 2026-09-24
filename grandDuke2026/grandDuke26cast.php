@@ -104,8 +104,8 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                <div class="castList_show_img"><img class="img-responsive" src="artwork/logo/GrandDuke-logo-squarish@600w.webp" name="The Grand Duke" title="TThe Grand Duke logo" hspace="20" vspace="5" /></div>
                <h2 id="top" class="storyHead">Directors</h2>
                          <ul class="listing">
-                              <li><span>Stage Director</span> <span><at href="#ChrisF">Julie May</a></span></li>
-                              <li><span>Music Director</span> <span><at href="#Florrie">Florrie Marks</a></span></li>
+                              <li><span>Stage Director</span> <span><a href="#ChrisF">Julie May</a></span></li>
+                              <li><span>Music Director</span> <span><a href="#Florrie">Florrie Marks</a></span></li>
                               <li><span>Choreographer</span> <span><at href="#Caity">Susan Greene</a></li>
                          </ul>
 
