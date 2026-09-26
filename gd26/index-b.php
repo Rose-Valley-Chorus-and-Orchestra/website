@@ -260,7 +260,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                MM_changeProp('menu2','','display','inline','DIV');
                                                MM_changeProp('menu3','','display','none','DIV');
                                                ">Cast List</a></li>
-                    <li id="tab3" style="display: none;" class="active"><a href="#home">Other</a></li>
+                    <li id="tab3" style="display: none;" class="active"><a href="#home">More Info</a></li>
                     <li id="tab30" style="display: inline;"><a href="#menu3" onclick="
                                                             MM_changeProp('tab0','','display','none','LI');
                                                             MM_changeProp('tab1','','display','none','LI');
@@ -288,8 +288,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                              <?php include("Ensemble.php"); ?>
                       </div>
                       <div id="menu3" style="display: none;">
-                             <h3>Other</h3>
-                             <p>Some content in menu 2.</p>
+                             <?php include("GD_other.php"); ?>
                       </div>
                </div>
 
