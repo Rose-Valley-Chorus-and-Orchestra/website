@@ -18,6 +18,26 @@
 <link href="https://www.rvco.org/css/multiColumn_Min1001.css" rel="stylesheet" type="text/css">
 </head>
 <script src="//use.edgefonts.net/calligraffitti;chewy;handlee;indie-flower.js"></script> 	
+<script type="text/javascript">
+<!--
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+function MM_changeProp(objId,x,theProp,theValue) { //v9.0
+  var obj = null; with (document){ if (getElementById)
+  obj = getElementById(objId); }
+  if (obj){
+    if (theValue == true || theValue == false)
+      eval("obj.style."+theProp+"="+theValue);
+    else eval("obj.style."+theProp+"='"+theValue+"'");
+  }
+}
+//-->
+</script>
 <style type="text/css">
 .schedule td {
      border: 1px solid;
@@ -279,7 +299,7 @@ function MM_showHideLayers() { //v9.0
                                                                                 MM_changeProp('HideLink','','display','none','DIV');
                                                                                 MM_changeProp('ViewDays','','display','inline','DIV');
                                                                                                 " alt="Hide past rehearsal dates">Hide past rehearsal dates</a>
-                              </div>
+                              <!--</div>-->
                                    <div><a href="#currentDate" style="">Go to current date</a></div>
                                    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                    <span id="pastDays">
@@ -730,37 +750,37 @@ function MM_showHideLayers() { //v9.0
                                              </ul>
                                         </div>
                                         <div>
-                                        <ul>
-                                             <b>Wednesday September 23</b>: 2 rooms
                                              <ul>
-                                                  <u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Herald, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
+                                                  <b>Wednesday September 23</b>: 2 rooms
+                                                  <ul>
+                                                       <u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Herald, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
+                                                  </ul>
+                                                  <ul>
+                                                       <u>BLOCKING:</u>
+                                                       <li>Chorus, Ludwig, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
+                                                            <ol>
+                                                                 –  Review #13 &amp; #26
+                                                            </ol>
+                                                       </li>
+                                                       <li>Prince, Princess, Nobles, Costumier, Supernumeraries
+                                                            <ol>
+                                                                 –  #25,<b>L</b>. p335 REVIEW THESE OR FINISH AS NEEDED
+                                                            </ol>
+                                                       </li>
+                                                       <!-- <li>Ludwig &amp; Chorus #24</li>-->
+                                                  </ul>
+                                                  <ul>
+                                                       <u>MUSIC:</u>
+                                                       <li>Prince, Princess, Nobles, Costumier, Supernumeraries
+                                                            <ol>
+                                                                 –  #25 review
+                                                            </ol>
+                                                       </li>
+                                                  </ul>
                                              </ul>
-                                             <ul>
-                                                  <u>BLOCKING:</u>
-                                                  <li>Chorus, Ludwig, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
-                                                       <ol>
-                                                            –  Review #13 &amp; #26
-                                                       </ol>
-                                                  </li>
-                                                  <li>Prince, Princess, Nobles, Costumier, Supernumeraries
-                                                       <ol>
-                                                            –  #25,<b>L</b>. p335 REVIEW THESE OR FINISH AS NEEDED
-                                                       </ol>
-                                                  </li>
-                                                  <!-- <li>Ludwig &amp; Chorus #24</li>-->
-                                             </ul>
-                                             <ul>
-                                                  <u>MUSIC:</u>
-                                                  <li>Prince, Princess, Nobles, Costumier, Supernumeraries
-                                                       <ol>
-                                                            –  #25 review
-                                                       </ol>
-                                                  </li>
-                                             </ul>
-                                        </ul>
                                    </div>
-                          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates above XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-                                   </span>
+                          
+                                   </span> <!-- XXXX past rehearsal dates above XXX-->
                               </div> <!--   id="HideLink"   -->
 
                          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
