@@ -98,41 +98,43 @@ iframe {width: 600px; height: 337.5px;}
 </style>
 
 
+<h2>Videos</h2>
+<div id="Movie">
+     <div class="feature">
+          <!--<div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">#13a: As before you we defile</b>
+               <div style="margin: 10px 0 10px 50px;">September 20</div>
+               <ul><span class="button"><a href="archive.rvco.org/past_shows/grandDuke2026/dvideos/No 13a.mov" download title="download the Number 13a: As before you we defile video">Download</a></span></ul>
+               <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/GsYY6Snjsqs" title="No. 13a: As before you we defile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
+          </div>                                
 
-     <div id="Movie">
-          <div class="feature">
-               <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">#13a: As before you we defile</b></br></br>
-                    <ul><span class="button"><a href="../grandDuke2026/dvideos/No 13a.mov" download title="download the Croise dance step video">Download</a></span></ul>
-                    <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/GsYY6Snjsqs" title="No. 13a: As before you we defile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
-               </div>                                
+          <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 13b: As before you we defile</b>
+               <div style="margin: 10px 0 10px 50px;">September 20</div>
+               <ul><span class="button"><a href="archive.rvco.org/past_shows//grandDuke2026/dvideos/No 13b.mov" download title="download the Number 13b: As before you we defile video step video" name="step2">Download</a></span></ul>
+               <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/HiVyQSm07ew" title="No 13b: As before you we defile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
+          </div>-->  
 
-               <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 13b: As before you we defile</b></br></br>
-                    <ul><span class="button"><a href="../grandDuke2026/dvideos/No 13b.mov" download title="download the Front Open sway dance step video" name="step2">Download</a></span></ul>
-                    <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/HiVyQSm07ew" title="No 13b: As before you we defile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
-               </div>  
+          <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 14: At the outset I may mention</b>
+               <div style="margin: 10px 0 10px 50px;">September 23</div>
+               <ul><span class="button"><a href="archive.rvco.org/past_shows//grandDuke2026/dvideos/No 13c.mov" download title="download the Number 14: At the outset I may mention" name="step2">Download</a></span></ul>
+               <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/ul8wQgL6qoI" title="No 14: At the outset I may mention" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
 
+          </div>  
 
-<!--                    
-               <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">Back-to-Back Turning Step</b></br></br>
-                    <ul><span class="button"><a href="dvideos/Back-to-Back Turning step.mp4" download title="download the Back-to-Back Turning Step video" name="Croise step">Download</a></span></ul>
-                    <ul><iframe class="upright" src="https://www.youtube.com/embed/t6cb7oyuxBs" title="Back-to-Back Turning Step" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
-               </div>  
-
-               <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">Dance a Cachucha</b></br></br>
-                    <ul><span class="button"><a href="dvideos/Back-to-Back Turning step.mp4" download title="download the Dance a Cachucha video" name="Ioway stomp">Download</a></span></ul>
-                    <ul><iframe class="upright" src="https://www.youtube.com/embed/xr3AxbyzGxk" title="Dance a Cachucha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
-               </div>  
+<!--                                   <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">Dance a Cachucha</b></br></br>
+               <ul><span class="button"><a href="dvideos/Back-to-Back Turning step.mp4" download title="download the Dance a Cachucha video" name="Ioway stomp">Download</a></span></ul>
+               <ul><iframe class="upright" src="https://www.youtube.com/embed/xr3AxbyzGxk" title="Dance a Cachucha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
+          </div>  
 
 -->     
 
 
 
-          </div>
+     </div> <!-- end class="feature" --> 
 
-          <p style="clear: both;">If you have issues with the videos buffering, you will need to download them by using the download button.&nbsp; This is more likely to happen on your phone or tablet or if you computer is connect to the internet via Wi-Fi. <br /></b>Any questions or problem, please reach out to Bill: <a href="mailto:webmaster@rvco.org>subject=State Fair Video" title="Send the webmaster about a problem with a video">webmaster@rvco.org</a>.</p>
+     <p style="clear: both;">If you have issues with the videos buffering, you will need to download them by using the download button.&nbsp; This is more likely to happen on your phone or tablet or if you computer is connect to the internet via Wi-Fi. <br /></b>Any questions or problem, please reach out to Bill: <a href="mailto:webmaster@rvco.org>subject=State Fair Video" title="Send the webmaster about a problem with a video">webmaster@rvco.org</a>.</p>
 
 
-                         <!--    ut past rehearsal above here      -->                                                                                                    
-     </div>                                                                                                           
 
+</div> <!-- end id="Movie" -->                                                                                                          
+                                                                                                           
 

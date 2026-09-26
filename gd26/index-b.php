@@ -155,8 +155,17 @@ function MM_showHideLayers() { //v9.0
     if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
     obj.visibility=v; }
 }
+function MM_changeProp(objId,x,theProp,theValue) { //v9.0
+  var obj = null; with (document){ if (getElementById)
+  obj = getElementById(objId); }
+  if (obj){
+    if (theValue == true || theValue == false)
+      eval("obj.style."+theProp+"="+theValue);
+    else eval("obj.style."+theProp+"='"+theValue+"'");
+  }
+}
 //-->
-</script>    
+</script>
     
     
 <body>
@@ -184,7 +193,6 @@ function MM_showHideLayers() { //v9.0
           <!-- Begin content masthead -->
      <div id="content">
           <?php include("../howTo2026/sp_announcement.php"); ?>
-
           <div class="castpageLinks">
                <a href="DVideo.php" title="Go to the set design page"><span class="button" style="float:left;">Videos</span></a>
                <!--<div class="dropdown" style="float:left;">
@@ -207,46 +215,77 @@ function MM_showHideLayers() { //v9.0
 
                <ul class="nav nav-tabs">
                       <li id="tab0" style="display: inline;" class="active"><a href="#home">Schedule</a></li>
-                      <li id="tab00" style="display: none;"><a href="#home">Schedule</a></li>     
-                      <li id="tab1"><a href="#menu1" onclick="
-                                                            MM_changeProp('tab0','','display','none','LI');
-                                                            MM_changeProp('tab1','','display','inline','LI');
+                      <li id="tab00" style="display: none;"><a href="#home" onclick="
+                                                            MM_changeProp('tab0','','display','inline','LI');
+                                                            MM_changeProp('tab1','','display','none','LI');
                                                             MM_changeProp('tab2','','display','none','LI');
                                                             MM_changeProp('tab3','','display','none','LI');
                                                             MM_changeProp('tab00','','display','none','LI');
                                                             MM_changeProp('tab10','','display','inline','LI');
-                                                            MM_changeProp('tab20','','display','none','LI');
-                                                            MM_changeProp('tab30','','display','none','LI');
+                                                            MM_changeProp('tab20','','display','inline','LI');
+                                                            MM_changeProp('tab30','','display','inline','LI');
+                                               MM_changeProp('home','','display','inline','DIV');
+                                               MM_changeProp('menu1','','dsiplay','none','DIV');
+                                               MM_changeProp('menu2','','display','none','DIV');
+                                               MM_changeProp('menu3','','display','none','DIV');
+                                               ">Schedule</a></li>     
+                    <li id="tab1" style="display: none;" class="active"><a href="#home">Videos</a></li>
+                    <li id="tab10" style="display: inline;"><a href="#menu1" onclick="
+                                                            MM_changeProp('tab0','','display','none','LI');
+                                                            MM_changeProp('tab1','','display','inline','LI');
+                                                            MM_changeProp('tab2','','display','none','LI');
+                                                            MM_changeProp('tab3','','display','none','LI');
+                                                            MM_changeProp('tab00','','display','inline','LI');
+                                                            MM_changeProp('tab10','','display','none','LI');
+                                                            MM_changeProp('tab20','','display','inline','LI');
+                                                            MM_changeProp('tab30','','display','inline','LI');
                                                MM_changeProp('home','','display','none','DIV');
                                                MM_changeProp('menu1','','dsiplay','inline','DIV');
                                                MM_changeProp('menu2','','display','none','DIV');
                                                MM_changeProp('menu3','','display','none','DIV');
                                                ">Videos</a></li>
-                      <li id="tab10" style="display: none;" class="active"><a data-toggle="tab" href="#home">Videos</a></li>
-                      <li id="tab2"><a data-toggle="tab" href="#menu2" onclick="
+
+                      <li id="tab2" style="display: none;" class="active"><a href="#home">Cast List</a></li>
+                      <li id="tab20" style="display: inline;"><a href="#menu2" onclick="
                                                             MM_changeProp('tab0','','display','none','LI');
-                                                            MM_changeProp('tab1','','class','','LI');
-                                                            MM_changeProp('tab2','','class','active','LI');
-                                                            MM_changeProp('tab3','','class','','LI');
+                                                            MM_changeProp('tab1','','display','none','LI');
+                                                            MM_changeProp('tab2','','display','inline','LI');
+                                                            MM_changeProp('tab3','','display','none','LI');
+                                                            MM_changeProp('tab00','','display','inline','LI');
+                                                            MM_changeProp('tab10','','display','inline','LI');
+                                                            MM_changeProp('tab20','','display','none','LI');
+                                                            MM_changeProp('tab30','','display','inline','LI');
                                                MM_changeProp('home','','display','none','DIV');
                                                MM_changeProp('menu1','','dsiplay','none','DIV');
                                                MM_changeProp('menu2','','display','inline','DIV');
                                                MM_changeProp('menu3','','display','none','DIV');
                                                ">Cast List</a></li>
-                      <li id="tab3"><a data-toggle="tab" href="#menu3">Other</a></li>
+                    <li id="tab3" style="display: none;" class="active"><a href="#home">Other</a></li>
+                    <li id="tab30" style="display: inline;"><a href="#menu3" onclick="
+                                                            MM_changeProp('tab0','','display','none','LI');
+                                                            MM_changeProp('tab1','','display','none','LI');
+                                                            MM_changeProp('tab2','','display','none','LI');
+                                                            MM_changeProp('tab3','','display','inline','LI');
+                                                            MM_changeProp('tab00','','display','inline','LI');
+                                                            MM_changeProp('tab10','','display','inline','LI');
+                                                            MM_changeProp('tab20','','display','inline','LI');
+                                                            MM_changeProp('tab30','','display','none','LI');
+                                               MM_changeProp('home','','display','none','DIV');
+                                               MM_changeProp('menu1','','dsiplay','none','DIV');
+                                               MM_changeProp('menu2','','display','none','DIV');
+                                               MM_changeProp('menu3','','display','inline','DIV');
+                                               ">Other</a></li>
                </ul>
 
                <div class="tab-content">
-                      <div id="home" style="display: none;">
+                      <div id="home" style="display: inline;">
                              <?php include("GDschedule.php"); ?>
                       </div>
-                      <div id="menu1" style="display: inline;">
-                             <h3>Menu 1</h3>
-                             <div><?php include("video.php"); ?></div>
+                      <div id="menu1" style="display: none;">
+                             <?php include("video.php"); ?>
                       </div>
                       <div id="menu2" style="display: none;">
-                             <h3>Cast List</h3>
-                             <div><?php include("TGD_Ensemble.php"); ?></div>
+                             <?php include("Ensemble.php"); ?>
                       </div>
                       <div id="menu3" style="display: none;">
                              <h3>Other</h3>
@@ -257,16 +296,12 @@ function MM_showHideLayers() { //v9.0
 
 
 
-          </div>
+          </div> <!--ends id="castPage" -->
 
-<!--ends class="feature" -->
-</div>
-<!--ends id="castPage" -->
-</div>
-<!--ends id="content" -->
-<!--end content -->
-</div>
-<!--ends class="container" -->
+     </div> <!--ends id="content" -->
+
+</div> <!--ends class="container" --> 
+
 <div>
      <footer class="secondary_header, footer">
           <div class="copyright">
