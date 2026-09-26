@@ -240,7 +240,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                             MM_changeProp('tab20','','display','inline','LI');
                                                             MM_changeProp('tab30','','display','inline','LI');
                                                MM_changeProp('home','','display','none','DIV');
-                                               MM_changeProp('menu1','','dsiplay','inline','DIV');
+                                               MM_changeProp('menu1','','display','inline','DIV');
                                                MM_changeProp('menu2','','display','none','DIV');
                                                MM_changeProp('menu3','','display','none','DIV');
                                                ">Videos</a></li>
