@@ -779,31 +779,32 @@ function MM_showHideLayers() { //v9.0
                                                   </ul>
                                              </ul>
                                    </div>
+                                   <div style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 0px; font-size: 0.85em;text-align: center;"><b>----- EVERYONE is called from this date forward -----</b></div>
+                                   <div>
+                                        <ul>
+                                             <b>Sunday September 27</b>: 2 rooms <span style="color: firebrick;"> (we must be out by 5:00)</span>
+                                             <ul>
+                                                  <u>CALLED</u>: ALL
+                                             </ul>
+                                             <ul>
+                                                  <u>BLOCKING:</u>
+                                                  <li>Rudolph, Ludwig <b>H</b>. pp. 153-154</li>
+                                                  <li>Ernest, Notary, Rudolph #28, #28a, <b>O</b>. p. 367</li>
+                                                  <li>ALL <b>M</b>. p.341, #27, <b>N</b>. p.351, #28, #28a, #29</li>
+                                             </ul>
+                                             <ul>
+                                                  <u>MUSIC:</u>
+                                                  <li>Chorus #27, #28, #28a, #29</li>
+                                             </ul>
+                                        </ul>
+                                   </div>
                           
                                    </span> <!-- XXXX past rehearsal dates above XXX-->
                               </div> <!--   id="HideLink"   -->
 
                          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                          <span id="currentDate"></span>
-                         <div style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 0px; font-size: 0.85em;text-align: center;"><b>----- EVERYONE is called from this date forward -----</b></div>
-                         <div>
-                              <ul>
-                                   <b>Sunday September 27</b>: 2 rooms <span style="color: firebrick;"> (we must be out by 5:00)</span>
-                                   <ul>
-                                        <u>CALLED</u>: ALL
-                                   </ul>
-                                   <ul>
-                                        <u>BLOCKING:</u>
-                                        <li>Rudolph, Ludwig <b>H</b>. pp. 153-154</li>
-                                        <li>Ernest, Notary, Rudolph #28, #28a, <b>O</b>. p. 367</li>
-                                        <li>ALL <b>M</b>. p.341, #27, <b>N</b>. p.351, #28, #28a, #29</li>
-                                   </ul>
-                                   <ul>
-                                        <u>MUSIC:</u>
-                                        <li>Chorus #27, #28, #28a, #29</li>
-                                   </ul>
-                              </ul>
-                         </div>
+
                          <div>
                               <ul>
                                    <b>Monday September 28</b>: 1 Room #3 <span style="color: firebrick;">no Ray</span>
