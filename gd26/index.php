@@ -304,8 +304,7 @@ function MM_showHideLayers() { //v9.0
                                    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                                    <span id="pastDays">
                                         <div>
-                                             <ul>
-                                                  <b>Wednesday August 19</b>: 2 rooms
+                                             <ul><b>Wednesday August 19</b>: 2 rooms
                                                   <ul class="day">
                                                        <u>CALLED</u>: Rudolph, Ernest, Ludwig, Notary, Prince, Princess, Baroness, Julia, Lisa
                                                   </ul>
@@ -727,7 +726,6 @@ function MM_showHideLayers() { //v9.0
                                                   </ul>
                                              </ul>
                                         </div>
-
                                         <div>
                                              <ul>
                                                   <b>Monday September 21</b>: 2 rooms<span style="color: firebrick;">no Mike, Kathy</span>
@@ -779,48 +777,48 @@ function MM_showHideLayers() { //v9.0
                                                   </ul>
                                              </ul>
                                    </div>
-                                   <div style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 0px; font-size: 0.85em;text-align: center;"><b>----- EVERYONE is called from this date forward -----</b></div>
-                                   <div>
-                                        <ul>
-                                             <b>Sunday September 27</b>: 2 rooms <span style="color: firebrick;"> (we must be out by 5:00)</span>
+                                        <div style="color: firebrick; background-color:lemonchiffon ; padding: 5px 0px 5px 0px; font-size: 0.85em;text-align: center;"><b>----- EVERYONE is called from this date forward -----</b></div>
+                                        <div>
                                              <ul>
-                                                  <u>CALLED</u>: ALL
+                                                  <b>Sunday September 27</b>: 2 rooms <span style="color: firebrick;"> (we must be out by 5:00)</span>
+                                                  <ul>
+                                                       <u>CALLED</u>: ALL
+                                                  </ul>
+                                                  <ul>
+                                                       <u>BLOCKING:</u>
+                                                       <li>Rudolph, Ludwig <b>H</b>. pp. 153-154</li>
+                                                       <li>Ernest, Notary, Rudolph #28, #28a, <b>O</b>. p. 367</li>
+                                                       <li>ALL <b>M</b>. p.341, #27, <b>N</b>. p.351, #28, #28a, #29</li>
+                                                  </ul>
+                                                  <ul>
+                                                       <u>MUSIC:</u>
+                                                       <li>Chorus #27, #28, #28a, #29</li>
+                                                  </ul>
                                              </ul>
+                                        </div>
+                                        <div>
                                              <ul>
-                                                  <u>BLOCKING:</u>
-                                                  <li>Rudolph, Ludwig <b>H</b>. pp. 153-154</li>
-                                                  <li>Ernest, Notary, Rudolph #28, #28a, <b>O</b>. p. 367</li>
-                                                  <li>ALL <b>M</b>. p.341, #27, <b>N</b>. p.351, #28, #28a, #29</li>
+                                                  <b>Monday September 28</b>: 1 Room #3 <span style="color: firebrick;">no Ray</span>
+                                                  <ul>
+                                                       <u>CALLED</u>: ALL
+                                                  </ul>
+                                                  <ul>
+                                                       <u>BLOCKING &amp; MUSIC:</u>
+                                                       <li>Finish these as needed - review the rest
+                                                            <ol>
+                                                                 #27, #28, #28a, <b>O</b>. p367-368, #29 (Finale)
+                                                            </ol>
+                                                       </li>
+                                                  </ul>
                                              </ul>
-                                             <ul>
-                                                  <u>MUSIC:</u>
-                                                  <li>Chorus #27, #28, #28a, #29</li>
-                                             </ul>
-                                        </ul>
-                                   </div>
+                                        </div>
                           
-                                   </span> <!-- XXXX past rehearsal dates above XXX-->
+                                   </span> <!-------- id="pastDays" past rehearsal dates above ------->
                               </div> <!--   id="HideLink"   -->
 
                          <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX begins remaining rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
                          <span id="currentDate"></span>
 
-                         <div>
-                              <ul>
-                                   <b>Monday September 28</b>: 1 Room #3 <span style="color: firebrick;">no Ray</span>
-                                   <ul>
-                                        <u>CALLED</u>: ALL
-                                   </ul>
-                                   <ul>
-                                        <u>BLOCKING &amp; MUSIC:</u>
-                                        <li>Finish these as needed - review the rest
-                                             <ol>
-                                                  #27, #28, #28a, <b>O</b>. p367-368, #29 (Finale)
-                                             </ol>
-                                        </li>
-                                   </ul>
-                              </ul>
-                         </div>
                          <div>
                               <ul>
                                    <b>Wednesday September 30</b>: 2 rooms

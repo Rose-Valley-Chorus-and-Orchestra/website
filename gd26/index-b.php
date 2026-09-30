@@ -72,7 +72,7 @@ h2, h2 .storyHead {color: darkred;
 .downLinks { max-width: 1000px;}     
 .downLinks li {float:left;padding: 0 15px 0 0px;margin: 0 15px; max-width: 1000px;}
      
-@media (max-width: 425px) {
+@media (max-width: 525px) {
                         .story, .feature .story {width: 380px;
                               font-size: 14px;
                               font-weight:  normal;   }
@@ -194,7 +194,6 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
      <div id="content">
           <?php include("../howTo2026/sp_announcement.php"); ?>
           <div class="castpageLinks">
-               <a href="DVideo.php" title="Go to the set design page"><span class="button" style="float:left;">Videos</span></a>
                <!--<div class="dropdown" style="float:left;">
                     <button type="button" class="btn btn-primary dropdown-toggle button" data-bs-toggle="dropdown">Choreography</button>
                     <ul class="dropdown-menu">
