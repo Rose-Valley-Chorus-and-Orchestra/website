@@ -206,7 +206,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
           <!-- Begin content masthead -->
           <div id="content">
                <div id="castPage">
-                    <h1 id="pageName"><i>The Gondoliers</i> Cast Video Page</h1> 
+                    <h1 id="pageName"><i>The Grand Duke</i> Video Page</h1> 
 
                          <div class="castpageLinks">
                               <span class="button"><a title="Go to the cast page witht the schedule" href="index.php" style="font-size: 1.2em; color:#EDEDED; padding:13px;">Back to Cast Page</a></span>
@@ -216,24 +216,26 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     
                          <div id="Movie">
                               <div class="feature">
-                                   <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">#13a: As before you we defile</b></br></br>
-                                        <ul><span class="button"><a href="../grandDuke2026/dvideos/No 13a.mov" download title="download the Croise dance step video">Download</a></span></ul>
+                                   <!--<div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">#13a: As before you we defile</b>
+                                        <div style="margin: 10px 0 10px 50px;">September 20</div>
+                                        <ul><span class="button"><a href="archive.rvco.org/past_shows/grandDuke2026/dvideos/No 13a.mov" download title="download the Number 13a: As before you we defile video">Download</a></span></ul>
                                         <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/GsYY6Snjsqs" title="No. 13a: As before you we defile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
                                    </div>                                
                     
-                                   <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 13b: As before you we defile</b></br></br>
-                                        <ul><span class="button"><a href="../grandDuke2026/dvideos/No 13b.mov" download title="download the Front Open sway dance step video" name="step2">Download</a></span></ul>
+                                   <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 13b: As before you we defile</b>
+                                        <div style="margin: 10px 0 10px 50px;">September 20</div>
+                                        <ul><span class="button"><a href="archive.rvco.org/past_shows//grandDuke2026/dvideos/No 13b.mov" download title="download the Number 13b: As before you we defile video step video" name="step2">Download</a></span></ul>
                                         <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/HiVyQSm07ew" title="No 13b: As before you we defile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
-                                   </div>  
-                    
-                    
-<!--                    
-                                   <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">Back-to-Back Turning Step</b></br></br>
-                                        <ul><span class="button"><a href="dvideos/Back-to-Back Turning step.mp4" download title="download the Back-to-Back Turning Step video" name="Croise step">Download</a></span></ul>
-                                        <ul><iframe class="upright" src="https://www.youtube.com/embed/t6cb7oyuxBs" title="Back-to-Back Turning Step" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
+                                   </div>-->  
+                                      
+                                   <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 14: At the outset I may mention</b>
+                                        <div style="margin: 10px 0 10px 50px;">September 23</div>
+                                        <ul><span class="button"><a href="archive.rvco.org/past_shows//grandDuke2026/dvideos/No 13c.mov" download title="download the Number 14: At the outset I may mention" name="step2">Download</a></span></ul>
+                                        <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/ul8wQgL6qoI" title="No 14: At the outset I may mention" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
+
                                    </div>  
  
-                                   <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">Dance a Cachucha</b></br></br>
+<!--                                   <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">Dance a Cachucha</b></br></br>
                                         <ul><span class="button"><a href="dvideos/Back-to-Back Turning step.mp4" download title="download the Dance a Cachucha video" name="Ioway stomp">Download</a></span></ul>
                                         <ul><iframe class="upright" src="https://www.youtube.com/embed/xr3AxbyzGxk" title="Dance a Cachucha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
                                    </div>  
