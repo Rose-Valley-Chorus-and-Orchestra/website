@@ -171,7 +171,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 <body>
 <div class="container">
   <header>
-    <div class="primary_header">
+    <div class="primary_header"><span id="topOFpage"></span>
 		 <?php include("../header2_new.php"); ?>
     </div>
     <nav>
@@ -213,7 +213,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
 
                <ul class="nav nav-tabs">
-                      <li id="tab0" style="display: inline;" class="active"><a href="#home">Schedule</a></li>
+                      <li id="tab0" style="display: inline;" class="active"><a href="#topOFpage">Schedule</a></li>
                       <li id="tab00" style="display: none;"><a href="#topOFpage" onclick="
                                                             MM_changeProp('tab0','','display','inline','LI');
                                                             MM_changeProp('tab1','','display','none','LI');
@@ -229,7 +229,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                MM_changeProp('menu3','','display','none','DIV');
                                                ">Schedule</a></li>     
                     <li id="tab1" style="display: none;" class="active"><a href="#topOFpage">Videos</a></li>
-                    <li id="tab10" style="display: inline;"><a href="#menu1" onclick="
+                    <li id="tab10" style="display: inline;"><a href="#topOFpage" onclick="
                                                             MM_changeProp('tab0','','display','none','LI');
                                                             MM_changeProp('tab1','','display','inline','LI');
                                                             MM_changeProp('tab2','','display','none','LI');
@@ -245,7 +245,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                ">Videos</a></li>
 
                       <li id="tab2" style="display: none;" class="active"><a href="#topOFpage">Cast List</a></li>
-                      <li id="tab20" style="display: inline;"><a href="#menu2" onclick="
+                      <li id="tab20" style="display: inline;"><a href="#topOFpage" onclick="
                                                             MM_changeProp('tab0','','display','none','LI');
                                                             MM_changeProp('tab1','','display','none','LI');
                                                             MM_changeProp('tab2','','display','inline','LI');
@@ -260,7 +260,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                MM_changeProp('menu3','','display','none','DIV');
                                                ">Cast List</a></li>
                     <li id="tab3" style="display: none;" class="active"><a href="#topOFpage">More Info</a></li>
-                    <li id="tab30" style="display: inline;"><a href="#menu3" onclick="
+                    <li id="tab30" style="display: inline;"><a href="#topOFpage" onclick="
                                                             MM_changeProp('tab0','','display','none','LI');
                                                             MM_changeProp('tab1','','display','none','LI');
                                                             MM_changeProp('tab2','','display','none','LI');
