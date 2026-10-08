@@ -208,13 +208,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                     </ul> -->
           </div>
                
-          <div id="castPage" style="clear: both;">
+          <div id="castPage" style="clear: both;"><span id="topOFpage"></span>
                <h1 id="pageName"><i>The Grand Duke</i> Cast Page</h1> 
 
 
                <ul class="nav nav-tabs">
                       <li id="tab0" style="display: inline;" class="active"><a href="#home">Schedule</a></li>
-                      <li id="tab00" style="display: none;"><a href="#home" onclick="
+                      <li id="tab00" style="display: none;"><a href="#topOFpage" onclick="
                                                             MM_changeProp('tab0','','display','inline','LI');
                                                             MM_changeProp('tab1','','display','none','LI');
                                                             MM_changeProp('tab2','','display','none','LI');
@@ -228,7 +228,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                MM_changeProp('menu2','','display','none','DIV');
                                                MM_changeProp('menu3','','display','none','DIV');
                                                ">Schedule</a></li>     
-                    <li id="tab1" style="display: none;" class="active"><a href="#home">Videos</a></li>
+                    <li id="tab1" style="display: none;" class="active"><a href="#topOFpage">Videos</a></li>
                     <li id="tab10" style="display: inline;"><a href="#menu1" onclick="
                                                             MM_changeProp('tab0','','display','none','LI');
                                                             MM_changeProp('tab1','','display','inline','LI');
@@ -244,7 +244,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                MM_changeProp('menu3','','display','none','DIV');
                                                ">Videos</a></li>
 
-                      <li id="tab2" style="display: none;" class="active"><a href="#home">Cast List</a></li>
+                      <li id="tab2" style="display: none;" class="active"><a href="#topOFpage">Cast List</a></li>
                       <li id="tab20" style="display: inline;"><a href="#menu2" onclick="
                                                             MM_changeProp('tab0','','display','none','LI');
                                                             MM_changeProp('tab1','','display','none','LI');
@@ -259,7 +259,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                MM_changeProp('menu2','','display','inline','DIV');
                                                MM_changeProp('menu3','','display','none','DIV');
                                                ">Cast List</a></li>
-                    <li id="tab3" style="display: none;" class="active"><a href="#home">More Info</a></li>
+                    <li id="tab3" style="display: none;" class="active"><a href="#topOFpage">More Info</a></li>
                     <li id="tab30" style="display: inline;"><a href="#menu3" onclick="
                                                             MM_changeProp('tab0','','display','none','LI');
                                                             MM_changeProp('tab1','','display','none','LI');

@@ -54,8 +54,7 @@
                               </ul>
                          </div>
                          <div>
-                              <ul>
-                                   <b>Sunday August 23</b>: 2 rooms<span style="color: firebrick;">no Jeff S, Brenda Rose</span>
+                              <ul><b>Sunday August 23</b>: 2 rooms<span style="color: firebrick;">no Jeff S, Brenda Rose</span>
                                    <ul>
                                         <u>CALLED</u>: Rudolph, Ernest, Ludwig, Julia, Lisa</span>
                                    </ul>
@@ -81,8 +80,7 @@
                               </ul>
                          </div>
                          <div>
-                              <ul>
-                                   <b>Monday August 24</b>: 2 rooms<span style="color: firebrick;">no Jeff S, Brenda Rose</span>
+                              <ul><b>Monday August 24</b>: 2 rooms<span style="color: firebrick;">no Jeff S, Brenda Rose</span>
                                    <ul>
                                         <u>CALLED</u>: Rudolph, Ernest, Ludwig, Notary, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
                                    </ul>
@@ -418,8 +416,7 @@
                               </ul>
                          </div>
                          <div>
-                              <ul>
-                                   <b>Sunday September 20</b>: 2 rooms<span style="color: firebrick;">no Mike</span>
+                              <ul> <b>Sunday September 20</b>: 2 rooms<span style="color: firebrick;">no Mike</span>
                                    <ul>
                                         <u>CALLED</u>: Chorus, Ludwig, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
                                    </ul>
@@ -444,8 +441,7 @@
                               </ul>
                          </div>
                          <div>
-                              <ul>
-                                   <b>Monday September 21</b>: 2 rooms<span style="color: firebrick;">no Mike, Kathy</span>
+                              <ul><b>Monday September 21</b>: 2 rooms<span style="color: firebrick;">no Mike, Kathy</span>
                                    <ul>
                                         <u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Herald, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
                                    </ul>
@@ -465,8 +461,7 @@
                               </ul>
                          </div>
                          <div>
-                              <ul>
-                                   <b>Wednesday September 23</b>: 2 rooms
+                              <ul><b>Wednesday September 23</b>: 2 rooms
                                    <ul>
                                         <u>CALLED</u>: Chorus, Ludwig, Notary, Prince, Viscount, Herald, Costumier, Princess, Baroness, Julia, Lisa, Olga, Gretchen, Bertha, Elsa
                                    </ul>
