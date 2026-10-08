@@ -15,8 +15,8 @@
                <li>If you would like to omit the editor's notes and the Overture, print the following pages, double-sided:
                     pages 3-6, 27-349<br>
                     [Pages 3-6 are the title page and the contents.]</li>
-               <li>Use on a tablet.</li></ br>
-               <a href="../grandDuke2026/Grand Duke Vocal Score RVCO 2026 - 2 final.pdf" title="Download The Grand Duke libretto" target="new"><span class="button" href="">Download</span></a>
+               <li>Use on a tablet.
+                    <div><a href="../grandDuke2026/Grand Duke Vocal Score RVCO 2026 - 2 final.pdf" title="Download The Grand Duke libretto" target="new"><span class="button" href="">Download</span></a></div></li>
           </ol>
 
      </div>

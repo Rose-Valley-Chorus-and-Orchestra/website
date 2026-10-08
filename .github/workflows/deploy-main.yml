@@ -1,0 +1,119 @@
+name: Deploy Main
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Reason for deployment"
+        required: false
+        default: "Manual deployment"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+
+      - name: Verify checkout
+        run: |
+          echo "========================================"
+          echo "DEPLOYMENT INFORMATION"
+          echo "========================================"
+          echo "Branch: ${{ github.ref_name }}"
+          echo "Commit: ${{ github.sha }}"
+          echo ""
+          echo "Git status:"
+          git status --short
+          echo ""
+          echo "Top-level repository contents:"
+          ls -la
+          echo "========================================"
+
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Create deployment archive
+        run: |
+          echo "Creating deployment archive..."
+
+          tar \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='.DS_Store' \
+            --exclude='*/.DS_Store' \
+            --exclude='error_log' \
+            -czf /tmp/deploy.tar.gz .
+
+          echo ""
+          echo "Archive created:"
+          ls -lh /tmp/deploy.tar.gz
+
+          echo ""
+          echo "Testing archive integrity..."
+          gzip -t /tmp/deploy.tar.gz
+
+          echo "✅ Archive is valid"
+
+      - name: Upload to server
+        run: |
+          echo "Uploading deployment archive..."
+
+          scp -i ~/.ssh/id_ed25519 \
+              -o StrictHostKeyChecking=no \
+              -o UserKnownHostsFile=/dev/null \
+              /tmp/deploy.tar.gz \
+              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/rvco/public_html/deploy.tar.gz
+
+          echo "✅ Upload complete"
+
+      - name: Verify and extract on server
+        run: |
+          ssh -i ~/.ssh/id_ed25519 \
+              -o StrictHostKeyChecking=no \
+              -o UserKnownHostsFile=/dev/null \
+              ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+              "set -e && \
+               cd /home/rvco/public_html && \
+               echo '========================================' && \
+               echo 'MAIN DEPLOYMENT' && \
+               echo '========================================' && \
+               echo 'Deployment directory:' && \
+               pwd && \
+               echo '' && \
+               echo 'Disk space:' && \
+               df -h . && \
+               echo '' && \
+               echo 'Archive:' && \
+               ls -lh deploy.tar.gz && \
+               echo '' && \
+               echo 'Testing uploaded archive...' && \
+               gzip -t deploy.tar.gz && \
+               echo '✅ Uploaded archive is valid' && \
+               echo '' && \
+               echo 'Extracting deployment...' && \
+               tar -xzf deploy.tar.gz && \
+               echo '✅ Extraction complete' && \
+               rm -f deploy.tar.gz && \
+               echo '✅ Archive removed' && \
+               echo '========================================'"
+
+      - name: Deployment complete
+        run: |
+          echo "========================================"
+          echo "✅ MAIN DEPLOYMENT SUCCESSFUL"
+          echo "Branch: ${{ github.ref_name }}"
+          echo "Commit: ${{ github.sha }}"
+          echo "Destination: /home/rvco/public_html"
+          echo "========================================"
