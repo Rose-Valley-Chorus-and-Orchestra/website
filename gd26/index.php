@@ -278,13 +278,13 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
 
                <div class="tab-content">
                       <div id="home" style="display: inline;">
-                             <?php include("GDschedule.php"); ?>
+                             <?php include("GD_schedule.php"); ?>
                       </div>
                       <div id="menu1" style="display: none;">
-                             <?php include("video.php"); ?>
+                             <?php include("GD_video.php"); ?>
                       </div>
                       <div id="menu2" style="display: none;">
-                             <?php include("Ensemble.php"); ?>
+                             <?php include("GD_ensemble.php"); ?>
                       </div>
                       <div id="menu3" style="display: none;">
                              <?php include("GD_other.php"); ?>
