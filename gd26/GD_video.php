@@ -108,7 +108,7 @@ iframe {width: 600px; height: 337.5px;}
           </div>-->                               
 
           <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 13c: As before you we defile</b>
-               <div style="margin: 10px 0 10px 50px;">October 13</div>
+               <div style="margin: 10px 0 10px 50px;">October 7</div>
                <ul><span class="button"><a href="archive.rvco.org/past_shows//grandDuke2026/dvideos/No 13c.mp4" download title="download the Number 13b: As before you we defile video step video" name="step2">Download</a></span></ul>
                <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/NH2srcAeyDI" title="No 13c: As before you we defile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
           </div>  
