@@ -120,7 +120,7 @@ iframe {width: 600px; height: 337.5px;}
           </div>  
 
           <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 13: As before you we defile - Performer&#39;s view</b>
-               <div style="margin: 10px 0 10px 50px;">September 23</div>
+               <div style="margin: 10px 0 10px 50px;">October 7</div>
                <ul><span class="button"><a href="archive.rvco.org/past_shows/grandDuke2026/dvideos/No 13 Performer's view.mp4" download title="download the Number 13: At the outset I may mention - Performer's view" name="step2">Download</a></span></ul>
                <ul><iframe class="upright" width="564" height="1003" src="https://www.youtube.com/embed/wLjonF133bg" title="No. 13 Performer&#39;s view" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
           </div>  
