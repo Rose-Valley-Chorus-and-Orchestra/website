@@ -119,6 +119,18 @@ iframe {width: 600px; height: 337.5px;}
                <ul><iframe width="1529" height="860" src="https://www.youtube.com/embed/ul8wQgL6qoI" title="No 14: At the outset I may mention" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
           </div>  
 
+          <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">Number 26: Dance</b>
+               <div style="margin: 10px 0 10px 50px;">October 11</div>
+               <ul><span class="button"><a href="https://archive.rvco.org/past_shows/grandDuke2026/dvideos/No 26.mov" download title="download the Number 26: Dance" name="step4">Download</a></span></ul>
+               <ul><iframe width="1179" height="663" src="https://www.youtube.com/embed/RU9Ti9kofIU" title="No 26: Dance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe></ul>
+          </div>  
+
+          <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">Number 26: Dance, alternate viewpoint</b>
+               <div style="margin: 10px 0 10px 50px;">October 11</div>
+               <ul><span class="button"><a href="https://archive.rvco.org/past_shows/grandDuke2026/dvideos/No 26 Dance alt view.mp4" download title="download the Number 26: Dance, alternate viewpoint" name="step5">Download</a></span></ul>
+               <ul><iframe width="1179" height="663" src="https://www.youtube.com/embed/T-sp0Omd5Yk" title="No 26: Dance, alternate view" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ul>
+          </div>  
+
           <div class="video" style="float: left;padding: 5px;" ><b style="padding-left: 40px;">No 13: As before you we defile - Performer&#39;s view</b>
                <div style="margin: 10px 0 10px 50px;">October 7</div>
                <ul><span class="button"><a href="https://archive.rvco.org/past_shows/grandDuke2026/dvideos/No 13 Performer's view.mp4" download title="download the Number 13: At the outset I may mention - Performer's view" name="step2">Download</a></span></ul>
