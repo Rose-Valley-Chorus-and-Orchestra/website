@@ -273,7 +273,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                                                MM_changeProp('menu1','','display','none','DIV');
                                                MM_changeProp('menu2','','display','none','DIV');
                                                MM_changeProp('menu3','','display','inline','DIV');
-                                               ">Other</a></li>
+                                               ">More Info</a></li>
                </ul>
 
                <div class="tab-content">
