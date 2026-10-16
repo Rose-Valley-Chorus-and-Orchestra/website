@@ -574,17 +574,6 @@
                                    <ul>FIX</ul>
                               </ul>
                          </div>
-                         
-                    </span> <!-- id="pastDays" past rehearsal dates above XXX-->
-               
-          </div> <!-- end id="HideLink" -->
-     </div> <!-- class="castpageLinks" -->
-
-                         <span id="currentDate"></span>
-
-     <div id="upcomingDates">
-               <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-
                          <div style="color: firebrick;background-color: yellow; padding: 5px 0px 5px 0px; font-size: 0.85em;text-align: center;"><b>----- EVERYONE OFF BOOK -----</b></div>
                          <div>
                               <ul>
@@ -607,7 +596,19 @@
                                    <ul>Run Act 2 or 1 - <span style="color: firebrick;">LAST TIME calling for lines</span>
                                    </ul>
                               </ul>
-                         </div>
+                         </div>                         
+               
+                    </span> <!-- id="pastDays" past rehearsal dates above XXX-->
+               
+          </div> <!-- end id="HideLink" -->
+     </div> <!-- class="castpageLinks" -->
+
+                         <span id="currentDate"></span>
+
+     <div id="upcomingDates">
+               <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+
                          <div>
                               <ul>
                                    <b>Sunday October 18</b>: Auditorium
