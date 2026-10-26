@@ -597,18 +597,6 @@
                                    </ul>
                               </ul>
                          </div>                         
-               
-                    </span> <!-- id="pastDays" past rehearsal dates above XXX-->
-               
-          </div> <!-- end id="HideLink" -->
-     </div> <!-- class="castpageLinks" -->
-
-                         <span id="currentDate"></span>
-
-     <div id="upcomingDates">
-               <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-
-
                          <div>
                               <ul>
                                    <b>Sunday October 18</b>: Auditorium
@@ -653,6 +641,18 @@
                                    <li>We will aim for having a dinner break around 5:30 - 6 pm, but this is not definite.<u>Please bring food</u>- don't depend on Grub Hub, etc. as they won't always deliver to the school.</li>
                               </ul>
                          </div>
+                                        
+                    </span> <!-- id="pastDays" past rehearsal dates above XXX-->
+               
+          </div> <!-- end id="HideLink" -->
+     </div> <!-- class="castpageLinks" -->
+
+                         <span id="currentDate"></span>
+
+     <div id="upcomingDates">
+               <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+                         <div style="color: firebrick;background-color:lightyellow; padding: 10px 10px 10px 10px;margin-top:15px;max-width:800px;text-align: center;"></b>Costume, Hair, &amp; Make-up&nbsp;Required All&nbsp;Remaing&nbsp;Days</b></div>
+
                          <div>
                               <ul>
                                    <b>Monday October 26 </b> (SHMS) - tech with piano
