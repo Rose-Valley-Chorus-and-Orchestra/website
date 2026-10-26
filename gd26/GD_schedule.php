@@ -1,12 +1,12 @@
 <div class="schedule">
      <h2>Schedule</h2>
-     <div class="Rtimes"> <b>Rehearsal Times:&nbsp;</b>Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
+     <!--<div class="Rtimes"> <b>Rehearsal Times:&nbsp;</b>Sundays: 2:00-5:00 p.m.; Mondays &amp; Wednesdays: 7:30-10:00 p.m.
           <ul>
                <li>If you know you will be late, leaving early, or not at rehearsal, please email <a href="mailto:florrie@barks.org,juliecmay@msn.com,?subject=Missing rehearsal">Florrie and Julie</a>.</li>
                <li><u>Day of rehearsal</u>, please text Florrie at (610) 453-1407 (cell) or Julie at (610) 564-3544</li>
           </ul>
      </div>
-     <div class="Rtimes"><a href="../grandDuke2026/The Grand Duke - RVCO - rehearsal schedule - Final.pdf" title="Download the schedule" target="new"><span class="button" href="">Download</span></a> a PDF to print.</div>
+     <div class="Rtimes"><a href="../grandDuke2026/The Grand Duke - RVCO - rehearsal schedule - Final.pdf" title="Download the schedule" target="new"><span class="button" href="">Download</span></a> a PDF to print.</div>-->
      <div class="castpageLinks" style="">
           <div id="ViewDays" style="display:inline;"><a href="#pastDays" title="View ALL rehearsal dates" onclick="
                                                             MM_changeProp('HideLink','','display','inline','DIV');
@@ -651,6 +651,10 @@
 
      <div id="upcomingDates">
                <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXX past rehearsal dates below XXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+          
+                          <div style="color: white;background-color:#333; padding: 10px 10px 10px 10px;margin-top:15px;max-width:800px;text-align: center;">Text (preferred) or call Sean 484-477-3559, as soon as possible if you are going to be late.<br /><br />Scheduling conflict, questions, or concerns? Please don't hesitate to reach out.</div>     
+          
+          
                          <div style="color: firebrick;background-color:lightyellow; padding: 10px 10px 10px 10px;margin-top:15px;max-width:800px;text-align: center;"></b>Costume, Hair, &amp; Make-up&nbsp;Required All&nbsp;Remaing&nbsp;Days</b></div>
 
                          <div>
