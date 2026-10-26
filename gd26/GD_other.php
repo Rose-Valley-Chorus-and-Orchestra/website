@@ -8,6 +8,12 @@
 
 <div class="feature" style="clear: both;">                                        
      <p style="clear: both; padding-top: 15px;">If you have not already paid your dues, new and current members can <a href="https://www.zeffy.com/en-US/ticketing/d1bc3a65-da3a-418e-a989-90ea3f973062" title="Go to Zeffy to pay your dues" >go to Zeffy</a> to pay them.   If you have any questions, please reach out to Lisa Franks: <a href="mailto:members@rvco.org>subject=RVCO Membership" title="Send an email to the membership chair">members@rvco.org</a>.</p>
+    
+     <h3>End of Act 2 #29 Placement</h3>
+     <div class="Rtimes" style="clear: both; padding-top: 0px;">
+          <img class="img-responsive" src="https://archive.rvco.org/past_shows/grandDuke2026/dvideos/Act2 No 29 placement.jpg" alt="Cast placement at the end of Act 2 #29" style="padding: 10px 20px 0px 0px; max-width: 800px;">
+     </div>
+     
      <h3>Vocal Score</h3>
      <div class="Rtimes" style="clear: both; padding-top: 0px;">
           <ol>
@@ -22,7 +28,7 @@
      </div>
      
      <h3>Bios</h3>
-     <p style="margin: -20px 0 0 25px;">Send to Bill Michael and Chris Rubino: <a href="mailto:wbmichael@comcast.net,cmrubino@gmail.com?subject=Here's my bio" title="Email my bio to Bill">wbmichael@comcast.net and cmrubino@gmail.com</a> by September 14<sup>th</sup>
+     <p style="margin: -10px 0 0 25px;">Send to Bill Michael and Chris Rubino: <a href="mailto:wbmichael@comcast.net,cmrubino@gmail.com?subject=Here's my bio" title="Email my bio to Bill">wbmichael@comcast.net and cmrubino@gmail.com</a> by September 14<sup>th</sup>
      </p>
 
                <!-- <div class="notification">The <b>costume fitting</b> will take place Saturday, March 16 at our Firehouse located at <a href="https://www.google.com/maps/place/184+Bortondale+Rd,+Media,+PA+19063/@39.9017988,-75.3992073,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e8fb077ef113:0xc1aaad1af713cf34!8m2!3d39.9017988!4d-75.3966324!16s%2Fg%2F11c3q3ffv8?entry=ttu" title="Go to Google Maps" target="new" titler="Go to Google Maps">184 Bortondale Road, Media</a>
