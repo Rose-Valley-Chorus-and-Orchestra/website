@@ -658,8 +658,8 @@
                                    <b>Monday October 26 </b> (SHMS) - tech with piano
                                    <li>5:00 We can start arriving</li>
                                    <li>5:30 CALL</li>
-                                   <li>6:45 Mic check</li>
-                                   <li>7:00 Overture</li>
+                                   <li>6:15 Mic check</li>
+                                   <li>6:45 Overture</li>
                               </ul>
                          </div>
                          <div>
@@ -667,8 +667,8 @@
                                    <b>Tuesday October 27 </b> (SHMS) - tech with orchestra
                                    <li>5:00 We can start arriving</li>
                                    <li>5:30 CALL</li>
-                                   <li>6:30 Mic check followed by orchestra warm up</li>
-                                   <li>7:00 Overture</li>
+                                   <li>6:15 Mic check followed by orchestra warm up</li>
+                                   <li>6:45 Overture</li>
                               </ul>
                          </div>
                          <div>
@@ -676,8 +676,8 @@
                                    <b>Wednesday October 28 </b> (SHMS) - tech with orchestra (show conditions)
                                    <li>5:00 We can start arriving</li>
                                    <li>5:30 CALL</li>
-                                   <li>6:30 Mic check followed by orchestra warm up</li>
-                                   <li>7:00 Overture</li>
+                                   <li>6:15 Mic check followed by orchestra warm up</li>
+                                   <li>6:45 Overture</li>
                               </ul>
                          </div>
                          <div>
