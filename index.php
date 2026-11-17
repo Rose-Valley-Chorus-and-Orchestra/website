@@ -183,7 +183,7 @@ function MM_changeProp(objId,x,theProp,theValue) { //v9.0
                          
                          
                        <!-- begin TICKETS HERE -->
-                             <div id="buyShowlink" class="howTo">
+                             <div id="buyShowlink" class="howTo" style="visibility:hidden">
                                   <div class="ticketsSponsors"><a title="Go to Zeffy to Buy Tickets to The Grand Duke" href="https://www.zeffy.com/en-US/ticketing/tickets-the-grand-duke">Buy Tickets</a>
                                   <a title="Go to Zeffy to Donate to Be a Show Sponsor" href="https://www.zeffy.com/en-US/ticketing/become-a-sponsor-the-grand-duke">Be a Sponsor</a>
                                   <a title="Find out more information on placing an ad in our playbill" href="Ads.php">Playbill Ads</a>
